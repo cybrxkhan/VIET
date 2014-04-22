@@ -1,0 +1,148 @@
+#########################################################
+#
+# Emirate of Crete
+#
+# 1000158870-1000158872: Najdahids
+# 1000158873-1000158875: Abdallahids
+# 1000158876:Korniaktos
+# 1000158877-1000158879: Tzamaras
+#
+#########################################################
+
+
+#Najdahids
+1000158870 = {
+	name="Balashk"
+	dynasty=1000091908
+	religion="sunni"
+	culture="andalusian_arabic"
+	822.1.1={
+		birth=yes
+	}
+	888.1.1={
+		death=yes
+	}
+}
+1000158871 = {
+	name="Sanyo"
+	dynasty=1000091908
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=1000158870
+	850.1.1={
+		birth=yes
+	}
+	927.1.1={
+		death=yes
+	}
+}
+1000158872 = {
+	name="Safiya"
+	female=yes
+	dynasty=1000091908
+	religion="sunni"
+	culture="andalusian_arabic"
+	father=1000158870
+	850.1.1={
+		birth=yes
+	}
+	927.1.1={
+		death=yes
+	}
+}
+#Abdallahids
+1000158873 = {
+	name="Raisa"
+	female=yes
+	#dynasty=1000091908
+	religion="sunni"
+	culture="andalusian_arabic"
+	#mother=1000158873
+	825.1.1={
+		birth=yes
+	}
+	901.1.1={
+		death=yes
+	}
+}
+1000158874 = {
+	name="Siddray"
+	dynasty=1000091909
+	religion="sunni"
+	culture="andalusian_arabic"
+	mother=1000158873
+	848.1.1={
+		birth=yes
+	}
+	922.1.1={
+		death=yes
+	}
+}
+1000158875 = {
+	name="Abdul-Aziz"
+	dynasty=1000091909
+	religion="sunni"
+	culture="andalusian_arabic"
+	mother=1000158873
+	850.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+#Korniaktos
+1000158876 = {
+	name="Belisarios"
+	dynasty=1000091915
+	religion="orthodox"
+	culture="greek"
+	840.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+#Tzamaras
+1000158877 = {
+	name="Demetrios"
+	dynasty=1000091919 
+	religion="sunni"
+	culture="greek"
+	840.1.1={
+		birth=yes
+	}
+	858.1.1={
+		add_spouse=1000158878
+	}
+	910.1.1={
+		death=yes
+	}
+}
+1000158878 = {
+	name="Fatima"
+	female=yes
+	dynasty=1000091919 
+	religion="sunni"
+	culture="andalusian_arabic"
+	838.1.1={
+		birth=yes
+	}
+	910.1.1={
+		death=yes
+	}
+}
+1000158879 = {
+	name="Demetrios"
+	dynasty=1000091919 
+	religion="sunni"
+	culture="greek"
+	860.1.1={
+		birth=yes
+	}
+	934.1.1={
+		death=yes
+	}
+}
+

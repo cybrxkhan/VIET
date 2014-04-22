@@ -1,0 +1,19 @@
+name = "Danish Invasion"
+
+casus_belli = {
+	actor = 112
+	recipient = 140
+	casus_belli=invasion
+	landed_title=k_england
+	date=1069.8.1
+}
+
+1069.8.1 = {
+	add_attacker = 101515
+	add_defender = 140
+}
+
+1070.3.1 = {
+	rem_attacker = 101515
+	rem_defender = 140
+}

@@ -1,0 +1,27 @@
+name = "Catholic Crusade for Jerusalem"
+
+casus_belli = {
+	actor = 2013
+	recipient = 144013
+	casus_belli=crusade
+	landed_title=k_jerusalem
+	date=1095.11.27
+}
+
+1095.11.27 = {
+	add_attacker = 2013
+	add_attacker = 10072
+	add_attacker = 216
+	add_attacker = 205897
+	add_attacker = 10076
+	add_defender = 144013
+}
+
+1099.7.15 = {
+	rem_defender = 144013
+	rem_attacker = 2013
+	rem_attacker = 10072
+	rem_attacker = 216
+	rem_attacker = 205897
+	rem_attacker = 10076
+}

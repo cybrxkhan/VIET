@@ -1,0 +1,35 @@
+827.1.1 = {
+	holding_dynasty = 1029093 # Hafsids - makes this a FAMILY_PALACE type Holding
+	liege="d_krete"
+	holder = 159524
+}
+855.1.1={
+	holder=159525 # Shu'ayb I
+}
+880.1.1={
+	holder=159526 # Umar II
+}
+895.1.1={
+	holder=159527 # Muhammad I
+}
+910.1.1={
+	holder=159528 # Yusuf I
+}
+915.1.1={
+	holder=159530 # Ali I
+}
+925.1.1={
+	holder=159529 # Ahmad I
+}
+940.1.1={
+	holder=159531 # Shu'ayb II
+}
+943.1.1={
+	holder=159532 # Ali II
+}
+949.1.1={
+	holder=159533 # Abd-al-Aziz I
+}
+964.1.11={
+	holder=0
+}

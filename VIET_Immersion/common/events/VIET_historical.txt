@@ -1,0 +1,165 @@
+###########################################
+#
+# Historical Events for VIET
+#
+###########################################
+
+namespace = VIEThistorical
+
+#Pictland renamed to Scotland if game started at 867 start
+narrative_event = {
+	id = VIEThistorical.0
+	title = VIEThistorical.0.name
+	desc = VIEThistorical.0.desc
+	
+	picture = GFX_evt_garden
+	border = GFX_event_narrative_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 900
+		has_landed_title = k_scotland
+		NOT = { culture = pictish }
+		NOT = { has_global_flag = VIET_scotland_renamed }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = VIEThistorical.0.a
+		set_global_flag = VIET_scotland_renamed
+		k_scotland = {
+			set_name=""
+			adjective=""
+		}
+	}
+}
+
+
+#Neustria renamed to Normandy if game started at 867 start
+narrative_event = {
+	id = VIEThistorical.1
+	title = VIEThistorical.1.name
+	desc = VIEThistorical.1.desc
+	
+	picture = GFX_evt_garden
+	border = GFX_event_narrative_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = d_normandy
+		culture = norman
+		NOT = { has_global_flag = VIET_normandy_renamed }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = VIEThistorical.1.a
+		set_global_flag = VIET_normandy_renamed
+		d_normandy = {
+			set_name=""
+			adjective=""
+		}
+	}
+}
+
+
+# Formation of the Principality of Antioch
+narrative_event = {
+	id = VIEThistorical.2
+	title = VIEThistorical.2.name
+	desc = VIEThistorical.2.desc
+	
+	picture = GFX_evt_holy_jerusalem
+	border = GFX_event_narrative_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = catholic
+		OR = {
+			has_landed_title = k_syria
+			AND = {
+				tier = duke
+				OR = {
+					has_landed_title = d_aleppo
+					has_landed_title = d_antioch
+					has_landed_title = d_tripoli
+					has_landed_title = d_damascus
+					has_landed_title = d_syria
+				}
+			}
+		}
+		NOT = { culture_group = arabic }
+		NOT = { culture_group = iranian }
+		NOT = { culture_group = altaic }
+		NOT = { culture_group = byzantine }
+		independent = yes
+		war = no
+		NOT = { tier = emperor }
+		NOT = { has_landed_title = k_jerusalem }
+		NOT = { has_landed_title = k_mesopotamia }
+		NOT = { has_landed_title = k_cyprus }
+		NOT = { has_global_flag = VIET_antioch_given }
+		k_antioch = { has_holder = no }
+		OR = {
+			has_landed_title = c_antiocheia
+			any_realm_lord = {
+				has_landed_title = c_antiocheia
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = VIEThistorical.2.a
+		set_global_flag = VIET_antioch_given
+		piety = 100
+		prestige = 50
+		k_antioch = {
+			grant_title = ROOT
+		}
+		if = {
+			limit = {
+				NOT = { has_landed_title = c_antiocheia }
+				any_realm_lord = {
+					has_landed_title = c_antiocheia
+				}
+			}
+			c_antiocheia = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		if = {
+			limit = {
+				has_landed_title = k_syria
+			}
+			k_syria = {
+				destroy_landed_title = THIS
+			}			
+		}
+		#If ruler or vassals don't have Antioch, give claims on that
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_claim = d_antioch }
+					any_realm_lord = {
+						NOT = { has_claim = d_antioch }
+					}
+				}
+			}
+			add_strong_claim = d_antioch
+			add_strong_claim = c_antioch
+		}
+	}
+}

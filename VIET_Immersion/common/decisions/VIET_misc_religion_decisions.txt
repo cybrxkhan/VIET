@@ -1,0 +1,246 @@
+decisions = {
+    claim_descent_from_david = {
+		potential = {
+			has_landed_title = k_israel
+			religion_group = jewish_group
+			NOT = { trait = house_of_david }
+			NOT = { has_dynasty_flag = claimed_descent_from_david }
+		}
+		allow = {
+            piety = 200
+		}
+		effect = {
+			piety = -200
+            character_event = { id = VIETjewish.15 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+	    }
+    }
+	organize_israel_defense = {
+		is_high_prio = yes
+		potential = {
+			is_female = no
+			prisoner = no
+			age = 16
+			religion_group = jewish_group
+			has_landed_title = k_israel
+			NOT = { has_global_flag = israel_military_elite_formed }
+		}
+		allow = {
+			prestige = 300
+			piety = 300
+			wealth = 300
+			custom_tooltip = {
+				text = israel_aliyah_are_coming
+				hidden_tooltip = {
+					has_global_flag = israel_aliyah_sufficient
+				}
+			}
+		}
+		effect = {
+			set_global_flag = israel_military_elite_formed
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_israel_defense status = yes }
+			hidden_tooltip = {
+				# Creating random leader of Israel Defense Force
+				#
+				# 40% Mizrahi
+				# 30% sephardi
+				# 30% Ashkenazi
+				#
+				random_list = {
+					40 = {
+						create_character = {
+							random_traits = yes
+							religion = jewish
+							culture = mizrahi
+							dynasty = NONE
+							female = no
+							age = 34
+							trait = skilled_tactician
+						}
+						new_character = {
+							d_israel_defense = {
+								grant_title = PREV
+							}
+							set_defacto_liege = ROOT
+						}
+					}
+					30 = {
+						create_character = {
+							random_traits = yes
+							religion = jewish
+							culture = sephardi
+							dynasty = NONE
+							female = no
+							age = 34
+							trait = skilled_tactician
+						}
+						new_character = {
+							d_israel_defense = {
+								grant_title = PREV
+							}
+							set_defacto_liege = ROOT
+						}
+					}
+					30 = {
+						create_character = {
+							random_traits = yes
+							religion = jewish
+							culture = ashkenazi
+							dynasty = NONE
+							female = no
+							age = 34
+							trait = skilled_tactician
+						}
+						new_character = {
+							d_israel_defense = {
+								grant_title = PREV
+							}
+							set_defacto_liege = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	embrace_twelver_shiism = {
+		potential = {
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = shiite
+				religion = alawite
+				religion = qarmatian
+			}
+			NOT = { 
+				OR = {
+					trait = twelver
+					trait = sevener
+					trait = fiver
+				}
+			}
+			is_ruler = yes
+			age = 16
+			prisoner = no
+		}
+		
+		allow = {
+			piety = 50
+		}
+		
+		effect = {
+			add_trait = twelver
+			character_event = { id = VIETmisc.201 tooltip = embrace_twelver.tooltip }
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				liege = { trait = twelver }
+			}
+			modifier = {
+				factor = 0.05 # Slow it down
+			}
+		}
+	}
+	embrace_sevener_shiism = {
+		potential = {
+			has_dlc = "Sons of Abraham"
+			OR = {
+				religion = shiite
+				religion = hurufi
+				religion = druze
+			}
+			NOT = { 
+				OR = {
+					trait = twelver
+					trait = sevener
+					trait = fiver
+				}
+			}
+			is_ruler = yes
+			age = 16
+			prisoner = no
+		}
+		
+		allow = {
+			piety = 50
+		}
+		
+		effect = {
+			add_trait = sevener
+			character_event = { id = VIETmisc.202 tooltip = embrace_sevener.tooltip }
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				liege = { trait = sevener }
+			}
+			modifier = {
+				factor = 0.05 # Slow it down
+			}
+		}
+	}
+	embrace_fiver_shiism = {
+		potential = {
+			has_dlc = "Sons of Abraham"
+			religion = shiite
+			NOT = { 
+				OR = {
+					trait = twelver
+					trait = sevener
+					trait = fiver
+				}
+			}
+			is_ruler = yes
+			age = 16
+			prisoner = no
+		}
+		
+		allow = {
+			piety = 50
+		}
+		
+		effect = {
+			add_trait = fiver
+			character_event = { id = VIETmisc.203 tooltip = embrace_fiver.tooltip }
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				liege = { trait = fiver }
+			}
+			modifier = {
+				factor = 0.05 # Slow it down
+			}
+		}
+	}
+}

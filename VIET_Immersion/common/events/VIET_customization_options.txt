@@ -1,0 +1,1326 @@
+#VIET Customization Options (activated from decisions menu)
+# 30
+namespace = customization
+
+#CHOOSE REALM NAMES
+# Initial Menu
+character_event = {
+	id = customization.0
+	desc = customization.0.desc
+	picture = GFX_evt_indian_market
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Kingdom of Britain" #British Empire
+		character_event = { id = customization.17 }
+	}
+	
+	option = {
+		name = "Byzantine Empire" # Byzantine Empire
+		character_event = { id = customization.1 }
+	}
+	
+	option = {
+		name = "Kingdom of Spain" # Spanish Empire
+		character_event = { id = customization.9 }
+	}
+	
+	option = {
+		name = "See more options"
+		character_event = { id = customization.19 }
+	}
+}
+
+# Initial Menu 2
+character_event = {
+	id = customization.19
+	desc = customization.19.desc
+	picture = GFX_evt_dogon_village
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Kalmar Union (i.e. Scandinavia)" #Scandinavian Empire
+		character_event = { id = customization.20 }
+	}
+	option = {
+		name = "Latin Empire" #Latin Empire
+		character_event = { id = customization.24 }
+	}
+	option = {
+		name = "Roman Empire" #Roman Empire
+		character_event = { id = customization.25 }
+	}
+	option = {
+		name = "See more options"
+		character_event = { id = customization.26 }
+	}
+}
+
+# Initial Menu 2
+character_event = {
+	id = customization.26
+	desc = customization.26.desc
+	picture = GFX_evt_wafrica_gold
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Poland-Lithuania" #Poland-Lithuanian Commonwealth
+		character_event = { id = customization.27 }
+	}
+	option = {
+		name = "Carpathia" #Carpathia
+		character_event = { id = customization.30 }
+	}
+	option = {
+		name = "Francia" #Francia
+		character_event = { id = customization.46 }
+	}
+	option = {
+		name = "Never mind"
+	}
+}
+
+#Byzantine Empire - part 1
+character_event = {
+	id = customization.1
+	desc = customization.1.desc
+	picture = GFX_evt_baklava
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Basileia Rhomaion" # Basileia Rhomaion
+		e_byzantium = { set_name = "Basileia Rhomaion" }
+	}
+
+	option = {
+		name = "Eastern Roman Empire" # Eastern Roman Empire
+		e_byzantium = { set_name = "Eastern Roman Empire" }
+	}
+	option = {
+		name = "Roman Empire" # Roman Empire
+		e_byzantium = { set_name = "Roman Empire" }
+	}
+	
+	option = {
+		name = "See more options..." # Choose something else
+		character_event = { id = customization.2 }
+	}
+}
+
+#Byzantine Empire - part 2
+character_event = {
+	id = customization.2
+	desc = customization.2.desc
+	picture = GFX_evt_baklava
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Greek Empire" # Greek Empire
+		e_byzantium = { set_name = "Greek Empire" }
+	}
+
+	option = {
+		name = "Rhomania" # Rhomania
+		e_byzantium = { set_name = "Rhomania" }
+	}
+	option = {
+		name = "Byzzies (joke option)" # Byzzies (joke option)
+		e_byzantium = { set_name = "Byzzies" }
+	}
+	
+	option = {
+		name = "Byzantine Empire (default)" # Byzantine Empire (default)
+		e_byzantium = { set_name = "Byzantine Empire" }
+	}
+}
+
+
+#Empire of Hispania
+character_event = {
+	id = customization.9
+	desc = customization.9.desc
+	picture = GFX_evt_moorish_decor
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Empire of Hispania" # Emipre of Hispania
+		e_spain = { set_name = "Empire of Hispania" }
+	}
+
+	option = {
+		name = "Crown of Castille and Aragon" # Crown of Castille and Aragon
+		e_spain = { set_name = "Crown of Castille and Aragon" }
+	}
+	option = {
+		name = "Spanish Empire" # Spanish Empire
+		e_spain = { set_name = "Spanish Empire" }
+	}
+	
+	option = {
+		name = "See more options..." # Choose something else
+		character_event = { id = customization.15 }
+	}
+}
+
+#Empire of Hispania Part 2
+character_event = {
+	id = customization.15
+	desc = customization.15.desc
+	picture = GFX_evt_moorish_decor
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sultanate of Spain" # Sultanate of Spain
+		e_spain = { set_name = "Sultanate of Spain" }
+	}
+
+	option = {
+		name = "Al-Andalus" # Al-Andalus
+		e_spain = { set_name = "Al-Andalus" }
+	}
+	
+	option = {
+		name = "Hispania" # Hispania
+		e_spain = { set_name = "Hispania" }
+	}
+	
+	option = {
+		name = "See more options..." # Choose something else
+		character_event = { id = customization.40 }
+	}
+}
+
+#Empire of Hispania Part 3
+character_event = {
+	id = customization.40
+	desc = customization.40.desc
+	picture = GFX_evt_wafrica_salt
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Iberia" # Iberia
+		e_spain = { set_name = "Iberia" }
+	}
+
+	option = {
+		name = "Iberian Union" # Iberian Union
+		e_spain = { set_name = "Iberian Union" }
+	}
+	
+	option = {
+		name = "Kingdom of Spain (default)" # Default
+		e_spain = { set_name = "Kingdom of Spain" }
+	}
+}
+
+#Empire of Britannia
+character_event = {
+	id = customization.17
+	desc = customization.17.desc
+	picture = GFX_evt_garden_celtic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Empire of Britannia" # Emipre of Britannia
+		e_britannia = { set_name = "Empire of Britannia" }
+	}
+
+	option = {
+		name = "Albion" # Albion
+		e_britannia = { set_name = "Albion" }
+	}
+	option = {
+		name = "Great Britain" # Great Britain
+		e_britannia = { set_name = "Great Britain" }
+	}
+	
+	option = {
+		name = "Kingdom of Britain (default)"
+		e_britannia = { set_name = "Kingdom of Britain" }
+	}
+}
+
+#Empire of Scandinavia
+character_event = {
+	id = customization.20
+	desc = customization.20.desc
+	picture = GFX_evt_snow_in_winter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Empire of Scandinavia" # Emipre of Scandinavia
+		e_scandinavia = { set_name = "Empire of Scandinavia" }
+	}
+
+	option = {
+		name = "Midgard" # Midgard
+		e_scandinavia = { set_name = "Midgard" }
+	}
+	option = {
+		name = "Scandinavia" # Scandinavia
+		e_scandinavia = { set_name = "Scandinavia" }
+	}
+	
+	option = {
+		name = "Kalmar Union (default)"
+		e_scandinavia = { set_name = "Kalmar Union" }
+	}
+}
+
+#From Latinokratia
+
+#Rum
+character_event = {
+	id = customization.23
+	desc = "Which shall be the name of Rum?"
+	picture = GFX_evt_fetih
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Iconium"
+		k_rum = { set_name = "Iconium" }
+	}
+	
+	option = {
+		name = "Konya"
+		k_rum = { set_name = "Konya" }
+	}
+	
+	option = {
+		name = "Turkiye"
+		k_rum = { set_name = "Turkiye" }
+	}
+	
+	option = {
+		name = "Rum (default)"
+		k_rum = { set_name = "Rum" }
+	}
+}
+
+#Latin Empire
+character_event = {
+	id = customization.24
+	desc = "Which shall be the name of the Latin Empire?"
+	picture = GFX_evt_Crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Empire of Romania"
+		e_latin_empire = { set_name = "Empire of Romania" }
+	}
+	
+	option = {
+		name = "Romania"
+		e_latin_empire = { set_name = "Romania" }
+	}
+	
+	option = {
+		name = "Imperium Romaniae"
+		e_latin_empire = { set_name = "Imperium Romaniae" }
+	}
+	
+	option = {
+		name = "Latin Empire (vanilla default)"
+		e_latin_empire = { set_name = "Latin Empire" }
+	}
+}
+
+#Roman Empire
+character_event = {
+	id = customization.25
+	desc = "Which shall be the name of the Roman Empire?"
+	picture = GFX_evt_Crusaders
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "Rome"
+		e_roman_empire = { set_name = "Rome" }
+	}
+	
+	option = {
+		name = "Imperium Romanum"
+		e_roman_empire = { set_name = "Imperium Romanum" }
+	}
+	
+	option = {
+		name = "Roman Empire (default)"
+		e_roman_empire = { set_name = "Roman Empire" }
+	}
+}
+#End Latinokratia
+
+
+
+#Empire of Poland-Lithuania
+character_event = {
+	id = customization.27
+	desc = customization.27.desc
+	picture = GFX_evt_journey_to_spirit_world
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Wendish Empire" # Poland-Lithuania
+		e_wendish_empire = { set_name = "Wendish Empire" }
+	}
+
+	option = {
+		name = "Sclavinia" # Sclavinia
+		e_wendish_empire = { set_name = "Sclavinia" }
+	}
+	option = {
+		name = "Baltic Empire" # Baltic Empire
+		e_wendish_empire = { set_name = "Baltic Empire" }
+	}
+	
+	option = {
+		name = "Poland-Lithuania (Default)" # Poland-Lithuania
+		e_wendish_empire = { set_name = "Poland-Lithuania" }
+	}
+}
+
+#Empire of Carpathia
+character_event = {
+	id = customization.30
+	desc = customization.30.desc
+	picture = GFX_evt_marriage_celtic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hungary" # Hungary
+		e_carpathia = { set_name = "Hungary" }
+	}
+
+	option = {
+		name = "Croatia" # Croatia
+		e_carpathia = { set_name = "Croatia" }
+	}
+	option = {
+		name = "Avaria" # Avaria
+		e_carpathia = { set_name = "Avaria" }
+	}
+	option = {
+		name = "See more options..." # Choose something else
+		character_event = { id = customization.31 }
+	}
+}
+#Empire of Carpathia - Part 2
+character_event = {
+	id = customization.31
+	desc = customization.31.desc
+	picture = GFX_evt_marriage_celtic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Pannonia" # Pannonia
+		e_carpathia = { set_name = "Pannonia" }
+	}
+
+	option = {
+		name = "Dacia" # Dacia
+		e_carpathia = { set_name = "Dacia" }
+	}
+	
+	option = {
+		name = "Carpathia (Default)" # Carpathia
+		e_carpathia = { set_name = "Carpathia" }
+	}
+}
+#Empire of Francia
+character_event = {
+	id = customization.46
+	desc = customization.46.desc
+	picture = GFX_evt_autumn_harvest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "France" # France
+		e_france = { set_name = "France" }
+	}
+
+	option = {
+		name = "Gaul" # Gaul
+		e_france = { set_name = "Gaul" }
+	}
+	
+	option = {
+		name = "Gallia (lol valkyria chronicles)" # Gallia
+		e_france = { set_name = "Gallia" }
+	}
+	
+	option = {
+		name = "See more options..." # Choose something else
+		character_event = { id = customization.47 }
+	}
+}
+#Empire of Francia
+character_event = {
+	id = customization.47
+	desc = customization.47.desc
+	picture = GFX_evt_village_at_night
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Aquitania" # Aquitania
+		e_france = { set_name = "Aquitania" }
+	}
+
+	option = {
+		name = "Burgundia" # Burgundia
+		e_france = { set_name = "Burgundia" }
+	}
+	
+	option = {
+		name = "Cheese Eating Surrender Monkeys (joke option)" # Cheese Eating Surrender Monkeys
+		e_france = { set_name = "Cheese Eating Surrender Monkeys" }
+	}
+	
+	option = {
+		name = "Francia (Default)" # Francia
+		e_france = { set_name = "Francia" }
+	}
+}
+
+#WAR AND CB OPTIONS
+# Initial Menu
+character_event = {
+	id = customization.5
+	desc = customization.5.desc
+	picture = GFX_evt_large_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Allow Orthodox Holy Wars on Muslims" # Allow Orthodox rulers to declare holy war on Muslims
+		character_event = { id = customization.6 }
+	}
+	
+	option = {
+		name = "Turn off CB Cooldowns" # Ignore CB cooldowns
+		character_event = { id = customization.28 }
+	}
+	
+	option = {
+		name = "Enable/disable pagan province holy war restriction" # Allow holy wars even if one holds pagan provinces
+		character_event = { id = customization.29 }
+	}
+	
+	#option = {
+	#	name = "Allow Holy Wars for Republics" # Allow Republics to declare holy war
+	#	character_event = { id = customization.7 }
+	#}	
+	
+	#option = {
+	#	name = "Allow Coastal Republic CBs for Non-Christian Republics" # Allow Non-Christian Republics to use the Coastal Republic CBs
+	#	character_event = { id = customization.16 }
+	#}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+character_event = {
+	id = customization.6
+	desc = customization.6.desc
+	picture = GFX_evt_western_knights_byzantine
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Allow Orthodox Holy Wars" # Allow Orthodox rulers to declare holy war on Muslims
+		set_global_flag = orthodox_holy_war_on
+	}
+	
+	option = {
+		name = "No Orthodox Holy Wars (default)" # Prevent Orthodox rulers from declaring holy war on Muslims
+		if = {
+			limit = {
+				has_global_flag = orthodox_holy_war_on
+			}
+			clr_global_flag = orthodox_holy_war_on
+		}
+	}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+character_event = {
+	id = customization.16
+	desc = customization.16.desc
+	picture = GFX_evt_small_town_east_african
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Allow Non-Christians to Use Coastal Republic CBs" # Allow Non-Christian Republics to use the Coastal Republic CBs
+		set_global_flag = nonchristian_republic_coastal_cb_on
+	}
+	
+	option = {
+		name = "Prevent Non-Christians from Using Coastal Republic CBs" # Prevent Non-Christian Republics using the Coastal Republic CBs
+		if = {
+			limit = {
+				has_global_flag = nonchristian_republic_coastal_cb_on
+			}
+			clr_global_flag = nonchristian_republic_coastal_cb_on
+		}
+	}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+character_event = {
+	id = customization.7
+	desc = customization.7.desc
+	picture = GFX_evt_ocean_blue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Allow Republic Holy Wars" # Allow Republics to declare holy war
+		set_global_flag = non_christian_republic_cb_on
+	}
+	
+	option = {
+		name = "No Republic Holy Wars (default)" # Prevent Republics from declaring holy war
+		if = {
+			limit = {
+				has_global_flag = non_christian_republic_cb_on
+			}
+			clr_global_flag = non_christian_republic_cb_on
+		}
+	}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+#Cooldown Restrictions
+character_event = {
+	id = customization.28
+	desc = customization.28.desc
+	picture = GFX_evt_holy_jerusalem
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Disable CB Cooldowns" # Allow Republic wars and holy wars during cooldowns
+		set_global_flag = cb_cooldowns_off
+	}
+	
+	option = {
+		name = "Enable CB Cooldowns (default)" # Prevent Republic wars and holy wars during cooldowns
+		if = {
+			limit = {
+				has_global_flag = cb_cooldowns_off
+			}
+			clr_global_flag = cb_cooldowns_off
+		}
+	}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+#Pagan province Restrictions
+character_event = {
+	id = customization.29
+	desc = customization.29.desc
+	picture = GFX_evt_african_savanna
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Disable pagan province holy war restriction" # Allow Republic wars and holy wars during cooldowns
+		set_global_flag = pagan_province_restriction_off
+	}
+	
+	option = {
+		name = "Enable pagan province holy war restriction (default)" # Prevent Republic wars and holy wars during cooldowns
+		if = {
+			limit = {
+				has_global_flag = pagan_province_restriction_off
+			}
+			clr_global_flag = pagan_province_restriction_off
+		}
+	}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+#TURN UNIQUE CULTURE MECHANICS ON/OFF
+# Initial Menu
+character_event = {
+	id = customization.10
+	desc = customization.10.desc
+	picture = GFX_evt_market_east_african
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Turn Finnish Pagan Features On/Off" # Disable/Enable Finnish Pagan features
+		character_event = { id = customization.18 }
+	}
+	
+	option = {
+		name = "Turn Turkish Features On/Off" # Disable/Enable Turkish features
+		character_event = { id = customization.11 }
+	}
+	
+	option = {
+		name = "Turn West African Features On/Off" # Disable/Enable West African features
+		character_event = { id = customization.14 }
+	}
+	
+	#option = {
+	#	name = "Turn Jewish Features On/Off" # Disable/Enable J features
+	#	character_event = { id = customization.14 }
+	#}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+
+#Turn Turkish Features On/Off
+character_event = {
+	id = customization.11
+	desc = customization.11.desc
+	picture = GFX_evt_turkish_sultan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Enable Turkish Features (Default)" # Enable Turkish features
+		if = {
+			limit = {
+				has_global_flag = VIET_turkish_features_off
+			}
+			clr_global_flag = VIET_turkish_features_off
+		}
+	}
+	
+	option = {
+		name = "Disable Turkish Features" # Disable Turkish features
+		set_global_flag = VIET_turkish_features_off
+	}
+}
+
+#Turn West African Features On/Off
+character_event = {
+	id = customization.14
+	desc = customization.14.desc
+	picture = GFX_evt_dogon_village
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Enable W. African Features (Default)" # Enable Turkish features
+		if = {
+			limit = {
+				has_global_flag = VIET_wafrican_features_off
+			}
+			clr_global_flag = VIET_wafrican_features_off
+		}
+	}
+	
+	option = {
+		name = "Disable W. African Features" # Disable Turkish features
+		set_global_flag = VIET_wafrican_features_off
+	}
+}
+
+#Turn Finnish Pagan Features On/Off
+character_event = {
+	id = customization.18
+	desc = customization.18.desc
+	picture = GFX_evt_journey_to_spirit_world
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Enable Finnish Pagan Features (Default)" # Enable Finnish Pagan features
+		if = {
+			limit = {
+				has_global_flag = VIET_finnish_features_off
+			}
+			clr_global_flag = VIET_finnish_features_off
+		}
+	}
+	
+	option = {
+		name = "Disable Finnish Pagan Features" # Disable Finnish Pagan features
+		set_global_flag = VIET_finnish_features_off
+	}
+}
+
+#TURN EVENTS ON/OFF
+character_event = {
+	id = customization.12
+	desc = customization.12.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Turn Blatant Elder Scrolls References On/Off" # Disable/Enable Blatant Elder Scrolls References Like the Thing with the Arrow in a certain body part
+		character_event = { id = customization.13 }
+	}
+	
+	#option = {
+	#	name = "Turn West African Features On/Off" # Disable/Enable West African features
+	#	character_event = { id = customization.13 }
+	#}
+	
+	option = {
+		name = "Never mind"
+	}
+}
+character_event = {
+	id = customization.13
+	desc = customization.13.desc
+	picture = GFX_evt_skyrim_forest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Turn Blatant Elder Scrolls References On (Default)" # Enable Blatant Elder Scrolls References
+		if = {
+			limit = {
+				has_global_flag = VIET_blatant_TES
+			}
+			clr_global_flag = VIET_blatant_TES
+		}
+	}
+	
+	option = {
+		name = "Turn Blatant Elder Scrolls References Off" # Disable Blatant Elder Scrolls References
+		set_global_flag = VIET_blatant_TES
+	}
+}
+
+
+#CHANGE CONVERSEION RATES
+#Menu Screen
+character_event = {
+	id = customization.39
+	desc = customization.39.desc
+	picture = GFX_evt_the_torah
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "customization.39.a" #Change culture rate
+		character_event = { id = customization.32 }
+	}
+
+	option = {
+		name = "customization.39.b" #Change religion rate
+		character_event = { id = customization.33 }
+	}
+}
+
+#Change culture rate
+character_event = {
+	id = customization.32
+	desc = customization.32.desc
+	picture = GFX_evt_mud_mosque
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Default rate" # Default
+		clr_global_flag = VIET_three_quarters_culture_conversion
+		clr_global_flag = VIET_half_culture_conversion
+	}
+
+	option = {
+		name = "Reduce rate by a quarter" # 3/4
+		set_global_flag = VIET_three_quarters_culture_conversion
+		clr_global_flag = VIET_half_culture_conversion
+	}
+	
+	option = {
+		name = "Reduce rate by a half" # 1/2
+		clr_global_flag = VIET_three_quarters_culture_conversion
+		set_global_flag = VIET_half_culture_conversion
+	}
+}
+
+#Change religion rate
+character_event = {
+	id = customization.33
+	desc = customization.33.desc
+	picture = GFX_evt_monk_eastern_group
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Default rate" # Default
+		clr_global_flag = VIET_three_quarters_religion_conversion
+		clr_global_flag = VIET_half_religion_conversion
+	}
+
+	option = {
+		name = "Reduce rate by a quarter" # 3/4
+		set_global_flag = VIET_three_quarters_religion_conversion
+		clr_global_flag = VIET_half_religion_conversion
+	}
+	
+	option = {
+		name = "Reduce rate by a half" # 1/2
+		clr_global_flag = VIET_three_quarters_religion_conversion
+		set_global_flag = VIET_half_religion_conversion
+	}
+}
+
+#RANDOMIZE OR TURN HORDE INVASIONS ON/OFF
+
+#Main menu
+character_event = {
+	id = customization.34
+	desc = customization.34.desc
+	picture = GFX_evt_fetih
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Mongols" # Ilkhanate AND Golden Horde
+		character_event = { id = customization.35 }
+	}	
+	option = {
+		name = "Seljuks" # Seljuks
+		character_event = { id = customization.36 }
+	}	
+	option = {
+		name = "Timurids" # Timurids
+		character_event = { id = customization.37 }
+	}	
+	option = {
+		name = "More Options"
+		character_event = { id = customization.41 }
+	}
+}
+#Main menu part 2
+character_event = {
+	id = customization.41
+	desc = customization.41.desc
+	picture = GFX_evt_vegetarian
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Aztecs" # Aztecs
+		character_event = { id = customization.42 }
+	}		
+	option = {
+		name = "Ghaznavids" # Ghaznavids
+		character_event = { id = customization.48 }
+	}	
+	option = {
+		name = "All Invasions" # All
+		character_event = { id = customization.38 }
+	}
+}
+#Mongols
+character_event = {
+	id = customization.35
+	desc = customization.35.desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_mongols
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { clr_global_flag = VIET_no_mongols } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { set_global_flag = VIET_no_mongols } #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { clr_global_flag = VIET_no_mongols } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = { set_global_flag = VIET_no_mongols } #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_mongols
+	}
+}
+#Seljuks
+character_event = {
+	id = customization.36
+	desc = customization.36.desc
+	picture = GFX_evt_turkish_sultan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_seljuks
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { clr_global_flag = VIET_no_seljuks } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { set_global_flag = VIET_no_seljuks } #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { clr_global_flag = VIET_no_seljuks } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = { set_global_flag = VIET_no_seljuks } #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_seljuks
+	}
+}
+#Aztecs
+character_event = {
+	id = customization.42
+	desc = customization.42.desc
+	picture = GFX_evt_aztec_explorers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_aztecs
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { clr_global_flag = VIET_no_aztecs } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { set_global_flag = VIET_no_aztecs } #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { clr_global_flag = VIET_no_aztecs } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = { set_global_flag = VIET_no_aztecs } #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_aztecs
+	}
+}
+#Timurids
+character_event = {
+	id = customization.37
+	desc = customization.37.desc
+	picture = GFX_evt_nightmare
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_timurids
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { clr_global_flag = VIET_no_timurids } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { set_global_flag = VIET_no_timurids } #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { clr_global_flag = VIET_no_timurids } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = { set_global_flag = VIET_no_timurids } #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_timurids
+	}
+}
+#Timurids
+character_event = {
+	id = customization.48
+	desc = customization.48.desc
+	picture = GFX_evt_trade_post_republic_muslim
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_ghaznavids
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { clr_global_flag = VIET_no_ghaznavids } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { set_global_flag = VIET_no_ghaznavids } #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { clr_global_flag = VIET_no_ghaznavids } #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = { set_global_flag = VIET_no_ghaznavids } #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_ghaznavids
+	}
+}
+#All
+character_event = {
+	id = customization.38
+	desc = customization.38.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "0% (never appear)" # 0
+		set_global_flag = VIET_no_seljuks
+		set_global_flag = VIET_no_mongols
+		set_global_flag = VIET_no_timurids
+		set_global_flag = VIET_no_aztecs
+		set_global_flag = VIET_no_ghaznavids
+
+	}	
+	option = {
+		name = "10% (low chance of appearing)" # 10
+		hidden_tooltip = {
+			random_list = {
+				10 = { 
+					clr_global_flag = VIET_no_timurids
+					clr_global_flag = VIET_no_seljuks
+					clr_global_flag = VIET_no_mongols					
+					clr_global_flag = VIET_no_aztecs					
+					clr_global_flag = VIET_no_ghaznavids					
+				} #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				90 = { 
+					set_global_flag = VIET_no_seljuks
+					set_global_flag = VIET_no_mongols
+					set_global_flag = VIET_no_timurids				
+					set_global_flag = VIET_no_aztecs				
+					set_global_flag = VIET_no_ghaznavids				
+				} #No
+			}
+		}
+	}	
+	option = {
+		name = "50% (chance of appearing)" # 50
+		hidden_tooltip = {
+			random_list = {
+				50 = { 
+					clr_global_flag = VIET_no_timurids
+					clr_global_flag = VIET_no_seljuks
+					clr_global_flag = VIET_no_mongols				
+					clr_global_flag = VIET_no_aztecs				
+					clr_global_flag = VIET_no_ghaznavids				
+				} #KHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+				50 = {
+					set_global_flag = VIET_no_seljuks
+					set_global_flag = VIET_no_mongols
+					set_global_flag = VIET_no_timurids				
+					set_global_flag = VIET_no_aztecs				
+					set_global_flag = VIET_no_ghaznavids				
+				} #No
+			}
+		}
+	}	
+	option = {
+		name = "100% (will almost certainly appear (default))" # 100
+		clr_global_flag = VIET_no_timurids
+		clr_global_flag = VIET_no_seljuks
+		clr_global_flag = VIET_no_mongols
+		clr_global_flag = VIET_no_aztecs
+		clr_global_flag = VIET_no_ghaznavids
+	}
+}
+
+
+#MISC CUSTOMIZATION OPTIONS
+#Turn childbirth mortality on/off
+character_event = {
+	id = customization.3
+	desc = customization.3.desc
+	picture = GFX_evt_maiden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "customization.3.a" # Turn off
+		set_global_flag = childbirth_mortality_off
+	}
+
+	option = {
+		name = "customization.3.b" # Turn on (default)
+		if = {
+			limit = {
+				has_global_flag = childbirth_mortality_off
+			}
+			clr_global_flag = childbirth_mortality_off
+		}
+	}
+}
+#Turn old age on/off
+character_event = {
+	id = customization.4
+	desc = customization.4.desc
+	picture = GFX_evt_tuscan_country
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "customization.4.a" # Turn off
+		set_global_flag = old_age_off
+	}
+
+	option = {
+		name = "customization.4.b" # Turn on (default)
+		if = {
+			limit = {
+				has_global_flag = old_age_off
+			}
+			clr_global_flag = old_age_off
+		}
+	}
+}
+#Turn young age on/off
+character_event = {
+	id = customization.8
+	desc = customization.8.desc
+	picture = GFX_evt_small_town
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "customization.8.a" # Turn off
+		set_global_flag = young_age_off
+	}
+
+	option = {
+		name = "customization.8.b" # Turn on (default)
+		if = {
+			limit = {
+				has_global_flag = young_age_off
+			}
+			clr_global_flag = young_age_off
+		}
+	}
+}
+#Disable Customization Options...FOREVER
+character_event = {
+	id = customization.43
+	desc = customization.43.desc
+	picture = GFX_evt_obby_oss
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yes! Destroy those abominable customization options!" # YESYESYESYESYES
+		custom_tooltip = { text = are_you_really_sure_customization_options }
+		hidden_tooltip = {
+			character_event = { id = customization.44 }
+		}
+	}
+
+	option = {
+		name = "On second thought... never mind." # nvm
+	}
+}
+#Disable Customization Options...FOREVER Part 2
+character_event = {
+	id = customization.44
+	desc = customization.44.desc
+	picture = GFX_evt_apocalypto
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "YES! I ALREADY SAID YES THE FIRST TIME!" # YESYESYESYESYES
+		set_global_flag = customization_options_disabled_forever
+	}
+
+	option = {
+		name = "On second thought... never mind." # nvm
+	}
+}
+#renable Customization Options that were supposed to be disabled forever
+character_event = {
+	id = customization.45
+	desc = customization.45.desc
+	picture = GFX_evt_obby_oss
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yes, you were right, I need them!" # YESYESYESYESYES
+		clr_global_flag = customization_options_disabled_forever
+	}
+
+	option = {
+		name = "Nah, just kidding, I dunno why I even triggered this event." # nvm
+	}
+}
+
+

@@ -1,0 +1,4 @@
+1066.1.1={
+	liege="c_clydesdale"
+	holder=1000158241 #Eastern egg
+}

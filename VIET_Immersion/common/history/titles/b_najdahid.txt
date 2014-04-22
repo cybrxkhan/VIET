@@ -1,0 +1,8 @@
+867.1.1 = {
+	holding_dynasty = 1000091908 # Hafsids - makes this a FAMILY_PALACE type Holding
+	liege="d_krete"
+	holder = 1000158870
+}
+964.1.11={
+	holder=0
+}

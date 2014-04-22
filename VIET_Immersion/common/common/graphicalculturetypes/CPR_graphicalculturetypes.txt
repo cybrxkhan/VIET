@@ -1,0 +1,54 @@
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
+
+bulgargfx = {
+	skin_tone = 0
+}
+berbergfx = {
+	skin_tone = 3
+}
+centralasiangfx = {
+	skin_tone = 1
+}
+steppegfx = {
+	skin_tone = 1
+}
+siberiangfx = {
+	skin_tone = 1
+}
+balticgfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+bretongfx = {
+	skin_tone = 0
+}
+bohemiangfx = {
+	skin_tone = 0
+}
+ethiopiangfx = {
+	skin_tone = 3
+}
+guanchegfx = {
+	skin_tone = 1
+}
+alangfx = {
+	skin_tone = 1
+}
+georgiangfx = {
+	skin_tone = 1
+}
+norsegaelgfx = {
+	skin_tone = 0
+}
+hungariangfx = {
+	skin_tone = 1
+}
+crimeangothicgfx = {
+	skin_tone = 0
+}
+afghangfx = {
+	skin_tone = 1
+}
+sogdiangfx = {
+	skin_tone = 1
+}

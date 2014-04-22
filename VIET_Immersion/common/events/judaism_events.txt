@@ -1,0 +1,20 @@
+namespace = judaism
+#Magically makes every generated high priest a Kohen!
+character_event = {
+	id = judaism.4
+	desc = "You are a Kohen!"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+
+	only_rulers = yes
+    
+	trigger = {
+		has_landed_title = d_kohen_gadol
+		NOT = { dynasty = 1000091580 }
+	}
+
+	option = {
+		name = "Ok"
+		dynasty = 1000091580
+	}
+}

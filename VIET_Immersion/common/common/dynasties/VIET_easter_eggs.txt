@@ -1,0 +1,89 @@
+#Dynasties for easter eggs - guess them
+1000061370 = {
+	name="Fairley"
+	culture = scottish
+}
+1000061371 = {
+	name="Lewis"
+	culture = norman
+}
+1000061372 = {
+	name="Lewis"
+	culture = english
+}	
+1000061373 = {
+	name="de Guise"
+	culture = frankish
+}
+1000061374 = {
+	name="Tweedie"
+	culture = scottish
+}
+1000061375 = {
+	name="Qasimid"
+	culture = andalusian_arabic
+}
+1000061376 = {
+	name="Buoy"
+	culture = norman
+}
+1000061377 = {
+	name="Rossi"
+	culture = italian
+}
+1000061378 = {
+	name="de Medici"
+	culture = italian
+}
+1000061379 = {
+	name="Rossi"
+	culture = sicilian
+}
+1000091906 = {
+	name="Le Chevalier"
+	culture = french
+}
+1000091907 = {
+	name="Hennessey"
+	culture = french
+}
+1000091920 = {
+	name="Lamperougue"
+	culture = french
+}
+1000091921 = {
+	name="Statdfeld"
+	culture = german
+}
+1000091922 = {
+	name="Gottwald"
+	culture = german
+}
+1000091923 = {
+	name="de Preden"
+	culture = breton
+}
+1000091924 = {
+	name="Bradley"
+	culture = english
+}
+1000091925 = {
+	name="Alstreim"
+	culture = german
+}
+1000091926 = {
+	name="Fenette"
+	culture = french
+}
+1000091927 = {
+	name="Ashford"
+	culture = english
+}
+1000091928 = {
+	name="Einstein"
+	culture = ashkenazi
+}
+1000091929 = {
+	name="Haliburton"
+	culture = english
+}

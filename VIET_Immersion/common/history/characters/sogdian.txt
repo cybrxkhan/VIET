@@ -1,0 +1,121 @@
+########################################################################################################################
+#
+# Fictional Sogdians - the end of the old Silk Road... or not?
+#
+# 100015890 - 100015891
+#
+########################################################################################################################
+
+################################################
+# Lyw - Buddhists in Chuy (under the Karluks)
+################################################
+
+100015890 = { #Fictional Granddaughter of An Lushan who fled to the West
+	name="Rokhshan"
+	female=yes
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="gregarious"
+	add_trait="humble"
+	add_trait="paranoid"
+	751.1.1={
+		birth="751.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+100015891 = {
+	name="Y’n"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="midas_touched"
+	add_trait="patient"
+	add_trait="kind"
+	add_trait="diligent"
+	mother=100015890
+	777.1.1={
+		birth="777.1.1"
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+100015892 = {
+	name="Vuvva"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	father=100015891
+	800.1.1={
+		birth="800.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+100015893 = {
+	name="Kushan"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="patient"
+	add_trait="gregarious"
+	add_trait="diligent"
+	father=100015892
+	822.1.1={
+		birth="822.1.1"
+	}
+	866.1.1={
+		death="866.1.1"
+	}
+}
+100015894 = {
+	name="Wakhushakk"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="fortune_builder"
+	add_trait="tall"
+	add_trait="shy"
+	add_trait="kind"
+	add_trait="content"
+	add_trait="cynical"
+	father=100015893
+	850.1.1={
+		birth="850.1.1"
+	}
+	866.1.1={
+		effect = {
+			add_friend = 100015895
+		}
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}
+100015895 = {
+	name="Khwadhawanakk"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	add_trait="proud"
+	father=100015893
+	851.1.1={
+		birth="851.1.1"
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}

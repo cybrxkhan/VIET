@@ -1,0 +1,614 @@
+########################################
+# The Champions of Nhialic
+# VIETmisc 291-304
+########################################
+
+# The Champions of Nhialic move to the West
+narrative_event = {
+	id = VIETmisc.291
+	title =VIETmisc.291.title
+	desc =VIETmisc.291.desc
+	major = yes
+	
+	picture = GFX_evt_african_savanna
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		has_global_flag = east_african_reformation
+		religion = catholic
+		NOT = {
+			is_title_active = d_east_african_pagan_holy_order
+		}
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_east_african_pagan_holy_order status = yes }
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			religion = east_african_pagan_reformed
+			culture = nilotic
+			female = no
+		}
+		new_character = {
+			wealth = 500
+			d_east_african_pagan_holy_order = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = yes
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = east_african_pagan_reformed
+				culture = nilotic
+				female = yes
+			}
+		}
+	}
+	
+	option = {
+		name = VIETmisc.291.a
+		trigger = {
+			religion = east_african_pagan_reformed
+		}
+	}
+	option = {
+		name = VIETmisc.291.b
+		trigger = {
+			NOT = { religion = east_african_pagan_reformed }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Champions of Nhialic
+character_event = {
+	id = VIETmisc.292
+	desc =VIETmisc.292.desc
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = east_african_pagan_reformed
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_east_african_pagan_holy_order
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.5
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = VIETmisc.292.a # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = VIETmisc.293
+			}
+		}
+	}
+	option = {
+		name = VIETmisc.292.b # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Champions of Nhialic
+character_event = {
+	id = VIETmisc.293
+	desc =VIETmisc.293.desc
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = VIETmisc.294
+				tooltip = VIETmisc.294.tooltip
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = VIETmisc.295
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Champions of Nhialic
+character_event = {
+	id = VIETmisc.294
+	desc = VIETmisc.294.desc
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_east_african_pagan_holy_order = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Champions of Nhialic
+character_event = {
+	id = VIETmisc.295
+	desc =VIETmisc.295.desc
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETmisc.295.a
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Champions of Nhialic
+character_event = {
+	id = VIETmisc.296
+	desc = OK
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = VIETmisc.297
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Champions of Nhialic
+letter_event = {
+	id = VIETmisc.297
+	desc =VIETmisc.297.a
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Grand Master humbly requests the right to build a castle in your demesne
+character_event = {
+	id = VIETmisc.298
+	desc = OK
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = east_african_pagan_reformed
+		is_heretic = no
+		
+		d_east_african_pagan_holy_order = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+		}
+		
+		has_dlc = "Sons of Abraham"
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_east_african_pagan_holy_order = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_east_african_pagan_holy_order = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_east_african_pagan_holy_order = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_east_african_pagan_holy_order = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+			}
+			province_event = {
+				id = VIETmisc.299
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = VIETmisc.299
+	desc = OK
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_east_african_pagan_holy_order = {
+			holder_scope = {
+				character_event = {
+					id = VIETmisc.300
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = VIETmisc.300
+	desc = OK
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = VIETmisc.301
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = VIETmisc.301
+	desc = VIETmisc.301.desc
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_east_african_pagan_holy_order
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = VIETmisc.302 }
+			}
+			remove_character_modifier = expelled_east_african_pagan_holy_order
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1153 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = VIETmisc.302
+	desc =VIETmisc.302.desc
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling the Champions of Nhialic
+character_event = {
+	id = VIETmisc.303
+	desc = OK
+	picture = GFX_evt_african_savanna
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+	
+		FROM = {
+			letter_event = {
+				id = VIETmisc.304
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling the Champions of Nhialic
+letter_event = {
+	id = VIETmisc.304
+	desc =VIETmisc.304.desc
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}

@@ -1,0 +1,34 @@
+namespace = friendcheck
+
+# Display Friends, Rival, and Lover - by JGCrusader
+character_event = {
+	id = friendcheck.0
+	desc = friendcheck.0.desc
+	picture = GFX_evt_council_muslim
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "friendcheck.0.a" # Friends
+		any_friend = { 
+			character_event = { id = 0 tooltip = "Friend" }
+		}
+	}
+	
+	option = {
+		name = "friendcheck.0.b" # Rivals
+		any_rival = { 
+			character_event = { id = 0 tooltip = "Rival" }
+		}
+	}
+	
+	option = {
+		name = "friendcheck.0.c" # Lover
+		trigger = {
+			has_lover = yes
+		}
+		lover = { 
+			character_event = { id = 0 tooltip = "Lover" }
+		}
+	}
+}

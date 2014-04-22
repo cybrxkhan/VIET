@@ -1,0 +1,69 @@
+###########################################
+#
+# Narrative Events for VIET
+#
+###########################################
+
+namespace = VIETnarrative
+
+#Fall of Constantinople
+narrative_event = {
+	id = VIETnarrative.0
+	title = "VIETnarrative.0.name"
+	desc = "VIETnarrative.0.desc"
+	
+	picture = "GFX_evt_fetih"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "VIETnarrative.0.a"
+		trigger = { 
+			NOT = { religion_group = muslim } 
+			NOT = { religion_group = christian } 
+		}
+	}
+	option = {
+		name = "VIETnarrative.0.b"
+		trigger = { religion_group = muslim }
+	}	
+	option = {
+		name = "VIETnarrative.0.c"
+		trigger = { religion_group = christian }
+	}
+}
+
+#Israel re-founded
+narrative_event = {
+	id = VIETnarrative.1
+	title = "VIETnarrative.1.name"
+	desc = "VIETnarrative.1.desc"
+	
+	picture = "GFX_evt_holy_jerusalem"
+	border = "GFX_event_narrative_frame_diplomacy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "VIETnarrative.1.a"
+		trigger = { 
+			NOT = { religion_group = jewish_group } 
+			NOT = { religion_group = muslim } 
+			NOT = { religion_group = christian } 
+		}
+	}
+	option = {
+		name = "VIETnarrative.1.b"
+		trigger = {
+			OR = {
+				religion_group = muslim
+				religion_group = christian
+			}			
+		}
+	}	
+	option = {
+		name = "VIETnarrative.1.c"
+		trigger = { religion_group = jewish_group }
+	}
+}

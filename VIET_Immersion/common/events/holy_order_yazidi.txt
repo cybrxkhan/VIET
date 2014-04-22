@@ -1,0 +1,669 @@
+########################################
+# The Faqir Tribesmen
+# VIETmisc 311-324
+########################################
+
+# The Faqir Tribesmen arise
+narrative_event = {
+	id = VIETmisc.311
+	title =VIETmisc.311.title
+	desc =VIETmisc.311.desc
+	major = yes
+	
+	picture = GFX_evt_melee_muslim
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		OR = { #One of the Kingdoms of Mesopotamia, Armenia, Persia, Syria, or Jerusalem are controlled by the Yazidi
+			k_mesopotamia = {
+				holder_scope = {
+					OR = {
+						religion = yazidi
+						religion = yarsani
+						religion = adawi
+						religion = harranian
+					}
+				}
+			}	
+			k_armenia = {
+				holder_scope = {
+					OR = {
+						religion = yazidi
+						religion = yarsani
+						religion = adawi
+						religion = harranian
+					}
+				}
+			}	
+			k_persia = {
+				holder_scope = {
+					OR = {
+						religion = yazidi
+						religion = yarsani
+						religion = adawi
+						religion = harranian
+					}
+				}
+			}	
+			k_syria = {
+				holder_scope = {
+					OR = {
+						religion = yazidi
+						religion = yarsani
+						religion = adawi
+						religion = harranian
+					}
+				}
+			}	
+			k_jerusalem = {
+				holder_scope = {
+					OR = {
+						religion = yazidi
+						religion = yarsani
+						religion = adawi
+						religion = harranian
+					}
+				}
+			}			
+		}
+		OR = {
+			religion = yazidi
+			religion = yarsani
+			religion = adawi
+			religion = harranian
+		}
+		is_heretic = no
+		NOT = {
+			is_title_active = d_yazidi_holy_order
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_yazidi_holy_order status = yes }
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = kurdish
+			female = no
+		}
+		new_character = {
+			wealth = 500
+			d_yazidi_holy_order = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = no
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = yes
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = kurdish
+				female = yes
+			}
+		}
+	}
+	
+	option = {
+		name = VIETmisc.311.a
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = VIETmisc.311.b
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.312
+	desc =VIETmisc.312.desc
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = yazidi
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_yazidi_holy_order
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.5
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = VIETmisc.312.a # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = VIETmisc.313
+			}
+		}
+	}
+	option = {
+		name = VIETmisc.312.b # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.313
+	desc =VIETmisc.313.desc
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = VIETmisc.314
+				tooltip = VIETmisc.314.tooltip
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = VIETmisc.315
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.314
+	desc = VIETmisc.314.desc
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_yazidi_holy_order = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.315
+	desc =VIETmisc.315.desc
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETmisc.315.a
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.316
+	desc = OK
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = VIETmisc.317
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Faqir Tribesmen
+letter_event = {
+	id = VIETmisc.317
+	desc =VIETmisc.317.a
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Grand Master humbly requests the right to build a castle in your demesne
+character_event = {
+	id = VIETmisc.318
+	desc = OK
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = yazidi
+		is_heretic = no
+		
+		d_yazidi_holy_order = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+		}
+		
+		has_dlc = "Sons of Abraham"
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_yazidi_holy_order = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_yazidi_holy_order = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_yazidi_holy_order = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_yazidi_holy_order = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+			}
+			province_event = {
+				id = VIETmisc.319
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = VIETmisc.319
+	desc = OK
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_yazidi_holy_order = {
+			holder_scope = {
+				character_event = {
+					id = VIETmisc.320
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = VIETmisc.320
+	desc = OK
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = VIETmisc.321
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = VIETmisc.321
+	desc = VIETmisc.321.desc
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_yazidi_holy_order
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = VIETmisc.322 }
+			}
+			remove_character_modifier = expelled_yazidi_holy_order
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1153 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = VIETmisc.322
+	desc =VIETmisc.322.desc
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling the Faqir Tribesmen
+character_event = {
+	id = VIETmisc.323
+	desc = OK
+	picture = GFX_evt_melee_muslim
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+	
+		FROM = {
+			letter_event = {
+				id = VIETmisc.324
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling the Faqir Tribesmen
+letter_event = {
+	id = VIETmisc.324
+	desc =VIETmisc.324.desc
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}

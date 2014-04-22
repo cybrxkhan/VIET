@@ -1,0 +1,162 @@
+#This was written by jordarkelf, all credit goes to him
+#Only edited potential and allow clauses so the player can see the custom_tooltip
+decisions = {
+	create_latin_empire = {
+		is_high_prio = yes
+		potential = {
+			is_adult = yes
+			prisoner = no
+			independent = yes
+			NOT = { trait = incapable }
+			NOT = { tier = emperor }
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+			495 = { # Kaliopolis
+				OR = {
+					is_liege_or_above = ROOT
+					owner = { character = ROOT } 
+				}
+			}
+			496 = { # Constantinople
+				owner = { character = ROOT }
+			}
+			497 = { # Thrake
+				OR = {
+					is_liege_or_above = ROOT
+					owner = { character = ROOT } 
+				}
+			}
+			e_latin_empire = { has_holder = no }
+		}
+		allow = {
+			custom_tooltip = controls_constantinople_kaliopolis_thrake
+			hidden_tooltip = {
+				495 = { # Kaliopolis
+					OR = {
+						is_liege_or_above = ROOT
+						owner = { character = ROOT } 
+					}
+				}
+				496 = { # Constantinople
+					owner = { character = ROOT }
+				}
+				497 = { # Thrake
+					OR = {
+						is_liege_or_above = ROOT
+						owner = { character = ROOT } 
+					}
+				}
+			}
+			prestige = 500
+			e_roman_empire = { 
+				has_holder = no
+			}
+		}
+		effect = {
+			narrative_event = { id = latine.1 tooltip = EVTTOOLTIPlatine.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Here onwards was written by mclemente
+	create_trebizond_empire = {
+		is_high_prio = yes
+		potential = {
+			is_adult = yes
+			prisoner = no
+			independent = yes
+			NOT = { trait = incapable }
+			NOT = { tier = emperor }
+			religion = orthodox
+			has_landed_title = k_trebizond
+			e_byzantium = { has_holder = no }
+		}
+		allow = {
+			678 = {
+				OR = {
+					is_liege_or_above = ROOT
+					owner = { character = ROOT }
+				}
+			}
+			prestige = 500
+			e_roman_empire = { 
+				has_holder = no
+			}
+		}
+		effect = {
+			narrative_event = { id = LatinEmpire.9 tooltip = EVTTOOLTIPLatinEmpire.9 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	create_nikaea_empire = {
+		is_high_prio = yes
+		potential = {
+			is_adult = yes
+			prisoner = no
+			independent = yes
+			NOT = { trait = incapable }
+			NOT = { tier = emperor }
+			religion = orthodox
+			has_landed_title = k_nikaea
+			e_byzantium = { has_holder = no }
+		}
+		allow = {
+			750 = {
+				OR = {
+					is_liege_or_above = ROOT
+					owner = { character = ROOT }
+				}
+			}
+			prestige = 500
+			e_roman_empire = { 
+				has_holder = no
+			}
+		}
+		effect = {
+			narrative_event = { id = LatinEmpire.11 tooltip = EVTTOOLTIPLatinEmpire.11 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	defect_to_constantinople = {
+		potential = {
+			NOT = { has_global_flag = varangian_defected }
+			has_landed_title = d_varangian_guard
+			top_liege = { NOT = { has_landed_title = c_byzantion } }
+			c_byzantion = {
+				holder_scope = {
+					higher_tier_than = duke
+					religion_group = christian
+					NOT = { same_realm = top_liege }
+					NOT = { #Remains faithful until Latin Empire gets conquer global flag
+						OR = {
+							has_landed_title = e_latin_empire
+							top_liege = { has_landed_title = e_latin_empire }
+						}
+					}
+				}
+			}
+			NOT = { vassal_of = e_byzantium }
+		}
+		allow = {}
+		effect = {
+			top_liege = { letter_event = { id = LatinEmpire.2 days = 7 } }
+			c_byzantion = {
+				holder_scope = { letter_event = { id = LatinEmpire.3 days = 7 } }
+			}
+			set_global_flag = varangian_defected
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

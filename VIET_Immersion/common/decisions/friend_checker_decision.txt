@@ -1,0 +1,23 @@
+# Decision for Additional Objectives Mod - by JGCrusader
+
+decisions = {
+
+	check_notable_persons = {
+		potential = {
+			ai = no
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			character_event = { id = friendcheck.0 tooltip = check_people_tooltip }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

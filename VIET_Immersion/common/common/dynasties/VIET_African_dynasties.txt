@@ -1,0 +1,1220 @@
+######################################################################################
+#
+# VIET African Dynasties
+#
+# This is for any new dynasties added in VIET for NEW African Cultures
+# This is not for existing African cultures
+# They are placed separately here for easier mod integration and updating in between patches
+# Generally they are arranged in sets of 10 (i.e. 10, 20, 30 dynasties per culture)
+#
+######################################################################################
+
+
+1000061150 = {
+	name="Kanuz"
+	culture = nubian
+}
+1000061151 = {
+	name="Mahas"
+	culture = nubian
+}
+1000061152 = {
+	name="Danagla"
+	culture = nubian
+}	
+1000061153 = {
+	name="Makarasha"
+	culture = nubian
+}
+1000061154 = {
+	name="Balahau"
+	culture = nubian
+}
+1000061155 = {
+	name="Rehrehesa"
+	culture = nubian
+}
+1000061156 = {
+	name="Meded"
+	culture = nubian
+}
+1000061157 = {
+	name="Baraabra"
+	culture = nubian
+}
+1000061158 = {
+	name="Kababish"
+	culture = nubian
+}
+1000061159 = {
+	name="Kawahla"
+	culture = nubian
+}
+1000061160 = {
+	name="Darod"
+	culture = somali
+}
+1000061161 = {
+	name="Dir"
+	culture = somali
+}
+1000061162 = {
+	name="Hawiye"
+	culture = somali
+}	
+1000061163 = {
+	name="Isaaq"
+	culture = somali
+}
+1000061164 = {
+	name="Rahanweyn"
+	culture = somali
+}
+1000061165 = {
+	name="Madhiban"
+	culture = somali
+}
+1000061166 = {
+	name="Muse"
+	culture = somali
+}
+1000061167 = {
+	name="Reerow-Xassan"
+	culture = somali
+}
+1000061168 = {
+	name="Sheekhaal"
+	culture = somali
+}
+1000061169 = {
+	name="Yibir"
+	culture = somali
+}
+1000061421 = {
+	name="Joof"
+	culture = serer
+}
+1000061430 = {
+	name="Niane"
+	culture = serer
+}
+1000061431 = {
+	name="Joof"
+	culture = serer
+}
+1000061432 = {
+	name="Faye"
+	culture = serer
+}	
+1000061433 = {
+	name="Ngom"
+	culture = serer
+}
+1000061434 = {
+	name="Sene"
+	culture = serer
+}
+1000061435 = {
+	name="Jon"
+	culture = serer
+}
+1000061436 = {
+	name="Tine"
+	culture = serer
+}
+1000061437 = {
+	name="Loum"
+	culture = serer
+}
+1000061438 = {
+	name="Ndaw"
+	culture = serer
+}
+1000061439 = {
+	name="Jein"
+	culture = serer
+}
+1000061440 = {
+	name="Thiaw"
+	culture = serer
+}
+1000061441 = {
+	name="Senghor"
+	culture = serer
+}
+1000061442 = {
+	name="Ndur"
+	culture = serer
+}	
+1000061443 = {
+	name="Ndione"
+	culture = serer
+}
+1000061444 = {
+	name="Gadio"
+	culture = serer
+}
+1000061445 = {
+	name="Sarr"
+	culture = serer
+}
+1000061446 = {
+	name="Kama"
+	culture = serer
+}
+1000061447 = {
+	name="Jaye"
+	culture = serer
+}
+1000061448 = {
+	name="Joos"
+	culture = serer
+}
+1000061449 = {
+	name="Guelowar"
+	culture = serer
+}
+1000061810 = {
+	name="Sunni"
+	culture = songhai
+}
+1000061811 = {
+	name="Askia"
+	culture = songhai
+}
+1000061812 = {
+	name="Ture"
+	culture = songhai
+}	
+1000061813 = {
+	name="Za"
+	culture = songhai
+}
+1000061814 = {
+	name="Baba"
+	culture = songhai
+}
+1000061815 = {
+	name="Bagayogo"
+	culture = songhai
+}
+1000061816 = {
+	name="Kati"
+	culture = songhai
+}
+1000061817 = {
+	name="Sagha"
+	culture = songhai
+}
+1000061818 = {
+	name="Zarma"
+	culture = songhai
+}
+1000061819 = {
+	name="Sawaq"
+	culture = songhai
+}
+1000061820 = {
+	name="Igdalen"
+	culture = songhai
+}
+1000061821 = {
+	name="Iberogan"
+	culture = songhai
+}
+1000061822 = {
+	name="Dawashak"
+	culture = songhai
+}	
+1000061823 = {
+	name="Dendi"
+	culture = songhai
+}
+1000061824 = {
+	name="Kaado"
+	culture = songhai
+}
+1000061825 = {
+	name="Hombori"
+	culture = songhai
+}
+1000061826 = {
+	name="Goundam"
+	culture = songhai
+}
+1000061827 = {
+	name="Ture"
+	culture = songhai
+}
+1000061828 = {
+	name="Ansongo"
+	culture = songhai
+}
+1000061829 = {
+	name="Isawaghan"
+	culture = songhai
+}
+1000091180 = {
+	name="Halfaweyen"
+	culture = nubian
+}
+1000091181 = {
+	name="Sikut"
+	culture = nubian
+}
+1000091182 = {
+	name="Shaigiya"
+	culture = nubian
+}	
+1000091183 = {
+	name="Wayula"
+	culture = nubian
+}
+1000091184 = {
+	name="Ajibid"
+	culture = nubian
+}
+1000091185 = {
+	name="Silko"
+	culture = nubian
+}
+1000091186 = {
+	name="Daw"
+	culture = nubian
+}
+1000091187 = {
+	name="Dotawo"
+	culture = nubian
+}
+1000091188 = {
+	name="Para"
+	culture = nubian
+}
+1000091189 = {
+	name="Soba"
+	culture = nubian
+}
+1000091190 = {
+	name="Kalabsha"
+	culture = nubian
+}
+1000091191 = {
+	name="Suenkur"
+	culture = nubian
+}
+1000091192 = {
+	name="Sai"
+	culture = nubian
+}	
+1000091193 = {
+	name="Meinarti"
+	culture = nubian
+}
+1000091194 = {
+	name="Kenzi"
+	culture = nubian
+}
+1000091195 = {
+	name="Midob"
+	culture = nubian
+}
+1000091196 = {
+	name="Birgid"
+	culture = nubian
+}
+1000091197 = {
+	name="Dilling"
+	culture = nubian
+}
+1000091198 = {
+	name="Debri"
+	culture = nubian
+}
+1000091199 = {
+	name="Kadaru"
+	culture = nubian
+}
+1000091280 = {
+	name="Kobé"
+	culture = zaghawa
+}
+1000091281 = {
+	name="Duguwa"
+	culture = zaghawa
+}
+1000091282 = {
+	name="Déby"
+	culture = zaghawa
+}	
+1000091283 = {
+	name="Tajir"
+	culture = zaghawa
+}
+1000091284 = {
+	name="Koty"
+	culture = zaghawa
+}
+1000091285 = {
+	name="Hari"
+	culture = zaghawa
+}
+1000091286 = {
+	name="Anu"
+	culture = zaghawa
+}
+1000091287 = {
+	name="Minnawi"
+	culture = zaghawa
+}
+1000091288 = {
+	name="Awlad Digayn"
+	culture = zaghawa
+}
+1000091289 = {
+	name="Um Buru"
+	culture = zaghawa
+}
+1000091290 = {
+	name="Kobe"
+	culture = zaghawa
+}
+1000091291 = {
+	name="Kabka"
+	culture = zaghawa
+}
+1000091292 = {
+	name="Wogi"
+	culture = zaghawa
+}	
+1000091293 = {
+	name="Bideyat"
+	culture = zaghawa
+}
+1000091294 = {
+	name="Toba"
+	culture = zaghawa
+}
+1000091295 = {
+	name="Borogat"
+	culture = zaghawa
+}
+1000091296 = {
+	name="Goran"
+	culture = zaghawa
+}
+1000091297 = {
+	name="Kornoy"
+	culture = zaghawa
+}
+1000091298 = {
+	name="Gala"
+	culture = zaghawa
+}
+1000091299 = {
+	name="Tuer"
+	culture = zaghawa
+}
+1000091300 = {
+	name="Artaj"
+	culture = zaghawa
+}
+1000091301 = {
+	name="Um Haraz"
+	culture = zaghawa
+}
+1000091302 = {
+	name="Dor"
+	culture = zaghawa
+}	
+1000091303 = {
+	name="Sueini"
+	culture = zaghawa
+}
+1000091304 = {
+	name="Beire"
+	culture = zaghawa
+}
+1000091305 = {
+	name="Hashaba"
+	culture = zaghawa
+}
+1000091306 = {
+	name="Imogu"
+	culture = zaghawa
+}
+1000091307 = {
+	name="Unai"
+	culture = zaghawa
+}
+1000091308 = {
+	name="Eni"
+	culture = zaghawa
+}
+1000091309 = {
+	name="Dirong"
+	culture = zaghawa
+}
+1000091310 = {
+	name="Seyfawa"
+	culture = kanuri
+}
+1000091311 = {
+	name="Duguwa"
+	culture = kanuri
+}
+1000091312 = {
+	name="Manga"
+	culture = kanuri
+}	
+1000091313 = {
+	name="Nga"
+	culture = kanuri
+}
+1000091314 = {
+	name="Tumari"
+	culture = kanuri
+}
+1000091315 = {
+	name="Bla Bla"
+	culture = kanuri
+}
+1000091316 = {
+	name="Dipcharima"
+	culture = kanuri
+}
+1000091317 = {
+	name="Kanembu"
+	culture = kanuri
+}
+1000091318 = {
+	name="Margi"
+	culture = kanuri
+}
+1000091319 = {
+	name="Shuwa"
+	culture = kanuri
+}
+1000091320 = {
+	name="Tera"
+	culture = kanuri
+}
+1000091321 = {
+	name="Bade"
+	culture = kanuri
+}
+1000091322 = {
+	name="Mowar"
+	culture = kanuri
+}	
+1000091323 = {
+	name="Suwurti"
+	culture = kanuri
+}
+1000091324 = {
+	name="Gamergu"
+	culture = kanuri
+}
+1000091325 = {
+	name="Jolo"
+	culture = kanuri
+}
+1000091326 = {
+	name="Dogumba"
+	culture = kanuri
+}
+1000091327 = {
+	name="Marte"
+	culture = kanuri
+}
+1000091328 = {
+	name="Ngala"
+	culture = kanuri
+}
+1000091329 = {
+	name="Musune"
+	culture = kanuri
+}
+1000091330 = {
+	name="Awaleri"
+	culture = kanuri
+}
+1000091331 = {
+	name="Urga"
+	culture = kanuri
+}
+1000091332 = {
+	name="Gumshewu"
+	culture = kanuri
+}	
+1000091333 = {
+	name="Tagdafewu"
+	culture = kanuri
+}
+1000091334 = {
+	name="Jologumsala"
+	culture = kanuri
+}
+1000091335 = {
+	name="Mawu"
+	culture = kanuri
+}
+1000091336 = {
+	name="Zulewu"
+	culture = kanuri
+}
+1000091337 = {
+	name="Baleawu"
+	culture = kanuri
+}
+1000091338 = {
+	name="Ndayakotsa"
+	culture = kanuri
+}
+1000091339 = {
+	name="Tandu"
+	culture = kanuri
+}
+1000091340 = {
+	name="Ndatere"
+	culture = kanuri
+}
+1000091341 = {
+	name="Ndumibudde"
+	culture = kanuri
+}
+1000091342 = {
+	name="Mdunaga"
+	culture = kanuri
+}	
+1000091343 = {
+	name="Dubula"
+	culture = kanuri
+}
+1000091344 = {
+	name="Mowa"
+	culture = kanuri
+}
+1000091345 = {
+	name="Gumshe"
+	culture = kanuri
+}
+1000091346 = {
+	name="Yerwa"
+	culture = kanuri
+}
+1000091347 = {
+	name="Fachi"
+	culture = kanuri
+}
+1000091348 = {
+	name="Kubari"
+	culture = kanuri
+}
+1000091349 = {
+	name="Bol"
+	culture = kanuri
+}
+1000091350 = {
+	name="Maguzawa"
+	culture = hausa
+}
+1000091351 = {
+	name="Nok"
+	culture = hausa
+}
+1000091352 = {
+	name="Arewa"
+	culture = hausa
+}	
+1000091353 = {
+	name="Daragaram"
+	culture = hausa
+}
+1000091354 = {
+	name="Aderawa"
+	culture = hausa
+}
+1000091355 = {
+	name="Gibanawa"
+	culture = hausa
+}
+1000091356 = {
+	name="Kataf"
+	culture = hausa
+}
+1000091357 = {
+	name="Funtuwa"
+	culture = hausa
+}
+1000091358 = {
+	name="Shata"
+	culture = hausa
+}
+1000091359 = {
+	name="Issoufou"
+	culture = hausa
+}
+1000091360 = {
+	name="Audu"
+	culture = hausa
+}
+1000091361 = {
+	name="Dantata"
+	culture = hausa
+}
+1000091362 = {
+	name="Gwandara"
+	culture = hausa
+}	
+1000091363 = {
+	name="Poki"
+	culture = hausa
+}
+1000091364 = {
+	name="Sabo"
+	culture = hausa
+}
+1000091365 = {
+	name="Salga"
+	culture = hausa
+}
+1000091366 = {
+	name="Butawa"
+	culture = hausa
+}
+1000091367 = {
+	name="Kare"
+	culture = hausa
+}
+1000091368 = {
+	name="Tangale"
+	culture = hausa
+}
+1000091369 = {
+	name="Dosso"
+	culture = hausa
+}
+1000091370 = {
+	name="Kahtan"
+	culture = beja
+}
+1000091371 = {
+	name="Rabi'a"
+	culture = beja
+}
+1000091372 = {
+	name="Hadariba"
+	culture = beja
+}	
+1000091373 = {
+	name="Amar'ar"
+	culture = beja
+}
+1000091374 = {
+	name="Weled Gwilei"
+	culture = beja
+}
+1000091375 = {
+	name="Weled Aliab"
+	culture = beja
+}
+1000091376 = {
+	name="Weled Kurab Wagadab"
+	culture = beja
+}
+1000091377 = {
+	name="Beni-Amer"
+	culture = beja
+}
+1000091378 = {
+	name="Bisharin"
+	culture = beja
+}
+1000091379 = {
+	name="Hadendowa"
+	culture = beja
+}
+1000091380 = {
+	name="Ababda"
+	culture = beja
+}
+1000091381 = {
+	name="Halenga"
+	culture = beja
+}
+1000091382 = {
+	name="Arteiga"
+	culture = beja
+}	
+1000091383 = {
+	name="Tankwire"
+	culture = beja
+}
+1000091384 = {
+	name="Mensa"
+	culture = beja
+}
+1000091385 = {
+	name="Ganitika"
+	culture = beja
+}
+1000091386 = {
+	name="Aritik"
+	culture = beja
+}
+1000091387 = {
+	name="Biwatika"
+	culture = beja
+}
+1000091388 = {
+	name="Wahtika"
+	culture = beja
+}
+1000091389 = {
+	name="Sutandawa"
+	culture = beja
+}
+1000091390 = {
+	name="Aknandiwa"
+	culture = beja
+}
+1000091391 = {
+	name="Naghrandiwa"
+	culture = beja
+}
+1000091392 = {
+	name="Hadat'ar"
+	culture = beja
+}	
+1000091393 = {
+	name="Digna"
+	culture = beja
+}
+1000091394 = {
+	name="Rashaidah"
+	culture = beja
+}
+1000091395 = {
+	name="Hamran"
+	culture = beja
+}
+1000091396 = {
+	name="Hedareb"
+	culture = beja
+}
+1000091397 = {
+	name="Hashish"
+	culture = beja
+}
+1000091398 = {
+	name="Labat"
+	culture = beja
+}
+1000091399 = {
+	name="Halenqua"
+	culture = beja
+}
+1000091400 = {
+	name="Dardaju"
+	culture = daju
+}
+1000091401 = {
+	name="Beygo"
+	culture = daju
+}
+1000091402 = {
+	name="Mongo"
+	culture = daju
+}	
+1000091403 = {
+	name="Darsila"
+	culture = daju
+}
+1000091404 = {
+	name="Ngulgule"
+	culture = daju
+}
+1000091405 = {
+	name="Logorik"
+	culture = daju
+}
+1000091406 = {
+	name="Shatt"
+	culture = daju
+}
+1000091407 = {
+	name="Tunjur"
+	culture = daju
+}
+1000091408 = {
+	name="Fininga"
+	culture = daju
+}
+1000091409 = {
+	name="Bokoruge"
+	culture = daju
+}
+1000091410 = {
+	name="Gadjira"
+	culture = daju
+}
+1000091411 = {
+	name="Eref"
+	culture = daju
+}
+1000091412 = {
+	name="Bardangal"
+	culture = daju
+}	
+1000091413 = {
+	name="Nyala"
+	culture = daju
+}
+1000091414 = {
+	name="Lagowa"
+	culture = daju
+}
+1000091415 = {
+	name="Saaronge"
+	culture = daju
+}
+1000091416 = {
+	name="Temein"
+	culture = daju
+}
+1000091417 = {
+	name="Kadugli"
+	culture = daju
+}
+1000091418 = {
+	name="Doni"
+	culture = daju
+}
+1000091419 = {
+	name="Tese"
+	culture = daju
+}
+1000091420 = {
+	name="Opi"
+	culture = nilotic
+}
+1000091421 = {
+	name="Obote"
+	culture = nilotic
+}
+1000091422 = {
+	name="Anyonti"
+	culture = nilotic
+}	
+1000091423 = {
+	name="Obama"
+	culture = nilotic
+}
+1000091424 = {
+	name="Jamma"
+	culture = nilotic
+}
+1000091425 = {
+	name="Owalo"
+	culture = nilotic
+}
+1000091426 = {
+	name="Ogot"
+	culture = nilotic
+}
+1000091427 = {
+	name="Abasuba"
+	culture = nilotic
+}
+1000091428 = {
+	name="Odinga"
+	culture = nilotic
+}
+1000091429 = {
+	name="Mboya"
+	culture = nilotic
+}
+1000091430 = {
+	name="Okumu"
+	culture = nilotic
+}
+1000091431 = {
+	name="Orengo"
+	culture = nilotic
+}
+1000091432 = {
+	name="Ouko"
+	culture = nilotic
+}	
+1000091433 = {
+	name="Odhiambo"
+	culture = nilotic
+}
+1000091434 = {
+	name="Oyo"
+	culture = nilotic
+}
+1000091435 = {
+	name="Nyegilo"
+	culture = nilotic
+}
+1000091436 = {
+	name="Anuak"
+	culture = nilotic
+}
+1000091437 = {
+	name="Bagaya"
+	culture = nilotic
+}
+1000091438 = {
+	name="Ogilo"
+	culture = nilotic
+}
+1000091439 = {
+	name="Alil"
+	culture = nilotic
+}
+1000091440 = {
+	name="Daw"
+	culture = nilotic
+}
+1000091441 = {
+	name="Deng"
+	culture = nilotic
+}
+1000091442 = {
+	name="Majok"
+	culture = nilotic
+}	
+1000091443 = {
+	name="Wek"
+	culture = nilotic
+}
+1000091444 = {
+	name="Pakam"
+	culture = nilotic
+}
+1000091445 = {
+	name="Aniin"
+	culture = nilotic
+}
+1000091446 = {
+	name="Liedh"
+	culture = nilotic
+}
+1000091447 = {
+	name="Akoor-koor"
+	culture = nilotic
+}
+1000091448 = {
+	name="Manuer"
+	culture = nilotic
+}
+1000091449 = {
+	name="Gaak"
+	culture = nilotic
+}
+1000091450 = {
+	name="Ninil"
+	culture = nilotic
+}
+1000091451 = {
+	name="Luac"
+	culture = nilotic
+}
+1000091452 = {
+	name="Gok"
+	culture = nilotic
+}	
+1000091453 = {
+	name="Rec"
+	culture = nilotic
+}
+1000091454 = {
+	name="Boor"
+	culture = nilotic
+}
+1000091455 = {
+	name="Pariang"
+	culture = nilotic
+}
+1000091456 = {
+	name="Agar"
+	culture = nilotic
+}
+1000091457 = {
+	name="Aliab"
+	culture = nilotic
+}
+1000091458 = {
+	name="Atuot"
+	culture = nilotic
+}
+1000091459 = {
+	name="Chiej"
+	culture = nilotic
+}
+1000091460 = {
+	name="Gok"
+	culture = nilotic
+}
+1000091461 = {
+	name="Malual"
+	culture = nilotic
+}
+1000091462 = {
+	name="Ngok"
+	culture = nilotic
+}	
+1000091463 = {
+	name="Rek"
+	culture = nilotic
+}
+1000091464 = {
+	name="Twij"
+	culture = nilotic
+}
+1000091465 = {
+	name="Ruweng"
+	culture = nilotic
+}
+1000091466 = {
+	name="Abialeng"
+	culture = nilotic
+}
+1000091467 = {
+	name="Ciec"
+	culture = nilotic
+}
+1000091468 = {
+	name="Bor"
+	culture = nilotic
+}
+1000091469 = {
+	name="Hol"
+	culture = nilotic
+}
+1000091470 = {
+	name="Wallo"
+	culture = ethiopian
+}
+1000091471 = {
+	name="Ittu"
+	culture = ethiopian
+}
+1000091472 = {
+	name="Karayu"
+	culture = ethiopian
+}	
+1000091473 = {
+	name="Aniya"
+	culture = ethiopian
+}
+1000091474 = {
+	name="Afran"
+	culture = ethiopian
+}
+1000091475 = {
+	name="Arsi"
+	culture = ethiopian
+}
+1000091476 = {
+	name="Qallu"
+	culture = ethiopian
+}
+1000091477 = {
+	name="Worji"
+	culture = ethiopian
+}
+1000091478 = {
+	name="Sidama"
+	culture = ethiopian
+}
+1000091479 = {
+	name="ha-Dani"
+	culture = ethiopian
+}
+1000091480 = {
+	name="Cissé"
+	culture = soninke
+}
+1000091481 = {
+	name="Tounkara"
+	culture = soninke
+}
+1000091482 = {
+	name="Soumare"
+	culture = soninke
+}	
+1000091483 = {
+	name="Yatabare"
+	culture = soninke
+}
+1000091484 = {
+	name="Soukhounou"
+	culture = soninke
+}
+1000091485 = {
+	name="Shoukhouna"
+	culture = soninke
+}
+1000091486 = {
+	name="Dukuray"
+	culture = soninke
+}
+1000091487 = {
+	name="Sarolle"
+	culture = soninke
+}
+1000091488 = {
+	name="Diakkane"
+	culture = soninke
+}
+1000091489 = {
+	name="Diakité"
+	culture = soninke
+}
+1000091490 = {
+	name="Diané"
+	culture = soninke
+}
+1000091491 = {
+	name="Diula"
+	culture = soninke
+}
+1000091492 = {
+	name="Fadiga"
+	culture = soninke
+}	
+1000091493 = {
+	name="Ndiaye"
+	culture = soninke
+}
+1000091494 = {
+	name="Sumare"
+	culture = soninke
+}
+1000091495 = {
+	name="Jatta"
+	culture = soninke
+}
+1000091496 = {
+	name="Jarra"
+	culture = soninke
+}
+1000091497 = {
+	name="Bozo"
+	culture = soninke
+}
+1000091498 = {
+	name="Nemadi"
+	culture = soninke
+}
+1000091499 = {
+	name="Jakhanke"
+	culture = soninke
+}
+
+
+
+

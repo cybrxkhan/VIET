@@ -1,0 +1,31 @@
+# 342 - Agrigento
+
+# County Title
+title = c_agrigento
+
+# Settlements
+max_settlements = 4
+b_caltabellotta = castle
+b_butera = city
+b_agricento = temple
+
+#b_sanbiagioplatani = castle #San Biagio Platani
+#b_gela = castle
+#b_licata = castle
+#b_raffadali = castle
+#b_montallegro = castle
+
+# Misc
+culture = siculo_arabic
+religion = sunni
+terrain = hills
+
+# History
+1066.1.1={ trade_post = b_polkarios }
+1076.12.13={ trade_post = -1 }
+1111.1.1 = { trade_post = b_ziani }
+1111.1.1={ culture = italian }
+1111.1.1={ religion = catholic }
+1130.12.25 = { culture = sicilian }
+
+1337.1.1 = { remove_settlement = b_agricento }

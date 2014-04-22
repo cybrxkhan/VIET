@@ -1,0 +1,18 @@
+name = "Prussian Crusade"
+
+casus_belli = {
+	actor = 30403
+	recipient = 228016
+	casus_belli=claim_all
+	date=1224.1.1
+}
+
+1224.1.1 = {
+	add_attacker = 30403
+	add_defender = 228016
+}
+
+1225.1.1 = {
+	rem_defender = 228016
+	rem_attacker = 30403
+}

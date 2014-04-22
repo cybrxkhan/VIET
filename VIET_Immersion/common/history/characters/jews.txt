@@ -1,0 +1,871 @@
+#Old High Priests
+1000052001 = {
+	name="Joazar"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="karaite"
+	culture="mizrahi"
+	dna="cmeei0fgaa0"
+	properties="oe0mfmbebbb"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052002 = {
+	name="Ananus"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052003 = {
+	name="Ishmael"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052004 = {
+	name="Eleazar"
+	dynasty=1000091580
+	father=1000052002
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052005 = {
+	name="Simon"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052006 = {
+	name="Yosef bar Caiaphas"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	#20.1.1={
+	#	add_spouse=1000052016
+	#}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052007 = {
+	name="Jonathan"
+	dynasty=1000091580
+	father=1000052002
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052008 = {
+	name="Theophilus"
+	dynasty=1000091580
+	father=1000052002
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052009 = {
+	name="Simon Cantatheras"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="karaite"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	50.1.1={
+		death="50.1.1"
+	}
+}
+1000052010 = {
+	name="Matthias"
+	dynasty=1000091580
+	father=1000052002
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052011 = {
+	name="Elioneus Cantatheras"
+	dynasty=1000091580
+	father=1000052009
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="karaite"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052013 = {
+	name="Josephus"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052014 = {
+	name="Ananias"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052015 = {
+	name="Jonathan"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052017 = {
+	name="Joseph Cabi"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052018 = {
+	name="Ananus"
+	dynasty=1000091580
+	father=1000052002
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	68.1.1={
+		death="68.1.1"
+	}
+}
+1000052019 = {
+	name="Joshua"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052020 = {
+	name="Joshua"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="karaite"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052021 = {
+	name="Mattathias"
+	dynasty=1000091580
+	martial=2
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "scholarly_theologian"
+
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.1.1"
+	}
+}
+1000052022 = {
+	name="Phannias"
+	martial=20
+	diplomacy=15
+	intrigue=13
+	stewardship=12
+	learning=15
+	religion="jewish"
+	culture="mizrahi"
+	add_trait = "skilled_tactician"
+
+	add_trait="maimed"
+	1.1.1={
+		birth="1.1.1"
+	}
+	70.1.1={
+		death="70.5.5"
+	}
+}
+
+#Extra
+# 1000052016 - removed
+#Historical courtiers
+1000052023 = {
+	name="Judah"
+	martial=10
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=17
+	religion="jewish"
+	culture="sephardi"
+	add_trait = "scholarly_theologian"
+
+	employer = 73261
+
+	1120.1.1={
+		birth="1120.1.11"
+	}
+	1150.1.1={
+		employer = 138220
+	}
+	1190.1.1={
+		death="1190.1.1"
+	}
+}
+1000052024 = {
+	name="Samuel"
+	martial=10
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="sephardi"
+	father=1000052023
+	add_trait = "scholarly_theologian"
+
+	employer = 138220
+
+	1150.1.1={
+		birth="1150.1.1"
+	}
+	1230.1.1={
+		death="1230.1.1"
+	}
+}
+1000052025 = {
+	name="Moses"
+	martial=10
+	diplomacy=15
+	intrigue=10
+	stewardship=13
+	learning=20
+	religion="jewish"
+	culture="sephardi"
+	father=1000052024
+	add_trait = "scholarly_theologian"
+
+	employer = 210517
+
+	1210.1.1={
+		birth="1210.1.1" # Guess
+	}
+	1283.1.1={
+		death="1283.1.1" # Guess
+	}
+}
+
+1000052032 = {
+	name="Abu Sa'id al-Afif"
+	martial=12
+	diplomacy=14
+	intrigue=10
+	stewardship=10
+	learning=19
+	religion="samaritan"
+	culture="egyptian_arabic"
+	add_trait = "genius"
+
+	employer = 34034
+
+	1384.1.1={
+		birth="1384.1.1" # Guess
+	}
+	1553.1.1={
+		death="1553.1.1" # Guess
+	}
+}
+
+#Ahistorical courtiers to have something when the game starts.
+1000052026 = {
+	name="Abraham"
+	martial=7
+	diplomacy=12
+	intrigue=14
+	stewardship=15
+	learning=13
+	religion="jewish"
+	culture="ashkenazi"
+	add_trait = "fortune_builder"
+
+	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
+
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1140.1.1={
+		death="1140.1.1" 
+	}
+}
+1000052027 = {
+	name="Adam"
+	martial=8
+	diplomacy=18
+	intrigue=13
+	stewardship=7
+	learning=14
+	religion="jewish"
+	culture="ashkenazi"
+	add_trait = "martial_cleric"
+	add_trait = "fair"
+
+	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
+
+	1039.1.1={
+		birth="1039.1.1"
+	}
+	1139.1.1={
+		death="1139.1.1" 
+	}
+}
+1000052028 = {
+	name="Moses"
+	martial=2
+	diplomacy=14
+	intrigue=15
+	stewardship=11
+	learning=14
+	religion="jewish"
+	culture="ashkenazi"
+	add_trait = "thrifty_clerk"
+
+	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
+
+	1042.1.1={
+		birth="1042.1.1"
+	}
+	1141.1.1={
+		death="1141.1.1" 
+	}
+}
+1000052029 = {
+	name="Aaron"
+	martial=13
+	diplomacy=10
+	intrigue=10
+	stewardship=6
+	learning=8
+	religion="jewish"
+	culture="ashkenazi"
+	add_trait = "skilled_tactician"
+	add_trait = "strong"
+
+	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
+
+	1033.1.1={
+		birth="1033.1.1"
+	}
+	1110.1.1={
+		death="1110.1.1" 
+	}
+}
+1000052030 = {
+	name="Jacob"
+	dynasty=1000091580
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	learning=15
+	religion="jewish"
+	culture="ashkenazi"
+	add_trait = "scholarly_theologian"
+	add_trait = "genius"
+	add_trait = "levite"
+
+	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
+
+	1050.1.1={
+		birth="1050.1.1"
+	}
+	1150.1.1={
+		death="1150.1.1" 
+	}
+}
+1000052031 = {
+	name="Yusuf"
+	martial=6
+	diplomacy=13
+	intrigue=6
+	stewardship=8
+	religion="samaritan"
+	culture="mizrahi"
+	add_trait="skilled_tactician"
+
+	employer = 41706
+
+	1050.1.1={
+		birth="1050.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+1000052033 = {
+	name="Thomas"
+	religion="karaite"
+	culture="sephardi"
+	add_trait="strong"
+	add_trait="envious"
+	add_trait="tough_soldier"
+	add_trait="shy"
+
+	employer = 3924
+
+	1044.1.1={
+		birth="1044.1.1"
+	}
+	1093.1.1={
+		death="1093.1.1"
+	}
+}
+
+#Non-Karaite Exilarchs 1000158831
+1000158831 = {
+	name="David ben Judah"
+	religion="jewish"
+	culture="mizrahi"
+	#father=1000158831
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	695.1.1={
+		birth="695.1.1"
+	}
+	760.1.1={
+		death="760.1.1"
+	}
+}
+1000158832 = {
+	name="Natronai"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158831
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	735.1.1={
+		birth="735.1.1"
+	}
+	810.1.1={
+		death="810.1.1"
+	}
+}
+1000158833 = {
+	name="Hasdai"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158832
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	790.1.1={
+		birth="790.1.1"
+	}
+	870.1.1={
+		death="870.1.1"
+	}
+}
+1000158834 = {
+	name="Ukba"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158833
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	850.1.1={
+		birth="850.1.1"
+	}
+	921.1.1={
+		death="921.1.1"
+	}
+}
+1000158835 = {
+	name="David ben Zakkai"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158834 #Not actually his father, but whatever
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	870.1.1={
+		birth="870.1.1"
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+1000158836 = {
+	name="Judah"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158835
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	900.1.1={
+		birth="900.1.1"
+	}
+	941.1.1={
+		death="941.1.1"
+	} #Technically survived only 7 months, made one year for convenience
+}
+1000158837 = { #Name unknown
+	name="David"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158836
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	929.1.1={
+		birth="929.1.1"
+	}
+	1000.1.1={
+		death="1000.1.1"
+	}
+}
+1000158838 = { #Last definite exilarch
+	name="Hezekiah"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158837
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	970.1.1={
+		birth="970.1.1"
+	}
+	1046.1.1={
+		death="1046.1.1"
+	} #Said to have been executed in 1040, but some contemporary sources say he lived until 1046
+}
+#Hezekiah's sons fled to Spain, and the Exilarch title may have fell into disuse. However, later sources occasionally mention exilarchs until c. 1216.
+#Some of the following characters are fictional, others are not
+1000158839 = {
+	name="Daniel"
+	religion="jewish"
+	culture="mizrahi"
+	#father=1000158838 #Appears to be a different branch of the family now, if the Exilarchy did indeed survive
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1081.1.1={
+		death="1081.1.1"
+	}
+}
+1000158840 = { #Technically in Egypt
+	name="David"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158839
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1061.1.1={
+		birth="1061.1.1"
+	}
+	1094.1.1={
+		death="1094.1.1"
+	}
+}
+#Following are fictional unless otherwise indicated
+1000158841 = {
+	name="Aaron"
+	religion="jewish"
+	culture="mizrahi"
+	#father=1000158840 #Switch again, descendants of 1000158840 fade into obscurity in Egypt or something
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1048.1.1={
+		birth="1048.1.1"
+	}
+	1123.1.1={
+		death="1123.1.1"
+	}
+}
+1000158842 = {
+	name="Zachariah"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158841
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1088.1.1={
+		birth="1088.1.1"
+	}
+	1155.1.1={
+		death="1155.1.1"
+	}
+}
+1000158843 = {
+	name="Hasdai"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158842
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1111.1.1={
+		birth="1111.1.1"
+	}
+	1180.1.1={
+		death="1180.1.1"
+	}
+}
+1000158844 = {
+	name="Daniel"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158843
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1145.1.1={
+		birth="1145.1.1"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+1000158845 = { #Last known person with the title of Exilarch
+	name="David"
+	religion="jewish"
+	culture="mizrahi"
+	father=1000158844
+	dynasty=1000061250
+	add_trait = "scholarly_theologian"
+	add_trait = "house_of_david"
+
+	1061.1.1={
+		birth="1061.1.1"
+	}
+	1216.1.1={
+		death="1216.1.1"
+	}
+}

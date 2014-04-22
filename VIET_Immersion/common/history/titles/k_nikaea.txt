@@ -1,0 +1,8 @@
+1204.5.16={
+	de_jure_liege="e_nikaea"
+	add_law = succ_primogeniture
+	add_law = cognatic_succession
+}
+1261.7.25={
+	de_jure_liege="e_byzantium"
+}

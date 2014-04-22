@@ -1,0 +1,1342 @@
+#######################################################################################################
+#This is for Jewish dynasties added in VIET
+#They are placed separately here for easier mod integration and updating in between patches
+#######################################################################################################
+
+1000061170 = {
+	name="Abravanel"
+	culture = sephardi
+}
+1000061171 = {
+	name="Abulafia"
+	culture = sephardi
+}
+1000061172 = {
+	name="Avela"
+	culture = sephardi
+}	
+1000061173 = {
+	name="Camondo"
+	culture = sephardi
+}
+1000061174 = {
+	name="Cotto"
+	culture = sephardi
+}
+1000061175 = {
+	name="De Castro"
+	culture = sephardi
+}
+1000061176 = {
+	name="Maimon"
+	culture = sephardi
+}
+1000061177 = {
+	name="Shaul"
+	culture = sephardi
+}
+1000061178 = {
+	name="Maimon"
+	culture = sephardi
+}
+1000061179 = {
+	name="Vasco"
+	culture = sephardi
+}
+1000061180 = {
+	name="Marchant"
+	culture = ashkenazi
+}
+1000061181 = {
+	name="Berab"
+	culture = sephardi
+}
+1000061182 = {
+	name="Aboab"
+	culture = sephardi
+}	
+1000061183 = {
+	name="Gaon"
+	culture = sephardi
+}
+1000061184 = {
+	name="Abeldano"
+	culture = sephardi
+}
+1000061185 = {
+	name="Abencabre"
+	culture = sephardi
+}
+1000061186 = {
+	name="Avinbruch"
+	culture = sephardi
+}
+1000061187 = {
+	name="Hacen"
+	culture = sephardi
+}
+1000061188 = {
+	name="Acaz"
+	culture = sephardi
+}
+1000061189 = {
+	name="Coffe"
+	culture = sephardi
+}
+1000061190 = {
+	name="Crescas"
+	culture = sephardi
+}
+1000061191 = {
+	name="Espinosa"
+	culture = sephardi
+}
+1000061192 = {
+	name="Gerondi"
+	culture = sephardi
+}	
+1000061193 = {
+	name="Cavalleria"
+	culture = sephardi
+}
+1000061194 = {
+	name="Maimon"
+	culture = sephardi
+}
+1000061195 = {
+	name="Lousada"
+	culture = sephardi
+}
+1000061196 = {
+	name="Maimon"
+	culture = sephardi
+}
+1000061197 = {
+	name="Sasportas"
+	culture = sephardi
+}
+1000061198 = {
+	name="Asturias"
+	culture = sephardi
+}
+1000061199 = {
+	name="Ibn Ezra"
+	culture = sephardi
+}
+1000061200 = {
+	name="Maimon"
+	culture = mizrahi
+}
+1000061201 = {
+	name="Ben-Zion"
+	culture = mizrahi
+}
+1000061202 = {
+	name="Al-Munajja"
+	culture = mizrahi
+}	
+1000061203 = {
+	name="Al-Nakid"
+	culture = mizrahi
+}
+1000061204 = {
+	name="Luria"
+	culture = mizrahi
+}
+1000061205 = {
+	name="Al-Daulah"
+	culture = mizrahi
+}
+1000061206 = {
+	name="Hassan"
+	culture = mizrahi
+}
+1000061207 = {
+	name="Safra"
+	culture = mizrahi
+}
+1000061208 = {
+	name="Ibn Yahuda"
+	culture = mizrahi
+}
+1000061209 = {
+	name="Najara"
+	culture = mizrahi
+}
+1000061210 = {
+	name="Tabib"
+	culture = mizrahi
+}
+1000061211 = {
+	name="Rabban"
+	culture = mizrahi
+}
+1000061212 = {
+	name="Azar"
+	culture = mizrahi
+}	
+1000061213 = {
+	name="Dhu Nuwas"
+	culture = mizrahi
+}
+1000061214 = {
+	name="Al-Lawani"
+	culture = mizrahi
+}
+1000061215 = {
+	name="Al-Shabbezi"
+	culture = mizrahi
+}
+1000061216 = {
+	name="Al-Dhamari"
+	culture = mizrahi
+}
+1000061217 = {
+	name="Barzani"
+	culture = mizrahi
+}
+1000061218 = {
+	name="Semah"
+	culture = mizrahi
+}
+1000061219 = {
+	name="Maimon"
+	culture = mizrahi
+}
+1000061220 = {
+	name="Maimon"
+	culture = romaniote
+}
+1000061221 = {
+	name="Mizrachi"
+	culture = romaniote
+}
+1000061222 = {
+	name="Frizis"
+	culture = romaniote
+}	
+1000061223 = {
+	name="Dalven"
+	culture = romaniote
+}
+1000061224 = {
+	name="Valka"
+	culture = romaniote
+}
+1000061225 = {
+	name="Carteris"
+	culture = romaniote
+}
+1000061226 = {
+	name="Kaufmann"
+	culture = ashkenazi
+}
+1000061227 = {
+	name="Mionis"
+	culture = romaniote
+}
+1000061228 = {
+	name="Sarfati"
+	culture = romaniote
+}
+1000061229 = {
+	name="Capsali"
+	culture = romaniote
+}
+1000061230 = {
+	name="Komitano"
+	culture = romaniote
+}
+1000061231 = {
+	name="Spielmann"
+	culture = ashkenazi
+}
+1000061232 = {
+	name="Qamhi"
+	culture = romaniote
+}	
+1000061233 = {
+	name="Voorsanger"
+	culture = ashkenazi
+}
+1000061234 = {
+	name="Rosanes"
+	culture = romaniote
+}
+1000061235 = {
+	name="Alfandari"
+	culture = romaniote
+}
+1000061236 = {
+	name="Ishaki"
+	culture = romaniote
+}
+1000061237 = {
+	name="Palombo"
+	culture = romaniote
+}
+1000061238 = {
+	name="Benyakar"
+	culture = romaniote
+}
+1000061239 = {
+	name="Fresco"
+	culture = romaniote
+}
+1000061240 = {
+	name="Mahler"
+	culture = ashkenazi
+}
+1000061241 = {
+	name="Avigdor"
+	culture = romaniote
+}
+1000061242 = {
+	name="Geron"
+	culture = romaniote
+}	
+1000061243 = {
+	name="Karasu"
+	culture = romaniote
+}
+1000061244 = {
+	name="Taitazak"
+	culture = romaniote
+}
+1000061245 = {
+	name="Hamon"
+	culture = romaniote
+}
+1000061246 = {
+	name="Mendes"
+	culture = romaniote
+}
+1000061247 = {
+	name="Zevi"
+	culture = romaniote
+}
+1000061248 = {
+	name="Primo"
+	culture = romaniote
+}
+1000061249 = {
+	name="Maimon"
+	culture = romaniote
+}
+1000061470 = {
+	name="Tzul"
+	culture = crimean_jewish
+}
+1000061471 = {
+	name="Bakshi"
+	culture = crimean_jewish
+}
+1000061472 = {
+	name="Tchatchir"
+	culture = crimean_jewish
+}	
+1000061473 = {
+	name="of Troki"
+	culture = crimean_jewish
+}
+1000061474 = {
+	name="of Trakai"
+	culture = crimean_jewish
+}
+1000061475 = {
+	name="Krym"
+	culture = crimean_jewish
+}
+1000061476 = {
+	name="Shapshal"
+	culture = crimean_jewish
+}
+1000061477 = {
+	name="Balaban"
+	culture = crimean_jewish
+}
+1000061478 = {
+	name="Harofeh"
+	culture = crimean_jewish
+}
+1000061479 = {
+	name="Sinan-Chelebi"
+	culture = crimean_jewish
+}
+1000091500 = {
+	name="Ai"
+	culture = chinese_jewish
+}
+1000091501 = {
+	name="Shi"
+	culture = chinese_jewish
+}
+1000091502 = {
+	name="Gao"
+	culture = chinese_jewish
+}	
+1000091503 = {
+	name="Jin"
+	culture = chinese_jewish
+}
+1000091504 = {
+	name="Li"
+	culture = chinese_jewish
+}
+1000091505 = {
+	name="Zhang"
+	culture = chinese_jewish
+}
+1000091506 = {
+	name="Zhao"
+	culture = chinese_jewish
+}
+1000091507 = {
+	name="Ai"
+	culture = chinese_jewish
+}
+1000091508 = {
+	name="Shi"
+	culture = chinese_jewish
+}
+1000091509 = {
+	name="Gao"
+	culture = chinese_jewish
+}
+1000091510 = {
+	name="Jin"
+	culture = chinese_jewish
+}
+1000091511 = {
+	name="Li"
+	culture = chinese_jewish
+}
+1000091512 = {
+	name="Zhang"
+	culture = chinese_jewish
+}	
+1000091513 = {
+	name="Zhao"
+	culture = chinese_jewish
+}
+1000091514 = {
+	name="Shi"
+	culture = chinese_jewish
+}
+1000091515 = {
+	name="Gao"
+	culture = chinese_jewish
+}
+1000091516 = {
+	name="Jin"
+	culture = chinese_jewish
+}
+1000091517 = {
+	name="Li"
+	culture = chinese_jewish
+}
+1000091518 = {
+	name="Zhang"
+	culture = chinese_jewish
+}
+1000091519 = {
+	name="Zhao"
+	culture = chinese_jewish
+}
+1000091520 = {
+	name="ha-Dani"
+	culture = falashim
+}
+1000091521 = {
+	name="ben Malkiel"
+	culture = falashim
+}
+1000091522 = {
+	name="ben Mosheh"
+	culture = falashim
+}	
+1000091523 = {
+	name="ben Mishael"
+	culture = falashim
+}
+1000091524 = {
+	name="Barihun"
+	culture = falashim
+}
+1000091525 = {
+	name="Yaso"
+	culture = falashim
+}
+1000091526 = {
+	name="Tegegne"
+	culture = falashim
+}
+1000091527 = {
+	name="Zemro"
+	culture = falashim
+}
+1000091528 = {
+	name="Hadane"
+	culture = falashim
+}
+1000091529 = {
+	name="Shalom"
+	culture = falashim
+}
+1000091530 = {
+	name="Alemu"
+	culture = falashim
+}
+1000091531 = {
+	name="Massala"
+	culture = falashim
+}
+1000091532 = {
+	name="Admasu"
+	culture = falashim
+}	
+1000091533 = {
+	name="Bahaina"
+	culture = falashim
+}
+1000091534 = {
+	name="Makonnen"
+	culture = falashim
+}
+1000091535 = {
+	name="Shenkor"
+	culture = falashim
+}
+1000091536 = {
+	name="Aynaw"
+	culture = falashim
+}
+1000091537 = {
+	name="Zemiro"
+	culture = falashim
+}
+1000091538 = {
+	name="Taga"
+	culture = falashim
+}
+1000091539 = {
+	name="Dego"
+	culture = falashim
+}
+1000091540 = {
+	name="Bimro"
+	culture = falashim
+}
+1000091541 = {
+	name="Ayele"
+	culture = falashim
+}
+1000091542 = {
+	name="Asher"
+	culture = falashim
+}	
+1000091543 = {
+	name="Elihab"
+	culture = falashim
+}
+1000091544 = {
+	name="Gad"
+	culture = falashim
+}
+1000091545 = {
+	name="Naphtali"
+	culture = falashim
+}
+1000091546 = {
+	name="Takuyo"
+	culture = falashim
+}
+1000091547 = {
+	name="Adamso"
+	culture = falashim
+}
+1000091548 = {
+	name="Bahaina"
+	culture = falashim
+}
+1000091549 = {
+	name="Zana"
+	culture = falashim
+}
+1000091550 = {
+	name="Rabban"
+	culture = indian_jewish
+}
+1000091551 = {
+	name="Azar"
+	culture = indian_jewish
+}
+1000091552 = {
+	name="Salem"
+	culture = indian_jewish
+}	
+1000091553 = {
+	name="Hallegua"
+	culture = indian_jewish
+}
+1000091554 = {
+	name="Rahabi"
+	culture = indian_jewish
+}
+1000091555 = {
+	name="Mir"
+	culture = indian_jewish
+}
+1000091556 = {
+	name="Cheulkar"
+	culture = indian_jewish
+}
+1000091557 = {
+	name="Begum"
+	culture = indian_jewish
+}
+1000091558 = {
+	name="Anjuvannam"
+	culture = indian_jewish
+}
+1000091559 = {
+	name="Machado"
+	culture = indian_jewish
+}
+1000091560 = {
+	name="Malabar"
+	culture = indian_jewish
+}
+1000091561 = {
+	name="Tobi"
+	culture = indian_jewish
+}
+1000091562 = {
+	name="Semah"
+	culture = indian_jewish
+}	
+1000091563 = {
+	name="Sassoon"
+	culture = indian_jewish
+}
+1000091564 = {
+	name="Ezekiel"
+	culture = indian_jewish
+}
+1000091565 = {
+	name="Kehimkar"
+	culture = indian_jewish
+}
+1000091566 = {
+	name="Sopher"
+	culture = indian_jewish
+}
+1000091567 = {
+	name="Songvakar"
+	culture = indian_jewish
+}
+1000091568 = {
+	name="Hardoon"
+	culture = indian_jewish
+}
+1000091569 = {
+	name="Kodungallur"
+	culture = indian_jewish
+}
+1000091570 = {
+	name="Chafin"
+	culture = bukharim
+}
+1000091571 = {
+	name="Shushan"
+	culture = bukharim
+}
+1000091572 = {
+	name="Talmudi"
+	culture = bukharim
+}	
+1000091573 = {
+	name="Gaon"
+	culture = bukharim
+}
+1000091574 = {
+	name="Divan-Begi"
+	culture = bukharim
+}
+1000091575 = {
+	name="Maimon"
+	culture = bukharim
+}
+1000091576 = {
+	name="Rafaeli"
+	culture = bukharim
+}
+1000091577 = {
+	name="Aharoni"
+	culture = bukharim
+}
+1000091578 = {
+	name="Hakham"
+	culture = bukharim
+}
+1000091579 = {
+	name="Bukhori"
+	culture = bukharim
+}
+#JUDAISM MOD BEGIN
+#The Jewish overarching priestly dynasty added in the original Judaism mod
+1000091580 = {
+	name="Kohen"
+	culture = mizrahi
+    	coat_of_arms = {
+	template = 2
+		layer = {
+			texture = 1
+			texture_internal = 9
+			emblem = 0
+			color = 5
+			color = 3
+			color = 1
+		}
+        	layer = {
+			texture = 1
+			texture_internal = 9
+			emblem = 0
+			color = 3
+			color = 5
+			color = 3
+       		}
+    	}
+}
+
+#The Karaite Exilarchs, descended from David. Coat of Arms depicts the Lion of Judah.
+1000091581 = {
+	name="ben David"
+	culture = mizrahi
+    	coat_of_arms = {
+        	template = 0
+        	layer = {
+          	  	texture = 0
+          	  	texture_internal = 0
+          	  	emblem = 1
+          	  	color = 9
+          	  	color = 9
+          	  	color = 9
+        	}
+    	}
+}
+#JUDAISM MOD END
+1000091582 = {
+	name="Yitzchaki"
+	culture = ashkenazi
+}	
+1000091583 = {
+	name="Polak"
+	culture = ashkenazi
+}
+1000091584 = {
+	name="Rothschild"
+	culture = ashkenazi
+}
+1000091585 = {
+	name="Herschel"
+	culture = ashkenazi
+}
+1000091586 = {
+	name="Oppenheim"
+	culture = ashkenazi
+}
+1000091587 = {
+	name="Tyrnau"
+	culture = ashkenazi
+}
+1000091588 = {
+	name="Horowitz"
+	culture = ashkenazi
+}
+1000091589 = {
+	name="Strauss"
+	culture = ashkenazi
+}
+1000091590 = {
+	name="Napthali"
+	culture = bukharim
+}
+1000091591 = {
+	name="Issachar"
+	culture = bukharim
+}
+1000091592 = {
+	name="Bukhari"
+	culture = bukharim
+}	
+1000091593 = {
+	name="Samarkandi"
+	culture = bukharim
+}
+1000091594 = {
+	name="Khwarezmi"
+	culture = bukharim
+}
+1000091595 = {
+	name="Qarshi"
+	culture = bukharim
+}
+1000091596 = {
+	name="Moussai"
+	culture = bukharim
+}
+1000091597 = {
+	name="Yizhak"
+	culture = bukharim
+}
+1000091598 = {
+	name="Potihal"
+	culture = bukharim
+}
+1000091599 = {
+	name="Kohjin"
+	culture = bukharim
+}
+1000091680 = {
+	name="Aviv" #le easter egg 1
+	culture = sephardi
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 7
+			emblem = 0
+			color = 2
+			color = 1
+			color = 1
+		}
+	}
+}
+1000091681 = {
+	name="Iathghlas" #le easter egg 2
+	culture = irish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 7
+			emblem = 0
+			color = 11
+			color = 1
+			color = 8
+		}
+	}
+}
+1000091682 = {
+	name="Teixeira"
+	culture = sephardi
+}	
+1000091683 = {
+	name="Abrabanel"
+	culture = sephardi
+}
+1000091684 = {
+	name="Brampton"
+	culture = sephardi
+}
+1000091685 = {
+	name="Gabirol"
+	culture = sephardi
+}
+1000091686 = {
+	name="HaNagid"
+	culture = sephardi
+}
+1000091687 = {
+	name="Belmonte"
+	culture = sephardi
+}
+1000091688 = {
+	name="Nasi"
+	culture = sephardi
+}
+1000091689 = {
+	name="Pacheco"
+	culture = sephardi
+}
+1000091690 = {
+	name="Blas"
+	culture = sephardi
+}
+1000091691 = {
+	name="Palache"
+	culture = sephardi
+}
+1000091692 = {
+	name="Pimentel"
+	culture = sephardi
+}	
+1000091693 = {
+	name="Azevedo"
+	culture = sephardi
+}
+1000091694 = {
+	name="Sagaste"
+	culture = sephardi
+}
+1000091695 = {
+	name="Salvador"
+	culture = sephardi
+}
+1000091696 = {
+	name="Sasportas"
+	culture = sephardi
+}
+1000091697 = {
+	name="Curiel"
+	culture = sephardi
+}
+1000091698 = {
+	name="Cansino"
+	culture = sephardi
+}
+1000091699 = {
+	name="Toldano"
+	culture = sephardi
+}
+1000091700 = {
+	name="Furst"
+	culture = ashkenazi
+}
+1000091701 = {
+	name="Mendelssohn"
+	culture = ashkenazi
+}
+1000091702 = {
+	name="Emden"
+	culture = ashkenazi
+}	
+1000091703 = {
+	name="Kafka"
+	culture = ashkenazi
+}
+1000091704 = {
+	name="Freud"
+	culture = ashkenazi
+}
+1000091705 = {
+	name="Einstein"
+	culture = ashkenazi
+}
+1000091706 = {
+	name="Bassevi"
+	culture = ashkenazi
+}
+1000091707 = {
+	name="Pincherle"
+	culture = ashkenazi
+}
+1000091708 = {
+	name="Marburger"
+	culture = ashkenazi
+}
+1000091709 = {
+	name="Goldschmidt"
+	culture = ashkenazi
+}
+1000091710 = {
+	name="Mayer"
+	culture = ashkenazi
+}
+1000091711 = {
+	name="Pariente"
+	culture = ashkenazi
+}
+1000091712 = {
+	name="Chalfon"
+	culture = ashkenazi
+}	
+1000091713 = {
+	name="Meisel"
+	culture = ashkenazi
+}
+1000091714 = {
+	name="Model"
+	culture = ashkenazi
+}
+1000091715 = {
+	name="Frankel"
+	culture = ashkenazi
+}
+1000091716 = {
+	name="Aaron"
+	culture = ashkenazi
+}
+1000091717 = {
+	name="Gumpertz"
+	culture = ashkenazi
+}
+1000091718 = {
+	name="Wulff"
+	culture = ashkenazi
+}
+1000091719 = {
+	name="Spinoza"
+	culture = ashkenazi
+}
+1000091750 = {
+	name="Aburbeh"
+	culture = maghreb_jewish
+}
+1000091751 = {
+	name="Tayab"
+	culture = maghreb_jewish
+}
+1000091752 = {
+	name="Ayalon"
+	culture = maghreb_jewish
+}	
+1000091753 = {
+	name="Deri"
+	culture = maghreb_jewish
+}
+1000091754 = {
+	name="Gaon"
+	culture = maghreb_jewish
+}
+1000091755 = {
+	name="Maimon"
+	culture = maghreb_jewish
+}
+1000091756 = {
+	name="Kehath"
+	culture = maghreb_jewish
+}
+1000091757 = {
+	name="Ma’arabi"
+	culture = maghreb_jewish
+}
+1000091758 = {
+	name="Ka’ti"
+	culture = maghreb_jewish
+}
+1000091759 = {
+	name="Daggatun"
+	culture = maghreb_jewish
+}
+1000091760 = {
+	name="Serour"
+	culture = maghreb_jewish
+}
+1000091761 = {
+	name="Abana"
+	culture = maghreb_jewish
+}
+1000091762 = {
+	name="Aboulker"
+	culture = maghreb_jewish
+}	
+1000091763 = {
+	name="Attali"
+	culture = maghreb_jewish
+}
+1000091764 = {
+	name="Chokron"
+	culture = maghreb_jewish
+}
+1000091765 = {
+	name="Kabbaj"
+	culture = maghreb_jewish
+}
+1000091766 = {
+	name="Toledani"
+	culture = maghreb_jewish
+}
+1000091767 = {
+	name="Halevi"
+	culture = maghreb_jewish
+}
+1000091768 = {
+	name="Azoulay"
+	culture = maghreb_jewish
+}
+1000091769 = {
+	name="Amar"
+	culture = maghreb_jewish
+}
+1000091770 = {
+	name="D’Ancona"
+	culture = italian_jewish
+}
+1000091771 = {
+	name="de Pomis"
+	culture = italian_jewish
+}
+1000091772 = {
+	name="di Forli"
+	culture = italian_jewish
+}	
+1000091773 = {
+	name="da Rieti"
+	culture = italian_jewish
+}
+1000091774 = {
+	name="Batzaq"
+	culture = italian_jewish
+}
+1000091775 = {
+	name="Kalonymus"
+	culture = italian_jewish
+}
+1000091776 = {
+	name="Anaw"
+	culture = italian_jewish
+}
+1000091777 = {
+	name="Rossi"
+	culture = italian_jewish
+}
+1000091778 = {
+	name="Luzzatto"
+	culture = italian_jewish
+}
+1000091779 = {
+	name="Latte"
+	culture = italian_jewish
+}
+1000091780 = {
+	name="Almosnino"
+	culture = italian_jewish
+}
+1000091781 = {
+	name="Canizal"
+	culture = italian_jewish
+}
+1000091782 = {
+	name="Aboab"
+	culture = italian_jewish
+}	
+1000091783 = {
+	name="Castello"
+	culture = italian_jewish
+}
+1000091784 = {
+	name="Nieto"
+	culture = italian_jewish
+}
+1000091785 = {
+	name="Pacifici"
+	culture = italian_jewish
+}
+1000091786 = {
+	name="Sforno"
+	culture = italian_jewish
+}
+1000091787 = {
+	name="Farachi"
+	culture = italian_jewish
+}
+1000091788 = {
+	name="Estroza"
+	culture = italian_jewish
+}
+1000091789 = {
+	name="Conforte"
+	culture = italian_jewish
+}
+1000091790 = {
+	name="Lonzano"
+	culture = italian_jewish
+}
+1000091791 = {
+	name="Mansi"
+	culture = italian_jewish
+}
+1000091792 = {
+	name="Anatoli"
+	culture = italian_jewish
+}	
+1000091793 = {
+	name="Romano"
+	culture = italian_jewish
+}
+1000091794 = {
+	name="Siciliano"
+	culture = italian_jewish
+}
+1000091795 = {
+	name="Giudeo"
+	culture = italian_jewish
+}
+1000091796 = {
+	name="Alemanno"
+	culture = italian_jewish
+}
+1000091797 = {
+	name="Ezra"
+	culture = italian_jewish
+}
+1000091798 = {
+	name="Leon"
+	culture = italian_jewish
+}
+1000091799 = {
+	name="Senigaglia"
+	culture = italian_jewish
+}
+1000091800 = {
+	name="As’ar"
+	culture = yemenite_jewish
+}
+1000091801 = {
+	name="Yeshayahu"
+	culture = yemenite_jewish
+}
+1000091802 = {
+	name="Mauda"
+	culture = yemenite_jewish
+}	
+1000091803 = {
+	name="Tzuberi"
+	culture = yemenite_jewish
+}
+1000091804 = {
+	name="Yitzhak"
+	culture = yemenite_jewish
+}
+1000091805 = {
+	name="Haza"
+	culture = yemenite_jewish
+}
+1000091806 = {
+	name="Nini"
+	culture = yemenite_jewish
+}
+1000091807 = {
+	name="Shabazi"
+	culture = yemenite_jewish
+}
+1000091808 = {
+	name="Abdallah"
+	culture = yemenite_jewish
+}
+1000091809 = {
+	name="Jamal"
+	culture = yemenite_jewish
+}
+1000091810 = {
+	name="Kuhayl"
+	culture = yemenite_jewish
+}
+1000091811 = {
+	name="Nahari"
+	culture = yemenite_jewish
+}
+1000091812 = {
+	name="Zindani"
+	culture = yemenite_jewish
+}	
+1000091813 = {
+	name="Fayyumi"
+	culture = yemenite_jewish
+}
+1000091814 = {
+	name="Qafih"
+	culture = yemenite_jewish
+}
+1000091815 = {
+	name="Abnawi"
+	culture = yemenite_jewish
+}
+1000091816 = {
+	name="Golan"
+	culture = yemenite_jewish
+}
+1000091817 = {
+	name="Dahari"
+	culture = yemenite_jewish
+}
+1000091818 = {
+	name="Bakal"
+	culture = yemenite_jewish
+}
+1000091819 = {
+	name="Kobashi"
+	culture = yemenite_jewish
+}
+1000091820 = {
+	name="Lezgishvili"
+	culture = caucasian_jewish
+}
+1000091821 = {
+	name="Tiflisi"
+	culture = caucasian_jewish
+}
+1000091822 = {
+	name="Davarashvili"
+	culture = caucasian_jewish
+}	
+1000091823 = {
+	name="Kakiashvili"
+	culture = caucasian_jewish
+}
+1000091824 = {
+	name="Krikheli"
+	culture = caucasian_jewish
+}
+1000091825 = {
+	name="Michaelshvili"
+	culture = caucasian_jewish
+}
+1000091826 = {
+	name="Hotovely"
+	culture = caucasian_jewish
+}
+1000091827 = {
+	name="Megrelashvili"
+	culture = caucasian_jewish
+}
+1000091828 = {
+	name="Shengelia"
+	culture = caucasian_jewish
+}
+1000091829 = {
+	name="Zizov"
+	culture = caucasian_jewish
+}
+1000091830 = {
+	name="Adam"
+	culture = caucasian_jewish
+}
+1000091831 = {
+	name="Hadad"
+	culture = caucasian_jewish
+}
+1000091832 = {
+	name="Yarkoni"
+	culture = caucasian_jewish
+}	
+1000091833 = {
+	name="Rafael"
+	culture = caucasian_jewish
+}
+1000091834 = {
+	name="Ismail"
+	culture = caucasian_jewish
+}
+1000091835 = {
+	name="Agarun"
+	culture = caucasian_jewish
+}
+1000091836 = {
+	name="Levitin"
+	culture = caucasian_jewish
+}
+1000091837 = {
+	name="Avshalum"
+	culture = caucasian_jewish
+}
+1000091838 = {
+	name="Izgiyay"
+	culture = caucasian_jewish
+}
+1000091839 = {
+	name="Quba"
+	culture = caucasian_jewish
+}

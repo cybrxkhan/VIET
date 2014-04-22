@@ -1,0 +1,117 @@
+#VIET Lombard dynasties
+1000035718 = {
+name="Delle Croci"
+ culture = lombard
+}
+1000035719 = {
+name="Federici"
+ culture = lombard
+}
+1000035720 = {
+name="Fenaroli"
+ culture = lombard
+}
+1000035721 = {
+name="Gambara"
+ culture = lombard
+}
+1000035722 = {
+name="Martinengo"
+ culture = lombard
+}
+1000035723 = {
+name="Olofredi"
+ culture = lombard
+}
+1000035724 = {
+name="Poncarale"
+ culture = lombard
+}
+1000035725 = {
+name="Rodengo"
+ culture = lombard
+}
+1000035726 = {
+name="Besozzi"
+ culture = lombard
+}
+1000035727 = {
+name="Corradidi"
+ culture = lombard
+}
+1000035728 = {
+name="Curti"
+ culture = lombard
+}
+1000035729 = {
+name="Dal Verme"
+ culture = lombard
+}
+1000035730 = {
+name="Sessa"
+ culture = lombard
+}
+1000035731 = {
+name="Albani"
+ culture = lombard
+}
+1000035732 = {
+name="Bravi"
+ culture = lombard
+}
+1000035733 = {
+name="Crotta"
+ culture = lombard
+}
+1000035734 = {
+name="Suardi"
+ culture = lombard
+}
+1000035735 = {
+name="Avogadro"
+ culture = lombard
+}
+1000035736 = {
+name="Lucini"
+ culture = lombard
+}
+1000035737 = {
+name="Rusca"
+ culture = lombard
+}
+1000035738 = {
+name="Cavalcabò"
+ culture = lombard
+}
+1000035739 = {
+name="Andreasi"
+ culture = lombard
+}
+1000035740 = {
+name="Cavriani"
+ culture = lombard
+}
+1000035741 = {
+name="Bottigella"
+ culture = lombard
+}
+1000035742 = {
+name="Sannazzaro"
+ culture = lombard
+}
+1000035743 = {
+name="Aliprandi"
+ culture = lombard
+}
+1000035744 = {
+name="Archinto"
+ culture = lombard
+}
+1000035745 = {
+name="Brivio"
+ culture = lombard
+}
+1000035746 = {
+name="Casati"
+ culture = lombard
+}

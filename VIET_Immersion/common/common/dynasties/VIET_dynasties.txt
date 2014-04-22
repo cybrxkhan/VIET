@@ -1,0 +1,2212 @@
+######################################################################################
+#
+# VIET Dynasties - Set 1
+#
+# This is for any new dynasties added in VIET
+# They are placed separately here for easier mod integration and updating in between patches
+# Generally they are arranged in sets of 10 (i.e. 10, 20, 30 dynasties per culture)
+#
+# 1000061000-1000061499, 1000061700-1000061999 (some IDs may have been skipped)
+#
+######################################################################################
+
+1000061000 = {
+	name="Vorshud"
+	culture = udmurt
+}
+1000061001 = {
+	name="Lud"
+	culture = udmurt
+}
+1000061002 = {
+	name="Tapal"
+	culture = udmurt
+}
+1000061003 = {
+	name="Izhevsk"
+	culture = udmurt
+}
+1000061004 = {
+	name="Igra"
+	culture = udmurt
+}
+1000061005 = {
+	name="Sarapul"
+	culture = udmurt
+}
+1000061006 = {
+	name="Mozhga"
+	culture = udmurt
+}
+1000061007 = {
+	name="Uga"
+	culture = udmurt
+}
+1000061008 = {
+	name="Vyatka"
+	culture = udmurt
+}
+1000061009 = {
+	name="Ishim"
+	culture = udmurt
+}
+1000061010 = {
+	name="Imdinaid"
+	culture = siculo_arabic
+}
+1000061011 = {
+	name="Bormlaid"
+	culture = siculo_arabic
+}
+1000061012 = {
+	name="Islaid"
+	culture = siculo_arabic
+}
+1000061013 = {
+	name="Vallettaid"
+	culture = siculo_arabic
+}
+1000061014 = {
+	name="Qormid"
+	culture = siculo_arabic
+}
+1000061015 = {
+	name="Siggiewid"
+	culture = siculo_arabic
+}
+1000061016 = {
+	name="Zabbarid"
+	culture = siculo_arabic
+}
+1000061017 = {
+	name="Zebbuggid"
+	culture = siculo_arabic
+}
+1000061018 = {
+	name="Zejtunid"
+	culture = siculo_arabic
+}
+1000061019 = {
+	name="Balarmid"
+	culture = siculo_arabic
+}
+1000061020 = {
+	name="Catanid"
+	culture = siculo_arabic
+}
+1000061021 = {
+	name="Sarausaid"
+	culture = siculo_arabic
+}
+1000061022 = {
+	name="Marsaid"
+	culture = siculo_arabic
+}
+1000061023 = {
+	name="Qalatalnissid"
+	culture = siculo_arabic
+}
+1000061024 = {
+	name="Jirjentid"
+	culture = siculo_arabic
+}
+1000061025 = {
+	name="Bayharid"
+	culture = siculo_arabic
+}
+1000061026 = {
+	name="Mudiqahid"
+	culture = siculo_arabic
+}
+1000061027 = {
+	name="Alyajid"
+	culture = siculo_arabic
+}
+1000061028 = {
+	name="Mazarid"
+	culture = siculo_arabic
+}
+1000061029 = {
+	name="Minturnwid"
+	culture = siculo_arabic
+}
+1000061030 = {
+	name="Chiaramonte"
+	culture = sicilian
+}
+1000061031 = {
+	name="Spinola"
+	culture = sicilian
+}
+1000061032 = {
+	name="Sesto"
+	culture = sicilian
+}
+1000061033 = {
+	name="Del Carreto"
+	culture = sicilian
+}
+1000061034 = {
+	name="Alliata"
+	culture = sicilian
+}
+1000061035 = {
+	name="Lanza"
+	culture = sicilian
+}
+1000061036 = {
+	name="Miossi"
+	culture = sicilian
+}
+1000061037 = {
+	name="Siracusa"
+	culture = sicilian
+}
+1000061038 = {
+	name="Zaragoza"
+	culture = sicilian
+}
+1000061039 = {
+	name="Zacco"
+	culture = sicilian
+}
+1000061040 = {
+	name="Vizzini"
+	culture = sicilian
+}
+1000061041 = {
+	name="Russo"
+	culture = sicilian
+}
+1000061042 = {
+	name="Navarra"
+	culture = sicilian
+}
+1000061043 = {
+	name="Greco"
+	culture = sicilian
+}
+1000061044 = {
+	name="Aurispa"
+	culture = sicilian
+}
+1000061045 = {
+	name="Maurolico"
+	culture = sicilian
+}
+1000061046 = {
+	name="Barberi"
+	culture = sicilian
+}
+1000061047 = {
+	name="Fazello"
+	culture = sicilian
+}
+1000061048 = {
+	name="Veneziano"
+	culture = sicilian
+}
+1000061049 = {
+	name="Gagini"
+	culture = sicilian
+}
+1000061050 = {
+	name="Delle Colone"
+	culture = sicilian
+}
+1000061051 = {
+	name="Massari"
+	culture = griko
+}
+1000061052 = {
+	name="Pilatos"
+	culture = griko
+}
+1000061053 = {
+	name="Galatios"
+	culture = griko
+}
+1000061054 = {
+	name="Nilos"
+	culture = griko
+}
+1000061055 = {
+	name="Stithos"
+	culture = griko
+}
+1000061056 = {
+	name="Abidelas"
+	culture = griko
+}
+1000061057 = {
+	name="Delphinas"
+	culture = griko
+}
+1000061058 = {
+	name="Tarchaneiotes"
+	culture = griko
+}
+1000061059 = {
+	name="Xiphias"
+	culture = griko
+}
+1000061060 = {
+	name="Kourkouas"
+	culture = griko
+}
+1000061061 = {
+	name="Boioannes"
+	culture = griko
+}
+1000061062 = {
+	name="Burgaris"
+	culture = griko
+}
+1000061063 = {
+	name="Opos"
+	culture = griko
+}
+1000061064 = {
+	name="Spondyles"
+	culture = griko
+}
+1000061065 = {
+	name="Doukeianos"
+	culture = griko
+}
+1000061066 = {
+	name="Theodorokanos"
+	culture = griko
+}
+1000061067 = {
+	name="Palatinos"
+	culture = griko
+}
+1000061068 = {
+	name="Miriarch"
+	culture = griko
+}
+1000061069 = {
+	name="Maurikas"
+	culture = griko
+}
+1000061070 = {
+	name="Pateran"
+	culture = griko
+}
+1000061071 = {
+	name="Sergi"
+	culture = griko
+}
+1000061072 = {
+	name="Picingli"
+	culture = griko
+}
+1000061073 = {
+	name="Karidis"
+	culture = griko
+}
+1000061074 = {
+	name="Maruli"
+	culture = griko
+}
+1000061075 = {
+	name="Vasilakis"
+	culture = griko
+}
+1000061076 = {
+	name="Greco"
+	culture = griko
+}
+1000061077 = {
+	name="Arhontas"
+	culture = griko
+}
+1000061078 = {
+	name="Megali"
+	culture = griko
+}
+1000061079 = {
+	name="Kalogeros"
+	culture = griko
+}
+1000061080 = {
+	name="of Devon"
+	culture = breton
+}
+1000061081 = {
+	name="Üjin"
+	culture = mongol
+}
+1000061082 = {
+	name="Gambhu"
+	culture = mongol
+}
+1000061083 = {
+	name="Besud"
+	culture = mongol
+}
+1000061084 = {
+	name="Choros"
+	culture = mongol
+}
+1000061085 = {
+	name="Dorbed"
+	culture = mongol
+}
+1000061086 = {
+	name="Yelü"
+	culture = mongol
+}
+1000061087 = {
+	name="Öngüd"
+	culture = mongol
+}
+1000061088 = {
+	name="Jadaran"
+	culture = mongol
+}
+1000061089 = {
+	name="Olkhunut"
+	culture = mongol
+}
+1000061090 = {
+	name="Kankalis"
+	culture = pecheneg
+}
+1000061091 = {
+	name="Baitzas"
+	culture = pecheneg
+}
+1000061092 = {
+	name="Konel"
+	culture = pecheneg
+}	
+1000061093 = {
+	name="Kourkoutai"
+	culture = pecheneg
+}
+1000061094 = {
+	name="Ipaos"
+	culture = pecheneg
+}
+1000061095 = {
+	name="Kaidoum"
+	culture = pecheneg
+}
+1000061096 = {
+	name="Kostas"
+	culture = pecheneg
+}
+1000061097 = {
+	name="Giazis"
+	culture = pecheneg
+}
+1000061098 = {
+	name="Batas"
+	culture = pecheneg
+}
+1000061099 = {
+	name="Üçok"
+	culture = pecheneg
+}
+1000061100 = {
+	name="Pama"
+	culture = komi
+}
+1000061101 = {
+	name="Zyran"
+	culture = komi
+}
+1000061102 = {
+	name="Ustiug"
+	culture = komi
+}	
+1000061103 = {
+	name="Permyak"
+	culture = komi
+}
+1000061104 = {
+	name="Tun"
+	culture = komi
+}
+1000061105 = {
+	name="Chrap"
+	culture = komi
+}
+1000061106 = {
+	name="Kuratov"
+	culture = komi
+}
+1000061107 = {
+	name="Vörsa"
+	culture = komi
+}
+1000061108 = {
+	name="Vasa"
+	culture = komi
+}
+1000061109 = {
+	name="Iz'vataz"
+	culture = komi
+}
+1000061110 = {
+	name="Kalevipoeg"
+	culture = ugricbaltic
+}
+1000061111 = {
+	name="Alevipoeg"
+	culture = ugricbaltic
+}
+1000061112 = {
+	name="Leiger"
+	culture = ugricbaltic
+}	
+1000061113 = {
+	name="Olevipoeg"
+	culture = ugricbaltic
+}
+1000061114 = {
+	name="Tuuslar"
+	culture = ugricbaltic
+}
+1000061115 = {
+	name="Toell"
+	culture = ugricbaltic
+}
+1000061116 = {
+	name="Vanatühi"
+	culture = ugricbaltic
+}
+1000061117 = {
+	name="Randalist"
+	culture = ugricbaltic
+}
+1000061118 = {
+	name="Lembit"
+	culture = ugricbaltic
+}
+1000061119 = {
+	name="Vetseke"
+	culture = ugricbaltic
+}
+1000061120 = {
+	name="Penikis"
+	culture = lettigallish
+}
+1000061121 = {
+	name="Tontegode"
+	culture = lettigallish
+}
+1000061122 = {
+	name="Vidins"
+	culture = lettigallish
+}	
+1000061123 = {
+	name="Draguns"
+	culture = lettigallish
+}
+1000061124 = {
+	name="Sirkants"
+	culture = lettigallish
+}
+1000061125 = {
+	name="Lachplesis"
+	culture = lettigallish
+}
+1000061126 = {
+	name="Kangars"
+	culture = lettigallish
+}
+1000061127 = {
+	name="Aizkrauklis"
+	culture = lettigallish
+}
+1000061128 = {
+	name="Koknesis"
+	culture = lettigallish
+}
+1000061129 = {
+	name="Lieven"
+	culture = lettigallish
+}
+1000061130 = {
+	name="Haetta"
+	culture = lappish
+}
+1000061131 = {
+	name="Somby"
+	culture = lappish
+}
+1000061132 = {
+	name="Turi"
+	culture = lappish
+}	
+1000061133 = {
+	name="Magga"
+	culture = lappish
+}
+1000061134 = {
+	name="Dunfjeld"
+	culture = lappish
+}
+1000061135 = {
+	name="Kvitfjell"
+	culture = lappish
+}
+1000061136 = {
+	name="Kappfjell"
+	culture = lappish
+}
+1000061137 = {
+	name="Tiermes"
+	culture = lappish
+}
+1000061138 = {
+	name="Giron"
+	culture = lappish
+}
+1000061139 = {
+	name="Roavenjarga"
+	culture = lappish
+}
+1000061140 = {
+	name="Samborides"
+	culture = pommeranian
+}
+1000061141 = {
+	name="Griffins"
+	culture = pommeranian
+}
+1000061142 = {
+	name="Glomacze"
+	culture = pommeranian
+}	
+1000061143 = {
+	name="Milceni"
+	culture = pommeranian
+}
+1000061144 = {
+	name="Chutyz"
+	culture = pommeranian
+}
+1000061145 = {
+	name="Sitice"
+	culture = pommeranian
+}
+1000061146 = {
+	name="Nakonid"
+	culture = pommeranian
+}
+1000061147 = {
+	name="Hevelli"
+	culture = pommeranian
+}
+1000061148 = {
+	name="Liutizi"
+	culture = pommeranian
+}
+1000061149 = {
+	name="Drevani"
+	culture = pommeranian
+}
+1000061250 = {
+	name="Bani Arak"
+	culture = sudanese_arabic
+}
+1000061251 = {
+	name="Bani Hassan"
+	culture = sudanese_arabic
+}
+1000061252 = {
+	name="Rashaida"
+	culture = sudanese_arabic
+}	
+1000061253 = {
+	name="Shaigya"
+	culture = sudanese_arabic
+}
+1000061254 = {
+	name="Ja’alin"
+	culture = sudanese_arabic
+}
+1000061255 = {
+	name="Shukria"
+	culture = sudanese_arabic
+}
+1000061256 = {
+	name="Qahtani"
+	culture = sudanese_arabic
+}
+1000061257 = {
+	name="Arakieen"
+	culture = sudanese_arabic
+}
+1000061258 = {
+	name="Kinanah"
+	culture = sudanese_arabic
+}
+1000061259 = {
+	name="Hasania"
+	culture = sudanese_arabic
+}
+1000061260 = {
+	name="Kawahla"
+	culture = sudanese_arabic
+}
+1000061261 = {
+	name="Mahas"
+	culture = sudanese_arabic
+}
+1000061262 = {
+	name="Manasir"
+	culture = sudanese_arabic
+}	
+1000061263 = {
+	name="Zubaid"
+	culture = sudanese_arabic
+}
+1000061264 = {
+	name="Dulaim"
+	culture = sudanese_arabic
+}
+1000061265 = {
+	name="Juboor"
+	culture = sudanese_arabic
+}
+1000061266 = {
+	name="Azzah"
+	culture = sudanese_arabic
+}
+1000061267 = {
+	name="Ubaid"
+	culture = sudanese_arabic
+}
+1000061268 = {
+	name="Donqolawi"
+	culture = sudanese_arabic
+}
+1000061269 = {
+	name="Juhayna"
+	culture = sudanese_arabic
+}
+1000061270 = {
+	name="Banu Sulaym"
+	culture = sudanese_arabic
+}
+1000061271 = {
+	name="Ghatafan"
+	culture = sudanese_arabic
+}
+1000061272 = {
+	name="Utaybah"
+	culture = sudanese_arabic
+}	
+1000061273 = {
+	name="Mutayr"
+	culture = sudanese_arabic
+}
+1000061274 = {
+	name="Harb"
+	culture = sudanese_arabic
+}
+1000061275 = {
+	name="Banu Khalid"
+	culture = sudanese_arabic
+}
+1000061276 = {
+	name="Rufa’a"
+	culture = sudanese_arabic
+}
+1000061277 = {
+	name="Banu Kanz"
+	culture = sudanese_arabic
+}
+1000061278 = {
+	name="Abdallab"
+	culture = sudanese_arabic
+}
+1000061279 = {
+	name="Ta’aisha"
+	culture = sudanese_arabic
+}
+1000061280 = {
+	name="Chughtai"
+	culture = chagatai
+}
+1000061281 = {
+	name="Shaybanid"
+	culture = chagatai
+}
+1000061282 = {
+	name="Janid"
+	culture = chagatai
+}	
+1000061283 = {
+	name="Arabshahid"
+	culture = chagatai
+}
+1000061284 = {
+	name="Qungrat"
+	culture = chagatai
+}
+1000061285 = {
+	name="Manghit"
+	culture = chagatai
+}
+1000061286 = {
+	name="Min"
+	culture = chagatai
+}
+1000061287 = {
+	name="Sarybagysh"
+	culture = chagatai
+}
+1000061288 = {
+	name="Mongush"
+	culture = chagatai
+}
+1000061289 = {
+	name="Herawi"
+	culture = chagatai
+}
+1000061290 = {
+	name="Nogai"
+	culture = tatar
+}
+1000061291 = {
+	name="Enikeev"
+	culture = tatar
+}
+1000061292 = {
+	name="Manghud"
+	culture = tatar
+}	
+1000061293 = {
+	name="Giray"
+	culture = tatar
+}
+1000061294 = {
+	name="Shirin"
+	culture = tatar
+}
+1000061295 = {
+	name="Barin"
+	culture = tatar
+}
+1000061296 = {
+	name="Argin"
+	culture = tatar
+}
+1000061297 = {
+	name="Qipçaq"
+	culture = tatar
+}
+1000061298 = {
+	name="Mansuroglu"
+	culture = tatar
+}
+1000061299 = {
+	name="Sicavut"
+	culture = tatar
+}
+1000061380 = {
+	name="Asrani"
+	culture = sindhi
+}
+1000061381 = {
+	name="Sangi"
+	culture = sindhi
+}
+1000061382 = {
+	name="Lakhani"
+	culture = sindhi
+}	
+1000061383 = {
+	name="Advani"
+	culture = sindhi
+}
+1000061384 = {
+	name="Channa"
+	culture = sindhi
+}
+1000061385 = {
+	name="Bhutto"
+	culture = sindhi
+}
+1000061386 = {
+	name="Lanjar"
+	culture = sindhi
+}
+1000061387 = {
+	name="Nohri"
+	culture = sindhi
+}
+1000061388 = {
+	name="Unar"
+	culture = sindhi
+}
+1000061389 = {
+	name="Khuhro"
+	culture = sindhi
+}
+1000061390 = {
+	name="Mahar"
+	culture = sindhi
+}
+1000061391 = {
+	name="Naich"
+	culture = sindhi
+}
+1000061392 = {
+	name="Makwal"
+	culture = sindhi
+}	
+1000061393 = {
+	name="Bhangar"
+	culture = sindhi
+}
+1000061394 = {
+	name="Abro"
+	culture = sindhi
+}
+1000061395 = {
+	name="Sodha"
+	culture = sindhi
+}
+1000061396 = {
+	name="Bhanbhro"
+	culture = sindhi
+}
+1000061397 = {
+	name="Soomro"
+	culture = sindhi
+}
+1000061398 = {
+	name="Habbari"
+	culture = sindhi
+}
+1000061399 = {
+	name="Samma"
+	culture = sindhi
+}
+1000061400 = {
+	name="Pallava"
+	culture = tamil
+}
+1000061401 = {
+	name="Rashtrakuta"
+	culture = tamil
+}
+1000061402 = {
+	name="Chalukya"
+	culture = tamil
+}	
+1000061403 = {
+	name="Chola"
+	culture = tamil
+}
+1000061404 = {
+	name="Pandya"
+	culture = tamil
+}
+1000061405 = {
+	name="Chera"
+	culture = tamil
+}
+1000061406 = {
+	name="Malayaman"
+	culture = tamil
+}
+1000061407 = {
+	name="Vellalar"
+	culture = tamil
+}
+1000061408 = {
+	name="Mudaliar"
+	culture = tamil
+}
+1000061409 = {
+	name="Ubrani"
+	culture = tamil
+}
+1000061410 = {
+	name="Kidambi"
+	culture = tamil
+}
+1000061411 = {
+	name="Shastri"
+	culture = tamil
+}
+1000061412 = {
+	name="Nainar"
+	culture = tamil
+}	
+1000061413 = {
+	name="Mannava"
+	culture = tamil
+}
+1000061414 = {
+	name="Reddiar"
+	culture = tamil
+}
+1000061415 = {
+	name="Udayar"
+	culture = tamil
+}
+1000061416 = {
+	name="Chakraborty"
+	culture = tamil
+}
+1000061417 = {
+	name="Aryacakravarti"
+	culture = tamil
+}
+1000061418 = {
+	name="Pillai"
+	culture = tamil
+}
+1000061419 = {
+	name="Selvam"
+	culture = tamil
+}
+1000061420 = {
+	name="Niane"
+	culture = manden
+}
+#1000061421 = {
+#	name="Joof"
+#	culture = serer
+#}
+1000061422 = {
+	name="Kalonkan"
+	culture = manden
+}	
+1000061423 = {
+	name="Berete"
+	culture = manden
+}
+1000061424 = {
+	name="Traore"
+	culture = manden
+}
+1000061425 = {
+	name="Wana"
+	culture = manden
+}
+1000061426 = {
+	name="Kamara"
+	culture = manden
+}
+1000061427 = {
+	name="Kante"
+	culture = manden
+}
+1000061428 = {
+	name="Fasseke"
+	culture = manden
+}
+1000061429 = {
+	name="Kouyate"
+	culture = manden
+}
+1000061450 = {
+	name="Kang"
+	culture = sogdian
+}
+1000061451 = {
+	name="Samanid"
+	culture = sogdian
+}
+1000061452 = {
+	name="An"
+	culture = sogdian
+}	
+1000061453 = {
+	name="Sartapao"
+	culture = sogdian
+}
+1000061454 = {
+	name="Ruttuh"
+	culture = sogdian
+}
+1000061455 = {
+	name="Begh"
+	culture = sogdian
+}
+1000061456 = {
+	name="Khut’y"
+	culture = sogdian
+}
+1000061457 = {
+	name="Sarth"
+	culture = sogdian
+}
+1000061458 = {
+	name="Khwatenvendak"
+	culture = sogdian
+}
+1000061459 = {
+	name="Bentk"
+	culture = sogdian
+}
+1000061460 = {
+	name="By’mn"
+	culture = sogdian
+}
+1000061461 = {
+	name="Putythyh"
+	culture = sogdian
+}
+1000061462 = {
+	name="Yena"
+	culture = sogdian
+}	
+1000061463 = {
+	name="Cakr"
+	culture = sogdian
+}
+1000061464 = {
+	name="Irkin"
+	culture = sogdian
+}
+1000061465 = {
+	name="Ekshid"
+	culture = sogdian
+}
+1000061466 = {
+	name="Afshin"
+	culture = sogdian
+}
+1000061467 = {
+	name="Khuf"
+	culture = sogdian
+}
+1000061468 = {
+	name="Muqannid"
+	culture = sogdian
+}
+1000061469 = {
+	name="Layt"
+	culture = sogdian
+}
+1000061480 = {
+	name="Erzya"
+	culture = mordvin
+}
+1000061481 = {
+	name="Moksha"
+	culture = mordvin
+}
+1000061482 = {
+	name="Kudati"
+	culture = mordvin
+}	
+1000061483 = {
+	name="Tekshtai"
+	culture = mordvin
+}
+1000061484 = {
+	name="Nadkin"
+	culture = mordvin
+}
+1000061485 = {
+	name="Tyushtya"
+	culture = mordvin
+}
+1000061486 = {
+	name="Meschera"
+	culture = mordvin
+}
+1000061487 = {
+	name="Shoksha"
+	culture = mordvin
+}
+1000061488 = {
+	name="Mishar"
+	culture = mordvin
+}
+1000061489 = {
+	name="Meshcheryak"
+	culture = mordvin
+}
+1000061490 = {
+	name="Vella"
+	culture = samoyed
+}
+1000061491 = {
+	name="Nerkagi"
+	culture = samoyed
+}
+1000061492 = {
+	name="Tadibya"
+	culture = samoyed
+}	
+1000061493 = {
+	name="Vylka"
+	culture = samoyed
+}
+1000061494 = {
+	name="Yasavey"
+	culture = samoyed
+}
+1000061495 = {
+	name="Belugin"
+	culture = samoyed
+}
+1000061496 = {
+	name="Nenyang"
+	culture = samoyed
+}
+1000061497 = {
+	name="Ya-nebya"
+	culture = samoyed
+}
+1000061498 = {
+	name="Solqumyt"
+	culture = samoyed
+}
+1000061499 = {
+	name="Tavgi"
+	culture = samoyed
+}
+1000061700 = {
+	name="Nezak"
+	culture = bactrian
+}
+1000061701 = {
+	name="Tirek"
+	culture = bactrian
+}
+1000061702 = {
+	name="Rob"
+	culture = bactrian
+}	
+1000061703 = {
+	name="Ki"
+	culture = bactrian
+}
+1000061704 = {
+	name="Kasana"
+	culture = bactrian
+}
+1000061705 = {
+	name="Shahi"
+	culture = bactrian
+}
+1000061706 = {
+	name="Loyak"
+	culture = bactrian
+}
+1000061707 = {
+	name="Mareg"
+	culture = bactrian
+}
+1000061708 = {
+	name="Nindaid"
+	culture = bactrian
+}
+1000061709 = {
+	name="Kanarang"
+	culture = bactrian
+}
+1000061710 = {
+	name="Wangar"
+	culture = avar
+}
+1000061711 = {
+	name="Anakui"
+	culture = avar
+}
+1000061712 = {
+	name="Bayanid"
+	culture = avar
+}	
+1000061713 = {
+	name="Kajdid"
+	culture = avar
+}
+1000061714 = {
+	name="Kandikid"
+	culture = avar
+}
+1000061715 = {
+	name="Ermy"
+	culture = avar
+}
+1000061716 = {
+	name="Kuver"
+	culture = avar
+}
+1000061717 = {
+	name="Ozora"
+	culture = avar
+}
+1000061718 = {
+	name="Cozarik"
+	culture = avar
+}
+1000061719 = {
+	name="Igar"
+	culture = avar
+}
+1000061740 = {
+	name="Samanid"
+	culture = tajik
+}
+1000061741 = {
+	name="Ustadh"
+	culture = tajik
+}
+1000061742 = {
+	name="Rumi"
+	culture = tajik
+}	
+1000061743 = {
+	name="Naqshband"
+	culture = tajik
+}
+1000061744 = {
+	name="Bukhari"
+	culture = tajik
+}
+1000061745 = {
+	name="Hanifa"
+	culture = tajik
+}
+1000061746 = {
+	name="Balkhi"
+	culture = tajik
+}
+1000061747 = {
+	name="Bukhari"
+	culture = tajik
+}
+1000061748 = {
+	name="Sina"
+	culture = tajik
+}
+1000061749 = {
+	name="Kartid"
+	culture = tajik
+}
+1000061750 = {
+	name="Safavid"
+	culture = tajik
+}
+1000061751 = {
+	name="Khujandi"
+	culture = tajik
+}
+1000061752 = {
+	name="Gharmi"
+	culture = tajik
+}	
+1000061753 = {
+	name="Ibrahimi"
+	culture = tajik
+}
+1000061754 = {
+	name="Shahidi"
+	culture = tajik
+}
+1000061755 = {
+	name="Nur"
+	culture = tajik
+}
+1000061756 = {
+	name="Shaybani"
+	culture = tajik
+}
+1000061757 = {
+	name="Vakshi"
+	culture = tajik
+}
+1000061758 = {
+	name="Isfari"
+	culture = tajik
+}
+1000061759 = {
+	name="Amuli"
+	culture = tajik
+}
+1000061760 = {
+	name="Ghurid"
+	culture = afghan
+}
+1000061761 = {
+	name="Lodi"
+	culture = afghan
+}
+1000061762 = {
+	name="Najm-i-Sani"
+	culture = afghan
+}	
+1000061763 = {
+	name="Karrani"
+	culture = afghan
+}
+1000061764 = {
+	name="Durrani"
+	culture = afghan
+}
+1000061765 = {
+	name="Sadozai"
+	culture = afghan
+}
+1000061766 = {
+	name="Suri"
+	culture = afghan
+}
+1000061767 = {
+	name="Barakzai"
+	culture = afghan
+}
+1000061768 = {
+	name="Hotaki"
+	culture = afghan
+}
+1000061769 = {
+	name="Khilji"
+	culture = afghan
+}
+1000061770 = {
+	name="Shah Mir"
+	culture = afghan
+}
+1000061771 = {
+	name="Swati"
+	culture = afghan
+}
+1000061772 = {
+	name="Katoor"
+	culture = afghan
+}	
+1000061773 = {
+	name="Khushwaqt"
+	culture = afghan
+}
+1000061774 = {
+	name="Tarzi"
+	culture = afghan
+}
+1000061775 = {
+	name="Babi"
+	culture = afghan
+}
+1000061776 = {
+	name="Rohilla"
+	culture = afghan
+}
+1000061777 = {
+	name="Sherwani"
+	culture = afghan
+}
+1000061778 = {
+	name="Alakozai"
+	culture = afghan
+}
+1000061779 = {
+	name="Kasi"
+	culture = afghan
+}
+1000061780 = {
+	name="Dilazak"
+	culture = afghan
+}
+1000061781 = {
+	name="Tirahi"
+	culture = afghan
+}
+1000061782 = {
+	name="Langah"
+	culture = afghan
+}	
+1000061783 = {
+	name="Afridi"
+	culture = afghan
+}
+1000061784 = {
+	name="Niazi"
+	culture = afghan
+}
+1000061785 = {
+	name="Marwat"
+	culture = afghan
+}
+1000061786 = {
+	name="Sulaimankhel"
+	culture = afghan
+}
+1000061787 = {
+	name="Gandapur"
+	culture = afghan
+}
+1000061788 = {
+	name="Yusufzai"
+	culture = afghan
+}
+1000061789 = {
+	name="Degan"
+	culture = afghan
+}
+1000061790 = {
+	name="Hashimid"
+	culture = azeri
+}
+1000061791 = {
+	name="Khorramdin"
+	culture = azeri
+}
+1000061792 = {
+	name="Ganjavi"
+	culture = azeri
+}	
+1000061793 = {
+	name="Mazyadid"
+	culture = azeri
+}
+1000061794 = {
+	name="Yazidid"
+	culture = azeri
+}
+1000061795 = {
+	name="Shirvani"
+	culture = azeri
+}
+1000061796 = {
+	name="Sajid"
+	culture = azeri
+}
+1000061797 = {
+	name="Sallarid"
+	culture = azeri
+}
+1000061798 = {
+	name="Mihranid"
+	culture = azeri
+}
+1000061799 = {
+	name="Safavid"
+	culture = azeri
+}
+1000061800 = {
+	name="Sturlungar"
+	culture = icelandic
+}
+1000061801 = {
+	name="Svínfellingar"
+	culture = icelandic
+}
+1000061802 = {
+	name="Vatnsfirðingar"
+	culture = icelandic
+}	
+1000061803 = {
+	name="af Haukadalur"
+	culture = icelandic
+}
+1000061804 = {
+	name="af Oddi"
+	culture = icelandic
+}
+1000061805 = {
+	name="Ásbirningar"
+	culture = icelandic
+}
+1000061806 = {
+	name="Oddaverjar"
+	culture = icelandic
+}
+1000061807 = {
+	name="Sturlungar"
+	culture = icelandic
+}
+1000061808 = {
+	name="Haukdælir"
+	culture = icelandic
+}
+1000061809 = {
+	name="Sturlungar"
+	culture = icelandic
+}
+1000061830 = {
+	name="Kalabi"
+	culture = manden
+}
+1000061831 = {
+	name="Koroma"
+	culture = manden
+}
+1000061832 = {
+	name="Diarra"
+	culture = manden
+}	
+1000061833 = {
+	name="Kani"
+	culture = manden
+}
+1000061834 = {
+	name="Tagnogokelin"
+	culture = manden
+}
+1000061835 = {
+	name="Kamara"
+	culture = manden
+}
+1000061836 = {
+	name="Doua"
+	culture = manden
+}
+1000061837 = {
+	name="Kamara"
+	culture = manden
+}
+1000061838 = {
+	name="Manian"
+	culture = manden
+}
+1000061839 = {
+	name="Bakary"
+	culture = manden
+}
+1000061840 = {
+	name="Bory"
+	culture = manden
+}
+1000061841 = {
+	name="Konkon"
+	culture = manden
+}
+1000061842 = {
+	name="Tounkara"
+	culture = manden
+}	
+1000061843 = {
+	name="Sogolon"
+	culture = manden
+}
+1000061844 = {
+	name="Konkomba"
+	culture = manden
+}
+1000061845 = {
+	name="Kouyate"
+	culture = manden
+}
+1000061846 = {
+	name="Simbon"
+	culture = manden
+}
+1000061847 = {
+	name="Dioubate"
+	culture = manden
+}
+1000061848 = {
+	name="Lamine"
+	culture = manden
+}
+1000061849 = {
+	name="Diawara"
+	culture = manden
+}
+1000061850 = {
+	name="Trubar"
+	culture = slovene
+}
+1000061851 = {
+	name="Kranjski"
+	culture = slovene
+}
+1000061852 = {
+	name="Dalmatin"
+	culture = slovene
+}	
+1000061853 = {
+	name="Bohoric"
+	culture = slovene
+}
+1000061854 = {
+	name="Krelj"
+	culture = slovene
+}
+1000061855 = {
+	name="Gubec"
+	culture = slovene
+}
+1000061856 = {
+	name="Pasanac"
+	culture = slovene
+}
+1000061857 = {
+	name="Mogaic"
+	culture = slovene
+}
+1000061858 = {
+	name="Kren"
+	culture = slovene
+}
+1000061859 = {
+	name="Dorn"
+	culture = slovene
+}
+1000061860 = {
+	name="Falkh"
+	culture = slovene
+}
+1000061861 = {
+	name="Frang"
+	culture = slovene
+}
+1000061862 = {
+	name="Kroen"
+	culture = slovene
+}	
+1000061863 = {
+	name="Lantheri"
+	culture = slovene
+}
+1000061864 = {
+	name="Samerl"
+	culture = slovene
+}
+1000061865 = {
+	name="Tazel"
+	culture = slovene
+}
+1000061866 = {
+	name="of Goršikia"
+	culture = slovene
+}
+1000061867 = {
+	name="of Celje"
+	culture = slovene
+}
+1000061868 = {
+	name="of Prekmurje"
+	culture = slovene
+}
+1000061869 = {
+	name="of Kranj"
+	culture = slovene
+}
+1000061870 = {
+	name="Carollo"
+	culture = italian
+}
+1000061871 = {
+	name="da Vinci"
+	culture = italian
+}
+1000061872 = {
+	name="di Caprio"
+	culture = italian
+}	
+1000061873 = {
+	name="de Medici"
+	culture = italian
+}
+1000061874 = {
+	name="Machiavelli"
+	culture = italian
+}
+1000061875 = {
+	name="Polo"
+	culture = italian
+}
+1000061876 = {
+	name="Belluci"
+	culture = italian
+}
+1000061877 = {
+	name="Vivaldi"
+	culture = italian
+}
+1000061878 = {
+	name="Colombo"
+	culture = italian
+}
+1000061879 = {
+	name="Vespucci"
+	culture = italian
+}
+1000061880 = {
+	name="Capuleti"
+	culture = italian
+}
+1000061881 = {
+	name="Montecchi"
+	culture = italian
+}
+1000061882 = {
+	name="Borgia"
+	culture = italian
+}	
+1000061883 = {
+	name="Sforza"
+	culture = italian
+}
+1000061884 = {
+	name="Spinola"
+	culture = italian
+}
+1000061885 = {
+	name="Garibaldi"
+	culture = italian
+}
+1000061886 = {
+	name="di Cavour"
+	culture = italian
+}
+1000061887 = {
+	name="da Palestrina"
+	culture = italian
+}
+1000061888 = {
+	name="Monteverdi"
+	culture = italian
+}
+1000061889 = {
+	name="Allegri"
+	culture = italian
+}
+1000061890 = {
+	name="Scarlatti"
+	culture = italian
+}
+1000061891 = {
+	name="Salieri"
+	culture = italian
+}
+1000061892 = {
+	name="Paganini"
+	culture = italian
+}	
+1000061893 = {
+	name="Pavarotti"
+	culture = italian
+}
+1000061894 = {
+	name="Boticelli"
+	culture = italian
+}
+1000061895 = {
+	name="Vecelli"
+	culture = italian
+}
+1000061896 = {
+	name="Ferrari"
+	culture = italian
+}
+1000061897 = {
+	name="Bruno"
+	culture = italian
+}
+1000061898 = {
+	name="Casanova"
+	culture = italian
+}
+1000061899 = {
+	name="Savonarola"
+	culture = italian
+}
+1000061900 = {
+	name="Carollo"
+	culture = sicilian
+}
+1000061901 = {
+	name="Scarlatti"
+	culture = sicilian
+}
+1000061902 = {
+	name="Leone"
+	culture = sicilian
+}	
+1000061903 = {
+	name="Castellano"
+	culture = sicilian
+}
+1000061904 = {
+	name="Soprano"
+	culture = sicilian
+}
+1000061905 = {
+	name="Pacino"
+	culture = sicilian
+}
+1000061906 = {
+	name="Sonatra"
+	culture = sicilian
+}
+1000061907 = {
+	name="Zappa"
+	culture = sicilian
+}
+1000061908 = {
+	name="Luciano"
+	culture = sicilian
+}
+1000061909 = {
+	name="af Hand"
+	culture = danish
+}
+1000061910 = {
+	name="Kutama"
+	culture = maghreb_arabic
+}
+1000061911 = {
+	name="Awarba"
+	culture = maghreb_arabic
+}
+1000061912 = {
+	name="Barghawata"
+	culture = maghreb_arabic
+}	
+1000061913 = {
+	name="Ghomara"
+	culture = maghreb_arabic
+}
+1000061914 = {
+	name="Miknasa"
+	culture = maghreb_arabic
+}
+1000061915 = {
+	name="Wattasid" #Araouane
+	culture = maghreb_arabic
+}
+1000061916 = {
+	name="Tantalalid" #Taghaza
+	culture = maghreb_arabic
+}
+1000061917 = {
+	name="Auderasid" #Air
+	culture = maghreb_arabic
+}
+1000061918 = {
+	name="Chinguettid" #Ouadane
+	culture = maghreb_arabic
+}
+1000061919 = {
+	name="Sebkhaid" #Idjil
+	culture = maghreb_arabic
+}
+1000061920 = {
+	name="Mwynfawr"
+	culture = cumbrian
+}
+1000061921 = {
+	name="Gloff"
+	culture = cumbrian
+}
+1000061922 = {
+	name="of Alt Clut"
+	culture = cumbrian
+}	
+1000061923 = {
+	name="Hael"
+	culture = cumbrian
+}
+1000061924 = {
+	name="Guletic"
+	culture = cumbrian
+}
+1000061925 = {
+	name="Coeling"
+	culture = cumbrian
+}
+1000061926 = {
+	name="Taliesin"
+	culture = cumbrian
+}
+1000061927 = {
+	name="Aneirin"
+	culture = cumbrian
+}
+1000061928 = {
+	name="Bulc"
+	culture = cumbrian
+}
+1000061929 = {
+	name="Hen"
+	culture = cumbrian
+}
+1000061930 = {
+	name="Gospatrick"
+	culture = cumbrian
+}
+1000061931 = {
+	name="Gosmungo"
+	culture = cumbrian
+}
+1000061932 = {
+	name="Gososwald"
+	culture = cumbrian
+}	
+1000061933 = {
+	name="Goscubrycht"
+	culture = cumbrian
+}
+1000061934 = {
+	name="Lanercost"
+	culture = cumbrian
+}
+1000061935 = {
+	name="Gladhoc"
+	culture = cumbrian
+}
+1000061936 = {
+	name="Lanark"
+	culture = cumbrian
+}
+1000061937 = {
+	name="Minnoc"
+	culture = cumbrian
+}
+1000061938 = {
+	name="Barmulloch"
+	culture = cumbrian
+}
+1000061939 = {
+	name="Ystradnidd"
+	culture = cumbrian
+}
+1000061940 = {
+	name="Bulsara"
+	culture = persian
+}
+1000061941 = {
+	name="Buzjani"
+	culture = persian
+}
+1000061942 = {
+	name="Tusi"
+	culture = persian
+}	
+1000061943 = {
+	name="Rudaki"
+	culture = persian
+}
+1000061944 = {
+	name="Razi"
+	culture = persian
+}
+1000061945 = {
+	name="Attar"
+	culture = persian
+}
+1000061946 = {
+	name="Marzban"
+	culture = persian
+}
+1000061947 = {
+	name="Malabari"
+	culture = persian
+}
+1000061948 = {
+	name="Irani"
+	culture = persian
+}
+1000061949 = {
+	name="Mehta"
+	culture = persian
+}
+1000061950 = {
+	name="Kangar"
+	culture = pecheneg
+}
+1000061951 = {
+	name="Irtim"
+	culture = pecheneg
+}
+1000061952 = {
+	name="Tzour"
+	culture = pecheneg
+}	
+1000061953 = {
+	name="Gyla"
+	culture = pecheneg
+}
+1000061954 = {
+	name="Koulpei"
+	culture = pecheneg
+}
+1000061955 = {
+	name="Charaboi"
+	culture = pecheneg
+}
+1000061956 = {
+	name="Talmat"
+	culture = pecheneg
+}
+1000061957 = {
+	name="Chopon"
+	culture = pecheneg
+}
+1000061958 = {
+	name="Tzopon"
+	culture = pecheneg
+}
+1000061959 = {
+	name="Padzunak"
+	culture = pecheneg
+}
+1000061960 = {
+	name="Uz"
+	culture = pecheneg
+}
+1000061961 = {
+	name="Chepni"
+	culture = pecheneg
+}
+1000061962 = {
+	name="Kangly"
+	culture = pecheneg
+}	
+1000061963 = {
+	name="Kankali"
+	culture = pecheneg
+}
+1000061964 = {
+	name="Aspron"
+	culture = pecheneg
+}
+1000061965 = {
+	name="Toungatai"
+	culture = pecheneg
+}
+1000061966 = {
+	name="Kraknakatai"
+	culture = pecheneg
+}
+1000061967 = {
+	name="Salmakatai"
+	culture = pecheneg
+}
+1000061968 = {
+	name="Sakakatai"
+	culture = pecheneg
+}
+1000061969 = {
+	name="Giaioukatai"
+	culture = pecheneg
+}
+1000061970 = {
+	name="Unjarga"
+	culture = lappish
+}
+1000061971 = {
+	name="Jannok"
+	culture = lappish
+}
+1000061972 = {
+	name="Somby"
+	culture = lappish
+}	
+1000061973 = {
+	name="Aanar"
+	culture = lappish
+}
+1000061974 = {
+	name="Aarborte"
+	culture = lappish
+}
+1000061975 = {
+	name="Divtasvuodna"
+	culture = lappish
+}
+1000061976 = {
+	name="Gaivuotna"
+	culture = lappish
+}
+1000061977 = {
+	name="Guovdageaidnu"
+	culture = lappish
+}
+1000061978 = {
+	name="Karašjohka"
+	culture = lappish
+}
+1000061979 = {
+	name="Staare"
+	culture = lappish
+}
+1000061980 = {
+	name="Kabar"
+	culture = khazar
+}
+1000061981 = {
+	name="Khavar"
+	culture = khazar
+}
+1000061982 = {
+	name="Khatiriltber"
+	culture = khazar
+}	
+1000061983 = {
+	name="Hazerid"
+	culture = khazar
+}
+1000061984 = {
+	name="Rasid"
+	culture = khazar
+}
+1000061985 = {
+	name="Pesakhid"
+	culture = khazar
+}
+1000061986 = {
+	name="Barjikid"
+	culture = khazar
+}
+1000061987 = {
+	name="Baranjar"
+	culture = khazar
+}
+1000061988 = {
+	name="Atil"
+	culture = khazar
+}
+1000061989 = {
+	name="Orsiyya"
+	culture = khazar
+}
+1000061990 = {
+	name="Caterina"
+	culture = sicilian
+}
+1000061991 = {
+	name="Caputo"
+	culture = sicilian
+}
+1000061992 = {
+	name="Veneziano"
+	culture = sicilian
+}	
+1000061993 = {
+	name="Vaccarini"
+	culture = sicilian
+}
+1000061994 = {
+	name="Peralta"
+	culture = sicilian
+}
+1000061995 = {
+	name="Moncada"
+	culture = sicilian
+}
+1000061996 = {
+	name="Chiaromonte"
+	culture = sicilian
+}
+1000061997 = {
+	name="Spinola"
+	culture = sicilian
+}
+1000061998 = {
+	name="Rocca"
+	culture = sicilian
+}
+1000061999 = {
+	name="Ventimiglia"
+	culture = sicilian
+}

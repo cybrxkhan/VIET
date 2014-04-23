@@ -1,0 +1,716 @@
+##################################################
+#
+# STRATEGIC EFFECTS - A.K.A. "TRIGGERED MODIFIERS"
+#
+##################################################
+
+# Bankruptcy
+negative_money = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		NOT = { wealth = 0 }
+	}
+	
+	icon = 24
+	
+	land_morale = -0.25
+	
+	active = no
+}
+
+# Ethiopian Defense
+ethiopian_defense = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		culture_group = east_african
+		religion_group = christian
+		any_war = {
+			defender = {
+				character = ROOT
+			}
+			attacker = {
+				religion_group = muslim
+			}
+		}
+		NOT = {
+			any_war = {
+				attacker = {
+					character = ROOT
+				}
+			}
+		}
+	}
+	
+	icon = 13
+
+	land_morale = 0.3
+	land_organisation = 0.3
+
+}
+
+#Fatimid Chaos
+fatimid_chaos = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		has_landed_title = k_egypt
+		year = 1000
+		NOT = { year = 1090 }
+	}
+
+	icon = 16
+
+	CASTLE_TAX_MODIFIER = -0.2
+	CITY_TAX_MODIFIER = -0.1
+	TEMPLE_TAX_MODIFIER = -0.2
+
+	land_morale = -0.5
+	land_organisation = -0.5
+	local_revolt_risk = 0.1
+	
+	general_opinion = -25	
+	
+}
+
+#Seljuk Momentum
+seljuk_momentum = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		has_landed_title = e_persia
+		year = 1066
+		NOT = { year = 1075 }
+	}
+
+	icon = 16
+
+	land_morale = 0.1
+	land_organisation = 0.1
+	GLOBAL_SUPPLY_LIMIT = 0.6
+	SIEGE_SPEED = 0.1
+	local_revolt_risk = -0.2	
+	general_opinion = 10	
+	
+}
+
+# Adopted ruler
+adopted_ruler = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		has_character_flag = VIET_adopted_child
+	}
+
+	icon = 36
+
+	diplomacy = -1
+	monthly_character_prestige = -0.1
+	general_opinion = -20
+	
+}
+
+# Byzantine Chaos
+byzantine_chaos = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		has_landed_title = e_byzantium
+		year = 1060
+		NOT = { year = 1077 }
+	}
+
+	icon = 16
+
+	land_morale = -0.25
+	land_organisation = -0.25
+	global_tax_modifier = -0.1
+	
+}
+
+# Shiite
+shiite_sayyid_ruler = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		OR = {
+			religion = shiite
+			is_heresy_of = shiite
+		}
+		OR = {
+			trait = sayyid
+			trait = mirza
+		}
+		NOT = { decadence = 50 }
+	}
+
+	icon = 13
+
+	land_morale = 0.1
+	land_organisation = 0.05
+	
+}
+
+##################################
+#West Africa stuff
+##################################
+
+# Griots
+no_griot = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		NOT = {
+			any_vassal = {
+				has_minor_title = title_court_griot
+			}
+		}
+		NOT = {
+			any_courtier = {
+				has_minor_title = title_court_griot
+			}
+		}
+	}
+
+	icon = 36
+
+	land_morale = -0.05
+	monthly_character_prestige = -0.1	
+	general_opinion = -10
+	castle_vassal_max_levy = -0.2
+	temple_vassal_max_levy = -0.2
+	city_vassal_max_levy = -0.2
+	
+}
+adequate_griot_diplomacy = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			NOT = { diplomacy = 10 }
+		}
+	}
+
+	icon = 18
+
+	land_morale = 0.02
+	#castle_vassal_max_levy = 0.1
+	#temple_vassal_max_levy = 0.1
+	#city_vassal_max_levy = 0.1		
+	
+}
+good_griot_diplomacy = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			diplomacy = 10
+			NOT = { diplomacy = 20 }
+		}
+	}
+
+	icon = 18
+
+	land_morale = 0.05	
+	castle_vassal_max_levy = 0.05
+	temple_vassal_max_levy = 0.05
+	city_vassal_max_levy = 0.05	
+	
+}
+great_griot_diplomacy = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			diplomacy = 20
+		}
+	}
+
+	icon = 18
+
+	land_morale = 0.1
+	castle_vassal_max_levy = 0.15
+	temple_vassal_max_levy = 0.15
+	city_vassal_max_levy = 0.15	
+	
+}
+adequate_griot_learning = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			NOT = { learning = 10 }
+		}
+	}
+
+	icon = 18
+
+	monthly_character_prestige = 0.05	
+	#general_opinion = 10
+	#local_revolt_risk = -0.05	
+	
+}
+good_griot_learning = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			learning = 10
+			NOT = { learning = 20 }
+		}
+	}
+
+	icon = 18
+
+	monthly_character_prestige = 0.1	
+	general_opinion = 5
+	local_revolt_risk = -0.05	
+	
+}
+great_griot_learning = {
+	potential = {
+		is_ruler = yes
+	}
+
+	trigger = {
+		NOT = { has_global_flag = VIET_wafrican_features_off }
+		primary_title = { higher_tier_than = BARON }
+		OR = {
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+			culture_group = west_african
+		}
+		any_courtier = {
+			has_minor_title = title_court_griot
+			learning = 20
+		}
+	}
+
+	icon = 18
+
+	monthly_character_prestige = 0.25	
+	general_opinion = 10
+	local_revolt_risk = -0.1	
+	
+}
+
+##########################
+# Zoroastrian Stuff
+##########################
+
+zoroastrian_honesty = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = honest
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = 0.40
+	church_opinion = 5
+}
+
+zoroastrian_deceitfulness = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = deceitful
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = -0.40
+	church_opinion = -5
+}
+
+zoroastrian_celibacy = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = celibate
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = -1.50
+	church_opinion = -10
+}
+
+zoroastrian_chastity = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = chaste
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = -0.70
+}
+
+zoroastrian_hedonism = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = hedonist
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = 0.70
+}
+
+
+zoroastrian_lustfulness = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		trait = lustful
+		religion_group = zoroastrian_group
+	}
+	
+	icon = 12
+	monthly_character_piety = 0.5
+}
+
+
+zoroastrian_not_married = {
+	potential = {
+		religion_group = zoroastrian_group
+	}
+	
+	trigger = {
+		age = 16
+		religion_group = zoroastrian_group
+		is_married = no
+	}
+	
+	icon = 36
+	monthly_character_piety = -0.40
+	monthly_character_prestige = -0.40
+}
+
+#####################################################################
+# BVDDHIST
+#####################################################################
+
+pure_land_supporter = {
+	potential = {
+		religion = buddhist
+		trait = mahayana_buddhist
+		primary_title = { higher_tier_than = BARON }
+	}
+	
+	trigger = {
+		has_character_flag = pure_land_flag
+		religion = buddhist
+	}
+	diplomacy = 1
+	learning = 1
+	general_opinion = 10
+	icon = 2
+}
+lotus_school_supporter = {
+	potential = {
+		religion = buddhist
+		trait = mahayana_buddhist
+		primary_title = { higher_tier_than = BARON }
+	}
+	
+	trigger = {
+		has_character_flag = lotus_school_flag
+		religion = buddhist
+	}
+	stewardship = 1
+	learning = 1
+	tech_growth_modifier_culture = 0.05
+	tech_growth_modifier_military = 0.05
+	tech_growth_modifier_economy = 0.05
+	icon = 2
+}
+zen_supporter = {
+	potential = {
+		religion = buddhist
+		trait = mahayana_buddhist
+		primary_title = { higher_tier_than = BARON }
+	}
+	
+	trigger = {
+		has_character_flag = zen_flag
+		religion = buddhist
+	}
+	intrigue = 1
+	learning = 1
+	build_cost_modifier = -0.20
+	build_time_modifier = -0.20
+	icon = 2
+}
+buddhist_zeal = {
+	potential = {
+		religion = buddhist
+	}
+	
+	trigger = {
+		trait = zealous
+		religion = buddhist
+	}
+
+	martial = -4
+	diplomacy = 1
+	stewardship = 1
+	
+	icon = 6
+}
+buddhist_cynicism = {
+	potential = {
+		religion = buddhist
+	}
+	
+	trigger = {
+		trait = cynical
+		religion = buddhist
+	}
+
+	monthly_character_piety = 0.2
+	
+	icon = 6
+}
+
+
+##################################
+#Christian Heresies
+##################################
+
+
+corrupt_dulcinian_1 = {
+	potential = {
+		religion = dulcinian
+		is_ruler = yes
+	}
+	
+	trigger = {
+		religion = dulcinian
+		OR = {
+			AND = {
+				OR = {
+					wealth = 400
+					has_law = centralization_1
+				}
+				NOT = { trait = charitable }
+				NOT = { trait = temperate }
+				NOT = { trait = just }
+				NOT = { trait = zealous }
+			}
+			AND = {
+				OR = {
+					wealth = 500
+					has_law = centralization_2
+				}
+				OR = {
+					trait = charitable
+					trait = temperate
+					trait = just
+					trait = zealous
+				}
+				NOT = { trait = greedy }
+				NOT = { trait = arbitrary }
+				NOT = { trait = cruel }
+			}
+		}
+	}
+
+	monthly_character_piety = -0.2
+	global_revolt_risk = 0.1
+	church_opinion = -10
+	general_opinion = -5
+	land_morale = -0.05
+
+	icon = 24
+
+}
+
+
+
+corrupt_dulcinian_2 = {
+	potential = {
+		religion = dulcinian
+		is_ruler = yes
+	}
+	
+	trigger = {
+		religion = dulcinian
+		OR = {
+			AND = {
+				OR = {
+					wealth = 700
+					has_law = centralization_1
+				}
+				NOT = { trait = charitable }
+				NOT = { trait = temperate }
+				NOT = { trait = just }
+				NOT = { trait = zealous }
+			}
+			AND = {
+				OR = {
+					wealth = 850
+					has_law = centralization_3
+				}
+				OR = {
+					trait = charitable
+					trait = temperate
+					trait = just
+					trait = zealous
+				}
+				NOT = { trait = greedy }
+				NOT = { trait = arbitrary }
+				NOT = { trait = cruel }
+			}
+		}
+	}
+
+	monthly_character_piety = -0.4
+	global_revolt_risk = 0.2
+	church_opinion = -30
+	general_opinion = -15
+	land_morale = -0.1
+
+	icon = 24
+
+}
+
+
+corrupt_dulcinian_3 = {
+	potential = {
+		religion = dulcinian
+		is_ruler = yes
+	}
+	
+	trigger = {
+		religion = dulcinian
+		OR = {
+			AND = {
+				OR = {
+					wealth = 1000
+					has_law = centralization_3
+					has_law = centralization_4
+				}
+				NOT = { trait = charitable }
+				NOT = { trait = temperate }
+				NOT = { trait = just }
+				NOT = { trait = zealous }
+			}
+			AND = {
+				OR = {
+					wealth = 1250
+					has_law = centralization_4
+				}
+				OR = {
+					trait = charitable
+					trait = temperate
+					trait = just
+					trait = zealous
+				}
+				NOT = { trait = greedy }
+				NOT = { trait = arbitrary }
+				NOT = { trait = cruel }
+			}
+		}
+	}
+
+	monthly_character_piety = -0.75
+	global_revolt_risk = 0.3
+	church_opinion = -40
+	general_opinion = -25
+	land_morale = -0.25
+
+	icon = 24
+
+}
+

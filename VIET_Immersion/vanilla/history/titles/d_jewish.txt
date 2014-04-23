@@ -1,0 +1,95 @@
+1.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+1.2.2={
+	holder = 1000052001
+	liege="e_roman_empire"
+}
+6.2.2={
+	holder = 1000052002
+	liege="e_roman_empire"
+}
+15.2.2={
+	holder = 1000052003
+	liege="e_roman_empire"
+}
+16.2.2={
+	holder = 1000052004
+	liege="e_roman_empire"
+}
+17.2.2={
+	holder = 1000052005
+	liege="e_roman_empire"
+}
+18.2.2={
+	holder = 1000052006
+	liege="e_roman_empire"
+}
+36.2.2={
+	holder = 1000052007
+	liege="e_roman_empire"
+}
+37.2.2={
+	holder = 1000052008
+	liege="e_roman_empire"
+}
+41.2.2={
+	holder = 1000052009
+	liege="e_roman_empire"
+}
+43.2.2={
+	holder = 1000052010
+	liege="e_roman_empire"
+}
+43.12.30={
+	holder = 1000052011
+	liege="e_roman_empire"
+}
+44.2.2={
+	holder = 1000052007
+	liege="e_roman_empire"
+}
+44.12.30={
+	holder = 1000052013
+	liege="e_roman_empire"
+}
+46.2.2={
+	holder = 1000052014
+	liege="e_roman_empire"
+}
+52.2.2={
+	holder = 1000052015
+	liege="e_roman_empire"
+}
+56.2.2={
+	holder = 1000052003
+	liege="e_roman_empire"
+}
+62.2.2={
+	holder = 1000052017
+	liege="e_roman_empire"
+}
+63.2.2={
+	holder = 1000052018
+	liege="e_roman_empire"
+}
+63.5.30={
+	holder = 1000052019
+	liege="e_roman_empire"
+}
+63.12.30={
+	holder = 1000052020
+	liege="e_roman_empire"
+}
+65.1.1={
+	holder = 1000052021
+	liege="e_roman_empire"
+}
+67.1.1={
+	holder = 1000052022
+}
+70.5.5={
+	holder=0
+	active = no
+}

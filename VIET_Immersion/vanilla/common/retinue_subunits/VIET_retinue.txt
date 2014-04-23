@@ -1,0 +1,42 @@
+RETTYPE_CUL_JEWISH_WARRIOR = 
+{
+	first_type = 4
+	first_amount = 100
+	
+	second_type = 1
+	second_amount = 100
+	
+	potential = {
+		culture_group = israelite
+	}
+	
+	modifier = {
+		light_infantry_defensive = 0.4
+		light_cavalry_defensive = 0.2
+	}
+}
+
+RETTYPE_CUL_ASIAN_CHAMPION = 
+{
+	first_type = 2
+	first_amount = 100
+	
+	second_type = 2
+	second_amount = 100
+	
+	potential = {
+		OR = {	
+			culture_group = andamanese
+			culture_group = sinic
+			culture_group = himalayan
+			culture_group = papuan
+			culture_group = southeast_asian
+			culture_group = taiwanese
+		}
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.4
+		light_cavalry_defensive = 0.2
+	}
+}

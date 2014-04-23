@@ -1,0 +1,17 @@
+# 849 - Canarias
+
+# County Title
+title = c_canarias
+
+# Settlements
+max_settlements = 3
+b_anazo = castle
+#b_la_laguna = city
+#b_adeje = temple
+#b_abona = castle
+
+# Misc
+culture = guanche
+religion = west_african_pagan
+
+# History

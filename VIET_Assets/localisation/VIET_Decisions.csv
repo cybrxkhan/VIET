@@ -58,8 +58,8 @@ EVTOPTA1000109045;If only there was an opening on the imperial chair...;;;;;;;;;
 EVTOPTB1000109045;I am not interested in claiming the Empire.;;;;;;;;;;;x
 #SVRVEY REALM DECISION;;;;;;;;;;;;;;x
 surveyed_realm_recently_text;Hasn't surveyed realm recently;;;;;;;;;;;x
-EVTDESC1000109048;Due to unforseen circumstances, your survey of your realm has been halted.;;;;;;;;;;;x
-EVTOPTA1000109048;How unfortunate!;;;;;;;;;;;x
+EVTDESC1000109048;Messengers come to you in the midst of your tour of the realm, warning you that alarming developments have transpired while you were away - you are now at war!;;;;;;;;;;;x
+EVTOPTA1000109048;We must hurry and finish this tour of the realm.;;;;;;;;;;;x
 EVTDESC1000109049;It’s been many years since I’ve surveyed my realm. Undoubtedly things have changed since then, and some of my courtiers suggest this would be a good time to travel the land once more and see how my realm is doing.;;;;;;;;;;;x
 EVTOPTA1000109049;I’ll think about it.;;;;;;;;;;;x
 EVTDESC1000109050;After deliberation with your advisors and family, you have decided to survey your realm. The preparations will take several days, but the experience will be worth it. After all, it is one thing to hear of how your realm is doing, but another to see it with your own eyes.;;;;;;;;;;;x

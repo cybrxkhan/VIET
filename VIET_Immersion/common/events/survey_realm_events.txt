@@ -14,33 +14,20 @@ namespace = qimatheliar
 character_event = {
 	id = 1000109048
 	desc = "EVTDESC1000109048"
-	picture = GFX_evt_travel
+	picture = GFX_evt_coming_home
 	
 	trigger = {
 		has_character_flag = surveyed_realm
 		trait = traveling
-		OR = {
-			war = yes
-			prisoner = yes
-		}
+		war = yes
 	}
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = "EVTOPTA1000109048"
-		clr_character_flag = surveyed_realm
-		if = {
-			limit = {
-				trait = traveling
-			}
-			remove_trait = traveling
-		}		
+		name = "EVTOPTA1000109048"	
 	}
 }
 
@@ -362,7 +349,7 @@ character_event = {
 character_event = {
 	id = 1000109054
 	desc = "EVTDESC1000109054"
-	picture = GFX_evt_travel
+	picture = GFX_evt_coming_home
 	
 	is_triggered_only = yes
 	
@@ -427,7 +414,7 @@ character_event = {
 character_event = {
 	id = 1000109057
 	desc = "EVTDESC1000109057"
-	picture = GFX_evt_moorish_decor
+	picture = GFX_evt_coming_home
 	
 	is_triggered_only = yes
 	
@@ -1107,7 +1094,7 @@ character_event = {
 character_event = {
 	id = 1000109065
 	desc = "EVTDESC1000109065"
-	picture = GFX_evt_joust
+	picture = GFX_evt_coming_home
 	
 	is_triggered_only = yes
 	
@@ -1142,7 +1129,7 @@ character_event = {
 character_event = {
 	id = 1000109066
 	desc = "EVTDESC1000109066"
-	picture = GFX_evt_small_town
+	picture = GFX_evt_village_at_night
 	
 	is_triggered_only = yes
 	
@@ -1721,7 +1708,7 @@ character_event = {
 character_event = {
 	id = 1000109085
 	desc = "EVTDESC1000109085"
-	picture = GFX_evt_bandits
+	picture = GFX_evt_village_at_night
 	
 	is_triggered_only = yes
 	
@@ -1743,7 +1730,7 @@ character_event = {
 character_event = {
 	id = 1000109086
 	desc = "EVTDESC1000109086"
-	picture = GFX_evt_tuscan_country
+	picture = GFX_evt_village_at_night
 	
 	is_triggered_only = yes
 	
@@ -1961,7 +1948,7 @@ character_event = {
 character_event = {
 	id = 1000109092
 	desc = "EVTDESC1000109092"
-	picture = GFX_evt_tuscan_country
+	picture = GFX_evt_autumn_harvest
 	
 	is_triggered_only = yes
 	
@@ -2370,7 +2357,7 @@ character_event = {
 character_event = {
 	id = VIETsurvey.5
 	desc = VIETsurvey.5.desc
-	picture = GFX_evt_council
+	picture = GFX_evt_coming_home
 	
 	is_triggered_only = yes
 	
@@ -3044,7 +3031,7 @@ character_event = {
 character_event = {
 	id = VIETsurvey.14
 	desc = VIETsurvey.14.desc
-	picture = GFX_evt_melee
+	picture = GFX_evt_apocalypto
 	
 	is_triggered_only = yes
 	

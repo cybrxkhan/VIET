@@ -10662,6 +10662,8 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
+		NOT = { religion_group = muslim }
+		NOT = { religion_group = jewish_group }
 	}
 	
 	weight_multiplier = {

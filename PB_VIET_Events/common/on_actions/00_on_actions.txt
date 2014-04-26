@@ -899,9 +899,6 @@ on_five_year_pulse = {
 		10 = 1000109356
 		#Shady Events
 		10 = 1000109475
-		#References events
-		10 = VIETmisc.5006
-		10 = VIETmisc.5010
 		
 		#VIET Event Chains
 		5 = VIETmisc.5000

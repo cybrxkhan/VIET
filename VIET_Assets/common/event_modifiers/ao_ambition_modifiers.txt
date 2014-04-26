@@ -1,10 +1,5 @@
 
-
 bastard_legit_request_timer = {
-	icon = 1
-}
-
-abuse_stopper_timer = {
 	icon = 1
 }
 

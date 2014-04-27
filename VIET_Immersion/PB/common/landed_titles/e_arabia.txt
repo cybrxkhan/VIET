@@ -2551,16 +2551,6 @@ e_arabia = {
 	allow = {
 		culture_group = arabic
 		OR = {
-			has_landed_title = k_mauretania
-			completely_controls = k_mauretania
-			k_mauretania = { is_titular = yes }
-		}
-		OR = {
-			has_landed_title = k_africa
-			completely_controls = k_africa
-			k_africa = { is_titular = yes }
-		}
-		OR = {
 			has_landed_title = k_egypt
 			completely_controls = k_egypt
 			k_egypt = { is_titular = yes }

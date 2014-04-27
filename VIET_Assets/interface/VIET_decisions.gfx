@@ -295,4 +295,8 @@ spriteTypes = {
 		name = "GFX_go_on_tro_breizh"
 		texturefile = "gfx\\interface\\decision_icon_tro_breizh_pilgrimage.dds"
 	}
+	spriteType = {
+		name = "GFX_contribute_to_fathers_hogback_stone"
+		texturefile = "gfx\\interface\\decision_icon_contribute_to_fathers_hogback_stone.dds"
+	}
 }

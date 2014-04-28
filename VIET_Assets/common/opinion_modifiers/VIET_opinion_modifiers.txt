@@ -88,7 +88,7 @@ ordep_rejected = {
 ordep_fun_at_ruins = {
 	opinion = 15
 }
-viet_impressed_minoan {
+viet_impressed_minoan = {
 	opinion = 15
 }
 opinion_bless_ya_girl = {

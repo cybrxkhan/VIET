@@ -73,6 +73,7 @@ VIETceltic.2.desc;After some traveling, you make your way to the famous holy wel
 VIETceltic.2.a;Offer prayers to [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
 VIETceltic.3.desc;Many admire you as a leader. Were you and your dynasty not the ones who reunified Britain and drove out its invaders after centuries of hopelessness and despair? Comparing you to King Arthur is not only apt, it is perfect - both, great monarchs and defenders of Britain. To solidify your legitimacy, it may be a good idea to enforce these Arthurian ideals. For instance, perhaps that most esteemed chivalric order, the Knights of the Round Table, could be re-established. Having a loyal group of peerless knights by your side would earn you much prestige and the respect of men across the world.;;;;;;;;;;;;;x
 VIETceltic.3.a;Knights, arise! The old order is reborn anew!;;;;;;;;;;;;;x
+OPERATION_ORANGE_KUN_COMMENCE;ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
 VIETceltic.4.desc;[Liege.GetTitledFirstName] has appointed me as a Knight of the Round Table. This is quite an honor! I can now count myself among the ranks of legendary figures such as Lancelot,  Galahad, and Tristan.;;;;;;;;;;;;;x
 VIETceltic.4.a;Our enemies shall taste my storm of loyalty!;;;;;;;;;;;;;x
 VIETceltic.4.b;An interesting development for sure...;;;;;;;;;;;;;x

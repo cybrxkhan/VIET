@@ -19,7 +19,7 @@
 namespace = VIETceltic
 
 # Rebirth of Old Britain
-character_event = {
+narrative_event = {
 	id = VIETceltic.0
 	desc = VIETceltic.0.desc
 	picture = GFX_evt_coming_home

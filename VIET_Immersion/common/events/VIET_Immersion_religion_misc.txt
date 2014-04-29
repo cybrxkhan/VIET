@@ -471,7 +471,7 @@ letter_event = {
 #################################################
 
 
-# Buddhist becoming a wicked priest
+# Indian becoming a wicked priest
 character_event = {
 
 	id = VIETmisc.221
@@ -483,7 +483,7 @@ character_event = {
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
 		is_priest = yes
-		religion_group = eastern_group
+		religion_group = indian_group
 		OR = {
 			trait = cynical
 			trait = lustful
@@ -505,7 +505,7 @@ character_event = {
 		NOT = { trait = temperate }
 		NOT = { trait = diligent }
 		NOT = { trait = humble }
-		NOT = { trait = bad_priest_buddhist }
+		NOT = { trait = bad_priest_indian }
 	}
 
 	mean_time_to_happen = {
@@ -513,7 +513,7 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_buddhist
+		add_trait = bad_priest_indian
 		if = {
 			limit = {
 				is_ruler = yes
@@ -576,7 +576,7 @@ character_event = {
 		NOT = { trait = temperate }
 		NOT = { trait = diligent }
 		NOT = { trait = humble }
-		NOT = { trait = bad_priest_manichean }
+		NOT = { trait = bad_priest_gnostic }
 	}
 
 	mean_time_to_happen = {
@@ -584,7 +584,7 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_manichean
+		add_trait = bad_priest_gnostic
 		if = {
 			limit = {
 				is_ruler = yes
@@ -613,7 +613,6 @@ character_event = {
 	}
 }
 
-
 # Wicked Archegos or Rishamma
 character_event = {
 	id = VIETmisc.223
@@ -626,7 +625,7 @@ character_event = {
 			has_landed_title = d_manichean_archegos
 			has_landed_title = d_mandaean
 		}
-		trait = bad_priest_manichean
+		trait = bad_priest_gnostic
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -663,77 +662,6 @@ character_event = {
 
 	option = {
 		name = VIETmisc.224.a
-	}
-}
-
-# Hindu becoming a wicked priest
-character_event = {
-
-	id = VIETmisc.225
-
-	hide_window = yes
-
-	trigger = {
-		has_dlc = "Sons of Abraham"
-		NOT = { intrigue = 3 }
-		NOT = { diplomacy = 3 }
-		is_priest = yes
-		religion_group = vedic
-		OR = {
-			trait = cynical
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
-			trait = lunatic
-			trait = possessed
-			trait = homosexual
-			trait = hedonist
-		}
-		NOT = { trait = kind }
-		NOT = { trait = charitable }
-		NOT = { trait = chaste }
-		NOT = { trait = patient }
-		NOT = { trait = temperate }
-		NOT = { trait = diligent }
-		NOT = { trait = humble }
-		NOT = { trait = bad_priest_buddhist }
-	}
-
-	mean_time_to_happen = {
-		months = 24
-	}
-
-	immediate = {
-		add_trait = bad_priest_buddhist
-		if = {
-			limit = {
-				is_ruler = yes
-				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
-			}
-			give_nickname = nick_the_wicked
-		}
-		if = {
-			limit = {
-				is_ruler = yes
-				has_nickname = no
-				trait = possessed
-			}
-			give_nickname = nick_the_bewitched
-		}
-		if = {
-			limit = {
-				is_ruler = yes
-				has_nickname = no
-				trait = lunatic
-			}
-			give_nickname = nick_the_mad
-		}
 	}
 }
 

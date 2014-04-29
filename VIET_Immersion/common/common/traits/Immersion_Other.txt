@@ -253,7 +253,7 @@ bad_priest_indian = { #all dharmic
 	random = no
 }
 
-bad_priest_manichean = { #all gnostic
+bad_priest_gnostic = { #all gnostic
 
 	religious = yes
 

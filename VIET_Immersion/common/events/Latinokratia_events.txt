@@ -62,64 +62,6 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			independent = yes
-			factor = 0.01
-		}
-		modifier = {
-			prisoner = no
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_adult = yes
-				is_adult = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			religion_group = christian
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				diplomacy = 10
-				NOT = { diplomacy = 10 }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}		
-		modifier = {
-			OR = {
-				trait = cynical
-				NOT = { trait = cynical }
-			}
-			factor = 0.01
-		}
 	}
 		
 	option = {
@@ -415,68 +357,6 @@ narrative_event = {
 
 	mean_time_to_happen = { 
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			independent = yes
-			factor = 0.01
-		}
-		modifier = {
-			prisoner = no
-			factor = 0.01
-		}
-		modifier = {
-			culture = turkish
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_adult = yes
-				is_adult = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			religion_group = muslim
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				diplomacy = 10
-				NOT = { diplomacy = 10 }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}		
-		modifier = {
-			OR = {
-				trait = cynical
-				NOT = { trait = cynical }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -573,68 +453,6 @@ narrative_event = {
 
 	mean_time_to_happen = { 
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			independent = yes
-			factor = 0.01
-		}
-		modifier = {
-			prisoner = no
-			factor = 0.01
-		}
-		modifier = {
-			culture = turkish
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_adult = yes
-				is_adult = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			religion_group = muslim
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				diplomacy = 10
-				NOT = { diplomacy = 10 }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}		
-		modifier = {
-			OR = {
-				trait = cynical
-				NOT = { trait = cynical }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -843,7 +661,7 @@ narrative_event = {
 	
 	option = {
 		trigger = {
-			has_landed_title = k_nikeaea
+			has_landed_title = k_nikaea
 		}
 		name = EVTOPTALatinEmpire.11
 		set_character_flag = centralize_without_penalties
@@ -1048,7 +866,7 @@ letter_event = {
 	
 	option = {
 		name = EVTOPTALatinEmpire.17
-		FROM = { letter_event = LatinEmpire.16 }
+		FROM = { letter_event = { id = LatinEmpire.16 } }
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -1056,7 +874,7 @@ letter_event = {
 					holder_scope = {
 						reverse_opinion = {
 							who = ROOT
-							opinion = 50
+							value = 50
 						}
 					}
 				}
@@ -1107,7 +925,7 @@ letter_event = {
 	
 	option = {
 		name = EVTOPTBLatinEmpire.17
-		FROM = { letter_event = LatinEmpire.18 }
+		FROM = { letter_event = { id = LatinEmpire.18 } }
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -1116,7 +934,7 @@ letter_event = {
 						holder_scope = {
 							reverse_opinion = {
 								who = ROOT
-								opinion = 20
+								value = 20
 							}
 						}
 					}

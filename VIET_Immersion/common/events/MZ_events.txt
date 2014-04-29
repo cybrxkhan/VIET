@@ -37,7 +37,7 @@ character_event = {
 		
 		modifier = {
 			factor = 0.6
-			owner = { realm_learning = 30 }
+			realm_learning = 30
 		}
 	}
 	option = {
@@ -191,29 +191,35 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA1000094010" # Rebuild just the royal palace.
-		wealth = -100
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
 			}
-		character_event = { id = 1000094011 days = 730}
+			wealth = -100
+			character_event = { id = 1000094011 days = 730 }
+		}
 	}
 
 	option = {
 		name = "EVTOPTB1000094010" # Rebuild the entire city.
-		wealth = -200
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
 			}
-		character_event = { id = 1000094011 days = 1460}
+			wealth = -200
+			character_event = { id = 1000094011 days = 1460 }
+		}
 	}
 
 	option = {
 		name = "EVTOPTC1000094010" # Make it the greatest city there ever was!
-		wealth = -300
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
 			}
-		character_event = { id = 1000094011 days = 2920}
+			wealth = -300
+			character_event = { id = 1000094011 days = 2920 }
+		}
 	}
 }
 

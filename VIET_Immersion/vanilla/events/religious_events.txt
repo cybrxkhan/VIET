@@ -3500,8 +3500,8 @@ character_event = {
 			modifier = {
 				factor = 5
 				OR = {
-					religion = cuman
-					religion = pecheneg
+					culture = cuman
+					culture = pecheneg
 				}
 				year = 930
 				NOT = { year = 1220 }

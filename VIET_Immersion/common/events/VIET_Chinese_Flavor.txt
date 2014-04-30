@@ -549,6 +549,8 @@ character_event = {
 			attributes = {
 				martial = 14
 			}
+		}
+		new_character = {
 			# His traits aren't that random (she likes him after all)
 			random = {
 				chance = 5
@@ -579,10 +581,8 @@ character_event = {
 			remove_trait = craven
 			remove_trait = imbecile
 			remove_trait = hunchback
-			remove_trait = clubfoot
+			remove_trait = clubfooted
 			remove_trait = weak
-		}
-		new_character = {
 			add_spouse = FROM
 			add_lover = FROM
 			prestige = 100
@@ -625,6 +625,8 @@ character_event = {
 			attributes = {
 				martial = 14
 			}
+		}
+		new_character = {
 			# His traits aren't that random (she likes him after all)
 			random = {
 				chance = 5
@@ -655,10 +657,8 @@ character_event = {
 			remove_trait = craven
 			remove_trait = imbecile
 			remove_trait = hunchback
-			remove_trait = clubfoot
+			remove_trait = clubfooted
 			remove_trait = weak
-		}
-		new_character = {
 			add_spouse = FROM
 			add_lover = FROM
 			prestige = 100
@@ -712,7 +712,7 @@ narrative_event = {
 		}
 		war = no
 		is_priest = no
-		religion_group = eastern_group
+		religion_group = indian_group
 		OR = {
 			culture_group = sinic
 			has_landed_title = e_khitan
@@ -911,7 +911,6 @@ character_event = {
 				trait = lustful
 				trait = trusting
 				trait = wroth
-				trait = lustful
 				trait = hedonist
 				trait = fair
 				trait = envious
@@ -1011,7 +1010,6 @@ character_event = {
 					trait = lustful
 					trait = trusting
 					trait = wroth
-					trait = lustful
 					trait = hedonist
 					trait = fair
 					trait = envious

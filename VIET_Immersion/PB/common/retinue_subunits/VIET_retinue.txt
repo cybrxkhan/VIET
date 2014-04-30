@@ -8,6 +8,22 @@ RETTYPE_CUL_JEWISH_WARRIOR =
 	
 	potential = {
 		culture_group = israelite
+		
+		# PB's retinue spam filter
+		OR = {
+			ai = no
+			AND = {
+				higher_real_tier_than = count
+				OR = {
+					higher_real_tier_than = duke
+					AND = {
+						independent = yes
+						realm_size = 18
+					}
+					realm_size = 24
+				}
+			}
+		}
 	}
 	
 	modifier = {
@@ -32,6 +48,22 @@ RETTYPE_CUL_ASIAN_CHAMPION =
 			culture_group = papuan
 			culture_group = southeast_asian
 			culture_group = taiwanese
+		}
+		
+		# PB's retinue spam filter
+		OR = {
+			ai = no
+			AND = {
+				higher_real_tier_than = count
+				OR = {
+					higher_real_tier_than = duke
+					AND = {
+						independent = yes
+						realm_size = 18
+					}
+					realm_size = 24
+				}
+			}
 		}
 	}
 	

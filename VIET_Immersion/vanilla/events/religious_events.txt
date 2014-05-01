@@ -5205,6 +5205,12 @@ character_event = {
 			}
 			add_trait = sympathy_judaism
 		}
+		if = {
+			limit = {
+				religion_group = gnostic_group
+			}
+			add_trait = sympathy_gnostic
+		}
 		
 		religion = FROMFROM
 		if = {

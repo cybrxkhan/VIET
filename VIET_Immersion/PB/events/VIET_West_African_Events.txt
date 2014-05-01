@@ -387,45 +387,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 
 	option = {
@@ -655,80 +616,6 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -778,80 +665,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -920,80 +733,6 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1019,80 +758,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1972,47 +1637,23 @@ narrative_event = {
 #
 ##################################################################
 
-#Bambuk (PB Niani)
+#Bambuk
 province_event = {
 	id = wafrica.47
 	desc = wafrica.47.desc
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 947
+		province_id = 926
 		NOT = { has_province_flag = bambuk_mines }
 	}
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = bambuk_mines
 		add_province_modifier = {
 			name = bambuk_gold_mines
@@ -2028,7 +1669,7 @@ province_event = {
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 947
+		province_id = 926
 		has_province_modifier = bambuk_gold_mines
 		owner = {
 			top_liege = {
@@ -2039,30 +1680,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2082,7 +1699,7 @@ province_event = {
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 947
+		province_id = 926
 		has_province_modifier = bambuk_better_gold_mines
 		NOT = {
 			owner = {
@@ -2095,30 +1712,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2131,47 +1724,23 @@ province_event = {
 	}
 }
 
-#Mali (PB Sikasso)
+#Mali
 province_event = {
 	id = wafrica.50
 	desc = wafrica.50.desc
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 918
+		province_id = 925
 		NOT = { has_province_flag = mali_mines }
 	}
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = mali_mines
 		add_province_modifier = {
 			name = mali_gold_mines
@@ -2187,7 +1756,7 @@ province_event = {
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 918
+		province_id = 925
 		has_province_modifier = mali_gold_mines
 		owner = {
 			top_liege = {
@@ -2198,30 +1767,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2241,7 +1786,7 @@ province_event = {
 	picture = GFX_evt_wafrica_gold
 	
 	trigger = {
-		province_id = 918
+		province_id = 925
 		has_province_modifier = mali_better_gold_mines
 		NOT = {
 			owner = {
@@ -2254,30 +1799,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2291,47 +1812,23 @@ province_event = {
 }
 
 
-#Idjil (PB Bir Gandlus)
+#Idjil
 province_event = {
 	id = wafrica.53
 	desc = wafrica.53.desc
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 944
+		province_id = 921
 		NOT = { has_province_flag = idjil_mines }
 	}
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = idjil_mines
 		add_province_modifier = {
 			name = idjil_salt_mines
@@ -2347,7 +1844,7 @@ province_event = {
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 944
+		province_id = 921
 		has_province_modifier = idjil_salt_mines
 		owner = {
 			top_liege = {
@@ -2358,30 +1855,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2401,7 +1874,7 @@ province_event = {
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 944
+		province_id = 921
 		has_province_modifier = idjil_better_salt_mines
 		NOT = {
 			owner = {
@@ -2414,30 +1887,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2451,47 +1900,23 @@ province_event = {
 }
 
 
-#Taghaza (PB Taghaza)
+#Taghaza
 province_event = {
 	id = wafrica.56
 	desc = wafrica.56.desc
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 924
+		province_id = 916
 		NOT = { has_province_flag = taghaza_mines }
 	}
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = taghaza_mines
 		add_province_modifier = {
 			name = taghaza_salt_mines
@@ -2507,7 +1932,7 @@ province_event = {
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 924
+		province_id = 916
 		has_province_modifier = taghaza_salt_mines
 		owner = {
 			top_liege = {
@@ -2518,30 +1943,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2561,7 +1962,7 @@ province_event = {
 	picture = GFX_evt_wafrica_salt
 	
 	trigger = {
-		province_id = 924
+		province_id = 916
 		has_province_modifier = taghaza_better_salt_mines
 		NOT = {
 			owner = {
@@ -2574,30 +1975,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {

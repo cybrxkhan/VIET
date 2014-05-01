@@ -496,21 +496,6 @@ narrative_event = {
 	
 	trigger = {
 		year = 840
-		NOT = { 
-			AND = {
-				OR = {
-					has_landed_title = k_turkestan
-					has_landed_title = k_afghanistan
-					has_landed_title = k_khiva
-					has_landed_title = k_baluchistan
-					has_landed_title = k_persia
-					has_landed_title = k_sogdiana
-					has_landed_title = e_persia
-				}
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = pagan_group }
-			}
-		}
 		NOT = { has_global_flag = sogdian_merchants_supported }
 		has_global_flag = silk_road_level_2
 		has_global_flag = fall_of_tang
@@ -521,7 +506,9 @@ narrative_event = {
 	}
 	
 	immediate = {
+		clr_global_flag = silk_road_level_3
 		clr_global_flag = silk_road_level_2
+		clr_global_flag = silk_road_level_0
 		set_global_flag = silk_road_level_1
 	}
 	
@@ -547,21 +534,6 @@ narrative_event = {
 	only_rulers = yes
 	
 	trigger = {
-		NOT = { 
-			AND = {
-				OR = {
-					has_landed_title = k_turkestan
-					has_landed_title = k_afghanistan
-					has_landed_title = k_khiva
-					has_landed_title = k_baluchistan
-					has_landed_title = k_persia
-					has_landed_title = k_sogdiana
-					has_landed_title = e_persia
-				}
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = pagan_group }
-			}
-		}
 		NOT = { has_global_flag = sogdian_merchants_supported }
 		has_global_flag = silk_road_level_1
 		has_global_flag = fall_of_tang
@@ -572,6 +544,8 @@ narrative_event = {
 	}
 	
 	immediate = {
+		clr_global_flag = silk_road_level_3
+		clr_global_flag = silk_road_level_2
 		clr_global_flag = silk_road_level_1
 		set_global_flag = silk_road_level_0
 	}
@@ -600,19 +574,6 @@ narrative_event = {
 	trigger = {
 		has_global_flag = silk_road_level_1
 		has_global_flag = sogdian_merchants_supported
-		AND = {
-			OR = {
-				has_landed_title = k_turkestan
-				has_landed_title = k_afghanistan
-				has_landed_title = k_khiva
-				has_landed_title = k_baluchistan
-				has_landed_title = k_persia
-				has_landed_title = k_sogdiana
-				has_landed_title = e_persia
-			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan_group }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -620,7 +581,9 @@ narrative_event = {
 	}
 	
 	immediate = {
+		clr_global_flag = silk_road_level_0
 		clr_global_flag = silk_road_level_1
+		clr_global_flag = silk_road_level_3
 		set_global_flag = silk_road_level_2
 	}
 	
@@ -648,19 +611,6 @@ narrative_event = {
 	trigger = {
 		has_global_flag = silk_road_level_2
 		has_global_flag = sogdian_merchants_supported
-		AND = {
-			OR = {
-				has_landed_title = k_turkestan
-				has_landed_title = k_afghanistan
-				has_landed_title = k_khiva
-				has_landed_title = k_baluchistan
-				has_landed_title = k_persia
-				has_landed_title = k_sogdiana
-				has_landed_title = e_persia
-			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan_group }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -672,6 +622,8 @@ narrative_event = {
 	}
 	
 	immediate = {
+		clr_global_flag = silk_road_level_0
+		clr_global_flag = silk_road_level_1
 		clr_global_flag = silk_road_level_2
 		set_global_flag = silk_road_level_3
 	}

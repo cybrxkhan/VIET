@@ -158,6 +158,18 @@ decisions = {
 				tier = king 
 			}
 			NOT = { has_global_flag = silk_road_level_3 }
+			NOT = { has_global_flag = silk_road_level_0 }
+			capital_scope = {
+				OR = {
+					kingdom = { title = k_turkestan }
+					kingdom = { title = k_afghanistan }
+					kingdom = { title = k_khiva }
+					kingdom = { title = k_baluchistan }
+					kingdom = { title = k_persia }
+					kingdom = { title = k_sogdiana }
+					empire = { title = e_persia }
+				}
+			}
 		}
 		allow = {
 			independent = yes
@@ -167,7 +179,7 @@ decisions = {
 				has_landed_title = k_khiva
 				has_landed_title = k_sogdiana
 				has_landed_title = k_afghanistan
-				has_landed_title = k_balochistan
+				has_landed_title = k_baluchistan
 				has_landed_title = e_persia
 			}
 			prestige = 250

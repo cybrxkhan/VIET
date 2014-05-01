@@ -64,7 +64,7 @@ plot_seduce_liege = {
 	}
 	
 	chance = {
-		factor = 2
+		factor = 0.05
 		
 		modifier = {
 			factor = 0.01
@@ -336,7 +336,7 @@ plot_seduce_for_men = {
 	}
 	
 	chance = {
-		factor = 2
+		factor = 0.05
 		
 		modifier = {
 			factor = 0.01
@@ -580,7 +580,7 @@ plot_kidnapping = {
 	}
 	
 	chance = {
-		factor = 2
+		factor = 0.05
 		
 		modifier = {
 			factor = 0.01
@@ -743,7 +743,7 @@ plot_fabricate_evidence_treason_vassal = {
 		liege = {character = FROM}
 	}
 	chance = {
-		factor = 5
+		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
@@ -851,7 +851,7 @@ plot_fabricate_evidence_treason = {
 		NOT = { liege = { opinion = { who = ROOT value = 50 } } }
 	}
 	chance = {
-		factor = 5
+		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
@@ -951,7 +951,7 @@ plot_fabricate_evidence_betrayal_same_realm = {
 		same_realm = FROM
 	}
 	chance = {
-		factor = 1
+		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
@@ -1051,7 +1051,7 @@ plot_fabricate_evidence_betrayal = {
 		NOT={same_realm = FROM}
 	}
 	chance = {
-		factor = 1
+		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {

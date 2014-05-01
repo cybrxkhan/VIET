@@ -423,6 +423,23 @@ on_yearly_pulse = {
 		100 = VIETmisc.2037
 		#Briton
 		100 = VIETceltic.233
+		100 = VIETmisc.2028
+		100 = VIETmisc.2029
+		100 = VIETmisc.2030
+		100 = VIETmisc.2031
+		100 = VIETmisc.2032
+		100 = VIETmisc.2033
+		100 = VIETmisc.2034
+		100 = VIETmisc.2035
+		#Fraticelli
+		100 = VIETmisc.10050
+		100 = VIETmisc.10051
+		100 = VIETmisc.10052
+		100 = VIETmisc.10053
+		#Sogdian
+		100 = VIETmisc.2040
+		100 = VIETmisc.2041
+		100 = VIETmisc.2043
 		
 		#VIET IMMERSION STUFF
 		#Vegetarian flavor
@@ -731,6 +748,15 @@ on_bi_yearly_pulse = {
 		10 = 1000109511
 		10 = 1000109512
 		10 = 1000109513
+		#References
+		3 = VIETmisc.2513
+		10 = VIETmisc.5000
+		10 = VIETmisc.5001
+		10 = VIETmisc.5002
+		10 = VIETmisc.5003
+		10 = VIETmisc.5004
+		10 = VIETmisc.5005
+		10 = VIETmisc.5012
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -758,6 +784,8 @@ on_bi_yearly_pulse = {
 		#Cretan
 		10 = VIETmisc.2038
 		10 = VIETmisc.2039
+		#Sogdian
+		10 = VIETmisc.2042
 		
 		2000 = 0 # Chance of no bi-yearly event
 	}
@@ -900,16 +928,18 @@ on_five_year_pulse = {
 		10 = 1000109356
 		#Shady Events
 		10 = 1000109475
+		#Briton
+		10 = VIETmisc.2026
 		
 		#VIET Event Chains
-		3 = VIETmisc.2513
-		3 = VIETmisc.5000
-		3 = VIETmisc.5007
-		3 = VIETmisc.5015
-		3 = ordepchains.1000
-		3 = OCC.1 
-		3 = fantasia.0
-		3 = fantasia.8 
+		2 = VIETmisc.2513
+		2 = VIETmisc.5000
+		2 = VIETmisc.5007
+		2 = VIETmisc.5015
+		2 = ordepchains.1000
+		2 = OCC.1 
+		2 = fantasia.0
+		2 = fantasia.8 
 		
 		40 = 0
 	}
@@ -1020,6 +1050,8 @@ on_yearly_childhood_pulse = {
 		35 = 1000109507
 		#Bugs
 		10 = 1000109514
+		#Sogdian
+		100 = VIETmisc.2044
 		
 		#VIET CVLTVRE
 		#Turkish

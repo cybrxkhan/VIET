@@ -193,10 +193,9 @@ succession_laws = {
 				is_landless_type_title = no
 				is_tribal_type_title = yes
 				temporary = yes
-				holder_scope = {
-					has_landed_title = d_exilarch
-					has_landed_title = d_exilarch_karaite
-				}
+				holder_scope = { has_landed_title = d_exilarch }
+				holder_scope = { has_landed_title = d_exilarch_karaite }
+				holder_scope = { has_landed_title = e_khitan }
 			}
 			is_primary_type_title = no
 			OR = {
@@ -540,6 +539,7 @@ succession_laws = {
 			temporary = no
 			NOT = { title = d_exilarch }
 			NOT = { title = d_exilarch_karaite }
+			NOT = { title = e_khitan }
 			OR = {
 				is_primary_type_title = yes
 				AND = {

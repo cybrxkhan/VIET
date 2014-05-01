@@ -658,12 +658,12 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		months = 330
-		factor = {
-			modifier = 0.1
+		modifier = {
+			factor = 0.1
 			year = 910
 		}
-		factor = {
-			modifier = 0.01
+		modifier = {
+			factor = 0.01
 			year = 915
 		}
 	}
@@ -734,12 +734,12 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		months = 240
-		factor = {
-			modifier = 0.1
+		modifier = {
+			factor = 0.1
 			year = 990
 		}
-		factor = {
-			modifier = 0.01
+		modifier = {
+			factor = 0.01
 			year = 1000
 		}
 	}
@@ -809,12 +809,12 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		months = 180
-		factor = {
-			modifier = 0.1
+		modifier = {
+			factor = 0.1
 			year = 930
 		}
-		factor = {
-			modifier = 0.01
+		modifier = {
+			factor = 0.01
 			year = 940
 		}
 	}

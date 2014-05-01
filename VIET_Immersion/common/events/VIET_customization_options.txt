@@ -1322,5 +1322,58 @@ character_event = {
 		name = "Nah, just kidding, I dunno why I even triggered this event." # nvm
 	}
 }
+#Set Silk Road Level Cheat
+character_event = {
+	id = customization.49
+	desc = customization.49.desc
+	picture = GFX_evt_silk_road
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Silk Road Falls (Level 0)" # YESYESYESYESYES
+		clr_global_flag = silk_road_level_3
+		clr_global_flag = silk_road_level_2
+		clr_global_flag = silk_road_level_1
+		set_global_flag = silk_road_level_0
+	}	
+	option = {
+		name = "The Silk Road Falls (Level 1)" # YESYESYESYESYES
+		clr_global_flag = silk_road_level_3
+		clr_global_flag = silk_road_level_2
+		set_global_flag = silk_road_level_1
+		clr_global_flag = silk_road_level_0
+	}	
+	option = {
+		name = "The Silk Road Falls (Level 2)" # YESYESYESYESYES
+		clr_global_flag = silk_road_level_3
+		set_global_flag = silk_road_level_2
+		clr_global_flag = silk_road_level_1
+		clr_global_flag = silk_road_level_0
+	}	
+	option = {
+		name = "See more options..."
+		character_event = { id = customization.50 }
+	}
+}
+#Set Silk Road Level Cheat
+character_event = {
+	id = customization.50
+	desc = customization.50.desc
+	picture = GFX_evt_silk_road
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Silk Road Falls (Level 3)" # YESYESYESYESYES
+		set_global_flag = silk_road_level_3
+		clr_global_flag = silk_road_level_2
+		clr_global_flag = silk_road_level_1
+		clr_global_flag = silk_road_level_0
+	}		
+	option = {
+		name = "Never mind"
+	}
+}
 
 

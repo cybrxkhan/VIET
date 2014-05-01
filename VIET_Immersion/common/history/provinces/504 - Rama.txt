@@ -22,4 +22,4 @@ religion = slavic_pagan
 # History
 
 900.1.1= { religion = orthodox }  
-1232.1.1= { religion = bogomilist }  
+1232.1.1= { religion = bosnian }  

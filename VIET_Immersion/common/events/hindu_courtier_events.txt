@@ -18,6 +18,16 @@ character_event = {
 		}
 		NOT = {
 			any_courtier = {
+				OR = {
+				religion_group = indian_group
+					culture_group = indo_aryan_group
+					culture_group = dravidian_group
+				}
+				has_character_flag = VIET_spawned_courtier
+			}
+		}
+		NOT = {
+			any_courtier = {
 				religion_group = indian_group
 			}
 		}
@@ -74,7 +84,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		years = 35
+		months = 1100
 
 		modifier = {
 			factor = 4
@@ -160,6 +170,7 @@ character_event = {
 			}
 		}
 		new_character = {
+			set_character_flag = VIET_spawned_courtier
 			opinion = {
 				modifier = opinion_patron
 				who = ROOT
@@ -185,6 +196,7 @@ character_event = {
 			}
 		}
 		new_character = {
+			set_character_flag = VIET_spawned_courtier
 			opinion = {
 				modifier = opinion_patron
 				who = ROOT
@@ -213,6 +225,7 @@ character_event = {
 					}
 				}
 				new_character = {
+					set_character_flag = VIET_spawned_courtier
 					opinion = {
 						modifier = opinion_patron
 						who = ROOT
@@ -243,6 +256,7 @@ character_event = {
 					}
 				}
 				new_character = {
+					set_character_flag = VIET_spawned_courtier
 					opinion = {
 						modifier = opinion_patron
 						who = ROOT
@@ -273,6 +287,7 @@ character_event = {
 					}
 				}
 				new_character = {
+					set_character_flag = VIET_spawned_courtier
 					opinion = {
 						modifier = opinion_patron
 						who = ROOT
@@ -294,170 +309,5 @@ character_event = {
 	
 }
 
-#gujurati Hindu Courtier about to get married
-character_event = {
-	id = 1000109202
-	desc = "EVTDESC1000109202"
-	picture = GFX_evt_indian_market
+#1000109202-1000109203 removed
 	
-	trigger = {
-		religion = hindu
-		culture = gujurati
-		is_married = no
-		is_female = no
-		is_adult = yes
-		NOT = { age = 45 }
-		is_ruler = no
-		liege = {
-			NOT = {
-				religion_group = indian_group
-			}
-			NOT = {
-				culture_group = indo_aryan_group
-			}
-			NOT = {
-				culture_group = dravidian
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		years = 25
-		
-		modifier = {
-			factor = 0.7
-			ROOT = {
-				age = 16
-				NOT = { age = 25 }
-			}
-		}
-		
-		modifier = {
-			factor = 0.8
-			ROOT = {
-				age = 25
-				NOT = { age = 32 }
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-			ROOT = {
-				age = 32
-				NOT = { age = 40 }
-			}
-		}
-		
-		modifier = {
-			factor = 1.5
-			ROOT = {
-				age = 40
-			}
-		}
-		
-		modifier = {
-			factor = 10
-			ROOT = { trait = celibate }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = lustful }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = fair }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = genius }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = quick }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = zealous }
-		}
-
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = charitable }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = greedy }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = gregarious }
-		}	
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = cynical }
-		}
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = ugly }
-		}	
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = chaste }
-		}
-				
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = homosexual }
-		}
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = shy }
-		}			
-	}
-	
-	option = {
-		name = "EVTOPTA1000109202"  # inform liege
-		liege = {
-			character_event = { id = 1000109203 }
-		}
-	}
-	
-}
-
-#liege informed of Hindu gujurati courtier's marriage
-character_event = {
-	id = 1000109203
-	desc = "EVTDESC1000109203"
-	picture = GFX_evt_indian_market
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA1000109203" #Hindu
-		create_character = {
-			female = yes
-			random_traits = yes
-			dynasty = random
-			religion = hindu
-			culture = gujurati
-		}
-		new_character = {
-			add_spouse = FROM
-		}
-		FROM = {
-			prestige = 10
-			piety = 10
-		}
-	}
-}

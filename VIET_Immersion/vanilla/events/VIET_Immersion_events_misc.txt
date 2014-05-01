@@ -1439,7 +1439,7 @@ character_event = {
 			factor = 0.75
 			OR = {
 				has_global_flag = jewish_homeland_restored
-				is_title_active = d_israel
+				is_title_active = d_jewish
 			}
 		}
 	}
@@ -1791,7 +1791,7 @@ character_event = {
 			factor = 0.75
 			OR = {
 				has_global_flag = jewish_homeland_restored
-				is_title_active = d_israel
+				is_title_active = d_jewish
 			}
 		}
 	}

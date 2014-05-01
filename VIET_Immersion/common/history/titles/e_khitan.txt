@@ -8,6 +8,8 @@
 1141.11.1={
 	active=yes
 	holder=1000158762
+	set_global_flag = khitan_refugees_rumors
+	set_global_flag = khitan_come_to_civilize
 }
 1143.1.1={
 	holder=1000158763

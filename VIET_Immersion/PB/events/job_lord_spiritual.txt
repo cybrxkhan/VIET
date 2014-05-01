@@ -36,30 +36,6 @@ character_event = {
 	
 	trigger = {
 		has_job_action = action_inquisition
-		NOT = {
-			AND = {
-				AND = {
-					religion_group = christian
-					NOT = { religion = catholic }
-					NOT = { religion = waldensian }
-					NOT = { religion = fraticelli }
-					NOT = { religion = waldensian }
-					NOT = { religion = cathar }
-					NOT = { religion = dulcinian }
-				}
-				location = {
-					AND = {
-						religion_group = christian
-						NOT = { religion = catholic }
-						NOT = { religion = waldensian }
-						NOT = { religion = fraticelli }
-						NOT = { religion = waldensian }
-						NOT = { religion = cathar }
-						NOT = { religion = dulcinian }
-				}
-				}
-			}
-		}
 		NOT = { location = { religion = ROOT } }
 		location = {
 			owner = { same_realm = ROOT }
@@ -410,30 +386,6 @@ character_event = {
 			any_province_character = {
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
-				NOT = {
-					AND = {
-						AND = {
-							religion_group = christian
-							NOT = { religion = catholic }
-							NOT = { religion = waldensian }
-							NOT = { religion = fraticelli }
-							NOT = { religion = waldensian }
-							NOT = { religion = cathar }
-							NOT = { religion = dulcinian }
-						}
-						ROOT = {
-							AND = {
-								religion_group = christian
-								NOT = { religion = catholic }
-								NOT = { religion = waldensian }
-								NOT = { religion = fraticelli }
-								NOT = { religion = waldensian }
-								NOT = { religion = cathar }
-								NOT = { religion = dulcinian }
-						}
-						}
-					}
-				}
 				NOT = { religion = ROOT }
 				OR = {
 					is_ruler = no

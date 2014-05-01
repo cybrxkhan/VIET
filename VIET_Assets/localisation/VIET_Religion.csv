@@ -191,10 +191,6 @@ VIETmisc.217.tooltip;You send word that you refuse to adopt Fiver Shiism.;;;;;;;
 VIETmisc.217.desc;You may be my liege in the mortal world, but do not presume to dictate how I lead my spiritual life. That is between me, Allah and the Prophet (peace be upon them). I have no intention of adopting the infidel ways of Fiver Shiism.\n\nSigned,\n[From.GetTitledFirstName];;;;;;;;;;;;;x
 VIETmisc.217.a;xxxxx;;;;;;;;;;;;;x
 #Bad Priests;;;;;;;;;;;;;;x
-bad_priest_buddhist;Immoral Monk;;;;;;;;;;;;;x
-bad_priest_buddhist_desc;This monk's personality and habits are very inappropriate for his position. And what's worse, he has been unable to hide them from public view.;;;;;;;;;;;;;x
-bad_priest_manichean;Immoral Priest;;;;;;;;;;;;;x
-bad_priest_manichean_desc;This priest's personality and habits are very inappropriate for his position. And what's worse, he has been unable to hide them from public view.;;;;;;;;;;;;;x
 VIETmisc.224.desc;Widespread rumors say that [From.GetTitledFirstName] leads a most immoral lifestyle, quite unsuitable for the spiritual head of all true [From.Religion.GetName]s.;;;;;;;;;;;;;x
 VIETmisc.224.a;May the Light protect us in these dark times!;;;;;;;;;;;;;x
 #VIET Holy Orders;;;;;;;;;;;;;;x

@@ -289,9 +289,14 @@ k_hormuz = {
 	dynasty_title_names = no
 	
 	dignity = 10
-}
+}
+
 d_udmurtia = {
 	color={ 222 200 125 }
+	color2={ 255 255 255 }
+	
+	culture = udmurt
+	tribe = yes
 	
 	capital = 887 # Yamalia
 	
@@ -299,9 +304,6 @@ d_udmurtia = {
 		always = no
 	}
 	
-	tribe = yes
-	
-	culture = udmurt
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 	title_prefix = "TRIBE_OF"
@@ -327,5 +329,20 @@ d_brugge = {
 
 	allow = {
 		is_republic = yes
+	}
+}
+
+
+
+k_sogdiana = {
+	color={ 33 9 98  }
+	color2={ 255 255 20 }
+	
+	capital = 903 # Samarkand
+	
+	culture = sogdian
+
+	allow = {
+		always = no
 	}
 }

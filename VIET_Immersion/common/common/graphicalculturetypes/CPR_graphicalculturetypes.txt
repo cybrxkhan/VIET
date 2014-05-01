@@ -52,3 +52,9 @@ afghangfx = {
 sogdiangfx = {
 	skin_tone = 1
 }
+chinesegfx = {
+	skin_tone = 1
+}
+khotanesegfx = {
+	skin_tone = 1
+}

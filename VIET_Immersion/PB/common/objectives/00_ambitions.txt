@@ -2059,11 +2059,16 @@ obj_become_king = {
 	abort = {
 		OR = {
 			trait = incapable
-			trait = content
-			trait = slothful
-			trait = craven
-			trait = stressed
-			trait = depressed
+			AND = {
+				ai = yes
+				OR = {
+					trait = content
+					trait = slothful
+					trait = craven
+					trait = stressed
+					trait = depressed
+				}
+			}
 			is_playable = no
 			is_landed = no
 			higher_tier_than = DUKE

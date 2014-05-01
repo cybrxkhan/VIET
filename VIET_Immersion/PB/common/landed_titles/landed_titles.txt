@@ -53,7 +53,7 @@ k_papal_state = {
 		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
 		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
 		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
-		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
+		Gelasius Marcellus "Johnï¿½Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
 		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
 		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
 	}
@@ -291,7 +291,7 @@ d_fraticelli = {
 		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
 		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
 		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
-		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
+		Gelasius Marcellus "Johnï¿½Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
 		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
 		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
 	}
@@ -811,6 +811,8 @@ e_golden_horde = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_il-khanate = {
@@ -829,6 +831,8 @@ e_il-khanate = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_mongol_empire = {
@@ -848,6 +852,8 @@ e_mongol_empire = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_timurids = {
@@ -906,7 +912,7 @@ d_teutonic_order = {
 	
 	graphical_culture = holygfx
 	
-	capital = 258 # Lüneburg
+	capital = 258 # Lï¿½neburg
 
 	title = "HOCHMEISTER"
 	foa = "HOCHMEISTER_FOA"
@@ -2617,7 +2623,7 @@ d_finnish_band = {
 	color = { 131 35 35 }
 	color2 = { 255 255 255 }
 
-	capital = 383 # Häme
+	capital = 383 # Hï¿½me
 	
 	# Hire Trigger
 	allow = {
@@ -3104,7 +3110,7 @@ d_hanseatic_navy = { # Now "Baltic Cogs"
 	
 	short_name = yes
 
-	capital = 262 # Lübeck
+	capital = 262 # Lï¿½beck
 	
 	# Hire Trigger
 	allow = {
@@ -3635,10 +3641,10 @@ k_finland = {
 				finnish = "Nevanlinna"
 			}
 			b_noteborg = {
-				swedish = "Nöteborg"
-				norwegian = "Nøteborg"
-				danish = "Nøteborg"
-				german = "Schlüsselburg"
+				swedish = "Nï¿½teborg"
+				norwegian = "Nï¿½teborg"
+				danish = "Nï¿½teborg"
+				german = "Schlï¿½sselburg"
 				russian = "Oreshek"
 			}
 			b_valaam = {
@@ -3704,9 +3710,9 @@ k_finland = {
 			color={ 135 25 25 }
 			color2={ 255 255 255 }
 			
-			swedish = "Östkarelen"
-			danish = "Østkarelen"
-			norwegian = "Østkarelen"
+			swedish = "ï¿½stkarelen"
+			danish = "ï¿½stkarelen"
+			norwegian = "ï¿½stkarelen"
 			russian = "Kareliya"
 		
 			b_kem = {
@@ -3863,9 +3869,9 @@ k_finland = {
 			danish = "Nyland"
 		
 			b_porvoo = {
-				swedish = "Borgå"
-				norwegian = "Borgå"
-				danish = "Borgå"
+				swedish = "Borgï¿½"
+				norwegian = "Borgï¿½"
+				danish = "Borgï¿½"
 			}
 			b_raseborg = {
 				swedish = "Raseborg"
@@ -3878,14 +3884,14 @@ k_finland = {
 				danish = "Esbo"
 			}
 			b_siuntio = {
-				swedish = "Sjundeå"
+				swedish = "Sjundeï¿½"
 			}
 			b_svartholm = {
 			}
 			b_hanko = {
-				swedish = "Hangö"
-				norwegian = "Hangø"
-				danish = "Hangø"
+				swedish = "Hangï¿½"
+				norwegian = "Hangï¿½"
+				danish = "Hangï¿½"
 			}
 			b_lohja = {
 				swedish = "Lojo"
@@ -3904,19 +3910,19 @@ k_finland = {
 			danish = "Finland"
 		
 			b_kuusisto  = {
-				swedish = "Kustö"
-				norwegian = "Kustø"
-				danish = "Kustø"
+				swedish = "Kustï¿½"
+				norwegian = "Kustï¿½"
+				danish = "Kustï¿½"
 			}
 			b_turku  = {
-				swedish = "Åbo"
-				norwegian = "Åbo"
-				danish = "Åbo"
+				swedish = "ï¿½bo"
+				norwegian = "ï¿½bo"
+				danish = "ï¿½bo"
 			}
 			b_naantali = {
-				swedish = "Nådendal"
-				norwegian = "Nådendal"
-				danish = "Nådendal"
+				swedish = "Nï¿½dendal"
+				norwegian = "Nï¿½dendal"
+				danish = "Nï¿½dendal"
 			}
 			b_rikala  = {
 			}
@@ -3990,14 +3996,14 @@ k_finland = {
 			color={ 152 66 66 }
 			color2={ 255 255 255 }
 			
-			swedish = "Österbotten"
-			norwegian = "Østerbotten"
-			danish = "Østerbotten"
+			swedish = "ï¿½sterbotten"
+			norwegian = "ï¿½sterbotten"
+			danish = "ï¿½sterbotten"
 		
 			b_oulu = {
-				swedish = "Uleåborg"
-				norwegian = "Uleåborg"
-				danish = "Uleåborg"
+				swedish = "Uleï¿½borg"
+				norwegian = "Uleï¿½borg"
+				danish = "Uleï¿½borg"
 			}
 			b_nykarleby = {
 				swedish = "Nykarleby"
@@ -4552,7 +4558,7 @@ d_geats = {
 	
 	dignity = 8
 	
-	capital	= 297 # Västergötland
+	capital	= 297 # Vï¿½stergï¿½tland
 	
 	allow = {
 		always = no
@@ -5416,7 +5422,7 @@ e_latin_empire = {
 #		always = no
 #	}
 #	
-#	capital = 262 # Lübeck
+#	capital = 262 # Lï¿½beck
 #	
 #	dignity = 10
 #}
@@ -5425,7 +5431,7 @@ k_hansa = {
 	color={ 142 142 142 }
 	color2={ 255 255 255 }
 	
-	capital = 262 # Lübeck
+	capital = 262 # Lï¿½beck
 	
 	dignity = 200 # Never want the Hanseatic League to change primary title
 	
@@ -5563,7 +5569,7 @@ b_caetani = {
 	religion = catholic
 }
 
-# LÜBECK:
+# Lï¿½BECK:
 
 b_bardewik = {
 	culture = german
@@ -5973,9 +5979,9 @@ d_mandaean = {
 	
 	# Regnal names
 	male_names = {
-		Abdu Abgar Abraham Amru Aram Aryu Bakru Bar-Abbâ Bar-Navâ_Barnabas Bar-Tôlmay Bar-Yêšû Bar-Šabbâ 
-		Bnê-ra'mâ Daniel Ezad Fradhasht Gabriel Hairân Izates Ma'nu Maz'ur Monobaz Nasor Odainath_Odaenathus Paqor Sahru 
-		Semsoun Tabyâ Tômâ Wahballath Ya'il Yalur Yochanan Yohannon Yônâ Zakkai
+		Abdu Abgar Abraham Amru Aram Aryu Bakru Bar-Abbï¿½ Bar-Navï¿½_Barnabas Bar-Tï¿½lmay Bar-Yï¿½ï¿½ Bar-ï¿½abbï¿½ 
+		Bnï¿½-ra'mï¿½ Daniel Ezad Fradhasht Gabriel Hairï¿½n Izates Ma'nu Maz'ur Monobaz Nasor Odainath_Odaenathus Paqor Sahru 
+		Semsoun Tabyï¿½ Tï¿½mï¿½ Wahballath Ya'il Yalur Yochanan Yohannon Yï¿½nï¿½ Zakkai
 	}
 }
 d_manichean_archegos = {

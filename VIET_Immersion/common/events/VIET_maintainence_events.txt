@@ -1,19 +1,18 @@
 ###########################################
 #
-# Various Maintainence Events
+# Various Maintenance Events
 #
 #
 #
 ###########################################
 
-namespace = VIETmaintainence
+namespace = VIETmaintenance
 
 #Increase moral authority
 character_event = {
-	id = 1000109210
-	desc = "EVTDESC1000109210"
-	picture = "GFX_evt_jerusalem"
+	id = VIETmaintenance.0
 	
+	hide_window = yes
 	is_triggered_only = yes
 
 	only_rulers = yes
@@ -93,9 +92,7 @@ character_event = {
 }
 #Remove Caste Traits which don't make sense for non-Indian cultures
 character_event = {
-	id = VIETmaintainence.0
-	desc = VIETmaintainence.0.desc
-	picture = "GFX_evt_jerusalem"
+	id = VIETmaintenance.1
 	
 	hide_window = yes
 	
@@ -130,6 +127,7 @@ character_event = {
 			}
 			remove_trait = vaishya
 		}
-	}	
+	}
 
+	option = { name = OK }
 }

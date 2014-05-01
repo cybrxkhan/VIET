@@ -2,6 +2,8 @@ decisions = {
 
 	invite_shaman_to_court = { #Invite a Shaman to court
 		potential = {
+			is_ruler = yes
+			NOT = { tier = baron }
 			NOT = { has_global_flag = VIET_finnish_features_off }
 			NOT = { has_global_flag = VIET_tengri_features_off }
 			OR = {

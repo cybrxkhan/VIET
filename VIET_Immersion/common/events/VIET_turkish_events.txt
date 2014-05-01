@@ -34,68 +34,6 @@ character_event = {
 	
 	mean_time_to_happen = { 
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			independent = yes
-			factor = 0.01
-		}
-		modifier = {
-			prisoner = no
-			factor = 0.01
-		}
-		modifier = {
-			culture = turkish
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_adult = yes
-				is_adult = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			religion_group = muslim
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				diplomacy = 10
-				NOT = { diplomacy = 10 }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}		
-		modifier = {
-			OR = {
-				trait = cynical
-				NOT = { trait = cynical }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {

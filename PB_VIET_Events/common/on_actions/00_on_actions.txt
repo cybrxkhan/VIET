@@ -370,6 +370,16 @@ on_yearly_pulse = {
 		100 = VIETmisc.2013
 		100 = VIETmisc.2014
 		100 = VIETmisc.2015
+		100 = VIETmisc.2016
+		100 = VIETmisc.2017
+		100 = VIETmisc.2018
+		100 = VIETmisc.2019
+		100 = VIETmisc.2020
+		100 = VIETmisc.2021
+		100 = VIETmisc.2022
+		100 = VIETmisc.2023
+		100 = VIETmisc.2024
+		100 = VIETmisc.2025
 		100 = VIETmisc.3000
 		
 		#VIET CULTURE SPECIFIC EVENTS
@@ -413,6 +423,23 @@ on_yearly_pulse = {
 		100 = VIETmisc.2037
 		#Briton
 		100 = VIETceltic.233
+		100 = VIETmisc.2028
+		100 = VIETmisc.2029
+		100 = VIETmisc.2030
+		100 = VIETmisc.2031
+		100 = VIETmisc.2032
+		100 = VIETmisc.2033
+		100 = VIETmisc.2034
+		100 = VIETmisc.2035
+		#Fraticelli
+		100 = VIETmisc.10050
+		100 = VIETmisc.10051
+		100 = VIETmisc.10052
+		100 = VIETmisc.10053
+		#Sogdian
+		100 = VIETmisc.2040
+		100 = VIETmisc.2041
+		100 = VIETmisc.2043
 		
 		#VIET IMMERSION STUFF
 		#Vegetarian flavor
@@ -757,6 +784,8 @@ on_bi_yearly_pulse = {
 		#Cretan
 		10 = VIETmisc.2038
 		10 = VIETmisc.2039
+		#Sogdian
+		10 = VIETmisc.2042
 		
 		2000 = 0 # Chance of no bi-yearly event
 	}
@@ -899,15 +928,20 @@ on_five_year_pulse = {
 		10 = 1000109356
 		#Shady Events
 		10 = 1000109475
+		#Briton
+		10 = VIETmisc.2026
 		
 		#VIET Event Chains
-		5 = VIETmisc.5000
-		5 = VIETmisc.5007
-		5 = VIETmisc.5015
-		5 = ordepchains.1000
-		5 = OCC.1 
+		2 = VIETmisc.2513
+		2 = VIETmisc.5000
+		2 = VIETmisc.5007
+		2 = VIETmisc.5015
+		2 = ordepchains.1000
+		2 = OCC.1 
+		2 = fantasia.0
+		2 = fantasia.8 
 		
-		30 = 0
+		40 = 0
 	}
 }
 
@@ -1016,6 +1050,8 @@ on_yearly_childhood_pulse = {
 		35 = 1000109507
 		#Bugs
 		10 = 1000109514
+		#Sogdian
+		100 = VIETmisc.2044
 		
 		#VIET CVLTVRE
 		#Turkish
@@ -1031,7 +1067,7 @@ on_yearly_childhood_pulse = {
 on_combat_pulse = {
 	random_events = {
 		2500 = 0
-		75 = 5556000 # Battlefield Duel
+		75 = duel_be.0 # Battlefield Duel
 		#10 = 242 # Killed
 		#20 = 243 # Wounded
 		#10 = 244 # Maimed
@@ -1117,7 +1153,7 @@ on_siege_pulse = {
 		15 = 62011	
 		15 = 62012
 		15 = 62013
-		7500 = 1100099992 #waylit siegeescape
+		7500 = waylit.2 #Waylit
 	}
 }
 
@@ -1179,10 +1215,7 @@ on_siege_won_leader = {
 		60120 # Mongols sack Cairo
 		60121 # Mongols sack Mecca
 		88005 # Mongols sack city near the Hashshashin
-		#110009990 #Waylit +1 prestige for leader upon winning siege (hidden)
-		110009991 #waylit, imprison any_char at siege loc
-		#110009992 #Waylit same as above, but if owner isnt home
-		#110009993 #waylit Release prisoners at location
+		waylit.8 #Waylit
 	}
 	random_events = {
 		300 = 0

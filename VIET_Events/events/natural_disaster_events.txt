@@ -35,12 +35,13 @@ character_event = {
 		}
 		NOT = { has_global_flag = VIET_no_natural_disasters }
 		NOT = { tier = baron }
+		has_global_flag = VIET_meteor_apocalypse_woohoo
 	}
 	
 	mean_time_to_happen = {
-		months = 5000000
+		months = 10000000
 		modifier = {
-			factor = 100
+			factor = 200
 			has_global_flag = meteor_struck
 		}	
 	}

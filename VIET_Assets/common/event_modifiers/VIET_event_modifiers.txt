@@ -409,3 +409,17 @@ good_time_obby_oss = {
 }
 ultima_silliness_screw_EA = {
 }
+VIET_li_bai_poetry = {
+	diplomacy = 1
+	icon = 39
+}
+VIET_deep_contemplation = {
+	monthly_character_piety = 0.2
+	icon = 8
+}
+VIET_impressed_ruler = {
+	diplomacy = 1
+	intrigue = -1
+	learning = 1
+	icon = 7
+}

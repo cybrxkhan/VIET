@@ -2301,8 +2301,8 @@ narrative_event = {
 				is_priest = yes
 				religion = ROOT
 			}
-		NOT = { has_character_flag = do_not_disturb }
 		}
+		NOT = { has_character_flag = do_not_disturb }
 		OR = {
 			religion = orthodox
 			religion = bogomilist
@@ -2549,7 +2549,7 @@ narrative_event = {
 					NOT = { trait = kind }
 					NOT = { trait = humble }
 				}
-				hidden_trooltip = {
+				hidden_tooltip = {
 					opinion = {
 						modifier = opinion_angry
 						who = ROOT

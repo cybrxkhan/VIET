@@ -218,7 +218,6 @@ on_yearly_pulse = {
 		50 = RoI.3516
 		10 = RoI.3520
 		50 = RoI.3530
-		50 = RoI.3536
 		
 		# Religious tolerance events
 		100 = RoI.400
@@ -428,6 +427,15 @@ on_yearly_pulse = {
 		100 = VIETmisc.2033
 		100 = VIETmisc.2034
 		100 = VIETmisc.2035
+		#Fraticelli
+		100 = VIETmisc.10050
+		100 = VIETmisc.10051
+		100 = VIETmisc.10052
+		100 = VIETmisc.10053
+		#Sogdian
+		100 = VIETmisc.2040
+		100 = VIETmisc.2041
+		100 = VIETmisc.2043
 		
 		#VIET IMMERSION STUFF
 		#Vegetarian flavor
@@ -618,7 +626,6 @@ on_bi_yearly_pulse = {
 		10 = 3495	
 		10 = 3280
 		10 = 3282
-		10 = 3283
 		10 = 3286
 		10 = 3710
 		10 = 3715
@@ -737,6 +744,15 @@ on_bi_yearly_pulse = {
 		10 = 1000109511
 		10 = 1000109512
 		10 = 1000109513
+		#References
+		3 = VIETmisc.2513
+		10 = VIETmisc.5000
+		10 = VIETmisc.5001
+		10 = VIETmisc.5002
+		10 = VIETmisc.5003
+		10 = VIETmisc.5004
+		10 = VIETmisc.5005
+		10 = VIETmisc.5012
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -764,6 +780,8 @@ on_bi_yearly_pulse = {
 		#Cretan
 		10 = VIETmisc.2038
 		10 = VIETmisc.2039
+		#Sogdian
+		10 = VIETmisc.2042
 		
 		2000 = 0 # Chance of no bi-yearly event
 	}
@@ -1028,6 +1046,8 @@ on_yearly_childhood_pulse = {
 		35 = 1000109507
 		#Bugs
 		10 = 1000109514
+		#Sogdian
+		100 = VIETmisc.2044
 		
 		#VIET CVLTVRE
 		#Turkish

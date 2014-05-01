@@ -2151,7 +2151,7 @@
 	culture = sogdian
 }
 1000092074 = {
-	name="Sartpaw"
+	name="Bokar-kodat"
 	culture = sogdian
 }
 1000092075 = {
@@ -2171,7 +2171,7 @@
 	culture = sogdian
 }
 1000092079 = {
-	name="Chach"
+	name="Afshin"
 	culture = sogdian
 }
 1000092080 = {

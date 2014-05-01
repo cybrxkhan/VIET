@@ -7,7 +7,8 @@ pillager = {
 
 	customizer = no
 	
-}other_trait_placeholder_1 = {
+}
+other_trait_placeholder_1 = {
 
 	customizer = no
 	
@@ -27,7 +28,7 @@ other_trait_placeholder_4 = {
 	customizer = no
 	
 }
-other_trait_placeholder_5
+other_trait_placeholder_5 = {
 
 	customizer = no
 	

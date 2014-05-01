@@ -23,7 +23,7 @@ character_event = {
 	option = { #ok
 		name = vegetarian.1.a
 		add_trait = vegetarian
-		add_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
+		set_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
 		#Fires off events about how character adapts to being vegetarian
 		if = {
 			limit = {
@@ -111,7 +111,7 @@ character_event = {
 			religion_group = gnostic_group
 			religion = qarmatian
 			religion = cathar
-			religion = bogomil
+			religion = bogomilist
 		}
 		NOT = { trait = vegetarian }
 		NOT = { has_character_flag = not_vegetarian_sect }
@@ -128,7 +128,7 @@ character_event = {
 			NOT = { culture = japanese }
 		}
 		add_trait = vegetarian
-		add_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
+		set_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
 		#Fires off events about how character adapts to being vegetarian
 		if = {
 			limit = {
@@ -216,7 +216,7 @@ character_event = {
 			}	
 		}
 		add_trait = vegetarian
-		add_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
+		set_character_flag = vegetarian_temp_tracker #temporarily track vegetarianism status
 		#Fires off events about how character adapts to being vegetarian
 		if = {
 			limit = {

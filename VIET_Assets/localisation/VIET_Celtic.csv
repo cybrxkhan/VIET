@@ -73,6 +73,7 @@ VIETceltic.2.desc;After some traveling, you make your way to the famous holy wel
 VIETceltic.2.a;Offer prayers to [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
 VIETceltic.3.desc;Many admire you as a leader. Were you and your dynasty not the ones who reunified Britain and drove out its invaders after centuries of hopelessness and despair? Comparing you to King Arthur is not only apt, it is perfect - both, great monarchs and defenders of Britain. To solidify your legitimacy, it may be a good idea to enforce these Arthurian ideals. For instance, perhaps that most esteemed chivalric order, the Knights of the Round Table, could be re-established. Having a loyal group of peerless knights by your side would earn you much prestige and the respect of men across the world.;;;;;;;;;;;;;x
 VIETceltic.3.a;Knights, arise! The old order is reborn anew!;;;;;;;;;;;;;x
+OPERATION_ORANGE_KUN_COMMENCE;ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
 VIETceltic.4.desc;[Liege.GetTitledFirstName] has appointed me as a Knight of the Round Table. This is quite an honor! I can now count myself among the ranks of legendary figures such as Lancelot,  Galahad, and Tristan.;;;;;;;;;;;;;x
 VIETceltic.4.a;Our enemies shall taste my storm of loyalty!;;;;;;;;;;;;;x
 VIETceltic.4.b;An interesting development for sure...;;;;;;;;;;;;;x
@@ -238,9 +239,9 @@ VIETceltic.211.desc;Being the Old 'Oss is not the easiest job out there. The cap
 VIETceltic.211.a;Scold him for impersonating a woman!;;;;;;;;;;;;;x
 VIETceltic.211.b;Be festive and laugh it all off.;;;;;;;;;;;;;x
 VIETceltic.211.c;Throw him into the horse's water, let the people laugh!;;;;;;;;;;;;;x
-VIETceltic.211a.desc;Being the Old 'Oss is more than simply chasing girls and follow the parade, as it involves being the center of attention and the embodiment of 'Obby 'Oss fun. As you arrive at the Maypole, right at the center of town, the townspeople start demanding that you dance a jig with one of the damsels..;;;;;;;;;;;;;x
-VIETceltic.211a.a;Good thing I'm in my dancing shoes!;;;;;;;;;;;;;x
-VIETceltic.211a.b;Er.... no.;;;;;;;;;;;;;x
+VIETceltic.2112.desc;Being the Old 'Oss is more than simply chasing girls and follow the parade, as it involves being the center of attention and the embodiment of 'Obby 'Oss fun. As you arrive at the Maypole, right at the center of town, the townspeople start demanding that you dance a jig with one of the damsels..;;;;;;;;;;;;;x
+VIETceltic.2112.a;Good thing I'm in my dancing shoes!;;;;;;;;;;;;;x
+VIETceltic.2112.b;Er.... no.;;;;;;;;;;;;;x
 VIETceltic.212.desc;There's no way around the fact that the frame of the 'Oss is heavy and cumbersome, but with a nice display of tap dancing, together with some jumping and spinning, you do more than fine. Luckily your dancing partner is helpful and enhances your dance as the revellers clap and ask for more.;;;;;;;;;;;;;x
 VIETceltic.212.a;I'll need a beer after this, or two...;;;;;;;;;;;;;x
 VIETceltic.213.desc;There's no way around the fact that the frame of the 'Oss is heavy and cumbersome and that certainly affects performance. You try to do some tap dancing and spinning, but unfortunately you trip and fall, having to rely on your dancing partner to get yourself (and the frame) up. You sigh as the cheers have turned to laughter.;;;;;;;;;;;;;x

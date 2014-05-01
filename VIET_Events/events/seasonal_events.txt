@@ -207,5 +207,5 @@ province_event = {
 			name = good_crops
 			duration = 365
 		}
-	}
+  }
 }

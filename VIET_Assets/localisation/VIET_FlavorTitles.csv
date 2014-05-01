@@ -268,23 +268,10 @@ city_count_west_germanic_female;Reeve;Reeve;Reeve;;Reeve;;;;;;;;;x
 city_duke_west_germanic;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 city_duke_west_germanic_female;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 #Zoroastrian and Iranian;;;;;;;;;;;;;;x
-count_pashtun;Malik;Malik;Malik;;Malik;;;;;;;;;x
-count_female_pashtun;Malikah;Malikah;Malikah;;Malikah;;;;;;;;;x
-county_of_pashtun;Malikate of;Malikate de;Malikate von;;Malikate del Jeque;;;;;;;;;x
-county_pashtun;Malikate;Malikate;Malikate;;Malikate;;;;;;;;;x
-#baron_zoroastrian_group;Bozorgan;Bozorgan;Bozorgan;;Bozorgan;;;;;;;;;x
-#baron_female_zoroastrian_group;Bozorgan;Bozorgan;Bozorgan;;Bozorgan;;;;;;;;;x
-#barony_of_zoroastrian_group;Dizpat of;Dizpat de;Dizpat von;;Dizpat de;;;;;;;;;x
-#count_zoroastrian_group;Argbadh;Argbadh;Argbadh;;Argbadh;;;;;;;;;x
-#county_of_zoroastrian_group;Arg of;Arg de;Arg von;;Arg del Jeque;;;;;;;;;x
-#duke_zoroastrian_group;Marzban of;Marzban de;Marzban von;;Marzban del Jeque;;;;;;;;;x
-#duchy_of_zoroastrian_group;Marzpanate of;Marzpanate de;Marzpanate von;;Marzpanate de;;;;;;;;;x
-#barony_zoroastrian_group;Dizpat;Dizpat;Dizpat;;Dizpat;;;;;;;;;x
-#county_zoroastrian_group;Arg;Arg;Arg;;Arg;;;;;;;;;x
-#duchy_zoroastrian_group;Marzpanate;Marzpanate;Marzpanate;;Marzpanate;;;;;;;;;x
-#city_count_zoroastrian_group;Satrap;Satrap;Satrap;;Satrap;;;;;;;;;x
-#city_baron_zoroastrian_group;Azadan;Azadan;Azadan;;Azadan;;;;;;;;;x
-#city_county_of_zoroastrian_group;Satrapy of;Satrapy of;Satrapy of;;Satrapy of;;;;;;;;;x
+count_afghan;Malik;Malik;Malik;;Malik;;;;;;;;;x
+count_female_afghan;Malikah;Malikah;Malikah;;Malikah;;;;;;;;;x
+county_of_afghan;Malikate of;Malikate de;Malikate von;;Malikate del Jeque;;;;;;;;;x
+county_afghan;Malikate;Malikate;Malikate;;Malikate;;;;;;;;;x
 job_marshal_zoroastrian_group;Spahbod;Spahbod;Spahbod;;Spahbod;;;;;;;;;x
 job_spiritual_zoroastrian_group;Court Magi;Court Magi;Court Magi;;Magi de la corte;;;;;;;;;x;
 job_treasurer_zoroastrian_group;Ho Tokhshan Bod;Ho Tokhshan Bod;Ho Tokhshan Bod;;Ho Tokhshan Bod;;;;;;;;;x
@@ -301,6 +288,46 @@ title_prince_iranian;Shahzadeh;Shahzadeh;Shahzadeh;;Shahzadeh;;;;;;;;;x
 title_prince_female_iranian;Shahzadeh;Shahzadeh;Shahzadeh;;Shahzadeh;;;;;;;;;x
 barony_of_azeri;Aul;Aul;Aul;;Aul;;;;;;;;;x
 barony_azeri;Aul;Aul;Aul;;Aul;;;;;;;;;x
+#Serindian;;;;;;;;;;;;;;x
+baron_tocharian;Cozbo;Cozbo;Cozbo;;Cozbo;;;;;;;;;x
+barony_of_tocharian;Kilmi of;Kilmi de;Kilmi von;;Kilmi del Jeque;;;;;;;;;x
+barony_tocharian;Kilmi;Kilmi;Kilmi;;Kilmi;;;;;;;;;x
+baron_khotanese;Cazba;Cazba;Cazba;;Cazba;;;;;;;;;x
+barony_of_khotanese;Kilmi of;Kilmi de;Kilmi von;;Kilmi del Jeque;;;;;;;;;x
+barony_khotanese;Kilmi;Kilmi;Kilmi;;Kilmi;;;;;;;;;x
+city_baron_khotanese;Sau;Sau;Sau;;Sau;;;;;;;;;x
+city_baron_tocharian;Sothamga;Sothamga;Sothamga;;Sothamga;;;;;;;;;x
+job_chancellor_khotanese;Amaca;Amaca;Amaca;;Amaca;;;;;;;;;x
+job_marshal_khotanese;Hinaysa;Hinaysa;Hinaysa;;Hinaysa;;;;;;;;;x
+job_chancellor_tocharian;Amas;Amas;Amas;;Amas;;;;;;;;;x
+count_tocharian;Rajadharaga;Rajadharaga;Rajadharaga;;Rajadharaga;;;;;;;;;x
+baron_sogdian;Sartapaw;;;;;;;;;;;;;x
+baron_female_sogdian;Sartapaw;;;;;;;;;;;;;x
+count_sogdian;Eltabar;;;;;;;;;;;;;x
+count_female_sogdian;Eltabar;;;;;;;;;;;;;x
+duke_sogdian;Afshin;;;;;;;;;;;;;x
+duke_female_sogdian;Afshin;;;;;;;;;;;;;x
+king_sogdian;Ekshid;;;;;;;;;;;;;x
+king_female_sogdian;Ekshid;;;;;;;;;;;;;x
+city_baron_sogdian;Sartapaw;;;;;;;;;;;;;x
+city_baron_female_sogdian;Sartapaw;;;;;;;;;;;;;x
+city_count_sogdian;Eltabar;;;;;;;;;;;;;x
+city_count_female_sogdian;Eltabar;;;;;;;;;;;;;x
+city_duke_sogdian;Afshin;;;;;;;;;;;;;x
+city_duke_female_sogdian;Afshin;;;;;;;;;;;;;x
+city_king_sogdian;Ekshid;;;;;;;;;;;;;x
+city_king_female_sogdian;Ekshid;;;;;;;;;;;;;x
+emperor_uighur;Khagan;Khagan;Khagan;;Gran Kan;;;;;;;;;x
+emperor_female_uighur;Khatun;Khatoun;Khatun;;Khatun;;;;;;;;;x
+empire_of_uighur;Khaganate of;Khaganat de;Groﬂkhanat von;;Kaganato de;;;;;;;;;x
+king_uighur;Khan;Khan;Khan;;Kan;;;;;;;;;x
+king_female_uighur;Khanum;Khanoum;Khanum;;Khanum;;;;;;;;;x
+kingdom_of_uighur;Khanate of;Khanat de;Khanat von;;Kanato de;;;;;;;;;x
+count_uighur;Chief;Chef;H‰uptling;;Mandatario;;;;;;;;;x
+county_of_uighur;Chiefdom of;Chefferie de;H‰uptlingdom von;;Cacicazgo de;;;;;;;;;x
+duke_uighur;High Chief;Grand Chef;Groﬂh‰uptling;;Alto mandatario;;;;;;;;;x
+duke_female_uighur;High Chieftess;Grand cheftaine;Groﬂh‰uptling;;Alto mandatario;;;;;;;;;x
+duchy_of_uighur;High Chiefdom of;Grande chefferie de;Groﬂh‰uptlingstum von;;Alto Cacicazgo de;;;;;;;;;x
 #Altaic;;;;;;;;;;;;;;x
 duke_mongol;Noyan;Noyan;Noyan;;Noyan;;;;;;;;;x
 count_mongol;Darga;Darga;Darga;;Darga;;;;;;;;;x
@@ -459,19 +486,3 @@ city_count_norman_female;Reeve;Reeve;Reeve;;Reeve;;;;;;;;;x
 city_duke_norman;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 city_duke_norman_female;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 city_job_chancellor;Ambassador;Ambassadeur;Botschafter;;Embajador;;;;;;;;;x
-baron_sogdian;Sartapaw;;;;;;;;;;;;;x
-baron_female_sogdian;Sartapaw;;;;;;;;;;;;;x
-count_sogdian;Eltabar;;;;;;;;;;;;;x
-count_female_sogdian;Eltabar;;;;;;;;;;;;;x
-duke_sogdian;Afshin;;;;;;;;;;;;;x
-duke_female_sogdian;Afshin;;;;;;;;;;;;;x
-king_sogdian;Ekshid;;;;;;;;;;;;;x
-king_female_sogdian;Ekshid;;;;;;;;;;;;;x
-city_baron_sogdian;Sartapaw;;;;;;;;;;;;;x
-city_baron_female_sogdian;Sartapaw;;;;;;;;;;;;;x
-city_count_sogdian;Eltabar;;;;;;;;;;;;;x
-city_count_female_sogdian;Eltabar;;;;;;;;;;;;;x
-city_duke_sogdian;Afshin;;;;;;;;;;;;;x
-city_duke_female_sogdian;Afshin;;;;;;;;;;;;;x
-city_king_sogdian;Ekshid;;;;;;;;;;;;;x
-city_king_female_sogdian;Ekshid;;;;;;;;;;;;;x

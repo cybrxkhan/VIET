@@ -130,3 +130,12 @@ opinion_ugly_omelette_cook = {
 opinion_corrected_me = {
 	opinion = 15
 }
+opinion_shared_knowledge = {
+	opinion = 10
+}
+opinion_sympathy_for_me = {
+	opinion = 15
+}
+opinion_no_sympathy_for_me = {
+	opinion = 10
+}

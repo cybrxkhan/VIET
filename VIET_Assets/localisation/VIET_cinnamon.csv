@@ -74,29 +74,68 @@ VIETmisc.5016.tooltip;I’ll ask the locals where’s the best place to get fresh ba
 VIETmisc.5016.title;Finding Bat Bones;;;;;;;;;;;;;x
 VIETmisc.5016.desc;Cretan folklore says that to kill a bat is a terrible thing and will cause much bad luck, and thus one has to be careful when looking for bat bones inside caves - you don’t want to end up killing one of the bats still alive!\n\nUp ahead, I see the cave I wish to enter. Locals have told me this cave contains a lot of bats.\n\nLooks like there’s no turning back now, huh?;;;;;;;;;;;x
 VIETmisc.5016.a;In I go.;;;;;;;;;;;;;x
-VIETmisc.5016.b;I’m… starting to have second thoughts… the cave looks scary and dangerous.;;;;;;;;;;;;;x
+VIETmisc.5016.b;I’m... starting to have second thoughts... the cave looks scary and dangerous.;;;;;;;;;;;;;x
 VIETmisc.5017.tooltip;I begin walking home. In my heart, I know I most likely avoided some great danger. Life is not worth a bunch of bat bones!;;;;;;;;;;;x
 VIETmisc.5017.title;Cowardice Pays!;;;;;;;;;;;;;x
 VIETmisc.5017.desc;As I walk home, thinking about how people would react if they knew I was this cowardly, I feel something under my feet. Crouching down on the ground, I sift through the dirt a bit. To my amazement, I find some bat bones!;;;;;;;;;;;x
 VIETmisc.5017.a;Haha, what luck!;;;;;;;;;;;;;x
 VIETmisc.5018.tooltip;I ready my torch and enter.;;;;;;;;;;;x
 VIETmisc.5018.title;Bulls?;;;;;;;;;;;;;x
-VIETmisc.5018.desc;I make my way through the cave, torch in hand, and eventually find some bat bones. Thank goodness!\n\nAs I dig deeper, I find other things as well - tiny bits of what must have been marble and stone blocks, some metal pots and scraps, and even a few pottery shards decorated with paintings of bulls. Maybe there was once an underground temple to a pagan bull god of sorts, once.\n\nAs I collect some bat bones and I continue digging, and come across something strange. ”These aren’t bat bones…” I mutter. “Aren’t those… bite marks… on human skeletons?!?!?”\n\nSuddenly, I hear some heavy breathing nearby.;;;;;;;;;;;x
+VIETmisc.5018.desc;I make my way through the cave, torch in hand, and eventually find some bat bones. Thank goodness!\n\nAs I dig deeper, I find other things as well - tiny bits of what must have been marble and stone blocks, some metal pots and scraps, and even a few pottery shards decorated with paintings of bulls. Maybe there was once an underground temple to a pagan bull god of sorts, once.\n\nAs I collect some bat bones and I continue digging, and come across something strange. ”These aren’t bat bones...” I mutter. “Aren’t those... bite marks... on human skeletons?!?!?”\n\nSuddenly, I hear some heavy breathing nearby.;;;;;;;;;;;x
 VIETmisc.5018.a;Damn it, the fire on my torch just went out!;;;;;;;;;;;;;x
-VIETmisc.5019.tooltip;Are those… red eyes… staring at me?;;;;;;;;;;;x
+VIETmisc.5019.tooltip;Are those... red eyes... staring at me?;;;;;;;;;;;x
 VIETmisc.5019.title;Man? Or Bull?;;;;;;;;;;;;;x
-VIETmisc.5019.desc;As I clutch onto the bat bones, I make out the faint shape of a bull in the darkness. Or… is it a man? A man with a bull mask?\n\n”I am [Root.GetTitledFirstName]! Who are you?” I shout. “Show yourself!” I absentmindedly raise the bat bones in front of me, thinking it’s my torch.\n\nI hear a most unearthly, horrifying sound coming from the bull - I think it is a bull now, is it? The creature, or person, or whatever it is walks away, into the darkness, leaving me alone once more.;;;;;;;;;;;x
-VIETmisc.5019.a;Did the… did the bat bones do something?;;;;;;;;;;;;;x
+VIETmisc.5019.desc;As I clutch onto the bat bones, I make out the faint shape of a bull in the darkness. Or... is it a man? A man with a bull mask?\n\n”I am [Root.GetTitledFirstName]! Who are you?” I shout. “Show yourself!” I absentmindedly raise the bat bones in front of me, thinking it’s my torch.\n\nI hear a most unearthly, horrifying sound coming from the bull - I think it is a bull now, is it? The creature, or person, or whatever it is walks away, into the darkness, leaving me alone once more.;;;;;;;;;;;x
+VIETmisc.5019.a;Did the... did the bat bones do something?;;;;;;;;;;;;;x
 VIETmisc.5020.tooltip;I have to get out of here before that thing returns.;;;;;;;;;;;x
 VIETmisc.5020.title;What Was That?;;;;;;;;;;;;;x
 VIETmisc.5020.desc;I am temporarily blinded by the sunlight as I make my way out the cave. I got the bat bones as I wanted, but, more importantly what was that I encountered in the cave?\n\nI know not. And I know not what that thing was I encountered in the cave. All I know is that these bat bones are indeed lucky. They protected me and scared way that beast!\n\nSighing, I make my way back home, clutching tightly on the bat bones.;;;;;;;;;;;x
 VIETmisc.5020.a;Perhaps I encountered a bull-like monster? Quite an encounter then!;;;;;;;;;;;;;x
 VIETmisc.5020.b;It was probably just a bear, and my imagination overexaggerated things.;;;;;;;;;;;;;x
-lucky_bat_bones;I’ll keep these bat bones with me… they appear to be good luck indeed.;;;;;;;;;;;;;x
+lucky_bat_bones;I’ll keep these bat bones with me... they appear to be good luck indeed.;;;;;;;;;;;;;x
 lucky_bat_bones_wait;Wait a moment. There are no bears on Crete. Crete has no large, dangerous animals to begin with...;;;;;;;;;;;;;x
 VIET_cretan_bat_bones;Bat Bones from Crete;;;;;;;;;;;;;x
 VIET_cretan_bat_bones_desc;This character keeps with him or her some bat bones from Crete. According to Cretan folklore, bat bones are extremely lucky. Still, for some reason this character won't tell where he or she found these bones...;;;;;;;;;;;;;x
-VIETmisc.5021.tooltip;xxxxx;;;;;;;;;;;x
-VIETmisc.5021.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5021.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5021.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5021.title;The Ancient Scrolls;;;;;;;;;;;;;x
+VIETmisc.5021.desc;One of your soldiers found some scrolls littered in a cave by some hills nearby. These were written centuries ago in an ancient form of [Root.Culture.GetName], and though they are difficult to decipher, they are still understandable. Having nothing better to do, you and a few of your courtiers decide to read these scrolls and see what they’re all about...;;;;;;;;;;;x
+VIETmisc.5021.a;Let’s see here...;;;;;;;;;;;;;x
+VIETmisc.5022.tooltip;This handwriting is atrocious.;;;;;;;;;;;x
+VIETmisc.5022.title;Just Like Us;;;;;;;;;;;;;x
+VIETmisc.5022.desc;You read through several more scrolls, learning more about the ancients - in a way, they weren’t so different than you. They hated, they loved, they had to deal with the same things you deal with. It’s insightful, in a way. Though the fact that the Chinese were obsessed with [Root.Culture.GetName] women even back then is still disturbing. ;;;;;;;;;;;x
+VIETmisc.5022.a;And creepy.;;;;;;;;;;;;;x
+VIETmisc.5023.title;A Western Flower;;;;;;;;;;;;;x
+VIETmisc.5023.desc;The scroll is apparently a translation of a Chinese poem into [Root.Culture.GetName].\n\n”That Western girl with features like a flower\nShe stands by the wine-warmer, and laughs with the breath of spring\nLaughs with the breath of spring,\nDances in a dress of gauze!\nWill you be going some where, milord,\nnow, before you are drunk?”;;;;;;;;;;;x
+VIETmisc.5023.a;What’s up with these Chinese and their obsession with our women?;;;;;;;;;;;;;x
+VIETmisc.5023.b;Hahaha! These Chinese were obsessed with our women even back then!;;;;;;;;;;;;;x
+VIETmisc.5023.c;Ah! A poem by Li Bai! What luck to find an old copy of this!;;;;;;;;;;;;;x
+VIET_li_bai_poetry;Read Li Bai's Poetry;;;;;;;;;;;;;x
+VIET_deep_contemplation;In Deep Contemplation;;;;;;;;;;;;;x
+VIET_deep_contemplation_desc;What is the meaning of life?;;;;;;;;;;;;;x
+VIET_bored_ruler;Bored Ruler;;;;;;;;;;;;;x
+VIET_bored_ruler_desc;Something must have bored this character out of his or her mind...;;;;;;;;;;;;;x
+VIETmisc.5024.title;The Lost Woman;;;;;;;;;;;;;x
+VIETmisc.5024.desc;The letter appears to be from a woman called Shayn, who writes to her husband, Nanaidhat:\n“Behold, I am living, but badly, wretchedly, and I consider myself dead. Again and again I send you a letter, but I do not receive a single letter from you, and I have become without hope towards you. My misfortune is that I have been in Dunhuang for three years thanks to you, and there was a way out a first, a second, even a fifth time, but he refused to bring me out.”\n\nThe rest of the letter is unreadable.;;;;;;;;;;;x
+VIETmisc.5024.a;Hmm... I wonder who this “he” is she refers to...;;;;;;;;;;;;;x
+VIETmisc.5024.b;How sad! I wonder if she got out of her predicament at all...;;;;;;;;;;;;;x
+VIETmisc.5025.title;A Shopping List, Maybe?;;;;;;;;;;;;;x
+VIETmisc.5025.desc;You begin reading the scroll, which was perhaps written by some merchant: “Things deposited by me: 3 gumoca, 1 pucliama, 4 pasamvamta made of cloth, 1 kayavatra, a bow and arrows, 4 vases, 2 krataga, pothi, 1 rug (kojava), 1 carpet, 1 felt-garment, 5 ropes, 4 kaspiya…”\n\nThe list goes on, and on, and on, and on.;;;;;;;;;;;x
+VIETmisc.5025.a;This is absolutely boring trash.;;;;;;;;;;;;;x
+VIETmisc.5025.b;I wonder what sort of products these were...;;;;;;;;;;;;;x
+VIETmisc.5025.c;The ancients had quite a proficiency in list-writing!;;;;;;;;;;;;;x
+VIET_impressed_ruler;Impressed;;;;;;;;;;;;;x
+VIET_impressed_ruler_desc;Wow! Very interesting! Much fascination! Great excitement about a certain arbitrary topic!;;;;;;;;;;;;;x
+VIETmisc.5026.title;Accuser and Accused;;;;;;;;;;;;;x
+VIETmisc.5026.desc;The writing appears neat and formal, perhaps that of a scribe’s: “His majesty the great king Jitugha Vasmana, son of heaven, in the 6th month, 25th day, in this reign: The Buddhist monk Ayila informs us that a woman called Cadisaae burnt his yellow robes. When this sealed wedge-tablet reaches you, careful inquiry is to be made, and a decision is to be made according to law. If it is otherwise, or you are not clear there, these disputants are to be taken into custody and sent here to the king's court, where there will be a decision.”;;;;;;;;;;;x
+VIETmisc.5026.a;Their judicial system seems quite solid - I’m impressed!;;;;;;;;;;;;;x
+VIETmisc.5026.b;Maybe it was all a misunderstanding...;;;;;;;;;;;;;x
+VIETmisc.5026.c;This woman Cadisaae certainly has accumulated bad karma!;;;;;;;;;;;;;x
+VIETmisc.5026.d;Haha! That heathen monk deserved this!;;;;;;;;;;;;;x
+VIETmisc.5026.e;Buddhist or not, no one should attack holy men of any religion!;;;;;;;;;;;;;x
+VIETmisc.5027.title;Cows;;;;;;;;;;;;;x
+VIETmisc.5027.desc;The scroll appears to be commercial or administrative in nature:\n“Tagaca's cow went away to the Chinese.\nOnaka's cow went away to the lord Kunita.\nCinga took Smagamta's cow.\nKuuna's cow went away to Tryaehi.\nKumpara's cow went away to Pakhi.\nThe sothamga Pgena's cow went away to the Chinese.”;;;;;;;;;;;x
+VIETmisc.5027.a;MOOOOO.;;;;;;;;;;;;;x
+VIETmisc.5027.b;I saw a cow the other day. Awful creatures. I avoid them whenever I can.;;;;;;;;;;;;;x
+VIETmisc.5027.c;I’m in the mood for some beef, actually.;;;;;;;;;;;;;x
+VIETmisc.5028.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5028.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5028.a;xxxxx;;;;;;;;;;;;;x

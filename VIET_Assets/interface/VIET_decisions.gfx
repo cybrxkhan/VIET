@@ -263,6 +263,7 @@ spriteTypes = {
 		name = "GFX_convert_to_spouse_sammitiya"
 		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_buddhist.dds"
 	}
+	### FRANCISCAN
 	spriteType = {
 		name = "GFX_join_secular_franciscans"
 		texturefile = "gfx\\interface\\decision_icon_join_secular_franciscans.dds"
@@ -275,6 +276,7 @@ spriteTypes = {
 		name = "GFX_support_zelanti"
 		texturefile = "gfx\\interface\\decision_icon_support_zelanti.dds"
 	}
+	### DULCINIAN
 	spriteType = {
 		name = "GFX_reate_dulcinian_papacy"
 		texturefile = "gfx\\interface\\decision_icon_create_dulcinian_papacy.dds"
@@ -283,6 +285,7 @@ spriteTypes = {
 		name = "GFX_dulcinian_redistribution"
 		texturefile = "gfx\\interface\\decision_icon_redistribute_wealth.dds"
 	}
+	### CELTIC
 	spriteType = {
 		name = "GFX_reestablish_knights_of_the_round_table"
 		texturefile = "gfx\\interface\\decision_icon_reestablish_round_table.dds"
@@ -298,5 +301,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_contribute_to_fathers_hogback_stone"
 		texturefile = "gfx\\interface\\decision_icon_contribute_to_fathers_hogback_stone.dds"
+	}
+	### IRANIAN
+	spriteType = {
+		name = "GFX_celebrate_nowruz"
+		texturefile = "gfx\\interface\\decision_icon_celebrate_nowruz.tga"
+	}
+	spriteType = {
+		name = "GFX_proclaim_sogdiana"
+		texturefile = "gfx\\interface\\decision_icon_proclaim_sogdiana.tga"
+	}
+	spriteType = {
+		name = "GFX_support_silk_road"
+		texturefile = "gfx\\interface\\decision_icon_support_silk_road.tga"
 	}
 }

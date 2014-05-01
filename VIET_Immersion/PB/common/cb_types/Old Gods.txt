@@ -196,7 +196,6 @@ pagan_subjugation = {
 	
 	can_use_gui = {
 		ROOT = {
-			prestige = 100
 			NOT = { trait = content }
 			NOT = { trait = slothful }
 			NOT = { trait = craven }
@@ -204,11 +203,7 @@ pagan_subjugation = {
 			NOT = { trait = depressed }
 		}
 	}
-	
-	on_add = {
-		ROOT = { prestige = -100 }
-	}
-	
+
 	can_use = {
 		ROOT = {
 			religion_group = pagan_group

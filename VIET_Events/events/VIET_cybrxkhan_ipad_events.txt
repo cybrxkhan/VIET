@@ -12,6 +12,8 @@
 # 2030-2032: Cornish
 # 2033-2035: Pan-Briton
 # 2036-2039: Cretan
+# 2040-2044: Sogdian/Silk Road
+# 10050-10053: Fraticelli
 ########################################################
 
 namespace = VIETmisc
@@ -4021,3 +4023,888 @@ character_event = {
 		}
 	}
 }
+
+
+####################################
+# Sogdian
+####################################
+
+
+# Hot Western Chicks Yowza
+character_event = {
+	id = VIETmisc.2040
+	desc = VIETmisc.2040.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no
+		culture_group = serindian
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1
+			has_global_flag = silk_road_level_0
+		}
+	}
+
+	option = {#bah
+		name = VIETmisc.2040.a
+		tooltip_info = lustful
+		trigger = {
+			trait = lustful
+			is_female = no
+		}
+		prestige = 2
+	}
+	option = {#bah
+		name = VIETmisc.2040.b
+		trigger = {
+			is_female = yes
+		}
+		prestige = 2
+	}
+	option = {#bah
+		name = VIETmisc.2040.c
+		trigger = {
+			is_female = yes
+		}
+		piety = 2
+	}
+	option = {#bah
+		name = VIETmisc.2040.d
+		random = {
+			chance = 30
+			add_trait = proud
+		}
+	}
+	option = {#bah
+		name = VIETmisc.2040.e
+		piety = 2
+	}
+	option = {#bah
+		name = VIETmisc.2040.f
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+}
+
+# Sogdian Loanwords
+character_event = {
+	id = VIETmisc.2041
+	desc = VIETmisc.2041.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no
+		culture = sogdian
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2
+			learning = 15
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { learning = 8 }
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				any_realm_province = {
+					culture = turkish
+				}
+				any_courtier = {
+					culture = turkish
+				}
+				any_realm_province = {
+					culture = uighur
+				}
+				any_courtier = {
+					culture = uighur
+				}
+				any_realm_province = {
+					culture = cuman
+				}
+				any_courtier = {
+					culture = cuman
+				}
+			}
+		}
+	}
+
+	option = {#ah
+		name = VIETmisc.2041.a
+		prestige = 2
+	}
+	option = {#ah
+		name = VIETmisc.2041.b
+		prestige = 2
+	}
+}
+
+# Silk Road Murals
+character_event = {
+	id = VIETmisc.2042
+	desc = VIETmisc.2042.desc
+	picture = GFX_evt_moorish_decor
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no
+		culture = sogdian
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+	}
+
+	option = {#divine
+		name = VIETmisc.2042.a
+		piety = 10
+		wealth = -5
+	}
+	option = {#heroes
+		name = VIETmisc.2042.b
+		prestige = 10
+		wealth = -5
+	}
+	option = {#fables
+		name = VIETmisc.2042.c
+		prestige = 5
+		piety = 5
+		wealth = -5
+	}
+	option = {#no money wasting
+		name = VIETmisc.2042.d
+		add_character_modifier = {
+			name = the_prude
+			duration = 365
+		}
+	}
+}
+
+# Sugar Rock
+character_event = {
+	id = VIETmisc.2043
+	desc = VIETmisc.2043.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no
+		culture = sogdian
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2043.a
+		prestige = 1
+	}
+}
+
+# SOGDIANA MONETIZER
+character_event = {
+	id = VIETmisc.2044
+	desc = VIETmisc.2044.desc
+	picture = GFX_evt_silk_road
+
+	is_triggered_only = yes
+
+	min_age = 6
+	max_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no
+		culture = sogdian
+		NOT = { has_character_flag = VIET_sogdian_child_learns }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			guardian = {
+				trait = sartapaw
+			}
+		}
+		modifier = {
+			factor = 2
+			father = {
+				trait = sartapaw
+			}
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2044.a
+		change_stewardship = 1
+		random = {
+			chance = 50
+			change_stewardship = 1
+		}
+		set_character_flag = VIET_sogdian_child_learns
+	}
+}
+
+
+########################################
+# FRATICELLI
+########################################
+
+# Party poopers
+character_event = {
+	id = VIETmisc.10050
+	desc = VIETmisc.10050.desc
+	picture = GFX_evt_monastery_monks
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion = fraticelli
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}		
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}		
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}		
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.10050.a"  #ok
+		piety = 2
+	}		
+	option = {
+		name = "VIETmisc.10050.b"  #ok
+		prestige = 2
+	}	
+}
+
+
+# Learning from the Wandering Hermit
+character_event = {
+	id = VIETmisc.10051
+	desc = VIETmisc.10051.desc
+	picture = GFX_evt_monastery_monks
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		learning = 9
+		religion = fraticelli
+		any_courtier = {
+			trait = wandering_hermit
+			religion = fraticelli
+		}
+		NOT ={ has_character_flag = VIET_fraticelli_preacher_learning }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}		
+		modifier = {
+			factor = 2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}		
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}		
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.10051.a"  #ok
+		set_character_flag = VIET_fraticelli_preacher_learning
+		random_courtier = {
+			limit = {
+				trait = wandering_hermit
+				religion = fraticelli
+			}
+			opinion = {
+				modifier = opinion_shared_knowledge
+				who = ROOT
+				years = 5
+			}
+		}
+		random_list = {
+			20 = { change_diplomacy = 1 }
+			20 = { change_martial = 1 }
+			20 = { change_stewardship = 1 }
+			20 = { change_intrigue = 1 }
+			20 = { change_learning = 1 }
+		}
+	}	
+}
+
+# Dirty Fraticelli
+character_event = {
+	id = VIETmisc.10052
+	desc = VIETmisc.10052.desc
+	picture = GFX_evt_heretic
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion = fraticelli
+		any_courtier = {
+			OR = {
+				trait = wandering_hermit
+				trait = monk
+				trait = nun
+				is_theocracy = yes
+			}
+			religion = fraticelli
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}		
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}		
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.10052.a"  #ok
+		piety = -5
+		random_courtier = {
+			limit = {
+				OR = {
+					trait = wandering_hermit
+					trait = monk
+					trait = nun
+					is_theocracy = yes
+				}
+				religion = fraticelli
+			}
+			opinion = {
+				modifier = disagrees_with_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}	
+	option = {
+		name = "VIETmisc.10052.b"  #ok
+		prestige = -5
+		random_courtier = {
+			limit = {
+				OR = {
+					trait = wandering_hermit
+					trait = monk
+					trait = nun
+					is_theocracy = yes
+				}
+			}
+			opinion = {
+				modifier = agrees_with_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}	
+}
+
+# Fraticelli Preachers Passing by
+character_event = {
+	id = VIETmisc.10053
+	desc = VIETmisc.10053.desc
+	picture = GFX_evt_monastery_monks
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion = fraticelli
+		wealth = 10
+		capital_scope = {
+			religion = fraticelli
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 3
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.25
+			trait = greedy
+		}			
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}		
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}		
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+	}
+	
+	option = {
+		name = "VIETmisc.10053.a"  #ok
+		piety = 5
+		wealth = -2
+	}	
+}
+

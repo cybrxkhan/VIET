@@ -370,6 +370,16 @@ on_yearly_pulse = {
 		100 = VIETmisc.2013
 		100 = VIETmisc.2014
 		100 = VIETmisc.2015
+		100 = VIETmisc.2016
+		100 = VIETmisc.2017
+		100 = VIETmisc.2018
+		100 = VIETmisc.2019
+		100 = VIETmisc.2020
+		100 = VIETmisc.2021
+		100 = VIETmisc.2022
+		100 = VIETmisc.2023
+		100 = VIETmisc.2024
+		100 = VIETmisc.2025
 		100 = VIETmisc.3000
 		
 		#VIET CULTURE SPECIFIC EVENTS
@@ -413,6 +423,14 @@ on_yearly_pulse = {
 		100 = VIETmisc.2037
 		#Briton
 		100 = VIETceltic.233
+		100 = VIETmisc.2028
+		100 = VIETmisc.2029
+		100 = VIETmisc.2030
+		100 = VIETmisc.2031
+		100 = VIETmisc.2032
+		100 = VIETmisc.2033
+		100 = VIETmisc.2034
+		100 = VIETmisc.2035
 		#Fraticelli
 		100 = VIETmisc.10050
 		100 = VIETmisc.10051
@@ -910,16 +928,20 @@ on_five_year_pulse = {
 		10 = 1000109356
 		#Shady Events
 		10 = 1000109475
+		#Briton
+		10 = VIETmisc.2026
 		
 		#VIET Event Chains
-		3 = VIETmisc.5000
-		3 = VIETmisc.5007
-		3 = VIETmisc.5015
-		3 = ordepchains.1000
-		3 = OCC.1 
-		3 = VIETmisc.5021
+		2 = VIETmisc.2513
+		2 = VIETmisc.5000
+		2 = VIETmisc.5007
+		2 = VIETmisc.5015
+		2 = ordepchains.1000
+		2 = OCC.1 
+		2 = fantasia.0
+		2 = fantasia.8 
 		
-		30 = 0
+		40 = 0
 	}
 }
 

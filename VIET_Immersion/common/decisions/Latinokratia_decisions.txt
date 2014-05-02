@@ -31,21 +31,23 @@ decisions = {
 			e_latin_empire = { has_holder = no }
 		}
 		allow = {
-			custom_tooltip = controls_constantinople_kaliopolis_thrake
-			hidden_tooltip = {
-				495 = { # Kaliopolis
-					OR = {
-						is_liege_or_above = ROOT
-						owner = { character = ROOT } 
+			custom_tooltip = {
+				text = controls_constantinople_kaliopolis_thrake
+				hidden_tooltip = {
+					495 = { # Kaliopolis
+						OR = {
+							is_liege_or_above = ROOT
+							owner = { character = ROOT } 
+						}
 					}
-				}
-				496 = { # Constantinople
-					owner = { character = ROOT }
-				}
-				497 = { # Thrake
-					OR = {
-						is_liege_or_above = ROOT
-						owner = { character = ROOT } 
+					496 = { # Constantinople
+						owner = { character = ROOT }
+					}
+					497 = { # Thrake
+						OR = {
+							is_liege_or_above = ROOT
+							owner = { character = ROOT } 
+						}
 					}
 				}
 			}
@@ -136,7 +138,11 @@ decisions = {
 				holder_scope = {
 					higher_tier_than = duke
 					religion_group = christian
-					NOT = { same_realm = top_liege }
+					NOT = {
+						top_liege = {
+							same_realm = PREV
+						}
+					}
 					NOT = { #Remains faithful until Latin Empire gets conquer global flag
 						OR = {
 							has_landed_title = e_latin_empire
@@ -145,7 +151,13 @@ decisions = {
 					}
 				}
 			}
-			NOT = { vassal_of = e_byzantium }
+			NOT = {
+				e_byzantium = {
+					holder_scope = {
+						ROOT = { vassal_of = PREV }
+					}
+				}
+			}
 		}
 		allow = {}
 		effect = {

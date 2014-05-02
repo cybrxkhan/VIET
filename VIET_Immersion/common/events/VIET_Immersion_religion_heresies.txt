@@ -310,7 +310,7 @@ character_event = {
 				NOT = { trait = slothful }
 			}
 			add_trait = wandering_hermit
-			character_event = { id = 0 tooltip = "" }
+			# character_event = { id = 0 tooltip = "" }
 		}
 	}
 }

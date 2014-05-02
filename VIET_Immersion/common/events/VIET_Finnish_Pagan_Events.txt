@@ -646,30 +646,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {

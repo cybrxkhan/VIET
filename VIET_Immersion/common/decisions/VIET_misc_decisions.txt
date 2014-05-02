@@ -467,7 +467,7 @@ decisions = {
 		potential = {
 			OR = {
 				religion_group = pagan_group
-				religion_group = vedic
+				religion = hindu
 			}
 			age = 16
 			demesne_size = 1
@@ -732,7 +732,7 @@ decisions = {
 			OR = {
 				religion_group = pagan_group
 				religion_group = zoroastrian_group
-				religion_group = eastern_group
+				religion_group = indian_group
 			}
 		}
 		allow = {

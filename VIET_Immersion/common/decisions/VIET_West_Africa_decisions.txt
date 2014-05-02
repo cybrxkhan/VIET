@@ -339,10 +339,6 @@ decisions = {
 				trait = humble
 			}							
 			modifier = {
-				factor = 2
-				trait = poet
-			}	
-			modifier = {
 				factor = 0.5
 				trait = arbitrary
 			}	

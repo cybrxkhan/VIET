@@ -177,8 +177,6 @@ twelver = { # Twelver/Imami
 		fiver
 		sevener
 	}
-
-	customizer = no
 	
 	stewardship = 2
 	
@@ -198,8 +196,6 @@ sevener = { # Ismaili
 		twelver
 		fiver
 	}
-
-	customizer = no
 	
 	intrigue = 1
 	monthly_character_piety = 0.1
@@ -220,8 +216,6 @@ fiver = { # Zaydi
 		twelver
 		sevener
 	}
-
-	customizer = no
 	
 	diplomacy = 1
 	learning = 1
@@ -319,7 +313,7 @@ vegetarian = {
 			religion_group = gnostic_group
 			religion = cathar
 			religion = qarmatian
-			religion = bogomil
+			religion = bogomilist
 		}
 	}
 	
@@ -385,7 +379,7 @@ on_retreat = {
 #Chinese traits
 calligrapher = {
 	potential = {
-		religion_group = eastern_group
+		# religion_group = eastern_group
 	}
 
 	lifestyle = yes
@@ -395,7 +389,7 @@ calligrapher = {
 }
 zither_player = {
 	potential = {
-		religion_group = eastern_group
+		# religion_group = eastern_group
 	}
 
 	lifestyle = yes
@@ -415,7 +409,7 @@ go_player = {
 }
 chinese_painter = {
 	potential = {
-		religion_group = eastern_group
+		# religion_group = eastern_group
 	}
 
 	lifestyle = yes
@@ -425,7 +419,7 @@ chinese_painter = {
 }
 tea_master = {
 	potential = {
-		religion_group = eastern_group
+		# religion_group = eastern_group
 	}
 
 	lifestyle = yes

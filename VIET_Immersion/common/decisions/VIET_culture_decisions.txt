@@ -32,13 +32,17 @@ decisions = {
 			NOT = { has_character_modifier = VIET_nowruz_timer }
 		}
 		allow = {
+			month = 3
+			NOT = {
+				month = 6
+			}
 			war = no
 			in_command = no
 			any_demesne_title = {
 				is_occupied = no
 			}
 			prisoner = no
-			scaled_wealth = 0.1
+			scaled_wealth = 0.2
 			age = 16
 			NOT = { has_character_flag = do_not_disturb }
 			NOT = { has_character_flag = VIET_nowruz }
@@ -59,7 +63,7 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = -0.1
+			scaled_wealth = -0.2
 			hidden_tooltip = {
 				character_event = { 
 					id = silkroad.300
@@ -184,9 +188,11 @@ decisions = {
 			}
 			prestige = 250
 			realm_size = 60
+			scaled_wealth = 0.5
 		}
 		effect = {
 			set_global_flag = sogdian_merchants_supported
+			scaled_wealth = -0.5
 			hidden_tooltip = {
 				character_event = { 
 					id = silkroad.8

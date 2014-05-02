@@ -5432,7 +5432,7 @@ arabic = { #Renamed "Semitic"
 		color = { 0.4 0.9 0.25 }
 
 		male_names = {
-			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha Akha-d'abuh Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
+			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha Akha-d'abuh Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
 			Babaeus_Babaeus Babai_Babaeus Babowai_Babaeus Babwahi_Babaeus Bar Bar-Abba Barba'shimin Bar-Nabha Bar-Talmai Bar-Timai Bar-Tolmai Bustan_Bustan Caiaphas Cephas_Peter Cephus_Peter Chadlai Chama Chanin_Chanin Chanina_Chanin Chaninai_Chanin Chinena_Chanin
 			Chozai_Chozai Chuma Chunya_Chunya Clopas Dadisho' Denha Dikla_Dikla Diklah_Dikla Dimi Dinkha Dunanu Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel Farbokht_Farbokht Foma Giwargis_George Grwgari_Gregory Hanina_Chanin Hnanisho' Hozai_Chozai Idan Idra Ila Isaac_Isaac Isho' Isho'yahb Israel_Israel Kaiapha Karna Katsiu Kelaya Laszio_Lazarus Lazar_Lazarus
 			Lazare_Lazarus Lazaro_Lazarus Lazaros_Lazarus Lazarus_Lazarus Lazarz_Lazarus Lazer_Lazarus Lebbaeus Maadai Macabee_Macabee Maccabee_Macabee Magna_Ma'na Makkikha Maluch Ma'na_Ma'na Marabokht_Farbokht Maremmeh Mari Mikha'il_Michael Moqli Muna Nahir_Nahir Nahor_Nahir Nahur_Nahir Narsai Nazuk Nechunya_Chunya

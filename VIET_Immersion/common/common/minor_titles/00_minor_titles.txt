@@ -2016,7 +2016,7 @@ title_court_poet_india = {
 			religion_group = indian_group
 		}
 		NOT = { has_minor_title = title_master_of_the_royal_elephants }
-		NOT = { has_minor_title = royal_builder }
+		NOT = { has_minor_title = title_royal_builder }
 		NOT = { has_minor_title = title_court_musician }
 		NOT = { has_minor_title = title_cupbearer }
 		NOT = { has_minor_title = title_court_jester }

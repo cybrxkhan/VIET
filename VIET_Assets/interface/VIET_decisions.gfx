@@ -144,28 +144,28 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_orthodox.dds"
 	}
 	spriteType = {
-		name = "GFX_convert_to_spouse_bosnian"
+		name = "GFX_convert_to_spouse_bosnian_religion"
 		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_orthodox.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_to_spouse_syriac"
-		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_nestorian.dds"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_miaphysite.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_to_spouse_maronite"
-		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_nestorian.dds"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_miaphysite.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_to_spouse_chaldean"
 		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_nestorian.dds"
 	}
 	spriteType = {
-		name = "GFX_convert_to_spouse_nasrani"
+		name = "GFX_convert_to_spouse_messalian"
 		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_nestorian.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_to_spouse_arkagun"
-		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_arkagun.dds"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_nestorian.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_to_spouse_murjite"

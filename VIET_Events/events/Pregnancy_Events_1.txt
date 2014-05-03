@@ -91,8 +91,6 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	is_triggered_only = yes
-	
 	min_age = 16
 	capable_only = yes
 	prisoner = no
@@ -174,8 +172,6 @@ character_event = {
 	id = 1000109313
 	desc = "EVTDESC1000109313"
 	picture = GFX_evt_pregnancy
-	
-	is_triggered_only = yes
 	
 	is_triggered_only = yes
 	
@@ -273,8 +269,10 @@ character_event = {
 		name = "EVTOPTA1000109313"
 		prestige = 5
 		random_child = {
-			is_adult = no
-			age = 2			
+			limit = {
+				is_adult = no
+				age = 2
+			}
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
@@ -287,8 +285,10 @@ character_event = {
 		name = "EVTOPTB1000109313"
 		piety = 5
 		random_child = {
-			is_adult = no
-			age = 2			
+			limit = {
+				is_adult = no
+				age = 2
+			}
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT

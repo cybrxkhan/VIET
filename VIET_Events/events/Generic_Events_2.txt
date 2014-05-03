@@ -1104,8 +1104,7 @@ character_event = {
 				factor = 5
 				AND = {
 					OR = {
-						religion_group = eastern_group
-						religion_group = vedic
+						religion_group = indian_group
 						religion_group = gnostic_group
 					}
 					trait = zealous

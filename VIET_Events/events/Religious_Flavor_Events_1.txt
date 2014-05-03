@@ -2797,7 +2797,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		OR = {
 			trait = hunter
 			trait = falconer
@@ -2926,7 +2926,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3058,7 +3058,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		OR = {
 			trait = retreat_veteran
 			trait = retreat_master
@@ -3139,7 +3139,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3252,7 +3252,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3356,7 +3356,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3446,7 +3446,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3633,11 +3633,11 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		is_married = yes
 		prisoner = no
 		spouse = {
-			religion_group = eastern_group
+			religion = buddhist
 			prisoner = no
 			is_alive = yes
 			is_abroad = no

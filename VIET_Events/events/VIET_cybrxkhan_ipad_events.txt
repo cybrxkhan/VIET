@@ -534,14 +534,6 @@ character_event = {
                         factor = 0.5
                         trait = greedy
                 }
-                modifier = {
-                        factor = 2
-                        trait = slothful
-                }
-                modifier = {
-                        factor = 0.5
-                        trait = diligent
-                }
         }
         option = {
                 name = VIETmisc.2005.a
@@ -2652,13 +2644,13 @@ character_event = {
 		in_command = no 
 		is_abroad = no
 		culture = breton
-		random_courtier = {
-                                is_adult = yes
-                                NOT = { trait = incapable }
-                                NOT = { trait = celibate }
-                                NOT = { trait = shy }
-                                NOT = { trait = temperate }
-             }
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			NOT = { trait = celibate }
+			NOT = { trait = shy }
+			NOT = { trait = temperate }
+		}
 	}
 
 	weight_multiplier = {
@@ -3165,13 +3157,13 @@ character_event = {
 			limit = {
 				any_demesne_province = {
 					culture = cornish
-					religion_group = Christian
+					religion_group = christian
 				}
 			}
 			random_demesne_province = {
 				limit = {
 					culture = cornish
-					religion_group = Christian
+					religion_group = christian
 				}
 				add_province_modifier = {
 					name = VIET_leader_who_cares
@@ -3981,7 +3973,7 @@ character_event = {
 		name = VIETmisc.2039.a
 		random = {
 			chance = 5
-			trait = paranoid
+			add_trait = paranoid
 		}
 	}
 	option = {#for lover

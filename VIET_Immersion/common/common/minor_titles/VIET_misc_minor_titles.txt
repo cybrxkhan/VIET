@@ -82,8 +82,8 @@ title_court_musician = { #Moved from muslim titles - now available to non-muslim
 			is_feudal = yes
 			NOT = { culture_group = west_african }
 			NOT = { culture_group = central_african }
-			NOT = { religion_group = west_african_pagan }
-			NOT = { religion_group = west_african_pagan_reformed }
+			NOT = { religion = west_african_pagan }
+			NOT = { religion = west_african_pagan_reformed }
 		}
 		OR = {
 			is_female = no
@@ -185,7 +185,7 @@ title_belen_tigui = {
 				}
 			}
 			culture_group = west_african
-			NOT = {culture = berber}
+			NOT = { culture = maghreb_arabic }
 		}
 		NOT = { trait = imbecile }
 		NOT = { trait = slow }

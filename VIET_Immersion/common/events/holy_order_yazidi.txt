@@ -6,8 +6,8 @@
 # The Faqir Tribesmen arise
 narrative_event = {
 	id = VIETmisc.311
-	title =VIETmisc.311.title
-	desc =VIETmisc.311.desc
+	title = VIETmisc.311.title
+	desc = VIETmisc.311.desc
 	major = yes
 	
 	picture = GFX_evt_melee_muslim
@@ -181,7 +181,7 @@ narrative_event = {
 # The son of a ruler volunteers to join the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.312
-	desc =VIETmisc.312.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -201,10 +201,10 @@ character_event = {
 		is_title_active = d_yazidi_holy_order
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -278,7 +278,7 @@ character_event = {
 	}
 	
 	option = {
-		name = VIETmisc.312.a # Ask to go
+		name = CONTINUE # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -289,14 +289,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = VIETmisc.312.b # It's a bad idea
+		name = CANCEL # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.313
-	desc =VIETmisc.313.desc
+	desc = VIETmisc.313.desc
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -335,7 +335,7 @@ character_event = {
 # Son or brother joins the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.314
-	desc = VIETmisc.314.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -360,14 +360,14 @@ character_event = {
 # Liege refuses request to join the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.315
-	desc =VIETmisc.315.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = VIETmisc.315.a
+		name = CURSES
 		
 		opinion = {
 			who = FROM
@@ -379,7 +379,7 @@ character_event = {
 # Ping event when donating money to the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.316
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -408,7 +408,7 @@ character_event = {
 # Notification event when donating money to the Faqir Tribesmen
 letter_event = {
 	id = VIETmisc.317
-	desc =VIETmisc.317.a
+	desc = VIETmisc.317.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -421,7 +421,7 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = VIETmisc.318
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -503,7 +503,7 @@ character_event = {
 
 province_event = {
 	id = VIETmisc.319
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -528,7 +528,7 @@ province_event = {
 
 character_event = {
 	id = VIETmisc.320
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -551,7 +551,7 @@ character_event = {
 
 letter_event = {
 	id = VIETmisc.321
-	desc = VIETmisc.321.desc
+	desc = VIETmisc.321.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -590,7 +590,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = VIETmisc.322
-	desc =VIETmisc.322.desc
+	desc = VIETmisc.322.desc
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -614,7 +614,7 @@ province_event = {
 # Ping event when expelling the Faqir Tribesmen
 character_event = {
 	id = VIETmisc.323
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	

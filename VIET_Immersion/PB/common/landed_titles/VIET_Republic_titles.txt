@@ -1,6 +1,6 @@
 #Hormuz
 b_thakkur = {
-	culture = gujarati
+	culture = gujurati
 	religion = hindu
 }
 b_abdullid = {

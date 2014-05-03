@@ -251,8 +251,19 @@ province_event = {
 		name = "EVTOPTA55000"
 		owner = {
 			reverse_culture = ROOT
-			if={ limit={has_ambition = obj_civilize_province} character_event={id=ao_cleanup.1 days = 3}}
-			any_liege={if={ limit={culture=PREV has_ambition = obj_civilize_province}} character_event={id=ao_cleanup.1 days = 3}}
+			if = { 
+				limit = { has_ambition = obj_civilize_province } 
+				character_event = { id = ao_cleanup.1 days = 3 }
+			}
+			any_liege={
+				if = {
+					limit = {
+						culture = PREV
+						has_ambition = obj_civilize_province
+					}
+					character_event = { id = ao_cleanup.1 days = 3 }
+				}
+			}
 		}
 	}
 }
@@ -362,7 +373,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.66
-			OR={
+			OR = {
 				owner = { has_ambition = obj_civilize_province }
 				owner = { any_liege= { culture=PREV has_ambition = obj_civilize_province } }
 			}
@@ -414,8 +425,19 @@ province_event = {
 		owner = {
 			ROOT = {
 				culture = PREV
-			if={ limit={has_ambition = obj_civilize_province} character_event={id=ao_cleanup.1 days = 3}}
-			any_liege = { if = { limit = { culture=PREV has_ambition = obj_civilize_province } } character_event={id=ao_cleanup.1 days = 3} }
+			}
+			if = {
+				limit = { has_ambition = obj_civilize_province } 
+				character_event = { id = ao_cleanup.1 days = 3 }
+			}
+			any_liege = {
+				if = {
+					limit = {
+						culture = PREV
+						has_ambition = obj_civilize_province
+					}
+					character_event = { id = ao_cleanup.1 days = 3 }
+				}
 			}
 		}
 	}

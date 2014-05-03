@@ -6,8 +6,8 @@
 # The Champions of Nhialic move to the West
 narrative_event = {
 	id = VIETmisc.291
-	title =VIETmisc.291.title
-	desc =VIETmisc.291.desc
+	title = VIETmisc.291.title
+	desc = VIETmisc.291.desc
 	major = yes
 	
 	picture = GFX_evt_african_savanna
@@ -126,7 +126,7 @@ narrative_event = {
 # The son of a ruler volunteers to join the Champions of Nhialic
 character_event = {
 	id = VIETmisc.292
-	desc =VIETmisc.292.desc
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -146,10 +146,10 @@ character_event = {
 		is_title_active = d_east_african_pagan_holy_order
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -223,7 +223,7 @@ character_event = {
 	}
 	
 	option = {
-		name = VIETmisc.292.a # Ask to go
+		name = CONTINUE # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -234,14 +234,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = VIETmisc.292.b # It's a bad idea
+		name = CANCEL # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the Champions of Nhialic
 character_event = {
 	id = VIETmisc.293
-	desc =VIETmisc.293.desc
+	desc = VIETmisc.293.desc
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -280,7 +280,7 @@ character_event = {
 # Son or brother joins the Champions of Nhialic
 character_event = {
 	id = VIETmisc.294
-	desc = VIETmisc.294.desc
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -305,14 +305,14 @@ character_event = {
 # Liege refuses request to join the Champions of Nhialic
 character_event = {
 	id = VIETmisc.295
-	desc =VIETmisc.295.desc
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = VIETmisc.295.a
+		name = CURSES
 		
 		opinion = {
 			who = FROM
@@ -324,7 +324,7 @@ character_event = {
 # Ping event when donating money to the Champions of Nhialic
 character_event = {
 	id = VIETmisc.296
-	desc = OK
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -353,7 +353,7 @@ character_event = {
 # Notification event when donating money to the Champions of Nhialic
 letter_event = {
 	id = VIETmisc.297
-	desc =VIETmisc.297.a
+	desc = VIETmisc.297.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -366,7 +366,7 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = VIETmisc.298
-	desc = OK
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -448,7 +448,7 @@ character_event = {
 
 province_event = {
 	id = VIETmisc.299
-	desc = OK
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -473,7 +473,7 @@ province_event = {
 
 character_event = {
 	id = VIETmisc.300
-	desc = OK
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -496,7 +496,7 @@ character_event = {
 
 letter_event = {
 	id = VIETmisc.301
-	desc = VIETmisc.301.desc
+	desc = VIETmisc.301.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -535,7 +535,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = VIETmisc.302
-	desc =VIETmisc.302.desc
+	desc = VIETmisc.302.desc
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -559,7 +559,7 @@ province_event = {
 # Ping event when expelling the Champions of Nhialic
 character_event = {
 	id = VIETmisc.303
-	desc = OK
+	desc = OK
 	picture = GFX_evt_african_savanna
 	border = GFX_event_normal_frame_religion
 	
@@ -603,7 +603,7 @@ character_event = {
 # Notification event when expelling the Champions of Nhialic
 letter_event = {
 	id = VIETmisc.304
-	desc =VIETmisc.304.desc
+	desc = VIETmisc.304.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes

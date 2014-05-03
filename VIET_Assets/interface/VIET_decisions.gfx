@@ -315,4 +315,37 @@ spriteTypes = {
 		name = "GFX_support_silk_road"
 		texturefile = "gfx\\interface\\decision_icon_support_silk_road.tga"
 	}
+	### HOLY ORDERS
+	spriteType = {
+		name = "GFX_expel_manichean_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_donate_money_to_manichean_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_expel_yazidi_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_donate_money_to_yazidi_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_expel_ibadi_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_donate_money_to_ibadi_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_expel_east_african_pagan_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.tga"
+	}
+	spriteType = {
+		name = "GFX_donate_money_to_east_african_pagan_holy_order"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.tga"
+	}
 }

@@ -247,7 +247,7 @@ character_event = {
 		name = VIETmisc.2501.b
 		random = {
 			chance = 25
-			trait = slothful
+			add_trait = slothful
 		}
 	}
 }

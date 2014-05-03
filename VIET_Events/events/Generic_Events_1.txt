@@ -2589,13 +2589,13 @@ character_event = {
 		piety = 5
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -2613,13 +2613,13 @@ character_event = {
 		prestige = 5
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -4345,15 +4345,19 @@ character_event = {
 			limit = {
 				trait = drunkard
 			}
-			50 = { }
-			50 = { remove_trait = drunkard }
+			random_list = {
+				50 = { }
+				50 = { remove_trait = drunkard }
+			}
 		}
 		if = {
 			limit = {
 				trait = gregarious
 			}
-			50 = { }
-			50 = { remove_trait = gregarious }
+			random_list = {
+				50 = { }
+				50 = { remove_trait = gregarious }
+			}
 		}
 	}
 }
@@ -4434,7 +4438,7 @@ character_event = {
 
 	trigger = {
 		has_guardian = yes
-		NOT = { culture_group = muslim }
+		NOT = { religion_group = muslim }
 	}
 	
 	weight_multiplier = {
@@ -4629,14 +4633,6 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = slothful
-		}
-		modifier = {
-			factor = 2
-			trait = greedy
-		}
-		modifier = {
-			factor = 0.5
-			trait = charitable
 		}
 		modifier = {
 			factor = 2
@@ -5392,14 +5388,6 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = genius
-		}
-		modifier = {
-			factor = 2
-			trait = wroth
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
 		}
 		modifier = {
 			factor = 2
@@ -7265,7 +7253,6 @@ character_event = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
-				religion_group = judaic
 			}
 		}
 		ai_chance = {
@@ -7637,7 +7624,7 @@ character_event = {
 			has_landed_title = d_baluchistan
 			AND = {
 				OR = {
-					culture = pashtun
+					culture = afghan
 					culture = persian
 					culture = tajik
 					culture = bactrian
@@ -7655,7 +7642,7 @@ character_event = {
 			}
 			AND = {
 				OR = {
-					culture = pashtun
+					culture = afghan
 					culture = persian
 					culture = tajik
 					culture = bactrian
@@ -7672,10 +7659,10 @@ character_event = {
 				}
 			}
 			any_demesne_province = {
-				religion_group = eastern_group		
+				religion = buddhist		
 			}
 		}
-		NOT = { religion_group = eastern_group }
+		NOT = { religion = buddhist }
 	}
 	
 	weight_multiplier = {
@@ -7753,7 +7740,6 @@ character_event = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
-				religion_group = judaic
 			}
 		}
 		ai_chance = {
@@ -9126,13 +9112,13 @@ character_event = {
 		piety = 3
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -9207,13 +9193,13 @@ character_event = {
 		piety = 3
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -11692,12 +11678,11 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	is_ruler = yes
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
-		is_ruler = yes
 		war = no
 		in_command = no
 		OR = {

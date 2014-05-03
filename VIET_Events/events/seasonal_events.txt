@@ -15,8 +15,8 @@ province_event = {
 
 	trigger = {
 		month = 2
-		Not = { month = 8 }
-		Not = { has_province_modifier = long_rain }
+		NOT = { month = 8 }
+		NOT = { has_province_modifier = long_rain }
 	}
 
 	mean_time_to_happen = {
@@ -41,8 +41,8 @@ province_event = {
 
 	trigger = {
 		month = 2
-		Not = { month = 8 }
-		Not = { has_province_modifier = cold_weather }
+		NOT = { month = 8 }
+		NOT = { has_province_modifier = cold_weather }
 	}
 
 	mean_time_to_happen = {
@@ -67,9 +67,9 @@ province_event = {
 
 	trigger = {
 		month = 8
-		Not = { month = 9 }
-		Not = { has_province_modifier = bad_crops }
-		Not = { has_province_modifier = good_crops }
+		NOT = { month = 9 }
+		NOT = { has_province_modifier = bad_crops }
+		NOT = { has_province_modifier = good_crops }
 	}
 
 	mean_time_to_happen = {
@@ -102,9 +102,9 @@ province_event = {
 
 	trigger = {
 		month = 2
-		Not = { month = 8 }
+		NOT = { month = 8 }
 		has_province_modifier = bad_crops
-		Not = { has_province_modifier = serious_famine }
+		NOT = { has_province_modifier = serious_famine }
 	}
 
 	mean_time_to_happen = {
@@ -152,7 +152,7 @@ province_event = {
 			modifier = {
 				factor = 20
 				owner = {
-					Not = { treasury = 50 }
+					NOT = { treasury = 50 }
 				}
 			}
 #	Modifier with owner's nagative traits
@@ -192,9 +192,9 @@ province_event = {
 
 	trigger = {
 		month = 8
-		Not = { month = 9 }
-		Not = { has_province_modifier = bad_crops }
-		Not = { has_province_modifier = good_crops }
+		NOT = { month = 9 }
+		NOT = { has_province_modifier = bad_crops }
+		NOT = { has_province_modifier = good_crops }
 	}
 
 	mean_time_to_happen = {

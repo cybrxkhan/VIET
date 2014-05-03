@@ -309,29 +309,15 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_trait_bad_priest_buddhist"
-		texturefile = "gfx/immersion_traits/bad_priest_buddhist.tga"
+		name = "GFX_trait_bad_priest_indian"
+		texturefile = "gfx/immersion_traits/bad_priest_indian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_trait_bad_priest_manichean"
-		texturefile = "gfx/immersion_traits/bad_priest_manichean.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_bad_priest_hindu"
-		texturefile = "gfx/immersion_traits/bad_priest_hindu.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_sympathy_vedic"
-		texturefile = "gfx/immersion_traits/sympathy_vedic.tga"
+		name = "GFX_trait_bad_priest_gnostic"
+		texturefile = "gfx/immersion_traits/bad_priest_gnostic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -353,13 +339,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_pillager"
 		texturefile = "gfx/immersion_traits/pillager.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_sympathy_eastern"
-		texturefile = "gfx/immersion_traits/sympathy_eastern.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

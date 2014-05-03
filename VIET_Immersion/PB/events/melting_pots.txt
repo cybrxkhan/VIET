@@ -1375,16 +1375,17 @@ province_event = {
 			province_id  = 884
 			province_id  = 885
 			province_id  = 793
-			province_id  = 948
-			province_id  = 949
-			province_id  = 950
-			province_id  = 951
-			province_id  = 952
-			province_id  = 953
-			province_id  = 954
-			province_id  = 955
-			province_id  = 956
-			province_id  = 957
+			province_id  = 794
+			# province_id  = 948
+			# province_id  = 949
+			# province_id  = 950
+			# province_id  = 951
+			# province_id  = 952
+			# province_id  = 953
+			# province_id  = 954
+			# province_id  = 955
+			# province_id  = 956
+			# province_id  = 957
 		}
 		NOT = { culture = somali }
 	}
@@ -1461,16 +1462,17 @@ province_event = {
 			province_id  = 884
 			province_id  = 885
 			province_id  = 793
-			province_id  = 948
-			province_id  = 949
-			province_id  = 950
-			province_id  = 951
-			province_id  = 952
-			province_id  = 953
-			province_id  = 954
-			province_id  = 955
-			province_id  = 956
-			province_id  = 957
+			province_id  = 794
+			# province_id  = 948
+			# province_id  = 949
+			# province_id  = 950
+			# province_id  = 951
+			# province_id  = 952
+			# province_id  = 953
+			# province_id  = 954
+			# province_id  = 955
+			# province_id  = 956
+			# province_id  = 957
 		}
 	}
 	
@@ -1511,16 +1513,17 @@ character_event = {
 				province_id  = 884
 				province_id  = 885
 				province_id  = 793
-				province_id  = 948
-				province_id  = 949
-				province_id  = 950
-				province_id  = 951
-				province_id  = 952
-				province_id  = 953
-				province_id  = 954
-				province_id  = 955
-				province_id  = 956
-				province_id  = 957
+				province_id  = 794
+				# province_id  = 948
+				# province_id  = 949
+				# province_id  = 950
+				# province_id  = 951
+				# province_id  = 952
+				# province_id  = 953
+				# province_id  = 954
+				# province_id  = 955
+				# province_id  = 956
+				# province_id  = 957
 			}
 		}
 		any_courtier = {
@@ -1582,16 +1585,17 @@ character_event = {
 				province_id  = 884
 				province_id  = 885
 				province_id  = 793
-				province_id  = 948
-				province_id  = 949
-				province_id  = 950
-				province_id  = 951
-				province_id  = 952
-				province_id  = 953
-				province_id  = 954
-				province_id  = 955
-				province_id  = 956
-				province_id  = 957
+				province_id  = 794
+				# province_id  = 948
+				# province_id  = 949
+				# province_id  = 950
+				# province_id  = 951
+				# province_id  = 952
+				# province_id  = 953
+				# province_id  = 954
+				# province_id  = 955
+				# province_id  = 956
+				# province_id  = 957
 			}
 		}
 		any_vassal = {
@@ -2269,230 +2273,6 @@ character_event = {
 		culture = chagatai
 	}
 }
-
-
-
-
-#pashtun Melting Pot Events
-#pashtun events
-province_event = {
-	id = pashtun.1
-	desc = "pashtun.1"
-	picture = GFX_evt_throne_room
-	
-	trigger = {
-		year = 900
-		owner = { 
-			OR = {
-				culture_group = iranian
-				culture_group = indian
-			}
-		}
-		culture_group = iranian
-		OR = {
-			province_id  = 299
-			province_id  = 852
-			province_id  = 853
-			province_id  = 854
-			province_id  = 894
-			province_id  = 899
-			province_id  = 906
-			province_id  = 907
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 500
-		modifier = {
-			factor = 0.75
-			owner = { learning = 7 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { learning = 9 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { learning = 11 }
-		}
-		modifier = {
-			factor = 0.75
-			owner = { learning = 13 }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { learning = 5 }}
-		}
-		modifier = {
-			factor = 1.5
-			owner = { NOT = { learning = 3 }}
-		}
-		modifier = {
-			factor = 2.0
-			owner = { NOT = { learning = 1 }}
-		}
-	}
-
-	option = {
-		name = "pashtun.1a"
-		culture = pashtun
-		owner = { culture = pashtun }
-	}
-}
-
-# pashtun is spreading
-province_event = {
-	id = pashtun.2
-	desc = "pashtun.2"
-	picture = GFX_evt_throne_room
-	
-	trigger = {
-		year = 900
-		owner = { 
-			OR = {
-				culture_group = iranian
-				culture_group = indian
-			}
-			capital_scope = {
-				culture = pashtun
-			}
-		}
-		culture_group = iranian
-		OR = {
-			province_id  = 299
-			province_id  = 852
-			province_id  = 853
-			province_id  = 854
-			province_id  = 894
-			province_id  = 899
-			province_id  = 906
-			province_id  = 907
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 350
-	}
-
-	option = {
-		name = "pashtun.2"
-		culture = pashtun
-	}
-}
-
-#Make my court speak pashtun
-character_event = {
-	id = pashtun.3
-	desc = "pashtun.3"
-	picture = GFX_evt_throne_room
-
-	trigger = {
-		year = 900
-		culture = pashtun
-		capital_scope = {
-			OR = {
-				province_id  = 299
-				province_id  = 852
-				province_id  = 853
-				province_id  = 854
-				province_id  = 894
-				province_id  = 899
-				province_id  = 906
-				province_id  = 907
-			}
-		}
-		any_courtier = {
-			OR = {
-				culture_group = iranian
-				culture_group = indian
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-
-	option = {
-		name = "pashtun.3a"
-		random_courtier = {
-			limit = {
-				OR = {
-					culture_group = iranian
-					culture_group = indian
-				}
-			}
-			culture = pashtun
-			hidden_tooltip = {
-				character_event = { id = pashtun.5 days = 3 }
-			}
-		}
-	}
-}
-
-#Make my vassal speak pashtun
-character_event = {
-	id = pashtun.4
-	desc = "pashtun.4"
-	picture = GFX_evt_throne_room
-
-	trigger = {
-		year = 900
-		culture = pashtun
-		capital_scope = {
-			OR = {
-				province_id  = 299
-				province_id  = 852
-				province_id  = 853
-				province_id  = 854
-				province_id  = 894
-				province_id  = 899
-				province_id  = 906
-				province_id  = 907
-			}
-		}
-		any_vassal = {
-			OR = {
-				culture_group = iranian
-				culture_group = indian
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 600
-	}
-
-	option = {
-		name = "pashtun.4a"
-		random_vassal = {
-			limit = {
-				OR = {
-					culture_group = iranian
-					culture_group = indian
-				}
-			}
-			culture = pashtun
-			hidden_tooltip = {
-				character_event = { id = pashtun.5 days = 3 }
-			}
-		}
-	}
-}
-
-character_event = {
-	id = pashtun.5
-	desc = "pashtun.5"
-	picture = GFX_evt_throne_room
-
-	is_triggered_only = yes
-
-	option = {
-		name = "pashtun.5a"
-		culture = pashtun
-	}
-}
-
 
 
 

@@ -315,7 +315,7 @@ character_event = {
 
 # Claim by battle on ERE (credits to ChildeR)
 character_event = {
-	id = 1000109045
+	id = VIETnam.31
 	desc = "EVTDESC1000109045"
 	picture = "GFX_evt_battle"
 	border = GFX_event_normal_frame_war

@@ -699,7 +699,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.115
 		10 = VIETnam.117
 		#Republic Events
-		10 = 1000109323
+		10 = VIETnam.150
 		10 = 1000109324
 		10 = 1000109325
 		10 = 1000109328

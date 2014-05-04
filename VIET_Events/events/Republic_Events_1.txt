@@ -1209,7 +1209,7 @@ character_event = {
 
 # Grounded Ship
 character_event = {
-	id = 1000109323
+	id = VIETnam.150
 	desc = "EVTDESC1000109323"
 	picture = GFX_evt_trade_post_republic
 	

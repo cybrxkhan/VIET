@@ -937,7 +937,7 @@ character_event = {
 		wealth = -1
 		piety = 5
 		character_event = {
-			id = 1000109075
+			id = VIETnam.57
 			tooltip = "EVTTOOLTIP1000109075"
 		}
 	}
@@ -950,7 +950,7 @@ character_event = {
 
 #Ghost of skeleton appears and tells character location of treasure
 character_event = {
-	id = 1000109075
+	id = VIETnam.57
 	desc = "EVTDESC1000109075"
 	picture = GFX_evt_pale_rider
 	

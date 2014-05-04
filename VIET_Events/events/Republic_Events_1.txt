@@ -2,7 +2,7 @@
 #
 # Republic Flavor Events
 #
-# Muslim Republics: 1000109301-1000109310
+# Muslim Republics: VIETnam.128-1000109310
 #
 # Republics: 1000109321-1000109328
 #
@@ -12,7 +12,7 @@
 
 # Coffee arrives in character's city
 character_event = {
-	id = 1000109301
+	id = VIETnam.128
 	desc = "EVTDESC1000109301"
 	picture = GFX_evt_bazaar
 	

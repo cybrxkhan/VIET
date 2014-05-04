@@ -605,7 +605,7 @@ character_event = {
 
 # Arbitrary - Silence after arbitrary sentencing
 character_event = {
-	id = 1000109107
+	id = VIETnam.78
 	desc = "EVTDESC1000109107"
 	picture = GFX_evt_emissary
 	

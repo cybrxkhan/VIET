@@ -1353,7 +1353,7 @@ on_crusade_creation = {
 # Character. 
 on_marriage = {
 	events = {
-		1000026000
+		VIETnam.0
 		1000026001
  		500 # Royal Marriage Aid Duty
  		501 # Zoroastrian "Xwedodah" marriage

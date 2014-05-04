@@ -663,7 +663,7 @@ character_event = {
 }
 
 character_event = {
-	id = 1000026000		#family_relations.1
+	id = VIETnam.0		#family_relations.1
 	desc = EVTDESCfamily_relations.1
 	picture = GFX_evt_marriage
 	

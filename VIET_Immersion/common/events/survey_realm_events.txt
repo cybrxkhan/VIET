@@ -177,7 +177,7 @@ character_event = {
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
@@ -251,7 +251,7 @@ character_event = {
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
@@ -324,7 +324,7 @@ character_event = {
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
@@ -1899,7 +1899,7 @@ character_event = {
 
 # Character comes across a traveling musician
 character_event = {
-	id = 1000109090
+	id = VIETnam.68
 	desc = "EVTDESC1000109090"
 	picture = GFX_evt_tuscan_country
 	

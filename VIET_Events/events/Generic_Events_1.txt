@@ -11,7 +11,7 @@
 # ID# VIETnam.217 - VIETnam.223 Dream Events
 # ID# VIETnam.259 - VIETnam.265 Ancient Culture Events
 # ID# VIETnam.266 - VIETnam.274 Sound Events
-# ID# VIETnam.284 - 1000109461 Prayer Events
+# ID# VIETnam.284 - VIETnam.288 Prayer Events
 # ID# 1000109466 - 1000109474 Memories Events (switcheroo!!!)
 # ID# 1000109475 - 1000109484 Shady Events
 # ID# 1000109485 - 1000109492 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
@@ -9251,7 +9251,7 @@ character_event = {
 
 #Praying for a dying soldier
 character_event = {
-	id = 1000109461
+	id = VIETnam.288
 	desc = EVTDESC1000109461
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

@@ -105,7 +105,7 @@ character_event = {
 
 # Diligent - feel asleep working last night
 character_event = {
-	id = 1000109102
+	id = VIETnam.73
 	desc = "EVTDESC1000109102"
 	picture = GFX_evt_library
 	

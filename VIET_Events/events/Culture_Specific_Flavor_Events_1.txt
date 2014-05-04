@@ -10,7 +10,7 @@
 # African: VIETnam.170 - VIETnam.174
 # Turkish: VIETnam.208 - VIETnam.216
 # West African: VIETnam.238 - VIETnam.251
-# Celtic: 1000109425 - 1000109431
+# Celtic: VIETnam.252 - 1000109431
 # Finnish Pagan: 1000109448 - 1000109456
 #
 ######################################################################
@@ -3394,7 +3394,7 @@ character_event = {
 
 # Illuminated manuscript
 character_event = {
-	id = 1000109425
+	id = VIETnam.252
 	desc = "EVTDESC1000109425"
 	picture = GFX_evt_monk
 	

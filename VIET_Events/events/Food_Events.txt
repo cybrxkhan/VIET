@@ -172,7 +172,7 @@ character_event = {
 
 # Forks are terrible!
 character_event = {
-	id = 1000109365
+	id = VIETnam.192
 	desc = "EVTDESC1000109365"
 	picture = GFX_evt_VIET_food
 	

@@ -9,7 +9,7 @@
 # long rain
 
 province_event = {
-	id = 1000053005
+	id = VIETnam.2
 	desc = "EVTDESC1000053005"
 	picture = GFX_evt_tuscan_country
 

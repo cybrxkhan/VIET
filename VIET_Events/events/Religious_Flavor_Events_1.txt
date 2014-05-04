@@ -2381,7 +2381,7 @@ character_event = {
 
 # Arguments
 character_event = {
-	id = 1000109463
+	id = VIETnam.290
 	desc = "EVTDESC1000109463"
 	picture = GFX_evt_the_torah
 	

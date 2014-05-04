@@ -775,7 +775,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.279
 		10 = VIETnam.282
 		#Jewish
-		10 = 1000109463
+		10 = VIETnam.290
 		10 = 1000109465
 		#Buddhist
 		10 = 1000109494

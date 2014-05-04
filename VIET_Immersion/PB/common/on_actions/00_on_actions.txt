@@ -387,7 +387,7 @@ on_yearly_pulse = {
 		100 = VIETnam.170
 		100 = VIETnam.171
 		100 = VIETnam.172
-		100 = 1000109346
+		100 = VIETnam.173
 		100 = 1000109347
 		#Turkish
 		100 = 1000109389

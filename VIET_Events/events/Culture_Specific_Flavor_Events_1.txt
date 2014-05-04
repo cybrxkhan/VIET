@@ -459,7 +459,7 @@ character_event = {
 
 # East African cattle dispute
 character_event = {
-	id = 1000109346
+	id = VIETnam.173
 	desc = "EVTDESC1000109346"
 	picture = GFX_evt_african_savanna
 	

@@ -2434,7 +2434,7 @@ character_event = {
 
 # Cruel - subjects fear character
 character_event = {
-	id = 1000109100
+	id = VIETnam.71
 	desc = "EVTDESC1000109100"
 	picture = GFX_evt_shadowy_cabal
 	

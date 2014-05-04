@@ -1848,7 +1848,7 @@ character_event = {
 }
 # The Baklava Thief
 character_event = {
-	id = 1000109398
+	id = VIETnam.225
 	desc = "EVTDESC1000109398"
 	picture = GFX_evt_baklava
 	

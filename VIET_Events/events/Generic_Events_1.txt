@@ -5,7 +5,7 @@
 # ID# VIETnam.72 - VIETnam.96 Trait Events
 # ID# VIETnam.175 - VIETnam.183 MUSLIM Events
 # ID# VIETnam.184 - VIETnam.190 Drink and Alcohol Events
-# ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
+# ID# VIETnam.196 - 1000109372 Elder Scrolls Reference Events
 # ID# 1000109373 - 1000109377 Dirty Events
 # ID# 1000109378 - 1000109380 Nature Events
 # ID# 1000109390 - 1000109396 Dream Events
@@ -4860,7 +4860,7 @@ character_event = {
 
 # STOP RIGHT THERE CRIMINAL SCUM
 character_event = {
-	id = 1000109369
+	id = VIETnam.196
 	desc = "EVTDESC1000109369"
 	picture = GFX_evt_market
 	

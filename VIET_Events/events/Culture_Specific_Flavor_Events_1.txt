@@ -8,7 +8,7 @@
 # ID #'s - Organized by Culture/Culture Group ALPHABETICALLY
 #
 # African: VIETnam.170 - VIETnam.174
-# Turkish: 1000109381 - 1000109389
+# Turkish: VIETnam.208 - 1000109389
 # West African: 1000109411 - 1000109424
 # Celtic: 1000109425 - 1000109431
 # Finnish Pagan: 1000109448 - 1000109456
@@ -1000,7 +1000,7 @@ character_event = {
 
 # Oil wrestling
 character_event = {
-	id = 1000109381
+	id = VIETnam.208
 	desc = "EVTDESC1000109381"
 	picture = GFX_evt_feast
 	

@@ -756,7 +756,7 @@ on_bi_yearly_pulse = {
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
-		10 = 1000109381
+		10 = VIETnam.208
 		10 = 1000109383
 		10 = 1000109387
 		#African

@@ -189,7 +189,7 @@ character_event = {
 
 # Talk like a sailor man
 character_event = {
-	id = 1000109511
+	id = VIETnam.333
 	desc = "EVTDESC1000109511"
 	picture = GFX_evt_scandal
 	

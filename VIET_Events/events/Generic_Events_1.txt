@@ -394,7 +394,7 @@ character_event = {
 
 # Content - Fine with illness or disability
 character_event = {
-	id = 1000109105
+	id = VIETnam.76
 	desc = "EVTDESC1000109105"
 	picture = GFX_evt_tuscan_country
 	

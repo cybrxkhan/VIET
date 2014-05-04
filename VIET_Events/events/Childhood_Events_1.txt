@@ -2,7 +2,7 @@
 #
 # Childhood Flavor Events
 #
-# Set 1: VIETnam.144-1000109320
+# Set 1: VIETnam.144-VIETnam.147
 # Attribute: 1000109501-1000109508
 #
 # Fired from on actions
@@ -254,7 +254,7 @@ character_event = {
 
 # Character at feast
 character_event = {
-	id = 1000109320
+	id = VIETnam.147
 	desc = "EVTDESC1000109320"
 	picture = GFX_evt_feast
 	

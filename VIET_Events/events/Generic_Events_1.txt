@@ -10519,7 +10519,7 @@ character_event = {
 
 # Bad Baklava
 character_event = {
-	id = 1000109480 
+	id = VIETnam.302 
 	desc = "EVTDESC1000109480"
 	picture = GFX_evt_baklava
 	

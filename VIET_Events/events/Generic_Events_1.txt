@@ -1047,7 +1047,7 @@ character_event = {
 
 # Kind - Help a recently deceased impoverished noble's orphaned child
 character_event = {
-	id = 1000109112
+	id = VIETnam.83
 	desc = "EVTDESC1000109112"
 	picture = GFX_evt_scandal
 	

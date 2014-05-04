@@ -1025,7 +1025,7 @@ on_yearly_childhood_pulse = {
 				
 		#VIET Childhood Flavor Events
 		20 = VIETnam.144
-		20 = 1000109318
+		20 = VIETnam.145
 		20 = 1000109319
 		20 = 1000109320
 		#VIET Love

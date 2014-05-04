@@ -94,7 +94,7 @@ character_event = {
 
 # Character hurt self while playing
 character_event = {
-	id = 1000109318
+	id = VIETnam.145
 	desc = "EVTDESC1000109318"
 	picture = GFX_evt_child_sword
 	

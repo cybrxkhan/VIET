@@ -1960,7 +1960,7 @@ character_event = {
 
 # Paranoid - character thinks he/she just saw an assassin
 character_event = {
-	id = 1000109121
+	id = VIETnam.92
 	desc = "EVTDESC1000109121"
 	picture = GFX_evt_shadow
 	

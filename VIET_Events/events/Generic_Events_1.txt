@@ -9684,7 +9684,7 @@ character_event = {
 
 # Old childhood friend - merchant
 character_event = {
-	id = 1000109469 
+	id = VIETnam.296 
 	desc = "EVTDESC1000109469"
 	picture = GFX_evt_busy_trading_dock_republic
 	

@@ -4618,7 +4618,7 @@ character_event = {
 
 # Seita
 character_event = {
-	id = 1000109453
+	id = VIETnam.280
 	desc = "EVTDESC1000109453"
 	picture = GFX_evt_journey_to_spirit_world
 	

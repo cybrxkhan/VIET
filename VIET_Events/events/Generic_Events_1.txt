@@ -6553,7 +6553,7 @@ character_event = {
 
 # ROME!!!
 character_event = {
-	id = 1000109393
+	id = VIETnam.220
 	desc = "EVTDESC1000109393"
 	picture = GFX_evt_rome_restored_byzantine
 	

@@ -348,7 +348,7 @@ character_event = {
 
 #Character can't satisfy lover
 character_event = {
-	id = 1000109338
+	id = VIETnam.165
 	desc = "EVTDESC1000109338"
 	picture = GFX_evt_lovers
 	

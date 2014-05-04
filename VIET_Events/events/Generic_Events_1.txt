@@ -13,7 +13,7 @@
 # ID# VIETnam.266 - VIETnam.274 Sound Events
 # ID# VIETnam.284 - VIETnam.288 Prayer Events
 # ID# VIETnam.293 - VIETnam.301 Memories Events (switcheroo!!!)
-# ID# 1000109475 - 1000109484 Shady Events
+# ID# 1000109475 - VIETnam.306 Shady Events
 # ID# 1000109485 - 1000109492 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
 #
 # Fired from on actions
@@ -10995,7 +10995,7 @@ character_event = {
 		}
 		wealth = -8
 		piety = 10
-		character_event = { id = 1000109484 days = 1 tooltip = "EVTTOOLTIP1000109484" }
+		character_event = { id = VIETnam.306 days = 1 tooltip = "EVTTOOLTIP1000109484" }
 	}	
 	option = {
 		name = "EVTOPTB1000109483"  # No
@@ -11078,7 +11078,7 @@ character_event = {
 
 # Saint's "Bones" Part 2
 character_event = {
-	id = 1000109484 
+	id = VIETnam.306 
 	desc = "EVTDESC1000109484"
 	picture = GFX_evt_scandal
 	

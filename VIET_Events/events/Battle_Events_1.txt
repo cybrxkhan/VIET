@@ -169,7 +169,7 @@ character_event = {
 
 # Horse Armor DLC
 character_event = {
-	id = 1000109402
+	id = VIETnam.229
 	desc = EVTDESC1000109402
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

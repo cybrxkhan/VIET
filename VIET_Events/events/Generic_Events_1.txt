@@ -6014,7 +6014,7 @@ character_event = {
 
 # The Butterfly
 character_event = {
-	id = 1000109379
+	id = VIETnam.206
 	desc = "EVTDESC1000109379"
 	picture = GFX_evt_skyrim_forest
 	

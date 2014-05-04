@@ -237,7 +237,7 @@ character_event = {
 
 # Leeches!
 character_event = {
-	id = 1000109128
+	id = VIETnam.98
 	desc = "EVTDESC1000109128"
 	picture = GFX_evt_illness
 	

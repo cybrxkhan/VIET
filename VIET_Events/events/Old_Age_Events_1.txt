@@ -352,7 +352,7 @@ character_event = {
 
 # Character doesn't understand new slang
 character_event = {
-	id = 1000109139
+	id = VIETnam.109
 	desc = "EVTDESC1000109139"
 	picture = GFX_evt_courtiers_talking
 	

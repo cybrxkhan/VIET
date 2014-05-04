@@ -4590,7 +4590,7 @@ character_event = {
 
 # Shipment of wines arrive
 character_event = {
-	id = 1000109362
+	id = VIETnam.189
 	desc = "EVTDESC1000109362"
 	picture = GFX_evt_busy_trading_dock_republic
 	

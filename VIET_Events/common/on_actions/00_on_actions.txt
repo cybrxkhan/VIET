@@ -295,7 +295,7 @@ on_yearly_pulse = {
 		100 = VIETnam.181
 		#Generic Alcohol events
 		100 = VIETnam.184
-		100 = 1000109362
+		100 = VIETnam.189
 		100 = 1000109363
 		#Generic Food Events
 		100 = 1000109364

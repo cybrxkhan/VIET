@@ -8,7 +8,7 @@
 # ID #'s - Organized by Culture/Culture Group ALPHABETICALLY
 #
 # African: VIETnam.170 - VIETnam.174
-# Turkish: VIETnam.208 - 1000109389
+# Turkish: VIETnam.208 - VIETnam.216
 # West African: 1000109411 - 1000109424
 # Celtic: 1000109425 - 1000109431
 # Finnish Pagan: 1000109448 - 1000109456
@@ -923,7 +923,7 @@ character_event = {
 ######################################################################
 # Bathing in the Hamam
 character_event = {
-	id = 1000109389
+	id = VIETnam.216
 	desc = "EVTDESC1000109389"
 	picture = GFX_evt_sultan
 	

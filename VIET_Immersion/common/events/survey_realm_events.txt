@@ -167,7 +167,7 @@ character_event = {
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
@@ -241,7 +241,7 @@ character_event = {
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
@@ -314,7 +314,7 @@ character_event = {
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
@@ -1402,7 +1402,7 @@ character_event = {
 
 # Character finds a lost child in the middle of the forest
 character_event = {
-	id = 1000109080
+	id = VIETnam.58
 	desc = "EVTDESC1000109080"
 	picture = GFX_evt_child_play
 	

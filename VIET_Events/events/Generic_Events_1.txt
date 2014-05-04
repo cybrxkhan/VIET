@@ -948,7 +948,7 @@ character_event = {
 
 # Envious - Why is everyone better than me?
 character_event = {
-	id = 1000109111
+	id = VIETnam.82
 	desc = "EVTDESC1000109111"
 	picture = GFX_evt_scandal
 	

@@ -3732,7 +3732,7 @@ character_event = {
 
 # Shaving
 character_event = {
-	id = 1000109427
+	id = VIETnam.254
 	desc = "EVTDESC1000109427"
 	picture = GFX_evt_throne_room
 	

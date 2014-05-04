@@ -35,7 +35,7 @@ province_event = {
 # cold weather
 
 province_event = {
-	id = 1000053006
+	id = VIETnam.3
 	desc = "EVTDESC1000053006"
 	picture = GFX_evt_tuscan_country
 

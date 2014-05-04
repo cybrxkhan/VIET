@@ -90,7 +90,7 @@ character_event = {
 
 # Sick character can't do duties anymore
 character_event = {
-	id = 1000109127
+	id = VIETnam.97
 	desc = "EVTDESC1000109127"
 	picture = GFX_evt_tuscan_country
 	

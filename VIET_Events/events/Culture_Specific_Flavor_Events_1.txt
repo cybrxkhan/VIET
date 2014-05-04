@@ -3294,7 +3294,7 @@ character_event = {
 			}			
 		}
 		random_list = {
-			75 = { character_event = { id = 1000109423 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
+			75 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
 			25 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}	
@@ -3305,7 +3305,7 @@ character_event = {
 			NOT = { trait = quick }		
 		}
 		random_list = {
-			50 = { character_event = { id = 1000109423 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
+			50 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
 			50 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}
@@ -3313,7 +3313,7 @@ character_event = {
 
 # Liege loses
 character_event = {
-	id = 1000109423
+	id = VIETnam.250
 	desc = "EVTDESC1000109423"
 	picture = GFX_evt_african_savanna
 	

@@ -65,7 +65,7 @@ character_event = {
 
 #####Rebuild a local mosque?
 character_event = {
-	id = 1000094002
+	id = VIETnam.8
 	title = "EVTNAME1000094002"
 	desc = "EVTDESC1000094002"
 	picture = "GFX_evt_burning_house_muslim"

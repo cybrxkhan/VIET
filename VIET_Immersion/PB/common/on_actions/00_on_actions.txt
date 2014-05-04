@@ -726,7 +726,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.262
 		10 = VIETnam.263
 		10 = VIETnam.264
-		10 = 1000109438
+		10 = VIETnam.265
 		#Memories events
 		10 = 1000109466
 		10 = 1000109468

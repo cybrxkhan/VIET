@@ -3,7 +3,7 @@
 # Generic Mundane Events
 #
 # VIETnam.331 - VIETnam.335 "Bad" Events
-# VIETnam.336 - 1000109518 Bug Events
+# VIETnam.336 - VIETnam.340 Bug Events
 #
 # Fired from on actions
 #
@@ -866,7 +866,7 @@ character_event = {
 
 # Egyptian Dung Bettles
 character_event = {
-	id = 1000109518
+	id = VIETnam.340
 	desc = "EVTDESC1000109518"
 	picture = GFX_persepolis_ruin
 	

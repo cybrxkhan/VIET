@@ -579,7 +579,7 @@ character_event = {
 
 # Pickpocket!
 character_event = {
-	id = 1000109308
+	id = VIETnam.135
 	desc = "EVTDESC1000109308"
 	picture = GFX_evt_bazaar
 	

@@ -716,7 +716,7 @@ on_bi_yearly_pulse = {
 		#Generic Alcohol events
 		10 = VIETnam.184
 		#Ancient Cultures events
-		10 = 1000109432
+		10 = VIETnam.259
 		10 = 1000109433
 		10 = 1000109434
 		10 = 1000109435

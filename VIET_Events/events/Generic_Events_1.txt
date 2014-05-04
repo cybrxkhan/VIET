@@ -9,7 +9,7 @@
 # ID# VIETnam.200 - VIETnam.204 Dirty Events
 # ID# VIETnam.205 - VIETnam.207 Nature Events
 # ID# VIETnam.217 - VIETnam.223 Dream Events
-# ID# 1000109432 - 1000109438 Ancient Culture Events
+# ID# VIETnam.259 - 1000109438 Ancient Culture Events
 # ID# 1000109439 - 1000109447 Sound Events
 # ID# 1000109457 - 1000109461 Prayer Events
 # ID# 1000109466 - 1000109474 Memories Events (switcheroo!!!)
@@ -6854,7 +6854,7 @@ character_event = {
 
 # Stargate reference (credits to thestormweaver, and thanks for gifting me TOG)
 character_event = {
-	id = 1000109432
+	id = VIETnam.259
 	desc = "EVTDESC1000109432"
 	picture = GFX_evt_comet
 	

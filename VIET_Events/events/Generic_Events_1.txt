@@ -6456,7 +6456,7 @@ character_event = {
 
 # Dagoth Ur Dream
 character_event = {
-	id = 1000109392
+	id = VIETnam.219
 	desc = "EVTDESC1000109392"
 	picture = GFX_evt_nightmare
 	

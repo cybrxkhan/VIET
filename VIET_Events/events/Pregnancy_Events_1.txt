@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: VIETnam.138-1000109313
+# Set 1: VIETnam.138-VIETnam.140
 #
 # Fired from on actions
 #
@@ -169,7 +169,7 @@ character_event = {
 
 # Character's child asks whether sibling will be boy or girl
 character_event = {
-	id = 1000109313
+	id = VIETnam.140
 	desc = "EVTDESC1000109313"
 	picture = GFX_evt_pregnancy
 	

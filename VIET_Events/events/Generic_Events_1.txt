@@ -10363,7 +10363,7 @@ character_event = {
 
 # Old age is sad
 character_event = {
-	id = 1000109473 
+	id = VIETnam.300 
 	desc = "EVTDESC1000109473"
 	picture = GFX_evt_nightmare
 	

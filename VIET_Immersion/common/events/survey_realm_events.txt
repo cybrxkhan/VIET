@@ -124,14 +124,14 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109050"
 		clr_character_flag = begin_survey_realm
-		character_event = { id = 1000109051 days = 3 tooltip = "EVTTOOLTIP1000109050" }
+		character_event = { id = VIETnam.36 days = 3 tooltip = "EVTTOOLTIP1000109050" }
 	}
 }
 
 
 #Begin Survey Realm
 character_event = {
-	id = 1000109051
+	id = VIETnam.36
 	desc = "EVTDESC1000109051"
 	picture = GFX_evt_travel
 	

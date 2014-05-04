@@ -331,7 +331,7 @@ on_yearly_pulse = {
 		100 = VIETnam.227
 		#Sound Events
 		100 = VIETnam.266
-		100 = 1000109440
+		100 = VIETnam.267
 		100 = 1000109445
 		100 = 1000109446
 		#Prayer Events

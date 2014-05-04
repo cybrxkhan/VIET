@@ -4,7 +4,7 @@
 #
 # Illness: VIETnam.96 - VIETnam.99
 # Leper: VIETnam.100 - VIETnam.102
-# Blind: 1000109133 - 1000109135
+# Blind: VIETnam.103 - 1000109135
 #
 # Fired from on actions
 #
@@ -746,7 +746,7 @@ character_event = {
 
 # Blind character trips down the stairs
 character_event = {
-	id = 1000109133
+	id = VIETnam.103
 	desc = "EVTDESC1000109133"
 	picture = GFX_evt_castle_construction
 	

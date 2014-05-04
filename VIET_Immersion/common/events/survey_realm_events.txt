@@ -1138,7 +1138,7 @@ character_event = {
 		name = "EVTOPTA1000109066"
 		prestige = -5
 		character_event = {
-			id = 1000109067
+			id = VIETnam.52
 			tooltip = "EVTTOOLTIP1000109067"
 		}
 	}
@@ -1158,7 +1158,7 @@ character_event = {
 
 # Villagers offer present to character
 character_event = {
-	id = 1000109067
+	id = VIETnam.52
 	desc = "EVTDESC1000109067"
 	picture = GFX_evt_small_town
 	

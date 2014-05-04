@@ -7,7 +7,7 @@
 # ID# VIETnam.184 - VIETnam.190 Drink and Alcohol Events
 # ID# VIETnam.196 - VIETnam.199 Elder Scrolls Reference Events
 # ID# VIETnam.200 - VIETnam.204 Dirty Events
-# ID# 1000109378 - 1000109380 Nature Events
+# ID# VIETnam.205 - 1000109380 Nature Events
 # ID# 1000109390 - 1000109396 Dream Events
 # ID# 1000109432 - 1000109438 Ancient Culture Events
 # ID# 1000109439 - 1000109447 Sound Events
@@ -5951,7 +5951,7 @@ character_event = {
 
 # Sky admiring
 character_event = {
-	id = 1000109378
+	id = VIETnam.205
 	desc = "EVTDESC1000109378"
 	picture = GFX_evt_comet
 	

@@ -2084,7 +2084,7 @@ character_event = {
 
 # Defiling the Pure Holy Fire
 character_event = {
-	id = 1000109399
+	id = VIETnam.226
 	desc = "EVTDESC1000109399"
 	picture = GFX_evt_zoroastrian_fire
 	

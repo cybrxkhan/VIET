@@ -331,7 +331,7 @@ on_yearly_pulse = {
 		#Zoroastrian Events
 		100 = VIETnam.224
 		100 = VIETnam.225
-		100 = 1000109399
+		100 = VIETnam.226
 		100 = 1000109400
 		#Sound Events
 		100 = 1000109439

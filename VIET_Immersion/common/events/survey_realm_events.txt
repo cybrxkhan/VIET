@@ -160,7 +160,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
@@ -234,7 +234,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
@@ -307,7 +307,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
@@ -991,7 +991,7 @@ character_event = {
 
 # Minor Outpost Falling into Disrepair
 character_event = {
-	id = 1000109063
+	id = VIETnam.48
 	desc = "EVTDESC1000109063"
 	picture = GFX_evt_castle_construction
 	

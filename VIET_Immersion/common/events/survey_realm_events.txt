@@ -161,7 +161,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
@@ -235,7 +235,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
@@ -308,7 +308,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
@@ -1028,7 +1028,7 @@ character_event = {
 
 # Character visits a city's Pleasure Quarters
 character_event = {
-	id = 1000109064
+	id = VIETnam.49
 	desc = "EVTDESC1000109064"
 	picture = GFX_evt_brothel
 	

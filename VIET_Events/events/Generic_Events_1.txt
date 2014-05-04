@@ -8525,7 +8525,7 @@ character_event = {
 
 # Ocean peace
 character_event = {
-	id = 1000109445
+	id = VIETnam.272
 	desc = "EVTDESC1000109445"
 	picture = GFX_evt_ocean_blue
 	

@@ -460,7 +460,7 @@ character_event = {
 
 # Fallen off horse
 character_event = {
-	id = 1000109406
+	id = VIETnam.233
 	desc = EVTDESC1000109406
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

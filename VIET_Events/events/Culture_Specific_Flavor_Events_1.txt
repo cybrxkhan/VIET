@@ -7,7 +7,7 @@
 #
 # ID #'s - Organized by Culture/Culture Group ALPHABETICALLY
 #
-# African: VIETnam.170 - 1000109347
+# African: VIETnam.170 - VIETnam.174
 # Turkish: 1000109381 - 1000109389
 # West African: 1000109411 - 1000109424
 # Celtic: 1000109425 - 1000109431
@@ -733,7 +733,7 @@ character_event = {
 
 # Witch Doctor
 character_event = {
-	id = 1000109347
+	id = VIETnam.174
 	desc = "EVTDESC1000109347"
 	picture = GFX_evt_african_savanna
 	

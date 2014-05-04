@@ -5,7 +5,7 @@
 # ID# VIETnam.72 - VIETnam.96 Trait Events
 # ID# VIETnam.175 - VIETnam.183 MUSLIM Events
 # ID# VIETnam.184 - VIETnam.190 Drink and Alcohol Events
-# ID# VIETnam.196 - 1000109372 Elder Scrolls Reference Events
+# ID# VIETnam.196 - VIETnam.199 Elder Scrolls Reference Events
 # ID# 1000109373 - 1000109377 Dirty Events
 # ID# 1000109378 - 1000109380 Nature Events
 # ID# 1000109390 - 1000109396 Dream Events
@@ -5211,7 +5211,7 @@ character_event = {
 
 # Rumors
 character_event = {
-	id = 1000109372
+	id = VIETnam.199
 	desc = "EVTDESC1000109372"
 	picture = GFX_evt_courier
 	

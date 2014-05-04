@@ -1741,7 +1741,7 @@ character_event = {
 	option = { #Meet Glarthir at midnight
 		name = "EVTOPTB1000109086"
 		character_event = {
-			id = 1000109087
+			id = VIETnam.65
 			tooltip = "EVTTOOLTIP1000109087"
 		}
 	}
@@ -1749,7 +1749,7 @@ character_event = {
 
 # Glarthir on the loose
 character_event = {
-	id = 1000109087
+	id = VIETnam.65
 	desc = "EVTDESC1000109087"
 	picture = GFX_evt_lunatic
 	

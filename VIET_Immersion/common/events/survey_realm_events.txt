@@ -172,7 +172,7 @@ character_event = {
 				#Intrigue (4)
 				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
@@ -246,7 +246,7 @@ character_event = {
 				#Intrigue (4)
 				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
@@ -319,7 +319,7 @@ character_event = {
 				#Intrigue (4)
 				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
@@ -1706,7 +1706,7 @@ character_event = {
 
 # Character hearing conversations in a peasant village
 character_event = {
-	id = 1000109085
+	id = VIETnam.63
 	desc = "EVTDESC1000109085"
 	picture = GFX_evt_village_at_night
 	

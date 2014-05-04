@@ -3342,7 +3342,7 @@ character_event = {
 
 # Nature is to save
 character_event = {
-	id = 1000109498
+	id = VIETnam.320
 	desc = "EVTDESC1000109498"
 	picture = GFX_evt_monk_eastern_group
 	

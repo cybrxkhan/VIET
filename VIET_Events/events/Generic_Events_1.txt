@@ -8,7 +8,7 @@
 # ID# VIETnam.196 - VIETnam.199 Elder Scrolls Reference Events
 # ID# VIETnam.200 - VIETnam.204 Dirty Events
 # ID# VIETnam.205 - VIETnam.207 Nature Events
-# ID# VIETnam.217 - 1000109396 Dream Events
+# ID# VIETnam.217 - VIETnam.223 Dream Events
 # ID# 1000109432 - 1000109438 Ancient Culture Events
 # ID# 1000109439 - 1000109447 Sound Events
 # ID# 1000109457 - 1000109461 Prayer Events
@@ -6811,7 +6811,7 @@ character_event = {
 		}
 		prestige = 2
 		character_event = {
-			id = 1000109396
+			id = VIETnam.223
 			tooltip = "EVTTOOLTIP1000109396"
 		}
 	}	
@@ -6834,7 +6834,7 @@ character_event = {
 
 # Temptation caved in
 character_event = {
-	id = 1000109396
+	id = VIETnam.223
 	desc = "EVTDESC1000109396"
 	picture = GFX_evt_nightmare
 	

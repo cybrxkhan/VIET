@@ -9,7 +9,7 @@
 #
 # African: VIETnam.170 - VIETnam.174
 # Turkish: VIETnam.208 - VIETnam.216
-# West African: VIETnam.238 - 1000109424
+# West African: VIETnam.238 - VIETnam.251
 # Celtic: 1000109425 - 1000109431
 # Finnish Pagan: 1000109448 - 1000109456
 #
@@ -3295,7 +3295,7 @@ character_event = {
 		}
 		random_list = {
 			75 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
-			25 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
+			25 = { character_event = { id = VIETnam.251 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}	
 	option = {
@@ -3306,7 +3306,7 @@ character_event = {
 		}
 		random_list = {
 			50 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
-			50 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
+			50 = { character_event = { id = VIETnam.251 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}
 }
@@ -3351,7 +3351,7 @@ character_event = {
 
 # Liege wins
 character_event = {
-	id = 1000109424
+	id = VIETnam.251
 	desc = "EVTDESC1000109424"
 	picture = GFX_evt_african_savanna
 	

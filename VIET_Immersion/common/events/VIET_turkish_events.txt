@@ -238,33 +238,33 @@ character_event = {
 
 
 #Fall of Constantinople - replaced in VIET_Narrative
-narrative_event = {
-	id = ottoman.6
-	title = "ottoman.6.name"
-	desc = "ottoman.6.desc"
-	major = yes
+# narrative_event = {
+	# id = ottoman.6
+	# title = "ottoman.6.name"
+	# desc = "ottoman.6.desc"
+	# major = yes
 	
-	picture = "GFX_evt_fetih"
-	border = "GFX_event_narrative_frame_war"
+	# picture = "GFX_evt_fetih"
+	# border = "GFX_event_narrative_frame_war"
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = "ottoman.6.a"
-		trigger = { 
-			NOT = { religion_group = muslim } 
-			NOT = { religion_group = christian } 
-		}
-	}
-	option = {
-		name = "ottoman.6.b"
-		trigger = { religion_group = muslim }
-	}	
-	option = {
-		name = "ottoman.6.c"
-		trigger = { religion_group = christian }
-	}
-}
+	# option = {
+		# name = "ottoman.6.a"
+		# trigger = { 
+			# NOT = { religion_group = muslim } 
+			# NOT = { religion_group = christian } 
+		# }
+	# }
+	# option = {
+		# name = "ottoman.6.b"
+		# trigger = { religion_group = muslim }
+	# }	
+	# option = {
+		# name = "ottoman.6.c"
+		# trigger = { religion_group = christian }
+	# }
+# }
 
 
 #Free Eunuchs

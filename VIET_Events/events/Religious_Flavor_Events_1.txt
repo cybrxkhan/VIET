@@ -147,7 +147,7 @@ character_event = {
 				30 = { remove_trait = paranoid }
 			}			
 		}
-		character_event = { id = 1000109330 tooltip = "EVTTOOLTIP1000109330" }
+		character_event = { id = VIETnam.157 tooltip = "EVTTOOLTIP1000109330" }
 	}
 	
 	option = { #KILL
@@ -211,7 +211,7 @@ character_event = {
 
 # Infidel warrior wishes to serve character
 character_event = {
-	id = 1000109330
+	id = VIETnam.157
 	desc = "EVTDESC1000109330"
 	picture = GFX_evt_tuscan_country
 	

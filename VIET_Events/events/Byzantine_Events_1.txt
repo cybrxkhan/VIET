@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# 1000109160 - 1000109169
+# ID# VIETnam.111 - 1000109169
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 
 
-# 1000109160
+# VIETnam.111
 
 # Catholics or Muslims?
 character_event = {
@@ -961,7 +961,7 @@ character_event = {
 			}
 			50 = {
 				character_event = { #Merchant is guilty
-					id = 1000109160
+					id = VIETnam.111
 					tooltip = "EVTTOOLTIP1000109160"
 				}
 			}
@@ -1318,7 +1318,7 @@ character_event = {
 
 # Merchant is guilty
 character_event = {
-	id = 1000109160
+	id = VIETnam.111
 	desc = "EVTDESC1000109160"
 	picture = GFX_evt_baklava
 	

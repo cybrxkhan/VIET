@@ -1045,7 +1045,7 @@ character_event = {
 
 # Ruined clothes
 character_event = {
-	id = 1000109322
+	id = VIETnam.149
 	desc = "EVTDESC1000109322"
 	picture = GFX_evt_doge_republic
 	

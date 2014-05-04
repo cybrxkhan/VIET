@@ -4,7 +4,7 @@
 #
 # ID# VIETnam.72 - VIETnam.96 Trait Events
 # ID# VIETnam.175 - VIETnam.183 MUSLIM Events
-# ID# VIETnam.184 - 1000109363 Drink and Alcohol Events
+# ID# VIETnam.184 - VIETnam.190 Drink and Alcohol Events
 # ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
 # ID# 1000109373 - 1000109377 Dirty Events
 # ID# 1000109378 - 1000109380 Nature Events
@@ -4662,7 +4662,7 @@ character_event = {
 
 # Drunk courtier interrupts court
 character_event = {
-	id = 1000109363
+	id = VIETnam.190
 	desc = "EVTDESC1000109363"
 	picture = GFX_evt_emissary
 	

@@ -5477,7 +5477,7 @@ character_event = {
 
 # Coin in the ground
 character_event = {
-	id = 1000109374
+	id = VIETnam.201
 	desc = "EVTDESC1000109374"
 	picture = GFX_evt_skyrim_forest
 	

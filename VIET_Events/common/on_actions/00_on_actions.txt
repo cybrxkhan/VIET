@@ -310,7 +310,7 @@ on_yearly_pulse = {
 		100 = VIETnam.199
 		#Dirty Events
 		100 = VIETnam.200
-		100 = 1000109374
+		100 = VIETnam.201
 		100 = 1000109375
 		100 = 1000109376
 		100 = 1000109377

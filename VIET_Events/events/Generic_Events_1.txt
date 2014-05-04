@@ -8309,7 +8309,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109442
+					id = VIETnam.269
 					days = 3
 				}
 			}
@@ -8319,7 +8319,7 @@ character_event = {
 
 # Guardian chooses whether to be okay or not
 character_event = {
-	id = 1000109442
+	id = VIETnam.269
 	desc = EVTDESC1000109442
 	picture = GFX_evt_child_play
 	

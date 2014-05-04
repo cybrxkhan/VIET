@@ -2274,7 +2274,7 @@ character_event = {
 				days = 180
 			}		
 		}
-		character_event = { id = 1000109414 days = 7 tooltip = EVTTOOLTIP1000109414 }
+		character_event = { id = VIETnam.241 days = 7 tooltip = EVTTOOLTIP1000109414 }
 		set_character_flag = VIET_ton_member
 	}
 	
@@ -2324,7 +2324,7 @@ character_event = {
 
 # Ton Fraternity continued
 character_event = {
-	id = 1000109414
+	id = VIETnam.241
 	desc = "EVTDESC1000109414"
 	picture = GFX_evt_griot
 	

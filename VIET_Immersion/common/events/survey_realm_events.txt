@@ -381,7 +381,7 @@ character_event = {
 				20 = {  character_event = { id = VIETnam.41 } }
 				20 = {  character_event = { id = VIETnam.42 } }
 				20 = {  character_event = { id = VIETnam.43 } }
-				20 = {  character_event = { id = 1000109059 } }
+				20 = {  character_event = { id = VIETnam.44 } }
 				20 = {  character_event = { id = 1000109060 } }
 			}
 		}
@@ -464,7 +464,7 @@ character_event = {
 
 #Qi Ma 4 - 	Byzantines always play Tzykanion
 character_event = {
-	id = 1000109059
+	id = VIETnam.44
 	desc = "EVTDESC1000109059"
 	picture = GFX_evt_feast
 	

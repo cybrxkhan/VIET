@@ -3824,7 +3824,7 @@ character_event = {
 
 #Hurling
 character_event = {
-	id = 1000109428
+	id = VIETnam.255
 	desc = "EVTDESC1000109428"
 	picture = GFX_evt_garden
 	

@@ -3000,7 +3000,7 @@ character_event = {
 
 # High Quality and Quantity Paper Makers
 character_event = {
-	id = 1000109351
+	id = VIETnam.178
 	desc = "EVTDESC1000109351"
 	picture = GFX_evt_moorish_decor
 	

@@ -5711,7 +5711,7 @@ character_event = {
 
 # Parchment Coloring
 character_event = {
-	id = 1000109376
+	id = VIETnam.203
 	desc = "EVTDESC1000109376"
 	picture = GFX_evt_library
 	

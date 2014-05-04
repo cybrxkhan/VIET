@@ -2,7 +2,7 @@
 #
 # Survey Realm Events
 #
-# Reserved: VIETnam.33 - 1000109092
+# Reserved: VIETnam.33 - VIETnam.70
 #
 #
 ###################################
@@ -178,7 +178,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -252,7 +252,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -325,7 +325,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -1946,7 +1946,7 @@ character_event = {
 
 # Character sees peasants working
 character_event = {
-	id = 1000109092
+	id = VIETnam.70
 	desc = "EVTDESC1000109092"
 	picture = GFX_evt_autumn_harvest
 	

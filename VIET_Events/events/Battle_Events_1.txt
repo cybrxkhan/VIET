@@ -394,7 +394,7 @@ character_event = {
 
 # Arrow in the... Nevermind.
 character_event = {
-	id = 1000109405
+	id = VIETnam.232
 	desc = EVTDESC1000109405
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

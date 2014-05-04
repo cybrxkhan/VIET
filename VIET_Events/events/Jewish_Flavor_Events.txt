@@ -398,7 +398,7 @@ character_event = {
 
 # Jewish courtier asks liege to lower Jizya tax
 character_event = {
-	id = 1000109028
+	id = VIETnam.27
 	desc = "EVTDESC1000109028"
 	picture = GFX_evt_moorish_decor
 	

@@ -769,7 +769,7 @@ character_event = {
 
 # Good luck ladybugs
 character_event = {
-	id = 1000109517
+	id = VIETnam.339
 	desc = "EVTDESC1000109517"
 	picture = GFX_evt_skyrim_forest
 	

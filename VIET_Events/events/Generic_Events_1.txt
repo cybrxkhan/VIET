@@ -7366,7 +7366,7 @@ character_event = {
 
 # Achaemenid Monument
 character_event = {
-	id = 1000109434
+	id = VIETnam.261
 	desc = "EVTDESC1000109434"
 	picture = GFX_evt_desert
 	

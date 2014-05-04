@@ -175,7 +175,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
@@ -249,7 +249,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
@@ -322,7 +322,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
@@ -1778,7 +1778,7 @@ character_event = {
 
 # Character comes across traveling baklava Merchant
 character_event = {
-	id = 1000109088
+	id = VIETnam.66
 	desc = "EVTDESC1000109088"
 	picture = GFX_evt_baklava
 	

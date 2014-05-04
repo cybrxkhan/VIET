@@ -2063,7 +2063,7 @@ character_event = {
 
 # Griot encouragement
 character_event = {
-	id = 1000109412
+	id = VIETnam.239
 	desc = EVTDESC1000109412
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

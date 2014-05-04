@@ -1918,7 +1918,7 @@ character_event = {
 		name = "EVTOPTB1000109090"
 		wealth = -1
 		character_event = {
-			id = 1000109091
+			id = VIETnam.69
 			tooltip = "EVTTOOLTIP1000109091"
 		}
 	}
@@ -1926,7 +1926,7 @@ character_event = {
 
 # Character listens to musician
 character_event = {
-	id = 1000109091
+	id = VIETnam.69
 	desc = "EVTDESC1000109091"
 	picture = GFX_evt_tuscan_country
 	

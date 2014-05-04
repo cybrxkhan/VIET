@@ -779,7 +779,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.292
 		#Buddhist
 		10 = VIETnam.316
-		10 = 1000109496
+		10 = VIETnam.318
 		10 = 1000109497
 		#Cretan
 		10 = VIETmisc.2038

@@ -1162,7 +1162,7 @@ character_event = {
 		hidden_tooltip = {
 			father = {
 				character_event = {
-					id = 1000094004
+					id = VIETnam.10
 					days = 3
 				}
 			}

@@ -166,7 +166,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
@@ -240,7 +240,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
@@ -313,7 +313,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
 				#Intrigue (4)
@@ -1317,7 +1317,7 @@ character_event = {
 
 # Character visits a vassal who has crappy food
 character_event = {
-	id = 1000109069
+	id = VIETnam.54
 	desc = "EVTDESC1000109069"
 	picture = GFX_evt_baklava
 	

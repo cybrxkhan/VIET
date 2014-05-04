@@ -4726,7 +4726,7 @@ character_event = {
 
 # Troubled Shaman
 character_event = {
-	id = 1000109454
+	id = VIETnam.281
 	desc = "EVTDESC1000109454"
 	picture = GFX_evt_journey_to_spirit_world
 	

@@ -1138,7 +1138,7 @@ character_event = {
 
 # Craven - foolish while sparring
 character_event = {
-	id = 1000109113
+	id = VIETnam.84
 	desc = "EVTDESC1000109113"
 	picture = GFX_evt_melee
 	

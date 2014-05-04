@@ -2,7 +2,7 @@
 #
 # Love and Lovers Flavor Events
 #
-# Events to gain lovers and for lovers: VIETnam.164-1000109342
+# Events to gain lovers and for lovers: VIETnam.164-VIETnam.169
 #
 # Fired from on actions
 #
@@ -1216,7 +1216,7 @@ character_event = {
 
 # 2 good people fall in love?
 character_event = {
-	id = 1000109342
+	id = VIETnam.169
 	desc = "EVTDESC1000109342"
 	picture = GFX_evt_maiden
 	

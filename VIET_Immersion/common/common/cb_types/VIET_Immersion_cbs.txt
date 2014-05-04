@@ -58,7 +58,7 @@ turkish_conquest = {
 				has_landed_title = e_byzantium
 				AND = {
 					culture = greek
-					primary_title = { de_jure_liege_or_below = e_byzantium }
+					primary_title = { de_jure_liege_or_above = e_byzantium }
 				}
 				AND = {
 					OR = {

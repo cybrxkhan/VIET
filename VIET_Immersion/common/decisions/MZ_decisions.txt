@@ -240,7 +240,7 @@ decisions = {
 			prisoner = no		
 		}
 		effect = {
-			province_event = { id = 1000094010 }
+			province_event = { id = VIETnam.11 }
 			set_global_flag = rebuilding_persepolis
 		}
 		revoke_allowed = {

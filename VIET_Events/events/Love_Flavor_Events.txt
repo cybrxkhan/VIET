@@ -2,7 +2,7 @@
 #
 # Love and Lovers Flavor Events
 #
-# Events to gain lovers and for lovers: 1000109337-1000109342
+# Events to gain lovers and for lovers: VIETnam.164-VIETnam.169
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Meek child considers confessing love to another child
 character_event = {
-	id = 1000109337
+	id = VIETnam.164
 	desc = "EVTDESC1000109337"
 	picture = GFX_evt_maiden
 	
@@ -348,7 +348,7 @@ character_event = {
 
 #Character can't satisfy lover
 character_event = {
-	id = 1000109338
+	id = VIETnam.165
 	desc = "EVTDESC1000109338"
 	picture = GFX_evt_lovers
 	
@@ -564,7 +564,7 @@ character_event = {
 
 #Character & lover are too chaste
 character_event = {
-	id = 1000109339
+	id = VIETnam.166
 	desc = "EVTDESC1000109339"
 	picture = GFX_evt_maiden
 	
@@ -785,7 +785,7 @@ character_event = {
 
 #Character & lover - why do you love me?
 character_event = {
-	id = 1000109340
+	id = VIETnam.167
 	desc = "EVTDESC1000109340"
 	picture = GFX_evt_maiden
 	
@@ -1026,7 +1026,7 @@ character_event = {
 
 #Character & lover's display of affections are getting out of hand
 character_event = {
-	id = 1000109341
+	id = VIETnam.168
 	desc = "EVTDESC1000109341"
 	picture = GFX_evt_scandal
 	
@@ -1216,7 +1216,7 @@ character_event = {
 
 # 2 good people fall in love?
 character_event = {
-	id = 1000109342
+	id = VIETnam.169
 	desc = "EVTDESC1000109342"
 	picture = GFX_evt_maiden
 	

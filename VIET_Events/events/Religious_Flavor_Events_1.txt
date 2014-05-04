@@ -2912,7 +2912,7 @@ character_event = {
 
 # A Buddhist master
 character_event = {
-	id = 1000109494
+	id = VIETnam.316
 	desc = "EVTDESC1000109494"
 	picture = GFX_evt_monk_eastern_group
 	

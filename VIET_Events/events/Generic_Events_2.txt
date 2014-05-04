@@ -970,7 +970,7 @@ character_event = {
 
 # SMASH KILL
 character_event = {
-	id = 1000109519
+	id = VIETnam.341
 	desc = "EVTDESC1000109519"
 	picture = GFX_evt_lunatic
 	

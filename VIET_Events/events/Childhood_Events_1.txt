@@ -716,7 +716,7 @@ character_event = {
 
 # learning gain - ward
 character_event = {
-	id = 1000109507
+	id = VIETnam.329
 	desc = "EVTDESC1000109507"
 	picture = GFX_evt_child_reading
 	

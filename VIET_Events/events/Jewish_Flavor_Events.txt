@@ -1,10 +1,10 @@
-#Jewish Flavor events 1000109021 - 1000109037
+#Jewish Flavor events VIETnam.22 - 1000109037
 
 #FLAVOR EVENTS
 
 #A bigoted courtier questions why we must have Jews in the court
 character_event = {
-	id = 1000109021
+	id = VIETnam.22
 	desc = "EVTDESC1000109021"
 	picture = GFX_evt_moorish_decor
 	

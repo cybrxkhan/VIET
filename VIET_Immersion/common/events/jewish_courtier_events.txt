@@ -1,4 +1,4 @@
 #JEWISH COURTIERS - Credits to jordarkelf for original Jewish spawn events, all other events by cybrxkhan
 #Spawn Jewish courtiers and their wives 1000109008 - 1000109011
-#Jewish Flavor events 1000109021 - 1000109037 (see in VIET Events Immersion)
+#Jewish Flavor events VIETnam.22 - 1000109037 (see in VIET Events Immersion)
 # OBSOLETE

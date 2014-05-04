@@ -11672,7 +11672,7 @@ character_event = {
 
 # Cuckoo for comets
 character_event = {
-	id = 1000109490
+	id = VIETnam.312
 	desc = "EVTDESC1000109490"
 	picture = GFX_evt_comet
 	

@@ -323,7 +323,7 @@ on_yearly_pulse = {
 		100 = VIETnam.206
 		100 = VIETnam.207
 		#Dream Events
-		100 = 1000109390
+		100 = VIETnam.217
 		100 = 1000109391
 		100 = 1000109392
 		100 = 1000109393

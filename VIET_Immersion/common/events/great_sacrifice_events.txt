@@ -37,7 +37,7 @@ character_event = {
 
 #Which blessing to ask for?
 character_event = {
-	id = 1000109018
+	id = VIETnam.19
 	desc = "EVTDESC1000109018"
 	picture = "GFX_evt_pagan"
 	

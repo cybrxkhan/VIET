@@ -8276,8 +8276,8 @@
 	}
 	1241.1.1={
 		trait = charitable
-		trait = caste
-		trait = zealot
+		trait = chaste
+		trait = zealous
 		trait = martial_cleric
 	}
 	1249.8.2={
@@ -8562,7 +8562,7 @@
 	1181.1.1={
 		birth="1181.1.1"
 	}
-	1205.1.1.={
+	1205.1.1={
 		add_spouse=170301
 	}
 	1228.5.30={

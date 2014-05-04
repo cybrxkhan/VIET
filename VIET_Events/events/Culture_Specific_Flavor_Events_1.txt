@@ -1379,7 +1379,7 @@ character_event = {
 
 # The Origin of Baklava
 character_event = {
-	id = 1000109383
+	id = VIETnam.210
 	desc = "EVTDESC1000109383"
 	picture = GFX_evt_turkish_sultan
 	

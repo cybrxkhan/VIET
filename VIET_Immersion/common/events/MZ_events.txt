@@ -182,7 +182,7 @@ character_event = {
 
 ####Rebuild Persepolis
 province_event = {
-	id = 1000094010
+	id = VIETnam.11
 	title = "EVTNAME1000094010"
 	desc = "EVTDESC1000094010"
 	picture = "GFX_persepolis_ruin"

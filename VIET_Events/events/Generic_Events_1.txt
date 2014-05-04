@@ -7109,7 +7109,7 @@ character_event = {
 
 # Ancient Roman Statue
 character_event = {
-	id = 1000109433
+	id = VIETnam.260
 	desc = "EVTDESC1000109433"
 	picture = GFX_evt_small_town
 	

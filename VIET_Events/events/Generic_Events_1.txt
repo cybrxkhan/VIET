@@ -11231,7 +11231,7 @@ character_event = {
 
 # No comets
 character_event = {
-	id = 1000109486
+	id = VIETnam.308
 	desc = "EVTDESC1000109486"
 	picture = GFX_evt_comet
 	

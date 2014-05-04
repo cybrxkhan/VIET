@@ -942,7 +942,7 @@ character_event = {
 
 # Christian character comes across Saint's tomb
 character_event = {
-	id = 1000109332
+	id = VIETnam.159
 	desc = "EVTDESC1000109332"
 	picture = GFX_evt_jerusalem
 	

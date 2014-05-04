@@ -2623,7 +2623,7 @@ character_event = {
 
 # Kabbalist reincarnation
 character_event = {
-	id = 1000109465
+	id = VIETnam.292
 	desc = "EVTDESC1000109465"
 	picture = GFX_evt_feast
 	

@@ -1407,7 +1407,7 @@ character_event = {
 				30 = { add_trait = gregarious }
 			}			
 		}
-		character_event = { id = 1000109335 tooltip = "EVTTOOLTIP1000109335" }
+		character_event = { id = VIETnam.162 tooltip = "EVTTOOLTIP1000109335" }
 	}
 }
 
@@ -1494,7 +1494,7 @@ character_event = {
 
 # Crusader/Mujahid asks old knight
 character_event = {
-	id = 1000109335
+	id = VIETnam.162
 	desc = "EVTDESC1000109335"
 	picture = GFX_evt_jerusalem
 	

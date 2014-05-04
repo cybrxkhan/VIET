@@ -1205,7 +1205,7 @@ character_event = {
 
 # Crusader/Mujahid worries about having vices
 character_event = {
-	id = 1000109333
+	id = VIETnam.160
 	desc = "EVTDESC1000109333"
 	picture = GFX_evt_brothel
 	

@@ -3544,7 +3544,7 @@ character_event = {
 
 # Four leaf clover
 character_event = {
-	id = 1000109426
+	id = VIETnam.253
 	desc = "EVTDESC1000109426"
 	picture = GFX_evt_garden
 	

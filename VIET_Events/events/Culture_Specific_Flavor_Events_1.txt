@@ -245,7 +245,7 @@ character_event = {
 
 # Soldier with Quran Verses in Armor
 character_event = {
-	id = 1000109345
+	id = VIETnam.172
 	desc = "EVTDESC1000109345"
 	picture = GFX_evt_travel_west_african
 	

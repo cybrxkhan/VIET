@@ -2333,14 +2333,14 @@ character_event = {
 	
 	option = { # ok
 		name = "EVTOPTA1000109414"
-		character_event = { id = 1000109415 days = 5 tooltip = EVTTOOLTIP1000109415 }
+		character_event = { id = VIETnam.242 days = 5 tooltip = EVTTOOLTIP1000109415 }
 	}		
 	
 }
 
 # Ton Fraternity continued 2
 character_event = {
-	id = 1000109415
+	id = VIETnam.242
 	desc = "EVTDESC1000109415"
 	picture = GFX_evt_griot
 	

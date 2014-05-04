@@ -3046,7 +3046,7 @@ character_event = {
 
 # University of Sankore
 character_event = {
-	id = 1000109420
+	id = VIETnam.247
 	desc = "EVTDESC1000109420"
 	picture = GFX_evt_mud_mosque
 	

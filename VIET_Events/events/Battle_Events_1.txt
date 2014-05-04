@@ -689,7 +689,7 @@ character_event = {
 
 # Advice to young squire
 character_event = {
-	id = 1000109408
+	id = VIETnam.235
 	desc = EVTDESC1000109408
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

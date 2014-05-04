@@ -158,7 +158,7 @@ character_event = {
 				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
@@ -232,7 +232,7 @@ character_event = {
 				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
@@ -305,7 +305,7 @@ character_event = {
 				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
 				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
@@ -926,7 +926,7 @@ character_event = {
 
 #Character comes across unburied skeleton
 character_event = {
-	id = 1000109062
+	id = VIETnam.47
 	desc = "EVTDESC1000109062"
 	picture = GFX_evt_bloody_man
 	

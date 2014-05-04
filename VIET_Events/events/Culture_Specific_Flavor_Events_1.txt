@@ -10,7 +10,7 @@
 # African: VIETnam.170 - VIETnam.174
 # Turkish: VIETnam.208 - VIETnam.216
 # West African: VIETnam.238 - VIETnam.251
-# Celtic: VIETnam.252 - 1000109431
+# Celtic: VIETnam.252 - VIETnam.258
 # Finnish Pagan: 1000109448 - 1000109456
 #
 ######################################################################
@@ -4016,7 +4016,7 @@ character_event = {
 
 # Leeks
 character_event = {
-	id = 1000109431
+	id = VIETnam.258
 	desc = "EVTDESC1000109431"
 	picture = GFX_evt_melee
 	

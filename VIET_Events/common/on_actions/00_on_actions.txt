@@ -1103,7 +1103,7 @@ on_combat_pulse = {
 		5 = VIETnam.238
 		5 = VIETnam.239
 		#Celtic
-		5 = 1000109431
+		5 = VIETnam.258
 		#Prayers
 		5 = 1000109460
 		5 = 1000109461

@@ -649,7 +649,7 @@ character_event = {
 	option = { #After him!
 		name = "EVTOPTA1000109308"
 		wealth = -1
-		character_event = { id = 1000109309 tooltip = "EVTTOOLTIP1000109309" }
+		character_event = { id = VIETnam.136 tooltip = "EVTTOOLTIP1000109309" }
 		set_character_flag = VIET_pickpocket_event
 	}
 	
@@ -679,7 +679,7 @@ character_event = {
 
 # Catch up to the pickpocket
 character_event = {
-	id = 1000109309
+	id = VIETnam.136
 	desc = "EVTDESC1000109309"
 	picture = GFX_evt_bazaar
 	

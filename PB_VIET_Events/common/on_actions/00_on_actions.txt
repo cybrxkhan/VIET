@@ -691,7 +691,7 @@ on_bi_yearly_pulse = {
 		
 		#VIET EVENTS
 		#Old age events
-		10 = 1000109136
+		10 = VIETnam.106
 		10 = 1000109137
 		10 = 1000109138
 		10 = 1000109139

@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: 1000109136-1000109140
+# Set 1: VIETnam.106-1000109140
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Hunting in old age
 character_event = {
-	id = 1000109136
+	id = VIETnam.106
 	desc = "EVTDESC1000109136"
 	picture = GFX_evt_hunt
 	

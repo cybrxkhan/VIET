@@ -2516,7 +2516,7 @@ character_event = {
 
 # Kosher food
 character_event = {
-	id = 1000109464
+	id = VIETnam.291
 	desc = "EVTDESC1000109464"
 	picture = GFX_evt_feast
 	

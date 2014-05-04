@@ -8418,7 +8418,7 @@ character_event = {
 		FROM = {
 			hidden_tooltip = { 
 				character_event = { 
-					id = 1000109444 
+					id = VIETnam.271 
 				}
 			}
 		}
@@ -8464,7 +8464,7 @@ character_event = {
 
 # Guardian discourages rock and roll
 character_event = {
-	id = 1000109444
+	id = VIETnam.271
 	desc = "EVTDESC1000109444"
 	picture = "GFX_evt_guardian"
 	

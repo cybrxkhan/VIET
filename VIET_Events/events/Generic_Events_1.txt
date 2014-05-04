@@ -7769,7 +7769,7 @@ character_event = {
 
 # Henges
 character_event = {
-	id = 1000109437
+	id = VIETnam.264
 	desc = "EVTDESC1000109437"
 	picture = GFX_evt_pagan
 	

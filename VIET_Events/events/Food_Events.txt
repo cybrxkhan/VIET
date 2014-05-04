@@ -383,7 +383,7 @@ character_event = {
 
 # N. African mint tea ceremony
 character_event = {
-	id = 1000109367
+	id = VIETnam.194
 	desc = "EVTDESC1000109367"
 	picture = GFX_evt_VIET_food
 	

@@ -2,7 +2,7 @@ namespace = VIETmisc
 
 #Become old
 character_event = {
-	id = 1000109000
+	id = VIETnam.13
 	desc = "EVTDESC1000109000"
 	picture = "GFX_evt_pale_rider"
 	

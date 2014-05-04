@@ -5141,7 +5141,7 @@ character_event = {
 
 # Lucien Lachance Intro Dialogue
 character_event = {
-	id = 1000109371
+	id = VIETnam.198
 	desc = "EVTDESC1000109371"
 	picture = GFX_evt_shadow
 	

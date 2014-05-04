@@ -10918,7 +10918,7 @@ character_event = {
 
 # Saint's "Bones"
 character_event = {
-	id = 1000109483 
+	id = VIETnam.305 
 	desc = "EVTDESC1000109483"
 	picture = GFX_evt_icon
 	

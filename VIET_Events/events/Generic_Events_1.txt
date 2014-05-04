@@ -3,7 +3,7 @@
 # Generic Mundane Events
 #
 # ID# VIETnam.72 - VIETnam.96 Trait Events
-# ID# VIETnam.175 - 1000109356 MUSLIM Events
+# ID# VIETnam.175 - VIETnam.183 MUSLIM Events
 # ID# 1000109357 - 1000109363 Drink and Alcohol Events
 # ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
 # ID# 1000109373 - 1000109377 Dirty Events
@@ -3808,7 +3808,7 @@ character_event = {
 
 # Annoying Beggar
 character_event = {
-	id = 1000109356
+	id = VIETnam.183
 	desc = "EVTDESC1000109356"
 	picture = GFX_evt_small_town_east_african
 	

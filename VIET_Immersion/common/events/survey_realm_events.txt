@@ -176,7 +176,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
@@ -250,7 +250,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
@@ -323,7 +323,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
 				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
 				#Set 2 (13)
@@ -1842,7 +1842,7 @@ character_event = {
 
 # Character comes across city boy harassing peasant girl
 character_event = {
-	id = 1000109089
+	id = VIETnam.67
 	desc = "EVTDESC1000109089"
 	picture = GFX_evt_tuscan_country
 	

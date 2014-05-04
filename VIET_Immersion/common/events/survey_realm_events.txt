@@ -163,7 +163,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
@@ -237,7 +237,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
@@ -310,7 +310,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
@@ -1127,7 +1127,7 @@ character_event = {
 
 # Character comes to a poor village and decides whether to stay for the night
 character_event = {
-	id = 1000109066
+	id = VIETnam.51
 	desc = "EVTDESC1000109066"
 	picture = GFX_evt_village_at_night
 	

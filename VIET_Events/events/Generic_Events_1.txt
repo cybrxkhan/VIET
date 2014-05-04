@@ -4490,7 +4490,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109361
+					id = VIETnam.188
 					days = 1
 				}
 			}
@@ -4500,7 +4500,7 @@ character_event = {
 
 # Guardian reacts
 character_event = {
-	id = 1000109361
+	id = VIETnam.188
 	desc = EVTDESC1000109361
 	picture = GFX_evt_child_play
 	

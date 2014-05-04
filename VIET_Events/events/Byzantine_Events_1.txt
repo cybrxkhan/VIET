@@ -14,7 +14,7 @@
 
 # Catholics or Muslims?
 character_event = {
-	id = 1000109161
+	id = VIETnam.112
 	desc = "EVTDESC1000109161"
 	picture = GFX_evt_western_knights_byzantine
 	

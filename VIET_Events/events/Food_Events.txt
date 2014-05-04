@@ -3,7 +3,7 @@
 # Food Events:
 # Events pertaining to culture/religion/region-specific cuisine and eating culture
 #
-# ID# 1000109364 - 1000109368
+# ID# VIETnam.191 - 1000109368
 #
 # Fired from on actions
 #
@@ -11,7 +11,7 @@
 
 # Lazy Byzantine Cook
 character_event = {
-	id = 1000109364
+	id = VIETnam.191
 	desc = "EVTDESC1000109364"
 	picture = GFX_evt_VIET_food
 	

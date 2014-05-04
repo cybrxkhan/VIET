@@ -1512,7 +1512,7 @@ character_event = {
 
 # Character keeps wetting bed
 character_event = {
-	id = 1000109386
+	id = VIETnam.213
 	desc = "EVTDESC1000109386"
 	picture = GFX_evt_skyrim_forest
 	

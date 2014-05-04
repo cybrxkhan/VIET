@@ -110,7 +110,7 @@ character_event = {
 
 # Innocent man executed
 character_event = {
-	id = 1000109510
+	id = VIETnam.332
 	desc = "EVTDESC1000109510"
 	picture = GFX_evt_beheading
 	

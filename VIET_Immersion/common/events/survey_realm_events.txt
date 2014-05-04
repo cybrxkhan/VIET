@@ -104,7 +104,7 @@ character_event = {
 
 #Preparations for Realm Survey
 character_event = {
-	id = 1000109050
+	id = VIETnam.35
 	desc = "EVTDESC1000109050"
 	picture = GFX_evt_emissary
 	

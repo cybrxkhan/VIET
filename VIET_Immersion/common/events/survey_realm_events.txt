@@ -382,7 +382,7 @@ character_event = {
 				20 = {  character_event = { id = VIETnam.42 } }
 				20 = {  character_event = { id = VIETnam.43 } }
 				20 = {  character_event = { id = VIETnam.44 } }
-				20 = {  character_event = { id = 1000109060 } }
+				20 = {  character_event = { id = VIETnam.45 } }
 			}
 		}
 	}
@@ -512,7 +512,7 @@ character_event = {
 
 #Qi Ma 5 - Catholic Church is Open-minded
 character_event = {
-	id = 1000109060
+	id = VIETnam.45
 	desc = "EVTDESC1000109060"
 	picture = GFX_evt_pope
 	

@@ -328,7 +328,7 @@ character_event = {
 
 # Courtier interested in western fashion
 character_event = {
-	id = 1000109164
+	id = VIETnam.115
 	desc = "EVTDESC1000109164"
 	picture = GFX_evt_scandal
 	

@@ -2,7 +2,7 @@
 #
 # Generic Mundane Events
 #
-# 1000109509 - 1000109513 "Bad" Events
+# VIETnam.331 - 1000109513 "Bad" Events
 # 1000109514 - 1000109518 Bug Events
 #
 # Fired from on actions
@@ -15,7 +15,7 @@
 
 # Spoiled baklava
 character_event = {
-	id = 1000109509
+	id = VIETnam.331
 	desc = "EVTDESC1000109509"
 	picture = GFX_evt_baklava
 	

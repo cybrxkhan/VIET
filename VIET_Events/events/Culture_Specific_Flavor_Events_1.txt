@@ -4900,7 +4900,7 @@ character_event = {
 
 # Mischievious Haltija
 character_event = {
-	id = 1000109455
+	id = VIETnam.282
 	desc = "EVTDESC1000109455"
 	picture = GFX_evt_journey_to_spirit_world
 	

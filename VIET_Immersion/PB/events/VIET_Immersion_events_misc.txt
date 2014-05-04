@@ -272,7 +272,7 @@ character_event = {
 
 #Character begins to push claim on Byzantine throne through decision
 character_event = {
-	id = 1000109019
+	id = VIETnam.20
 	desc = "EVTDESC1000109019"
 	picture = "GFX_evt_emissary"
 	

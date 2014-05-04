@@ -7484,7 +7484,7 @@ character_event = {
 
 # Scythian Gold
 character_event = {
-	id = 1000109435
+	id = VIETnam.262
 	desc = "EVTDESC1000109435"
 	picture = GFX_evt_wafrica_gold
 	

@@ -2,7 +2,7 @@
 #
 # Hindv Courtier Flavor Events
 #
-# Set 1: VIETnam.141-1000109316
+# Set 1: VIETnam.141-VIETnam.143
 #
 # Fired from on actions
 #
@@ -232,7 +232,7 @@ character_event = {
 
 # Spicy curry
 character_event = {
-	id = 1000109316
+	id = VIETnam.143
 	desc = "EVTDESC1000109316"
 	picture = GFX_evt_indian_market
 	

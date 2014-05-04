@@ -192,7 +192,7 @@ character_event = {
 
 # Greedy - coin purse on the ground during Summer Fair
 character_event = {
-	id = 1000109103
+	id = VIETnam.74
 	desc = "EVTDESC1000109103"
 	picture = GFX_evt_market
 	

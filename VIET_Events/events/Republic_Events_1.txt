@@ -277,7 +277,7 @@ character_event = {
 
 # Ambassador from the Orient arrives
 character_event = {
-	id = 1000109304
+	id = VIETnam.131
 	desc = "EVTDESC1000109304"
 	picture = GFX_evt_kraken
 	

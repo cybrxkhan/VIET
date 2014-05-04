@@ -3,7 +3,7 @@
 # Childhood Flavor Events
 #
 # Set 1: VIETnam.144-VIETnam.147
-# Attribute: VIETnam.323-1000109508
+# Attribute: VIETnam.323-VIETnam.330
 #
 # Fired from on actions
 #
@@ -806,7 +806,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109508
+					id = VIETnam.330
 				}
 			}
 		}
@@ -816,7 +816,7 @@ character_event = {
 
 # learning gain - guardian
 character_event = {
-	id = 1000109508
+	id = VIETnam.330
 	desc = "EVTDESC1000109508"
 	picture = GFX_evt_child_reading
 	

@@ -1469,7 +1469,7 @@ character_event = {
 		}
 		prestige = 2
 		character_event = { #Greek reward
-			id = 1000109385
+			id = VIETnam.212
 			tooltip = "EVTTOOLTIP1000109385"
 		}
 	}		
@@ -1494,7 +1494,7 @@ character_event = {
 
 # Greek merchant wins
 character_event = {
-	id = 1000109385
+	id = VIETnam.212
 	desc = "EVTDESC1000109385"
 	picture = GFX_evt_baklava
 	

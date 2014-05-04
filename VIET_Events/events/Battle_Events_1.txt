@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# 1000109401 - 1000109410
+# ID# VIETnam.228 - 1000109410
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # It's the most obvious Skyrim reference ever
 character_event = {
-	id = 1000109401
+	id = VIETnam.228
 	desc = EVTDESC1000109401
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

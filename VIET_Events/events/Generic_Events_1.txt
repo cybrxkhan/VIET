@@ -9609,7 +9609,7 @@ character_event = {
 
 # Old Hunting grounds
 character_event = {
-	id = 1000109468 
+	id = VIETnam.295 
 	desc = "EVTDESC1000109468"
 	picture = GFX_evt_hunt
 	

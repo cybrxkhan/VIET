@@ -10272,7 +10272,7 @@ narrative_event = {
 
 # Remembering great time with lover
 character_event = {
-	id = 1000109472 
+	id = VIETnam.299 
 	desc = "EVTDESC1000109472"
 	picture = GFX_evt_lovers
 	

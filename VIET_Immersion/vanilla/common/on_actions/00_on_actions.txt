@@ -922,8 +922,6 @@ on_five_year_pulse = {
 		10 = VIETnam.178
 		10 = VIETnam.182
 		10 = VIETnam.183
-		#Shady Events
-		10 = 1000109475
 		#Briton
 		10 = VIETmisc.2026
 		

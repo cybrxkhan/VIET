@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: 1000109311-1000109313
+# Set 1: VIETnam.138-1000109313
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Baby kicking in stomach
 character_event = {
-	id = 1000109311
+	id = VIETnam.138
 	desc = "EVTDESC1000109311"
 	picture = GFX_evt_pregnancy
 	

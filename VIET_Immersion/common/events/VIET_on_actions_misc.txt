@@ -1133,7 +1133,7 @@ character_event = {
 
 #####Sedreh Pushi ritual - child's event
 character_event = {
-	id = 1000094003
+	id = VIETnam.9
 	title = "EVTNAME1000094003"
 	desc = "EVTDESC1000094003"
 	picture = "GFX_evt_child_bully"

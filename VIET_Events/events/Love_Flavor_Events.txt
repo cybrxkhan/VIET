@@ -564,7 +564,7 @@ character_event = {
 
 #Character & lover are too chaste
 character_event = {
-	id = 1000109339
+	id = VIETnam.166
 	desc = "EVTDESC1000109339"
 	picture = GFX_evt_maiden
 	

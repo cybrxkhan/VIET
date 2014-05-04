@@ -1436,7 +1436,7 @@ character_event = {
 
 #Humble - character learns from a peasant
 character_event = {
-	id = 1000109116
+	id = VIETnam.87
 	desc = "EVTDESC1000109116"
 	picture = GFX_evt_tuscan_country
 	

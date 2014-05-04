@@ -3509,7 +3509,7 @@ character_event = {
 
 # Fame Throughout Muslim World
 character_event = {
-	id = 1000109353
+	id = VIETnam.180
 	desc = "EVTDESC1000109353"
 	picture = GFX_evt_hagia_sofia
 	

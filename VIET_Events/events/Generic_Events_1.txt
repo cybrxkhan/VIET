@@ -1618,7 +1618,7 @@ character_event = {
 
 # Chaste - Pretty young maiden
 character_event = {
-	id = 1000109118
+	id = VIETnam.89
 	desc = "EVTDESC1000109118"
 	picture = GFX_evt_maiden
 	

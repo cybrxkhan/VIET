@@ -2,7 +2,7 @@
 #
 # Childhood Flavor Events
 #
-# Set 1: 1000109317-1000109320
+# Set 1: VIETnam.144-1000109320
 # Attribute: 1000109501-1000109508
 #
 # Fired from on actions
@@ -11,7 +11,7 @@
 
 # Character not being fed
 character_event = {
-	id = 1000109317
+	id = VIETnam.144
 	desc = "EVTDESC1000109317"
 	picture = GFX_evt_child_play
 	

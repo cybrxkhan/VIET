@@ -762,7 +762,7 @@ character_event = {
 
 # Wroth - anger means none dare cross
 character_event = {
-	id = 1000109109
+	id = VIETnam.80
 	desc = "EVTDESC1000109109"
 	picture = GFX_evt_courtiers_talking
 	

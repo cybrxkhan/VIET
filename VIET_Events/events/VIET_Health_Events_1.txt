@@ -2,7 +2,7 @@
 #
 # VIET Health Events (For characters with certain health issues)
 #
-# Illness: 1000109125 - 1000109129
+# Illness: VIETnam.96 - 1000109129
 # Leper: 1000109130 - 1000109132
 # Blind: 1000109133 - 1000109135
 #
@@ -12,7 +12,7 @@
 
 # Vassal has to visit sick liege
 character_event = {
-	id = 1000109125
+	id = VIETnam.96
 	desc = "EVTDESC1000109125"
 	picture = GFX_evt_emissary
 	

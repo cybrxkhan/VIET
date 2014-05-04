@@ -2,7 +2,7 @@
 #
 # Generic Mundane Events
 #
-# ID# VIETnam.72 - 1000109125 Trait Events
+# ID# VIETnam.72 - VIETnam.96 Trait Events
 # ID# 1000109348 - 1000109356 MUSLIM Events
 # ID# 1000109357 - 1000109363 Drink and Alcohol Events
 # ID# 1000109369 - 1000109372 Elder Scrolls Reference Events

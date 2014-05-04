@@ -988,7 +988,7 @@
 	dna="aakfa0idfa0"
 	religion="catholic"
 	culture="dutch"
-	add_trait="clubfoot"
+	add_trait="clubfooted"
 	add_trait="fair"
 	#father=1000158389
 	1017.1.1={
@@ -1005,7 +1005,7 @@
 	dna="ahkja0idfa0"
 	religion="catholic"
 	culture="dutch"
-	add_trait="clubfoot"
+	add_trait="clubfooted"
 	add_trait="fair"
 	#father=1000158389
 	1047.1.1={

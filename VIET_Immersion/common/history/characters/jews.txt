@@ -576,7 +576,6 @@
 	culture="ashkenazi"
 	add_trait = "scholarly_theologian"
 	add_trait = "genius"
-	add_trait = "levite"
 
 	employer = 20256 # Mainz was an important city for Jews, so let's give them some Jews
 

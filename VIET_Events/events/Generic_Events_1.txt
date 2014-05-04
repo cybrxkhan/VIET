@@ -3110,7 +3110,7 @@ character_event = {
 
 # Character defeated by courtier in Persian chess
 character_event = {
-	id = 1000109352
+	id = VIETnam.179
 	desc = "EVTDESC1000109352"
 	picture = GFX_evt_council
 	

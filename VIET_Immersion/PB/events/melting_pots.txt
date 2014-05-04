@@ -7,7 +7,6 @@ namespace = sudanese
 namespace = tatar
 namespace = chagatai
 namespace = tajik
-namespace = pashtun
 
 #SICILIAN Melting Pot Events
 # Sicilian melting pot (bordering province)
@@ -2289,7 +2288,7 @@ province_event = {
 			OR = {
 				culture = persian
 				culture = bactrian
-				culture = pashtun
+				culture = afghan
 				culture = tajik
 			}
 		}
@@ -2360,7 +2359,7 @@ province_event = {
 				culture = persian
 				culture = bactrian
 				culture = tajik
-				culture = pashtun
+				culture = afghan
 			}
 			capital_scope = {
 				culture = tajik

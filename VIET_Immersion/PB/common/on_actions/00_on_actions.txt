@@ -924,7 +924,7 @@ on_five_year_pulse = {
 		#Generic Muslim
 		10 = VIETnam.177
 		10 = VIETnam.178
-		10 = 1000109355
+		10 = VIETnam.182
 		10 = 1000109356
 		#Shady Events
 		10 = 1000109475

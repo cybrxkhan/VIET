@@ -3661,7 +3661,7 @@ character_event = {
 
 # Hafiz Forgets Lines
 character_event = {
-	id = 1000109355
+	id = VIETnam.182
 	desc = "EVTDESC1000109355"
 	picture = GFX_evt_monk
 	

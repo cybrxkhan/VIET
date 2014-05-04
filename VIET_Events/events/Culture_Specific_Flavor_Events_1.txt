@@ -4434,7 +4434,7 @@ character_event = {
 
 # Finno-Ugric Knife
 character_event = {
-	id = 1000109451
+	id = VIETnam.278
 	desc = "EVTDESC1000109451"
 	picture = GFX_evt_snow_in_winter
 	

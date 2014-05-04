@@ -809,7 +809,7 @@ character_event = {
 
 # Soldier sacrifices self
 character_event = {
-	id = 1000109409
+	id = VIETnam.236
 	desc = EVTDESC1000109409
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

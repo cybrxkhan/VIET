@@ -10759,7 +10759,7 @@ character_event = {
 
 # Servant smuggler
 character_event = {
-	id = 1000109482 
+	id = VIETnam.304 
 	desc = "EVTDESC1000109482"
 	picture = GFX_evt_shadowy_cabal
 	

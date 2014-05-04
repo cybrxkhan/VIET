@@ -1860,7 +1860,7 @@ character_event = {
 
 # Temperate - some people say character doesn't enjoy life enough
 character_event = {
-	id = 1000109120
+	id = VIETnam.91
 	desc = "EVTDESC1000109120"
 	picture = GFX_evt_feast
 	

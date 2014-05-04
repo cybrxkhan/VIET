@@ -155,7 +155,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
@@ -229,7 +229,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
@@ -302,7 +302,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
@@ -632,7 +632,7 @@ character_event = {
 
 #Character stumbles on an "abandoned" bandit camp
 character_event = {
-	id = 1000109071
+	id = VIETnam.55
 	desc = "EVTDESC1000109071"
 	picture = GFX_evt_battle
 	

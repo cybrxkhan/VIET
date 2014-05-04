@@ -4529,7 +4529,7 @@ character_event = {
 
 # Intestine Food
 character_event = {
-	id = 1000109452
+	id = VIETnam.279
 	desc = "EVTDESC1000109452"
 	picture = GFX_evt_feast
 	

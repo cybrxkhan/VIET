@@ -8646,7 +8646,7 @@ character_event = {
 
 # Hammers and Anvils
 character_event = {
-	id = 1000109446
+	id = VIETnam.273
 	desc = "EVTDESC1000109446"
 	picture = GFX_evt_busy_trading_dock_republic
 	

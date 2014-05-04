@@ -3,7 +3,7 @@
 # Generic Mundane Events
 #
 # ID# VIETnam.72 - VIETnam.96 Trait Events
-# ID# 1000109348 - 1000109356 MUSLIM Events
+# ID# VIETnam.175 - 1000109356 MUSLIM Events
 # ID# 1000109357 - 1000109363 Drink and Alcohol Events
 # ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
 # ID# 1000109373 - 1000109377 Dirty Events
@@ -2531,7 +2531,7 @@ character_event = {
 
 # Wash face
 character_event = {
-	id = 1000109348
+	id = VIETnam.175
 	desc = "EVTDESC1000109348"
 	picture = GFX_evt_moorish_decor
 	

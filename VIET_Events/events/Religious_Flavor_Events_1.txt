@@ -5,7 +5,7 @@
 # ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
 # ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
 # ID# VIETnam.289 - VIETnam.293 Jewish Events
-# ID# 1000109493 - 1000109500 Buddhist Events
+# ID# VIETnam.315 - 1000109500 Buddhist Events
 #
 # Fired from on actions
 #
@@ -2782,7 +2782,7 @@ character_event = {
 
 # TO hunt or not?
 character_event = {
-	id = 1000109493
+	id = VIETnam.315
 	desc = "EVTDESC1000109493"
 	picture = GFX_evt_hunt
 	

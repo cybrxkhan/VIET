@@ -2,7 +2,7 @@
 #
 # VIET Health Events (For characters with certain health issues)
 #
-# Illness: VIETnam.96 - 1000109129
+# Illness: VIETnam.96 - VIETnam.99
 # Leper: 1000109130 - 1000109132
 # Blind: 1000109133 - 1000109135
 #
@@ -378,7 +378,7 @@ character_event = {
 
 # Losing appetite
 character_event = {
-	id = 1000109129
+	id = VIETnam.99
 	desc = "EVTDESC1000109129"
 	picture = GFX_evt_feast
 	

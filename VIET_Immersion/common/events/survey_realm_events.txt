@@ -168,7 +168,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
@@ -242,7 +242,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
@@ -315,7 +315,7 @@ character_event = {
 				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
 				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
@@ -1539,7 +1539,7 @@ character_event = {
 
 # Character meets a talented guard captain
 character_event = {
-	id = 1000109082
+	id = VIETnam.60
 	desc = "EVTDESC1000109082"
 	picture = GFX_evt_castle_construction
 	

@@ -336,7 +336,7 @@ on_yearly_pulse = {
 		100 = VIETnam.273
 		#Prayer Events
 		100 = VIETnam.285
-		100 = 1000109459
+		100 = VIETnam.286
 		#Shady Events
 		100 = 1000109480
 		100 = 1000109481

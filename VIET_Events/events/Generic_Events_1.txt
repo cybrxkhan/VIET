@@ -9127,7 +9127,7 @@ character_event = {
 
 # Mosque Prayer
 character_event = {
-	id = 1000109459
+	id = VIETnam.286
 	desc = "EVTDESC1000109459"
 	picture = GFX_evt_bishop_muslim
 	

@@ -1344,7 +1344,7 @@ character_event = {
 
 # Proud - Muslim fasting outside Ramadan (problem)
 character_event = {
-	id = 1000109115
+	id = VIETnam.86
 	desc = "EVTDESC1000109115"
 	picture = GFX_evt_melee
 	

@@ -1,4 +1,4 @@
-#Jewish Flavor events VIETnam.22 - 1000109037
+#Jewish Flavor events VIETnam.22 - VIETnam.29
 
 #FLAVOR EVENTS
 
@@ -653,7 +653,7 @@ character_event = {
 
 #Courtier returns from funeral
 character_event = {
-	id = 1000109037
+	id = VIETnam.29
 	desc = "EVTDESC1000109037"
 	picture = GFX_evt_moorish_decor
 

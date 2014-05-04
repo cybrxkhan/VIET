@@ -148,7 +148,7 @@ character_event = {
 
 # Character complains about youth
 character_event = {
-	id = 1000109137
+	id = VIETnam.107
 	desc = "EVTDESC1000109137"
 	picture = GFX_evt_courtiers_talking
 	

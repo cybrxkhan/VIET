@@ -34,7 +34,7 @@ character_event = {
 
 #Remove Realm Survey flag, allowing character to survey realm again
 character_event = {
-	id = 1000109049
+	id = VIETnam.34
 	desc = "EVTDESC1000109049"
 	picture = GFX_evt_small_town
 	

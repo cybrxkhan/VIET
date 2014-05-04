@@ -3432,7 +3432,7 @@ character_event = {
 
 # Begging monks
 character_event = {
-	id = 1000109499
+	id = VIETnam.321
 	desc = "EVTDESC1000109499"
 	picture = GFX_evt_buddhist_pagoda
 	

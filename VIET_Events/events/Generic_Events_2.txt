@@ -262,7 +262,7 @@ character_event = {
 
 # Bad associate
 character_event = {
-	id = 1000109512
+	id = VIETnam.334
 	desc = "EVTDESC1000109512"
 	picture = GFX_evt_busy_trading_dock_republic
 	

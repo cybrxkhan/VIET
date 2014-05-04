@@ -742,7 +742,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.331
 		10 = VIETnam.332
 		10 = VIETnam.333
-		10 = 1000109512
+		10 = VIETnam.334
 		10 = 1000109513
 		#References
 		3 = VIETmisc.2513

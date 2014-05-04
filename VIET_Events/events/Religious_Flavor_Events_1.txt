@@ -2,7 +2,7 @@
 #
 # Religious Flavor Events
 #
-# ID# 1000109329 - 1000109336 Holy Wars/Crusades/Jihads 
+# ID# VIETnam.156 - 1000109336 Holy Wars/Crusades/Jihads 
 # ID# 1000109397 - 1000109400 Zoroastrian Events
 # ID# 1000109462 - 1000109466 Jewish Events
 # ID# 1000109493 - 1000109500 Buddhist Events
@@ -17,7 +17,7 @@
 
 # Character meets lost infidel warrior
 character_event = {
-	id = 1000109329
+	id = VIETnam.156
 	desc = "EVTDESC1000109329"
 	picture = GFX_evt_crusaders
 	

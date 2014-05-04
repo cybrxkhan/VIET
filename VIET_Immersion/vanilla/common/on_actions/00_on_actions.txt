@@ -262,7 +262,7 @@ on_yearly_pulse = {
 		100 = VIETnam.104
 		100 = VIETnam.105
 		#Republic Events
-		100 = 1000109321
+		100 = VIETnam.148
 		100 = 1000109322
 		#Jewish Events
 		100 = VIETnam.22

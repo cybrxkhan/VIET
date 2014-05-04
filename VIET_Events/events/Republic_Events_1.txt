@@ -4,7 +4,7 @@
 #
 # Muslim Republics: VIETnam.128-VIETnam.137
 #
-# Republics: 1000109321-1000109328
+# Republics: VIETnam.148-1000109328
 #
 # Fired from on actions
 #
@@ -869,7 +869,7 @@ character_event = {
 
 # Pickpocket!
 character_event = {
-	id = 1000109321
+	id = VIETnam.148
 	desc = "EVTDESC1000109321"
 	picture = GFX_evt_market
 	

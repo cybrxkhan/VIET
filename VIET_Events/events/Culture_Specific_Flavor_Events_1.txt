@@ -2271,7 +2271,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
-				days = 180
+				months = 6
 			}		
 		}
 		character_event = { id = VIETnam.241 days = 7 tooltip = EVTTOOLTIP1000109414 }
@@ -2315,7 +2315,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_approves
 				who = ROOT
-				days = 180
+				months = 6
 			}		
 		}
 		set_character_flag = VIET_ton_member

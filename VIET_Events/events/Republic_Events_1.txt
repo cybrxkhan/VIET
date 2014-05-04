@@ -1513,7 +1513,7 @@ character_event = {
 			random_list = {
 				70 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
@@ -1535,7 +1535,7 @@ character_event = {
 			random_list = {
 				50 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
@@ -1556,7 +1556,7 @@ character_event = {
 			random_list = {
 				40 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
@@ -1592,7 +1592,7 @@ character_event = {
 
 # Deal fails
 character_event = {
-	id = 1000109326
+	id = VIETnam.153
 	desc = "EVTDESC1000109326"
 	picture = GFX_evt_family_feud_republic
 	

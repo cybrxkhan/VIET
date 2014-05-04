@@ -300,7 +300,7 @@ on_yearly_pulse = {
 		#Generic Food Events
 		100 = VIETnam.191
 		100 = VIETnam.192
-		100 = 1000109366
+		100 = VIETnam.193
 		100 = 1000109367
 		100 = 1000109368
 		#Elder Scrolls References Events

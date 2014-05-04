@@ -295,7 +295,7 @@ character_event = {
 
 # Sour kefir
 character_event = {
-	id = 1000109366
+	id = VIETnam.193
 	desc = "EVTDESC1000109366"
 	picture = GFX_evt_VIET_food
 	

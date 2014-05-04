@@ -4338,7 +4338,7 @@ character_event = {
 
 # Don't say bear
 character_event = {
-	id = 1000109450
+	id = VIETnam.277
 	desc = "EVTDESC1000109450"
 	picture = GFX_evt_scandal
 	

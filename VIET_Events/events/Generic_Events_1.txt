@@ -1232,7 +1232,7 @@ character_event = {
 
 # Brave - defeated bandit
 character_event = {
-	id = 1000109114
+	id = VIETnam.85
 	desc = "EVTDESC1000109114"
 	picture = GFX_evt_melee
 	

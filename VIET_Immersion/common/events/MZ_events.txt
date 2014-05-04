@@ -4,7 +4,7 @@
 
 #####Help in fighting the local bandits
 character_event = {
-	id = 1000094001
+	id = VIETnam.7
 	title = "EVTNAME1000094001"
 	desc = "EVTDESC1000094001"
 	picture = "GFX_evt_bandits"

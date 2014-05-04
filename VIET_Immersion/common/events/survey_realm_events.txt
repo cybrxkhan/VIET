@@ -282,7 +282,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			character_event = { id = 1000109054 days = 11 }
+			character_event = { id = VIETnam.39 days = 11 }
 		}
 	}
 	
@@ -347,7 +347,7 @@ character_event = {
 
 #Finish Realm Survey
 character_event = {
-	id = 1000109054
+	id = VIETnam.39
 	desc = "EVTDESC1000109054"
 	picture = GFX_evt_coming_home
 	

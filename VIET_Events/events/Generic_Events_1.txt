@@ -5557,7 +5557,7 @@ character_event = {
 
 # Fertilizer
 character_event = {
-	id = 1000109375
+	id = VIETnam.202
 	desc = "EVTDESC1000109375"
 	picture = GFX_evt_tuscan_country
 	

@@ -1042,7 +1042,7 @@ on_yearly_childhood_pulse = {
 		#Attribute gain
 		35 = VIETnam.323
 		35 = VIETnam.325
-		35 = 1000109505
+		35 = VIETnam.327
 		35 = 1000109507
 		#Bugs
 		10 = 1000109514

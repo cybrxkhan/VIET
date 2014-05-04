@@ -595,7 +595,7 @@ character_event = {
 
 # intrigue gain - ward
 character_event = {
-	id = 1000109505
+	id = VIETnam.327
 	desc = "EVTDESC1000109505"
 	picture = GFX_evt_child_bully
 	

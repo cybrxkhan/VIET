@@ -504,7 +504,7 @@ character_event = {
 
 # Character figures what exotic wares to buy
 character_event = {
-	id = 1000109307
+	id = VIETnam.134
 	desc = "EVTDESC1000109307"
 	picture = GFX_evt_bazaar
 	

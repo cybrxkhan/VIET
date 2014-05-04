@@ -705,7 +705,7 @@ character_event = {
 }
 
 character_event = {
-	id = 1000026001		#family_relations.2
+	id = VIETnam.1		#family_relations.2
 	desc = EVTDESCfamily_relations.2
 	picture = GFX_evt_marriage
 	

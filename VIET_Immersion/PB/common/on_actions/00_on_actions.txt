@@ -1354,7 +1354,7 @@ on_crusade_creation = {
 on_marriage = {
 	events = {
 		VIETnam.0
-		1000026001
+		VIETnam.1
  		500 # Royal Marriage Aid Duty
  		501 # Zoroastrian "Xwedodah" marriage
  		502 # Messalian close kin marriage

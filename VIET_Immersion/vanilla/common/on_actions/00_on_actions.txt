@@ -285,7 +285,7 @@ on_yearly_pulse = {
 		100 = VIETnam.165
 		100 = VIETnam.166
 		100 = VIETnam.167
-		100 = 1000109341
+		100 = VIETnam.168
 		100 = 1000109342
 		#Generic Muslim
 		100 = 1000109348

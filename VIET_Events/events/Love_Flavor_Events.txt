@@ -1026,7 +1026,7 @@ character_event = {
 
 #Character & lover's display of affections are getting out of hand
 character_event = {
-	id = 1000109341
+	id = VIETnam.168
 	desc = "EVTDESC1000109341"
 	picture = GFX_evt_scandal
 	

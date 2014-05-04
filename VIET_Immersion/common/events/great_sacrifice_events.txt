@@ -148,7 +148,7 @@ character_event = {
 
 #Happiness
 character_event = {
-	id = 1000109016
+	id = VIETnam.17
 	desc = "EVTDESC1000109016"
 	picture = "GFX_evt_pagan"
 	
@@ -211,7 +211,7 @@ character_event = {
 		hidden_tooltip = {
 			random_list = {
 				24 = { character_event = { id = 1000109017 days = 2 } } # Character forgets a line
-				24 = { character_event = { id = 1000109016 days = 2 } } # Character is inspired
+				24 = { character_event = { id = VIETnam.17 days = 2 } } # Character is inspired
 				24 = { character_event = { id = VIETnam.16 days = 2 } } # Character feels the presence of a god
 				24 = { character_event = { id = VIETnam.15 days = 2 } } # Character has peace of mind
 				4 = { } # Nothing happens - how unlucky

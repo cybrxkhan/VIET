@@ -520,7 +520,7 @@ character_event = {
 
 #Zealous liege reconsiders hatred of Jews - hath not a Jew eyes?
 character_event = {
-	id = 1000109029
+	id = VIETnam.28
 	desc = "EVTDESC1000109029"
 	picture = GFX_evt_moorish_decor
 	

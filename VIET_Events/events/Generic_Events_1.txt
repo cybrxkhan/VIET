@@ -2904,7 +2904,7 @@ character_event = {
 
 # Scholar from the House of Wisdom
 character_event = {
-	id = 1000109350
+	id = VIETnam.177
 	desc = "EVTDESC1000109350"
 	picture = GFX_evt_moorish_decor
 	

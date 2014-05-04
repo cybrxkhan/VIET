@@ -922,7 +922,7 @@ on_five_year_pulse = {
 		10 = VIETnam.116
 		10 = VIETnam.118
 		#Generic Muslim
-		10 = 1000109350
+		10 = VIETnam.177
 		10 = 1000109351
 		10 = 1000109355
 		10 = 1000109356

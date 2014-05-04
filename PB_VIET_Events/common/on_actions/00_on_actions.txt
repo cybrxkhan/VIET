@@ -296,7 +296,7 @@ on_yearly_pulse = {
 		100 = VIETnam.176
 		100 = VIETnam.179
 		100 = VIETnam.180
-		100 = 1000109354
+		100 = VIETnam.181
 		#Generic Alcohol events
 		100 = 1000109357
 		100 = 1000109362

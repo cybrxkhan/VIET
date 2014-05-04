@@ -3586,7 +3586,7 @@ character_event = {
 
 # Piety Throughout Muslim World
 character_event = {
-	id = 1000109354
+	id = VIETnam.181
 	desc = "EVTDESC1000109354"
 	picture = GFX_evt_hagia_sofia
 	

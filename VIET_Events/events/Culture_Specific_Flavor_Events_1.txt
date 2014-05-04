@@ -2128,7 +2128,7 @@ character_event = {
 
 # Ton Fraternity Event Chain
 character_event = {
-	id = 1000109413
+	id = VIETnam.240
 	desc = "EVTDESC1000109413"
 	picture = GFX_evt_dogon_village
 	

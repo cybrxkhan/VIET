@@ -82,7 +82,7 @@ character_event = {
 
 # Best savanna animal?
 character_event = {
-	id = 1000109344
+	id = VIETnam.171
 	desc = "EVTDESC1000109344"
 	picture = GFX_evt_african_savanna
 	

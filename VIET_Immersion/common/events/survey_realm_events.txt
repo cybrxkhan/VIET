@@ -162,7 +162,7 @@ character_event = {
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
@@ -236,7 +236,7 @@ character_event = {
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
@@ -309,7 +309,7 @@ character_event = {
 				#Society (4)
 				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
 				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
 				#Relations (4)
 				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
@@ -1092,7 +1092,7 @@ character_event = {
 
 # Character finds about untrained soldiers at a fort
 character_event = {
-	id = 1000109065
+	id = VIETnam.50
 	desc = "EVTDESC1000109065"
 	picture = GFX_evt_coming_home
 	

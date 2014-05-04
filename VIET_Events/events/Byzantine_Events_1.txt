@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# VIETnam.111 - 1000109169
+# ID# VIETnam.111 - VIETnam.120
 #
 # Fired from on actions
 #
@@ -955,7 +955,7 @@ character_event = {
 		random_list = {
 			50 = {
 				character_event = { #Merchant is innocent
-					id = 1000109169
+					id = VIETnam.120
 					tooltip = "EVTTOOLTIP1000109169"
 				}
 			}
@@ -979,7 +979,7 @@ character_event = {
 
 # Merchant is innocent
 character_event = {
-	id = 1000109169
+	id = VIETnam.120
 	desc = "EVTDESC1000109169"
 	picture = GFX_evt_baklava
 	

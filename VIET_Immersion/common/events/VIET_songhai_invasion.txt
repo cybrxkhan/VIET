@@ -2,7 +2,7 @@
 #
 # Events for the rise of the Songhai Empire
 #
-# VIETnam.125, 1000109213 - 1000109214
+# VIETnam.125, VIETnam.126 - 1000109214
 #
 ################################################################
 
@@ -316,7 +316,7 @@ narrative_event = {
 
 # Songhai sack Kiev
 narrative_event = {
-	id = 1000109213
+	id = VIETnam.126
 	title = "EVTNAME1000109213"
 	desc = "EVTDESC1000109213"
 	major = yes

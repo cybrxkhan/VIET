@@ -10634,7 +10634,7 @@ character_event = {
 
 # Servant Scam
 character_event = {
-	id = 1000109481 
+	id = VIETnam.303 
 	desc = "EVTDESC1000109481"
 	picture = GFX_evt_tuscan_country
 	

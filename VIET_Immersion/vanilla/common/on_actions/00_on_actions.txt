@@ -225,7 +225,7 @@ on_yearly_pulse = {
 		#VIET EVENTS
 		#Generic Set 1
 		100 = VIETnam.71
-		100 = 1000109101
+		100 = VIETnam.72
 		100 = 1000109102
 		100 = 1000109103
 		100 = 1000109104

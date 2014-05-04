@@ -2,7 +2,7 @@
 #
 # Generic Mundane Events
 #
-# ID# 1000109101 - 1000109125 Trait Events
+# ID# VIETnam.72 - 1000109125 Trait Events
 # ID# 1000109348 - 1000109356 MUSLIM Events
 # ID# 1000109357 - 1000109363 Drink and Alcohol Events
 # ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
@@ -22,7 +22,7 @@
 
 # Slothful - Don't Like Working
 character_event = {
-	id = 1000109101
+	id = VIETnam.72
 	desc = "EVTDESC1000109101"
 	picture = GFX_evt_garden
 	

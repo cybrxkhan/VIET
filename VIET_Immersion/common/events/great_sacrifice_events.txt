@@ -2,7 +2,7 @@
 #Pagan/Zoroastrian Sacrifice
 
 character_event = {
-	id = 1000109004
+	id = VIETnam.14
 	desc = "EVTDESC1000109004"
 	picture = "GFX_evt_pagan"
 	

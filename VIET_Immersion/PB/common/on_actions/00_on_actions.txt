@@ -411,7 +411,7 @@ on_yearly_pulse = {
 		#Jewish
 		100 = VIETnam.289
 		100 = VIETnam.291
-		100 = 1000109466
+		100 = VIETnam.293
 		#Buddhist
 		100 = 1000109493
 		100 = 1000109495
@@ -728,7 +728,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.264
 		10 = VIETnam.265
 		#Memories events
-		10 = 1000109466
+		10 = VIETnam.293
 		10 = 1000109468
 		10 = 1000109469
 		10 = 1000109472

@@ -4,7 +4,7 @@
 #
 # ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
 # ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
-# ID# VIETnam.289 - 1000109466 Jewish Events
+# ID# VIETnam.289 - VIETnam.293 Jewish Events
 # ID# 1000109493 - 1000109500 Buddhist Events
 #
 # Fired from on actions
@@ -2708,7 +2708,7 @@ character_event = {
 
 # Morning prayers
 character_event = {
-	id = 1000109466
+	id = VIETnam.293
 	desc = "EVTDESC1000109466"
 	picture = GFX_evt_the_torah
 	

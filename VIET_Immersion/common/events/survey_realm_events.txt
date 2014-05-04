@@ -2,7 +2,7 @@
 #
 # Survey Realm Events
 #
-# Reserved: 1000109048 - 1000109092
+# Reserved: VIETnam.33 - VIETnam.70
 #
 #
 ###################################
@@ -12,7 +12,7 @@ namespace = qimatheliar
 
 #Survey Realm interrupted
 character_event = {
-	id = 1000109048
+	id = VIETnam.33
 	desc = "EVTDESC1000109048"
 	picture = GFX_evt_coming_home
 	
@@ -34,7 +34,7 @@ character_event = {
 
 #Remove Realm Survey flag, allowing character to survey realm again
 character_event = {
-	id = 1000109049
+	id = VIETnam.34
 	desc = "EVTDESC1000109049"
 	picture = GFX_evt_small_town
 	
@@ -104,7 +104,7 @@ character_event = {
 
 #Preparations for Realm Survey
 character_event = {
-	id = 1000109050
+	id = VIETnam.35
 	desc = "EVTDESC1000109050"
 	picture = GFX_evt_emissary
 	
@@ -124,14 +124,14 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109050"
 		clr_character_flag = begin_survey_realm
-		character_event = { id = 1000109051 days = 3 tooltip = "EVTTOOLTIP1000109050" }
+		character_event = { id = VIETnam.36 days = 3 tooltip = "EVTTOOLTIP1000109050" }
 	}
 }
 
 
 #Begin Survey Realm
 character_event = {
-	id = 1000109051
+	id = VIETnam.36
 	desc = "EVTDESC1000109051"
 	picture = GFX_evt_travel
 	
@@ -139,7 +139,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			character_event = { id = 1000109052 days = 11 }
+			character_event = { id = VIETnam.37 days = 11 }
 		}
 	}
 	
@@ -149,36 +149,36 @@ character_event = {
 		hidden_tooltip = { #Qi Ma the Liar
 			random_list = {
 				90 = { }
-				10 = {  character_event = { id = 1000109055 days = 3 random = 3 } set_character_flag = maiq_the_liar }
+				10 = {  character_event = { id = VIETnam.40 days = 3 random = 3 } set_character_flag = maiq_the_liar }
 			}
 		}
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109061 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.56 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
-				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
-				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -201,7 +201,7 @@ character_event = {
 
 #Middle Survey Realm
 character_event = {
-	id = 1000109052
+	id = VIETnam.37
 	desc = "EVTDESC1000109052"
 	picture = GFX_evt_travel
 	
@@ -209,7 +209,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			character_event = { id = 1000109053 days = 11 }
+			character_event = { id = VIETnam.38 days = 11 }
 		}
 	}
 	
@@ -222,37 +222,37 @@ character_event = {
 			hidden_tooltip = { #Qi Ma the Liar
 				random_list = {
 					90 = { }
-					10 = {  character_event = { id = 1000109055 days = 2 random = 3 } set_character_flag = maiq_the_liar }
+					10 = {  character_event = { id = VIETnam.40 days = 2 random = 3 } set_character_flag = maiq_the_liar }
 				}
 			}
 		}
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109061 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.56 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
-				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
-				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -274,7 +274,7 @@ character_event = {
 
 #Nearing end of Realm Survey
 character_event = {
-	id = 1000109053
+	id = VIETnam.38
 	desc = "EVTDESC1000109053"
 	picture = GFX_evt_travel
 	
@@ -282,7 +282,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			character_event = { id = 1000109054 days = 11 }
+			character_event = { id = VIETnam.39 days = 11 }
 		}
 	}
 	
@@ -295,37 +295,37 @@ character_event = {
 			hidden_tooltip = { #Qi Ma the Liar
 				random_list = {
 					90 = { }
-					10 = {  character_event = { id = 1000109055 days = 2 random = 2 } set_character_flag = maiq_the_liar }
+					10 = {  character_event = { id = VIETnam.40 days = 2 random = 2 } set_character_flag = maiq_the_liar }
 				}
 			}
 		}
 		hidden_tooltip = {
 			random_list = {
 				#Conflict (4)
-				3 = {  character_event = { id = 1000109071 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109072 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109061 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109062 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.55 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.56 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.46 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.47 days = 2 random = 3 } }
 				#Society (4)
-				3 = {  character_event = { id = 1000109063 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109064 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109065 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109066 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.48 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.49 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.50 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.51 days = 2 random = 3 } }
 				#Relations (4)
-				3 = {  character_event = { id = 1000109068 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109069 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109080 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109082 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.53 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.54 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.58 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.60 days = 2 random = 3 } }
 				#Intrigue (4)
-				3 = {  character_event = { id = 1000109083 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109084 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109085 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109086 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.61 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.62 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.63 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.64 days = 2 random = 3 } }
 				#Nature (4)
-				3 = {  character_event = { id = 1000109088 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109089 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109090 days = 2 random = 3 } }
-				3 = {  character_event = { id = 1000109092 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.66 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.67 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.68 days = 2 random = 3 } }
+				3 = {  character_event = { id = VIETnam.70 days = 2 random = 3 } }
 				#Set 2 (13)
 				4 = {  character_event = { id = VIETsurvey.1 days = 2 random = 3 } }
 				3 = {  character_event = { id = VIETsurvey.2 days = 2 random = 3 } }
@@ -347,7 +347,7 @@ character_event = {
 
 #Finish Realm Survey
 character_event = {
-	id = 1000109054
+	id = VIETnam.39
 	desc = "EVTDESC1000109054"
 	picture = GFX_evt_coming_home
 	
@@ -367,7 +367,7 @@ character_event = {
 
 #Qi Ma the Liar
 character_event = {
-	id = 1000109055
+	id = VIETnam.40
 	desc = "EVTDESC1000109055"
 	picture = GFX_evt_small_town
 	
@@ -378,11 +378,11 @@ character_event = {
 		prestige = -5
 		hidden_tooltip = {
 			random_list = {
-				20 = {  character_event = { id = 1000109056 } }
-				20 = {  character_event = { id = 1000109057 } }
-				20 = {  character_event = { id = 1000109058 } }
-				20 = {  character_event = { id = 1000109059 } }
-				20 = {  character_event = { id = 1000109060 } }
+				20 = {  character_event = { id = VIETnam.41 } }
+				20 = {  character_event = { id = VIETnam.42 } }
+				20 = {  character_event = { id = VIETnam.43 } }
+				20 = {  character_event = { id = VIETnam.44 } }
+				20 = {  character_event = { id = VIETnam.45 } }
 			}
 		}
 	}
@@ -395,7 +395,7 @@ character_event = {
 
 #Qi Ma 1 - Firstborn sons
 character_event = {
-	id = 1000109056
+	id = VIETnam.41
 	desc = "EVTDESC1000109056"
 	picture = GFX_evt_child_bully
 	
@@ -412,7 +412,7 @@ character_event = {
 
 #Qi Ma 2 - So many flavor events
 character_event = {
-	id = 1000109057
+	id = VIETnam.42
 	desc = "EVTDESC1000109057"
 	picture = GFX_evt_coming_home
 	
@@ -440,7 +440,7 @@ character_event = {
 
 #Qi Ma 3 - Portrait DLCs
 character_event = {
-	id = 1000109058
+	id = VIETnam.43
 	desc = "EVTDESC1000109058"
 	picture = GFX_evt_shadow
 	
@@ -464,7 +464,7 @@ character_event = {
 
 #Qi Ma 4 - 	Byzantines always play Tzykanion
 character_event = {
-	id = 1000109059
+	id = VIETnam.44
 	desc = "EVTDESC1000109059"
 	picture = GFX_evt_feast
 	
@@ -512,7 +512,7 @@ character_event = {
 
 #Qi Ma 5 - Catholic Church is Open-minded
 character_event = {
-	id = 1000109060
+	id = VIETnam.45
 	desc = "EVTDESC1000109060"
 	picture = GFX_evt_pope
 	
@@ -632,7 +632,7 @@ character_event = {
 
 #Character stumbles on an "abandoned" bandit camp
 character_event = {
-	id = 1000109071
+	id = VIETnam.55
 	desc = "EVTDESC1000109071"
 	picture = GFX_evt_battle
 	
@@ -691,7 +691,7 @@ character_event = {
 
 #Character comes across a caravan of massacred merchants
 character_event = {
-	id = 1000109072
+	id = VIETnam.56
 	desc = "EVTDESC1000109072"
 	picture = GFX_evt_pale_rider
 	
@@ -792,7 +792,7 @@ character_event = {
 
 #Character attacked by bandits, bandits defeated
 character_event = {
-	id = 1000109061
+	id = VIETnam.46
 	desc = "EVTDESC1000109061"
 	picture = GFX_evt_bandits
 	
@@ -926,7 +926,7 @@ character_event = {
 
 #Character comes across unburied skeleton
 character_event = {
-	id = 1000109062
+	id = VIETnam.47
 	desc = "EVTDESC1000109062"
 	picture = GFX_evt_bloody_man
 	
@@ -937,7 +937,7 @@ character_event = {
 		wealth = -1
 		piety = 5
 		character_event = {
-			id = 1000109075
+			id = VIETnam.57
 			tooltip = "EVTTOOLTIP1000109075"
 		}
 	}
@@ -950,7 +950,7 @@ character_event = {
 
 #Ghost of skeleton appears and tells character location of treasure
 character_event = {
-	id = 1000109075
+	id = VIETnam.57
 	desc = "EVTDESC1000109075"
 	picture = GFX_evt_pale_rider
 	
@@ -991,7 +991,7 @@ character_event = {
 
 # Minor Outpost Falling into Disrepair
 character_event = {
-	id = 1000109063
+	id = VIETnam.48
 	desc = "EVTDESC1000109063"
 	picture = GFX_evt_castle_construction
 	
@@ -1028,7 +1028,7 @@ character_event = {
 
 # Character visits a city's Pleasure Quarters
 character_event = {
-	id = 1000109064
+	id = VIETnam.49
 	desc = "EVTDESC1000109064"
 	picture = GFX_evt_brothel
 	
@@ -1092,7 +1092,7 @@ character_event = {
 
 # Character finds about untrained soldiers at a fort
 character_event = {
-	id = 1000109065
+	id = VIETnam.50
 	desc = "EVTDESC1000109065"
 	picture = GFX_evt_coming_home
 	
@@ -1127,7 +1127,7 @@ character_event = {
 
 # Character comes to a poor village and decides whether to stay for the night
 character_event = {
-	id = 1000109066
+	id = VIETnam.51
 	desc = "EVTDESC1000109066"
 	picture = GFX_evt_village_at_night
 	
@@ -1138,7 +1138,7 @@ character_event = {
 		name = "EVTOPTA1000109066"
 		prestige = -5
 		character_event = {
-			id = 1000109067
+			id = VIETnam.52
 			tooltip = "EVTTOOLTIP1000109067"
 		}
 	}
@@ -1158,7 +1158,7 @@ character_event = {
 
 # Villagers offer present to character
 character_event = {
-	id = 1000109067
+	id = VIETnam.52
 	desc = "EVTDESC1000109067"
 	picture = GFX_evt_small_town
 	
@@ -1228,7 +1228,7 @@ character_event = {
 
 # Character visits a religious site
 character_event = {
-	id = 1000109068
+	id = VIETnam.53
 	desc = "EVTDESC1000109068"
 	picture = GFX_evt_knight_kneeling
 	
@@ -1317,7 +1317,7 @@ character_event = {
 
 # Character visits a vassal who has crappy food
 character_event = {
-	id = 1000109069
+	id = VIETnam.54
 	desc = "EVTDESC1000109069"
 	picture = GFX_evt_baklava
 	
@@ -1402,7 +1402,7 @@ character_event = {
 
 # Character finds a lost child in the middle of the forest
 character_event = {
-	id = 1000109080
+	id = VIETnam.58
 	desc = "EVTDESC1000109080"
 	picture = GFX_evt_child_play
 	
@@ -1465,7 +1465,7 @@ character_event = {
 			}
 		}
 		character_event = {
-			id = 1000109081
+			id = VIETnam.59
 			tooltip = "EVTTOOLTIP1000109081"
 		}
 	}
@@ -1474,7 +1474,7 @@ character_event = {
 
 # Character returns child to her parent
 character_event = {
-	id = 1000109081
+	id = VIETnam.59
 	desc = "EVTDESC1000109081"
 	picture = GFX_evt_market
 	
@@ -1539,7 +1539,7 @@ character_event = {
 
 # Character meets a talented guard captain
 character_event = {
-	id = 1000109082
+	id = VIETnam.60
 	desc = "EVTDESC1000109082"
 	picture = GFX_evt_castle_construction
 	
@@ -1662,7 +1662,7 @@ character_event = {
 
 # Character finds bandits disguised as his soldiers
 character_event = {
-	id = 1000109083
+	id = VIETnam.61
 	desc = "EVTDESC1000109083"
 	picture = GFX_evt_melee
 	
@@ -1684,7 +1684,7 @@ character_event = {
 
 # Character hearing conversations in a town
 character_event = {
-	id = 1000109084
+	id = VIETnam.62
 	desc = "EVTDESC1000109084"
 	picture = GFX_evt_small_town
 	
@@ -1706,7 +1706,7 @@ character_event = {
 
 # Character hearing conversations in a peasant village
 character_event = {
-	id = 1000109085
+	id = VIETnam.63
 	desc = "EVTDESC1000109085"
 	picture = GFX_evt_village_at_night
 	
@@ -1728,7 +1728,7 @@ character_event = {
 
 # Character meets Glarthir
 character_event = {
-	id = 1000109086
+	id = VIETnam.64
 	desc = "EVTDESC1000109086"
 	picture = GFX_evt_village_at_night
 	
@@ -1741,7 +1741,7 @@ character_event = {
 	option = { #Meet Glarthir at midnight
 		name = "EVTOPTB1000109086"
 		character_event = {
-			id = 1000109087
+			id = VIETnam.65
 			tooltip = "EVTTOOLTIP1000109087"
 		}
 	}
@@ -1749,7 +1749,7 @@ character_event = {
 
 # Glarthir on the loose
 character_event = {
-	id = 1000109087
+	id = VIETnam.65
 	desc = "EVTDESC1000109087"
 	picture = GFX_evt_lunatic
 	
@@ -1778,7 +1778,7 @@ character_event = {
 
 # Character comes across traveling baklava Merchant
 character_event = {
-	id = 1000109088
+	id = VIETnam.66
 	desc = "EVTDESC1000109088"
 	picture = GFX_evt_baklava
 	
@@ -1842,7 +1842,7 @@ character_event = {
 
 # Character comes across city boy harassing peasant girl
 character_event = {
-	id = 1000109089
+	id = VIETnam.67
 	desc = "EVTDESC1000109089"
 	picture = GFX_evt_tuscan_country
 	
@@ -1899,7 +1899,7 @@ character_event = {
 
 # Character comes across a traveling musician
 character_event = {
-	id = 1000109090
+	id = VIETnam.68
 	desc = "EVTDESC1000109090"
 	picture = GFX_evt_tuscan_country
 	
@@ -1918,7 +1918,7 @@ character_event = {
 		name = "EVTOPTB1000109090"
 		wealth = -1
 		character_event = {
-			id = 1000109091
+			id = VIETnam.69
 			tooltip = "EVTTOOLTIP1000109091"
 		}
 	}
@@ -1926,7 +1926,7 @@ character_event = {
 
 # Character listens to musician
 character_event = {
-	id = 1000109091
+	id = VIETnam.69
 	desc = "EVTDESC1000109091"
 	picture = GFX_evt_tuscan_country
 	
@@ -1946,7 +1946,7 @@ character_event = {
 
 # Character sees peasants working
 character_event = {
-	id = 1000109092
+	id = VIETnam.70
 	desc = "EVTDESC1000109092"
 	picture = GFX_evt_autumn_harvest
 	

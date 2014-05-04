@@ -2,9 +2,9 @@
 #
 # Republic Flavor Events
 #
-# Muslim Republics: 1000109301-1000109310
+# Muslim Republics: VIETnam.128-VIETnam.137
 #
-# Republics: 1000109321-1000109328
+# Republics: VIETnam.148-VIETnam.155
 #
 # Fired from on actions
 #
@@ -12,7 +12,7 @@
 
 # Coffee arrives in character's city
 character_event = {
-	id = 1000109301
+	id = VIETnam.128
 	desc = "EVTDESC1000109301"
 	picture = GFX_evt_bazaar
 	
@@ -108,7 +108,7 @@ character_event = {
 
 # Sinbad the Sailor visits character
 character_event = {
-	id = 1000109302
+	id = VIETnam.129
 	desc = "EVTDESC1000109302"
 	picture = GFX_evt_moorish_decor
 	
@@ -188,7 +188,7 @@ character_event = {
 
 # Character considers donating money to the poor
 character_event = {
-	id = 1000109303
+	id = VIETnam.130
 	desc = "EVTDESC1000109303"
 	picture = GFX_evt_moorish_decor
 	
@@ -277,7 +277,7 @@ character_event = {
 
 # Ambassador from the Orient arrives
 character_event = {
-	id = 1000109304
+	id = VIETnam.131
 	desc = "EVTDESC1000109304"
 	picture = GFX_evt_kraken
 	
@@ -341,7 +341,7 @@ character_event = {
 
 # Character gets baklava
 character_event = {
-	id = 1000109305
+	id = VIETnam.132
 	desc = "EVTDESC1000109305"
 	picture = GFX_evt_baklava
 	
@@ -437,7 +437,7 @@ character_event = {
 
 # Character tells Western merchant about his/her people
 character_event = {
-	id = 1000109306
+	id = VIETnam.133
 	desc = "EVTDESC1000109306"
 	picture = GFX_evt_moorish_decor
 	
@@ -504,7 +504,7 @@ character_event = {
 
 # Character figures what exotic wares to buy
 character_event = {
-	id = 1000109307
+	id = VIETnam.134
 	desc = "EVTDESC1000109307"
 	picture = GFX_evt_bazaar
 	
@@ -579,7 +579,7 @@ character_event = {
 
 # Pickpocket!
 character_event = {
-	id = 1000109308
+	id = VIETnam.135
 	desc = "EVTDESC1000109308"
 	picture = GFX_evt_bazaar
 	
@@ -649,7 +649,7 @@ character_event = {
 	option = { #After him!
 		name = "EVTOPTA1000109308"
 		wealth = -1
-		character_event = { id = 1000109309 tooltip = "EVTTOOLTIP1000109309" }
+		character_event = { id = VIETnam.136 tooltip = "EVTTOOLTIP1000109309" }
 		set_character_flag = VIET_pickpocket_event
 	}
 	
@@ -679,7 +679,7 @@ character_event = {
 
 # Catch up to the pickpocket
 character_event = {
-	id = 1000109309
+	id = VIETnam.136
 	desc = "EVTDESC1000109309"
 	picture = GFX_evt_bazaar
 	
@@ -696,14 +696,14 @@ character_event = {
 		name = "EVTOPTB1000109309"
 		wealth = 1
 		piety = 10
-		character_event = { id = 1000109310 tooltip = "EVTTOOLTIP1000109310" }
+		character_event = { id = VIETnam.137 tooltip = "EVTTOOLTIP1000109310" }
 	}
 }
 
 
 # Child tells backstory
 character_event = {
-	id = 1000109310
+	id = VIETnam.137
 	desc = "EVTDESC1000109310"
 	picture = GFX_evt_bazaar
 	
@@ -869,7 +869,7 @@ character_event = {
 
 # Pickpocket!
 character_event = {
-	id = 1000109321
+	id = VIETnam.148
 	desc = "EVTDESC1000109321"
 	picture = GFX_evt_market
 	
@@ -1045,7 +1045,7 @@ character_event = {
 
 # Ruined clothes
 character_event = {
-	id = 1000109322
+	id = VIETnam.149
 	desc = "EVTDESC1000109322"
 	picture = GFX_evt_doge_republic
 	
@@ -1209,7 +1209,7 @@ character_event = {
 
 # Grounded Ship
 character_event = {
-	id = 1000109323
+	id = VIETnam.150
 	desc = "EVTDESC1000109323"
 	picture = GFX_evt_trade_post_republic
 	
@@ -1322,7 +1322,7 @@ character_event = {
 
 # Religious convictions for character gets in the way
 character_event = {
-	id = 1000109324
+	id = VIETnam.151
 	desc = "EVTDESC1000109324"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -1439,7 +1439,7 @@ character_event = {
 
 # Character's associate gone bankrupt, asks for money
 character_event = {
-	id = 1000109325
+	id = VIETnam.152
 	desc = "EVTDESC1000109325"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -1513,14 +1513,14 @@ character_event = {
 			random_list = {
 				70 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
 				}
 				30 = {
 					character_event = { #succeeds
-						id = 1000109327
+						id = VIETnam.154
 						tooltip = "EVTTOOLTIP1000109327"
 						days = 3
 					}
@@ -1535,14 +1535,14 @@ character_event = {
 			random_list = {
 				50 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
 				}
 				50 = {
 					character_event = { #succeeds
-						id = 1000109327
+						id = VIETnam.154
 						tooltip = "EVTTOOLTIP1000109327"
 						days = 3
 					}
@@ -1556,14 +1556,14 @@ character_event = {
 			random_list = {
 				40 = {
 					character_event = { #fails
-						id = 1000109326
+						id = VIETnam.153
 						tooltip = "EVTTOOLTIP1000109326"
 						days = 3
 					}
 				}
 				60 = {
 					character_event = { #succeeds
-						id = 1000109327
+						id = VIETnam.154
 						tooltip = "EVTTOOLTIP1000109327"
 						days = 3
 					}
@@ -1592,7 +1592,7 @@ character_event = {
 
 # Deal fails
 character_event = {
-	id = 1000109326
+	id = VIETnam.153
 	desc = "EVTDESC1000109326"
 	picture = GFX_evt_family_feud_republic
 	
@@ -1683,7 +1683,7 @@ character_event = {
 
 # Deal works!
 character_event = {
-	id = 1000109327
+	id = VIETnam.154
 	desc = "EVTDESC1000109327"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -1746,7 +1746,7 @@ character_event = {
 
 # Character misjudged prices
 character_event = {
-	id = 1000109328
+	id = VIETnam.155
 	desc = "EVTDESC1000109328"
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	

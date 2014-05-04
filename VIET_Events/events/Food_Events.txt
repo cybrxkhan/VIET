@@ -3,7 +3,7 @@
 # Food Events:
 # Events pertaining to culture/religion/region-specific cuisine and eating culture
 #
-# ID# 1000109364 - 1000109368
+# ID# VIETnam.191 - VIETnam.195
 #
 # Fired from on actions
 #
@@ -11,7 +11,7 @@
 
 # Lazy Byzantine Cook
 character_event = {
-	id = 1000109364
+	id = VIETnam.191
 	desc = "EVTDESC1000109364"
 	picture = GFX_evt_VIET_food
 	
@@ -172,7 +172,7 @@ character_event = {
 
 # Forks are terrible!
 character_event = {
-	id = 1000109365
+	id = VIETnam.192
 	desc = "EVTDESC1000109365"
 	picture = GFX_evt_VIET_food
 	
@@ -295,7 +295,7 @@ character_event = {
 
 # Sour kefir
 character_event = {
-	id = 1000109366
+	id = VIETnam.193
 	desc = "EVTDESC1000109366"
 	picture = GFX_evt_VIET_food
 	
@@ -383,7 +383,7 @@ character_event = {
 
 # N. African mint tea ceremony
 character_event = {
-	id = 1000109367
+	id = VIETnam.194
 	desc = "EVTDESC1000109367"
 	picture = GFX_evt_VIET_food
 	
@@ -400,7 +400,6 @@ character_event = {
 		OR = {
 			culture_group = north_african
 			culture = maghreb_arabic
-			culture = maghreb_arabic
 			culture = andalusian_arabic
 			culture = siculo_arabic
 			culture = egyptian_arabic
@@ -409,7 +408,6 @@ character_event = {
 			is_adult = yes
 			OR = {
 				culture_group = north_african
-				culture = maghreb_arabic
 				culture = maghreb_arabic
 				culture = andalusian_arabic
 				culture = siculo_arabic
@@ -464,7 +462,6 @@ character_event = {
 				OR = {
 					culture_group = north_african
 					culture = maghreb_arabic
-					culture = maghreb_arabic
 					culture = andalusian_arabic
 					culture = siculo_arabic
 					culture = egyptian_arabic
@@ -482,7 +479,7 @@ character_event = {
 
 # Mongol pit stop
 character_event = {
-	id = 1000109368
+	id = VIETnam.195
 	desc = "EVTDESC1000109368"
 	picture = GFX_evt_VIET_food
 	

@@ -2,7 +2,7 @@ namespace = VIETmisc
 
 #Become old
 character_event = {
-	id = 1000109000
+	id = VIETnam.13
 	desc = "EVTDESC1000109000"
 	picture = "GFX_evt_pale_rider"
 	
@@ -272,7 +272,7 @@ character_event = {
 
 #Character begins to push claim on Byzantine throne through decision
 character_event = {
-	id = 1000109019
+	id = VIETnam.20
 	desc = "EVTDESC1000109019"
 	picture = "GFX_evt_emissary"
 	
@@ -287,7 +287,7 @@ character_event = {
 
 #Character has completed seizing the throne for him/herself
 character_event = {
-	id = 1000109044
+	id = VIETnam.30
 	desc = "EVTDESC1000109044"
 	picture = "GFX_evt_emissary"
 	
@@ -315,7 +315,7 @@ character_event = {
 
 # Claim by battle on ERE (credits to ChildeR)
 character_event = {
-	id = 1000109045
+	id = VIETnam.31
 	desc = "EVTDESC1000109045"
 	picture = "GFX_evt_battle"
 	border = GFX_event_normal_frame_war
@@ -829,7 +829,7 @@ character_event = {
 
 #Become Young (if not young before)
 character_event = {
-	id = 1000109205
+	id = VIETnam.122
 	desc = "EVTDESC1000109205"
 	picture = "GFX_evt_child_play"
 	
@@ -856,7 +856,7 @@ character_event = {
 
 #Lose Youth
 character_event = {
-	id = 1000109206
+	id = VIETnam.123
 	desc = "EVTDESC1000109206"
 	picture = "GFX_evt_child_play"
 	

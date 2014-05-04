@@ -3554,7 +3554,7 @@ decisions = {
 	}
 
 	# Pagans can convert to the Bosnian faith if their wife or a concubine is a believer
-	convert_to_spouse_bosnian = {
+	convert_to_spouse_bosnian_religion = {
 		potential = {
 			is_playable = yes
 			religion_group = pagan_group

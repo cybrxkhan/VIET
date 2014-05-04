@@ -5,7 +5,7 @@
 #####################################################################################
 
 e_africa = {
-	color={ 25 258 20 }
+	color={ 25 255 20 }
 	color2={ 255 255 255 }
 	
 	capital = 843 # Marrakech
@@ -27,7 +27,7 @@ e_caucasia = {
 	
 	capital = 681 #	Ani
 
-	armenia = "Armenia"
+	armenian = "Armenia"
 	georgian = "Georgia"
 	
 	culture = armenian

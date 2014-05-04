@@ -2,7 +2,7 @@
 #
 # Hindv Courtier Flavor Events
 #
-# Set 1: 1000109314-1000109316
+# Set 1: VIETnam.141-VIETnam.143
 #
 # Fired from on actions
 #
@@ -11,7 +11,7 @@
 
 # Vegetarian Hindu
 character_event = {
-	id = 1000109314
+	id = VIETnam.141
 	desc = "EVTDESC1000109314"
 	picture = GFX_evt_indian_market
 	
@@ -117,7 +117,7 @@ character_event = {
 
 # Hindu merchant and low caste workers
 character_event = {
-	id = 1000109315
+	id = VIETnam.142
 	desc = "EVTDESC1000109315"
 	picture = GFX_evt_indian_market
 	
@@ -232,7 +232,7 @@ character_event = {
 
 # Spicy curry
 character_event = {
-	id = 1000109316
+	id = VIETnam.143
 	desc = "EVTDESC1000109316"
 	picture = GFX_evt_indian_market
 	

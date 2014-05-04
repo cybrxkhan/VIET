@@ -471,12 +471,28 @@ letter_event = {
 	#border = GFX_event_normal_frame_intrigue
 	is_triggered_only = yes
 	option = {
-		limit = { OR={ai = no opinion = { who = FROM value = 0 } FROM={any_liege={character=ROOT}} } }
+		trigger = {
+			OR = {
+				ai = no 
+				opinion = { who = FROM value = 0 } 
+				FROM = { 
+					any_liege = { character = ROOT } 
+				} 
+			} 
+		}
 		name = "ao_fabbetrayal.10.a"
 		opinion = { who = FROMFROM modifier = opinion_broke_peace months = 60 }
 	}
 	option = {
-		limit = {OR={ ai=no NOT={OR={opinion = { who = FROM value = 0 } FROM={any_liege={character=ROOT}} } }}}
+		trigger = {
+			OR = {
+				ai = no 
+				opinion = { who = FROM value = 0 } 
+				FROM = { 
+					any_liege = { character = ROOT } 
+				} 
+			} 
+		}
 		name = "ao_fabbetrayal.10.b"
 	}
 }

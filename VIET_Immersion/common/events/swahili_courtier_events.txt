@@ -1,9 +1,9 @@
 #SWAHILI COURTIERS - Credits to jordarkelf for original Jewish spawn events (from which these events' code are based on), all other events by cybrxkhan
-#Spawn Hindu courtiers and their wives 1000109207 - 1000109209
+#Spawn Hindu courtiers and their wives VIETnam.124 - 1000109209
 
 #Swahili
 character_event = {
-	id = 1000109207
+	id = VIETnam.124
 	desc = "EVTDESC1000109207"
 	picture = GFX_evt_african_savanna
 	

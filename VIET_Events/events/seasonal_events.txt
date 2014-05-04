@@ -9,7 +9,7 @@
 # long rain
 
 province_event = {
-	id = 1000053005
+	id = VIETnam.2
 	desc = "EVTDESC1000053005"
 	picture = GFX_evt_tuscan_country
 
@@ -35,7 +35,7 @@ province_event = {
 # cold weather
 
 province_event = {
-	id = 1000053006
+	id = VIETnam.3
 	desc = "EVTDESC1000053006"
 	picture = GFX_evt_tuscan_country
 
@@ -61,7 +61,7 @@ province_event = {
 # bad crops in autumn
 
 province_event = {
-	id = 1000053007
+	id = VIETnam.4
 	desc = "EVTDESC1000053007"
 	picture = GFX_evt_autumn_harvest
 
@@ -96,7 +96,7 @@ province_event = {
 # famine in the next year
 
 province_event = {
-	id = 1000053008
+	id = VIETnam.5
 	desc = "EVTDESC1000053008"
 	picture = GFX_evt_plague_doctor
 
@@ -186,7 +186,7 @@ province_event = {
 # good crops in autumn
 
 province_event = {
-	id = 1000053009
+	id = VIETnam.6
 	desc = "EVTDESC1000053009"
 	picture = GFX_evt_autumn_harvest
 

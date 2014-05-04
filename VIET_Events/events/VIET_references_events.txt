@@ -369,7 +369,7 @@ character_event = {
 		name = VIETmisc.2502.b
 		random = {
 			chance = 25
-			trait = humble
+			add_trait = humble
 		}
 		prestige = 2
 	}

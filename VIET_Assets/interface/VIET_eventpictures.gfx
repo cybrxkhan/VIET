@@ -617,7 +617,7 @@ spriteTypes =
 	}
 	spriteType = {
 		name = "GFX_evt_travel_serindian"
-		texturefile = "gfx\\event_pictures\\travel_serindian.tga"
+		texturefile = "gfx\\event_pictures\\desert_serindian.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {

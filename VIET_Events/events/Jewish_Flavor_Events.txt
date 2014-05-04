@@ -1,10 +1,10 @@
-#Jewish Flavor events 1000109021 - 1000109037
+#Jewish Flavor events VIETnam.22 - VIETnam.29
 
 #FLAVOR EVENTS
 
 #A bigoted courtier questions why we must have Jews in the court
 character_event = {
-	id = 1000109021
+	id = VIETnam.22
 	desc = "EVTDESC1000109021"
 	picture = GFX_evt_moorish_decor
 	
@@ -88,7 +88,7 @@ character_event = {
 
 #Educated ruler has religious debate with educated Jewish courtier
 character_event = {
-	id = 1000109022
+	id = VIETnam.23
 	desc = "EVTDESC1000109022"
 	picture = GFX_evt_moorish_decor
 	
@@ -169,13 +169,13 @@ character_event = {
 		random_list = {
 			50 = {
 				character_event = {
-					id = 1000109023
+					id = VIETnam.24
 					tooltip = "EVTTOOLTIP1000109023"
 				}
 			}
 			50 = {
 				character_event = {
-					id = 1000109024
+					id = VIETnam.25
 					tooltip = "EVTTOOLTIP1000109024"
 				}
 			}
@@ -185,7 +185,7 @@ character_event = {
 
 #Debate ends on good terms
 character_event = {
-	id = 1000109023
+	id = VIETnam.24
 	desc = "EVTDESC1000109023"
 	picture = GFX_evt_moorish_decor
 
@@ -218,7 +218,7 @@ character_event = {
 
 #Debate ends on bad terms
 character_event = {
-	id = 1000109024
+	id = VIETnam.25
 	desc = "EVTDESC1000109024"
 	picture = GFX_evt_moorish_decor
 
@@ -255,7 +255,7 @@ character_event = {
 
 # Character hears Jewish courtier singing a Hebrew song
 character_event = {
-	id = 1000109026
+	id = VIETnam.26
 	desc = "EVTDESC1000109026"
 	picture = GFX_evt_moorish_decor
 	
@@ -398,7 +398,7 @@ character_event = {
 
 # Jewish courtier asks liege to lower Jizya tax
 character_event = {
-	id = 1000109028
+	id = VIETnam.27
 	desc = "EVTDESC1000109028"
 	picture = GFX_evt_moorish_decor
 	
@@ -520,7 +520,7 @@ character_event = {
 
 #Zealous liege reconsiders hatred of Jews - hath not a Jew eyes?
 character_event = {
-	id = 1000109029
+	id = VIETnam.28
 	desc = "EVTDESC1000109029"
 	picture = GFX_evt_moorish_decor
 	
@@ -653,7 +653,7 @@ character_event = {
 
 #Courtier returns from funeral
 character_event = {
-	id = 1000109037
+	id = VIETnam.29
 	desc = "EVTDESC1000109037"
 	picture = GFX_evt_moorish_decor
 

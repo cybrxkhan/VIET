@@ -2,9 +2,9 @@
 #
 # VIET Health Events (For characters with certain health issues)
 #
-# Illness: 1000109125 - 1000109129
-# Leper: 1000109130 - 1000109132
-# Blind: 1000109133 - 1000109135
+# Illness: VIETnam.96 - VIETnam.99
+# Leper: VIETnam.100 - VIETnam.102
+# Blind: VIETnam.103 - VIETnam.105
 #
 # Fired from on actions
 #
@@ -12,7 +12,7 @@
 
 # Vassal has to visit sick liege
 character_event = {
-	id = 1000109125
+	id = VIETnam.96
 	desc = "EVTDESC1000109125"
 	picture = GFX_evt_emissary
 	
@@ -90,7 +90,7 @@ character_event = {
 
 # Sick character can't do duties anymore
 character_event = {
-	id = 1000109127
+	id = VIETnam.97
 	desc = "EVTDESC1000109127"
 	picture = GFX_evt_tuscan_country
 	
@@ -237,7 +237,7 @@ character_event = {
 
 # Leeches!
 character_event = {
-	id = 1000109128
+	id = VIETnam.98
 	desc = "EVTDESC1000109128"
 	picture = GFX_evt_illness
 	
@@ -378,7 +378,7 @@ character_event = {
 
 # Losing appetite
 character_event = {
-	id = 1000109129
+	id = VIETnam.99
 	desc = "EVTDESC1000109129"
 	picture = GFX_evt_feast
 	
@@ -463,7 +463,7 @@ character_event = {
 
 # Lonely Leper
 character_event = {
-	id = 1000109130
+	id = VIETnam.100
 	desc = "EVTDESC1000109130"
 	picture = GFX_evt_scandal
 	
@@ -579,7 +579,7 @@ character_event = {
 
 # Religious Leper
 character_event = {
-	id = 1000109131
+	id = VIETnam.101
 	desc = "EVTDESC1000109131"
 	picture = GFX_evt_knight_kneeling
 	
@@ -653,7 +653,7 @@ character_event = {
 
 # Living as a Leper is miserable
 character_event = {
-	id = 1000109132
+	id = VIETnam.102
 	desc = "EVTDESC1000109132"
 	picture = GFX_evt_tuscan_country
 	
@@ -746,7 +746,7 @@ character_event = {
 
 # Blind character trips down the stairs
 character_event = {
-	id = 1000109133
+	id = VIETnam.103
 	desc = "EVTDESC1000109133"
 	picture = GFX_evt_castle_construction
 	
@@ -844,7 +844,7 @@ character_event = {
 
 # Blind character worries
 character_event = {
-	id = 1000109134
+	id = VIETnam.104
 	desc = "EVTDESC1000109134"
 	picture = GFX_evt_whispers
 	
@@ -945,7 +945,7 @@ character_event = {
 
 # Blind character contemplates blindness
 character_event = {
-	id = 1000109135
+	id = VIETnam.105
 	desc = "EVTDESC1000109135"
 	picture = GFX_evt_tuscan_country
 	

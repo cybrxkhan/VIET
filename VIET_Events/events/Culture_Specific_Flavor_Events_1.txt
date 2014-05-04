@@ -7,11 +7,11 @@
 #
 # ID #'s - Organized by Culture/Culture Group ALPHABETICALLY
 #
-# African: 1000109343 - 1000109347
-# Turkish: 1000109381 - 1000109389
-# West African: 1000109411 - 1000109424
-# Celtic: 1000109425 - 1000109431
-# Finnish Pagan: 1000109448 - 1000109456
+# African: VIETnam.170 - VIETnam.174
+# Turkish: VIETnam.208 - VIETnam.216
+# West African: VIETnam.238 - VIETnam.251
+# Celtic: VIETnam.252 - VIETnam.258
+# Finnish Pagan: VIETnam.275 - VIETnam.283
 #
 ######################################################################
 
@@ -23,7 +23,7 @@
 
 # Ethiopian Coffee Ceremony
 character_event = {
-	id = 1000109343
+	id = VIETnam.170
 	desc = "EVTDESC1000109343"
 	picture = GFX_evt_small_town_east_african
 	
@@ -82,7 +82,7 @@ character_event = {
 
 # Best savanna animal?
 character_event = {
-	id = 1000109344
+	id = VIETnam.171
 	desc = "EVTDESC1000109344"
 	picture = GFX_evt_african_savanna
 	
@@ -245,7 +245,7 @@ character_event = {
 
 # Soldier with Quran Verses in Armor
 character_event = {
-	id = 1000109345
+	id = VIETnam.172
 	desc = "EVTDESC1000109345"
 	picture = GFX_evt_travel_west_african
 	
@@ -459,7 +459,7 @@ character_event = {
 
 # East African cattle dispute
 character_event = {
-	id = 1000109346
+	id = VIETnam.173
 	desc = "EVTDESC1000109346"
 	picture = GFX_evt_african_savanna
 	
@@ -733,7 +733,7 @@ character_event = {
 
 # Witch Doctor
 character_event = {
-	id = 1000109347
+	id = VIETnam.174
 	desc = "EVTDESC1000109347"
 	picture = GFX_evt_african_savanna
 	
@@ -743,8 +743,8 @@ character_event = {
 		is_ruler = yes
 		is_adult = yes
 		OR = {
-			culture = east_african
-			culture = west_african
+			culture_group = east_african
+			culture_group = west_african
 		}
 		NOT = { trait = depressed }
 		NOT = { trait = stressed }
@@ -923,7 +923,7 @@ character_event = {
 ######################################################################
 # Bathing in the Hamam
 character_event = {
-	id = 1000109389
+	id = VIETnam.216
 	desc = "EVTDESC1000109389"
 	picture = GFX_evt_sultan
 	
@@ -1000,7 +1000,7 @@ character_event = {
 
 # Oil wrestling
 character_event = {
-	id = 1000109381
+	id = VIETnam.208
 	desc = "EVTDESC1000109381"
 	picture = GFX_evt_feast
 	
@@ -1129,7 +1129,7 @@ character_event = {
 
 # Kebab
 character_event = {
-	id = 1000109382
+	id = VIETnam.209
 	desc = "EVTDESC1000109382"
 	picture = GFX_evt_large_army
 	
@@ -1379,7 +1379,7 @@ character_event = {
 
 # The Origin of Baklava
 character_event = {
-	id = 1000109383
+	id = VIETnam.210
 	desc = "EVTDESC1000109383"
 	picture = GFX_evt_turkish_sultan
 	
@@ -1449,7 +1449,7 @@ character_event = {
 		}
 		prestige = 2
 		character_event = { #Turkish reward
-			id = 1000109384
+			id = VIETnam.211
 			tooltip = "EVTTOOLTIP1000109384"
 		}
 	}
@@ -1469,7 +1469,7 @@ character_event = {
 		}
 		prestige = 2
 		character_event = { #Greek reward
-			id = 1000109385
+			id = VIETnam.212
 			tooltip = "EVTTOOLTIP1000109385"
 		}
 	}		
@@ -1477,7 +1477,7 @@ character_event = {
 
 # Turkish merchant wins
 character_event = {
-	id = 1000109384
+	id = VIETnam.211
 	desc = "EVTDESC1000109384"
 	picture = GFX_evt_baklava
 	
@@ -1494,7 +1494,7 @@ character_event = {
 
 # Greek merchant wins
 character_event = {
-	id = 1000109385
+	id = VIETnam.212
 	desc = "EVTDESC1000109385"
 	picture = GFX_evt_baklava
 	
@@ -1512,7 +1512,7 @@ character_event = {
 
 # Character keeps wetting bed
 character_event = {
-	id = 1000109386
+	id = VIETnam.213
 	desc = "EVTDESC1000109386"
 	picture = GFX_evt_skyrim_forest
 	
@@ -1622,7 +1622,7 @@ character_event = {
 
 # Oak Trees don't worship Allah
 character_event = {
-	id = 1000109387
+	id = VIETnam.214
 	desc = "EVTDESC1000109387"
 	picture = GFX_evt_turkish_sultan
 	
@@ -1857,7 +1857,7 @@ character_event = {
 
 # Tughra
 character_event = {
-	id = 1000109388
+	id = VIETnam.215
 	desc = "EVTDESC1000109388"
 	picture = GFX_evt_tughra
 	
@@ -1993,7 +1993,7 @@ character_event = {
 
 # Quran Armor
 character_event = {
-	id = 1000109411
+	id = VIETnam.238
 	desc = EVTDESC1000109411
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -2063,7 +2063,7 @@ character_event = {
 
 # Griot encouragement
 character_event = {
-	id = 1000109412
+	id = VIETnam.239
 	desc = EVTDESC1000109412
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -2128,7 +2128,7 @@ character_event = {
 
 # Ton Fraternity Event Chain
 character_event = {
-	id = 1000109413
+	id = VIETnam.240
 	desc = "EVTDESC1000109413"
 	picture = GFX_evt_dogon_village
 	
@@ -2271,10 +2271,10 @@ character_event = {
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
-				days = 180
+				months = 6
 			}		
 		}
-		character_event = { id = 1000109414 days = 7 tooltip = EVTTOOLTIP1000109414 }
+		character_event = { id = VIETnam.241 days = 7 tooltip = EVTTOOLTIP1000109414 }
 		set_character_flag = VIET_ton_member
 	}
 	
@@ -2315,7 +2315,7 @@ character_event = {
 			opinion = {
 				modifier = opinion_approves
 				who = ROOT
-				days = 180
+				months = 6
 			}		
 		}
 		set_character_flag = VIET_ton_member
@@ -2324,7 +2324,7 @@ character_event = {
 
 # Ton Fraternity continued
 character_event = {
-	id = 1000109414
+	id = VIETnam.241
 	desc = "EVTDESC1000109414"
 	picture = GFX_evt_griot
 	
@@ -2333,14 +2333,14 @@ character_event = {
 	
 	option = { # ok
 		name = "EVTOPTA1000109414"
-		character_event = { id = 1000109415 days = 5 tooltip = EVTTOOLTIP1000109415 }
+		character_event = { id = VIETnam.242 days = 5 tooltip = EVTTOOLTIP1000109415 }
 	}		
 	
 }
 
 # Ton Fraternity continued 2
 character_event = {
-	id = 1000109415
+	id = VIETnam.242
 	desc = "EVTDESC1000109415"
 	picture = GFX_evt_griot
 	
@@ -2442,7 +2442,7 @@ character_event = {
 
 # Dyula Merchants
 character_event = {
-	id = 1000109416
+	id = VIETnam.243
 	desc = "EVTDESC1000109416"
 	picture = GFX_evt_wafrica_salt
 	
@@ -2571,7 +2571,7 @@ character_event = {
 
 # A Thief!
 character_event = {
-	id = 1000109417
+	id = VIETnam.244
 	desc = "EVTDESC1000109417"
 	picture = GFX_evt_wafrica_gold
 	
@@ -2744,7 +2744,7 @@ character_event = {
 
 # Visiting Arab Traveler
 character_event = {
-	id = 1000109418
+	id = VIETnam.245
 	desc = "EVTDESC1000109418"
 	picture = GFX_evt_market_west_african
 	
@@ -2851,7 +2851,7 @@ character_event = {
 
 # Griot's sermon
 character_event = {
-	id = 1000109419
+	id = VIETnam.246
 	desc = "EVTDESC1000109419"
 	picture = GFX_evt_griot
 	
@@ -3046,7 +3046,7 @@ character_event = {
 
 # University of Sankore
 character_event = {
-	id = 1000109420
+	id = VIETnam.247
 	desc = "EVTDESC1000109420"
 	picture = GFX_evt_mud_mosque
 	
@@ -3189,7 +3189,7 @@ character_event = {
 
 # Oware (a mancala game)
 character_event = {
-	id = 1000109421
+	id = VIETnam.248
 	desc = "EVTDESC1000109421"
 	picture = GFX_evt_african_savanna
 	
@@ -3269,7 +3269,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1000109421"  # Alright, game on
-		character_event = { id = 1000109422 days = 3 tooltip = EVTTOOLTIP1000109422 }
+		character_event = { id = VIETnam.249 days = 3 tooltip = EVTTOOLTIP1000109422 }
 	}
 	
 	option = {
@@ -3279,7 +3279,7 @@ character_event = {
 
 # The game continues
 character_event = {
-	id = 1000109422
+	id = VIETnam.249
 	desc = "EVTDESC1000109422"
 	picture = GFX_evt_african_savanna
 	
@@ -3294,8 +3294,8 @@ character_event = {
 			}			
 		}
 		random_list = {
-			75 = { character_event = { id = 1000109423 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
-			25 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
+			75 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
+			25 = { character_event = { id = VIETnam.251 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}	
 	option = {
@@ -3305,15 +3305,15 @@ character_event = {
 			NOT = { trait = quick }		
 		}
 		random_list = {
-			50 = { character_event = { id = 1000109423 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
-			50 = { character_event = { id = 1000109424 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
+			50 = { character_event = { id = VIETnam.250 days = 3 tooltip = EVTTOOLTIP1000109423 } } #Victory
+			50 = { character_event = { id = VIETnam.251 days = 3 tooltip = EVTTOOLTIP1000109424 } } #loss
 		}
 	}
 }
 
 # Liege loses
 character_event = {
-	id = 1000109423
+	id = VIETnam.250
 	desc = "EVTDESC1000109423"
 	picture = GFX_evt_african_savanna
 	
@@ -3351,7 +3351,7 @@ character_event = {
 
 # Liege wins
 character_event = {
-	id = 1000109424
+	id = VIETnam.251
 	desc = "EVTDESC1000109424"
 	picture = GFX_evt_african_savanna
 	
@@ -3394,7 +3394,7 @@ character_event = {
 
 # Illuminated manuscript
 character_event = {
-	id = 1000109425
+	id = VIETnam.252
 	desc = "EVTDESC1000109425"
 	picture = GFX_evt_monk
 	
@@ -3544,7 +3544,7 @@ character_event = {
 
 # Four leaf clover
 character_event = {
-	id = 1000109426
+	id = VIETnam.253
 	desc = "EVTDESC1000109426"
 	picture = GFX_evt_garden
 	
@@ -3732,7 +3732,7 @@ character_event = {
 
 # Shaving
 character_event = {
-	id = 1000109427
+	id = VIETnam.254
 	desc = "EVTDESC1000109427"
 	picture = GFX_evt_throne_room
 	
@@ -3824,7 +3824,7 @@ character_event = {
 
 #Hurling
 character_event = {
-	id = 1000109428
+	id = VIETnam.255
 	desc = "EVTDESC1000109428"
 	picture = GFX_evt_garden
 	
@@ -3932,8 +3932,8 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109428"  # Alright, game on
 		random_list = {
-			50 = { character_event = { id = 1000109429 days = 3 tooltip = EVTTOOLTIP1000109429 } } #lose
-			50 = { character_event = { id = 1000109430 days = 3 tooltip = EVTTOOLTIP1000109430 } } #win
+			50 = { character_event = { id = VIETnam.256 days = 3 tooltip = EVTTOOLTIP1000109429 } } #lose
+			50 = { character_event = { id = VIETnam.257 days = 3 tooltip = EVTTOOLTIP1000109430 } } #win
 		}
 	}
 }
@@ -3941,7 +3941,7 @@ character_event = {
 
 # Lose Hurling
 character_event = {
-	id = 1000109429
+	id = VIETnam.256
 	desc = "EVTDESC1000109429"
 	picture = GFX_evt_garden
 	
@@ -3978,7 +3978,7 @@ character_event = {
 
 # Win Hurling
 character_event = {
-	id = 1000109430
+	id = VIETnam.257
 	desc = "EVTDESC1000109430"
 	picture = GFX_evt_garden
 	
@@ -4016,7 +4016,7 @@ character_event = {
 
 # Leeks
 character_event = {
-	id = 1000109431
+	id = VIETnam.258
 	desc = "EVTDESC1000109431"
 	picture = GFX_evt_melee
 	
@@ -4106,7 +4106,7 @@ character_event = {
 
 # Hunting and Prayer to Mielikki
 character_event = {
-	id = 1000109448
+	id = VIETnam.275
 	desc = "EVTDESC1000109448"
 	picture = GFX_evt_snow_in_winter
 	
@@ -4214,7 +4214,7 @@ character_event = {
 
 # White Deer
 character_event = {
-	id = 1000109449
+	id = VIETnam.276
 	desc = "EVTDESC1000109449"
 	picture = GFX_evt_journey_to_spirit_world
 	
@@ -4338,7 +4338,7 @@ character_event = {
 
 # Don't say bear
 character_event = {
-	id = 1000109450
+	id = VIETnam.277
 	desc = "EVTDESC1000109450"
 	picture = GFX_evt_scandal
 	
@@ -4434,7 +4434,7 @@ character_event = {
 
 # Finno-Ugric Knife
 character_event = {
-	id = 1000109451
+	id = VIETnam.278
 	desc = "EVTDESC1000109451"
 	picture = GFX_evt_snow_in_winter
 	
@@ -4529,7 +4529,7 @@ character_event = {
 
 # Intestine Food
 character_event = {
-	id = 1000109452
+	id = VIETnam.279
 	desc = "EVTDESC1000109452"
 	picture = GFX_evt_feast
 	
@@ -4618,7 +4618,7 @@ character_event = {
 
 # Seita
 character_event = {
-	id = 1000109453
+	id = VIETnam.280
 	desc = "EVTDESC1000109453"
 	picture = GFX_evt_journey_to_spirit_world
 	
@@ -4726,7 +4726,7 @@ character_event = {
 
 # Troubled Shaman
 character_event = {
-	id = 1000109454
+	id = VIETnam.281
 	desc = "EVTDESC1000109454"
 	picture = GFX_evt_journey_to_spirit_world
 	
@@ -4900,7 +4900,7 @@ character_event = {
 
 # Mischievious Haltija
 character_event = {
-	id = 1000109455
+	id = VIETnam.282
 	desc = "EVTDESC1000109455"
 	picture = GFX_evt_journey_to_spirit_world
 	
@@ -5132,7 +5132,7 @@ character_event = {
 
 # Headache from Swimming
 character_event = {
-	id = 1000109456
+	id = VIETnam.283
 	desc = "EVTDESC1000109456"
 	picture = GFX_evt_journey_to_spirit_world
 	

@@ -764,27 +764,27 @@ character_event = {
 				}
 			}
 			k_nikaea = { 
-				any_de_jure_vassal_title = {
-					limit = { 
-						NOT = { is_vassal = ROOT }
+				any_de_jure_vassal = {
+					limit = {
+						NOT = { character = ROOT }
 						independent = yes
 					}
 					letter_event = { id = LatinEmpire.17 days = 7 }
 				}
 			}
 			k_thessalonika = { 
-				any_de_jure_vassal_title = {
+				any_de_jure_vassal = {
 					limit = { 
-						NOT = { is_vassal = ROOT }
+						NOT = { character = ROOT }
 						independent = yes
 					}
 					letter_event = { id = LatinEmpire.17 days = 7 }
 				}
 			}
 			k_epirus = { 
-				any_de_jure_vassal_title = {
+				any_de_jure_vassal = {
 					limit = { 
-						NOT = { is_vassal = ROOT }
+						NOT = { character = ROOT }
 						independent = yes
 					}
 					letter_event = { id = LatinEmpire.17 days = 7 }

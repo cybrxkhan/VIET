@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# 1000109401 - 1000109410
+# ID# VIETnam.228 - VIETnam.237
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # It's the most obvious Skyrim reference ever
 character_event = {
-	id = 1000109401
+	id = VIETnam.228
 	desc = EVTDESC1000109401
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -169,7 +169,7 @@ character_event = {
 
 # Horse Armor DLC
 character_event = {
-	id = 1000109402
+	id = VIETnam.229
 	desc = EVTDESC1000109402
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -220,7 +220,7 @@ character_event = {
 
 # Skyrim Bandits always say they yield but they never do
 character_event = {
-	id = 1000109403
+	id = VIETnam.230
 	desc = EVTDESC1000109403
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -343,7 +343,7 @@ character_event = {
 
 # Buzz Lightyear Everywhere, 300 Blot out the Sun, AGOT Brace Yourselves - how many references/memes can I put in one event?
 character_event = {
-	id = 1000109404
+	id = VIETnam.231
 	desc = EVTDESC1000109404
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -394,7 +394,7 @@ character_event = {
 
 # Arrow in the... Nevermind.
 character_event = {
-	id = 1000109405
+	id = VIETnam.232
 	desc = EVTDESC1000109405
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -460,7 +460,7 @@ character_event = {
 
 # Fallen off horse
 character_event = {
-	id = 1000109406
+	id = VIETnam.233
 	desc = EVTDESC1000109406
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -615,7 +615,7 @@ character_event = {
 
 # Captured Enemy Scouts
 character_event = {
-	id = 1000109407
+	id = VIETnam.234
 	desc = EVTDESC1000109407
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -689,7 +689,7 @@ character_event = {
 
 # Advice to young squire
 character_event = {
-	id = 1000109408
+	id = VIETnam.235
 	desc = EVTDESC1000109408
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -809,7 +809,7 @@ character_event = {
 
 # Soldier sacrifices self
 character_event = {
-	id = 1000109409
+	id = VIETnam.236
 	desc = EVTDESC1000109409
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -964,7 +964,7 @@ character_event = {
 
 # Dodge enemy just in the nick of time
 character_event = {
-	id = 1000109410
+	id = VIETnam.237
 	desc = EVTDESC1000109410
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

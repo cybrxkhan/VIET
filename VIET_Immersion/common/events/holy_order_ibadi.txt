@@ -6,8 +6,8 @@
 # The Mozabite Warriors arise
 narrative_event = {
 	id = VIETmisc.331
-	title =VIETmisc.331.title
-	desc =VIETmisc.331.desc
+	title = VIETmisc.331.title
+	desc = VIETmisc.331.desc
 	major = yes
 	
 	picture = GFX_evt_melee_muslim
@@ -88,12 +88,6 @@ narrative_event = {
 						religion = najdite
 						religion = azraqite
 					}
-				}
-				OR = {
-					religion = ibadi
-					religion = haruri
-					religion = najdite
-					religion = azraqite
 				}
 			}			
 		}
@@ -210,7 +204,7 @@ narrative_event = {
 # The son of a ruler volunteers to join the Mozabite Warriors
 character_event = {
 	id = VIETmisc.332
-	desc =VIETmisc.332.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -230,10 +224,10 @@ character_event = {
 		is_title_active = d_ibadi_holy_order
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -307,7 +301,7 @@ character_event = {
 	}
 	
 	option = {
-		name = VIETmisc.332.a # Ask to go
+		name = CONTINUE # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -318,14 +312,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = VIETmisc.332.b # It's a bad idea
+		name = CANCEL # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the Mozabite Warriors
 character_event = {
 	id = VIETmisc.333
-	desc =VIETmisc.333.desc
+	desc = VIETmisc.333.desc
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -364,7 +358,7 @@ character_event = {
 # Son or brother joins the Mozabite Warriors
 character_event = {
 	id = VIETmisc.334
-	desc = VIETmisc.334.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -389,14 +383,14 @@ character_event = {
 # Liege refuses request to join the Mozabite Warriors
 character_event = {
 	id = VIETmisc.335
-	desc =VIETmisc.335.desc
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = VIETmisc.335.a
+		name = CURSES
 		
 		opinion = {
 			who = FROM
@@ -408,7 +402,7 @@ character_event = {
 # Ping event when donating money to the Mozabite Warriors
 character_event = {
 	id = VIETmisc.336
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -437,7 +431,7 @@ character_event = {
 # Notification event when donating money to the Mozabite Warriors
 letter_event = {
 	id = VIETmisc.337
-	desc =VIETmisc.337.a
+	desc = VIETmisc.337.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -450,7 +444,7 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = VIETmisc.338
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -532,7 +526,7 @@ character_event = {
 
 province_event = {
 	id = VIETmisc.339
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -557,7 +551,7 @@ province_event = {
 
 character_event = {
 	id = VIETmisc.340
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -580,7 +574,7 @@ character_event = {
 
 letter_event = {
 	id = VIETmisc.341
-	desc = VIETmisc.341.desc
+	desc = VIETmisc.341.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -619,7 +613,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = VIETmisc.342
-	desc =VIETmisc.342.desc
+	desc = VIETmisc.342.desc
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -643,7 +637,7 @@ province_event = {
 # Ping event when expelling the Mozabite Warriors
 character_event = {
 	id = VIETmisc.343
-	desc = OK
+	desc = OK
 	picture = GFX_evt_melee_muslim
 	border = GFX_event_normal_frame_religion
 	
@@ -687,7 +681,7 @@ character_event = {
 # Notification event when expelling the Mozabite Warriors
 letter_event = {
 	id = VIETmisc.344
-	desc =VIETmisc.344.desc
+	desc = VIETmisc.344.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes

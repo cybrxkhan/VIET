@@ -2071,7 +2071,7 @@ character_event = {
 		name = "EVTOPTB64060" #Wine will cure my pains
 		trigger = {
 			OR = {
-				NOT = { religion = muslim }
+				NOT = { religion_group = muslim }
 				trait = cynical
 			}
 		}

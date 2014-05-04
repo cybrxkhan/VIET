@@ -158,8 +158,8 @@ narrative_event = {
 					}
 				}
 			}
-			add_strong_claim = d_antioch
-			add_strong_claim = c_antioch
+			add_claim = d_antioch
+			add_claim = c_antioch
 		}
 	}
 }

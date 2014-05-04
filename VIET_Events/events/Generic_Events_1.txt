@@ -499,7 +499,7 @@ character_event = {
 
 # Ambitious - Ruler wants to improve image
 character_event = {
-	id = 1000109106
+	id = VIETnam.77
 	desc = "EVTDESC1000109106"
 	picture = GFX_evt_holy_emperor
 	

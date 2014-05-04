@@ -533,7 +533,7 @@ character_event = {
 
 # Crickets at night
 character_event = {
-	id = 1000109515
+	id = VIETnam.337
 	desc = "EVTDESC1000109515"
 	picture = GFX_evt_comet
 	

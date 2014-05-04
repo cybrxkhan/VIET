@@ -1200,7 +1200,7 @@ on_siege_won_leader = {
 		60120 # Mongols sack Cairo
 		60121 # Mongols sack Mecca
 		88005 # Mongols sack city near the Hashshashin
-		1000109211 #Turks conquer Constantinople
+		VIETnam.125 #Turks conquer Constantinople
 	}
 	random_events = {
 		300 = 0

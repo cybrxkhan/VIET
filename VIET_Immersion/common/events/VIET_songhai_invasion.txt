@@ -2,14 +2,14 @@
 #
 # Events for the rise of the Songhai Empire
 #
-# 1000109211, 1000109213 - 1000109214
+# VIETnam.125, 1000109213 - 1000109214
 #
 ################################################################
 
 
 # Rise of the songhais - notification
 narrative_event = {
-	id = 1000109211
+	id = VIETnam.125
 	title = "EVTNAME1000109211"
 	desc = "EVTDESC1000109211"
 	major = yes

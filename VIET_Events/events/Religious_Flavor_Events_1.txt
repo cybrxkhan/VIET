@@ -1359,7 +1359,7 @@ character_event = {
 				30 = { remove_trait = content }
 			}			
 		}
-		character_event = { id = 1000109334 tooltip = "EVTTOOLTIP1000109334" }
+		character_event = { id = VIETnam.161 tooltip = "EVTTOOLTIP1000109334" }
 	}
 
 		
@@ -1414,7 +1414,7 @@ character_event = {
 
 # Crusader/Mujahid receives vision
 character_event = {
-	id = 1000109334
+	id = VIETnam.161
 	desc = "EVTDESC1000109334"
 	picture = GFX_evt_jerusalem
 	

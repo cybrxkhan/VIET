@@ -303,7 +303,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_trait_bad_priest_jewish"
-		texturefile = "gfx/traits/bad_priest_jewish.tga"
+		texturefile = "gfx/immersion_traits/bad_priest_jewish.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

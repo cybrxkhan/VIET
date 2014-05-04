@@ -250,7 +250,7 @@ on_yearly_pulse = {
 		100 = VIETnam.90
 		100 = VIETnam.91
 		100 = VIETnam.92
-		100 = 1000109122
+		100 = VIETnam.93
 		100 = 1000109123
 		100 = 1000109124
 		#Health Set 1

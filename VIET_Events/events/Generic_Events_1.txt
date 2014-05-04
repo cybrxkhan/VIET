@@ -2053,7 +2053,7 @@ character_event = {
 
 # Trusting - character got pranked by a courtier
 character_event = {
-	id = 1000109122
+	id = VIETnam.93
 	desc = "EVTDESC1000109122"
 	picture = GFX_evt_scandal
 	

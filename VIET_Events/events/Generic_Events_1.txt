@@ -9209,7 +9209,7 @@ character_event = {
 
 #Praying in the middle of battle
 character_event = {
-	id = 1000109460
+	id = VIETnam.287
 	desc = EVTDESC1000109460
 	picture = GFX_evt_holy_light
 	border = GFX_event_normal_frame_war

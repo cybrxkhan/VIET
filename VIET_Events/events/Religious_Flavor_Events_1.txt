@@ -5,7 +5,7 @@
 # ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
 # ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
 # ID# VIETnam.289 - VIETnam.293 Jewish Events
-# ID# VIETnam.315 - 1000109500 Buddhist Events
+# ID# VIETnam.315 - VIETnam.322 Buddhist Events
 #
 # Fired from on actions
 #
@@ -3618,7 +3618,7 @@ character_event = {
 
 # Stop with the incense!
 character_event = {
-	id = 1000109500
+	id = VIETnam.322
 	desc = "EVTDESC1000109500"
 	picture = GFX_evt_death_eastern_group
 	

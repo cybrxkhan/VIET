@@ -417,7 +417,7 @@ on_yearly_pulse = {
 		100 = VIETnam.317
 		100 = VIETnam.320
 		100 = VIETnam.321
-		100 = 1000109500
+		100 = VIETnam.322
 		#Cretan
 		100 = VIETmisc.2036
 		100 = VIETmisc.2037

@@ -6364,7 +6364,7 @@ character_event = {
 
 # Battle Dream
 character_event = {
-	id = 1000109391
+	id = VIETnam.218
 	desc = "EVTDESC1000109391"
 	picture = GFX_evt_battle_byzantine
 	

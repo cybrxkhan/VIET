@@ -4,7 +4,7 @@
 #
 # Illness: VIETnam.96 - VIETnam.99
 # Leper: VIETnam.100 - VIETnam.102
-# Blind: VIETnam.103 - 1000109135
+# Blind: VIETnam.103 - VIETnam.105
 #
 # Fired from on actions
 #
@@ -945,7 +945,7 @@ character_event = {
 
 # Blind character contemplates blindness
 character_event = {
-	id = 1000109135
+	id = VIETnam.105
 	desc = "EVTDESC1000109135"
 	picture = GFX_evt_tuscan_country
 	

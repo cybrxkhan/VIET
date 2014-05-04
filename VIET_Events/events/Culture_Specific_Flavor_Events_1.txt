@@ -3932,7 +3932,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000109428"  # Alright, game on
 		random_list = {
-			50 = { character_event = { id = 1000109429 days = 3 tooltip = EVTTOOLTIP1000109429 } } #lose
+			50 = { character_event = { id = VIETnam.256 days = 3 tooltip = EVTTOOLTIP1000109429 } } #lose
 			50 = { character_event = { id = 1000109430 days = 3 tooltip = EVTTOOLTIP1000109430 } } #win
 		}
 	}
@@ -3941,7 +3941,7 @@ character_event = {
 
 # Lose Hurling
 character_event = {
-	id = 1000109429
+	id = VIETnam.256
 	desc = "EVTDESC1000109429"
 	picture = GFX_evt_garden
 	

@@ -474,7 +474,7 @@ character_event = {
 
 # stewardship gain - ward
 character_event = {
-	id = 1000109503
+	id = VIETnam.325
 	desc = "EVTDESC1000109503"
 	picture = GFX_evt_small_town
 	

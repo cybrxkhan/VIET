@@ -3,7 +3,7 @@
 # VIET Health Events (For characters with certain health issues)
 #
 # Illness: VIETnam.96 - VIETnam.99
-# Leper: VIETnam.100 - 1000109132
+# Leper: VIETnam.100 - VIETnam.102
 # Blind: 1000109133 - 1000109135
 #
 # Fired from on actions
@@ -653,7 +653,7 @@ character_event = {
 
 # Living as a Leper is miserable
 character_event = {
-	id = 1000109132
+	id = VIETnam.102
 	desc = "EVTDESC1000109132"
 	picture = GFX_evt_tuscan_country
 	

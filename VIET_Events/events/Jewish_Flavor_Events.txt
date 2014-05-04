@@ -175,7 +175,7 @@ character_event = {
 			}
 			50 = {
 				character_event = {
-					id = 1000109024
+					id = VIETnam.25
 					tooltip = "EVTTOOLTIP1000109024"
 				}
 			}
@@ -218,7 +218,7 @@ character_event = {
 
 #Debate ends on bad terms
 character_event = {
-	id = 1000109024
+	id = VIETnam.25
 	desc = "EVTDESC1000109024"
 	picture = GFX_evt_moorish_decor
 

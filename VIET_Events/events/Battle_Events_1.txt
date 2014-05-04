@@ -343,7 +343,7 @@ character_event = {
 
 # Buzz Lightyear Everywhere, 300 Blot out the Sun, AGOT Brace Yourselves - how many references/memes can I put in one event?
 character_event = {
-	id = 1000109404
+	id = VIETnam.231
 	desc = EVTDESC1000109404
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

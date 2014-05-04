@@ -864,7 +864,7 @@ character_event = {
 
 # Patient - Listening to the opinions of others
 character_event = {
-	id = 1000109110
+	id = VIETnam.81
 	desc = "EVTDESC1000109110"
 	picture = GFX_evt_emissary
 	

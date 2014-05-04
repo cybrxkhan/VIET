@@ -2,7 +2,7 @@
 #
 # Republic Flavor Events
 #
-# Muslim Republics: VIETnam.128-1000109310
+# Muslim Republics: VIETnam.128-VIETnam.137
 #
 # Republics: 1000109321-1000109328
 #
@@ -696,14 +696,14 @@ character_event = {
 		name = "EVTOPTB1000109309"
 		wealth = 1
 		piety = 10
-		character_event = { id = 1000109310 tooltip = "EVTTOOLTIP1000109310" }
+		character_event = { id = VIETnam.137 tooltip = "EVTTOOLTIP1000109310" }
 	}
 }
 
 
 # Child tells backstory
 character_event = {
-	id = 1000109310
+	id = VIETnam.137
 	desc = "EVTDESC1000109310"
 	picture = GFX_evt_bazaar
 	

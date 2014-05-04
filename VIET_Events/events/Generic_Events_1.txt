@@ -1509,7 +1509,7 @@ character_event = {
 
 # Lustful - Ugly Wench
 character_event = {
-	id = 1000109117
+	id = VIETnam.88
 	desc = "EVTDESC1000109117"
 	picture = GFX_evt_brothel
 	

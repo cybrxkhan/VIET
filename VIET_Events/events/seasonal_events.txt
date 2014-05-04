@@ -186,7 +186,7 @@ province_event = {
 # good crops in autumn
 
 province_event = {
-	id = 1000053009
+	id = VIETnam.6
 	desc = "EVTDESC1000053009"
 	picture = GFX_evt_autumn_harvest
 

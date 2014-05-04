@@ -11,7 +11,7 @@
 # Turkish: VIETnam.208 - VIETnam.216
 # West African: VIETnam.238 - VIETnam.251
 # Celtic: VIETnam.252 - VIETnam.258
-# Finnish Pagan: VIETnam.275 - 1000109456
+# Finnish Pagan: VIETnam.275 - VIETnam.283
 #
 ######################################################################
 
@@ -5132,7 +5132,7 @@ character_event = {
 
 # Headache from Swimming
 character_event = {
-	id = 1000109456
+	id = VIETnam.283
 	desc = "EVTDESC1000109456"
 	picture = GFX_evt_journey_to_spirit_world
 	

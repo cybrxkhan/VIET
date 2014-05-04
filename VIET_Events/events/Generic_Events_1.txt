@@ -6639,7 +6639,7 @@ character_event = {
 
 # Temptation dream
 character_event = {
-	id = 1000109394
+	id = VIETnam.221
 	desc = "EVTDESC1000109394"
 	picture = GFX_evt_jugglers_muslim
 	

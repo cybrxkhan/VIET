@@ -181,7 +181,7 @@ character_event = {
 
 #The sacrifice begins
 character_event = {
-	id = 1000109020
+	id = VIETnam.21
 	desc = "EVTDESC1000109020"
 	picture = "GFX_evt_pagan"
 	

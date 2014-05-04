@@ -11752,7 +11752,7 @@ character_event = {
 			text = asking_god_to_stop_comets
 			hidden_tooltip = {
 				random_list = {
-					50 = { character_event = { id = 1000109491 days = 3 random = 3 } } #Good result
+					50 = { character_event = { id = VIETnam.313 days = 3 random = 3 } } #Good result
 					50 = { character_event = { id = 1000109492 days = 3 random = 3 } } #Bad result
 				}
 			}
@@ -11763,7 +11763,7 @@ character_event = {
 
 # Cuckoo for comets Yay
 character_event = {
-	id = 1000109491
+	id = VIETnam.313
 	desc = "EVTDESC1000109491"
 	picture = GFX_evt_comet
 	

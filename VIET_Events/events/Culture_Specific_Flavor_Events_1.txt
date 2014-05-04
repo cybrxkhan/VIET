@@ -2442,7 +2442,7 @@ character_event = {
 
 # Dyula Merchants
 character_event = {
-	id = 1000109416
+	id = VIETnam.243
 	desc = "EVTDESC1000109416"
 	picture = GFX_evt_wafrica_salt
 	

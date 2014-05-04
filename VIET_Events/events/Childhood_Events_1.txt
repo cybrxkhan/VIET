@@ -685,7 +685,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109506
+					id = VIETnam.328
 				}
 			}
 		}
@@ -695,7 +695,7 @@ character_event = {
 
 # intrigue gain - guardian
 character_event = {
-	id = 1000109506
+	id = VIETnam.328
 	desc = "EVTDESC1000109506"
 	picture = GFX_evt_child_bully
 	

@@ -7603,7 +7603,7 @@ character_event = {
 
 # Bamiyan Buddhas
 character_event = {
-	id = 1000109436
+	id = VIETnam.263
 	desc = "EVTDESC1000109436"
 	picture = GFX_evt_desert
 	

@@ -615,7 +615,7 @@ character_event = {
 
 # Captured Enemy Scouts
 character_event = {
-	id = 1000109407
+	id = VIETnam.234
 	desc = EVTDESC1000109407
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

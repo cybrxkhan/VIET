@@ -11570,7 +11570,7 @@ character_event = {
 
 # Child comet
 character_event = {
-	id = 1000109489
+	id = VIETnam.311
 	desc = "EVTDESC1000109489"
 	picture = GFX_evt_comet
 	

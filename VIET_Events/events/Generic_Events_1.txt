@@ -2335,7 +2335,7 @@ character_event = {
 
 # Honest - character meets an incompetent merchant
 character_event = {
-	id = 1000109124
+	id = VIETnam.95
 	desc = "EVTDESC1000109124"
 	picture = GFX_evt_market
 	

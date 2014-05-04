@@ -165,7 +165,7 @@ character_event = {
 
 # Character curious about something
 character_event = {
-	id = 1000109319
+	id = VIETnam.146
 	desc = "EVTDESC1000109319"
 	picture = GFX_evt_child_reading
 	

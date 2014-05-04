@@ -169,7 +169,7 @@ character_event = {
 		random_list = {
 			50 = {
 				character_event = {
-					id = 1000109023
+					id = VIETnam.24
 					tooltip = "EVTTOOLTIP1000109023"
 				}
 			}
@@ -185,7 +185,7 @@ character_event = {
 
 #Debate ends on good terms
 character_event = {
-	id = 1000109023
+	id = VIETnam.24
 	desc = "EVTDESC1000109023"
 	picture = GFX_evt_moorish_decor
 

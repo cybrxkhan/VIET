@@ -4171,7 +4171,7 @@ character_event = {
 			}
 			50 = {
 				character_event = { #win
-					id = 1000109358
+					id = VIETnam.185
 					tooltip = "EVTTOOLTIP1000109358"
 				}
 			}
@@ -4227,7 +4227,7 @@ character_event = {
 
 #Character wins drinking contest
 character_event = {
-	id = 1000109358
+	id = VIETnam.185
 	desc = "EVTDESC1000109358"
 	picture = GFX_evt_feast
 

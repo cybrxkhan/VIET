@@ -378,7 +378,7 @@ character_event = {
 		prestige = -5
 		hidden_tooltip = {
 			random_list = {
-				20 = {  character_event = { id = 1000109056 } }
+				20 = {  character_event = { id = VIETnam.41 } }
 				20 = {  character_event = { id = 1000109057 } }
 				20 = {  character_event = { id = 1000109058 } }
 				20 = {  character_event = { id = 1000109059 } }
@@ -395,7 +395,7 @@ character_event = {
 
 #Qi Ma 1 - Firstborn sons
 character_event = {
-	id = 1000109056
+	id = VIETnam.41
 	desc = "EVTDESC1000109056"
 	picture = GFX_evt_child_bully
 	

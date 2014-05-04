@@ -623,7 +623,7 @@ character_event = {
 
 # Syrtos Dance
 character_event = {
-	id = 1000109166
+	id = VIETnam.117
 	desc = "EVTDESC1000109166"
 	picture = GFX_evt_baklava
 	

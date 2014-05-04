@@ -3238,7 +3238,7 @@ character_event = {
 
 # Bodhidharma
 character_event = {
-	id = 1000109497
+	id = VIETnam.319
 	desc = "EVTDESC1000109497"
 	picture = GFX_evt_buddhist_pagoda
 	

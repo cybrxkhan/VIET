@@ -96,7 +96,7 @@ province_event = {
 # famine in the next year
 
 province_event = {
-	id = 1000053008
+	id = VIETnam.5
 	desc = "EVTDESC1000053008"
 	picture = GFX_evt_plague_doctor
 

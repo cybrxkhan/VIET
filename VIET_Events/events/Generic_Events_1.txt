@@ -9403,7 +9403,7 @@ character_event = {
 			text = 1000109467_choice_a
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9425,7 +9425,7 @@ character_event = {
 			text = 1000109467_choice_b
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9447,7 +9447,7 @@ character_event = {
 			text = 1000109467_choice_c
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9456,7 +9456,7 @@ character_event = {
 
 # First love part 2
 character_event = {
-	id = 1000109467 
+	id = VIETnam.294 
 	desc = "EVTDESC1000109467"
 	picture = GFX_evt_comet
 	

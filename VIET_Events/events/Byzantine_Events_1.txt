@@ -887,7 +887,7 @@ character_event = {
 
 # Bureau of Barbarians requests permission for investigation
 character_event = {
-	id = 1000109168
+	id = VIETnam.119
 	desc = "EVTDESC1000109168"
 	picture = GFX_evt_emissary
 	

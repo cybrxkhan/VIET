@@ -585,7 +585,7 @@
 	name="Orshvadata"
 	dynasty=1000091600
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158628
 	755.1.1={
 		birth="755.1.1"
@@ -598,7 +598,7 @@
 	name="Ukhshyabavaka"
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158629
 	789.1.1={
 		birth="789.1.1"
@@ -611,7 +611,7 @@
 	name="Huspasina"
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158630
 	810.1.1={
 		birth="810.1.1"
@@ -624,7 +624,7 @@
 	name="Kanishka"
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158631
 	add_trait="fair"
 	add_trait="temperate"
@@ -699,7 +699,7 @@
 	name="Harsa"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158630
 	815.1.1={
 		birth="815.1.1"
@@ -712,7 +712,7 @@
 	name="Katana"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158633
 	add_trait="skilled_tactician"
 	add_trait="proud"
@@ -728,7 +728,7 @@
 	name="Lagaturman"
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158631
 	add_trait="gluttonous"
 	add_trait="arbitrary"
@@ -749,7 +749,7 @@
 	name="Kallar"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158633
 	add_trait="quick"
 	add_trait="scholarly_theologian"
@@ -771,7 +771,7 @@
 	name="Kamaluka"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158636
 	870.1.1={
 		birth="870.1.1"
@@ -784,7 +784,7 @@
 	name="Bhima"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158637
 	896.1.1={
 		birth="896.1.1"
@@ -797,7 +797,7 @@
 	name="Ishtthapala"
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158638
 	933.1.1={
 		birth="933.1.1"
@@ -810,7 +810,7 @@
 	name="Asatapala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158637
 	905.1.1={
 		birth="905.1.1"
@@ -823,7 +823,7 @@
 	name="Jayapala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158640
 	add_trait="skilled_tactician"
 	add_trait="quick"
@@ -843,7 +843,7 @@
 	name="Anandapala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158641
 	add_trait="skilled_tactician"
 	add_trait="ambitious"
@@ -862,7 +862,7 @@
 	name="Trilochanapala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158642
 	add_trait="charismatic_negotiator"
 	add_trait="kind"
@@ -880,7 +880,7 @@
 	name="Bhimapala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158643
 	add_trait="skilled_tactician"
 	add_trait="strong"
@@ -900,7 +900,7 @@
 	name="Rudrapal"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158644
 	add_trait="skilled_tactician"
 	add_trait="brave"
@@ -916,7 +916,7 @@
 	name="Diddapal"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158644
 	add_trait="skilled_tactician"
 	1005.1.1={
@@ -930,7 +930,7 @@
 	name="Kshempala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158644
 	add_trait="skilled_tactician"
 	1006.1.1={
@@ -944,7 +944,7 @@
 	name="Anangpala"
 	dynasty=1000091606
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158644
 	add_trait="skilled_tactician"
 	1006.1.1={
@@ -968,7 +968,7 @@
 	female=yes
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158631
 	844.1.1={
 		birth="844.1.1"
@@ -982,7 +982,7 @@
 	female=yes
 	dynasty=1000091604
 	religion="buddhist"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158631
 	add_trait="fair"
 	add_trait="temperate"
@@ -1001,7 +1001,7 @@
 	female=yes
 	dynasty=1000091604
 	religion="hindu"
-	culture="punjabi"
+	culture="panjabi"
 	father=1000158633
 	849.1.1={
 		birth="849.1.1"

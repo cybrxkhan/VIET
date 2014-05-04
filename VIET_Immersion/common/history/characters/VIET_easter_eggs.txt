@@ -49,7 +49,7 @@
 	intrigue=5
 	learning=5
 	add_trait="quick"
-	add_trait="attractive"
+	add_trait="fair"
 	add_trait="poet"
 	add_trait="hedonist"
 	add_trait="diligent"
@@ -102,7 +102,7 @@
 	diplomacy=8
 	intrigue=8
 	learning=8
-	add_trait="attractive"
+	add_trait="fair"
 	add_trait="mystic"
 	add_trait="zealous"
 	add_trait="kind"
@@ -582,7 +582,7 @@
 	add_trait="ambitious"
 	add_trait="patient"
 	religion="catholic"
-	culture="french"
+	culture="frankish"
 	1028.1.1={
 		birth="1028.1.1"
 	}
@@ -614,7 +614,7 @@
 	add_trait="just"
 	add_trait="patient"
 	religion="catholic"
-	culture="french"
+	culture="frankish"
 	father=100015880
 	1050.1.1={
 		birth="1050.1.1"
@@ -641,7 +641,7 @@
 	add_trait="just"
 	add_trait="patient"
 	religion="catholic"
-	culture="french"
+	culture="frankish"
 	father=100015880
 	1038.1.1={
 		birth="1038.1.1"

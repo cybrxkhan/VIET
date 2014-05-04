@@ -692,7 +692,7 @@ character_event = {
 
 # Muslim character comes across Christian pilgrims
 character_event = {
-	id = 1000109331
+	id = VIETnam.158
 	desc = "EVTDESC1000109331"
 	picture = GFX_evt_jerusalem
 	

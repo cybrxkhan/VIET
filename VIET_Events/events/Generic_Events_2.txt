@@ -2,7 +2,7 @@
 #
 # Generic Mundane Events
 #
-# VIETnam.331 - 1000109513 "Bad" Events
+# VIETnam.331 - VIETnam.335 "Bad" Events
 # 1000109514 - 1000109518 Bug Events
 #
 # Fired from on actions
@@ -353,7 +353,7 @@ character_event = {
 
 # Le Imperator's New Clothes
 character_event = {
-	id = 1000109513
+	id = VIETnam.335
 	desc = "EVTDESC1000109513"
 	picture = GFX_evt_scandal
 	

@@ -705,7 +705,7 @@ character_event = {
 
 # Olive Farmer
 character_event = {
-	id = 1000109167
+	id = VIETnam.118
 	desc = "EVTDESC1000109167"
 	picture = GFX_evt_tuscan_country
 	

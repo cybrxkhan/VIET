@@ -1622,7 +1622,7 @@ character_event = {
 
 # Oak Trees don't worship Allah
 character_event = {
-	id = 1000109387
+	id = VIETnam.214
 	desc = "EVTDESC1000109387"
 	picture = GFX_evt_turkish_sultan
 	

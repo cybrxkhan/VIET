@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# VIETnam.228 - 1000109410
+# ID# VIETnam.228 - VIETnam.237
 #
 # Fired from on actions
 #
@@ -964,7 +964,7 @@ character_event = {
 
 # Dodge enemy just in the nick of time
 character_event = {
-	id = 1000109410
+	id = VIETnam.237
 	desc = EVTDESC1000109410
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

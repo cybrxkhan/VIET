@@ -439,7 +439,7 @@ character_event = {
 		tooltip_info = diplomacy
 		tooltip = {
 			FROM = {
-				cancel_objective = obj_amass_wealth
+				cancel_ambition = yes
 			}
 		}
 		hidden_tooltip = {

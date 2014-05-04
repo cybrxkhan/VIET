@@ -289,7 +289,7 @@ character_event = {
 
 # Charitable - Beggar Girl
 character_event = {
-	id = 1000109104
+	id = VIETnam.75
 	desc = "EVTDESC1000109104"
 	picture = GFX_evt_market
 	

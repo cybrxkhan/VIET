@@ -829,7 +829,7 @@ character_event = {
 
 #Become Young (if not young before)
 character_event = {
-	id = 1000109205
+	id = VIETnam.122
 	desc = "EVTDESC1000109205"
 	picture = "GFX_evt_child_play"
 	

@@ -2,7 +2,7 @@
 #
 # Love and Lovers Flavor Events
 #
-# Events to gain lovers and for lovers: 1000109337-1000109342
+# Events to gain lovers and for lovers: VIETnam.164-1000109342
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Meek child considers confessing love to another child
 character_event = {
-	id = 1000109337
+	id = VIETnam.164
 	desc = "EVTDESC1000109337"
 	picture = GFX_evt_maiden
 	

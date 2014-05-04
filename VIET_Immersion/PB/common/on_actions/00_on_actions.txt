@@ -1033,7 +1033,7 @@ on_yearly_childhood_pulse = {
 		20 = VIETnam.146
 		20 = VIETnam.147
 		#VIET Love
-		20 = 1000109337
+		20 = VIETnam.164
 		#Alcohol generic
 		20 = 1000109360
 		#Sounds

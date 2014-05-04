@@ -11,7 +11,7 @@
 # Turkish: VIETnam.208 - VIETnam.216
 # West African: VIETnam.238 - VIETnam.251
 # Celtic: VIETnam.252 - VIETnam.258
-# Finnish Pagan: 1000109448 - 1000109456
+# Finnish Pagan: VIETnam.275 - 1000109456
 #
 ######################################################################
 
@@ -4106,7 +4106,7 @@ character_event = {
 
 # Hunting and Prayer to Mielikki
 character_event = {
-	id = 1000109448
+	id = VIETnam.275
 	desc = "EVTDESC1000109448"
 	picture = GFX_evt_snow_in_winter
 	

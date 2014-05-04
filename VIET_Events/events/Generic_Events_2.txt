@@ -621,7 +621,7 @@ character_event = {
 
 # Stung by a bee
 character_event = {
-	id = 1000109516
+	id = VIETnam.338
 	desc = "EVTDESC1000109516"
 	picture = GFX_evt_skyrim_forest
 	

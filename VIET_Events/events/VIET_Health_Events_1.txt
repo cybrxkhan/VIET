@@ -579,7 +579,7 @@ character_event = {
 
 # Religious Leper
 character_event = {
-	id = 1000109131
+	id = VIETnam.101
 	desc = "EVTDESC1000109131"
 	picture = GFX_evt_knight_kneeling
 	

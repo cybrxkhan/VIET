@@ -3,7 +3,7 @@
 # Food Events:
 # Events pertaining to culture/religion/region-specific cuisine and eating culture
 #
-# ID# VIETnam.191 - 1000109368
+# ID# VIETnam.191 - VIETnam.195
 #
 # Fired from on actions
 #
@@ -482,7 +482,7 @@ character_event = {
 
 # Mongol pit stop
 character_event = {
-	id = 1000109368
+	id = VIETnam.195
 	desc = "EVTDESC1000109368"
 	picture = GFX_evt_VIET_food
 	

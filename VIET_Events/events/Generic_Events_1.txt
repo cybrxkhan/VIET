@@ -14,7 +14,7 @@
 # ID# VIETnam.284 - VIETnam.288 Prayer Events
 # ID# VIETnam.293 - VIETnam.301 Memories Events (switcheroo!!!)
 # ID# 1000109475 - VIETnam.306 Shady Events
-# ID# VIETnam.307 - 1000109492 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
+# ID# VIETnam.307 - VIETnam.314 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
 #
 # Fired from on actions
 #
@@ -11753,7 +11753,7 @@ character_event = {
 			hidden_tooltip = {
 				random_list = {
 					50 = { character_event = { id = VIETnam.313 days = 3 random = 3 } } #Good result
-					50 = { character_event = { id = 1000109492 days = 3 random = 3 } } #Bad result
+					50 = { character_event = { id = VIETnam.314 days = 3 random = 3 } } #Bad result
 				}
 			}
 		}
@@ -11777,7 +11777,7 @@ character_event = {
 
 # Cuckoo for comets Yay
 character_event = {
-	id = 1000109492
+	id = VIETnam.314
 	desc = "EVTDESC1000109492"
 	picture = GFX_evt_comet
 	

@@ -245,7 +245,7 @@ character_event = {
 
 # Character worrying about the afterlife
 character_event = {
-	id = 1000109138
+	id = VIETnam.108
 	desc = "EVTDESC1000109138"
 	picture = GFX_evt_knight_kneeling
 	

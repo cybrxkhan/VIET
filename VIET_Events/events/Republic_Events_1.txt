@@ -4,7 +4,7 @@
 #
 # Muslim Republics: VIETnam.128-VIETnam.137
 #
-# Republics: VIETnam.148-1000109328
+# Republics: VIETnam.148-VIETnam.155
 #
 # Fired from on actions
 #
@@ -1746,7 +1746,7 @@ character_event = {
 
 # Character misjudged prices
 character_event = {
-	id = 1000109328
+	id = VIETnam.155
 	desc = "EVTDESC1000109328"
 	picture = GFX_evt_merchant_ship_at_sea_republic
 	

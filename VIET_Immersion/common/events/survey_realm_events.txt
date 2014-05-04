@@ -2,7 +2,7 @@
 #
 # Survey Realm Events
 #
-# Reserved: 1000109048 - 1000109092
+# Reserved: VIETnam.33 - 1000109092
 #
 #
 ###################################
@@ -12,7 +12,7 @@ namespace = qimatheliar
 
 #Survey Realm interrupted
 character_event = {
-	id = 1000109048
+	id = VIETnam.33
 	desc = "EVTDESC1000109048"
 	picture = GFX_evt_coming_home
 	

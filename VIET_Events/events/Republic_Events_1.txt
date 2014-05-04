@@ -1439,7 +1439,7 @@ character_event = {
 
 # Character's associate gone bankrupt, asks for money
 character_event = {
-	id = 1000109325
+	id = VIETnam.152
 	desc = "EVTDESC1000109325"
 	picture = GFX_evt_busy_trading_dock_republic
 	

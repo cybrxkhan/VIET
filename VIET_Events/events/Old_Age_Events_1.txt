@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: VIETnam.106-1000109140
+# Set 1: VIETnam.106-VIETnam.110
 #
 # Fired from on actions
 #
@@ -456,7 +456,7 @@ character_event = {
 
 # Character feels weaker and weaker as they get older and oler
 character_event = {
-	id = 1000109140
+	id = VIETnam.110
 	desc = "EVTDESC1000109140"
 	picture = GFX_evt_tuscan_country
 	

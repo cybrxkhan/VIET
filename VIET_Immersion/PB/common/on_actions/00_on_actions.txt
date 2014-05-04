@@ -695,7 +695,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.107
 		10 = VIETnam.108
 		10 = VIETnam.109
-		10 = 1000109140
+		10 = VIETnam.110
 		#Byzantine Events
 		10 = 1000109161
 		10 = 1000109162

@@ -9788,7 +9788,7 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
 					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
 				}
 			}
@@ -9821,7 +9821,7 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
 					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
 				}
 			}
@@ -9854,7 +9854,7 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
 					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
 				}
 			}
@@ -9887,7 +9887,7 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
 					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
 				}
 			}
@@ -9897,7 +9897,7 @@ character_event = {
 
 # Old childhood friend - merchant - stays and joins you
 narrative_event = {
-	id = 1000109470
+	id = VIETnam.297
 	title = EVTNAME1000109470	
 	desc = "EVTDESC1000109470"
 	picture = GFX_evt_busy_trading_dock_republic

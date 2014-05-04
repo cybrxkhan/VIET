@@ -448,7 +448,7 @@ character_event = {
 
 # Western knight comes to character
 character_event = {
-	id = 1000109165
+	id = VIETnam.116
 	desc = "EVTDESC1000109165"
 	picture = GFX_evt_western_knights_byzantine
 	

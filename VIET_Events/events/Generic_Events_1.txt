@@ -11313,7 +11313,7 @@ character_event = {
 
 # A good comet?
 character_event = {
-	id = 1000109487
+	id = VIETnam.309
 	desc = "EVTDESC1000109487"
 	picture = GFX_evt_comet
 	

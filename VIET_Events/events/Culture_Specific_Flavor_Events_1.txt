@@ -1129,7 +1129,7 @@ character_event = {
 
 # Kebab
 character_event = {
-	id = 1000109382
+	id = VIETnam.209
 	desc = "EVTDESC1000109382"
 	picture = GFX_evt_large_army
 	

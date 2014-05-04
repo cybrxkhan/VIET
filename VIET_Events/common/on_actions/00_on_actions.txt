@@ -387,7 +387,7 @@ on_yearly_pulse = {
 		100 = VIETnam.174
 		#Turkish
 		100 = 1000109389
-		100 = 1000109382
+		100 = VIETnam.209
 		100 = 1000109388
 		#West Africa
 		100 = 1000109417

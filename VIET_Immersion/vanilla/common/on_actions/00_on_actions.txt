@@ -711,7 +711,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.135
 		#Hindu Courtiers
 		10 = VIETnam.141
-		10 = 1000109315
+		10 = VIETnam.142
 		10 = 1000109316
 		#Generic Alcohol events
 		10 = 1000109357

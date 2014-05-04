@@ -117,7 +117,7 @@ character_event = {
 
 # Hindu merchant and low caste workers
 character_event = {
-	id = 1000109315
+	id = VIETnam.142
 	desc = "EVTDESC1000109315"
 	picture = GFX_evt_indian_market
 	

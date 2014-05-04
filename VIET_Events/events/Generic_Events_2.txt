@@ -3,7 +3,7 @@
 # Generic Mundane Events
 #
 # VIETnam.331 - VIETnam.335 "Bad" Events
-# 1000109514 - 1000109518 Bug Events
+# VIETnam.336 - 1000109518 Bug Events
 #
 # Fired from on actions
 #
@@ -451,7 +451,7 @@ character_event = {
 
 # Eating worms
 character_event = {
-	id = 1000109514
+	id = VIETnam.336
 	desc = "EVTDESC1000109514"
 	picture = GFX_evt_child_play_muslim
 	

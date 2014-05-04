@@ -8245,7 +8245,7 @@ character_event = {
 
 # Rock and Roll Event Chain
 character_event = {
-	id = 1000109441
+	id = VIETnam.268
 	desc = "EVTDESC1000109441"
 	picture = "GFX_evt_child_play"
 	

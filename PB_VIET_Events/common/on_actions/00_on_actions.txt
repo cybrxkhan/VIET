@@ -740,7 +740,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.307
 		10 = VIETnam.308
 		10 = VIETnam.309
-		10 = 1000109488
+		10 = VIETnam.310
 		10 = 1000109490
 		#Bad events
 		10 = 1000109509

@@ -11435,7 +11435,7 @@ character_event = {
 
 # Courtier sees comet
 character_event = {
-	id = 1000109488
+	id = VIETnam.310
 	desc = "EVTDESC1000109488"
 	picture = GFX_evt_comet
 	

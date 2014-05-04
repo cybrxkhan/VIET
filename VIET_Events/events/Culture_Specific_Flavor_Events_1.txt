@@ -3269,7 +3269,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1000109421"  # Alright, game on
-		character_event = { id = 1000109422 days = 3 tooltip = EVTTOOLTIP1000109422 }
+		character_event = { id = VIETnam.249 days = 3 tooltip = EVTTOOLTIP1000109422 }
 	}
 	
 	option = {
@@ -3279,7 +3279,7 @@ character_event = {
 
 # The game continues
 character_event = {
-	id = 1000109422
+	id = VIETnam.249
 	desc = "EVTDESC1000109422"
 	picture = GFX_evt_african_savanna
 	

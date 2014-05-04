@@ -3,7 +3,7 @@
 # Religious Flavor Events
 #
 # ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
-# ID# VIETnam.224 - 1000109400 Zoroastrian Events
+# ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
 # ID# 1000109462 - 1000109466 Jewish Events
 # ID# 1000109493 - 1000109500 Buddhist Events
 #
@@ -2226,7 +2226,7 @@ character_event = {
 }
 # Toenail clippings
 character_event = {
-	id = 1000109400
+	id = VIETnam.227
 	desc = "EVTDESC1000109400"
 	picture = GFX_evt_zoroastrian_fire
 	

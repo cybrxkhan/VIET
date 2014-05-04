@@ -2851,7 +2851,7 @@ character_event = {
 
 # Griot's sermon
 character_event = {
-	id = 1000109419
+	id = VIETnam.246
 	desc = "EVTDESC1000109419"
 	picture = GFX_evt_griot
 	

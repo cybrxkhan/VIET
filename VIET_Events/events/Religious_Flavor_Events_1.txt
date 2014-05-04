@@ -4,7 +4,7 @@
 #
 # ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
 # ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
-# ID# 1000109462 - 1000109466 Jewish Events
+# ID# VIETnam.289 - 1000109466 Jewish Events
 # ID# 1000109493 - 1000109500 Buddhist Events
 #
 # Fired from on actions
@@ -2304,7 +2304,7 @@ character_event = {
 
 # Dream (based on Jewish story of Rabbis winning an argument with God)
 character_event = {
-	id = 1000109462
+	id = VIETnam.289
 	desc = "EVTDESC1000109462"
 	picture = GFX_evt_holy_light
 	

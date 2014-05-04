@@ -405,7 +405,7 @@ on_yearly_pulse = {
 		100 = VIETnam.281
 		100 = VIETnam.283
 		#Jewish
-		100 = 1000109462
+		100 = VIETnam.289
 		100 = 1000109464
 		100 = 1000109466
 		#Buddhist

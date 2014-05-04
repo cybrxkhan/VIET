@@ -6760,7 +6760,7 @@ character_event = {
 		}
 		piety = 2
 		character_event = {
-			id = 1000109395
+			id = VIETnam.222
 			tooltip = "EVTTOOLTIP1000109395"
 		}
 	}	
@@ -6820,7 +6820,7 @@ character_event = {
 
 # Temptation resisted
 character_event = {
-	id = 1000109395
+	id = VIETnam.222
 	desc = "EVTDESC1000109395"
 	picture = GFX_evt_holy_light
 	

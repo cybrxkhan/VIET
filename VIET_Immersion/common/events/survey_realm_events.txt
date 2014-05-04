@@ -149,7 +149,7 @@ character_event = {
 		hidden_tooltip = { #Qi Ma the Liar
 			random_list = {
 				90 = { }
-				10 = {  character_event = { id = 1000109055 days = 3 random = 3 } set_character_flag = maiq_the_liar }
+				10 = {  character_event = { id = VIETnam.40 days = 3 random = 3 } set_character_flag = maiq_the_liar }
 			}
 		}
 		hidden_tooltip = {
@@ -222,7 +222,7 @@ character_event = {
 			hidden_tooltip = { #Qi Ma the Liar
 				random_list = {
 					90 = { }
-					10 = {  character_event = { id = 1000109055 days = 2 random = 3 } set_character_flag = maiq_the_liar }
+					10 = {  character_event = { id = VIETnam.40 days = 2 random = 3 } set_character_flag = maiq_the_liar }
 				}
 			}
 		}
@@ -295,7 +295,7 @@ character_event = {
 			hidden_tooltip = { #Qi Ma the Liar
 				random_list = {
 					90 = { }
-					10 = {  character_event = { id = 1000109055 days = 2 random = 2 } set_character_flag = maiq_the_liar }
+					10 = {  character_event = { id = VIETnam.40 days = 2 random = 2 } set_character_flag = maiq_the_liar }
 				}
 			}
 		}
@@ -367,7 +367,7 @@ character_event = {
 
 #Qi Ma the Liar
 character_event = {
-	id = 1000109055
+	id = VIETnam.40
 	desc = "EVTDESC1000109055"
 	picture = GFX_evt_small_town
 	

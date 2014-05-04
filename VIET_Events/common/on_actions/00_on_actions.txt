@@ -347,7 +347,7 @@ on_yearly_pulse = {
 		100 = 1000109518
 		#Pregnancy
 		100 = VIETnam.138
-		100 = 1000109312
+		100 = VIETnam.139
 		100 = 1000109313
 		#Food and drinks
 		100 = VIETmisc.2000

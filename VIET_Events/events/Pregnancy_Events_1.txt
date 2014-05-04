@@ -85,7 +85,7 @@ character_event = {
 
 # Character feels sick from pregnancy
 character_event = {
-	id = 1000109312
+	id = VIETnam.139
 	desc = "EVTDESC1000109312"
 	picture = GFX_evt_pregnancy
 	

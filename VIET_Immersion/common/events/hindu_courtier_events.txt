@@ -1,9 +1,9 @@
 #HINDV COURTIERS - Credits to jordarkelf for original Jewish spawn events (from which these events' code are based on), all other events by cybrxkhan
-#Spawn Hindu courtiers and their wives 1000109201 - 1000109203
+#Spawn Hindu courtiers and their wives VIETnam.121 - 1000109203
 
 #gujurati Indians
 character_event = {
-	id = 1000109201
+	id = VIETnam.121
 	desc = "EVTDESC1000109201"
 	picture = GFX_evt_indian_market
 	

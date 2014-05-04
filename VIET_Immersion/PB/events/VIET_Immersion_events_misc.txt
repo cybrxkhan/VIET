@@ -856,7 +856,7 @@ character_event = {
 
 #Lose Youth
 character_event = {
-	id = 1000109206
+	id = VIETnam.123
 	desc = "EVTDESC1000109206"
 	picture = "GFX_evt_child_play"
 	

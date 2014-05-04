@@ -2235,7 +2235,7 @@ character_event = {
 
 # Deceitful - Never show true self
 character_event = {
-	id = 1000109123
+	id = VIETnam.94
 	desc = "EVTDESC1000109123"
 	picture = GFX_evt_maiden
 	

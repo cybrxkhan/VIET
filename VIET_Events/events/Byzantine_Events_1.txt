@@ -105,7 +105,7 @@ character_event = {
 
 # Old monuments from antiquity
 character_event = {
-	id = 1000109162
+	id = VIETnam.113
 	desc = "EVTDESC1000109162"
 	picture = GFX_evt_tuscan_country
 	

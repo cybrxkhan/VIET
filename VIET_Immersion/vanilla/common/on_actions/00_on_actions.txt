@@ -305,7 +305,7 @@ on_yearly_pulse = {
 		100 = VIETnam.195
 		#Elder Scrolls References Events
 		100 = VIETnam.196
-		100 = 1000109370
+		100 = VIETnam.197
 		100 = 1000109371
 		100 = 1000109372
 		#Dirty Events

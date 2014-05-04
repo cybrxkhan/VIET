@@ -5041,7 +5041,7 @@ character_event = {
 
 # Curved Swords
 character_event = {
-	id = 1000109370
+	id = VIETnam.197
 	desc = "EVTDESC1000109370"
 	picture = GFX_evt_carriage_muslim
 	

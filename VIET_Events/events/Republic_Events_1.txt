@@ -188,7 +188,7 @@ character_event = {
 
 # Character considers donating money to the poor
 character_event = {
-	id = 1000109303
+	id = VIETnam.130
 	desc = "EVTDESC1000109303"
 	picture = GFX_evt_moorish_decor
 	

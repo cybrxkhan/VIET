@@ -785,7 +785,7 @@ character_event = {
 
 #Character & lover - why do you love me?
 character_event = {
-	id = 1000109340
+	id = VIETnam.167
 	desc = "EVTDESC1000109340"
 	picture = GFX_evt_maiden
 	

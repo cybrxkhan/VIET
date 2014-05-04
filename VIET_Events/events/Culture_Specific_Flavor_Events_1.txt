@@ -2571,7 +2571,7 @@ character_event = {
 
 # A Thief!
 character_event = {
-	id = 1000109417
+	id = VIETnam.244
 	desc = "EVTDESC1000109417"
 	picture = GFX_evt_wafrica_gold
 	

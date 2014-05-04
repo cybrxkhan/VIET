@@ -196,7 +196,7 @@ province_event = {
 				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
 			}
 			wealth = -100
-			character_event = { id = 1000094011 days = 730 }
+			character_event = { id = VIETnam.12 days = 730 }
 		}
 	}
 
@@ -207,7 +207,7 @@ province_event = {
 				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
 			}
 			wealth = -200
-			character_event = { id = 1000094011 days = 1460 }
+			character_event = { id = VIETnam.12 days = 1460 }
 		}
 	}
 
@@ -218,14 +218,14 @@ province_event = {
 				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
 			}
 			wealth = -300
-			character_event = { id = 1000094011 days = 2920 }
+			character_event = { id = VIETnam.12 days = 2920 }
 		}
 	}
 }
 
 ####Rebuild Persepolis 2
 character_event = {
-	id = 1000094011
+	id = VIETnam.12
 	title = "EVTNAME1000094011"
 	desc = "EVTDESC1000094011"
 	picture = "GFX_persepolis_built"

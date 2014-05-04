@@ -2630,7 +2630,7 @@ character_event = {
 
 # Critical Sufi Master
 character_event = {
-	id = 1000109349
+	id = VIETnam.176
 	desc = "EVTDESC1000109349"
 	picture = GFX_evt_bishop
 	

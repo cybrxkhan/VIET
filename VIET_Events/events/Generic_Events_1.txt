@@ -4427,7 +4427,7 @@ character_event = {
 
 #Child drinks alcohol by accident
 character_event = {
-	id = 1000109360
+	id = VIETnam.187
 	desc = "EVTDESC1000109360"
 	picture = "GFX_evt_child_play"
 	

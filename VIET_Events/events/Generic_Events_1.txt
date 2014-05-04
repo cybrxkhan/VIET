@@ -681,7 +681,7 @@ character_event = {
 
 # Just - Peasants love it
 character_event = {
-	id = 1000109108
+	id = VIETnam.79
 	desc = "EVTDESC1000109108"
 	picture = GFX_evt_tuscan_country
 	

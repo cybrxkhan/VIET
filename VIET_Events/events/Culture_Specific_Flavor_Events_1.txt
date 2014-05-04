@@ -1857,7 +1857,7 @@ character_event = {
 
 # Tughra
 character_event = {
-	id = 1000109388
+	id = VIETnam.215
 	desc = "EVTDESC1000109388"
 	picture = GFX_evt_tughra
 	

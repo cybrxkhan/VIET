@@ -711,7 +711,7 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.129
 		10 = VIETnam.131
 		10 = VIETnam.132
-		10 = 1000109306
+		10 = VIETnam.133
 		10 = 1000109308
 		#Hindu Courtiers
 		10 = 1000109314

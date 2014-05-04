@@ -437,7 +437,7 @@ character_event = {
 
 # Character tells Western merchant about his/her people
 character_event = {
-	id = 1000109306
+	id = VIETnam.133
 	desc = "EVTDESC1000109306"
 	picture = GFX_evt_moorish_decor
 	

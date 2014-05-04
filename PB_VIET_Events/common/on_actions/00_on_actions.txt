@@ -403,7 +403,7 @@ on_yearly_pulse = {
 		100 = VIETnam.255
 		#Finnish Pagan
 		100 = VIETnam.275
-		100 = 1000109449
+		100 = VIETnam.276
 		100 = 1000109450
 		100 = 1000109453
 		100 = 1000109454

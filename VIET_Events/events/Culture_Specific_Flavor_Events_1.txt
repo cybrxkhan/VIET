@@ -4214,7 +4214,7 @@ character_event = {
 
 # White Deer
 character_event = {
-	id = 1000109449
+	id = VIETnam.276
 	desc = "EVTDESC1000109449"
 	picture = GFX_evt_journey_to_spirit_world
 	

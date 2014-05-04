@@ -3044,7 +3044,7 @@ character_event = {
 
 # Meditation
 character_event = {
-	id = 1000109495
+	id = VIETnam.317
 	desc = "EVTDESC1000109495"
 	picture = GFX_evt_death_eastern_group
 	

@@ -220,7 +220,7 @@ character_event = {
 
 # Skyrim Bandits always say they yield but they never do
 character_event = {
-	id = 1000109403
+	id = VIETnam.230
 	desc = EVTDESC1000109403
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war

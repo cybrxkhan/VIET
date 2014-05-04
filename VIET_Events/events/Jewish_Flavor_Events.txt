@@ -255,7 +255,7 @@ character_event = {
 
 # Character hears Jewish courtier singing a Hebrew song
 character_event = {
-	id = 1000109026
+	id = VIETnam.26
 	desc = "EVTDESC1000109026"
 	picture = GFX_evt_moorish_decor
 	

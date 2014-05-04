@@ -3189,7 +3189,7 @@ character_event = {
 
 # Oware (a mancala game)
 character_event = {
-	id = 1000109421
+	id = VIETnam.248
 	desc = "EVTDESC1000109421"
 	picture = GFX_evt_african_savanna
 	

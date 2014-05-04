@@ -393,7 +393,7 @@ on_yearly_pulse = {
 		100 = VIETnam.244
 		100 = VIETnam.246
 		100 = VIETnam.247
-		100 = 1000109421
+		100 = VIETnam.248
 		#Celtic
 		100 = 1000109426
 		100 = 1000109428

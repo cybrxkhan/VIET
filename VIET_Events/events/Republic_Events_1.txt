@@ -108,7 +108,7 @@ character_event = {
 
 # Sinbad the Sailor visits character
 character_event = {
-	id = 1000109302
+	id = VIETnam.129
 	desc = "EVTDESC1000109302"
 	picture = GFX_evt_moorish_decor
 	

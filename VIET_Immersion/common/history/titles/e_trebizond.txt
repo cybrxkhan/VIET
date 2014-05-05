@@ -1,8 +1,8 @@
 1205.1.1=
 {
-add_law = succ_primogeniture
-add_law = cognatic_succession
-add_law = centralization_1
+law = succ_primogeniture
+law = cognatic_succession
+law = centralization_1
 holder=215519
 }
 1222.2.1=

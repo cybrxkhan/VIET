@@ -22,4 +22,4 @@ religion = catholic
 
 # History
 
-1232.1.1= { religion = bosnian } 
+1232.1.1= { religion = bosnian_religion } 

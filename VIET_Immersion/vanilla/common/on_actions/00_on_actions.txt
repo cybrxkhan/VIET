@@ -746,13 +746,6 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.335
 		#References
 		3 = VIETmisc.2513
-		10 = VIETmisc.5000
-		10 = VIETmisc.5001
-		10 = VIETmisc.5002
-		10 = VIETmisc.5003
-		10 = VIETmisc.5004
-		10 = VIETmisc.5005
-		10 = VIETmisc.5012
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish

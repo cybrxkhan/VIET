@@ -3430,12 +3430,13 @@ crusade = {
 	truce_days = 3650
 	is_permanent = yes
 	is_holy_war = yes
-	battle_warscore_mult = 0.5
+	battle_warscore_mult = 0.3
 	check_de_jure_tier = KING # this scans all de jure kingdoms for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
-
+	apply_short_occ_mod = no
+	
 	can_use_gui = {
 		NOT = { has_global_flag = shattered_balance }
-			
+		
 		ROOT = {
 			has_called_crusade = no
 			religion_authority = 0.05
@@ -3483,11 +3484,15 @@ crusade = {
 							}
 						}
 					}
+					NOT = { 
+						ROOT = { religion_group = muslim }
+					}
 					has_global_flag = violated_baqt
 				}
 			}
 		}
 	}
+	
 	can_use = {
 		ROOT = {
 			can_call_crusade = yes
@@ -3503,30 +3508,25 @@ crusade = {
 				}
 			}
 		}
-		NOT = { # Not if the Schism has been mended
-			AND = {
-				OR = {
-					religion = catholic
-					religion = fraticelli
+		ROOT = {
+			NOT = { # Not if the Schism has been mended
+				AND = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+					}
+					has_global_flag = schism_mended
 				}
-				has_global_flag = schism_mended
 			}
 		}
 	}
 
 	can_use_title = {
-		NOT = {
-			any_war = { # when used in title scope, checks all wars for that title
-				using_cb = crusade
-			}
-		}
 		FROM = {
 			any_realm_title = {
 				de_jure_liege_or_above = PREVPREV
 			}
-			
 			independent = yes # Don't declare Crusades on revolters - chances are high the war will invalidate
-			
 			OR = {
 				num_of_realm_counties = {
 					value = 6
@@ -3542,29 +3542,11 @@ crusade = {
 					de_jure_liege_or_above = PREVPREV
 					any_neighbor_province = {
 						owner = {
-							top_liege = {
-								religion = ROOT
-							}
+							top_liege = { religion = ROOT }
 						}
 					}
 				}
 			}
-		}
-		OR = {
-			title = k_jerusalem
-			ROOT = { NOT = { religion_group = christian } }
-			FROM = {
-				any_realm_province = {
-					de_jure_liege_or_above = PREVPREV
-					religion = ROOT
-				}
-			}
-		}
-		OR = {
-			has_holder = no
-			NOT = { ROOT = { religion = catholic } }
-			FROM = { has_landed_title = PREV }
-			holder_scope = { religion = catholic }
 		}
 	}
 
@@ -3594,6 +3576,8 @@ crusade = {
 	}
 
 	on_success_title = {
+
+		# Already-held & same-religion case (give land to them)
 		if = {
 			limit = {
 				has_holder = yes
@@ -3605,16 +3589,19 @@ crusade = {
 				gain_settlements_under_title = {
 					title = PREV
 					enemy = FROM
-					is_crusade = yes # Even if the title holder is not participating in the war, gain holdings occupied by all Crusade participants
+					is_crusade = yes
 				}
 			}
 			hidden_tooltip = {
 				add_law = the_crusade_target
-				holder_scope = { character_event = { id = pb_crusades.0 } } #Handle revolters [immediately]
-				revoke_law = the_crusade_target #Remove targeting law when not exported to interactive event
+				
+				holder_scope = {
+					character_event = { id = pb_crusades.0 } #Handle revolters [immediately]
+				}
 			}
 		}
-		
+
+		# Not-held or different-religion case (give to most participating attacker, then to... someone)
 		if = {
 			limit = {
 				OR = {
@@ -3626,58 +3613,48 @@ crusade = {
 					}
 				}
 			}
-			
+
 			most_participating_attacker = {
 				gain_settlements_under_title = {
 					title = PREV
 					enemy = FROM
 				}
-				usurp_title = PREV
-				hidden_tooltip = {
-					if = {
-						limit = {
-							NOT = { culture = PREV }
-						}
-						PREV = { conquest_culture = THIS }
-					}
-				
-					PREV = { add_law = the_crusade_target }
-					character_event = { id = pb_crusades.0 } #Handle revolters [immediately]
 
+				usurp_title = PREV # Usurp or create, whichever.
+				
+				hidden_tooltip = {
+					# Need to do this after usurpation/creation due to law potential of 'always = no'
+					PREV = { add_law = the_crusade_target }
+					
+					# Refill levies of conquered holdings within target kingdom
+					any_demesne_title = {
+						limit = {
+							tier = baron
+							de_jure_liege_or_above = PREVPREV
+						}
+						remove_holding_modifier = recently_conquered
+						remove_holding_modifier = new_administration
+						refill_holding_levy = yes
+					}
+					
+					character_event = { id = pb_crusades.12 } #Free holy orders from vassalage
+					character_event = { id = pb_crusades.0 } #Handle revolters [immediately]
+					
 					if = {
 						limit = {
 							OR = {
-								ROOT = { religion = catholic } #A catholic crusade
+								ROOT = { religion_group = christian } #A christian crusade
 								primary_title = { holy_order = yes } #Also want to give away the kingdom if a holy order won it
 								primary_title = { mercenary = yes } #Also want to give away the kingdom if a mercenary won it
 							}
 						}
-						character_event = { id = pb_crusades.1 } #Give away the kingdom [potentially]
-					}
-					
-					if = {
-						limit = {
-							NOT = {
-								ROOT = { religion = catholic }
-								primary_title = { holy_order = yes }
-								primary_title = { mercenary = yes }
-							}
-						}
-						PREV = { revoke_law = the_crusade_target } #Remove targeting law when not exported to interactive event
+						character_event = { id = pb_crusades.1 } # Chance to give away the kingdom
 					}
 				}
 			}
 		}
 		
-		hidden_tooltip = {
-			# Z: this should clearly no longer be possible, but it can't hurt, so I'm leaving it.
-			if = {
-				limit = {
-					holder_scope = { character = FROM }
-				}
-				destroy_landed_title = THIS
-			}
-		}
+		hidden_tooltip = { revoke_law = the_crusade_target }
 		
 		any_attacker = {
 			limit = { character = ROOT }
@@ -3835,6 +3812,9 @@ crusade = {
 		factor = 100
 	}
 }
+
+
+
 # This CB is far more restricted in PB than in vanilla. Primarily this is achieved by adding trait requirements
 # Many of the requirements are waived base
 religious = {

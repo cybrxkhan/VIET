@@ -13,7 +13,7 @@
 }
 1000011003 = {
 	name="Sonni"
-	culture = mande
+	culture = manden
 }
 1000011004 = {
 	name="Askiya"

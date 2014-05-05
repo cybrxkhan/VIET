@@ -9,13 +9,13 @@
 	liege="e_byzantium"
 	holder=41310
 }
-1066.1.1=
-{
-liege="e_byzantium"
-}
 1060.1.1=
 {
 holder=20502
+}
+1066.1.1=
+{
+liege="e_byzantium"
 }
 1072.1.1=
 {

@@ -1134,86 +1134,86 @@
 	name="ha-Dani"
 	culture = ethiopian
 }
-1000091480 = {
-	name="Cissé"
-	culture = soninke
-}
-1000091481 = {
-	name="Tounkara"
-	culture = soninke
-}
-1000091482 = {
-	name="Soumare"
-	culture = soninke
-}	
-1000091483 = {
-	name="Yatabare"
-	culture = soninke
-}
-1000091484 = {
-	name="Soukhounou"
-	culture = soninke
-}
-1000091485 = {
-	name="Shoukhouna"
-	culture = soninke
-}
-1000091486 = {
-	name="Dukuray"
-	culture = soninke
-}
-1000091487 = {
-	name="Sarolle"
-	culture = soninke
-}
-1000091488 = {
-	name="Diakkane"
-	culture = soninke
-}
-1000091489 = {
-	name="Diakité"
-	culture = soninke
-}
-1000091490 = {
-	name="Diané"
-	culture = soninke
-}
-1000091491 = {
-	name="Diula"
-	culture = soninke
-}
-1000091492 = {
-	name="Fadiga"
-	culture = soninke
-}	
-1000091493 = {
-	name="Ndiaye"
-	culture = soninke
-}
-1000091494 = {
-	name="Sumare"
-	culture = soninke
-}
-1000091495 = {
-	name="Jatta"
-	culture = soninke
-}
-1000091496 = {
-	name="Jarra"
-	culture = soninke
-}
-1000091497 = {
-	name="Bozo"
-	culture = soninke
-}
-1000091498 = {
-	name="Nemadi"
-	culture = soninke
-}
-1000091499 = {
-	name="Jakhanke"
-	culture = soninke
-}
+# 1000091480 = {
+	# name="Cissé"
+	# culture = soninke
+# }
+# 1000091481 = {
+	# name="Tounkara"
+	# culture = soninke
+# }
+# 1000091482 = {
+	# name="Soumare"
+	# culture = soninke
+# }	
+# 1000091483 = {
+	# name="Yatabare"
+	# culture = soninke
+# }
+# 1000091484 = {
+	# name="Soukhounou"
+	# culture = soninke
+# }
+# 1000091485 = {
+	# name="Shoukhouna"
+	# culture = soninke
+# }
+# 1000091486 = {
+	# name="Dukuray"
+	# culture = soninke
+# }
+# 1000091487 = {
+	# name="Sarolle"
+	# culture = soninke
+# }
+# 1000091488 = {
+	# name="Diakkane"
+	# culture = soninke
+# }
+# 1000091489 = {
+	# name="Diakité"
+	# culture = soninke
+# }
+# 1000091490 = {
+	# name="Diané"
+	# culture = soninke
+# }
+# 1000091491 = {
+	# name="Diula"
+	# culture = soninke
+# }
+# 1000091492 = {
+	# name="Fadiga"
+	# culture = soninke
+# }	
+# 1000091493 = {
+	# name="Ndiaye"
+	# culture = soninke
+# }
+# 1000091494 = {
+	# name="Sumare"
+	# culture = soninke
+# }
+# 1000091495 = {
+	# name="Jatta"
+	# culture = soninke
+# }
+# 1000091496 = {
+	# name="Jarra"
+	# culture = soninke
+# }
+# 1000091497 = {
+	# name="Bozo"
+	# culture = soninke
+# }
+# 1000091498 = {
+	# name="Nemadi"
+	# culture = soninke
+# }
+# 1000091499 = {
+	# name="Jakhanke"
+	# culture = soninke
+# }
 
 
 

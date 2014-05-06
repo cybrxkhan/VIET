@@ -747,7 +747,7 @@ decisions = {
 				female = yes
 			}
 			new_character = {
-				add_consort = FROM
+				add_consort = ROOT
 			}
 			set_character_flag = concubine_decision_taken
 		}

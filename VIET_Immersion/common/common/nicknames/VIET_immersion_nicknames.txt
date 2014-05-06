@@ -349,7 +349,7 @@ nick_the_lawgiver = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = vedic
+			religion = hindu
 		}
 		trait = just
 		NOT = { trait = slothful }
@@ -375,7 +375,7 @@ nick_the_grim = {
 		OR = {
 			religion_group = muslim
 			religion_group = zoroastrian_group
-			religion_group = vedic
+			religion = hindu
 		}
 		OR = {
 			trait = depressed
@@ -438,7 +438,7 @@ nick_the_whore = {
 		NOT = { trait = chaste }
 		NOT = { trait = celibate }
 		is_married = yes
-		lover = {
+		any_lover = {
 			is_married = no
 			is_female = no
 		}
@@ -891,7 +891,6 @@ nick_the_farmer = {
 				trait = just
 				trait = diligent
 				trait = ambitious
-				trait = just
 				trait = gardener
 			}
 		}
@@ -1090,10 +1089,6 @@ nick_the_do_gooder = {
                 modifier = {
                         factor = 2
                         trait = just
-                }
-                modifier = {
-                        factor = 0.2
-                        trait = arbitrary
                 }
                 modifier = {
                         factor = 5 #OBJGETNICK

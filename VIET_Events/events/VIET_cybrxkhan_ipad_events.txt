@@ -2727,7 +2727,7 @@ character_event = {
                                 NOT = { trait = temperate }
                         }
                         opinion = {
-                                modifier = opinion_agrees_with_me
+                                modifier = agrees_with_me
                                 who = ROOT
                                 years = 2
                         }

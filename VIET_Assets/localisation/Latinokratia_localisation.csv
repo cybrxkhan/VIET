@@ -1,3 +1,4 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #From jordarkelf's Latin Empire mini-mod
 controls_constantinople_kaliopolis_thrake;Owns §YConstantinople§! and controls §YKaliopolis§! and §YThrake§!\n;Owns §YConstantinople§! and controls §YKaliopolis§! and §YThrake§!\n;Owns §YConstantinople§! and controls §YKaliopolis§! and §YThrake§!\n;;Owns §YConstantinople§! and controls §YKaliopolis§! and §YThrake§!\n;;;;;;;;;x
 create_latin_empire;Create the Empire of Romania;Create the Latin Empire;Create the Latin Empire;;Create the Latin Empire;;;;;;;;;x
@@ -63,7 +64,7 @@ EVTOPTALatinEmpire.12;Restoratio Imperio!;;;;;;;;;;;;x
 EVTTooltipALatinEmpire.12;An army of loyalist of the Empire appears at Constantinople.\n;;;;;;;;;;;;x
 EVTDESCLatinEmpire.16;To [Root.GetTitledFirstName]. I'm joining Byzantium, so we can unite the Roman Empire.\nYour new vassal, [From.GetBestName].;;;;;;;;;;;;x
 EVTDESCLatinEmpire.17;To [Root.GetTitledFirstName]. I have saved Byzantium from the brink of destruction and I'm sending you this letter to invite you to become my vassal so the Empire can get stronger.\nSincerely, [From.GetBestName],Ruler of Constantinople.;;;;;;;;;;;;x
-EVTOPTBLatinEmpire.17;United we stand!;;;;;;;;;;;;x
+EVTOPTALatinEmpire.17;United we stand!;;;;;;;;;;;;x
 EVTOPTBLatinEmpire.17;I'm not joining that pretentious [From.GetTitledFirstName]!;;;;;;;;;;;;x
 EVTDESCLatinEmpire.18;To [Root.GetTitledFirstName]. I'm not joining this pretentious Roman-wannabe empire of yours.\nSincerely, [From.GetBestName].;;;;;;;;;;;;x
 e_latin_empire;Romania;;;;;;;;;;;;x

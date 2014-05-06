@@ -10351,7 +10351,7 @@ character_event = {
 			name = lustful_ruler
 			duration = 365
 		}
-		lover = {
+		random_lover = {
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT

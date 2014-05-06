@@ -36,7 +36,7 @@ character_event = {
 		is_abroad = no
 		NOT = { trait = trusting }
 		has_lover = yes
-		lover = {
+		any_lover = {
 			OR = {
 				trait = gregarious
 				trait = cruel
@@ -96,62 +96,110 @@ character_event = {
 
 	option = {#ok...
 		name = VIETmisc.2500.a
-		lover = {
-                        opinion = {
-                                modifier = opinion_amused
-                                who = ROOT
-                                years = 1
-                        }
-                        reverse_opinion = {
-                                modifier = opinion_happy
-                                who = ROOT
-                                years = 1
-                        }
+		random_lover = {
+			limit = {
+				OR = {
+					trait = gregarious
+					trait = cruel
+					trait = absentminded
+					trait = lunatic
+					trait = envious
+					trait = paranoid
+					trait = genius
+					trait = depressed
+				}
+			}
+			opinion = {
+					modifier = opinion_amused
+					who = ROOT
+					years = 1
+			}
+			reverse_opinion = {
+					modifier = opinion_happy
+					who = ROOT
+					years = 1
+			}
 		}
 	}
 	option = {#ok...
 		name = VIETmisc.2500.b
-		lover = {
-                        opinion = {
-                                modifier = opinion_fun_banter
-                                who = ROOT
-                                years = 2
-                        }
-                        reverse_opinion = {
-                                modifier = opinion_fun_banter
-                                who = ROOT
-                                years = 1
-                        }
+		random_lover = {
+			limit = {
+				OR = {
+					trait = gregarious
+					trait = cruel
+					trait = absentminded
+					trait = lunatic
+					trait = envious
+					trait = paranoid
+					trait = genius
+					trait = depressed
+				}
+			}
+			opinion = {
+					modifier = opinion_fun_banter
+					who = ROOT
+					years = 2
+			}
+			reverse_opinion = {
+					modifier = opinion_fun_banter
+					who = ROOT
+					years = 1
+			}
 		}
 	}
 	option = {#ok...
 		name = VIETmisc.2500.c
-		lover = {
-                        opinion = {
-                                modifier = opinion_amused
-                                who = ROOT
-                                years = 1
-                        }
-                        reverse_opinion = {
-                                modifier = opinion_thankful
-                                who = ROOT
-                                years = 2
-                        }
+		random_lover = {
+			limit = {
+				OR = {
+					trait = gregarious
+					trait = cruel
+					trait = absentminded
+					trait = lunatic
+					trait = envious
+					trait = paranoid
+					trait = genius
+					trait = depressed
+				}
+			}
+			opinion = {
+					modifier = opinion_amused
+					who = ROOT
+					years = 1
+			}
+			reverse_opinion = {
+					modifier = opinion_thankful
+					who = ROOT
+					years = 2
+			}
 		}
 	}
 	option = {#ok...
 		name = VIETmisc.2500.d
-		lover = {
-                        opinion = {
-                                modifier = opinion_amused
-                                who = ROOT
-                                years = 1
-                        }
-                        reverse_opinion = {
-                                modifier = opinion_afraid
-                                who = ROOT
-                                years = 1
-                        }
+		random_lover = {
+			limit = {
+				OR = {
+					trait = gregarious
+					trait = cruel
+					trait = absentminded
+					trait = lunatic
+					trait = envious
+					trait = paranoid
+					trait = genius
+					trait = depressed
+				}
+			}
+			opinion = {
+					modifier = opinion_amused
+					who = ROOT
+					years = 1
+			}
+			reverse_opinion = {
+					modifier = opinion_afraid
+					who = ROOT
+					years = 1
+			}
 		}
 	}
 }
@@ -800,12 +848,12 @@ character_event = {
 
 	option = {#sankyuu
 		name = VIETmisc.2505.a
-		lover = {
-                        reverse_opinion = {
-                                modifier = opinion_happy
-                                who = ROOT
-                                years = 1
-                        }
+		random_lover = {
+			reverse_opinion = {
+					modifier = opinion_happy
+					who = ROOT
+					years = 1
+			}
 		}
 	}
 	option = {#aaaarrrgggghhhhh
@@ -826,17 +874,17 @@ character_event = {
 				remove_trait = lustful
 			}
 		}
-		lover = {
-                        opinion = {
-                                modifier = opinion_confused
-                                who = ROOT
-                                years = 1
-                        }
-                        reverse_opinion = {
-                                modifier = opinion_afraid
-                                who = ROOT
-                                years = 1
-                        }
+		random_lover = {
+			opinion = {
+					modifier = opinion_confused
+					who = ROOT
+					years = 1
+			}
+			reverse_opinion = {
+					modifier = opinion_afraid
+					who = ROOT
+					years = 1
+			}
 		}
 	}
 }

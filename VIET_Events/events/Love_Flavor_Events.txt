@@ -1009,49 +1009,49 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.5
-				random_lover = {
+				any_lover = {
 					trait = envious
 				}
 			}
 			modifier = {
 				factor = 2
-				random_lover = {
+				any_lover = {
 					trait = gregarious
 				}
 			}
 			modifier = {
 				factor = 0.5
-				random_lover = {
+				any_lover = {
 					trait = cruel
 				}
 			}
 			modifier = {
 				factor = 2
-				random_lover = {
+				any_lover = {
 					trait = kind
 				}
 			}
 			modifier = {
 				factor = 0.5
-				random_lover = {
+				any_lover = {
 					trait = wroth
 				}
 			}
 			modifier = {
 				factor = 2
-				random_lover = {
+				any_lover = {
 					trait = patient
 				}
 			}
 			modifier = {
 				factor = 0.5
-				random_lover = {
+				any_lover = {
 					trait = arbitrary
 				}
 			}
 			modifier = {
 				factor = 2
-				random_lover = {
+				any_lover = {
 					trait = just
 				}
 			}

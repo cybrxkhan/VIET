@@ -20,7 +20,7 @@ blessing_obby_ossy = {
 VIET_enjoying_self = {
 	icon = 1
 }
-ordep_obby_oss_dude = {
+VIET_visited_holy_well = {
 	icon = 1
 }
 

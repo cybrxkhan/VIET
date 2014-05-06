@@ -399,7 +399,7 @@ zither_player = {
 }
 go_player = {
 	potential = {
-		religion_group = eastern_group
+		# religion_group = eastern_group
 	}
 
 	lifestyle = yes

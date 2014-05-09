@@ -2513,7 +2513,7 @@ gallic = {
 
 
 
-Himalayan = {
+himalayan = {
 	graphical_culture = mongolgfx
 
 	tibetan = {

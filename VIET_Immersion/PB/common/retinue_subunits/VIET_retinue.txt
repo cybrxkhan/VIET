@@ -42,10 +42,10 @@ RETTYPE_CUL_ASIAN_CHAMPION =
 	
 	potential = {
 		OR = {	
-			culture_group = andamanese
+			culture_group = andaman
 			culture_group = sinic
 			culture_group = himalayan
-			culture_group = papuan
+			culture_group = papuan_group
 			culture_group = southeast_asian
 			culture_group = taiwanese
 		}

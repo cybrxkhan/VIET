@@ -1637,7 +1637,7 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			lover = {
+			any_lover = {
 				NOT = {
 					opinion = { who = ROOT value = 25 }
 				}
@@ -1645,7 +1645,7 @@ character_event = {
 		}	
 		modifier = {
 			factor = 0.5			
-			lover = {
+			any_lover = {
 				NOT = {
 					reverse_opinion = { who = ROOT value = 25 }
 				}
@@ -1657,7 +1657,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.05
-			lover = { NOT = { same_realm = ROOT } }
+			any_lover = { NOT = { same_realm = ROOT } }
 		}	
 		modifier = {
 			factor = 0.8
@@ -2785,7 +2785,17 @@ character_event = {
 	option = {
 		name = "EVTOPTA64085" #They elope to get married
 		piety = 5
-		lover = {
+		random_lover = {
+			limit = {
+				is_ruler = no
+				is_married = no
+				is_consort = no
+				can_marry = ROOT
+				ROOT = {
+					can_marry = PREV
+				}
+				NOT = { num_of_lovers = 2 }
+			}
 			add_spouse = ROOT
 		}
 		liege = {

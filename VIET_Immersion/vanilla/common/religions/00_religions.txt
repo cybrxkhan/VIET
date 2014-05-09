@@ -1476,7 +1476,7 @@ pagan_group = {
 	aztec_reformed = {
 		graphical_culture = mesoamericangfx
 		
-		secondary_event_pictures = aztec_pagan
+		secondary_event_pictures = aztec
 		
 		icon = 17
 		

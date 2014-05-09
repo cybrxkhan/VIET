@@ -892,163 +892,163 @@
 }
 1000091610 = {
 	name="Janjua"
-	culture = punjabi
+	culture = panjabi
 }
 1000091611 = {
 	name="Singh"
-	culture = punjabi
+	culture = panjabi
 }
 1000091612 = {
 	name="Kapoor"
-	culture = punjabi
+	culture = panjabi
 }	
 1000091613 = {
 	name="Anand"
-	culture = punjabi
+	culture = panjabi
 }
 1000091614 = {
 	name="Sahi"
-	culture = punjabi
+	culture = panjabi
 }
 1000091615 = {
 	name="Bhatti"
-	culture = punjabi
+	culture = panjabi
 }
 1000091616 = {
 	name="Sial"
-	culture = punjabi
+	culture = panjabi
 }
 1000091617 = {
 	name="Jandiyal"
-	culture = punjabi
+	culture = panjabi
 }
 1000091618 = {
 	name="Shah"
-	culture = punjabi
+	culture = panjabi
 }
 1000091619 = {
 	name="Malik"
-	culture = punjabi
+	culture = panjabi
 }
 1000091620 = {
 	name="Sandhu"
-	culture = punjabi
+	culture = panjabi
 }
 1000091621 = {
 	name="Bersal"
-	culture = punjabi
+	culture = panjabi
 }
 1000091622 = {
 	name="Bhoon"
-	culture = punjabi
+	culture = panjabi
 }	
 1000091623 = {
 	name="Chauhan"
-	culture = punjabi
+	culture = panjabi
 }
 1000091624 = {
 	name="Johiya"
-	culture = punjabi
+	culture = panjabi
 }
 1000091625 = {
 	name="Ghorewaha"
-	culture = punjabi
+	culture = panjabi
 }
 1000091626 = {
 	name="Jaswal"
-	culture = punjabi
+	culture = panjabi
 }
 1000091627 = {
 	name="Khokhar"
-	culture = punjabi
+	culture = panjabi
 }
 1000091628 = {
 	name="Minhas"
-	culture = punjabi
+	culture = panjabi
 }
 1000091629 = {
 	name="Meo"
-	culture = punjabi
+	culture = panjabi
 }
 1000091630 = {
 	name="Panwar"
-	culture = punjabi
+	culture = panjabi
 }
 1000091631 = {
 	name="Saharan"
-	culture = punjabi
+	culture = panjabi
 }
 1000091632 = {
 	name="Lok"
-	culture = punjabi
+	culture = panjabi
 }	
 1000091633 = {
 	name="Mohan"
-	culture = punjabi
+	culture = panjabi
 }
 1000091634 = {
 	name="Makhdoom"
-	culture = punjabi
+	culture = panjabi
 }
 1000091635 = {
 	name="Sisodia"
-	culture = punjabi
+	culture = panjabi
 }
 1000091636 = {
 	name="Chawda"
-	culture = punjabi
+	culture = panjabi
 }
 1000091637 = {
 	name="Vaghela"
-	culture = punjabi
+	culture = panjabi
 }
 1000091638 = {
 	name="Solanki"
-	culture = punjabi
+	culture = panjabi
 }
 1000091639 = {
 	name="Hada"
-	culture = punjabi
+	culture = panjabi
 }
 1000091640 = {
 	name="Chandela"
-	culture = punjabi
+	culture = panjabi
 }
 1000091641 = {
 	name="Gahadvala"
-	culture = punjabi
+	culture = panjabi
 }
 1000091642 = {
 	name="Chand"
-	culture = punjabi
+	culture = panjabi
 }	
 1000091643 = {
 	name="Tomara"
-	culture = punjabi
+	culture = panjabi
 }
 1000091644 = {
 	name="Dogra"
-	culture = punjabi
+	culture = panjabi
 }
 1000091645 = {
 	name="Bhullar"
-	culture = punjabi
+	culture = panjabi
 }
 1000091646 = {
 	name="Datt"
-	culture = punjabi
+	culture = panjabi
 }
 1000091647 = {
 	name="Sarai"
-	culture = punjabi
+	culture = panjabi
 }
 1000091648 = {
 	name="Lau"
-	culture = punjabi
+	culture = panjabi
 }
 1000091649 = {
 	name="Gakhar"
-	culture = punjabi
+	culture = panjabi
 }
 1000091650 = {
 	name="Kushan"

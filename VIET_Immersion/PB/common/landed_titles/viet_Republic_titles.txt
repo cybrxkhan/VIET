@@ -43,29 +43,6 @@ b_van_der_geest = { #1000061363
 }
 
 
-# ICELAND
-
-b_haukdaelur = {
-	culture = icelandic
-	religion = catholic
-}
-b_oddaverjar = {
-	culture = icelandic
-	religion = catholic
-}
-b_sturlungar = {
-	culture = icelandic
-	religion = catholic
-}
-b_vatnsfiroingar = {
-	culture = icelandic
-	religion = catholic
-}
-b_svinfellingar = {
-	culture = icelandic
-	religion = catholic
-}
-
 
 #Somalia
 b_makhzumi = {

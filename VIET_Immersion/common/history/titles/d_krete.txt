@@ -34,13 +34,13 @@
 	holder=1712 # Nikephoros Phokas
  	conquest_culture = greek
 } 
-1066.1.1=
-{
-liege="e_byzantium"
-}
 1057.1.1=
 {
 holder=20516
+}
+1066.1.1=
+{
+liege="e_byzantium"
 }
 1093.1.1=
 {

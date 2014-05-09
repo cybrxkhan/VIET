@@ -5,10 +5,14 @@ title = c_canarias
 
 # Settlements
 max_settlements = 3
-b_anazo = castle
-#b_la_laguna = city
-#b_adeje = temple
-#b_abona = castle
+b_grancanaria = castle
+#b_tenerife = city
+#b_lagomera = temple
+#b_lanzarote = castle
+#b_fuerteventura = castle
+#b_lagraciosa = castle
+#b_alegranza = castle
+#b_lapalma = castle
 
 # Misc
 culture = guanche

@@ -19,15 +19,15 @@ culture = norse
 religion = norse_pagan
 
 # History
+700.1.1 = {
+	b_itzehoe = ca_wall_1
+	b_itzehoe = ca_wall_q_1
+}
 867.1.1 = {
 	b_itzehoe = ca_shipyard_1
 	b_lauenburg = ct_port_1
 	b_kiel = ct_port_1
 	b_segeberg = tp_shipyard_1
-}
-700.1.1 = {
-	b_itzehoe = ca_wall_1
-	b_itzehoe = ca_wall_q_1
 }
 
 1066.1.1 = {

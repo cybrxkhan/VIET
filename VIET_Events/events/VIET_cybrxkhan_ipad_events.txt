@@ -2727,7 +2727,7 @@ character_event = {
                                 NOT = { trait = temperate }
                         }
                         opinion = {
-                                modifier = opinion_agrees_with_me
+                                modifier = agrees_with_me
                                 who = ROOT
                                 years = 2
                         }
@@ -3987,7 +3987,7 @@ character_event = {
 				death_reason = death_accident
 			}
 		}
-		lover = {
+		random_lover = {
 			opinion = {
 					modifier = opinion_happy
 					who = ROOT

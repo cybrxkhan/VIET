@@ -21,7 +21,7 @@ fantasia.6.tooltip;I can sit here all day and listen to her.;;;;;;;;;;;x
 fantasia.6.title;Under the Sea;;;;;;;;;;;;;x
 fantasia.6.desc;The mermaid sings, smiling at me as she plays with her hair. She begins to move towards the sea - but how does she without legs? But does it matter? Her voice is lovely beyond reason.\n\nAnd I, too, begin to walk towards the sea. "Sire," she says, briefly interrupting our song, "I have a friend, maybe two or more, who would be delighted to meet you."\n\nShe then continues singing, but I know she expects an answer from me.;;;;;;;;;;;x
 fantasia.6.a;Yes, I will go into the sea with you...;;;;;;;;;;;;;x
-VIET_mermaid_death_lol;...and enjoy the sweetest music men's ears have every heard, for all eternity! [You die… or so the official records will say.];;;;;;;;;;;x
+VIET_mermaid_death_lol;...and enjoy the sweetest music men's ears have every heard, for all eternity! (You die... or so the official records will say.);;;;;;;;;;;x
 fantasia.6.b;No, I cannot, I have my duties to attend to.;;;;;;;;;;;;;x
 fantasia.5.tooltip2;She nods, and continues singing. Now, however, I'm starting to feel very sleepy...;;;;;;;;;;;;;x
 fantasia.7.title;The Mermaid of [Root.GetName];;;;;;;;;;;;;x

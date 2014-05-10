@@ -135,8 +135,8 @@ k_novgorod = { #formerly Rus
 	finnish_pagan_reformed = 300 # Crusade target weight
 	baltic_pagan_reformed = 100 # Crusade target weight
 	
-	norse = Garï¿½ariki
-	icelandic = Garï¿½arï¿½ki
+	norse = Garðariki
+	icelandic = Garðaríki
 	finnish = "Erzya"
 	samoyed = "Erzya"
 	mordvin = "Erzya"
@@ -163,10 +163,10 @@ k_kiev = { #formerly Ruthenia
 	finnish_pagan_reformed = 100
 	orthodox = 25
 	
-	norse = Kï¿½nugarï¿½r
-	swedish = Kï¿½nugï¿½rd
-	norwegian = Kï¿½nugï¿½rd
-	danish = Kï¿½nugï¿½rd	
+	norse = Könugarðr
+	swedish = Könugård
+	norwegian = Kønugård
+	danish = Kønugård	
 }
 
 

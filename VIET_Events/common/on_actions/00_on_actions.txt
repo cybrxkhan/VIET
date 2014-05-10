@@ -1471,7 +1471,7 @@ on_loot_settlement = {
 		5 = TOG.3302
 		5 = TOG.3303
 		35 = TOG.3320
-		15 = VIETmisc.100
+		# 15 = VIETmisc.100 # This event requires a trait only found in VIET Immersion
 		250 = 0
 	}
 }

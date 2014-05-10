@@ -19,7 +19,7 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOT = {religion_group = muslim }
+					NOT = { religion_group = muslim }
 					culture_group = west_african 
 				}
 				is_merchant_republic = no
@@ -42,12 +42,12 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
-						}						
+						}
 					}
 				}
 			}
@@ -143,12 +143,12 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
-						}					
+						}
 					}
 				}
 			}
@@ -266,8 +266,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
@@ -557,7 +557,7 @@ succession_laws = {
 						NOT = { religion = west_african_pagan }
 						NOT = { religion = east_african_pagan }
 					}
-				}				
+				}
 				
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
@@ -580,8 +580,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							year = 1150
 							tier = king
@@ -673,7 +673,7 @@ succession_laws = {
 				is_merchant_republic = no
 				is_patrician = no
 				religion_group = muslim
-				NOT = { holder_scope = { culture_group = west_african } }
+				NOT = { culture_group = west_african }
 				NOT = { has_landed_title = d_ibadi }
 			}
 			is_primary_type_title = no
@@ -755,12 +755,12 @@ succession_laws = {
 			OR = {
 				is_landless_type_title = yes
 				holder_scope = { is_theocracy = no }
-				holder_scope = { 
+				holder_scope = {
 					NOT = { religion = catholic }
 					NOT = { religion = fraticelli }
 				}
 			}
-			holder_scope = { 
+			holder_scope = {
 				is_patrician = no
 				is_merchant_republic = no
 				OR = {

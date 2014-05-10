@@ -2643,14 +2643,10 @@ character_event = {
 	desc = VIETjewish.19.desc
 	picture = GFX_evt_holy_jerusalem
 	
-	trigger = {
-		has_landed_title = d_israel_defense
-		NOT = { has_global_flag = israel_defense_setup_complete }
-	}
+	is_triggered_only = yes
 	
 	option = { #ok
 		name = VIETjewish.19.a
-		set_global_flag = israel_defense_setup_complete
 		hidden_tooltip = {
 			#The likely suspects
 			create_random_soldier = {

@@ -5123,6 +5123,27 @@ character_event = {
 			}
 			character = FROM
 		}
+		# Exilarch and his vassals/employees won't convert
+		NOT = {
+			OR = {
+				OR = {
+					has_landed_title = d_exilarch
+					has_landed_title = d_exilarch_karaite
+				}
+				liege = {
+					OR = {
+						has_landed_title = d_exilarch
+						has_landed_title = d_exilarch_karaite
+					}
+				}
+				employer = {
+					OR = {
+						has_landed_title = d_exilarch
+						has_landed_title = d_exilarch_karaite
+					}				
+				}
+			}
+		}
 	}
 	
 	immediate = {

@@ -10,7 +10,7 @@ title_favored_son={
 		dynasty = FROM
 		NOT = { trait = bastard }
 		is_child_of = FROM
-		father_even_if_dead = {is_alive = yes}
+		father = {is_alive = yes}
 		#NOT = {has_minor_title = title_favored_son}
 	}
 	gain_effect = {

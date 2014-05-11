@@ -463,10 +463,10 @@ character_event = {
 		is_title_active = d_knights_templar
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -1023,10 +1023,10 @@ character_event = {
 		is_title_active = d_knights_hospitaler
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -2069,10 +2069,10 @@ character_event = {
 		is_title_active = d_bektashi
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -2489,10 +2489,10 @@ character_event = {
 		is_title_active = d_teutonic_order
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -3336,10 +3336,10 @@ character_event = {
 		is_title_active = d_hashshashin
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -3813,10 +3813,10 @@ character_event = {
 		is_title_active = d_jomsvikings
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -4548,10 +4548,10 @@ character_event = {
 		is_title_active = d_holy_sepulchre
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -5259,10 +5259,10 @@ character_event = {
 		is_title_active = d_saint_anthony
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -5902,10 +5902,10 @@ character_event = {
 		is_title_active = d_immortals
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -6539,10 +6539,10 @@ character_event = {
 		is_title_active = d_zealots
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -7176,10 +7176,10 @@ character_event = {
 		is_title_active = d_sky_lords
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -7812,10 +7812,10 @@ character_event = {
 		is_title_active = d_spirit_guardians
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -8448,10 +8448,10 @@ character_event = {
 		is_title_active = d_warriors_perun
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -9084,10 +9084,10 @@ character_event = {
 		is_title_active = d_chosen_perkunas
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -9719,10 +9719,10 @@ character_event = {
 		is_title_active = d_sons_kaleva
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -10353,10 +10353,10 @@ character_event = {
 		is_title_active = d_huitzilopochtli
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -11024,10 +11024,10 @@ character_event = {
 		is_title_active = d_knights_santiago
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -11713,10 +11713,10 @@ character_event = {
 		is_title_active = d_knights_calatrava
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -12425,10 +12425,10 @@ character_event = {
 		is_title_active = d_saint_addai
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}

@@ -364,11 +364,11 @@ character_event = {
 			}
 			father = { if={limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }}
 			mother = { if={limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }}
-			father_even_if_dead = {
+			father = {
 				any_sibling = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }
 				any_spouse = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }
 			}
-			mother_even_if_dead = {
+			mother = {
 				any_sibling = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }
 				any_spouse = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayalfail}} letter_event = {id = ao_fabbetrayal.13} set_character_flag = infbetrayalfail }
 			}
@@ -411,11 +411,11 @@ character_event = {
 			}
 			father = { if={limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }}
 			mother = { if={limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }}
-			father_even_if_dead = {
+			father = {
 				any_sibling = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }
 				any_spouse = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }
 			}
-			mother_even_if_dead = {
+			mother = {
 				any_sibling = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }
 				any_spouse = { limit = {is_ruler=yes NOT={has_character_flag=infbetrayal}} letter_event = {id = ao_fabbetrayal.9} set_character_flag = infbetrayal }
 			}

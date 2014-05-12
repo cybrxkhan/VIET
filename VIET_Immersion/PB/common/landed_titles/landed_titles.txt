@@ -6232,14 +6232,14 @@ d_exilarch = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_composition
+	# mercenary_type = exilarch_composition
 	
 
 }
@@ -6258,14 +6258,14 @@ d_exilarch_karaite = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_karaite_composition
+	# mercenary_type = exilarch_karaite_composition
 	
 
 }

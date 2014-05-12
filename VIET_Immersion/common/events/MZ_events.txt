@@ -236,28 +236,28 @@ character_event = {
 		name = "EVTOPTA1000094011" #Library
 		prestige = 500
 		set_global_flag = persepolis_rebuilt
-		b_perozabad = { set_name = Persepolis }
+		# b_perozabad = { set_name = Persepolis }
 		capital_scope = {
 			add_province_modifier = { name = "persepolis_library" duration = -1 }
-			}
+		}
 	}
 	option = {
 		name = "EVTOPTB1000094011" #Irrigation system
 		prestige = 500
 		set_global_flag = persepolis_rebuilt
-		b_perozabad = { set_name = Persepolis }
+		# b_perozabad = { set_name = Persepolis }
 		capital_scope = {
 			add_province_modifier = { name = "persepolis_irrigation" duration = -1 }
-			}
+		}
 	}
 	option = {
 		name = "EVTOPTC1000094011" #Gate of all nations
 		prestige = 500
 		set_global_flag = persepolis_rebuilt
-		b_perozabad = { set_name = Persepolis }
+		# b_perozabad = { set_name = Persepolis }
 		capital_scope = {
 			add_province_modifier = { name = "persepolis_gate" duration = -1 }
-			}
+		}
 	}
 }
 

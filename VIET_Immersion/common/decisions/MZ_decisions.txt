@@ -8,25 +8,27 @@ decisions = {
 	convert_to_zoroastrianism = {
 		potential = {
 			is_ruler = yes
-			age = 16
+			is_adult = yes
 			prisoner = no
 			religion_group = muslim
 			culture_group = iranian
-			NOT = {trait = zealous}
-			NOT = {piety = 0}
+			NOT = { trait = zealous }
+			NOT = { piety = 0 }
 		}
 		allow = {
 			war = no
 			OR = {
 				AND = {
 					any_demesne_province = {
-					religion_group = zoroastrian_group
-						}
-					NOT = { religion_authority = 0.35 }
+						religion_group = zoroastrian_group
 					}
+					NOT = { religion_authority = 0.35 }
+				}
 				NOT = { religion_authority = 0.20 }
 			}
 			prisoner = no
+			piety = 200
+			wealth = 100
 		}
 		effect = {
 			religion = zoroastrian
@@ -228,7 +230,7 @@ decisions = {
 		}
 		allow = {
 			wealth = 500
-			has_landed_title = b_perozabad
+			has_landed_title = b_shiraz
 			capital_scope = {
 				province_id = 644
 			}

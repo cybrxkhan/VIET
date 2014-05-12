@@ -230,7 +230,7 @@ decisions = {
 			wealth = 500
 			has_landed_title = b_perozabad
 			capital_scope = {
-				province_id = 643
+				province_id = 644
 			}
 			OR = {
 				has_landed_title = k_persia

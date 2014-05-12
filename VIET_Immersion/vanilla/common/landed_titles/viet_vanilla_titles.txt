@@ -216,3 +216,14 @@ k_kipchak = { #Kipchaks
 	
 	tengri_pagan_reformed = 500
 }
+
+k_iceland = {
+	color = { 200 200 200 }
+	capital = 2 # Austurland
+	culture = icelandic
+
+	allow = {
+		is_republic = yes
+	}
+	
+}

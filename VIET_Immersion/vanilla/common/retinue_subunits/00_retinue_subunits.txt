@@ -125,6 +125,7 @@ RETTYPE_CUL_ALTAIC =
 			culture_group = altaic
 			culture_group = iranian
 			culture_group = sinic
+			culture_group = serindian
 		}
 	}
 	

@@ -1139,6 +1139,7 @@ RETTYPE_CUL_ALTAIC =
 			culture = khazar
 			culture = pecheneg
 			culture = mongol
+			culture_group = serindian
 		}
 		
 		# PB's retinue spam filter

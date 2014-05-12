@@ -453,13 +453,8 @@ RETTYPE_CUL_FINNO_UGRIC =
 	first_amount = 250
 	
 	potential = {
-		OR = {
-			culture = finnish
-			culture = lappish
-			culture = komi
-			culture = mordvin
-			culture = samoyed
-		}
+		
+		culture_group = finno_ugric
 		
 		# PB's retinue spam filter
 		OR = {
@@ -521,7 +516,11 @@ RETTYPE_CUL_SCOT =
 	first_amount = 250
 	
 	potential = {
-		culture = scottish
+		OR = {
+			culture = scottish
+			culture = pictish
+			culture = cumbrian
+		}
 		
 		# PB's retinue spam filter
 		OR = {
@@ -782,6 +781,9 @@ RETTYPE_CUL_NORSE =
 			culture = norse
 			culture = danish
 			culture = swedish
+			culture = icelandic
+			culture = norsegael
+			culture = norsebriton
 		}
 		
 		# PB's retinue spam filter
@@ -988,6 +990,7 @@ RETTYPE_CUL_BYZ =
 		OR = {
 			culture = alan
 			culture = greek
+			culture = griko
 		}
 		
 		# PB's retinue spam filter
@@ -1139,6 +1142,11 @@ RETTYPE_CUL_ALTAIC =
 			culture = khazar
 			culture = pecheneg
 			culture = mongol
+			culture = bolghar
+			culture = karluk
+			culture = kirghiz
+			culture = chagatai
+			culture = tatar
 			culture_group = serindian
 		}
 		
@@ -1175,10 +1183,7 @@ RETTYPE_CUL_AVAR =
 	special_troops = horse_archers
 	
 	potential = {
-		OR = {
-			culture = cuman
-			culture = pecheneg
-		}
+		culture = avar
 		
 		# PB's retinue spam filter
 		OR = {
@@ -1248,7 +1253,10 @@ RETTYPE_CUL_ARAB =
 	special_troops = camel_cavalry
 	
 	potential = {
-		culture_group = arabic
+		OR = {
+			culture_group = arabic
+			culture_group = north_african
+		}
 		
 		# PB's retinue spam filter
 		OR = {
@@ -1284,7 +1292,10 @@ RETTYPE_CUL_W_AFR =
 	second_amount = 100
 	
 	potential = {
-		culture_group = west_african
+		OR = {
+			culture_group = west_african
+			culture_group = central_african
+		}
 		
 		# PB's retinue spam filter
 		OR = {

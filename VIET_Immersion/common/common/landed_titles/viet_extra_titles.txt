@@ -310,17 +310,6 @@ d_udmurtia = {
 	
 }
 
-k_iceland = {
-	color = { 200 200 200 }
-	capital = 2 # Austurland
-	culture = icelandic
-
-	allow = {
-		is_republic = yes
-	}
-	
-}
-
 d_brugge = {
 	color={ 55 88 228 }
 	color2={ 255 255 255 }

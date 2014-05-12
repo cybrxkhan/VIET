@@ -709,24 +709,24 @@ character_event = {
 		}
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				OR = {
 					primary_title = { higher_tier_than = BARON }
-					father_even_if_dead = {
+					father = {
 						primary_title = { higher_tier_than = BARON }
 					}
-					mother_even_if_dead = {
+					mother = {
 						primary_title = { higher_tier_than = BARON }
 					}
 				}
 			}
-			mother_even_if_dead = {
+			mother = {
 				OR = {
 					primary_title = { higher_tier_than = BARON }
-					father_even_if_dead = {
+					father = {
 						primary_title = { higher_tier_than = BARON }
 					}
-					mother_even_if_dead = {
+					mother = {
 						primary_title = { higher_tier_than = BARON }
 					}
 				}

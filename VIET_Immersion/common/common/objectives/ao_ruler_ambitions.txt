@@ -524,14 +524,14 @@ obj_noble_concubine = {
 						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 					}
 
-					father_even_if_dead = {
+					father = {
 						any_sibling = {
 							is_ruler = yes
 							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 						}
 					}
 
-					mother_even_if_dead = {
+					mother = {
 						any_sibling = {
 							is_ruler = yes
 							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
@@ -558,14 +558,14 @@ obj_noble_concubine = {
 						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 					}
 
-					father_even_if_dead = {
+					father = {
 						any_sibling = {
 							is_ruler = yes
 							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 						}
 					}
 
-					mother_even_if_dead = {
+					mother = {
 						any_sibling = {
 							is_ruler = yes
 							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
@@ -595,14 +595,14 @@ obj_noble_concubine = {
 					OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 				}
 
-				father_even_if_dead = {
+				father = {
 					any_sibling = {
 						is_ruler = yes
 						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
 					}
 				}
 
-				mother_even_if_dead = {
+				mother = {
 					any_sibling = {
 						is_ruler = yes
 						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }

@@ -418,7 +418,7 @@ character_event = {
 				}
 			}		#END brothers/sisters-in-law
 		}		#END brothers/sisters
-		father_even_if_dead = {		#father
+		father = {		#father
 			#opinion = {				#vanilla modifier used here
 			#	modifier = opinion_child
 			#	who = ROOT

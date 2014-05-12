@@ -454,7 +454,7 @@ narrative_event = {
 			culture = norsebriton
 		}
 		higher_tier_than = COUNT
-		father_even_if_dead = {
+		father = {
 			is_alive = no
 		}
 		NOT = { has_character_flag = VIET_govan_stones_triggered }

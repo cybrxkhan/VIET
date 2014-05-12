@@ -135,8 +135,8 @@ k_novgorod = { #formerly Rus
 	finnish_pagan_reformed = 300 # Crusade target weight
 	baltic_pagan_reformed = 100 # Crusade target weight
 	
-	norse = Garðariki
-	icelandic = Garðaríki
+	norse = Garï¿½ariki
+	icelandic = Garï¿½arï¿½ki
 	finnish = "Erzya"
 	samoyed = "Erzya"
 	mordvin = "Erzya"
@@ -163,10 +163,10 @@ k_kiev = { #formerly Ruthenia
 	finnish_pagan_reformed = 100
 	orthodox = 25
 	
-	norse = Könugarðr
-	swedish = Könugård
-	norwegian = Kønugård
-	danish = Kønugård	
+	norse = Kï¿½nugarï¿½r
+	swedish = Kï¿½nugï¿½rd
+	norwegian = Kï¿½nugï¿½rd
+	danish = Kï¿½nugï¿½rd	
 }
 
 
@@ -216,3 +216,15 @@ k_kipchak = { #Kipchaks
 	
 	tengri_pagan_reformed = 500
 }
+
+k_iceland = {
+	color = { 200 200 200 }
+	capital = 2 # Austurland
+	culture = icelandic
+
+	allow = {
+		is_republic = yes
+	}
+	
+}
+

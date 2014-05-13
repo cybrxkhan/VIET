@@ -699,6 +699,21 @@ zen_supporter = {
 	build_time_modifier = -0.20
 	icon = 2
 }
+yogacara_supporter = {
+	potential = {
+		religion = buddhist
+		trait = mahayana_buddhist
+		primary_title = { higher_tier_than = BARON }
+	}
+	
+	trigger = {
+		has_character_flag = yogacara_flag
+		religion = buddhist
+	}
+	learning = 2
+	monthly_character_piety = 0.25
+	icon = 2
+}
 buddhist_zeal = {
 	potential = {
 		religion = buddhist

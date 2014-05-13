@@ -421,7 +421,7 @@ decisions = {
 				is_occupied = no
 			}
 			prisoner = no
-			scaled_wealth = 0.20
+			scaled_wealth = 0.2
 			age = 16
 			custom_tooltip = {
 				text = health_travel_condition
@@ -440,8 +440,9 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = -0.20
+			scaled_wealth = -0.2
 			set_character_flag = activated_pilgrimage
+			set_character_flag = do_not_disturb
 			hidden_tooltip = {
 				character_event = { 
 					id = SoA.5000
@@ -486,7 +487,7 @@ decisions = {
 				is_occupied = no
 			}
 			prisoner = no
-			scaled_wealth = 0.20
+			scaled_wealth = 0.2
 			age = 16
 			custom_tooltip = {
 				text = health_travel_condition
@@ -504,12 +505,12 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = -0.20
+			scaled_wealth = -0.2
 			clr_character_flag = promise_hajj
 			set_character_flag = activated_hajj
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
-
+			
 			if = {
 				limit = {
 					trait = decadent

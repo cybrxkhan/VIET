@@ -2295,13 +2295,13 @@ narrative_event = {
 		has_dlc = "Sons of Abraham"
 		year = 885
 		in_command = no
+		NOT = { has_character_flag = do_not_disturb }
 		b_mntathos = {
 			holder_scope = {
 				is_priest = yes
 				religion = ROOT
 			}
 		}
-		NOT = { has_character_flag = do_not_disturb }
 		OR = {
 			religion = orthodox
 			religion = bogomilist

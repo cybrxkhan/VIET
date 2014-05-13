@@ -423,6 +423,11 @@ VIET_impressed_ruler = {
 	learning = 1
 	icon = 7
 }
+VIET_efficient_time = {
+	diplomacy = 1
+	stewardship = 1
+	icon = 10
+}
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

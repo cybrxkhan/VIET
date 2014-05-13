@@ -2608,7 +2608,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {#le gasp
-		name = VIETmisc.2026.a
+		name = VIETmisc.2027.a
 		random = {
 			chance = 20
 			add_trait = stressed
@@ -2825,6 +2825,7 @@ character_event = {
 				is_female = yes
 			}
 		}
+		custom_tooltip = { yay_mexican_girl }
 		add_character_modifier = {
 			name = eating_good_food
 			duration = 180

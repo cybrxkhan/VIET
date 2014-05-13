@@ -31,8 +31,44 @@ VIETmisc.2024.b;Let's share the knight's things with the needy.;;;;;;;;;;;;;x
 VIETmisc.2025.desc;Peasants in one of your provinces accused a minor noble of being corrupt, betraying the Dulcinian doctrine of equality and charity. Wishing to "purify" him, they lynched him, torched his house, and killed his entire family, including his innocent young newborn child!;;;;;;;;;;;x
 VIETmisc.2025.a;These damn peasants! They take our faith too seriously!;;;;;;;;;;;;;x
 VIETmisc.2025.b;If a baby were corrupted, I'd "purify" that worthless piece of trash too.;;;;;;;;;;;;;x
-VIETmisc.2026.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2026.a;Xxxxxx;;;;;;;;;;;;;x
+VIETmisc.2026.desc;I've been drinking out late at night with two of your favorite servants. As I walk home, the three of you spot an old man on a rickety old cart. My servants, still intoxicated, throw stones at the cart, breaking one of the axles. They laugh and tell me to join in, but feel something's not right. What's an old man like that doing in the middle of the night?;;;;;;;;;;;x
+VIETmisc.2026.a;I'll help the old man fix his cart.;;;;;;;;;;;;;x
+VIETmisc.2026.b;Run away! Who knows what that old bloke is up to!;;;;;;;;;;;;;x
+VIETmisc.2026.c;Ignore the man and move on.;;;;;;;;;;;;;x
+VIETmisc.2027.tooltip;You help the mysterious old man.;;;;;;;;;;;x
+VIETmisc.2027.desc;This morning my two favorite servants were found dead of natural causes (apparently, you were told). What more, a large patch of my hair somehow turned white. I just know it had to do something with that mysterious old man I met yesterday.... Wait, heaven protect me! I know who that old man was, it was Ankou, the henchman of death!;;;;;;;;;;;x
+VIETmisc.2027.a;No one must know of what happened.;;;;;;;;;;;;;x
+met_ankou;Met Ankou;;;;;;;;;;;x
+met_ankou_desc;There are rumors that this character met the Breton henchman of death.;;;;;;;;;;;x
+VIETmisc.2028.desc;As I am drinking chouchen - Breton cider mixed with honey - with my courtiers, one of them suggests adding some bee venom into it to increase it's intoxicating effects. "I've tried it before, in one of the smaller villages," the courtier claims. "It is an extraordinary experience!";;;;;;;;;;;x
+VIETmisc.2028.a;Are you insane? This is strong enough for me.;;;;;;;;;;;;;x
+VIETmisc.2028.b;Yes, I like the sound of that. Let's find some bee venom!;;;;;;;;;;;;;x
+VIETmisc.2029.desc;We have some guests from afar coming tonight, and I wish to serve them some of the finest Breton crepes. Should we serve them sweet or savory?;;;;;;;;;;;x
+VIETmisc.2029.a;Sweet!;;;;;;;;;;;;;x
+VIETmisc.2029.b;Savory!;;;;;;;;;;;;;x
+VIETmisc.2029.c;"Why not both?" your child says.;;;;;;;;;;;;;x
+yay_mexican_girl;Your courtiers cheer and lift the girl up in jubilation at her brilliant idea.;;;;;;;;;;;;;x
+VIETmisc.2030.desc;I live near the sea, and thus my ears constantly suffer from the loud shouts of the traditional hues - cliff top lookouts who help fishermen. They constantly shout "hevva, hevva!" to alert the fishermen as to where the fish are. We Cornish love our fish, but all this shouting is driving me crazy!";;;;;;;;;;;x
+VIETmisc.2030.a;Gah! I can't do much. We need the fishermen if we want fish, after all.;;;;;;;;;;;;;x
+VIETmisc.2031.desc;I am about to sail on a short voyage to one of the local seaside towns for some official business. I bring with me some good old Cornish pasties (those delicious succulent meats in pastry dough!) on board the ship, but one of the sailors pleads me not to. "It's bad luck to bring pasties on board! Throw it off deck, that the dead mariners be at peace, my liege!";;;;;;;;;;;x
+VIETmisc.2031.a;Ha ha, no way. I like these delicious pasties too much!;;;;;;;;;;;;;x
+VIETmisc.2031.b;Very well, very well!;;;;;;;;;;;;;x
+VIET_believed_superstition;Believed superstition;;;;;;;;;;;;;x
+VIET_ignored_superstition;Ignored superstition;;;;;;;;;;;;;x
+VIETmisc.2032.desc;While visiting one of the local monasteries, I come across the monastery kitchen. There the monks have stocked a lot of rather bland foods - most likely to ensure their temperate lifestyle stays temperate. One of the monks tells me, "We have too much clotted cream, my liege. Perhaps we can gift you some for use in your feasts.";;;;;;;;;;;x
+VIETmisc.2032.a;Clotted cream? Something all Cornish appreciate! I’ll take it.;;;;;;;;;;;;;x
+VIETmisc.2032.b;Give it to the poor and needy instead.;;;;;;;;;;;;;x
+VIETmisc.2033.desc;A Rowan tree of great magical powers has been discovered in one of the provinces I rule. Experts on the local lore says that the tree appears to have a certain special appearance and properties. For as long as it stands, it will protect the surrounding region.;;;;;;;;;;;x
+VIETmisc.2033.a;A sign of good fortune.;;;;;;;;;;;;;x
+VIET_rowan_tree;Magical Rowan Tree;;;;;;;;;;;;;x
+VIET_rowan_tree_desc;The local Britons believe that a Rowan tree in this province is full of magical properties.;;;;;;;;;;;;;x
+VIETmisc.2034.desc;A small hill-fort was recently discovered near your residence. Old indeed, it appears to have been a fortification built by your Briton ancestors to protect themselves in the turmoil following the fall of the Roman Empire centuries ago.;;;;;;;;;;;x
+VIETmisc.2034.a;What a dark yet heroic age it must have been, the age of Arthur!;;;;;;;;;;;;;x
+inspired_by_heritage;Inspired by Heritage;;;;;;;;;;;;;x
+VIETmisc.2035.desc;To be honest, as much as I admire King Arthur (for he is a hero to us Britons), I have to admit the basis of his authority as a powerful feudal lord - the lady of the lake giving him Excalibur - is a bit weak. Strange women lying in ponds distributing swords is no basis for the feudal contract, after all.;;;;;;;;;;;x
+VIETmisc.2035.a;But it is his deeds that matter!;;;;;;;;;;;;;x
+VIETmisc.2035.b;He was given the right to rule by the heavens.;;;;;;;;;;;;;x
+VIETmisc.2035.c;Who expects to wield power because a watery tart threw a sword at them?;;;;;;;;;;;;;x
 #REFERENCES;;;;;;;;;;;;;;x
 VIETmisc.2500.desc;Being a [Root.GetTitle] is dangerous as I have many enemies who want to kill me. Sometimes this makes me worry a lot. Today I even admitted to my beloved [Lover.GetName] that sometimes I fear [Lover.GetSheHe] is plotting my murder. Upon hearing this, [Lover.GetSheHe] responded, "Of course I want to be the one to kill you. If I kill you, I'll be the one closest to your deathbed.";;;;;;;;;;;x
 VIETmisc.2500.a;You're so sweet and romantic!;;;;;;;;;;;;;x

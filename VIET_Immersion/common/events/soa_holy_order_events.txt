@@ -2956,7 +2956,13 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+		}
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
 		any_child = {
@@ -3158,7 +3164,13 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+		}
 		
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
@@ -3329,7 +3341,13 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+		}
 		
 		martial = 5
 		
@@ -3530,7 +3548,13 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+		}
 		
 		d_hashshashin = {
 			holder_scope = {
@@ -7169,7 +7193,7 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
-		religion = tengri_pagan #tengri_pagan_reformed
+		religion = tengri_pagan_reformed #tengri_pagan_reformed
 		
 		martial = 5
 		
@@ -7412,7 +7436,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = tengri_pagan #tengri_pagan_reformed
+		religion = tengri_pagan_reformed #tengri_pagan_reformed
 		
 		d_sky_lords = {
 			holder_scope = {

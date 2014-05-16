@@ -116,32 +116,14 @@ character_event = {
 	}
 }
 
-# Future plans:
-# Probably going to fire this sucker from the CB itself, since why not?
 #Turkish Conquest CB gets free troops
+# Fired from the Turkish Conquest CB
 character_event = {
 	id = ottoman.3
 	desc = "ottoman.3.desc"
 	picture = GFX_evt_fetih
 	
-	only_rulers = yes
-	
-	trigger = {
-		has_global_flag = VIET_immersion_on
-		is_adult = yes
-		culture = turkish
-		religion_group = muslim
-		any_war = {
-			using_cb = turkish_conquest
-			attacker = { character = ROOT }
-		}
-		NOT = { has_character_flag = turkish_got_free_troops_already }
-		NOT = { has_global_flag = VIET_turkish_features_off }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "ottoman.3.a"

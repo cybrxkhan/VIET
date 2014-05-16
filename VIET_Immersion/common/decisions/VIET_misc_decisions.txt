@@ -990,8 +990,10 @@ decisions = {
 			prisoner = no
 			is_ruler = yes
 			independent = yes
-			# Should we require a higher title tier?
-			# Don't want puny rulers somehow forming an empire
+			OR = {
+				higher_tier_than = DUKE
+				num_of_duke_titles = 2
+			}
 			is_adult = yes
 			religion_group = muslim
 			culture = turkish

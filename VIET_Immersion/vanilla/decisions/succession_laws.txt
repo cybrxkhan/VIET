@@ -19,7 +19,7 @@ succession_laws = {
 					}
 				}
 				OR = {
-					NOT = {religion_group = muslim }
+					NOT = { religion_group = muslim }
 					culture_group = west_african 
 				}
 				is_merchant_republic = no
@@ -80,18 +80,17 @@ succession_laws = {
 						}
 					}
 				}
+				
+				NOT = { religion_group = muslim }
 				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
 					is_patrician = yes
+					culture_group = west_african
 				}
 				
 				OR = {
@@ -175,14 +174,12 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
+					culture_group = west_african
 					religion_group = indian_group
 				}
 				
@@ -282,11 +279,11 @@ succession_laws = {
 							tier = emperor 
 						}						
 					}
-					culture_group = west_african 
 					is_reformed_religion = yes
 					religion = hellenic_pagan
 					has_landed_title = d_ibadi
 					religion = qarmatian
+					culture_group = west_african
 				}
 			}
 			OR = {
@@ -571,12 +568,12 @@ succession_laws = {
 			OR = {
 				is_landless_type_title = yes
 				holder_scope = { is_theocracy = no }
-				holder_scope = { 
+				holder_scope = {
 					NOT = { religion = catholic }
 					NOT = { religion = fraticelli }
 				}
 			}
-			holder_scope = { 
+			holder_scope = {
 				is_patrician = no
 				is_merchant_republic = no
 				OR = {
@@ -696,11 +693,6 @@ gender_laws = {
 			
 			is_primary_type_title = no
 		}
-
-		allow = {
-			NOT = { has_law = succ_tanistry }
-		}
-
 		effect = {
 			gender_succ = cognatic
 		}
@@ -731,7 +723,7 @@ gender_laws = {
 		male_dynasty_opinion = -10
 		
 		potential = {
-			holder_scope = { 
+			holder_scope = {
 				NOT = { religion_group = muslim }
 				NOT = { religion = tengri_pagan_reformed }
 				NOT = { religion = tengri_pagan }
@@ -775,7 +767,6 @@ gender_laws = {
 					religion = bogomilist
 				}
 			}
-			NOT = { has_law = succ_tanistry }
 		}
 		effect = {
 			gender_succ = true_cognatic

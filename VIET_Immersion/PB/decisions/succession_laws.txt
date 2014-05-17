@@ -108,18 +108,17 @@ succession_laws = {
 						}
 					}
 				}
+				
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-						NOT = { religion_group = indian_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
 					is_patrician = yes
+					culture_group = west_african
 				}
 				
 				OR = {
@@ -233,14 +232,13 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
+					culture_group = west_african
+					religion_group = indian_group
 				}
 				
 				is_merchant_republic = no
@@ -344,15 +342,15 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				is_patrician = no
 				
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-						NOT = { religion_group = indian_group }
-					}
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
 					AND = {
 						OR = {
 							religion = ibadi
@@ -365,11 +363,9 @@ succession_laws = {
 							tier = emperor 
 						}						
 					}
-					culture_group = west_african 
-					is_reformed_religion = yes
-					religion = hellenic_pagan
 					has_landed_title = d_ibadi
 					religion = qarmatian
+					culture_group = west_african
 				}
 			}
 			OR = {
@@ -522,7 +518,6 @@ succession_laws = {
 		}
 		effect = {
 			succession = tanistry
-			gender_succ = agnatic
 		}
 		revoke_allowed = {
 			always = no
@@ -546,17 +541,9 @@ succession_laws = {
 				}
 				OR = {
 					culture = mongol
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-						NOT = { religion = east_african_pagan }
-					}
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
 				}
 				
 				NOT = { religion_group = muslim }
@@ -881,12 +868,9 @@ gender_laws = {
 			is_primary_type_title = no
 		}
 		allow = {
-			AND = {
-				NOT = { has_law = succ_tanistry }
-				OR = {
-					has_law = agnatic_succession
-					has_law = true_cognatic_succession
-				}
+			OR = {
+				has_law = agnatic_succession
+				has_law = true_cognatic_succession
 			}
 			holder_scope = { prestige = 500 }
 		}
@@ -920,7 +904,6 @@ gender_laws = {
 			factor = 1
 		}		
 	}
-	
 	true_cognatic_succession = {
 		male_dynasty_opinion = -10
 		
@@ -1013,7 +996,6 @@ gender_laws = {
 								has_nickname = nick_the_great
 							}
 						}
-						NOT = { has_law = succ_tanistry }
 					}
 				}
 				has_law = enatic_cognatic_succession

@@ -3124,7 +3124,7 @@ character_event = {
 character_event = {
 	id = 94177
 	desc = EVTDESC94177
-	picture = GFX_evt_melee_muslim
+	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
 	
 	hide_from = yes

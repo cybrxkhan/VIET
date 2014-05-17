@@ -1314,6 +1314,7 @@ character_event = {
 			}
 		}
 	}
+	
 	option = {
 		name = EVTOPTB91240 # Declare independence
 		ai_chance = {

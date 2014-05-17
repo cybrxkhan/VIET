@@ -983,6 +983,42 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	form_turkish_empire = {
+		is_high_prio = yes
+		potential = {
+			prisoner = no
+			is_ruler = yes
+			independent = yes
+			OR = {
+				higher_tier_than = DUKE
+				num_of_duke_titles = 2
+			}
+			is_adult = yes
+			religion_group = muslim
+			culture = turkish
+			has_global_flag = VIET_immersion_on
+			NOT = { trait = incapable }
+			NOT = { has_global_flag = fall_of_constantinople }
+			NOT = { has_global_flag = VIET_turkish_features_off }
+		}
+		allow = {
+			war = no
+			OR = {
+				has_landed_title = c_byzantion
+				any_realm_lord = {
+					has_landed_title = c_byzantion
+				}
+			}
+		}
+		effect = {
+			set_global_flag = fall_of_constantinople
+			narrative_event = { id = ottoman.1 tooltip = ottoman.1.tt }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 }
 

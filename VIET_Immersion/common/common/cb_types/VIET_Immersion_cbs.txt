@@ -96,6 +96,16 @@ turkish_conquest = {
 				duration = 1825
 			}
 		}
+		ROOT = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						NOT = { has_character_flag = turkish_got_free_troops_already }
+					}
+					character_event = { id = ottoman.3 }
+				}
+			}
+		}
 	}
 
 	on_success = {

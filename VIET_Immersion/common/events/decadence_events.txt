@@ -1512,6 +1512,18 @@ character_event = {
 	option = {
 		name = EVTOPTA91300
 		add_trait = decadent
+		
+		hidden_tooltip = {
+			any_dynasty_member = {
+				limit = {
+					ai = no
+				}
+				character_event = {
+					id = 91370
+					days = 1
+				}
+			}
+		}
 	}
 }
 
@@ -1641,6 +1653,21 @@ character_event = {
 			who = FROM
 			months = 240
 		}
+		
+		hidden_tooltip = {
+			any_dynasty_member = {
+				limit = {
+					is_playable = yes
+					NOT = { trait = decadent }
+					NOT = { character = FROM }
+				}
+				
+				character_event = {
+					id = 91369
+					days = 1
+				}
+			}
+		}
 	}
 	option = {
 		name = EVTOPTB91351 # Convince (diplo)
@@ -1769,6 +1796,21 @@ character_event = {
 			who = FROM
 			months = 240
 		}
+		
+		hidden_tooltip = {
+			any_dynasty_member = {
+				limit = {
+					is_playable = yes
+					NOT = { trait = decadent }
+					NOT = { character = FROM }
+				}
+				
+				character_event = {
+					id = 91369
+					days = 1
+				}
+			}
+		}
 	}
 }
 
@@ -1821,6 +1863,9 @@ character_event = {
 			OR = {
 				religion = sunni
 				religion = zikri
+				religion = qalandari
+				religion = salihist
+				religion = murjite
 			}
 			is_heretic = no
 			d_bektashi = {
@@ -1861,6 +1906,8 @@ character_event = {
 				religion = shiite
 				religion = druze
 				religion = hurufi
+				religion = alawite
+				religion = qarmatian
 			}
 			is_heretic = no
 			d_hashshashin = {
@@ -2075,6 +2122,21 @@ character_event = {
 			who = FROM
 			months = 240
 		}
+		
+		hidden_tooltip = {
+			any_dynasty_member = {
+				limit = {
+					is_playable = yes
+					NOT = { trait = decadent }
+					NOT = { character = FROM }
+				}
+				
+				character_event = {
+					id = 91369
+					days = 1
+				}
+			}
+		}
 	}
 }
 
@@ -2106,6 +2168,44 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA91368
+	}
+}
+
+# Other rulers of the dynasty are notified of the failure to straighten the character up
+character_event = {
+	id = 91369
+	desc = EVTDESC91369
+	picture = GFX_evt_jugglers
+	
+	notification = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		opinion = {
+			modifier = opinion_takfir
+			who = FROMFROM
+			months = 240
+		}
+	}
+	
+	option = {
+		name = EVTOPTA91369
+	}
+}
+
+# Player rulers of the dynasty are notified when someone goes decadent
+character_event = {
+	id = 91370
+	desc = EVTDESC91370
+	picture = GFX_evt_jugglers
+	
+	notification = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA91370
 	}
 }
 

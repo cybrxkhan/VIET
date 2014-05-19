@@ -3164,12 +3164,10 @@ faction_independence = {
 				has_landed_title = e_hre
 			}
 		}
-		
 		modifier = {
 			factor = 0.5
 			opinion = { who = LIEGE value = 40 } 
 		}
-		
 		modifier = {
 			factor = 1.5
 			NOT = { opinion = { who = LIEGE value = 0 } } 
@@ -3608,12 +3606,10 @@ faction_independence = {
 				has_landed_title = e_hre
 			}
 		}
-		
 		modifier = {
 			factor = 0.5
 			opinion = { who = LIEGE value = 40 } 
 		}
-		
 		modifier = {
 			factor = 1.5
 			NOT = { opinion = { who = LIEGE value = 0 } } 
@@ -3944,8 +3940,10 @@ faction_claimant = {
 			new_character = {
 				FROM = {
 					liege = {
-						NOT = { is_father = PREVPREV }
-						NOT = { is_mother = PREVPREV }
+						or = {
+							is_father = PREVPREV
+							is_mother = PREVPREV
+						}
 					}
 				}
 			}

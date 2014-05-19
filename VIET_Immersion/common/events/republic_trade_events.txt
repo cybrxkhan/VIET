@@ -164,8 +164,6 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	
-	
 	option = {
 		name = EVTOPTA_REP_002
 		scaled_wealth = -0.125
@@ -1077,9 +1075,7 @@ character_event = {
 	hide_from = yes
 	
 	is_triggered_only = yes
-		
 	
-
 	option = {
 		name = EVTOPTA_REP_014
 		scaled_wealth = 0.25
@@ -1675,7 +1671,6 @@ character_event = {
 		scaled_wealth = -0.125
 	}
 }
-
 
 ### The Rise of the Hansa
 

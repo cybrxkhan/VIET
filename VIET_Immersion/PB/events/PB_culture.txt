@@ -639,7 +639,7 @@ character_event = {
 character_event = {
 	id = meneth.0
 	desc = "meneth.0.desc"
-	picture = GFX_evt_stone_church
+	picture = "GFX_evt_throne_room"
 	
 	only_rulers = yes
 	
@@ -687,13 +687,13 @@ character_event = {
 							culture = greek
 							OR = {
 								kingdom = { title = k_sicily }
-							empire = { title = e_italy }
+								empire = { title = e_italy }
+							}
 						}
 					}
 				}
 			}
 		}
-	}
 	}
 	
 	mean_time_to_happen = {
@@ -803,7 +803,7 @@ character_event = {
 character_event = {
 	id = meneth.1
 	desc = "meneth.1.desc"
-	picture = GFX_evt_stone_church
+	picture = "GFX_evt_throne_room"
 	
 	max_age = 1
 	
@@ -851,13 +851,13 @@ character_event = {
 							culture = greek
 							OR = {
 								kingdom = { title = k_sicily }
-							empire = { title = e_italy }
+								empire = { title = e_italy }
+							}
 						}
 					}
 				}
 			}
 		}
-	}
 	}
 	
 	mean_time_to_happen = {
@@ -1160,7 +1160,7 @@ character_event = {
 province_event = {
 	id = meneth.4
 	desc = "EVTDESC55000"
-	picture = GFX_evt_throne_room
+	picture = GFX_evt_carriage
 	
 	trigger = {
 		OR = {

@@ -910,7 +910,7 @@ character_event = {
 			is_alive = yes
 		}
 		spouse = {
-			any_child = { 
+			any_child = {
 				ai = yes
 				is_alive = yes
 				is_female = no

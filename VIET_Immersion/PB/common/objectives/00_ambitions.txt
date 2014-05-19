@@ -16,7 +16,6 @@ obj_become_chancellor = {
 		prisoner = no
 		is_adult = yes
 		is_councillor = no
-		diplomacy = 8
 		independent = no
 		OR = {
 			is_female = no
@@ -35,6 +34,7 @@ obj_become_chancellor = {
 			}
 		}
 		NOT = { trait = incapable }
+		diplomacy = 8
 	}
 	chance = {
 		factor = 100
@@ -1610,8 +1610,8 @@ obj_improve_martial = {
 	
 	allow = {
 		NOT = { martial = 8 }
-		NOT = { trait = infirm }
 		NOT = { trait = incapable }
+		NOT = { trait = infirm }
 		prisoner = no
 	}
 	creation_effect={
@@ -1645,7 +1645,10 @@ obj_improve_martial = {
 		martial = 8
 	}
 	abort = {
-		OR={ trait = incapable trait = infirm}
+		OR = {
+			trait = incapable
+			trait = infirm
+		}
 	}
 	abort_effect = {
 		clr_character_flag = improve_martial_success
@@ -1678,8 +1681,8 @@ obj_improve_stewardship = {
 	
 	allow = {
 		NOT = { stewardship = 8 }
-		NOT = { trait = infirm }
 		NOT = { trait = incapable }
+		NOT = { trait = infirm }
 		prisoner = no
 	}
 	creation_effect={
@@ -1713,7 +1716,10 @@ obj_improve_stewardship = {
 		stewardship = 8
 	}
 	abort = {
-		OR={ trait = incapable trait = infirm}
+		OR = {
+			trait = incapable
+			trait = infirm
+		}
 	}
 	abort_effect = {
 		clr_character_flag = 10_salt
@@ -1784,7 +1790,10 @@ obj_improve_learning = {
 		learning = 8
 	}
 	abort = {
-		OR={ trait = incapable trait = infirm}
+		OR = {
+			trait = incapable
+			trait = infirm
+		}
 	}
 	abort_effect = {
 		clr_character_flag = flying_machine
@@ -1851,7 +1860,10 @@ obj_improve_diplomacy = {
 		diplomacy = 8
 	}
 	abort = {
-		OR={ trait = incapable trait = infirm}
+		OR = {
+			trait = incapable
+			trait = infirm
+		}
 	}
 	abort_effect = {
 		clr_character_flag = the_feud
@@ -1880,6 +1892,7 @@ obj_improve_intrigue = {
 		is_ruler = yes
 		NOT={has_character_flag = used_intrigue_ambition}
 	}
+	
 	allow = {
 		NOT = { intrigue = 8 }
 		NOT = { trait = incapable }
@@ -1917,7 +1930,10 @@ obj_improve_intrigue = {
 		intrigue = 8
 	}
 	abort = {
-		OR={ trait = incapable trait = infirm}
+		OR = {
+			trait = incapable
+			trait = infirm
+		}
 	}
 	abort_effect = {
 		clr_character_flag = the_necklace
@@ -1952,8 +1968,11 @@ obj_become_king = {
 		is_adult = yes
 		is_playable = yes
 		is_landed = yes
-		OR={independent=yes tier=duke}
 		lower_tier_than = KING
+		OR = {
+			independent = yes
+			tier = duke
+		}
 		NOT = {
 			any_heir_title = {
 				higher_tier_than = DUKE
@@ -1978,7 +1997,7 @@ obj_become_king = {
 			factor = 0
 			NOT = { religion_group = pagan_group }
 			NOT = { trait = ambitious }
-		}		
+		}
 		modifier = {
 			factor = 3.0
 			capital_scope = {
@@ -2063,9 +2082,15 @@ obj_become_king = {
 			}
 			is_playable = no
 			is_landed = no
-			higher_tier_than = DUKE
+			AND = {
+				higher_tier_than = DUKE
+				primary_title = {
+					temporary = no
+				}
+			}
 			any_heir_title = {
 				higher_tier_than = DUKE
+				temporary = no
 			}
 		}
 	}

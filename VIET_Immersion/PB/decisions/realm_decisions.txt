@@ -463,10 +463,10 @@ decisions = {
 			NOT = { has_landed_title = c_byzantion }
 			has_landed_title = e_byzantium
 			any_realm_lord = { 
-					ai = yes
-					has_landed_title = c_byzantion 
-				}
+				ai = yes
+				has_landed_title = c_byzantion 
 			}
+		}
 		allow = {
 			NOT = { has_landed_title = c_byzantion }
 			any_realm_lord = { 
@@ -817,7 +817,7 @@ decisions = {
 			completely_controls = d_asturias
 		}
 		effect = {
-			narrative_event = { id = 62920 tooltip = EVTTOOLTIP62920 }
+			character_event = { id = 62920 tooltip = EVTTOOLTIP62920 }
 			if = {
 				limit = { has_nickname = no }
 				give_nickname = nick_the_great

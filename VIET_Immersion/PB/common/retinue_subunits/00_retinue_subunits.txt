@@ -370,7 +370,6 @@ RETTYPE_CUL_RUS =
 			}
 		}
 	}
-	
 	modifier = {
 		knights_offensive = 0.3
 		horse_archers_offensive = 0.3
@@ -1201,7 +1200,6 @@ RETTYPE_CUL_AVAR =
 			}
 		}
 	}
-	
 	modifier = {
 		knights_defensive = 0.6
 		horse_archers_offensive = 0.3

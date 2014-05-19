@@ -58,15 +58,8 @@ e_byzantium = {
 		catholic = 50 # Crusade target weight
 		muslim = 25 # Crusade target weight
 		
-	
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_thrace = {
@@ -463,15 +456,8 @@ e_byzantium = {
 		catholic = 75 # Crusade target weight
 		muslim = 50 # Crusade target weight
 		
-	
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_nikaea = {
@@ -755,15 +741,8 @@ e_byzantium = {
 		
 		culture = greek
 		
-	
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		orthodox = 250 # Crusade target weight
@@ -1053,14 +1032,8 @@ e_byzantium = {
 		catholic = 50 # Crusade target weight
 		muslim = 100 # Crusade target weight
 		
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_trebizond = {
@@ -1373,12 +1346,7 @@ e_byzantium = {
 		
 		allow = {
 			culture = armenian
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_armenia_minor = {
@@ -1518,15 +1486,8 @@ e_byzantium = {
 		culture = greek
 		muslim = 200 # Crusade target weight
 		
-	
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_charsianon = {
@@ -1813,12 +1774,7 @@ e_byzantium = {
 		# Creation/Usurp Trigger
 		allow = {
 			NOT = { culture = pecheneg }
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
 		
 		d_bulgaria = {
@@ -2111,17 +2067,10 @@ e_byzantium = {
 		
 		greek = "Rascia"
 		
-	
-		# Creation/Usurp Trigger
 		allow = {
-			NOT = { has_landed_title = e_byzantium }
-			NOT = {
-				liege = {
-					has_landed_title = e_byzantium
-				}
-			}
+			liege = { NOT = { has_landed_title = e_byzantium } }
 		}
-			
+		
 		d_rashka = {
 			color={ 15 15 100 }
 			color2={ 255 255 255 }

@@ -28783,7 +28783,7 @@ e_britannia = {
 } #e_britannia
 
 e_mali = {
-	color={ 138 148 55 }
+	color={ 225 228 125 }
 	color2={ 255 255 255 }
 	
 	capital = 911 # Timbuktu
@@ -28796,7 +28796,7 @@ e_mali = {
 	serer = "Wolof"
 	
 	k_mali = {
-		color={ 158 188 61 }
+		color={ 236 195 59 }
 		color2={ 255 255 255 }
 		
 		capital = 911 # Timbuktu
@@ -28804,13 +28804,13 @@ e_mali = {
 		culture = manden
 	
 		d_timbuktu = {
-			color={ 130 180 61 }
+			color={ 240 245 100 }
 			color2={ 255 255 255 }
 	
 			capital = 911 # Timbuktu			
 		
 			c_timbuktu = {
-				color={ 130 180 61 }
+				color={ 240 245 100 }
 				color2={ 255 255 255 }
 			
 				b_timbuktu = {}
@@ -28826,7 +28826,7 @@ e_mali = {
 				b_aglal = {}
 			}
 			c_oualata = {
-				color={ 130 180 61 }
+				color={ 226 229 148 }
 				color2={ 255 255 255 }
 			
 				b_oualata = {}
@@ -28839,7 +28839,7 @@ e_mali = {
 				b_fassekra = {}
 			}
 			c_araouane = {
-				color={ 130 180 61 }
+				color={ 185 185 85 }
 				color2={ 255 255 255 }
 			
 				b_araouane = {}
@@ -28852,7 +28852,7 @@ e_mali = {
 				b_tazrouk = {}
 			}
 			c_taghaza = {
-				color={ 130 180 61 }
+				color={ 233 224 93 }
 				color2={ 255 255 255 }
 			
 				b_taghaza = {}
@@ -28873,7 +28873,7 @@ e_mali = {
 			capital = 913 # Ghana
 		
 			c_ghana = {
-				color={ 130 180 61 }
+				color={ 245 188 102 }
 				color2={ 255 255 255 }
 				
 				b_el_ghaba = {}
@@ -28888,7 +28888,7 @@ e_mali = {
 				b_kughah = {}
 			}
 			c_aoudaghost = {
-				color={ 130 180 61 }
+				color={ 253 217 163 }
 				color2={ 255 255 255 }
 			
 				b_aoudaghost = {}
@@ -28898,7 +28898,7 @@ e_mali = {
 				
 			}
 			c_ouadane = {
-				color={ 130 180 61 }
+				color={ 240 198 28 }
 				color2={ 255 255 255 }
 			
 				b_ouadane = {}
@@ -28907,7 +28907,7 @@ e_mali = {
 				b_ksaralkiali = {}
 			}
 			c_idjil = {
-				color={ 130 180 61 }
+				color={ 252 209 145 }
 				color2={ 255 255 255 }
 			
 				b_idjil = {}
@@ -28919,13 +28919,13 @@ e_mali = {
 		}
 		
 		d_mali = {
-			color={ 80 120 70 }
+			color={ 255 179 0 }
 			color2={ 255 255 255 }
 	
 			capital = 925 # Mali
 		
 			c_mali = {
-				color={ 130 180 61 }
+				color={ 255 179 0 }
 				color2={ 255 255 255 }
 				
 				b_boure = {}
@@ -28941,7 +28941,7 @@ e_mali = {
 				b_soussa = {}
 			}
 			c_bambuk = {
-				color={ 130 180 61 }
+				color={ 255 211 105 }
 				color2={ 255 255 255 }
 			
 				b_bambuk = {}
@@ -28952,7 +28952,7 @@ e_mali = {
 				b_aftout = {}
 			}
 			c_djenne = {
-				color={ 130 180 61 }
+				color={ 248 222 111 }
 				color2={ 255 255 255 }
 			
 				b_djenne = {}
@@ -28965,7 +28965,7 @@ e_mali = {
 				b_derary = {}
 			}
 			c_gurma = {
-				color={ 130 180 61 }
+				color={ 255 178 50 }
 				color2={ 255 255 255 }
 				
 				b_gurma = {}
@@ -28974,13 +28974,13 @@ e_mali = {
 			}
 		}
 		d_songhay = {
-			color={ 80 120 70 }
+			color={ 242 238 179 }
 			color2={ 255 255 255 }
 	
 			capital = 914 # Gao
 		
 			c_gao = {
-				color={ 130 180 61 }
+				color={ 242 238 179 }
 				color2={ 255 255 255 }
 				
 				b_gao = {}
@@ -28993,7 +28993,7 @@ e_mali = {
 				b_anchawadi = {}
 			}
 			c_tadmekka = {
-				color={ 130 180 61 }
+				color={ 246 239 146 }
 				color2={ 255 255 255 }
 			
 				b_tadmekka = {}
@@ -29003,7 +29003,7 @@ e_mali = {
 				b_kidal = {}
 			}
 			c_zarma = {
-				color={ 130 180 61 }
+				color={ 235 203 76 }
 				color2={ 255 255 255 }
 				b_bura = {}
 				b_ouallam = {}

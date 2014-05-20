@@ -2235,7 +2235,7 @@ character_event = {
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = gnostic_group
-		}
+			}
 		}
 	}
 	

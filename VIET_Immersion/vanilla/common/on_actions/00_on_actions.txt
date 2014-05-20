@@ -161,7 +161,7 @@ on_yearly_pulse = {
 		100 = TOG.3403
 		100 = TOG.3401
 		100 = TOG.3402
-
+		
 		# Reincarnation: Memories of the previous life
 		1000 = RoI.10020
 		1000 = RoI.10021

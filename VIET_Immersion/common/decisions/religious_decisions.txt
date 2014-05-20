@@ -132,6 +132,10 @@ decisions = {
 					religion = fraticelli
 					is_title_active = d_fraticelli
 				}
+				AND = {
+					religion = dulcinian
+					is_title_active = d_dulcinian
+				}
 			}
 			
 			controls_religion = no

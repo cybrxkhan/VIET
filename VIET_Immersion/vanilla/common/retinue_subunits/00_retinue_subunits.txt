@@ -386,7 +386,6 @@ RETTYPE_CUL_JEWISH =
 	
 	potential = {
 		culture_group = israelite
-		religion_group = jewish_group
 	}
 	
 	modifier = {

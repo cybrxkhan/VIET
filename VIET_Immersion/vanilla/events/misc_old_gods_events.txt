@@ -765,6 +765,7 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	
 	option = {
 		name = EVTOPTA62910
 		hidden_tooltip = {

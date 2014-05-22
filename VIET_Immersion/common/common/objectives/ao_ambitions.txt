@@ -176,7 +176,7 @@ obj_get_nick = {
 	effect = {
 		change_diplomacy = 1
 		prestige = 50
-		hidden_tooltip={clr_character_flag = changed_nick}
+		hidden_tooltip = { clr_character_flag = changed_nick }
 	}
 }
 
@@ -184,6 +184,7 @@ obj_change_nick = {
 	type = character
 	
 	allow = {
+		ai = no
 		prisoner = no
 		is_ruler = yes
 		age = 16
@@ -197,13 +198,12 @@ obj_change_nick = {
 	}
 	chance = {
 		factor = 5
-		modifier = { factor = 0 ai = yes }
 	}
-	success = {has_character_flag = changed_nick}
+	success = { has_character_flag = changed_nick }
 	abort = {}
 	abort_effect = {}
 	effect = {
-		hidden_tooltip={clr_character_flag = changed_nick}
+		hidden_tooltip={ clr_character_flag = changed_nick }
 		prestige = 100
 	}
 }
@@ -228,7 +228,7 @@ obj_spouse_councillor = {
 			liege = {
 				NOT = { character = ROOT }
 			}
-			OR={
+			OR = {
 				martial = 8
 				diplomacy = 8
 				stewardship = 8
@@ -408,11 +408,11 @@ obj_ward_liege_child = {
 	
 	success = {
 		liege = {
-				any_child = {
-					guardian = {
-						character = ROOT
-					}
+			any_child = {
+				guardian = {
+					character = ROOT
 				}
+			}
 		}
 	}
 	
@@ -452,11 +452,11 @@ obj_mentor_liege_child = {
 		has_character_flag = teacher_1
 		NOT = { has_character_flag = teacher_2 }
 		liege = {
-				any_child = {
-					age = 6
-					NOT = { age = 16 }
-				}
+			any_child = {
+				age = 6
+				NOT = { age = 16 }
 			}
+		}
 	}
 	
 	chance = {
@@ -599,7 +599,7 @@ obj_become_regent = {
 			OR = {
 				NOT = { age = 15 }
 				prisoner = yes
-			    	trait = incapable
+			    trait = incapable
 			}
 		}
 	}
@@ -668,7 +668,6 @@ obj_become_regent = {
 	}
 	
 	effect = {
-		
 		change_intrigue = 1
 		prestige = 25
 	}
@@ -898,7 +897,12 @@ obj_lead_troops_infidel = {
 		age = 16
 		martial = 8
 		NOT = { religion_group = muslim }
-		NOT = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+		NOT = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+		}
 		trait = veteran
 		NOT = { trait = craven }
 		NOT = { trait = cynical }
@@ -1334,10 +1338,10 @@ obj_bastard_legit = {
 		
 	}
 	success = {
-			any_child = {
-				is_female = no
-				trait = legit_bastard
-			}
+		any_child = {
+			is_female = no
+			trait = legit_bastard
+		}
 	}
 	
 	abort = {
@@ -1368,14 +1372,14 @@ obj_amass_fortune = {
 	}
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
-		OR=	{
-			AND={
+		OR = {
+			AND = {
 				wealth = 250
 				NOT = { wealth = 500 }
 			}
-			AND={
+			AND = {
 				NOT = { wealth = 700 }
 				has_character_flag = amassed_wealth
 			}
@@ -1434,7 +1438,9 @@ obj_amass_fortune = {
 	}
 	effect = {
 		if = {
-			limit = {NOT ={has_character_flag = amassed_wealth}}
+			limit = {
+				NOT = { has_character_flag = amassed_wealth }
+			}
 			change_stewardship = 1
 			set_character_flag = amassed_wealth
 		}
@@ -1452,19 +1458,19 @@ obj_amass_hoard = {
 	}
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
-		OR={
-			AND={
+		OR = {
+			AND = {
 				wealth = 500
 				NOT = { wealth = 1000 }
 				NOT = {has_character_flag = amassed_wealth}
 			}
-			AND={
+			AND = {
 				NOT = { wealth = 1500 }
 				has_character_flag = amassed_fortune
 			}
-			AND={
+			AND = {
 				NOT = { wealth = 1500 }
 				wealth = 700
 				has_character_flag = amassed_wealth
@@ -1523,7 +1529,9 @@ obj_amass_hoard = {
 	}
 	effect = {
 		if = {
-			limit = {NOT ={has_character_flag = amassed_wealth}}
+			limit = {
+				NOT = { has_character_flag = amassed_wealth }
+			}
 			change_stewardship = 1
 		}
 		prestige = 100
@@ -1538,7 +1546,7 @@ obj_publicly_pious = {
 	type = character
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
 		NOT = { piety = 200 }
 		NOT = { trait = cruel }
@@ -1603,23 +1611,23 @@ obj_known_for_virtue = {
 	type = character
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
-		OR={
-			AND={
+		OR = {
+			AND = {
 				piety = 200
 				NOT = { piety = 500 }
 			}
-			AND={
-				NOT = {piety = 700}
+			AND = {
+				NOT = { piety = 700 }
 				has_character_flag = publicly_pious
 			}
 		}
 		NOT = { trait = cruel }
 		NOT = { trait = impaler }
 		NOT = { trait = incapable }
-		NOT = { has_character_flag = achievement_become_paragon_of_virtue}
-		NOT = { has_character_flag = known_virtue}
+		NOT = { has_character_flag = achievement_become_paragon_of_virtue }
+		NOT = { has_character_flag = known_virtue }
 	}
 	chance = {
 		factor = 50
@@ -1665,7 +1673,9 @@ obj_known_for_virtue = {
 	}
 	effect = {
 		if = {
-			limit = {NOT ={has_character_flag = publicly_pious}}
+			limit = {
+				NOT = { has_character_flag = publicly_pious }
+			}
 			change_learning = 1
 		}
 		piety = 100
@@ -1689,8 +1699,8 @@ obj_known_for_virtue = {
 		}
 		# Achievement
 		hidden_tooltip = {
-				set_character_flag = publicly_pious
-				set_character_flag = known_virtue
+			set_character_flag = publicly_pious
+			set_character_flag = known_virtue
 		}
 	}
 }
@@ -1699,7 +1709,7 @@ obj_become_distinguished = {
 	type = character
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
 		NOT = { prestige = 200 }
 		NOT = { trait = content }
@@ -1740,7 +1750,7 @@ obj_become_distinguished = {
 		change_diplomacy = 1
 		prestige = 75
 		hidden_tooltip = {
-				set_character_flag = achievement_become_distinguished
+			set_character_flag = achievement_become_distinguished
 		}
 	}
 }
@@ -1748,16 +1758,16 @@ obj_seek_fame_glory = {
 	type = character
 	
 	allow = {
-		is_adult=yes
+		is_adult = yes
 		is_ruler = yes
-		OR={
-			AND={
+		OR = {
+			AND = {
 				NOT = { prestige = 500 }
 				prestige = 200
 			}
-			AND={
-			NOT = {prestige = 700}
-			has_character_flag = achievement_become_distinguished
+			AND = {
+				NOT = { prestige = 700 }
+				has_character_flag = achievement_become_distinguished
 			}
 		}
 		NOT = { trait = content }
@@ -1803,7 +1813,7 @@ obj_seek_fame_glory = {
 		prestige = 150
 		if = {
 			limit = {
-				NOT = {has_character_flag = achievement_become_distinguished}
+				NOT = { has_character_flag = achievement_become_distinguished }
 			}
 			change_diplomacy = 1
 		}
@@ -1822,19 +1832,22 @@ obj_seek_fame_glory = {
 	}
 }
 
-obj_raise_worthy_son={
+obj_raise_worthy_son = {
 	type = character
 	allow = {
-		any_child ={ trait = favored_son is_alive = yes}
-		ai = no
+		any_child = { 
+			trait = favored_son
+			is_alive = yes
 		}
-	chance = {factor = 10}
+		ai = no
+	}
+	chance = { factor = 10 }
 	success = {
-		any_child ={
+		any_child = {
 			is_alive = yes
 			is_adult = yes
 			trait = favored_son
-			OR={
+			OR = {
 				martial = 15
 				diplomacy = 15
 				stewardship = 15
@@ -1852,9 +1865,14 @@ obj_raise_worthy_son={
 	}
 	abort = {
 		is_alive = no
-		OR={
-			NOT = {any_child = { trait = favored_son }}
-			any_child = { trait = favored_son is_alive = no }
+		OR = {
+			NOT = {
+				any_child = { trait = favored_son }
+			}
+			any_child = {
+				trait = favored_son
+				is_alive = no
+			}
 			any_child = { 
 				trait = favored_son
 				is_adult = yes
@@ -1881,7 +1899,7 @@ obj_raise_worthy_son={
 				limit = { trait = favored_son}
 				remove_title = title_favored_son
 				remove_trait = favored_son
-				}
+			}
 		}
 	}
 	effect = {
@@ -1893,6 +1911,6 @@ obj_raise_worthy_son={
 				remove_title = title_favored_son
 				remove_trait = favored_son
 			}
-		 }
+		}
 	}
 }

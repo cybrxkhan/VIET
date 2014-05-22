@@ -10,14 +10,14 @@ character_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_global_flag = VIET_Immersion_On
-		any_child = {trait = favored_son}
+		any_child = { trait = favored_son }
 	}
 	
 	option = {
 		name = ao_cleanup.0.a
 		any_child = {
 			if = {
-				limit = {trait = favored_son}
+				limit = { trait = favored_son }
 				remove_trait = favored_son
 			}
 		}
@@ -33,6 +33,6 @@ character_event = {
 	
 	option = {
 		name = ao_cleanup.1.a
-		hidden_tooltip={set_character_flag=civilized_province}
+		hidden_tooltip = { set_character_flag = civilized_province }
 	}
 }

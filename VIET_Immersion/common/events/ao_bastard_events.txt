@@ -17,9 +17,7 @@ character_event = {
 	option = {
 		name = "bastardevents.0.a"
 		father = {
-			character_event = {
-				id = bastardevents.1
-			}
+			character_event = { id = bastardevents.1 }
 		}
 	}
 }
@@ -37,9 +35,7 @@ character_event = {
 		name = bastardevents.1.a    # No
 		FROM = {
 			hidden_tooltip = {
-				character_event = {
-					id = bastardevents.2
-				}
+				character_event = { id = bastardevents.2 }
 			}
 			
 			mother = {
@@ -59,9 +55,7 @@ character_event = {
 		name = bastardevents.1.b  # Yes
 		FROM = {
 			hidden_tooltip = {
-				character_event = {
-					id = bastardevents.3
-				}
+				character_event = { id = bastardevents.3 }
 			}
 			remove_trait = bastard
 			add_trait = legit_bastard
@@ -74,7 +68,6 @@ character_event = {
 				years = 10
 			}
 		}
-		
 	}
 }
 
@@ -89,11 +82,11 @@ character_event = {
 	option = {
 		name = "bastardevents.2.a"  # There are other ways...
 		opinion = {
-				modifier = opinion_refused_legit_request
-				who = FROM
-				years = 10
-			}
-			
+			modifier = opinion_refused_legit_request
+			who = FROM
+			years = 10
+		}
+
 		if = {
 			limit = {
 				trait = content
@@ -102,17 +95,11 @@ character_event = {
 		}
 		
 		random_list = {
-			40 = {
-				add_trait = ambitious
-			}
-			50 = {
-				add_trait = deceitful
-			}
-			10 = {
-				change_intrigue = 1
-			}
+			40 = { add_trait = ambitious }
+			50 = { add_trait = deceitful }
+			10 = { change_intrigue = 1 }
 		}
-			
+
 	}
 	
 	option = {
@@ -125,15 +112,9 @@ character_event = {
 		}
 		
 		random_list = {
-			40 = {
-				add_trait = diligent
-			}
-			50 = {
-				add_trait = brave
-			}
-			10 = {
-				change_martial = 1
-			}
+			40 = { add_trait = diligent }
+			50 = { add_trait = brave }
+			10 = { change_martial = 1 }
 		}
 	}
 	
@@ -155,10 +136,10 @@ character_event = {
 	option = {
 		name = "bastardevents.3.a"
 		opinion = {
-				modifier = legitimized_child
-				who = FROM
-				years = 10
-			}
+			modifier = legitimized_child
+			who = FROM
+			years = 10
+		}
 		mother = {
 			opinion = {
 				modifier = legitimized_child
@@ -195,6 +176,5 @@ character_event = {
 
 	option = {
 		name = "bastardevents.5.a"
-		
 	}
 }

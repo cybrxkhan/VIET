@@ -296,6 +296,8 @@ sympathy_gnostic = {
 	}
 
 	tolerates_gnostic_group = yes		# Tolerates and is tolerated by Gnostics
+	
+	same_opinion_if_same_religion = 10
 
 	customizer = no
 	random = no

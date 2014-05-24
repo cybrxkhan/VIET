@@ -23,7 +23,6 @@ plot_seduce_liege = {
 		NOT = { trait = chaste }
 		NOT = { trait = celibate }
 		NOT = { health_traits = 1 }
-		
 	}
 	
 	# Target allow trigger for when players target a specific character in the GUI
@@ -32,12 +31,16 @@ plot_seduce_liege = {
 		is_female = no
 		has_lover = no
 		NOT = { is_close_relative = FROM }
-		NOT = { spouse = { character = FROM } }
+		NOT = {
+			spouse = { character = FROM }
+		}
 		NOT = { trait = celibate }
 		NOT = { trait = homosexual }
 		NOT = { trait = eunuch }
 		FROM = { 
-			NOT = { has_opinion_modifier = { who = ROOT modifier = love_scorned } }
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = love_scorned }
+			}
 		}
 	}
 	
@@ -48,12 +51,16 @@ plot_seduce_liege = {
 		is_female = no
 		has_lover = no
 		NOT = { is_close_relative = FROM }
-		NOT = { spouse = { character = FROM } }
+		NOT = {
+			spouse = { character = FROM }
+		}
 		NOT = { trait = celibate }
 		NOT = { trait = homosexual }
 		NOT = { trait = eunuch }
 		FROM = { 
-			NOT = { has_opinion_modifier = { who = ROOT modifier = love_scorned } }
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = love_scorned }
+			}
 		}
 		OR = {
 			is_liege_of = FROM
@@ -280,10 +287,14 @@ plot_seduce_for_men = {
 		NOT = { trait = celibate }
 		NOT = { trait = homosexual }
 		NOT = { is_close_relative = FROM }
-		NOT = { spouse = { character = FROM } }
+		NOT = {
+			spouse = { character = FROM }
+		}
 		has_lover = no
 		FROM = { 
-			NOT = { has_opinion_modifier = { who = ROOT modifier = love_scorned } }
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = love_scorned }
+			}
 		}
 	}
 	
@@ -291,7 +302,9 @@ plot_seduce_for_men = {
 	allow = {
 		# Some basic rules regardless of target
 		NOT = { is_close_relative = FROM }
-		NOT = { spouse = { character = FROM } }
+		NOT = {
+			spouse = { character = FROM }
+		}
 		age = 16
 		NOT = { age = 45 }
 		NOT = { trait = celibate }
@@ -299,7 +312,9 @@ plot_seduce_for_men = {
 		is_female = yes
 		has_lover = no
 		FROM = { 
-			NOT = { has_opinion_modifier = { who = ROOT modifier = love_scorned } }
+			NOT = {
+				has_opinion_modifier = { who = ROOT modifier = love_scorned }
+			}
 		}
 	
 		OR = {
@@ -322,15 +337,20 @@ plot_seduce_for_men = {
 				is_ruler = no
 				OR = {
 					num_of_claims = 1
-					any_pretender_title = {always = yes}
-					any_heir_title = {always = yes}
+					any_pretender_title = { always = yes }
+					any_heir_title = { always = yes }
 				}
 			}
 			
 			# crazy and wants to sleep with vassal's wife
 			FROM = {
-				OR = { trait = lunatic trait = possessed }
-				any_vassal = { spouse = { character = ROOT }}
+				OR = {
+					trait = lunatic
+					trait = possessed
+				}
+				any_vassal = {
+					spouse = { character = ROOT }
+				}
 			}
 		}
 	}
@@ -553,7 +573,10 @@ plot_kidnapping = {
 		is_ruler = yes
 		is_landed = yes
 		NOT = {
-			OR = { trait = incapable trait = imbecile}
+			OR = {
+				trait = incapable
+				trait = imbecile
+			}
 			AND = {
 				ai = yes
 				OR = {
@@ -569,14 +592,18 @@ plot_kidnapping = {
 	player_allow = {
 		prisoner = no
 		same_realm = FROM
-		NOT = {FROM={is_liege_or_above = ROOT}}
+		NOT = {
+			FROM = { is_liege_or_above = ROOT }
+		}
 	}
 	
 	# Target scope
 	allow = {
 		prisoner = no
 		same_realm = FROM
-		NOT = {FROM={is_liege_or_above = ROOT}}
+		NOT = {
+			FROM = { is_liege_or_above = ROOT }
+		}
 	}
 	
 	chance = {
@@ -658,14 +685,23 @@ plot_kidnapping = {
 		}
 		modifier = {
 			factor = 0.2
-			OR={
-				FROM = {any_liege = {any_child={character=ROOT}}}
-				FROM = {any_liege = {any_spouse={character=ROOT}}}
-				FROM = {any_liege = {any_sibling={character=ROOT}}}
-				FROM = {any_liege = {mother={character=ROOT}}}
-				FROM = {any_liege = {father={character=ROOT}}}
+			FROM = {
+				any_liege = {
+					OR = {
+						any_child = { character = ROOT }
+						any_spouse = { character = ROOT }
+						any_sibling = { character = ROOT }
+						mother = { character = ROOT }
+						father = { character = ROOT }
+					}
+				}
 			}
-			ROOT={OR={is_landed = no is_ruler=no}}
+			ROOT = {
+				OR = {
+					is_landed = no
+					is_ruler = no
+				}
+			}
 		}
 		
 		modifier = {
@@ -696,12 +732,12 @@ plot_kidnapping = {
 	
 	success = {
 		prisoner = yes
-		host = {character = FROM}
+		host = { character = FROM }
 	}
 	effect = {
 		FROM = {
 			any_plot_backer = {
-				reverse_opinion = { modifier = opinion_grateful who = FROM years = 5}
+				reverse_opinion = { modifier = opinion_grateful who = FROM years = 5 }
 			}
 		}
 		# I'm sure I'll have some flags to clear here
@@ -712,7 +748,9 @@ plot_kidnapping = {
 			is_alive = no
 			AND = {
 				prisoner = yes
-				NOT = {host = {character = FROM}}
+				NOT = {
+					host = { character = FROM }
+				}
 			}
 		}
 		
@@ -727,7 +765,12 @@ plot_fabricate_evidence_treason_vassal = {
 	vassal_intrigue_plot = yes
 	intrigue_plot = yes
 	potential = {
-		NOT = { OR = {trait = incapable trait = imbecile} }
+		NOT = {
+			OR = {
+				trait = incapable
+				trait = imbecile
+			}
+		}
 		is_adult = yes	
 		is_ruler = yes
 		higher_tier_than = COUNT
@@ -735,19 +778,23 @@ plot_fabricate_evidence_treason_vassal = {
 	player_allow = {
 		is_adult = yes
 		is_ruler = yes
-		liege = {character = FROM}
+		liege = { character = FROM }
 	}
 	allow = {
 		is_adult = yes
 		is_ruler = yes
-		liege = {character = FROM}
+		liege = { character = FROM }
 	}
 	chance = {
 		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
-				OR = { trait = content trait = honest trait = just }
+				OR = {
+					trait = content
+					trait = honest
+					trait = just
+				}
 				ai = yes
 			}
 		}
@@ -761,19 +808,19 @@ plot_fabricate_evidence_treason_vassal = {
 		}
 		modifier = {
 			factor = 2
-			FROM = {trait = paranoid}
+			FROM = { trait = paranoid }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 12}
+			FROM = { intrigue = 12 }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 15}
+			FROM = { intrigue = 15 }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 18}
+			FROM = { intrigue = 18 }
 		}
 		modifier = {
 			factor = 0.01
@@ -806,7 +853,9 @@ plot_fabricate_evidence_treason_vassal = {
 	}
 	success = {
 		ROOT = {
-			liege = { has_opinion_modifier = { who = ROOT modifier = opinion_traitor } }
+			liege = {
+				has_opinion_modifier = { who = ROOT modifier = opinion_traitor }
+			}
 		}
 	}
 	effect = {
@@ -818,7 +867,9 @@ plot_fabricate_evidence_treason_vassal = {
 		# I'm sure I'll have some flags to clear here
 	}
 	abort = {
-		ROOT = { has_opinion_modifier = {who = FROM modifier = opinion_tried_to_frame_me} }
+		ROOT = {
+			has_opinion_modifier = { who = FROM modifier = opinion_tried_to_frame_me }
+		}
 	}
 	abort_effect = {
 		#dunno what goes here
@@ -830,7 +881,12 @@ plot_fabricate_evidence_treason = {
 	vassal_intrigue_plot = yes
 	intrigue_plot = yes
 	potential = {
-		NOT = { OR = {trait = incapable trait = imbecile} }
+		NOT = {
+			OR = {
+				trait = incapable
+				trait = imbecile
+			}
+		}
 		is_adult = yes
 		is_ruler = yes
 		independent = no
@@ -839,23 +895,35 @@ plot_fabricate_evidence_treason = {
 		is_adult = yes
 		is_ruler = yes
 		same_realm = FROM
-		NOT = {any_liege = {character=FROM}}
+		NOT = {
+			any_liege = { character=FROM }
+		}
 		independent = no
 	}
 	allow = {
 		is_adult = yes
 		is_ruler = yes
 		same_realm = FROM
-		NOT = {any_liege = {character=FROM}}
+		NOT = {
+			any_liege = { character=FROM }
+		}
 		independent = no
-		NOT = { liege = { opinion = { who = ROOT value = 50 } } }
+		NOT = {
+			liege = {
+				opinion = { who = ROOT value = 50 }
+			}
+		}
 	}
 	chance = {
 		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
-				OR = { trait = content trait = honest trait = just }
+				OR = {
+					trait = content
+					trait = honest
+					trait = just
+				}
 				ai = yes
 			}
 		}
@@ -869,19 +937,19 @@ plot_fabricate_evidence_treason = {
 		}
 		modifier = {
 			factor = 2
-			FROM = {trait = paranoid}
+			FROM = { trait = paranoid }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 12}
+			FROM = { intrigue = 12 }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 15}
+			FROM = { intrigue = 15 }
 		}
 		modifier = {
 			factor = 1.5
-			FROM = {intrigue = 18}
+			FROM = { intrigue = 18 }
 		}
 		modifier = {
 			factor = 0.01
@@ -913,18 +981,22 @@ plot_fabricate_evidence_treason = {
 		}
 	}
 	success = {
-		liege={ has_opinion_modifier = { who = ROOT modifier = opinion_traitor } }
+		liege = {
+			has_opinion_modifier = { who = ROOT modifier = opinion_traitor }
+		}
 	}
 	effect = {
 		FROM = {
 			any_plot_backer = {
-				reverse_opinion = { modifier = opinion_grateful who = FROM years = 5}
+				reverse_opinion = { modifier = opinion_grateful who = FROM years = 5 }
 			}
 		}
 		# I'm sure I'll have some flags to clear here
 	}
 	abort = {
-		ROOT = { has_opinion_modifier = {who = FROM modifier = opinion_tried_to_frame_me} }
+		ROOT = {
+			has_opinion_modifier = { who = FROM modifier = opinion_tried_to_frame_me }
+		}
 	}
 	abort_effect = {
 		#dunno what goes here
@@ -936,7 +1008,12 @@ plot_fabricate_evidence_betrayal_same_realm = {
 	vassal_intrigue_plot = yes
 	intrigue_plot = yes
 	potential = {
-		NOT = { OR = {trait = incapable trait = imbecile} }
+		NOT = {
+			OR = {
+				trait = incapable
+				trait = imbecile
+			}
+		}
 		is_adult = yes	
 		is_ruler = yes
 	}
@@ -955,7 +1032,11 @@ plot_fabricate_evidence_betrayal_same_realm = {
 		modifier = {
 			factor = 0
 			FROM = {
-				OR = { trait = content trait = honest trait = just }
+				OR = {
+					trait = content
+					trait = honest
+					trait = just
+				}
 				ai = yes
 			}
 		}
@@ -969,19 +1050,25 @@ plot_fabricate_evidence_betrayal_same_realm = {
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 12}
+			FROM = { intrigue = 12 }
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 15}
+			FROM = { intrigue = 15 }
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 18}
+			FROM = { intrigue = 18 }
 		}
 		modifier = {
 			factor = 10
-			ROOT = {any_realm_title = {FROM={any_claim={title=PREVPREV}}}}
+			ROOT = {
+				any_realm_title = {
+					FROM = {
+						any_claim = { title = PREVPREV }
+					}
+				}
+			}
 		}
 		modifier = {
 			factor = 0.01
@@ -1024,7 +1111,9 @@ plot_fabricate_evidence_betrayal_same_realm = {
 		clr_character_flag = fabbetrayalvictim
 	}
 	abort = {
-		ROOT = { has_opinion_modifier = {who = FROM modifier = opinion_tried_to_frame_me} }
+		ROOT = {
+			has_opinion_modifier = { who = FROM modifier = opinion_tried_to_frame_me }
+		}
 	}
 	abort_effect = {
 	}
@@ -1035,7 +1124,12 @@ plot_fabricate_evidence_betrayal = {
 	vassal_intrigue_plot = yes
 	intrigue_plot = yes
 	potential = {
-		NOT = { OR = {trait = incapable trait = imbecile} }
+		NOT = {
+			OR = {
+				trait = incapable
+				trait = imbecile
+			}
+		}
 		is_adult = yes	
 		is_ruler = yes
 		independent = yes
@@ -1043,19 +1137,23 @@ plot_fabricate_evidence_betrayal = {
 	player_allow = {
 		independent = yes
 		is_ruler = yes
-		NOT = {same_realm = FROM}
+		NOT = { same_realm = FROM }
 	}
 	allow = {
 		independent = yes
 		is_ruler = yes
-		NOT={same_realm = FROM}
+		NOT = { same_realm = FROM }
 	}
 	chance = {
 		factor = 0.25
 		modifier = {
 			factor = 0
 			FROM = {
-				OR = { trait = content trait = honest trait = just }
+				OR = {
+					trait = content
+					trait = honest
+					trait = just
+				}
 				ai = yes
 			}
 		}
@@ -1069,19 +1167,25 @@ plot_fabricate_evidence_betrayal = {
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 12}
+			FROM = { intrigue = 12 }
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 15}
+			FROM = { intrigue = 15 }
 		}
 		modifier = {
 			factor = 1.2
-			FROM = {intrigue = 18}
+			FROM = { intrigue = 18 }
 		}
 		modifier = {
 			factor = 10
-			ROOT = {any_realm_title = {FROM={any_claim={title=PREVPREV}}}}
+			ROOT = {
+				any_realm_title = {
+					FROM = {
+						any_claim = { title = PREVPREV }
+					}
+				}
+			}
 		}
 		modifier = {
 			factor = 0.01
@@ -1124,7 +1228,9 @@ plot_fabricate_evidence_betrayal = {
 		clr_character_flag = fabbetrayalvictim
 	}
 	abort = {
-		ROOT = { has_opinion_modifier = {who = FROM modifier = opinion_tried_to_frame_me} }
+		ROOT = {
+			has_opinion_modifier = { who = FROM modifier = opinion_tried_to_frame_me }
+		}
 	}
 	abort_effect = {
 	}

@@ -7,10 +7,10 @@ obj_lower_decadence50 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 55}
+		NOT = { decadence = 55 }
 		decadence = 50
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -37,7 +37,7 @@ obj_lower_decadence50 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 40}
+		NOT = { decadence = 40 }
 	}
 	abort = {
 		trait = incapable
@@ -55,10 +55,10 @@ obj_lower_decadence50 = {
 				duration = 1825 #5 years
 			}
 		}
-			clr_character_flag = lower_decadence_success
-			clr_character_flag = berber_life
-			clr_character_flag = bandit_camp
-			clr_character_flag = dromedary_hunt
+		clr_character_flag = lower_decadence_success
+		clr_character_flag = berber_life
+		clr_character_flag = bandit_camp
+		clr_character_flag = dromedary_hunt
 	}
 }
 obj_lower_decadence55 = {
@@ -70,10 +70,10 @@ obj_lower_decadence55 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 60}
+		NOT = { decadence = 60 }
 		decadence = 55
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -100,7 +100,7 @@ obj_lower_decadence55 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 45}
+		NOT = { decadence = 45 }
 	}
 	abort = {
 		trait = incapable
@@ -133,10 +133,10 @@ obj_lower_decadence60 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 65}
+		NOT = { decadence = 65 }
 		decadence = 60
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -163,7 +163,7 @@ obj_lower_decadence60 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 50}
+		NOT = { decadence = 50 }
 	}
 	abort = {
 		trait = incapable
@@ -196,10 +196,10 @@ obj_lower_decadence65 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 70}
+		NOT = { decadence = 70 }
 		decadence = 65
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -226,7 +226,7 @@ obj_lower_decadence65 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 55}
+		NOT = { decadence = 55 }
 	}
 	abort = {
 		trait = incapable
@@ -259,10 +259,10 @@ obj_lower_decadence70 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 75}
+		NOT = { decadence = 75 }
 		decadence = 70
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -289,7 +289,7 @@ obj_lower_decadence70 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 60}
+		NOT = { decadence = 60 }
 	}
 	abort = {
 		trait = incapable
@@ -322,10 +322,10 @@ obj_lower_decadence75 = {
 	}
 	allow = {
 		religion_group = muslim
-		NOT = {decadence = 80}
+		NOT = { decadence = 80 }
 		decadence = 75
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -352,7 +352,7 @@ obj_lower_decadence75 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 65}
+		NOT = { decadence = 65 }
 	}
 	abort = {
 		trait = incapable
@@ -387,7 +387,7 @@ obj_lower_decadence80 = {
 		religion_group = muslim
 		decadence = 80
 		NOT = { trait = incapable }
-		NOT = {has_character_modifier = lower_decadence_obj_timer}
+		NOT = { has_character_modifier = lower_decadence_obj_timer }
 	}
 	chance = {
 		factor = 100
@@ -414,7 +414,7 @@ obj_lower_decadence80 = {
 		}
 	}
 	success = {
-		NOT = {decadence = 70}
+		NOT = { decadence = 70 }
 	}
 	abort = {
 		trait = incapable

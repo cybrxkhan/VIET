@@ -9,6 +9,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_seniority_ultimatum_taken}
 				had_character_flag = { flag = faction_succ_seniority_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -113,6 +114,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_primogeniture_ultimatum_taken }
 				had_character_flag = { flag = faction_succ_primogeniture_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -217,6 +219,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_feudal_elective_ultimatum_taken }
 				had_character_flag = { flag = faction_succ_feudal_elective_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -320,6 +323,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_gavelkind_ultimatum_taken }
 				had_character_flag = { flag = faction_succ_gavelkind_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -423,6 +427,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_lower_CA_ultimatum_taken }
 				had_character_flag = { flag = faction_lower_CA_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -541,6 +546,7 @@ plot_decisions = {
 			liege = {
 				independent = yes
 			}
+			always = no
 		}
 		allow = {
 			war = no
@@ -696,6 +702,7 @@ plot_decisions = {
 					}
 				}
 			}
+			always = no
 		}
 		
 		allow = {
@@ -911,6 +918,7 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_install_antiking_ultimatum_taken }
 				had_character_flag = { flag = faction_install_antiking_ultimatum_taken days = 7 }
 			}
+			always = no
 		}
 		allow = {
 			war = no

@@ -994,8 +994,8 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
 		scale = 1.0f
 	}
-	
-		EMFXActorType = {
+		
+	EMFXActorType = {
 		name = "muslimgfx_KNIGHTS"
 		actorfile = "gfx\models\Muslim_Heavy_Horse.xac"
 		
@@ -1040,6 +1040,57 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\Shield_Arab_01.xac"
 		scale = 1.0f
 	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_SPECIAL_TROOPS"
+		actorfile = "gfx\models\Muslim_Horse.xac"
+		
+		idle   = "gfx\models\Horse_Idle.xsm"
+		move   = "gfx\models\Horse_Moving.xsm"
+		attack = "gfx\models\Horse_Attack.xsm"
+		
+		scale = 0.9f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_SPECIAL_TROOPS_rider"
+		actorfile = "gfx\models\Muslim_Mounted_Archer.xac"
+		
+		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
+		move   = "gfx\models\Mounted_Archer_Moving.xsm"
+		attack = "gfx\models\Mounted_Archer_Attack.xsm"
+		
+		scale = 1.0f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_SPECIAL_TROOPS_weapon"
+		actorfile = "gfx\models\Attachments\Arrow.xac"
+		
+		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
+		move   = "gfx\models\Attachments\Arrow_idle.xsm"
+		attack = "gfx\models\Attachments\Arrow_attack.xsm"
+		
+		scale = 1.0f
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_SPECIAL_TROOPS_shield"
+		actorfile = "gfx\models\Attachments\Bow.xac"
+		
+		idle   = "gfx\models\Attachments\Bow_idle.xsm"
+		move   = "gfx\models\Attachments\Bow_idle.xsm"
+		attack = "gfx\models\Attachments\Bow_attack.xsm"
+		
+		scale = 1.0f
+	}	
+	
+	EMFXActorType = {
+		name = "muslimgfx_SPECIAL_TROOPS_helmet"
+		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
+		scale = 1.0f
+	}
+	
 	
 	EMFXActorType = {
 		name = "muslimgfx_job_chancellor"
@@ -1344,7 +1395,7 @@ objectTypes = {
 		idle   = "gfx\models\Mapindicators\jewish_rabbi_idle.xsm"
 		scale = 1.0f
 	}
-
+	
 	EMFXActorType = {
 		name = "indiangfx_SPECIAL_TROOPS"
 		actorfile = "gfx\models\indian_elephant.xac"

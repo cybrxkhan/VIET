@@ -3642,7 +3642,7 @@ character_event = {
 # Exilarch Fun Fun Fun
 #############################################
 
-# Wifey for the Exilarch
+# Wives for Exilarch and family
 character_event = {
 	id = exilarch.0
 	desc = exilarch.0.desc
@@ -3656,6 +3656,12 @@ character_event = {
 		OR = {
 			has_landed_title = d_exilarch
 			has_landed_title = d_exilarch_karaite
+			father = {
+				OR = {
+					has_landed_title = d_exilarch
+					has_landed_title = d_exilarch_karaite
+				}
+			}
 		}
 		is_adult = yes
 		is_married = no

@@ -1169,6 +1169,7 @@ character_event = {
 			NOT = { empire = { title = e_bengal } }
 			NOT = { empire = { title = e_deccan } }
 			NOT = { empire = { title = e_persia } }
+			NOT = { empire = { title = e_india } }
 		}
 		location = {
 			county = {
@@ -1176,6 +1177,7 @@ character_event = {
 				NOT = { empire = { title = e_bengal } }
 				NOT = { empire = { title = e_deccan } }
 				NOT = { empire = { title = e_persia } }
+				NOT = { empire = { title = e_india } }
 			}
 		}
 	}

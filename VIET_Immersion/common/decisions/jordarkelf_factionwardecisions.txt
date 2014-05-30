@@ -9,7 +9,6 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_tanistry_ultimatum_taken}
 				had_character_flag = { flag = faction_succ_tanistry_ultimatum_taken days = 7 }
 			}
-			always = no
 		}
 		allow = {
 			war = no
@@ -93,7 +92,6 @@ plot_decisions = {
 				NOT = { has_character_flag = faction_succ_ultimogeniture_ultimatum_taken }
 				had_character_flag = { flag = faction_succ_ultimogeniture_ultimatum_taken days = 7 }
 			}
-			always = no
 		}
 		allow = {
 			war = no

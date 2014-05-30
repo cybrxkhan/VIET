@@ -23,6 +23,7 @@ plot_seduce_liege = {
 		NOT = { trait = chaste }
 		NOT = { trait = celibate }
 		NOT = { health_traits = 1 }
+		always = no
 	}
 	
 	# Target allow trigger for when players target a specific character in the GUI
@@ -276,7 +277,7 @@ plot_seduce_for_men = {
 			trait = possessed
 		}
 		NOT = { health_traits = 2 }
-		
+		always = no
 	}
 	
 	# Target allow trigger for when players target a specific character in the GUI
@@ -586,6 +587,7 @@ plot_kidnapping = {
 				}
 			}
 		}
+		always = no
 	}
 	
 	# Target scope
@@ -774,6 +776,7 @@ plot_fabricate_evidence_treason_vassal = {
 		is_adult = yes	
 		is_ruler = yes
 		higher_tier_than = COUNT
+		always = no
 	}
 	player_allow = {
 		is_adult = yes
@@ -890,6 +893,7 @@ plot_fabricate_evidence_treason = {
 		is_adult = yes
 		is_ruler = yes
 		independent = no
+		always = no
 	}
 	player_allow = {
 		is_adult = yes
@@ -1016,6 +1020,7 @@ plot_fabricate_evidence_betrayal_same_realm = {
 		}
 		is_adult = yes	
 		is_ruler = yes
+		always = no
 	}
 	player_allow = {
 		is_adult = yes
@@ -1133,6 +1138,7 @@ plot_fabricate_evidence_betrayal = {
 		is_adult = yes	
 		is_ruler = yes
 		independent = yes
+		always = no
 	}
 	player_allow = {
 		independent = yes

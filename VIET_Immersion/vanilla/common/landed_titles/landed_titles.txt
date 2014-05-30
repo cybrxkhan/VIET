@@ -6208,7 +6208,7 @@ e_byzantium = {
 				}
 				b_matsnaberd = {
 				}
-				b_sanahin = {
+				b_tumanyan = {
 				}
 			}
 			c_ani = {
@@ -14649,7 +14649,7 @@ e_russia = {
 				b_narim = {}
 				b_kolta = {}
 				b_yag = {}
-				b_abakan = {}
+				b_askiz = {}
 			}
 			
 		}
@@ -14983,13 +14983,13 @@ e_tartaria = {
 				}
 				b_zhanakush = {
 				}
-				b_birlik = {
-				}
 				b_karabatyr = {
 				}
 				b_mantyube = {
 				}
 				b_besikty = {
+				}
+				b_arlik = {
 				}
 			}
 			c_pecheneg = {
@@ -16387,10 +16387,10 @@ e_tartaria = {
 				b_sarkand = {}
 				b_taldykorgan = {}
 				b_karatal = {}
-				b_aksu = {}
 				b_kapchagai = {}
 				b_koksu = {}
 				b_matay = {}
+				b_kargal = {}
 			}
 			c_karluk = {
 				color= { 180 165 15 }
@@ -16591,8 +16591,6 @@ e_persia = {
 				}
 				b_gonabad = {
 				}
-				b_kalat = {
-				}
 				b_torbatjam = {
 				}
 				b_bardaskan = {
@@ -16600,6 +16598,8 @@ e_persia = {
 				b_mahvalat = {
 				}
 				b_fariman = {
+				}
+				b_dasu = {
 				}
 			}
 			c_lut = {
@@ -17130,7 +17130,7 @@ e_persia = {
 				}
 				b_masouleh = {
 				}
-				b_rudbar = {
+				b_masal = {
 				}
 			}
 			c_tabriz = {
@@ -17331,13 +17331,13 @@ e_persia = {
 				}
 				b_dozz_aap = {
 				}
-				b_zabol = {
-				}
 				b_shahresukhteh = {
 				}
 				b_esfandak = {
 				}
 				b_dehak = {
+				}
+				b_adar = {
 				}
 			}
 			c_zahedan = {
@@ -17393,8 +17393,6 @@ e_persia = {
 				b_tis = {
 				}
 				b_chabahar = {
-				}
-				b_konarak = {
 				}
 				b_pozm_machchan = {
 				}
@@ -17476,8 +17474,6 @@ e_persia = {
 				b_zakhak = {
 				}
 				b_shibar = {
-				}
-				b_chak = {
 				}
 			}
 			c_kunduz = {
@@ -17701,8 +17697,6 @@ e_persia = {
 				b_chardjul = {
 				}
 				b_kogon = {
-				}
-				b_agar = {
 				}
 				b_ayrybaba = {
 				}
@@ -23718,27 +23712,6 @@ e_arabia = {
 				b_ziwaelbahari = {
 				}
 			}
-			c_buhairya = {
-				color={ 108 227 142 }
-				color2={ 255 255 255 }
-			
-				b_buhairya = {
-				}
-				b_mut = {
-				}
-				b_qasrfarfra = {
-				}
-				b_elkharga = {
-				}
-				b_baris = {
-				}
-				b_budhkula = {
-				}
-				b_abuminqar = {
-				}
-				b_ismant = {
-				}
-			}
 			c_gizeh = {
 				color={ 110 229 144 }
 				color2={ 255 255 255 }
@@ -26077,8 +26050,6 @@ e_abyssinia = {
 				}
 				b_maydh = {
 				}
-				b_amud = {
-				}
 				b_gabiley = {
 				}
 				b_burco = {
@@ -27913,12 +27884,12 @@ e_britannia = {
 		swedish = Skottland
 		danish = Skotland
 		norwegian = Skottland
-		irish = Alba
-		norsegael = Alba
 		welsh = Caledonia
+		irish = Alba
+		breton = Caledonia
+		norsegael = Alba
 		cumbrian = Caledonia
 		cornish = Caledonia
-		breton = Caledonia
 		norsebriton = Caledonia
 		
 		d_galloway = {
@@ -29923,14 +29894,27 @@ k_seljuk_turks = { # Seljuk Turks
 k_tekke = {
 	color={ 244 153 189 }
 }
-k_trebizond = {
-	color={ 100 151 33 }
-	capital = 678 # Trapezous
+k_trebizond = { # Modified by VIET
+	color={ 100 40 160 }
+	color2={ 255 255 255 }
+	
+	capital = 678 # Trepezous
+
 	culture = greek
 	
+	# Creation/Usurp Trigger
 	allow = {
-		always = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = {
+			liege = {
+				has_landed_title = e_byzantium
+			}
+		}
 	}
+	
+		
+	orthodox = 200 # Crusade target weight
+	muslim = 25 # Crusade target weight	
 }
 k_trinacria = {
 	color={ 249 232 247 }

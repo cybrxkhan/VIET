@@ -1,0 +1,149 @@
+# Desires autonomy
+faction_autonomy = {
+	type = character
+	
+	warning_level = 0 # At this level of faction power we give player an alert. Set to 0 for no alerts.
+	
+	# Plotter scope
+	potential = {
+		always = no
+		higher_tier_than = baron
+		is_adult = yes
+		independent = no
+		prisoner = no
+		NOT = { trait = incapable }
+		liege = {
+			independent = yes #Requirement of current AF implementation (will change)
+			higher_real_tier_than = duke
+			is_feudal = yes
+			any_vassal = { #No lone wolf AFs...
+				NOT = { character = PREVPREV }
+				higher_tier_than = baron
+				is_adult = yes
+				independent = no
+				prisoner = no
+				NOT = { trait = incapable }
+			}
+			NOT = {
+				# Will break when vassal king AFs revolt, and thus for this and other mounting
+				# reasons, vassal king AFs are now disabled.
+				any_demesne_title = { temporary = yes }
+			}
+		}
+	}
+	
+	# Faction member scope (ROOT = joiner, FROM = target)
+	allow_join = {
+		always = no
+		ROOT = {
+			higher_tier_than = baron
+			is_adult = yes
+			independent = no
+			prisoner = no
+			NOT = { trait = incapable }
+			liege = {
+				independent = yes
+				higher_real_tier_than = duke
+				is_feudal = yes
+				NOT = { any_demesne_title = { temporary = yes } }
+			}
+			NOT = {
+				AND = {
+					has_character_flag = left_autonomy_faction
+					NOT = { had_character_flag = { flag = left_autonomy_faction days = 30 } }
+				}
+			}
+		}
+	}
+	
+	chance = {
+		factor = 100
+		
+		modifier = {
+			factor = 0
+			any_spouse = { character = FROM }
+		}
+		
+		modifier = {
+			factor = 0
+			current_heir = {
+				character = FROM
+			}
+		}
+		modifier = {
+			factor = 0
+			current_heir = {
+				any_spouse = { character = FROM }
+			}
+		}
+		modifier = {
+			factor = 0
+			FROM = {
+				# guarantee to player that AI won't create faction 'til 6mos since
+				# game startup, allowing them to assume the role of faction leader
+				# if they prefer.  leader may be a less important role in the future,
+				# but until then, player should get first-pick even if they forget
+				# before unpausing.
+				ai = yes
+				has_global_flag = project_balance
+				NOT = { had_global_flag = { flag = project_balance days = 180 } }
+			}
+		}
+		modifier = {
+			factor = 0 # Not for the leader at least
+			primary_title = { is_primary_type_title = yes } # Mercs, the Pope, Holy Orders, etc
+		}
+	}
+	
+	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
+	membership = {
+		factor = 1000
+		
+		modifier = {
+			factor = 0
+			OR = {
+				lower_tier_than = count
+				is_ruler = no
+				is_adult = no
+				independent = yes # ?
+				prisoner = yes
+				trait = incapable
+			}
+		}
+		modifier = {
+			factor = 0
+			FROMFROM = {
+				current_heir = {
+					character = ROOT
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			FROM = {
+				primary_title = {
+					mercenary = yes
+					# The Pope / vassalized religious leader may want autonomy.  Hell, even the holy orders probably do.
+					# They historically were quite a problem for Jerusalem's Kings. Vassal mercenary bands, however, are
+					# not looking for autonomy (e.g., the Varangians).
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_character_flag = left_autonomy_faction
+			NOT = { had_character_flag = { flag = left_autonomy_faction days = 30 } }
+		}
+	}
+	
+	success = {
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	abort_effect = {
+	}
+	effect = {
+	}
+}

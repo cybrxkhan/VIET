@@ -20,6 +20,7 @@ faction_succ_seniority = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -91,6 +92,7 @@ faction_succ_seniority = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE
@@ -628,6 +630,7 @@ faction_succ_primogeniture = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -698,6 +701,7 @@ faction_succ_primogeniture = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE
@@ -1231,6 +1235,7 @@ faction_succ_gavelkind = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -1297,6 +1302,7 @@ faction_succ_gavelkind = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE
@@ -1832,6 +1838,7 @@ faction_succ_feudal_elective = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -1903,6 +1910,7 @@ faction_succ_feudal_elective = {
 	
 	# Target scope
 	allow = {
+		always = no
 		NOT = { has_law = succ_feudal_elective }
 		OR = {
 			has_law = king_peace_0
@@ -2623,6 +2631,7 @@ faction_independence = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -2680,6 +2689,7 @@ faction_independence = {
 	
 	# Target scope
 	allow = {
+		always = no
 		prisoner = no
 		
 		NOT = {
@@ -3726,6 +3736,7 @@ faction_claimant = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -3785,6 +3796,7 @@ faction_claimant = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE
@@ -4986,6 +4998,7 @@ faction_antiking = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -5017,6 +5030,7 @@ faction_antiking = {
 	
 	# Target scope
 	allow = {
+		always = no
 		higher_tier_than = DUKE
 		is_primary_holder_title = yes
 

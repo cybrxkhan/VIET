@@ -7,6 +7,7 @@ faction_succ_tanistry = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -77,6 +78,7 @@ faction_succ_tanistry = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE
@@ -593,6 +595,7 @@ faction_succ_ultimogeniture = {
 	
 	# Plotter scope
 	potential = {
+		always = no
 		prisoner = no
 		is_ruler = yes
 		independent = no
@@ -657,6 +660,7 @@ faction_succ_ultimogeniture = {
 	
 	# Target scope
 	allow = {
+		always = no
 		OR = {
 			is_primary_holder_title = yes
 			higher_tier_than = DUKE

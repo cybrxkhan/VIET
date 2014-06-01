@@ -3,7 +3,7 @@ decisions = {
 	claim_byzantine_empire = {
 		is_high_prio = yes
 		potential = {
-			prestige = 400 #need 400 prestige to see the decision
+			prestige = 40 #need 400 prestige to see the decision
 			is_feudal = yes
 			NOT = { tier = baron }
 			NOT = { trait = blinded }
@@ -51,19 +51,19 @@ decisions = {
 		allow = {
 			OR = {
 				OR = {
-					prestige = 800
+					prestige = 80
 					AND = {
-						prestige = 700
+						prestige = 70
 						trait = ambitious
 					}
 				}
 				AND = {
-					martial = 16
+					martial = 1
 					trait = ambitious
-					prestige = 500
+					prestige = 50
 				}
 				AND = {
-					prestige = 300
+					prestige = 30
 					any_spouse = {
 						OR = {
 							has_strong_claim = e_byzantium
@@ -474,7 +474,7 @@ decisions = {
 		}
 		allow = {
 			war = no
-			wealth = 20
+			wealth = 2
 			NOT = { has_character_modifier = performed_sacrifice }
 			NOT = { has_character_modifier = holding_large_feast }
 			NOT = { has_character_modifier = holding_summer_fair }

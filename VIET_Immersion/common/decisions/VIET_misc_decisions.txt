@@ -117,7 +117,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.25 #Decrease chance AI will do this
+				factor = 1 #Decrease chance AI will do this
 			}
 			modifier = {
 				factor = 8
@@ -136,7 +136,7 @@ decisions = {
 				trait = envious
 			}
 			modifier = {
-				factor = 0.8
+				factor = 1
 				trait = temperate
 			}
 			modifier = {
@@ -246,49 +246,49 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = kind
 				liege = {
 					trait = kind
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = temperate
 				liege = {
 					trait = temperate
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = charitable
 				liege = {
 					trait = charitable
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = diligent
 				liege = {
 					trait = diligent
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = patient
 				liege = {
 					trait = patient
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = humble
 				liege = {
 					trait = humble
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = brave
 				liege = {
 					trait = brave
@@ -302,35 +302,35 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = shy
 				liege = {
 					trait = shy
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = gregarious
 				liege = {
 					trait = gregarious
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = zealous
 				liege = {
 					trait = zealous
 				}
 			}			
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = just
 				liege = {
 					trait = just
 				}
 			}
 			modifier = {
-				factor = 0.4
+				factor = 1
 				trait = trusting
 				liege = {
 					trait = trusting
@@ -385,7 +385,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.9
+				factor = 1
 				liege = {
 					any_vassal = {
 						higher_tier_than = count
@@ -395,7 +395,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.8
+				factor = 1
 				liege = {
 					any_vassal = {
 						higher_tier_than = count
@@ -405,7 +405,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.7
+				factor = 1
 				liege = {
 					any_vassal = {
 						higher_tier_than = count
@@ -415,7 +415,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.6
+				factor = 1
 				liege = {
 					any_vassal = {
 						higher_tier_than = count
@@ -425,19 +425,19 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 0.75
+				factor = 1
 				opinion = { who = liege value = 25 }
 			}			
 			modifier = {
-				factor = 0.5
+				factor = 1
 				opinion = { who = liege value = 50 }
 			}			
 			modifier = {
-				factor = 0.25
+				factor = 1
 				opinion = { who = liege value = 75 }
 			}			
 			modifier = {
-				factor = 0.1
+				factor = 1
 				opinion = { who = liege value = 100 }
 			}			
 			modifier = {
@@ -502,22 +502,22 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.25 #Decrease chance AI will do this
+				factor = 1 #Decrease chance AI will do this
 			}
 			modifier = {
-				factor = 0.6
+				factor = 1
 				trait = cynical
 			}
 			modifier = {
-				factor = 0.6
+				factor = 1
 				trait = slothful
 			}
 			modifier = {
-				factor = 0.75
+				factor = 1
 				trait = gluttonous
 			}
 			modifier = {
-				factor = 0.75
+				factor = 1
 				trait = greedy
 			}
 			modifier = {
@@ -782,7 +782,7 @@ decisions = {
 				trait = chaste
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1
 				trait = celibate
 			}
 			modifier = {
@@ -790,7 +790,7 @@ decisions = {
 				trait = hedonist
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1
 				trait = incapable
 			}
 		}

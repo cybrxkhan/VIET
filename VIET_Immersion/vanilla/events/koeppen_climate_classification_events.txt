@@ -4,12 +4,14 @@
 #                                                                #
 ##################################################################
 
+namespace = koeppen
+
 ## Seasonal events
 
 # Spring
 
 character_event = {
-	id = 1000053000
+	id = koeppen.0
 	desc = "EVTDESC1000053000"
 	picture = GFX_evt_garden_celtic
 
@@ -17,8 +19,8 @@ character_event = {
 		always = no #currently disabled
 		ai = yes
 		month = 2
-		Not = { month = 5 }
-		Not = { has_global_flag = spring_season }
+		NOT = { month = 5 }
+		NOT = { has_global_flag = spring_season }
 	}
 
 	mean_time_to_happen = {
@@ -6601,7 +6603,7 @@ character_event = {
 # Summer
 
 character_event = {
-	id = 1000053001
+	id = koeppen.1
 	desc = "EVTDESC1000053001"
 	picture = GFX_evt_garden
 
@@ -6609,8 +6611,8 @@ character_event = {
 		always = no #currently disabled
 		ai = yes
 		month = 5
-		Not = { month = 8 }
-		Not = { has_global_flag = summer_season }
+		NOT = { month = 8 }
+		NOT = { has_global_flag = summer_season }
 	}
 
 	mean_time_to_happen = {
@@ -13193,7 +13195,7 @@ character_event = {
 # Autumn
 
 character_event = {
-	id = 1000053002
+	id = koeppen.2
 	desc = "EVTDESC1000053002"
 	picture = GFX_evt_tuscan_country
 
@@ -13201,8 +13203,8 @@ character_event = {
 		always = no #currently disabled
 		ai = yes
 		month = 8
-		Not = { month = 11 }
-		Not = { has_global_flag = autumn_season }
+		NOT = { month = 11 }
+		NOT = { has_global_flag = autumn_season }
 	}
 
 	mean_time_to_happen = {
@@ -19785,21 +19787,21 @@ character_event = {
 # Winter
 
 character_event = {
-	id = 1000053003
+	id = koeppen.3
 	desc = "EVTDESC1000053003"
 	picture = GFX_evt_snow_in_winter
 
 	trigger = {
 		always = no #currently disabled
 		ai = yes
-		Or = { 
+		OR = { 
 			month = 11
-			And = {
+			AND = {
 				month = 0
-				Not = { month = 2 }
+				NOT = { month = 2 }
 			}
 		}
-		Not = { has_global_flag = winter_season }
+		NOT = { has_global_flag = winter_season }
 	}
 
 	mean_time_to_happen = {

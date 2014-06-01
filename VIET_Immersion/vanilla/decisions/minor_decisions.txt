@@ -40,6 +40,7 @@ decisions = {
 			month = 10
 			prestige = 100
 			OR = {
+				NOT = { religion_group = christian }
 				primary_title = { tier = COUNT }
 				AND = {
 					primary_title = { tier = DUKE }

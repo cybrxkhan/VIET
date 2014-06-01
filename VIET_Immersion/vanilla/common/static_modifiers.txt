@@ -445,6 +445,15 @@ religious_and_culture_tolerant_culture = {
 	CULTURE_FLEX = -0.25
 }
 
+cultural_flexibility = {
+	culture_flex = -0.4
+}
+
+cultural_and_religious_flexibility = {
+	culture_flex = -0.4
+	RELIGION_FLEX = -0.2
+}
+
 ##########################################################################
 # Age Static Modifiers
 ##########################################################################

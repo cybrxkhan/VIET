@@ -387,45 +387,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 
 	option = {
@@ -655,80 +616,6 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -778,80 +665,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -920,80 +733,6 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1019,80 +758,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_alive = yes
-				is_alive = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_feudal = yes
-				is_feudal = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_merchant_republic = yes
-				is_merchant_republic = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = shy
-				NOT = { trait = shy }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1985,34 +1650,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = bambuk_mines
 		add_province_modifier = {
 			name = bambuk_gold_mines
@@ -2039,30 +1680,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2095,30 +1712,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2144,34 +1737,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = mali_mines
 		add_province_modifier = {
 			name = mali_gold_mines
@@ -2198,30 +1767,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2254,30 +1799,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2304,34 +1825,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = idjil_mines
 		add_province_modifier = {
 			name = idjil_salt_mines
@@ -2358,30 +1855,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2414,30 +1887,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2464,34 +1913,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
-		name = ok
+		name = OK
 		set_province_flag = taghaza_mines
 		add_province_modifier = {
 			name = taghaza_salt_mines
@@ -2518,30 +1943,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -2574,30 +1975,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {

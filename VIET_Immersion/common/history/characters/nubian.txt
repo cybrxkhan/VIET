@@ -1876,7 +1876,7 @@
 	name="Ankwaana"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	1047.1.1={
 		birth="1047.1.1"
 	}
@@ -1889,7 +1889,7 @@
 	name="Ar"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145727
 	1083.1.1={
 		birth="1083.1.1"
@@ -1903,7 +1903,7 @@
 	name="Yaas"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145728
 	1118.1.1={
 		birth="1118.1.1"
@@ -1917,7 +1917,7 @@
 	name="Kurib"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145729
 	1160.1.1={
 		birth="1160.1.1"
@@ -1931,7 +1931,7 @@
 	name="Ufash"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145730
 	1199.1.1={
 		birth="1199.1.1"
@@ -1945,7 +1945,7 @@
 	name="Kharamadoye"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145731
 	1231.1.1={
 		birth="1231.1.1"
@@ -1959,7 +1959,7 @@
 	name="Ood"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145731
 	1233.1.1={
 		birth="1233.1.1"
@@ -1973,7 +1973,7 @@
 	name="Balwia"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145733
 	1261.1.1={
 		birth="1261.1.1"
@@ -1987,7 +1987,7 @@
 	name="Ni"
 	dynasty=1022256
 	religion="sunni"
-	culture="Beja"
+	culture="beja"
 	father=145734
 	1295.1.1={
 		birth="1295.1.1"

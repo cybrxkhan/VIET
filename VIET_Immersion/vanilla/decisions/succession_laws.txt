@@ -42,8 +42,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
@@ -115,8 +115,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
@@ -193,10 +193,9 @@ succession_laws = {
 				is_landless_type_title = no
 				is_tribal_type_title = yes
 				temporary = yes
-				holder_scope = {
-					has_landed_title = d_exilarch
-					has_landed_title = d_exilarch_karaite
-				}
+				holder_scope = { has_landed_title = d_exilarch }
+				holder_scope = { has_landed_title = d_exilarch_karaite }
+				holder_scope = { has_landed_title = e_khitan }
 			}
 			is_primary_type_title = no
 			OR = {
@@ -210,8 +209,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							culture = breton
 							year = 1150
@@ -406,6 +405,7 @@ succession_laws = {
 						NOT = { religion = pagan }
 						NOT = { religion = slavic_pagan }
 						NOT = { religion = west_african_pagan }
+						NOT = { religion = east_african_pagan }
 					}
 				}
 				
@@ -430,8 +430,8 @@ succession_laws = {
 						NOT = { has_landed_title = e_hre }
 						OR = {
 							AND = {
-								NOT = { holder_scope = { culture_group = celtic } }
-								NOT = { holder_scope = { culture = saxon } }
+								NOT = { culture_group = celtic }
+								NOT = { culture = saxon }
 							}
 							year = 1150
 							tier = king
@@ -489,7 +489,7 @@ succession_laws = {
 				is_republic = no
 				is_merchant_republic = no
 				religion_group = muslim
-				NOT = { holder_scope = { culture_group = west_african } }
+				NOT = { culture_group = west_african }
 				NOT = { has_landed_title = d_ibadi }
 			}
 			is_primary_type_title = no
@@ -540,6 +540,7 @@ succession_laws = {
 			temporary = no
 			NOT = { title = d_exilarch }
 			NOT = { title = d_exilarch_karaite }
+			NOT = { title = e_khitan }
 			OR = {
 				is_primary_type_title = yes
 				AND = {

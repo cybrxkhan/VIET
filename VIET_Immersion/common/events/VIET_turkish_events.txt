@@ -34,68 +34,6 @@ character_event = {
 	
 	mean_time_to_happen = { 
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			independent = yes
-			factor = 0.01
-		}
-		modifier = {
-			prisoner = no
-			factor = 0.01
-		}
-		modifier = {
-			culture = turkish
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_adult = yes
-				is_adult = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			religion_group = muslim
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				diplomacy = 10
-				NOT = { diplomacy = 10 }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				trait = kind
-				NOT = { trait = kind }
-			}
-			factor = 0.01
-		}		
-		modifier = {
-			OR = {
-				trait = cynical
-				NOT = { trait = cynical }
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -300,33 +238,33 @@ character_event = {
 
 
 #Fall of Constantinople - replaced in VIET_Narrative
-narrative_event = {
-	id = ottoman.6
-	title = "ottoman.6.name"
-	desc = "ottoman.6.desc"
-	major = yes
+# narrative_event = {
+	# id = ottoman.6
+	# title = "ottoman.6.name"
+	# desc = "ottoman.6.desc"
+	# major = yes
 	
-	picture = "GFX_evt_fetih"
-	border = "GFX_event_narrative_frame_war"
+	# picture = "GFX_evt_fetih"
+	# border = "GFX_event_narrative_frame_war"
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = "ottoman.6.a"
-		trigger = { 
-			NOT = { religion_group = muslim } 
-			NOT = { religion_group = christian } 
-		}
-	}
-	option = {
-		name = "ottoman.6.b"
-		trigger = { religion_group = muslim }
-	}	
-	option = {
-		name = "ottoman.6.c"
-		trigger = { religion_group = christian }
-	}
-}
+	# option = {
+		# name = "ottoman.6.a"
+		# trigger = { 
+			# NOT = { religion_group = muslim } 
+			# NOT = { religion_group = christian } 
+		# }
+	# }
+	# option = {
+		# name = "ottoman.6.b"
+		# trigger = { religion_group = muslim }
+	# }	
+	# option = {
+		# name = "ottoman.6.c"
+		# trigger = { religion_group = christian }
+	# }
+# }
 
 
 #Free Eunuchs

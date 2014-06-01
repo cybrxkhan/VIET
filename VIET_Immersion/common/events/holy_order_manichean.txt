@@ -6,8 +6,8 @@
 # The Defenders of Light
 narrative_event = {
 	id = VIETmisc.271
-	title =VIETmisc.271.title
-	desc =VIETmisc.271.desc
+	title = VIETmisc.271.title
+	desc = VIETmisc.271.desc
 	major = yes
 	
 	picture = GFX_evt_buddhist_pagoda
@@ -191,7 +191,7 @@ narrative_event = {
 # The son of a ruler volunteers to join the Defenders of the Light
 character_event = {
 	id = VIETmisc.272
-	desc =VIETmisc.272.desc
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -211,10 +211,10 @@ character_event = {
 		is_title_active = d_manichean_holy_order
 		
 		OR = {
-			father_even_if_dead = {
+			father = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother_even_if_dead = {
+			mother = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -288,7 +288,7 @@ character_event = {
 	}
 	
 	option = {
-		name = VIETmisc.272.a # Ask to go
+		name = CONTINUE # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -299,14 +299,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = VIETmisc.272.b # It's a bad idea
+		name = CANCEL # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the Defenders of the Light
 character_event = {
 	id = VIETmisc.273
-	desc =VIETmisc.273.desc
+	desc = VIETmisc.273.desc
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -345,7 +345,7 @@ character_event = {
 # Son or brother joins the Defenders of the Light
 character_event = {
 	id = VIETmisc.274
-	desc = VIETmisc.274.desc
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -370,14 +370,14 @@ character_event = {
 # Liege refuses request to join the Defenders of the Light
 character_event = {
 	id = VIETmisc.275
-	desc =VIETmisc.275.desc
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = VIETmisc.275.a
+		name = CURSES
 		
 		opinion = {
 			who = FROM
@@ -389,7 +389,7 @@ character_event = {
 # Ping event when donating money to the Defenders of the Light
 character_event = {
 	id = VIETmisc.276
-	desc = OK
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -418,7 +418,7 @@ character_event = {
 # Notification event when donating money to the Defenders of the Light
 letter_event = {
 	id = VIETmisc.277
-	desc =VIETmisc.277.a
+	desc = VIETmisc.277.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -431,7 +431,7 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = VIETmisc.278
-	desc = OK
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -513,7 +513,7 @@ character_event = {
 
 province_event = {
 	id = VIETmisc.279
-	desc = OK
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -538,7 +538,7 @@ province_event = {
 
 character_event = {
 	id = VIETmisc.280
-	desc = OK
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -561,7 +561,7 @@ character_event = {
 
 letter_event = {
 	id = VIETmisc.281
-	desc = VIETmisc.281.desc
+	desc = VIETmisc.281.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -600,7 +600,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = VIETmisc.282
-	desc =VIETmisc.282.desc
+	desc = VIETmisc.282.desc
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -624,7 +624,7 @@ province_event = {
 # Ping event when expelling the Defenders of the Light
 character_event = {
 	id = VIETmisc.283
-	desc = OK
+	desc = OK
 	picture = GFX_evt_buddhist_pagoda
 	border = GFX_event_normal_frame_religion
 	
@@ -668,7 +668,7 @@ character_event = {
 # Notification event when expelling the Defenders of the Light
 letter_event = {
 	id = VIETmisc.284
-	desc =VIETmisc.284.desc
+	desc = VIETmisc.284.desc
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes

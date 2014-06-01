@@ -52,7 +52,7 @@ title_knight_of_the_round_table;Knight of the Round Table;;;;;;;;;;;;;x
 title_knight_of_the_round_table_desc;With the Knights of the Round Table re-established, it simply needs new members to fill its ranks. Soon, Britain shall hear of heroes equal if not greater than the warriors of Arthurian legend like Lancelot or Gawain.;;;;;;;;;;;;;x
 visit_celtic_holy_well;Visit Holy Well;;;;;;;;;;;;;x
 visit_celtic_holy_well_desc;A holy well - famous for its healing powers, and currently a popular site for pilgrimage - happens to sit on your demesne. Why not visit it, before it fades into obscurity?;;;;;;;;;;;;;x
-good_time_obby_oss;Did some risqu√© things at the 'Obby 'Oss;;;;;;;;;;;;;x
+good_time_obby_oss;Did some risquÈ things at the 'Obby 'Oss;;;;;;;;;;;;;x
 opinion_bless_ya_girl;Blessed at 'Obby 'Oss;;;;;;;;;;;;;x
 opinion_steal_a_kiss_good;'Obby 'Oss shenanigans;;;;;;;;;;;;;x
 opinion_steal_a_kiss_bad;'Obby 'Oss bad behaviour;;;;;;;;;;;;;x
@@ -73,6 +73,7 @@ VIETceltic.2.desc;After some traveling, you make your way to the famous holy wel
 VIETceltic.2.a;Offer prayers to [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
 VIETceltic.3.desc;Many admire you as a leader. Were you and your dynasty not the ones who reunified Britain and drove out its invaders after centuries of hopelessness and despair? Comparing you to King Arthur is not only apt, it is perfect - both, great monarchs and defenders of Britain. To solidify your legitimacy, it may be a good idea to enforce these Arthurian ideals. For instance, perhaps that most esteemed chivalric order, the Knights of the Round Table, could be re-established. Having a loyal group of peerless knights by your side would earn you much prestige and the respect of men across the world.;;;;;;;;;;;;;x
 VIETceltic.3.a;Knights, arise! The old order is reborn anew!;;;;;;;;;;;;;x
+OPERATION_ORANGE_KUN_COMMENCE;ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
 VIETceltic.4.desc;[Liege.GetTitledFirstName] has appointed me as a Knight of the Round Table. This is quite an honor! I can now count myself among the ranks of legendary figures such as Lancelot,  Galahad, and Tristan.;;;;;;;;;;;;;x
 VIETceltic.4.a;Our enemies shall taste my storm of loyalty!;;;;;;;;;;;;;x
 VIETceltic.4.b;An interesting development for sure...;;;;;;;;;;;;;x
@@ -95,7 +96,7 @@ VIETceltic.9.a;Hopefully the inhabitants aren't too angry about this.;;;;;;;;;;;
 VIETceltic.10.title;Another King Arthur;;;;;;;;;;;;;x
 VIETceltic.10.desc;Tales of your heroism have spread throughout Britain and beyond. Many consider you an equal to the first and second King Arthurs, as these uniters are called. To your admirers, you are not only a great leader, but also a heroic champion and a virtuous saint. Bards will sing of your greatness centuries from now.;;;;;;;;;;;;;x
 VIETceltic.10.a;ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
-VIETceltic.10.b;A ‚ÄúQueen Arthur,‚Äù ha ha! ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
+VIETceltic.10.b;A ìQueen Arthur,î ha ha! ALL HAIL BRITANNIA!;;;;;;;;;;;;;x
 VIETceltic.11.title;Hogback Stones;;;;;;;;;;;;;x
 VIETceltic.11.desc;My father has just passed away. Since he was an important noble, his burial site will be decorated with special tombstones in the [Root.Culture.GetName] tradition, which some call "Govan" or "Hogback" stones - large, intricately carved stones displaying the artistic heritage of the Norse and, more chiefly, Britons. It's important I work with other relatives to contribute financial resources to ensure these stones are finished promptly and with adequate quality.;;;;;;;;;;;;;x
 VIETceltic.11.a;If I delay for too long, it will reflect badly on me!;;;;;;;;;;;;;x
@@ -132,13 +133,13 @@ VIETceltic.102.tooltip;Let us visit the town of Saint Corentin!;;;;;;;;;;;;;x
 VIETceltic.102.title;Quimper;;;;;;;;;;;;;x
 VIETceltic.102.desc;The rustic town of Quimper isn't as elegant nor extravagant as I would've wished, but it certainly has a certain charm. The conservative folk here are very spiritual, and the religious atmosphere is a good start to my pilgrimage.\n\nI make way to the church of Saint Corentin to pray and reflect. He was the first bishop of this town, and it is said that he had a miraculous fish whose parts would regrow, thus allowing him to sustain himself for as long as he needed.;;;;;;;;;;;;;x
 VIETceltic.102.a;That makes me hungry!;;;;;;;;;;;;;x
-VIETceltic.103.tooltip;But first I must pray first before I leave Quimpur, for tomorrow I head for Saint-Pol-de-L√©on.;;;;;;;;;;;;;x
-VIETceltic.103.title;Saint-Pol-de-L√©on;;;;;;;;;;;;;x
-VIETceltic.103.desc;Saint-Pol-de-L√©on is a lovely seaside town blessed with picturesque beaches and the refreshing ocean air. There are an unusual amount of vegetables and fruits being so, which is unsurprising giving the stories surrounding Saint Paul Aurelian, the great saint of this town.\n\It is here where Saint Paul Aurelian established an important monastery. He had an interesting habit of refusing to eat meat, and is said to have lived to almost a century and a half.;;;;;;;;;;;;;x
+VIETceltic.103.tooltip;But first I must pray first before I leave Quimpur, for tomorrow I head for Saint-Pol-de-LÈon.;;;;;;;;;;;;;x
+VIETceltic.103.title;Saint-Pol-de-LÈon;;;;;;;;;;;;;x
+VIETceltic.103.desc;Saint-Pol-de-LÈon is a lovely seaside town blessed with picturesque beaches and the refreshing ocean air. There are an unusual amount of vegetables and fruits being so, which is unsurprising giving the stories surrounding Saint Paul Aurelian, the great saint of this town.\nIt is here where Saint Paul Aurelian established an important monastery. He had an interesting habit of refusing to eat meat, and is said to have lived to almost a century and a half.;;;;;;;;;;;;;x
 VIETceltic.103.a;To live that long and be able to do so much!;;;;;;;;;;;;;x
-VIETceltic.104.tooltip;Our next stop is Tr√©guier.;;;;;;;;;;;;;x
-VIETceltic.104.title;Tr√©guier;;;;;;;;;;;;;x
-VIETceltic.104.desc;Tr√©guier is a seaside town like Saint-Pol-de-L√©on but it is much busier. An important local port, it is often busy with commerce and trade. Perhaps not always the best fit for a more contemplative, religious experience, but who am I to say that?\n\n\Tr√©guier is the town of Saint Tudwal, a renowned hermit and monastic, who was later made bishop of this town.;;;;;;;;;;;;;x
+VIETceltic.104.tooltip;Our next stop is TrÈguier.;;;;;;;;;;;;;x
+VIETceltic.104.title;TrÈguier;;;;;;;;;;;;;x
+VIETceltic.104.desc;TrÈguier is a seaside town like Saint-Pol-de-LÈon but it is much busier. An important local port, it is often busy with commerce and trade. Perhaps not always the best fit for a more contemplative, religious experience, but who am I to say that?\n\nTrÈguier is the town of Saint Tudwal, a renowned hermit and monastic, who was later made bishop of this town.;;;;;;;;;;;;;x
 VIETceltic.104.a;I must show his patience, as I wade through the throngs of pilgrims.;;;;;;;;;;;;;x
 VIETceltic.105.tooltip;After this, we will go to Saint-Brieuc;;;;;;;;;;;;;x
 VIETceltic.105.title;Saint-Brieuc;;;;;;;;;;;;;x
@@ -238,9 +239,9 @@ VIETceltic.211.desc;Being the Old 'Oss is not the easiest job out there. The cap
 VIETceltic.211.a;Scold him for impersonating a woman!;;;;;;;;;;;;;x
 VIETceltic.211.b;Be festive and laugh it all off.;;;;;;;;;;;;;x
 VIETceltic.211.c;Throw him into the horse's water, let the people laugh!;;;;;;;;;;;;;x
-VIETceltic.211a.desc;Being the Old 'Oss is more than simply chasing girls and follow the parade, as it involves being the center of attention and the embodiment of 'Obby 'Oss fun. As you arrive at the Maypole, right at the center of town, the townspeople start demanding that you dance a jig with one of the damsels..;;;;;;;;;;;;;x
-VIETceltic.211a.a;Good thing I'm in my dancing shoes!;;;;;;;;;;;;;x
-VIETceltic.211a.b;Er.... no.;;;;;;;;;;;;;x
+VIETceltic.2112.desc;Being the Old 'Oss is more than simply chasing girls and follow the parade, as it involves being the center of attention and the embodiment of 'Obby 'Oss fun. As you arrive at the Maypole, right at the center of town, the townspeople start demanding that you dance a jig with one of the damsels..;;;;;;;;;;;;;x
+VIETceltic.2112.a;Good thing I'm in my dancing shoes!;;;;;;;;;;;;;x
+VIETceltic.2112.b;Er.... no.;;;;;;;;;;;;;x
 VIETceltic.212.desc;There's no way around the fact that the frame of the 'Oss is heavy and cumbersome, but with a nice display of tap dancing, together with some jumping and spinning, you do more than fine. Luckily your dancing partner is helpful and enhances your dance as the revellers clap and ask for more.;;;;;;;;;;;;;x
 VIETceltic.212.a;I'll need a beer after this, or two...;;;;;;;;;;;;;x
 VIETceltic.213.desc;There's no way around the fact that the frame of the 'Oss is heavy and cumbersome and that certainly affects performance. You try to do some tap dancing and spinning, but unfortunately you trip and fall, having to rely on your dancing partner to get yourself (and the frame) up. You sigh as the cheers have turned to laughter.;;;;;;;;;;;;;x

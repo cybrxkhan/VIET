@@ -105,7 +105,6 @@ obj_become_chancellor = {
 		}
 		modifier = {
 			factor = 0.1
-			diplomacy = 0
 			NOT = { diplomacy = 2 }
 		}
 	}
@@ -244,7 +243,6 @@ obj_become_marshal = {
 		}
 		modifier = {
 			factor = 0.1
-			martial = 0
 			NOT = { martial = 2 }
 		}
 	}
@@ -391,7 +389,6 @@ obj_become_treasurer = {
 		}
 		modifier = {
 			factor = 0.1
-			stewardship = 0
 			NOT = { stewardship = 2 }
 		}
 	}
@@ -539,7 +536,6 @@ obj_become_spymaster = {
 		}
 		modifier = {
 			factor = 0.1
-			intrigue = 0
 			NOT = { intrigue = 2 }
 		}
 	}
@@ -709,7 +705,6 @@ obj_become_spiritual = {
 		}
 		modifier = {
 			factor = 0.1
-			learning = 0
 			NOT = { learning = 2 }
 		}
 	}

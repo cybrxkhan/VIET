@@ -6,7 +6,7 @@ decisions = {
 
 #####Convert to Zoroastrianism
 	convert_to_zoroastrianism = {
-	potential = {
+		potential = {
 			is_ruler = yes
 			age = 16
 			prisoner = no
@@ -240,7 +240,9 @@ decisions = {
 			prisoner = no		
 		}
 		effect = {
-			province_event = { id = 1000094010 }
+			capital_scope = {
+				province_event = { id = VIETnam.11 }
+			}
 			set_global_flag = rebuilding_persepolis
 		}
 		revoke_allowed = {

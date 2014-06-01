@@ -8,6 +8,217 @@
 
 decisions = {
 
+#########################
+# IRANIAN
+#########################
+
+	celebrate_nowruz = {
+		potential = {
+			is_ruler = yes
+			OR = {
+				culture_group = iranian
+				capital_scope = {
+					culture_group = iranian
+				}
+				culture_group = serindian
+				capital_scope = {
+					culture_group = serindian
+				}
+				has_landed_title = e_persia
+				has_landed_title = k_persia
+				has_landed_title = k_azerbaijian
+			}
+			NOT = { has_character_modifier = VIET_celebrating_nowruz }
+			NOT = { has_character_modifier = VIET_nowruz_timer }
+		}
+		allow = {
+			month = 3
+			NOT = {
+				month = 6
+			}
+			war = no
+			in_command = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			prisoner = no
+			scaled_wealth = 0.2
+			age = 16
+			NOT = { has_character_flag = do_not_disturb }
+			NOT = { has_character_flag = VIET_nowruz }
+			custom_tooltip = {
+				text = health_travel_condition
+				hidden_tooltip = {
+					NOT = {	trait = pregnant }
+					NOT = {	trait = incapable }
+					NOT = {	trait = blinded }
+					NOT = {	trait = has_tuberculosis }
+					NOT = {	trait = has_typhoid_fever }
+					NOT = {	trait = has_typhus }
+					NOT = {	trait = has_bubonic_plague }
+					NOT = {	trait = has_measles }
+					NOT = {	trait = has_small_pox }
+					NOT = {	trait = has_aztec_disease }
+				}
+			}
+		}
+		effect = {
+			scaled_wealth = -0.2
+			hidden_tooltip = {
+				character_event = { 
+					id = silkroad.300
+				}
+			}
+			set_character_flag = do_not_disturb
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.05         # Reduce chances of happening
+			modifier = {
+				factor = 2
+				trait = drunkard
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0.5
+				trait = shy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.5
+				religion_group = muslim
+			}
+			modifier = {
+				factor = 0.5
+				religion_group = muslim
+				trait = zealous
+			}
+		}
+	}
+
+	proclaim_sogdiana = {
+		is_high_prio = yes
+		potential = {
+			culture = sogdian
+			k_sogdiana = {
+				has_holder = no
+			}
+			NOT = { has_global_flag = VIET_sogdiana_proclaimed }
+		}
+		allow = {
+			independent = yes
+			NOT = { tier = emperor }
+			NOT = { tier = king }
+			AND = {
+				completely_controls = d_samarkand
+				completely_controls = d_khiva
+				completely_controls = d_fergana
+			}
+			piety = 100
+			prestige = 300
+		}
+		effect = {
+			set_global_flag = VIET_sogdiana_proclaimed
+			hidden_tooltip = {
+				character_event = { 
+					id = silkroad.6
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	support_silk_road = {
+		is_high_prio = yes
+		potential = {
+			NOT = { culture = sogdian }
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = pagan_group }
+			NOT = { has_global_flag = sogdian_merchants_supported }
+			OR = { 
+				tier = emperor 
+				tier = king 
+			}
+			NOT = { has_global_flag = silk_road_level_3 }
+			NOT = { has_global_flag = silk_road_level_0 }
+			capital_scope = {
+				OR = {
+					kingdom = { title = k_turkestan }
+					kingdom = { title = k_afghanistan }
+					kingdom = { title = k_khiva }
+					kingdom = { title = k_baluchistan }
+					kingdom = { title = k_persia }
+					kingdom = { title = k_sogdiana }
+					empire = { title = e_persia }
+				}
+			}
+		}
+		allow = {
+			independent = yes
+			OR = {
+				has_landed_title = k_persia
+				has_landed_title = k_turkestan
+				has_landed_title = k_khiva
+				has_landed_title = k_sogdiana
+				has_landed_title = k_afghanistan
+				has_landed_title = k_baluchistan
+				has_landed_title = e_persia
+			}
+			prestige = 250
+			realm_size = 60
+			scaled_wealth = 0.5
+		}
+		effect = {
+			set_global_flag = sogdian_merchants_supported
+			scaled_wealth = -0.5
+			hidden_tooltip = {
+				character_event = { 
+					id = silkroad.8
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.001
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = content
+					trait = slothful
+					trait = arbitrary
+					trait = imbecile
+					trait = slow
+				}
+			}
+		}
+	}
+
+
+
 
 ##########################
 # CELTIC
@@ -420,16 +631,6 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 0.01          # Reduce chances of happening
-			modifier = {
-				factor = 0.001
-				NOT = {
-					OR = {
-						culture = greek
-						culture = griko
-						trait = drunkard
-					}
-				}
-			}
 			modifier = {
 				factor = 2
 				trait = drunkard

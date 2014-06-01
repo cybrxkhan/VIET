@@ -108,7 +108,7 @@ decisions = {
 
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109019
+					id = VIETnam.20
 					days = 1
 				}
 			}
@@ -467,7 +467,7 @@ decisions = {
 		potential = {
 			OR = {
 				religion_group = pagan_group
-				religion_group = vedic
+				religion = hindu
 			}
 			age = 16
 			demesne_size = 1
@@ -732,7 +732,7 @@ decisions = {
 			OR = {
 				religion_group = pagan_group
 				religion_group = zoroastrian_group
-				religion_group = eastern_group
+				religion_group = indian_group
 			}
 		}
 		allow = {
@@ -747,7 +747,7 @@ decisions = {
 				female = yes
 			}
 			new_character = {
-				add_consort = FROM
+				add_consort = ROOT
 			}
 			set_character_flag = concubine_decision_taken
 		}

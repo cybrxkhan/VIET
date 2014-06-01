@@ -498,6 +498,43 @@ VIET_erected_breton_cavalry = {
 
 
 #####################################################################
+# CHRISITAN HERESIES
+#####################################################################
+
+VIET_fraticelli_relaxati = {
+	general_opinion = 10
+	global_revolt_risk = -0.05
+	stewardship = 1
+	icon = 17
+}
+VIET_fraticelli_zelanti = {
+	learning = 2
+	monthly_character_piety = 0.25
+	icon = 17
+}
+
+#####################################################################
+# SILK ROAD VND IRANICA
+#####################################################################
+
+VIET_celebrating_nowruz = {
+	monthly_character_prestige = 0.4
+	icon = 7
+}
+VIET_celebrated_nowruz = {
+	diplomacy = 1
+	monthly_character_prestige = 0.15
+	icon = 7
+}
+VIET_nowruz_timer = {
+	icon = 7
+}
+VIET_sogdian_colony = {
+	local_tax_modifier = 0.3
+	icon = 6
+}
+
+#####################################################################
 # MISC
 #####################################################################
 

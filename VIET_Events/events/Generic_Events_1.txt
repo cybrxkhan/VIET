@@ -2,19 +2,19 @@
 #
 # Generic Mundane Events
 #
-# ID# 1000109101 - 1000109125 Trait Events
-# ID# 1000109348 - 1000109356 MUSLIM Events
-# ID# 1000109357 - 1000109363 Drink and Alcohol Events
-# ID# 1000109369 - 1000109372 Elder Scrolls Reference Events
-# ID# 1000109373 - 1000109377 Dirty Events
-# ID# 1000109378 - 1000109380 Nature Events
-# ID# 1000109390 - 1000109396 Dream Events
-# ID# 1000109432 - 1000109438 Ancient Culture Events
-# ID# 1000109439 - 1000109447 Sound Events
-# ID# 1000109457 - 1000109461 Prayer Events
-# ID# 1000109466 - 1000109474 Memories Events (switcheroo!!!)
-# ID# 1000109475 - 1000109484 Shady Events
-# ID# 1000109485 - 1000109492 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
+# ID# VIETnam.72 - VIETnam.96 Trait Events
+# ID# VIETnam.175 - VIETnam.183 MUSLIM Events
+# ID# VIETnam.184 - VIETnam.190 Drink and Alcohol Events
+# ID# VIETnam.196 - VIETnam.199 Elder Scrolls Reference Events
+# ID# VIETnam.200 - VIETnam.204 Dirty Events
+# ID# VIETnam.205 - VIETnam.207 Nature Events
+# ID# VIETnam.217 - VIETnam.223 Dream Events
+# ID# VIETnam.259 - VIETnam.265 Ancient Culture Events
+# ID# VIETnam.266 - VIETnam.274 Sound Events
+# ID# VIETnam.284 - VIETnam.288 Prayer Events
+# ID# VIETnam.293 - VIETnam.301 Memories Events (switcheroo!!!)
+# ID# 1000109475 - VIETnam.306 Shady Events
+# ID# VIETnam.307 - VIETnam.314 COMETS AAAAAAAAAAAHHHHHHHHHHH ITS THE END OF THE WORLD
 #
 # Fired from on actions
 #
@@ -22,7 +22,7 @@
 
 # Slothful - Don't Like Working
 character_event = {
-	id = 1000109101
+	id = VIETnam.72
 	desc = "EVTDESC1000109101"
 	picture = GFX_evt_garden
 	
@@ -105,7 +105,7 @@ character_event = {
 
 # Diligent - feel asleep working last night
 character_event = {
-	id = 1000109102
+	id = VIETnam.73
 	desc = "EVTDESC1000109102"
 	picture = GFX_evt_library
 	
@@ -192,7 +192,7 @@ character_event = {
 
 # Greedy - coin purse on the ground during Summer Fair
 character_event = {
-	id = 1000109103
+	id = VIETnam.74
 	desc = "EVTDESC1000109103"
 	picture = GFX_evt_market
 	
@@ -289,7 +289,7 @@ character_event = {
 
 # Charitable - Beggar Girl
 character_event = {
-	id = 1000109104
+	id = VIETnam.75
 	desc = "EVTDESC1000109104"
 	picture = GFX_evt_market
 	
@@ -394,7 +394,7 @@ character_event = {
 
 # Content - Fine with illness or disability
 character_event = {
-	id = 1000109105
+	id = VIETnam.76
 	desc = "EVTDESC1000109105"
 	picture = GFX_evt_tuscan_country
 	
@@ -499,7 +499,7 @@ character_event = {
 
 # Ambitious - Ruler wants to improve image
 character_event = {
-	id = 1000109106
+	id = VIETnam.77
 	desc = "EVTDESC1000109106"
 	picture = GFX_evt_holy_emperor
 	
@@ -605,7 +605,7 @@ character_event = {
 
 # Arbitrary - Silence after arbitrary sentencing
 character_event = {
-	id = 1000109107
+	id = VIETnam.78
 	desc = "EVTDESC1000109107"
 	picture = GFX_evt_emissary
 	
@@ -681,7 +681,7 @@ character_event = {
 
 # Just - Peasants love it
 character_event = {
-	id = 1000109108
+	id = VIETnam.79
 	desc = "EVTDESC1000109108"
 	picture = GFX_evt_tuscan_country
 	
@@ -762,7 +762,7 @@ character_event = {
 
 # Wroth - anger means none dare cross
 character_event = {
-	id = 1000109109
+	id = VIETnam.80
 	desc = "EVTDESC1000109109"
 	picture = GFX_evt_courtiers_talking
 	
@@ -864,7 +864,7 @@ character_event = {
 
 # Patient - Listening to the opinions of others
 character_event = {
-	id = 1000109110
+	id = VIETnam.81
 	desc = "EVTDESC1000109110"
 	picture = GFX_evt_emissary
 	
@@ -948,7 +948,7 @@ character_event = {
 
 # Envious - Why is everyone better than me?
 character_event = {
-	id = 1000109111
+	id = VIETnam.82
 	desc = "EVTDESC1000109111"
 	picture = GFX_evt_scandal
 	
@@ -1047,7 +1047,7 @@ character_event = {
 
 # Kind - Help a recently deceased impoverished noble's orphaned child
 character_event = {
-	id = 1000109112
+	id = VIETnam.83
 	desc = "EVTDESC1000109112"
 	picture = GFX_evt_scandal
 	
@@ -1138,7 +1138,7 @@ character_event = {
 
 # Craven - foolish while sparring
 character_event = {
-	id = 1000109113
+	id = VIETnam.84
 	desc = "EVTDESC1000109113"
 	picture = GFX_evt_melee
 	
@@ -1232,7 +1232,7 @@ character_event = {
 
 # Brave - defeated bandit
 character_event = {
-	id = 1000109114
+	id = VIETnam.85
 	desc = "EVTDESC1000109114"
 	picture = GFX_evt_melee
 	
@@ -1344,7 +1344,7 @@ character_event = {
 
 # Proud - Muslim fasting outside Ramadan (problem)
 character_event = {
-	id = 1000109115
+	id = VIETnam.86
 	desc = "EVTDESC1000109115"
 	picture = GFX_evt_melee
 	
@@ -1436,7 +1436,7 @@ character_event = {
 
 #Humble - character learns from a peasant
 character_event = {
-	id = 1000109116
+	id = VIETnam.87
 	desc = "EVTDESC1000109116"
 	picture = GFX_evt_tuscan_country
 	
@@ -1509,7 +1509,7 @@ character_event = {
 
 # Lustful - Ugly Wench
 character_event = {
-	id = 1000109117
+	id = VIETnam.88
 	desc = "EVTDESC1000109117"
 	picture = GFX_evt_brothel
 	
@@ -1618,7 +1618,7 @@ character_event = {
 
 # Chaste - Pretty young maiden
 character_event = {
-	id = 1000109118
+	id = VIETnam.89
 	desc = "EVTDESC1000109118"
 	picture = GFX_evt_maiden
 	
@@ -1731,7 +1731,7 @@ character_event = {
 
 # Gluttonous - tasty food to eat!
 character_event = {
-	id = 1000109119
+	id = VIETnam.90
 	desc = "EVTDESC1000109119"
 	picture = GFX_evt_feast
 	
@@ -1860,7 +1860,7 @@ character_event = {
 
 # Temperate - some people say character doesn't enjoy life enough
 character_event = {
-	id = 1000109120
+	id = VIETnam.91
 	desc = "EVTDESC1000109120"
 	picture = GFX_evt_feast
 	
@@ -1960,7 +1960,7 @@ character_event = {
 
 # Paranoid - character thinks he/she just saw an assassin
 character_event = {
-	id = 1000109121
+	id = VIETnam.92
 	desc = "EVTDESC1000109121"
 	picture = GFX_evt_shadow
 	
@@ -2053,7 +2053,7 @@ character_event = {
 
 # Trusting - character got pranked by a courtier
 character_event = {
-	id = 1000109122
+	id = VIETnam.93
 	desc = "EVTDESC1000109122"
 	picture = GFX_evt_scandal
 	
@@ -2235,7 +2235,7 @@ character_event = {
 
 # Deceitful - Never show true self
 character_event = {
-	id = 1000109123
+	id = VIETnam.94
 	desc = "EVTDESC1000109123"
 	picture = GFX_evt_maiden
 	
@@ -2335,7 +2335,7 @@ character_event = {
 
 # Honest - character meets an incompetent merchant
 character_event = {
-	id = 1000109124
+	id = VIETnam.95
 	desc = "EVTDESC1000109124"
 	picture = GFX_evt_market
 	
@@ -2434,7 +2434,7 @@ character_event = {
 
 # Cruel - subjects fear character
 character_event = {
-	id = 1000109100
+	id = VIETnam.71
 	desc = "EVTDESC1000109100"
 	picture = GFX_evt_shadowy_cabal
 	
@@ -2531,7 +2531,7 @@ character_event = {
 
 # Wash face
 character_event = {
-	id = 1000109348
+	id = VIETnam.175
 	desc = "EVTDESC1000109348"
 	picture = GFX_evt_moorish_decor
 	
@@ -2589,13 +2589,13 @@ character_event = {
 		piety = 5
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -2613,13 +2613,13 @@ character_event = {
 		prestige = 5
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -2630,7 +2630,7 @@ character_event = {
 
 # Critical Sufi Master
 character_event = {
-	id = 1000109349
+	id = VIETnam.176
 	desc = "EVTDESC1000109349"
 	picture = GFX_evt_bishop
 	
@@ -2904,7 +2904,7 @@ character_event = {
 
 # Scholar from the House of Wisdom
 character_event = {
-	id = 1000109350
+	id = VIETnam.177
 	desc = "EVTDESC1000109350"
 	picture = GFX_evt_moorish_decor
 	
@@ -3000,7 +3000,7 @@ character_event = {
 
 # High Quality and Quantity Paper Makers
 character_event = {
-	id = 1000109351
+	id = VIETnam.178
 	desc = "EVTDESC1000109351"
 	picture = GFX_evt_moorish_decor
 	
@@ -3110,7 +3110,7 @@ character_event = {
 
 # Character defeated by courtier in Persian chess
 character_event = {
-	id = 1000109352
+	id = VIETnam.179
 	desc = "EVTDESC1000109352"
 	picture = GFX_evt_council
 	
@@ -3509,7 +3509,7 @@ character_event = {
 
 # Fame Throughout Muslim World
 character_event = {
-	id = 1000109353
+	id = VIETnam.180
 	desc = "EVTDESC1000109353"
 	picture = GFX_evt_hagia_sofia
 	
@@ -3586,7 +3586,7 @@ character_event = {
 
 # Piety Throughout Muslim World
 character_event = {
-	id = 1000109354
+	id = VIETnam.181
 	desc = "EVTDESC1000109354"
 	picture = GFX_evt_hagia_sofia
 	
@@ -3661,7 +3661,7 @@ character_event = {
 
 # Hafiz Forgets Lines
 character_event = {
-	id = 1000109355
+	id = VIETnam.182
 	desc = "EVTDESC1000109355"
 	picture = GFX_evt_monk
 	
@@ -3808,7 +3808,7 @@ character_event = {
 
 # Annoying Beggar
 character_event = {
-	id = 1000109356
+	id = VIETnam.183
 	desc = "EVTDESC1000109356"
 	picture = GFX_evt_small_town_east_african
 	
@@ -4030,7 +4030,7 @@ character_event = {
 
 # Drinking contest
 character_event = {
-	id = 1000109357
+	id = VIETnam.184
 	desc = "EVTDESC1000109357"
 	picture = GFX_evt_feast
 	
@@ -4165,13 +4165,13 @@ character_event = {
 		random_list = {
 			50 = {
 				character_event = { #lose
-					id = 1000109359
+					id = VIETnam.186
 					tooltip = "EVTTOOLTIP1000109359"
 				}
 			}
 			50 = {
 				character_event = { #win
-					id = 1000109358
+					id = VIETnam.185
 					tooltip = "EVTTOOLTIP1000109358"
 				}
 			}
@@ -4227,7 +4227,7 @@ character_event = {
 
 #Character wins drinking contest
 character_event = {
-	id = 1000109358
+	id = VIETnam.185
 	desc = "EVTDESC1000109358"
 	picture = GFX_evt_feast
 
@@ -4345,15 +4345,19 @@ character_event = {
 			limit = {
 				trait = drunkard
 			}
-			50 = { }
-			50 = { remove_trait = drunkard }
+			random_list = {
+				50 = { }
+				50 = { remove_trait = drunkard }
+			}
 		}
 		if = {
 			limit = {
 				trait = gregarious
 			}
-			50 = { }
-			50 = { remove_trait = gregarious }
+			random_list = {
+				50 = { }
+				50 = { remove_trait = gregarious }
+			}
 		}
 	}
 }
@@ -4361,7 +4365,7 @@ character_event = {
 
 #Character loses drinking contest
 character_event = {
-	id = 1000109359
+	id = VIETnam.186
 	desc = "EVTDESC1000109359"
 	picture = GFX_evt_feast
 
@@ -4423,7 +4427,7 @@ character_event = {
 
 #Child drinks alcohol by accident
 character_event = {
-	id = 1000109360
+	id = VIETnam.187
 	desc = "EVTDESC1000109360"
 	picture = "GFX_evt_child_play"
 	
@@ -4434,7 +4438,7 @@ character_event = {
 
 	trigger = {
 		has_guardian = yes
-		NOT = { culture_group = muslim }
+		NOT = { religion_group = muslim }
 	}
 	
 	weight_multiplier = {
@@ -4486,7 +4490,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109361
+					id = VIETnam.188
 					days = 1
 				}
 			}
@@ -4496,7 +4500,7 @@ character_event = {
 
 # Guardian reacts
 character_event = {
-	id = 1000109361
+	id = VIETnam.188
 	desc = EVTDESC1000109361
 	picture = GFX_evt_child_play
 	
@@ -4586,7 +4590,7 @@ character_event = {
 
 # Shipment of wines arrive
 character_event = {
-	id = 1000109362
+	id = VIETnam.189
 	desc = "EVTDESC1000109362"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -4632,14 +4636,6 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = greedy
-		}
-		modifier = {
-			factor = 0.5
-			trait = charitable
-		}
-		modifier = {
-			factor = 2
 			culture_group = latin
 		}
 		modifier = {
@@ -4666,7 +4662,7 @@ character_event = {
 
 # Drunk courtier interrupts court
 character_event = {
-	id = 1000109363
+	id = VIETnam.190
 	desc = "EVTDESC1000109363"
 	picture = GFX_evt_emissary
 	
@@ -4864,7 +4860,7 @@ character_event = {
 
 # STOP RIGHT THERE CRIMINAL SCUM
 character_event = {
-	id = 1000109369
+	id = VIETnam.196
 	desc = "EVTDESC1000109369"
 	picture = GFX_evt_market
 	
@@ -5045,7 +5041,7 @@ character_event = {
 
 # Curved Swords
 character_event = {
-	id = 1000109370
+	id = VIETnam.197
 	desc = "EVTDESC1000109370"
 	picture = GFX_evt_carriage_muslim
 	
@@ -5145,7 +5141,7 @@ character_event = {
 
 # Lucien Lachance Intro Dialogue
 character_event = {
-	id = 1000109371
+	id = VIETnam.198
 	desc = "EVTDESC1000109371"
 	picture = GFX_evt_shadow
 	
@@ -5215,7 +5211,7 @@ character_event = {
 
 # Rumors
 character_event = {
-	id = 1000109372
+	id = VIETnam.199
 	desc = "EVTDESC1000109372"
 	picture = GFX_evt_courier
 	
@@ -5337,7 +5333,7 @@ character_event = {
 
 # Slip in the mud
 character_event = {
-	id = 1000109373
+	id = VIETnam.200
 	desc = "EVTDESC1000109373"
 	picture = GFX_evt_skyrim_forest
 	
@@ -5392,14 +5388,6 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = genius
-		}
-		modifier = {
-			factor = 2
-			trait = wroth
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
 		}
 		modifier = {
 			factor = 2
@@ -5489,7 +5477,7 @@ character_event = {
 
 # Coin in the ground
 character_event = {
-	id = 1000109374
+	id = VIETnam.201
 	desc = "EVTDESC1000109374"
 	picture = GFX_evt_skyrim_forest
 	
@@ -5569,7 +5557,7 @@ character_event = {
 
 # Fertilizer
 character_event = {
-	id = 1000109375
+	id = VIETnam.202
 	desc = "EVTDESC1000109375"
 	picture = GFX_evt_tuscan_country
 	
@@ -5723,7 +5711,7 @@ character_event = {
 
 # Parchment Coloring
 character_event = {
-	id = 1000109376
+	id = VIETnam.203
 	desc = "EVTDESC1000109376"
 	picture = GFX_evt_library
 	
@@ -5832,7 +5820,7 @@ character_event = {
 
 # Courtier's stool
 character_event = {
-	id = 1000109377
+	id = VIETnam.204
 	desc = "EVTDESC1000109377"
 	picture = GFX_evt_baklava
 	
@@ -5963,7 +5951,7 @@ character_event = {
 
 # Sky admiring
 character_event = {
-	id = 1000109378
+	id = VIETnam.205
 	desc = "EVTDESC1000109378"
 	picture = GFX_evt_comet
 	
@@ -6026,7 +6014,7 @@ character_event = {
 
 # The Butterfly
 character_event = {
-	id = 1000109379
+	id = VIETnam.206
 	desc = "EVTDESC1000109379"
 	picture = GFX_evt_skyrim_forest
 	
@@ -6207,7 +6195,7 @@ character_event = {
 
 # The Scorpion
 character_event = {
-	id = 1000109380
+	id = VIETnam.207
 	desc = "EVTDESC1000109380"
 	picture = GFX_evt_desert
 	
@@ -6291,7 +6279,7 @@ character_event = {
 
 # Good Dream
 character_event = {
-	id = 1000109390
+	id = VIETnam.217
 	desc = "EVTDESC1000109390"
 	picture = GFX_evt_holy_light
 	
@@ -6376,7 +6364,7 @@ character_event = {
 
 # Battle Dream
 character_event = {
-	id = 1000109391
+	id = VIETnam.218
 	desc = "EVTDESC1000109391"
 	picture = GFX_evt_battle_byzantine
 	
@@ -6468,7 +6456,7 @@ character_event = {
 
 # Dagoth Ur Dream
 character_event = {
-	id = 1000109392
+	id = VIETnam.219
 	desc = "EVTDESC1000109392"
 	picture = GFX_evt_nightmare
 	
@@ -6565,7 +6553,7 @@ character_event = {
 
 # ROME!!!
 character_event = {
-	id = 1000109393
+	id = VIETnam.220
 	desc = "EVTDESC1000109393"
 	picture = GFX_evt_rome_restored_byzantine
 	
@@ -6651,7 +6639,7 @@ character_event = {
 
 # Temptation dream
 character_event = {
-	id = 1000109394
+	id = VIETnam.221
 	desc = "EVTDESC1000109394"
 	picture = GFX_evt_jugglers_muslim
 	
@@ -6772,7 +6760,7 @@ character_event = {
 		}
 		piety = 2
 		character_event = {
-			id = 1000109395
+			id = VIETnam.222
 			tooltip = "EVTTOOLTIP1000109395"
 		}
 	}	
@@ -6823,7 +6811,7 @@ character_event = {
 		}
 		prestige = 2
 		character_event = {
-			id = 1000109396
+			id = VIETnam.223
 			tooltip = "EVTTOOLTIP1000109396"
 		}
 	}	
@@ -6832,7 +6820,7 @@ character_event = {
 
 # Temptation resisted
 character_event = {
-	id = 1000109395
+	id = VIETnam.222
 	desc = "EVTDESC1000109395"
 	picture = GFX_evt_holy_light
 	
@@ -6846,7 +6834,7 @@ character_event = {
 
 # Temptation caved in
 character_event = {
-	id = 1000109396
+	id = VIETnam.223
 	desc = "EVTDESC1000109396"
 	picture = GFX_evt_nightmare
 	
@@ -6866,7 +6854,7 @@ character_event = {
 
 # Stargate reference (credits to thestormweaver, and thanks for gifting me TOG)
 character_event = {
-	id = 1000109432
+	id = VIETnam.259
 	desc = "EVTDESC1000109432"
 	picture = GFX_evt_comet
 	
@@ -7121,7 +7109,7 @@ character_event = {
 
 # Ancient Roman Statue
 character_event = {
-	id = 1000109433
+	id = VIETnam.260
 	desc = "EVTDESC1000109433"
 	picture = GFX_evt_small_town
 	
@@ -7265,7 +7253,6 @@ character_event = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
-				religion_group = judaic
 			}
 		}
 		ai_chance = {
@@ -7379,7 +7366,7 @@ character_event = {
 
 # Achaemenid Monument
 character_event = {
-	id = 1000109434
+	id = VIETnam.261
 	desc = "EVTDESC1000109434"
 	picture = GFX_evt_desert
 	
@@ -7497,7 +7484,7 @@ character_event = {
 
 # Scythian Gold
 character_event = {
-	id = 1000109435
+	id = VIETnam.262
 	desc = "EVTDESC1000109435"
 	picture = GFX_evt_wafrica_gold
 	
@@ -7616,7 +7603,7 @@ character_event = {
 
 # Bamiyan Buddhas
 character_event = {
-	id = 1000109436
+	id = VIETnam.263
 	desc = "EVTDESC1000109436"
 	picture = GFX_evt_desert
 	
@@ -7637,7 +7624,7 @@ character_event = {
 			has_landed_title = d_baluchistan
 			AND = {
 				OR = {
-					culture = pashtun
+					culture = afghan
 					culture = persian
 					culture = tajik
 					culture = bactrian
@@ -7655,7 +7642,7 @@ character_event = {
 			}
 			AND = {
 				OR = {
-					culture = pashtun
+					culture = afghan
 					culture = persian
 					culture = tajik
 					culture = bactrian
@@ -7672,10 +7659,10 @@ character_event = {
 				}
 			}
 			any_demesne_province = {
-				religion_group = eastern_group		
+				religion = buddhist		
 			}
 		}
-		NOT = { religion_group = eastern_group }
+		NOT = { religion = buddhist }
 	}
 	
 	weight_multiplier = {
@@ -7753,7 +7740,6 @@ character_event = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
-				religion_group = judaic
 			}
 		}
 		ai_chance = {
@@ -7783,7 +7769,7 @@ character_event = {
 
 # Henges
 character_event = {
-	id = 1000109437
+	id = VIETnam.264
 	desc = "EVTDESC1000109437"
 	picture = GFX_evt_pagan
 	
@@ -7929,7 +7915,7 @@ character_event = {
 
 # Axumite Stelae
 character_event = {
-	id = 1000109438
+	id = VIETnam.265
 	desc = "EVTDESC1000109438"
 	picture = GFX_evt_small_town
 	
@@ -8027,7 +8013,7 @@ character_event = {
 
 # Muslim Call to Prayer
 character_event = {
-	id = 1000109439
+	id = VIETnam.266
 	desc = "EVTDESC1000109439"
 	picture = GFX_evt_bishop
 	
@@ -8133,7 +8119,7 @@ character_event = {
 
 # Can't Fall Asleep Quickly
 character_event = {
-	id = 1000109440
+	id = VIETnam.267
 	desc = "EVTDESC1000109440"
 	picture = GFX_evt_nightmare
 	
@@ -8259,7 +8245,7 @@ character_event = {
 
 # Rock and Roll Event Chain
 character_event = {
-	id = 1000109441
+	id = VIETnam.268
 	desc = "EVTDESC1000109441"
 	picture = "GFX_evt_child_play"
 	
@@ -8323,7 +8309,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109442
+					id = VIETnam.269
 					days = 3
 				}
 			}
@@ -8333,7 +8319,7 @@ character_event = {
 
 # Guardian chooses whether to be okay or not
 character_event = {
-	id = 1000109442
+	id = VIETnam.269
 	desc = EVTDESC1000109442
 	picture = GFX_evt_child_play
 	
@@ -8380,7 +8366,7 @@ character_event = {
 		FROM = {
 			hidden_tooltip = { 
 				character_event = { 
-					id = 1000109443 
+					id = VIETnam.270 
 				}
 			}
 		}
@@ -8432,7 +8418,7 @@ character_event = {
 		FROM = {
 			hidden_tooltip = { 
 				character_event = { 
-					id = 1000109444 
+					id = VIETnam.271 
 				}
 			}
 		}
@@ -8442,7 +8428,7 @@ character_event = {
 
 # Guardian encourages rock and roll
 character_event = {
-	id = 1000109443
+	id = VIETnam.270
 	desc = "EVTDESC1000109443"
 	picture = "GFX_evt_guardian"
 	
@@ -8478,7 +8464,7 @@ character_event = {
 
 # Guardian discourages rock and roll
 character_event = {
-	id = 1000109444
+	id = VIETnam.271
 	desc = "EVTDESC1000109444"
 	picture = "GFX_evt_guardian"
 	
@@ -8539,7 +8525,7 @@ character_event = {
 
 # Ocean peace
 character_event = {
-	id = 1000109445
+	id = VIETnam.272
 	desc = "EVTDESC1000109445"
 	picture = GFX_evt_ocean_blue
 	
@@ -8660,7 +8646,7 @@ character_event = {
 
 # Hammers and Anvils
 character_event = {
-	id = 1000109446
+	id = VIETnam.273
 	desc = "EVTDESC1000109446"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -8852,7 +8838,7 @@ character_event = {
 
 # Character learning baby talk
 character_event = {
-	id = 1000109447
+	id = VIETnam.274
 	desc = "EVTDESC1000109447"
 	picture = GFX_evt_child_play
 	
@@ -8948,7 +8934,7 @@ character_event = {
 
 # Character learning prayers
 character_event = {
-	id = 1000109457
+	id = VIETnam.284
 	desc = "EVTDESC1000109457"
 	picture = GFX_evt_child_play
 	
@@ -9060,7 +9046,7 @@ character_event = {
 
 # Church Prayer
 character_event = {
-	id = 1000109458
+	id = VIETnam.285
 	desc = "EVTDESC1000109458"
 	picture = GFX_evt_bishop
 	
@@ -9126,13 +9112,13 @@ character_event = {
 		piety = 3
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -9141,7 +9127,7 @@ character_event = {
 
 # Mosque Prayer
 character_event = {
-	id = 1000109459
+	id = VIETnam.286
 	desc = "EVTDESC1000109459"
 	picture = GFX_evt_bishop_muslim
 	
@@ -9207,13 +9193,13 @@ character_event = {
 		piety = 3
 		if = {
 			limit = {
-				has_trait = stressed
+				trait = stressed
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
-				has_trait = depressed
+				trait = depressed
 			}
 			remove_trait = depressed
 		}
@@ -9223,7 +9209,7 @@ character_event = {
 
 #Praying in the middle of battle
 character_event = {
-	id = 1000109460
+	id = VIETnam.287
 	desc = EVTDESC1000109460
 	picture = GFX_evt_holy_light
 	border = GFX_event_normal_frame_war
@@ -9265,7 +9251,7 @@ character_event = {
 
 #Praying for a dying soldier
 character_event = {
-	id = 1000109461
+	id = VIETnam.288
 	desc = EVTDESC1000109461
 	picture = GFX_evt_battle
 	border = GFX_event_normal_frame_war
@@ -9320,7 +9306,7 @@ character_event = {
 
 # First love
 character_event = {
-	id = 1000109474 
+	id = VIETnam.301 
 	desc = "EVTDESC1000109474"
 	picture = GFX_evt_maiden
 	
@@ -9417,7 +9403,7 @@ character_event = {
 			text = 1000109467_choice_a
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9439,7 +9425,7 @@ character_event = {
 			text = 1000109467_choice_b
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9461,7 +9447,7 @@ character_event = {
 			text = 1000109467_choice_c
 			hidden_tooltip = {
 				character_event = {
-					id = 1000109467
+					id = VIETnam.294
 				}
 			}
 		}
@@ -9470,7 +9456,7 @@ character_event = {
 
 # First love part 2
 character_event = {
-	id = 1000109467 
+	id = VIETnam.294 
 	desc = "EVTDESC1000109467"
 	picture = GFX_evt_comet
 	
@@ -9623,7 +9609,7 @@ character_event = {
 
 # Old Hunting grounds
 character_event = {
-	id = 1000109468 
+	id = VIETnam.295 
 	desc = "EVTDESC1000109468"
 	picture = GFX_evt_hunt
 	
@@ -9698,7 +9684,7 @@ character_event = {
 
 # Old childhood friend - merchant
 character_event = {
-	id = 1000109469 
+	id = VIETnam.296 
 	desc = "EVTDESC1000109469"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -9802,8 +9788,8 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
-					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
+					66 = { character_event = { id = VIETnam.298 days = 2 random = 2 } } #Gives advice
 				}
 			}
 		}		
@@ -9835,8 +9821,8 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
-					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
+					66 = { character_event = { id = VIETnam.298 days = 2 random = 2 } } #Gives advice
 				}
 			}
 		}		
@@ -9868,8 +9854,8 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
-					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
+					66 = { character_event = { id = VIETnam.298 days = 2 random = 2 } } #Gives advice
 				}
 			}
 		}		
@@ -9901,8 +9887,8 @@ character_event = {
 			text = old_childhood_friend_merchant
 			hidden_tooltip = {
 				random_list = {
-					34 = { character_event = { id = 1000109470 days = 2 random = 2 } } #Stays
-					66 = { character_event = { id = 1000109471 days = 2 random = 2 } } #Gives advice
+					34 = { character_event = { id = VIETnam.297 days = 2 random = 2 } } #Stays
+					66 = { character_event = { id = VIETnam.298 days = 2 random = 2 } } #Gives advice
 				}
 			}
 		}		
@@ -9911,7 +9897,7 @@ character_event = {
 
 # Old childhood friend - merchant - stays and joins you
 narrative_event = {
-	id = 1000109470
+	id = VIETnam.297
 	title = EVTNAME1000109470	
 	desc = "EVTDESC1000109470"
 	picture = GFX_evt_busy_trading_dock_republic
@@ -10243,7 +10229,7 @@ narrative_event = {
 
 # Old childhood friend - merchant - gives advice
 narrative_event = {
-	id = 1000109471
+	id = VIETnam.298
 	title = EVTNAME1000109471	
 	desc = "EVTDESC1000109471"
 	picture = GFX_evt_busy_trading_dock_republic
@@ -10286,7 +10272,7 @@ narrative_event = {
 
 # Remembering great time with lover
 character_event = {
-	id = 1000109472 
+	id = VIETnam.299 
 	desc = "EVTDESC1000109472"
 	picture = GFX_evt_lovers
 	
@@ -10365,7 +10351,7 @@ character_event = {
 			name = lustful_ruler
 			duration = 365
 		}
-		lover = {
+		random_lover = {
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
@@ -10377,7 +10363,7 @@ character_event = {
 
 # Old age is sad
 character_event = {
-	id = 1000109473 
+	id = VIETnam.300 
 	desc = "EVTDESC1000109473"
 	picture = GFX_evt_nightmare
 	
@@ -10533,7 +10519,7 @@ character_event = {
 
 # Bad Baklava
 character_event = {
-	id = 1000109480 
+	id = VIETnam.302 
 	desc = "EVTDESC1000109480"
 	picture = GFX_evt_baklava
 	
@@ -10648,7 +10634,7 @@ character_event = {
 
 # Servant Scam
 character_event = {
-	id = 1000109481 
+	id = VIETnam.303 
 	desc = "EVTDESC1000109481"
 	picture = GFX_evt_tuscan_country
 	
@@ -10773,7 +10759,7 @@ character_event = {
 
 # Servant smuggler
 character_event = {
-	id = 1000109482 
+	id = VIETnam.304 
 	desc = "EVTDESC1000109482"
 	picture = GFX_evt_shadowy_cabal
 	
@@ -10932,7 +10918,7 @@ character_event = {
 
 # Saint's "Bones"
 character_event = {
-	id = 1000109483 
+	id = VIETnam.305 
 	desc = "EVTDESC1000109483"
 	picture = GFX_evt_icon
 	
@@ -11009,7 +10995,7 @@ character_event = {
 		}
 		wealth = -8
 		piety = 10
-		character_event = { id = 1000109484 days = 1 tooltip = "EVTTOOLTIP1000109484" }
+		character_event = { id = VIETnam.306 days = 1 tooltip = "EVTTOOLTIP1000109484" }
 	}	
 	option = {
 		name = "EVTOPTB1000109483"  # No
@@ -11092,7 +11078,7 @@ character_event = {
 
 # Saint's "Bones" Part 2
 character_event = {
-	id = 1000109484 
+	id = VIETnam.306 
 	desc = "EVTDESC1000109484"
 	picture = GFX_evt_scandal
 	
@@ -11125,7 +11111,7 @@ character_event = {
 
 # Basic Comet Event
 character_event = {
-	id = 1000109485
+	id = VIETnam.307
 	desc = "EVTDESC1000109485"
 	picture = GFX_evt_comet
 	
@@ -11245,7 +11231,7 @@ character_event = {
 
 # No comets
 character_event = {
-	id = 1000109486
+	id = VIETnam.308
 	desc = "EVTDESC1000109486"
 	picture = GFX_evt_comet
 	
@@ -11327,7 +11313,7 @@ character_event = {
 
 # A good comet?
 character_event = {
-	id = 1000109487
+	id = VIETnam.309
 	desc = "EVTDESC1000109487"
 	picture = GFX_evt_comet
 	
@@ -11449,7 +11435,7 @@ character_event = {
 
 # Courtier sees comet
 character_event = {
-	id = 1000109488
+	id = VIETnam.310
 	desc = "EVTDESC1000109488"
 	picture = GFX_evt_comet
 	
@@ -11584,7 +11570,7 @@ character_event = {
 
 # Child comet
 character_event = {
-	id = 1000109489
+	id = VIETnam.311
 	desc = "EVTDESC1000109489"
 	picture = GFX_evt_comet
 	
@@ -11686,18 +11672,17 @@ character_event = {
 
 # Cuckoo for comets
 character_event = {
-	id = 1000109490
+	id = VIETnam.312
 	desc = "EVTDESC1000109490"
 	picture = GFX_evt_comet
 	
 	is_triggered_only = yes
 	
-	is_ruler = yes
+	only_rulers = yes
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
-		is_ruler = yes
 		war = no
 		in_command = no
 		OR = {
@@ -11767,8 +11752,8 @@ character_event = {
 			text = asking_god_to_stop_comets
 			hidden_tooltip = {
 				random_list = {
-					50 = { character_event = { id = 1000109491 days = 3 random = 3 } } #Good result
-					50 = { character_event = { id = 1000109492 days = 3 random = 3 } } #Bad result
+					50 = { character_event = { id = VIETnam.313 days = 3 random = 3 } } #Good result
+					50 = { character_event = { id = VIETnam.314 days = 3 random = 3 } } #Bad result
 				}
 			}
 		}
@@ -11778,7 +11763,7 @@ character_event = {
 
 # Cuckoo for comets Yay
 character_event = {
-	id = 1000109491
+	id = VIETnam.313
 	desc = "EVTDESC1000109491"
 	picture = GFX_evt_comet
 	
@@ -11792,7 +11777,7 @@ character_event = {
 
 # Cuckoo for comets Yay
 character_event = {
-	id = 1000109492
+	id = VIETnam.314
 	desc = "EVTDESC1000109492"
 	picture = GFX_evt_comet
 	

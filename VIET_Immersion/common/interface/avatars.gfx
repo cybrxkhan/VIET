@@ -994,8 +994,8 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
 		scale = 1.0f
 	}
-		
-	EMFXActorType = {
+	
+		EMFXActorType = {
 		name = "muslimgfx_KNIGHTS"
 		actorfile = "gfx\models\Muslim_Heavy_Horse.xac"
 		
@@ -1395,9 +1395,9 @@ objectTypes = {
 		name = "indiangfx_SPECIAL_TROOPS_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_03.xac"
 		scale = 0.000001f
-	}	
-
+	}
 	
+		
 		
 	#SAXONS - credits to SOH
 	
@@ -1814,7 +1814,7 @@ objectTypes = {
 	}
 	
 		EMFXActorType = {
-		name = "andalusiangfx_HORSE_ARCHERS"
+		name = "andalusiangfx_SPECIAL_TROOPS"
 		actorfile = "gfx\models\Muslim_Horse.xac"
 		
 		idle   = "gfx\models\Horse_Idle.xsm"
@@ -1825,7 +1825,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "andalusiangfx_HORSE_ARCHERS_rider"
+		name = "andalusiangfx_SPECIAL_TROOPS_rider"
 		actorfile = "gfx\models\Muslim_Mounted_Archer.xac"
 		
 		idle   = "gfx\models\Mounted_Archer_Idle.xsm"
@@ -1836,7 +1836,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "andalusiangfx_HORSE_ARCHERS_weapon"
+		name = "andalusiangfx_SPECIAL_TROOPS_weapon"
 		actorfile = "gfx\models\Attachments\Arrow.xac"
 		
 		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
@@ -1847,7 +1847,7 @@ objectTypes = {
 	}
 	
 	EMFXActorType = {
-		name = "andalusiangfx_HORSE_ARCHERS_shield"
+		name = "andalusiangfx_SPECIAL_TROOPS_shield"
 		actorfile = "gfx\models\Attachments\Bow_02.xac"
 		
 		idle   = "gfx\models\Attachments\Bow_idle.xsm"
@@ -1858,7 +1858,7 @@ objectTypes = {
 	}	
 		
 	EMFXActorType = {
-		name = "andalusiangfx_HORSE_ARCHERS_helmet"
+		name = "andalusiangfx_SPECIAL_TROOPS_helmet"
 		actorfile = "gfx\models\Attachments\Helmet_04_Arab.xac"
 		scale = 1.0f
 	}

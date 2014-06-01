@@ -1,11 +1,36 @@
-864.1.1={
-	liege="d_khiva"
+750.1.1={
+	liege="d_fergana"
 }
-864.1.1={
-	holder = 163099
+750.1.1={
+	holder = 100015911
+}
+780.1.1={
+	holder = 100015912
+}
+810.1.1={
+	holder = 100015914
+}
+841.1.1={
+	holder = 100015915
+	set_global_flag = silk_road_level_2
+}
+866.1.1={
+	holder = 100015917
+}
+907.6.1 = {
+		set_global_flag = fall_of_tang
+		clr_global_flag = silk_road_level_2
+		set_global_flag = silk_road_level_0
+}
+927.2.27 = {
+		set_global_flag = rise_of_khitan
+}
+960.2.4 = {
+		set_global_flag = rise_of_song
 }
 1052.1.1=
 {
+	liege="d_khiva"
 	holder=3014
 }
 1068.1.1=

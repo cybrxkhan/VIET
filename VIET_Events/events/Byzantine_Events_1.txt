@@ -2,7 +2,7 @@
 #
 # Byzantine Flavor Events
 #
-# ID# 1000109160 - 1000109169
+# ID# VIETnam.111 - VIETnam.120
 #
 # Fired from on actions
 #
@@ -10,11 +10,11 @@
 
 
 
-# 1000109160
+# VIETnam.111
 
 # Catholics or Muslims?
 character_event = {
-	id = 1000109161
+	id = VIETnam.112
 	desc = "EVTDESC1000109161"
 	picture = GFX_evt_western_knights_byzantine
 	
@@ -105,7 +105,7 @@ character_event = {
 
 # Old monuments from antiquity
 character_event = {
-	id = 1000109162
+	id = VIETnam.113
 	desc = "EVTDESC1000109162"
 	picture = GFX_evt_tuscan_country
 	
@@ -213,7 +213,7 @@ character_event = {
 
 # Baklava
 character_event = {
-	id = 1000109163
+	id = VIETnam.114
 	desc = "EVTDESC1000109163"
 	picture = GFX_evt_baklava
 	
@@ -328,7 +328,7 @@ character_event = {
 
 # Courtier interested in western fashion
 character_event = {
-	id = 1000109164
+	id = VIETnam.115
 	desc = "EVTDESC1000109164"
 	picture = GFX_evt_scandal
 	
@@ -448,7 +448,7 @@ character_event = {
 
 # Western knight comes to character
 character_event = {
-	id = 1000109165
+	id = VIETnam.116
 	desc = "EVTDESC1000109165"
 	picture = GFX_evt_western_knights_byzantine
 	
@@ -623,7 +623,7 @@ character_event = {
 
 # Syrtos Dance
 character_event = {
-	id = 1000109166
+	id = VIETnam.117
 	desc = "EVTDESC1000109166"
 	picture = GFX_evt_baklava
 	
@@ -705,7 +705,7 @@ character_event = {
 
 # Olive Farmer
 character_event = {
-	id = 1000109167
+	id = VIETnam.118
 	desc = "EVTDESC1000109167"
 	picture = GFX_evt_tuscan_country
 	
@@ -887,7 +887,7 @@ character_event = {
 
 # Bureau of Barbarians requests permission for investigation
 character_event = {
-	id = 1000109168
+	id = VIETnam.119
 	desc = "EVTDESC1000109168"
 	picture = GFX_evt_emissary
 	
@@ -955,13 +955,13 @@ character_event = {
 		random_list = {
 			50 = {
 				character_event = { #Merchant is innocent
-					id = 1000109169
+					id = VIETnam.120
 					tooltip = "EVTTOOLTIP1000109169"
 				}
 			}
 			50 = {
 				character_event = { #Merchant is guilty
-					id = 1000109160
+					id = VIETnam.111
 					tooltip = "EVTTOOLTIP1000109160"
 				}
 			}
@@ -979,7 +979,7 @@ character_event = {
 
 # Merchant is innocent
 character_event = {
-	id = 1000109169
+	id = VIETnam.120
 	desc = "EVTDESC1000109169"
 	picture = GFX_evt_baklava
 	
@@ -1318,7 +1318,7 @@ character_event = {
 
 # Merchant is guilty
 character_event = {
-	id = 1000109160
+	id = VIETnam.111
 	desc = "EVTDESC1000109160"
 	picture = GFX_evt_baklava
 	

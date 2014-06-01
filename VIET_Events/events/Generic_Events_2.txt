@@ -2,8 +2,8 @@
 #
 # Generic Mundane Events
 #
-# 1000109509 - 1000109513 "Bad" Events
-# 1000109514 - 1000109518 Bug Events
+# VIETnam.331 - VIETnam.335 "Bad" Events
+# VIETnam.336 - VIETnam.340 Bug Events
 #
 # Fired from on actions
 #
@@ -15,7 +15,7 @@
 
 # Spoiled baklava
 character_event = {
-	id = 1000109509
+	id = VIETnam.331
 	desc = "EVTDESC1000109509"
 	picture = GFX_evt_baklava
 	
@@ -110,7 +110,7 @@ character_event = {
 
 # Innocent man executed
 character_event = {
-	id = 1000109510
+	id = VIETnam.332
 	desc = "EVTDESC1000109510"
 	picture = GFX_evt_beheading
 	
@@ -189,7 +189,7 @@ character_event = {
 
 # Talk like a sailor man
 character_event = {
-	id = 1000109511
+	id = VIETnam.333
 	desc = "EVTDESC1000109511"
 	picture = GFX_evt_scandal
 	
@@ -262,7 +262,7 @@ character_event = {
 
 # Bad associate
 character_event = {
-	id = 1000109512
+	id = VIETnam.334
 	desc = "EVTDESC1000109512"
 	picture = GFX_evt_busy_trading_dock_republic
 	
@@ -353,7 +353,7 @@ character_event = {
 
 # Le Imperator's New Clothes
 character_event = {
-	id = 1000109513
+	id = VIETnam.335
 	desc = "EVTDESC1000109513"
 	picture = GFX_evt_scandal
 	
@@ -451,7 +451,7 @@ character_event = {
 
 # Eating worms
 character_event = {
-	id = 1000109514
+	id = VIETnam.336
 	desc = "EVTDESC1000109514"
 	picture = GFX_evt_child_play_muslim
 	
@@ -533,7 +533,7 @@ character_event = {
 
 # Crickets at night
 character_event = {
-	id = 1000109515
+	id = VIETnam.337
 	desc = "EVTDESC1000109515"
 	picture = GFX_evt_comet
 	
@@ -621,7 +621,7 @@ character_event = {
 
 # Stung by a bee
 character_event = {
-	id = 1000109516
+	id = VIETnam.338
 	desc = "EVTDESC1000109516"
 	picture = GFX_evt_skyrim_forest
 	
@@ -769,7 +769,7 @@ character_event = {
 
 # Good luck ladybugs
 character_event = {
-	id = 1000109517
+	id = VIETnam.339
 	desc = "EVTDESC1000109517"
 	picture = GFX_evt_skyrim_forest
 	
@@ -866,7 +866,7 @@ character_event = {
 
 # Egyptian Dung Bettles
 character_event = {
-	id = 1000109518
+	id = VIETnam.340
 	desc = "EVTDESC1000109518"
 	picture = GFX_persepolis_ruin
 	
@@ -970,7 +970,7 @@ character_event = {
 
 # SMASH KILL
 character_event = {
-	id = 1000109519
+	id = VIETnam.341
 	desc = "EVTDESC1000109519"
 	picture = GFX_evt_lunatic
 	
@@ -1104,8 +1104,7 @@ character_event = {
 				factor = 5
 				AND = {
 					OR = {
-						religion_group = eastern_group
-						religion_group = vedic
+						religion_group = indian_group
 						religion_group = gnostic_group
 					}
 					trait = zealous

@@ -682,7 +682,7 @@ letter_event = {
 		}
 		random_vassal = {
 			limit = { has_character_flag = faction_member }
-			letter_event = { id = 9008 days = 7 tooltip = EVTTOOLTIP9008 }
+			letter_event = { id = 9003 days = 7 tooltip = EVTTOOLTIP9023 }
 		}	
 	}
 	option = { # Do Nothing
@@ -1328,7 +1328,7 @@ letter_event = {
 		liege = {
 			any_vassal = {
 				limit = { has_character_flag = faction_recruit }
-				letter_event = { id = 9025 days = 7 tooltip = EVTTOOLTIP9025 }
+				letter_event = { id = 9028 days = 7 tooltip = EVTTOOLTIP9028 }
 			}
 		}
 	}
@@ -1359,7 +1359,7 @@ letter_event = {
 		liege = {
 			any_vassal = {
 				limit = { has_character_flag = faction_recruit }
-				letter_event = { id = 9028 days = 7 tooltip = EVTTOOLTIP9028 }
+				letter_event = { id = 9023 days = 7 tooltip = EVTTOOLTIP9023 }
 			}
 		}
 	}

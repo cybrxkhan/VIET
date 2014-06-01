@@ -21,6 +21,8 @@ randomize_or_turn_on_off_invasions;Randomize or Turn Invasions On/Off;;;;;;;;;;;
 randomize_or_turn_on_off_invasions_desc;Change the chances hordes are likely to appear, or prevent them from appearing altogether.;;;;;;;;;;;
 disable_customization_options_forever;Disable Customization Options Forever;;;;;;;;;;;
 disable_customization_options_forever_desc;Permanently remove all customization options from the decisions menu;;;;;;;;;;;
+revive_silk_road_cheat;Silk Road Cheat;;;;;;;;;;;
+revive_silk_road_cheat_desc;Change the Silk Road's prosperity level;;;;;;;;;;;
 xxxxxxxxxxxxxx;xxx;;;;;;;;;;;
 #Events ;;;;;;;;;;;;;;x
 customization.0.desc;This menu will allow you to change the name of various realms, such as the Byzantine Empire. Note that the last option is always the default.;;;;;;;;;;;
@@ -78,4 +80,6 @@ are_you_really_sure_customization_options;Are you really sure?;;;;;;;;;;;
 customization.46.desc;This decision/event will allow you to choose what name the Empire of Francia is known by in the game. You can always change it to something else, or set it back to the default “Francia” if you change your mind. If you want to reset, select the last option, “Francia” (default)”.;;;;;;;;;;;
 customization.47.desc;More options.\n\n(By the way, I like my french bread soft.);;;;;;;;;;;
 customization.48.desc;This event will change the chances the Ghaznavids will appear.;;;;;;;;;;;
-customization.49.desc;xxxx;;;;;;;;;;;
+customization.49.desc;This "cheat" event allows you to set the Silk Road's prosperity level. For instance, from 1066 starts onward, it has a prosperity level of 0, meaning it can't be revived. At level 1 or 2, it can be revived, but it'll take some work. At level 3, the Silk Road has revived. BE CAREFUL WITH THESE, only change these if you know how they work!;;;;;;;;;;;
+customization.50.desc;More options.\n\nSilk Road ahoy!;;;;;;;;;;;
+customization.51.desc;xxxx;;;;;;;;;;;

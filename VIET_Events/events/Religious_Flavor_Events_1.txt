@@ -2,10 +2,10 @@
 #
 # Religious Flavor Events
 #
-# ID# 1000109329 - 1000109336 Holy Wars/Crusades/Jihads 
-# ID# 1000109397 - 1000109400 Zoroastrian Events
-# ID# 1000109462 - 1000109466 Jewish Events
-# ID# 1000109493 - 1000109500 Buddhist Events
+# ID# VIETnam.156 - VIETnam.163 Holy Wars/Crusades/Jihads 
+# ID# VIETnam.224 - VIETnam.227 Zoroastrian Events
+# ID# VIETnam.289 - VIETnam.293 Jewish Events
+# ID# VIETnam.315 - VIETnam.322 Buddhist Events
 #
 # Fired from on actions
 #
@@ -17,7 +17,7 @@
 
 # Character meets lost infidel warrior
 character_event = {
-	id = 1000109329
+	id = VIETnam.156
 	desc = "EVTDESC1000109329"
 	picture = GFX_evt_crusaders
 	
@@ -147,7 +147,7 @@ character_event = {
 				30 = { remove_trait = paranoid }
 			}			
 		}
-		character_event = { id = 1000109330 tooltip = "EVTTOOLTIP1000109330" }
+		character_event = { id = VIETnam.157 tooltip = "EVTTOOLTIP1000109330" }
 	}
 	
 	option = { #KILL
@@ -211,7 +211,7 @@ character_event = {
 
 # Infidel warrior wishes to serve character
 character_event = {
-	id = 1000109330
+	id = VIETnam.157
 	desc = "EVTDESC1000109330"
 	picture = GFX_evt_tuscan_country
 	
@@ -692,7 +692,7 @@ character_event = {
 
 # Muslim character comes across Christian pilgrims
 character_event = {
-	id = 1000109331
+	id = VIETnam.158
 	desc = "EVTDESC1000109331"
 	picture = GFX_evt_jerusalem
 	
@@ -942,7 +942,7 @@ character_event = {
 
 # Christian character comes across Saint's tomb
 character_event = {
-	id = 1000109332
+	id = VIETnam.159
 	desc = "EVTDESC1000109332"
 	picture = GFX_evt_jerusalem
 	
@@ -1205,7 +1205,7 @@ character_event = {
 
 # Crusader/Mujahid worries about having vices
 character_event = {
-	id = 1000109333
+	id = VIETnam.160
 	desc = "EVTDESC1000109333"
 	picture = GFX_evt_brothel
 	
@@ -1359,7 +1359,7 @@ character_event = {
 				30 = { remove_trait = content }
 			}			
 		}
-		character_event = { id = 1000109334 tooltip = "EVTTOOLTIP1000109334" }
+		character_event = { id = VIETnam.161 tooltip = "EVTTOOLTIP1000109334" }
 	}
 
 		
@@ -1407,14 +1407,14 @@ character_event = {
 				30 = { add_trait = gregarious }
 			}			
 		}
-		character_event = { id = 1000109335 tooltip = "EVTTOOLTIP1000109335" }
+		character_event = { id = VIETnam.162 tooltip = "EVTTOOLTIP1000109335" }
 	}
 }
 
 
 # Crusader/Mujahid receives vision
 character_event = {
-	id = 1000109334
+	id = VIETnam.161
 	desc = "EVTDESC1000109334"
 	picture = GFX_evt_jerusalem
 	
@@ -1494,7 +1494,7 @@ character_event = {
 
 # Crusader/Mujahid asks old knight
 character_event = {
-	id = 1000109335
+	id = VIETnam.162
 	desc = "EVTDESC1000109335"
 	picture = GFX_evt_jerusalem
 	
@@ -1572,7 +1572,7 @@ character_event = {
 
 # Is Holy War justified?
 character_event = {
-	id = 1000109336
+	id = VIETnam.163
 	desc = "EVTDESC1000109336"
 	picture = GFX_evt_bishop
 	
@@ -1760,7 +1760,7 @@ character_event = {
 
 # Honesty is the best policy
 character_event = {
-	id = 1000109397
+	id = VIETnam.224
 	desc = "EVTDESC1000109397"
 	picture = GFX_evt_zoroastrian_fire
 	
@@ -1848,7 +1848,7 @@ character_event = {
 }
 # The Baklava Thief
 character_event = {
-	id = 1000109398
+	id = VIETnam.225
 	desc = "EVTDESC1000109398"
 	picture = GFX_evt_baklava
 	
@@ -2084,7 +2084,7 @@ character_event = {
 
 # Defiling the Pure Holy Fire
 character_event = {
-	id = 1000109399
+	id = VIETnam.226
 	desc = "EVTDESC1000109399"
 	picture = GFX_evt_zoroastrian_fire
 	
@@ -2226,7 +2226,7 @@ character_event = {
 }
 # Toenail clippings
 character_event = {
-	id = 1000109400
+	id = VIETnam.227
 	desc = "EVTDESC1000109400"
 	picture = GFX_evt_zoroastrian_fire
 	
@@ -2304,7 +2304,7 @@ character_event = {
 
 # Dream (based on Jewish story of Rabbis winning an argument with God)
 character_event = {
-	id = 1000109462
+	id = VIETnam.289
 	desc = "EVTDESC1000109462"
 	picture = GFX_evt_holy_light
 	
@@ -2381,7 +2381,7 @@ character_event = {
 
 # Arguments
 character_event = {
-	id = 1000109463
+	id = VIETnam.290
 	desc = "EVTDESC1000109463"
 	picture = GFX_evt_the_torah
 	
@@ -2516,7 +2516,7 @@ character_event = {
 
 # Kosher food
 character_event = {
-	id = 1000109464
+	id = VIETnam.291
 	desc = "EVTDESC1000109464"
 	picture = GFX_evt_feast
 	
@@ -2623,7 +2623,7 @@ character_event = {
 
 # Kabbalist reincarnation
 character_event = {
-	id = 1000109465
+	id = VIETnam.292
 	desc = "EVTDESC1000109465"
 	picture = GFX_evt_feast
 	
@@ -2708,7 +2708,7 @@ character_event = {
 
 # Morning prayers
 character_event = {
-	id = 1000109466
+	id = VIETnam.293
 	desc = "EVTDESC1000109466"
 	picture = GFX_evt_the_torah
 	
@@ -2782,7 +2782,7 @@ character_event = {
 
 # TO hunt or not?
 character_event = {
-	id = 1000109493
+	id = VIETnam.315
 	desc = "EVTDESC1000109493"
 	picture = GFX_evt_hunt
 	
@@ -2797,7 +2797,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		OR = {
 			trait = hunter
 			trait = falconer
@@ -2912,7 +2912,7 @@ character_event = {
 
 # A Buddhist master
 character_event = {
-	id = 1000109494
+	id = VIETnam.316
 	desc = "EVTDESC1000109494"
 	picture = GFX_evt_monk_eastern_group
 	
@@ -2926,7 +2926,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3044,7 +3044,7 @@ character_event = {
 
 # Meditation
 character_event = {
-	id = 1000109495
+	id = VIETnam.317
 	desc = "EVTDESC1000109495"
 	picture = GFX_evt_death_eastern_group
 	
@@ -3058,7 +3058,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		OR = {
 			trait = retreat_veteran
 			trait = retreat_master
@@ -3125,7 +3125,7 @@ character_event = {
 
 # Death of a bodyguard
 character_event = {
-	id = 1000109496
+	id = VIETnam.318
 	desc = "EVTDESC1000109496"
 	picture = GFX_evt_death_eastern_group
 	
@@ -3139,7 +3139,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3238,7 +3238,7 @@ character_event = {
 
 # Bodhidharma
 character_event = {
-	id = 1000109497
+	id = VIETnam.319
 	desc = "EVTDESC1000109497"
 	picture = GFX_evt_buddhist_pagoda
 	
@@ -3252,7 +3252,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3342,7 +3342,7 @@ character_event = {
 
 # Nature is to save
 character_event = {
-	id = 1000109498
+	id = VIETnam.320
 	desc = "EVTDESC1000109498"
 	picture = GFX_evt_monk_eastern_group
 	
@@ -3356,7 +3356,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3432,7 +3432,7 @@ character_event = {
 
 # Begging monks
 character_event = {
-	id = 1000109499
+	id = VIETnam.321
 	desc = "EVTDESC1000109499"
 	picture = GFX_evt_buddhist_pagoda
 	
@@ -3446,7 +3446,7 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 	}
 	
 	weight_multiplier = {
@@ -3618,7 +3618,7 @@ character_event = {
 
 # Stop with the incense!
 character_event = {
-	id = 1000109500
+	id = VIETnam.322
 	desc = "EVTDESC1000109500"
 	picture = GFX_evt_death_eastern_group
 	
@@ -3633,11 +3633,11 @@ character_event = {
 		is_ruler = yes
 		war = no
 		in_command = no
-		religion_group = eastern_group
+		religion = buddhist
 		is_married = yes
 		prisoner = no
 		spouse = {
-			religion_group = eastern_group
+			religion = buddhist
 			prisoner = no
 			is_alive = yes
 			is_abroad = no

@@ -811,6 +811,8 @@ e_golden_horde = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_il-khanate = {
@@ -829,6 +831,8 @@ e_il-khanate = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_mongol_empire = {
@@ -848,6 +852,8 @@ e_mongol_empire = {
 	
 	culture = mongol
 	religion = tengri_pagan
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.	
 }
 
 e_timurids = {
@@ -5652,11 +5658,6 @@ d_dyrrachion = {
 
 d_vidin = {
 	color={ 122 103 58 }
-	color2={ 255 255 255 }
-}
-
-d_jazira = {
-	color={ 95 180 35 }
 	color2={ 255 255 255 }
 }
 

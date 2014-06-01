@@ -14,7 +14,7 @@ decisions = {
 				religion_group = gnostic_group
 				religion = qarmatian
 				religion = cathar
-				religion = bogomil
+				religion = bogomilist
 			}
 			NOT = { trait = vegetarian }
 		}

@@ -1,11 +1,11 @@
 863.1.1={
 	holder=159730
 }
-1066.1.1={
-	liege="e_byzantium"
-}
 1060.1.1={
 	holder=20559
+}
+1066.1.1={
+	liege="e_byzantium"
 }
 1074.1.1={
 	holder=90040

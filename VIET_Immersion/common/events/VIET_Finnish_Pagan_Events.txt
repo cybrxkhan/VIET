@@ -351,7 +351,7 @@ narrative_event = {
 			}
 		}
 		character_event = { id = finnish.6 days = 1 tooltip = "finnish.6a.tooltip" }
-		prestige = 1
+		prestige = 10
 		if = {
 			limit = {
 				trait = craven
@@ -377,7 +377,6 @@ narrative_event = {
 				}
 			}
 		}
-		prestige = 10
 	}
 	option = {
 		name = finnish.5.b #stay with men
@@ -647,30 +646,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -785,30 +760,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			owner = {
-				is_alive = yes
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_female = yes
-					is_female = no
-				}
-			}
-			factor = 0.01
-		}
-		modifier = {
-			owner = {
-				OR = {
-					is_ruler = yes
-					is_ruler = no
-				}
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {

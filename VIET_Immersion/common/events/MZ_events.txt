@@ -4,7 +4,7 @@
 
 #####Help in fighting the local bandits
 character_event = {
-	id = 1000094001
+	id = VIETnam.7
 	title = "EVTNAME1000094001"
 	desc = "EVTDESC1000094001"
 	picture = "GFX_evt_bandits"
@@ -37,7 +37,7 @@ character_event = {
 		
 		modifier = {
 			factor = 0.6
-			owner = { realm_learning = 30 }
+			realm_learning = 30
 		}
 	}
 	option = {
@@ -65,7 +65,7 @@ character_event = {
 
 #####Rebuild a local mosque?
 character_event = {
-	id = 1000094002
+	id = VIETnam.8
 	title = "EVTNAME1000094002"
 	desc = "EVTDESC1000094002"
 	picture = "GFX_evt_burning_house_muslim"
@@ -112,7 +112,7 @@ character_event = {
 #####Sedreh Pushi ritual - child's event - moved
 #####Sedreh Pushi ritual - fathher's event
 character_event = {
-	id = 1000094004
+	id = VIETnam.10
 	title = "EVTNAME1000094004"
 	desc = "EVTDESC1000094004"
 	picture = "GFX_evt_guardian"
@@ -182,7 +182,7 @@ character_event = {
 
 ####Rebuild Persepolis
 province_event = {
-	id = 1000094010
+	id = VIETnam.11
 	title = "EVTNAME1000094010"
 	desc = "EVTDESC1000094010"
 	picture = "GFX_persepolis_ruin"
@@ -191,35 +191,41 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA1000094010" # Rebuild just the royal palace.
-		wealth = -100
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
 			}
-		character_event = { id = 1000094011 days = 730}
+			wealth = -100
+			character_event = { id = VIETnam.12 days = 730 }
+		}
 	}
 
 	option = {
 		name = "EVTOPTB1000094010" # Rebuild the entire city.
-		wealth = -200
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
 			}
-		character_event = { id = 1000094011 days = 1460}
+			wealth = -200
+			character_event = { id = VIETnam.12 days = 1460 }
+		}
 	}
 
 	option = {
 		name = "EVTOPTC1000094010" # Make it the greatest city there ever was!
-		wealth = -300
-		capital_scope = {
-			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
+		owner = {
+			capital_scope = {
+				add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
 			}
-		character_event = { id = 1000094011 days = 2920}
+			wealth = -300
+			character_event = { id = VIETnam.12 days = 2920 }
+		}
 	}
 }
 
 ####Rebuild Persepolis 2
 character_event = {
-	id = 1000094011
+	id = VIETnam.12
 	title = "EVTNAME1000094011"
 	desc = "EVTDESC1000094011"
 	picture = "GFX_persepolis_built"

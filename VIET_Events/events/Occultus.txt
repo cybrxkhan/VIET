@@ -43,7 +43,7 @@ character_event = {
 		days = 1
 		modifier = { #Change modifier
 			factor = 1.5
-			trait = Deceitful #event chain should be most likely to fire for mystics
+			trait = deceitful #event chain should be most likely to fire for mystics
 		}
 		modifier = { #Change modifier
 			factor = 1.2

@@ -2268,6 +2268,8 @@ tribal_invasion = {
 				#		num_of_titles = 2
 				#	}
 				#}
+				
+				has_character_flag = tribal_inv_requirements_bypass # Required for PB's Formation of Rum
 			}
 		}
 		
@@ -2277,10 +2279,13 @@ tribal_invasion = {
 	}
 	
 	is_valid_title = {
-		FROM = {
-			any_realm_title = {
-				de_jure_liege_or_above = PREVPREV
+		OR = {
+			FROM = {
+				any_realm_title = {
+					de_jure_liege_or_above = PREVPREV
+				}
 			}
+			ROOT = { has_character_flag = tribal_inv_requirements_bypass } # Required for PB's Formation of Rum
 		}
 	}
 

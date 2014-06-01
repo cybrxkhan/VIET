@@ -62,7 +62,7 @@ plot_decisions = {
 						power = 1.1
 					}
 				}
-			}			
+			}
 			
 			modifier = {
 				factor = 0
@@ -89,8 +89,6 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
@@ -160,7 +158,7 @@ plot_decisions = {
 						power = 0.85
 					}
 				}
-			}					
+			}
 			
 			modifier = {
 				factor = 0.2
@@ -187,8 +185,6 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
@@ -260,7 +256,7 @@ plot_decisions = {
 						power = 0.85
 					}
 				}
-			}	
+			}
 			
 			modifier = {
 				factor = 0.2
@@ -271,7 +267,7 @@ plot_decisions = {
 						power = 1.1
 					}
 				}
-			}				
+			}
 			
 			modifier = {
 				factor = 0.5
@@ -298,8 +294,6 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
@@ -369,8 +363,8 @@ plot_decisions = {
 						power = 0.75
 					}
 				}
-			}			
-		
+			}
+			
 			modifier = {
 				factor = 0.2
 				NOT = { 
@@ -380,7 +374,7 @@ plot_decisions = {
 						power = 1.1
 					}
 				}
-			}			
+			}
 			
 			modifier = {
 				factor = 0.5 # Slow it down a bit
@@ -396,8 +390,6 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
 							}
 							AND = {
 								attacker = { character = PREV }
@@ -549,7 +541,7 @@ plot_decisions = {
 						}
 					}
 				}
-			}			
+			}
 			
 			modifier = {
 				factor = 0.5
@@ -572,7 +564,7 @@ plot_decisions = {
 					}
 				}
 				liege = { has_landed_title = e_hre }
-			}			
+			}
 			
 			modifier = {
 				factor = 0.1
@@ -584,7 +576,7 @@ plot_decisions = {
 					}
 				}
 				liege = { has_landed_title = e_hre }
-					}
+			}
 			
 			modifier = {
 				factor = 2.0
@@ -620,7 +612,7 @@ plot_decisions = {
 		
 		allow = {
 			liege = {
-			war = no
+				war = no
 			}
 			war = no
 			prisoner = no
@@ -688,8 +680,8 @@ plot_decisions = {
 						}
 					}
 				}
-			}	
-
+			}
+			
 			modifier = {
 				factor = 0
 				liege = {
@@ -708,7 +700,7 @@ plot_decisions = {
 						power = 0.75
 					}
 				}
-			}			
+			}
 			
 			modifier = {
 				factor = 0.2
@@ -765,8 +757,6 @@ plot_decisions = {
 								NOT = { using_cb = depose_liege }
 								NOT = { using_cb = overthrow_ruler }
 								NOT = { using_cb = overthrow_ruler_no_calls }
-								NOT = { using_cb = succession_on_liege }
-								NOT = { using_cb = other_succession_on_liege }
 								thirdparty_title_scope = {
 									ROOT = {
 										supported_claimant_title = {

@@ -2,8 +2,8 @@
 #
 # Childhood Flavor Events
 #
-# Set 1: 1000109317-1000109320
-# Attribute: 1000109501-1000109508
+# Set 1: VIETnam.144-VIETnam.147
+# Attribute: VIETnam.323-VIETnam.330
 #
 # Fired from on actions
 #
@@ -11,7 +11,7 @@
 
 # Character not being fed
 character_event = {
-	id = 1000109317
+	id = VIETnam.144
 	desc = "EVTDESC1000109317"
 	picture = GFX_evt_child_play
 	
@@ -94,7 +94,7 @@ character_event = {
 
 # Character hurt self while playing
 character_event = {
-	id = 1000109318
+	id = VIETnam.145
 	desc = "EVTDESC1000109318"
 	picture = GFX_evt_child_sword
 	
@@ -165,7 +165,7 @@ character_event = {
 
 # Character curious about something
 character_event = {
-	id = 1000109319
+	id = VIETnam.146
 	desc = "EVTDESC1000109319"
 	picture = GFX_evt_child_reading
 	
@@ -254,7 +254,7 @@ character_event = {
 
 # Character at feast
 character_event = {
-	id = 1000109320
+	id = VIETnam.147
 	desc = "EVTDESC1000109320"
 	picture = GFX_evt_feast
 	
@@ -352,7 +352,7 @@ character_event = {
 
 # Diplomacy gain - ward
 character_event = {
-	id = 1000109501
+	id = VIETnam.323
 	desc = "EVTDESC1000109501"
 	picture = GFX_evt_courtiers_talking
 	
@@ -443,7 +443,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109502
+					id = VIETnam.324
 				}
 			}
 		}
@@ -453,7 +453,7 @@ character_event = {
 
 # Diplomacy gain - guardian
 character_event = {
-	id = 1000109502
+	id = VIETnam.324
 	desc = "EVTDESC1000109502"
 	picture = GFX_evt_courtiers_talking
 	
@@ -474,7 +474,7 @@ character_event = {
 
 # stewardship gain - ward
 character_event = {
-	id = 1000109503
+	id = VIETnam.325
 	desc = "EVTDESC1000109503"
 	picture = GFX_evt_small_town
 	
@@ -564,7 +564,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109504
+					id = VIETnam.326
 				}
 			}
 		}
@@ -574,7 +574,7 @@ character_event = {
 
 # stewardship gain - guardian
 character_event = {
-	id = 1000109504
+	id = VIETnam.326
 	desc = "EVTDESC1000109504"
 	picture = GFX_evt_small_town
 	
@@ -595,7 +595,7 @@ character_event = {
 
 # intrigue gain - ward
 character_event = {
-	id = 1000109505
+	id = VIETnam.327
 	desc = "EVTDESC1000109505"
 	picture = GFX_evt_child_bully
 	
@@ -685,7 +685,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109506
+					id = VIETnam.328
 				}
 			}
 		}
@@ -695,7 +695,7 @@ character_event = {
 
 # intrigue gain - guardian
 character_event = {
-	id = 1000109506
+	id = VIETnam.328
 	desc = "EVTDESC1000109506"
 	picture = GFX_evt_child_bully
 	
@@ -716,7 +716,7 @@ character_event = {
 
 # learning gain - ward
 character_event = {
-	id = 1000109507
+	id = VIETnam.329
 	desc = "EVTDESC1000109507"
 	picture = GFX_evt_child_reading
 	
@@ -806,7 +806,7 @@ character_event = {
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
-					id = 1000109508
+					id = VIETnam.330
 				}
 			}
 		}
@@ -816,7 +816,7 @@ character_event = {
 
 # learning gain - guardian
 character_event = {
-	id = 1000109508
+	id = VIETnam.330
 	desc = "EVTDESC1000109508"
 	picture = GFX_evt_child_reading
 	

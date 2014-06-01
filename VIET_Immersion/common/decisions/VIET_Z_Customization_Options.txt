@@ -145,4 +145,15 @@ decisions = {
 			character_event = { id = customization.34 tooltip = customization.34 }
 		}
 	}
+	#Revive Silk Road
+	revive_silk_road_cheat = {
+		potential = {
+			has_character_flag = enable_customization_options
+			ai = no
+			NOT = { has_global_flag = customization_options_disabled_forever }
+		}
+		effect = {
+			character_event = { id = customization.49 tooltip = customization.49 }
+		}
+	}
 }

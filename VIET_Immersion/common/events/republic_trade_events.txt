@@ -4282,126 +4282,128 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_REP_413
-		custom_tooltip = EVTOPTA_REP_413_tooltip
-		hidden_tooltip = {
-			random_list = {
-				15 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = maghreb_arabic
-						}
-						new_character = {
-							add_spouse = PREV
-						}
-					}
-				}
-				15 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = levantine_arabic
-						}
-						new_character = {
-							add_spouse = PREV
+		custom_tooltip = {
+			text = EVTOPTA_REP_413_tooltip
+			hidden_tooltip = {
+				random_list = {
+					15 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = maghreb_arabic
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
 					}
-				}
-				15 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = andalusian_arabic
-						}
-						new_character = {
-							add_spouse = PREV
-						}
-					}
-				}
-				14 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = persian
-						}
-						new_character = {
-							add_spouse = PREV
+					15 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = levantine_arabic
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
 					}
-				}
-				14 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = turkish
-						}
-						new_character = {
-							add_spouse = PREV
-						}
-					}
-				}
-				11 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = manden
-						}
-						new_character = {
-							add_spouse = PREV
+					15 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = andalusian_arabic
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
 					}
-				}
-				11 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = ethiopian
-						}
-						new_character = {
-							add_spouse = PREV
+					14 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = persian
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
 					}
-				}
-				5 = {
-					FROM = {
-						create_character = {
-							random_traits = yes
-							dynasty = NONE
-							female = yes
-							age = 26
-							religion = FROM
-							culture = random
+					14 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = turkish
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
-						new_character = {
-							add_spouse = PREV
+					}
+					11 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = manden
+							}
+							new_character = {
+								add_spouse = PREV
+							}
+						}
+					}
+					11 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = ethiopian
+							}
+							new_character = {
+								add_spouse = PREV
+							}
+						}
+					}
+					5 = {
+						FROM = {
+							create_character = {
+								random_traits = yes
+								dynasty = NONE
+								female = yes
+								age = 26
+								religion = FROM
+								culture = random
+							}
+							new_character = {
+								add_spouse = PREV
+							}
 						}
 					}
 				}

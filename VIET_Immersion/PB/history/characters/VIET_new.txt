@@ -144,7 +144,7 @@
 	dynasty=1000061421
 	martial=10
 	religion="west_african_pagan"
-	culture="jolof"
+	culture="serer"
 	add_trait="hunter"
 	add_trait="diligent"
 	add_trait="patient"
@@ -186,7 +186,7 @@
 	dynasty=1000061421
 	martial=6
 	religion="west_african_pagan"
-	culture="jolof"
+	culture="serer"
 	add_trait="diligent"
 	add_trait="patient"
 	add_trait="brave"

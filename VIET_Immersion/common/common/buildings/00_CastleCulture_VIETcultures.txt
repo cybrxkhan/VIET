@@ -29,8 +29,8 @@ castle = {
 				OR = {
 					culture_group = sinic
 					culture_group = taiwanese
-					culture_group = papuan
-					culture_group = andamanese
+					culture_group = papuan_group
+					culture_group = andaman
 					culture_group = southeast_asian
 				}
 			}
@@ -39,8 +39,8 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		build_cost = 200
 		build_time = 730
-		heavy_cavalry = 4
-		heavy_cavalry_defensive = 0.08
+		knights = 4
+		knights_defensive = 0.08
 		light_infantry = 20
 		light_infantry_defensive = 0.08
 		pikemen = 20
@@ -58,8 +58,8 @@ castle = {
 				OR = {
 					culture_group = sinic
 					culture_group = taiwanese
-					culture_group = papuan
-					culture_group = andamanese
+					culture_group = papuan_group
+					culture_group = andaman
 					culture_group = southeast_asian
 				}
 			}
@@ -68,8 +68,8 @@ castle = {
 		upgrades_from = ca_culture_asian_1
 		build_cost = 300
 		build_time = 1095
-		heavy_cavalry = 8
-		heavy_cavalry_defensive = 0.08
+		knights = 8
+		knights_defensive = 0.08
 		light_infantry = 40
 		light_infantry_defensive = 0.08
 		pikemen = 40
@@ -87,8 +87,8 @@ castle = {
 				OR = {
 					culture_group = sinic
 					culture_group = taiwanese
-					culture_group = papuan
-					culture_group = andamanese
+					culture_group = papuan_group
+					culture_group = andaman
 					culture_group = southeast_asian
 				}
 			}
@@ -97,8 +97,8 @@ castle = {
 		upgrades_from = ca_culture_asian_2
 		build_cost = 400
 		build_time = 2190
-		heavy_cavalry = 12
-		heavy_cavalry_defensive = 0.08
+		knights = 12
+		knights_defensive = 0.08
 		light_infantry = 60
 		light_infantry_defensive = 0.08
 		pikemen = 60
@@ -116,8 +116,8 @@ castle = {
 				OR = {
 					culture_group = sinic
 					culture_group = taiwanese
-					culture_group = papuan
-					culture_group = andamanese
+					culture_group = papuan_group
+					culture_group = andaman
 					culture_group = southeast_asian
 				}
 			}
@@ -126,8 +126,8 @@ castle = {
 		upgrades_from = ca_culture_asian_3
 		build_cost = 500
 		build_time = 2190
-		heavy_cavalry = 16
-		heavy_cavalry_defensive = 0.08
+		knights = 16
+		knights_defensive = 0.08
 		light_infantry = 80
 		light_infantry_defensive = 0.08
 		pikemen = 80

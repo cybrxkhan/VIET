@@ -1103,7 +1103,7 @@
 	dynasty=1022221
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="attractive"
+	trait="fair"
 	trait="lustful"
 	trait="craven"
 	trait="arbitrary"

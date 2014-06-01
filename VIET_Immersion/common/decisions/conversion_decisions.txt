@@ -2302,8 +2302,8 @@ decisions = {
 		}
 	}
 	
-	# Pagans can convert to the Mazdakite faith if their wife or a concubine is a believer
-	convert_to_spouse_mazdakite = {
+	# Pagans can convert to the Mazdaki faith if their wife or a concubine is a believer
+	convert_to_spouse_mazdaki = {
 		potential = {
 			is_playable = yes
 			religion_group = pagan_group
@@ -2311,13 +2311,13 @@ decisions = {
 			NOT = { trait = zealous }
 			OR = {
 				any_spouse = {
-					religion = mazdakite
+					religion = mazdaki
 					hidden_tooltip = {
 						is_alive = yes
 					}
 				}
 				any_consort = {
-					religion = mazdakite
+					religion = mazdaki
 					hidden_tooltip = {
 						is_alive = yes
 					}
@@ -2350,7 +2350,7 @@ decisions = {
 				}
 			}		
 			
-			religion = mazdakite
+			religion = mazdaki
 			
 			hidden_tooltip = {
 				religion_authority = {
@@ -3176,7 +3176,7 @@ decisions = {
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagan
+					add_trait = sympathy_pagans
 				}
 			}
 			if = {
@@ -3185,7 +3185,7 @@ decisions = {
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagan
+					add_trait = sympathy_pagans
 				}
 			}		
 			
@@ -3554,7 +3554,7 @@ decisions = {
 	}
 
 	# Pagans can convert to the Bosnian faith if their wife or a concubine is a believer
-	convert_to_spouse_bosnian = {
+	convert_to_spouse_bosnian_religion = {
 		potential = {
 			is_playable = yes
 			religion_group = pagan_group
@@ -3821,8 +3821,8 @@ decisions = {
 		}
 	}
 
-	# Pagans can convert to the Messalnian faith if their wife or a concubine is a believer
-	convert_to_spouse_nasrani = {
+	# Pagans can convert to the Messalian faith if their wife or a concubine is a believer
+	convert_to_spouse_messalian = {
 		potential = {
 			is_playable = yes
 			religion_group = pagan_group
@@ -3869,7 +3869,7 @@ decisions = {
 				}
 			}		
 			
-			religion = nasrani
+			religion = messalian
 			
 			hidden_tooltip = {
 				religion_authority = {
@@ -4961,7 +4961,7 @@ decisions = {
 	}
 
 	# Pagans can convert to the Mandaean faith if their wife or a concubine is a believer
-	convert_to_spouse_mandean = {
+	convert_to_spouse_mandaean = {
 		potential = {
 			is_playable = yes
 			religion_group = pagan_group
@@ -5095,203 +5095,203 @@ decisions = {
 	}
 
 	# Pagans can convert to the Bon faith if their wife or a concubine is a believer
-	convert_to_spouse_bon = {
-		potential = {
-			is_playable = yes
-			religion_group = pagan_group
-			controls_religion = no
-			NOT = { trait = zealous }
-			OR = {
-				any_spouse = {
-					religion = bon
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-				any_consort = {
-					religion = bon
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-			}
-		}
+	# convert_to_spouse_bon = {
+		# potential = {
+			# is_playable = yes
+			# religion_group = pagan_group
+			# controls_religion = no
+			# NOT = { trait = zealous }
+			# OR = {
+				# any_spouse = {
+					# religion = bon
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+				# any_consort = {
+					# religion = bon
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+			# }
+		# }
 		
-		effect = {
-			prestige = -500
-			religion_authority = {
-				modifier = ruler_converted_from
-			}
+		# effect = {
+			# prestige = -500
+			# religion_authority = {
+				# modifier = ruler_converted_from
+			# }
 			
-			if = {
-				limit = {
-					trait = cynical
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_pagans
-				}
-			}
-			if = {
-				limit = {
-					NOT = { trait = cynical }
-				}
-				random = {
-					chance = 50
-					add_trait = sympathy_pagans
-				}
-			}		
+			# if = {
+				# limit = {
+					# trait = cynical
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_pagans
+				# }
+			# }
+			# if = {
+				# limit = {
+					# NOT = { trait = cynical }
+				# }
+				# random = {
+					# chance = 50
+					# add_trait = sympathy_pagans
+				# }
+			# }		
 			
-			religion = bon
+			# religion = bon
 			
-			hidden_tooltip = {
-				religion_authority = {
-					modifier = ruler_converted_to
-				}
-			}
-			piety = 200
-		}
+			# hidden_tooltip = {
+				# religion_authority = {
+					# modifier = ruler_converted_to
+				# }
+			# }
+			# piety = 200
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.1
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.1
+		# }
+	# }
 
 	# Pagans can convert to the Maitreyaism faith if their wife or a concubine is a believer
-	convert_to_spouse_maitreyaism = {
-		potential = {
-			is_playable = yes
-			religion_group = pagan_group
-			controls_religion = no
-			NOT = { trait = zealous }
-			OR = {
-				any_spouse = {
-					religion = maitreyaism
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-				any_consort = {
-					religion = maitreyaism
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-			}
-		}
+	# convert_to_spouse_maitreyaism = {
+		# potential = {
+			# is_playable = yes
+			# religion_group = pagan_group
+			# controls_religion = no
+			# NOT = { trait = zealous }
+			# OR = {
+				# any_spouse = {
+					# religion = maitreyaism
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+				# any_consort = {
+					# religion = maitreyaism
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+			# }
+		# }
 		
-		effect = {
-			prestige = -500
-			religion_authority = {
-				modifier = ruler_converted_from
-			}
+		# effect = {
+			# prestige = -500
+			# religion_authority = {
+				# modifier = ruler_converted_from
+			# }
 			
-			if = {
-				limit = {
-					trait = cynical
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_pagans
-				}
-			}
-			if = {
-				limit = {
-					NOT = { trait = cynical }
-				}
-				random = {
-					chance = 50
-					add_trait = sympathy_pagans
-				}
-			}		
+			# if = {
+				# limit = {
+					# trait = cynical
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_pagans
+				# }
+			# }
+			# if = {
+				# limit = {
+					# NOT = { trait = cynical }
+				# }
+				# random = {
+					# chance = 50
+					# add_trait = sympathy_pagans
+				# }
+			# }		
 			
-			religion = maitreyaism
+			# religion = maitreyaism
 			
-			hidden_tooltip = {
-				religion_authority = {
-					modifier = ruler_converted_to
-				}
-			}
-			piety = 200
-		}
+			# hidden_tooltip = {
+				# religion_authority = {
+					# modifier = ruler_converted_to
+				# }
+			# }
+			# piety = 200
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.1
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.1
+		# }
+	# }
 
 	# Pagans can convert to the Sammitiya faith if their wife or a concubine is a believer
-	convert_to_spouse_sammitiya = {
-		potential = {
-			is_playable = yes
-			religion_group = pagan_group
-			controls_religion = no
-			NOT = { trait = zealous }
-			OR = {
-				any_spouse = {
-					religion = sammitiya
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-				any_consort = {
-					religion = sammitiya
-					hidden_tooltip = {
-						is_alive = yes
-					}
-				}
-			}
-		}
+	# convert_to_spouse_sammitiya = {
+		# potential = {
+			# is_playable = yes
+			# religion_group = pagan_group
+			# controls_religion = no
+			# NOT = { trait = zealous }
+			# OR = {
+				# any_spouse = {
+					# religion = sammitiya
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+				# any_consort = {
+					# religion = sammitiya
+					# hidden_tooltip = {
+						# is_alive = yes
+					# }
+				# }
+			# }
+		# }
 		
-		effect = {
-			prestige = -500
-			religion_authority = {
-				modifier = ruler_converted_from
-			}
+		# effect = {
+			# prestige = -500
+			# religion_authority = {
+				# modifier = ruler_converted_from
+			# }
 			
-			if = {
-				limit = {
-					trait = cynical
-				}
-				random = {
-					chance = 60
-					add_trait = sympathy_pagans
-				}
-			}
-			if = {
-				limit = {
-					NOT = { trait = cynical }
-				}
-				random = {
-					chance = 50
-					add_trait = sympathy_pagans
-				}
-			}		
+			# if = {
+				# limit = {
+					# trait = cynical
+				# }
+				# random = {
+					# chance = 60
+					# add_trait = sympathy_pagans
+				# }
+			# }
+			# if = {
+				# limit = {
+					# NOT = { trait = cynical }
+				# }
+				# random = {
+					# chance = 50
+					# add_trait = sympathy_pagans
+				# }
+			# }		
 			
-			religion = sammitiya
+			# religion = sammitiya
 			
-			hidden_tooltip = {
-				religion_authority = {
-					modifier = ruler_converted_to
-				}
-			}
-			piety = 200
-		}
+			# hidden_tooltip = {
+				# religion_authority = {
+					# modifier = ruler_converted_to
+				# }
+			# }
+			# piety = 200
+		# }
 		
-		revoke_allowed = {
-			always = no
-		}
+		# revoke_allowed = {
+			# always = no
+		# }
 		
-		ai_will_do = {
-			factor = 0.1
-		}
-	}
+		# ai_will_do = {
+			# factor = 0.1
+		# }
+	# }
 }

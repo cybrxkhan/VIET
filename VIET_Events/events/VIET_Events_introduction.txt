@@ -17,12 +17,16 @@ narrative_event = {
 	
 	picture = "GFX_evt_indian_market"
 
-	trigger = {
-		NOT = { has_global_flag = project_balance }
-	}
+	#trigger = {
+	#	NOT = { has_global_flag = project_balance }
+	#}
 	
 	immediate = {
 		#set_global_flag = VIET_Events_On
+		random_list = {
+			95 = {}
+			5 = { set_global_flag = VIET_meteor_apocalypse_woohoo }
+		}
 	}
 	
 	option = {

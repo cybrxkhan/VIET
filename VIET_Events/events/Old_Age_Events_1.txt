@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: 1000109136-1000109140
+# Set 1: VIETnam.106-VIETnam.110
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Hunting in old age
 character_event = {
-	id = 1000109136
+	id = VIETnam.106
 	desc = "EVTDESC1000109136"
 	picture = GFX_evt_hunt
 	
@@ -148,7 +148,7 @@ character_event = {
 
 # Character complains about youth
 character_event = {
-	id = 1000109137
+	id = VIETnam.107
 	desc = "EVTDESC1000109137"
 	picture = GFX_evt_courtiers_talking
 	
@@ -245,7 +245,7 @@ character_event = {
 
 # Character worrying about the afterlife
 character_event = {
-	id = 1000109138
+	id = VIETnam.108
 	desc = "EVTDESC1000109138"
 	picture = GFX_evt_knight_kneeling
 	
@@ -352,7 +352,7 @@ character_event = {
 
 # Character doesn't understand new slang
 character_event = {
-	id = 1000109139
+	id = VIETnam.109
 	desc = "EVTDESC1000109139"
 	picture = GFX_evt_courtiers_talking
 	
@@ -456,7 +456,7 @@ character_event = {
 
 # Character feels weaker and weaker as they get older and oler
 character_event = {
-	id = 1000109140
+	id = VIETnam.110
 	desc = "EVTDESC1000109140"
 	picture = GFX_evt_tuscan_country
 	

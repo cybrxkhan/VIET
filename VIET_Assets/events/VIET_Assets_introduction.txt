@@ -51,45 +51,6 @@ narrative_event = {
 
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
 	}
 
 	option = {

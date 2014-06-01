@@ -514,25 +514,4 @@ de_jure_laws = {
 			set_investiture = any
 		}
 	}
-
-# CRUSADE TARGET FLAG
-	the_crusade_target = {
-		show_as_title = yes
-		group = the_crusade_target
-		
-		potential = {
-			always = no
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		ai_will_revoke = {
-			factor = 0
-		}
-		effect = {
-		}
-	}
 }

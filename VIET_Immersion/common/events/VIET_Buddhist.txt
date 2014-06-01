@@ -193,7 +193,7 @@ character_event = {
 	
 	option = { #I have decided
 		name = buddhist.2.a
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" }
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" }
 	}	
 	option = { #want to learn more first
 		name = buddhist.2.b
@@ -201,7 +201,7 @@ character_event = {
 			ai = no
 		}
 		set_character_flag = learn_more_buddhist_sects
-		character_event = { id = buddhist.5 tootip = "buddhist.5.tooltip" }
+		character_event = { id = buddhist.5 tooltip = "buddhist.5.tooltip" }
 	}
 }
 # Sect event chain start - had a sect before
@@ -214,7 +214,7 @@ character_event = {
 	
 	option = { #I have decided
 		name = buddhist.3.a
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" }
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" }
 	}	
 	option = { #want to learn more first
 		name = buddhist.3.b
@@ -222,7 +222,7 @@ character_event = {
 			ai = no
 		}
 		set_character_flag = learn_more_buddhist_sects
-		character_event = { id = buddhist.5 tootip = "buddhist.5.tooltip" }
+		character_event = { id = buddhist.5 tooltip = "buddhist.5.tooltip" }
 	}
 }
 
@@ -244,19 +244,19 @@ character_event = {
 	
 	option = {
 		name = buddhist.5.a
-		character_event = { id = buddhist.6 tootip = "buddhist.6.tooltip" } #Zen
+		character_event = { id = buddhist.6 tooltip = "buddhist.6.tooltip" } #Zen
 	}	
 	option = { 
 		name = buddhist.5.b
-		character_event = { id = buddhist.7 tootip = "buddhist.7.tooltip" } # Pure Land
+		character_event = { id = buddhist.7 tooltip = "buddhist.7.tooltip" } # Pure Land
 	}	
 	option = {
 		name = buddhist.5.c
-		character_event = { id = buddhist.8 tootip = "buddhist.8.tooltip" } # Lotus School
+		character_event = { id = buddhist.8 tooltip = "buddhist.8.tooltip" } # Lotus School
 	}	
 	option = {
 		name = buddhist.5.d
-		character_event = { id = buddhist.9 tootip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
 	}
 }
 
@@ -270,19 +270,19 @@ character_event = {
 	
 	option = {
 		name = buddhist.6.a
-		character_event = { id = buddhist.7 tootip = "buddhist.7.tooltip" } # Pure Land
+		character_event = { id = buddhist.7 tooltip = "buddhist.7.tooltip" } # Pure Land
 	}	
 	option = {
 		name = buddhist.6.b
-		character_event = { id = buddhist.8 tootip = "buddhist.8.tooltip" } # Lotus School
+		character_event = { id = buddhist.8 tooltip = "buddhist.8.tooltip" } # Lotus School
 	}	
 	option = {
 		name = buddhist.6.c
-		character_event = { id = buddhist.9 tootip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
 	}	
 	option = {
 		name = buddhist.6.d
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" } #done
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" } #done
 	}
 }
 
@@ -296,19 +296,19 @@ character_event = {
 	
 	option = {
 		name = buddhist.7.a
-		character_event = { id = buddhist.6 tootip = "buddhist.6.tooltip" } # Zen
+		character_event = { id = buddhist.6 tooltip = "buddhist.6.tooltip" } # Zen
 	}	
 	option = {
 		name = buddhist.7.b
-		character_event = { id = buddhist.8 tootip = "buddhist.8.tooltip" } # Lotus School
+		character_event = { id = buddhist.8 tooltip = "buddhist.8.tooltip" } # Lotus School
 	}	
 	option = {
 		name = buddhist.7.c
-		character_event = { id = buddhist.9 tootip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
 	}	
 	option = {
 		name = buddhist.7.d
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" } #done
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" } #done
 	}
 }
 
@@ -322,19 +322,19 @@ character_event = {
 	
 	option = {
 		name = buddhist.8.a
-		character_event = { id = buddhist.6 tootip = "buddhist.6.tooltip" } # Zen
+		character_event = { id = buddhist.6 tooltip = "buddhist.6.tooltip" } # Zen
 	}	
 	option = {
 		name = buddhist.8.b
-		character_event = { id = buddhist.7 tootip = "buddhist.7.tooltip" } # Pure Land
+		character_event = { id = buddhist.7 tooltip = "buddhist.7.tooltip" } # Pure Land
 	}	
 	option = {
 		name = buddhist.8.c
-		character_event = { id = buddhist.9 tootip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
 	}	
 	option = {
 		name = buddhist.8.d
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" } #done
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" } #done
 	}
 }
 
@@ -348,19 +348,19 @@ character_event = {
 	
 	option = {
 		name = buddhist.9.a
-		character_event = { id = buddhist.6 tootip = "buddhist.6.tooltip" } # Zen
+		character_event = { id = buddhist.6 tooltip = "buddhist.6.tooltip" } # Zen
 	}	
 	option = {
 		name = buddhist.9.b
-		character_event = { id = buddhist.7 tootip = "buddhist.7.tooltip" } # Pure Land
+		character_event = { id = buddhist.7 tooltip = "buddhist.7.tooltip" } # Pure Land
 	}	
 	option = {
 		name = buddhist.9.c
-		character_event = { id = buddhist.8 tootip = "buddhist.9.tooltip" } # Lotus School
+		character_event = { id = buddhist.8 tooltip = "buddhist.9.tooltip" } # Lotus School
 	}	
 	option = {
 		name = buddhist.9.d
-		character_event = { id = buddhist.10 tootip = "buddhist.10.tooltip" } #done
+		character_event = { id = buddhist.10 tooltip = "buddhist.10.tooltip" } #done
 	}
 }
 
@@ -843,8 +843,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_whats_buddha } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -852,8 +854,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_chair_exam } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -861,8 +865,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_emptiness_anger } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -870,8 +876,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_master_knows_not } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -879,8 +887,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_lotus_position } 
 			}
 			hidden_tooltip = {
-				94 = { }
-				6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				random_list = {
+					94 = { }
+					6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				}
 			}
 		}
 		#Normal events
@@ -960,8 +970,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_whats_buddha } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -969,8 +981,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_chair_exam } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -978,8 +992,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_emptiness_anger } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -987,8 +1003,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_master_knows_not } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -996,8 +1014,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_lotus_position } 
 			}
 			hidden_tooltip = {
-				94 = { }
-				6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				random_list = {
+					94 = { }
+					6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				}
 			}
 		}
 		custom_tooltip = {
@@ -1044,8 +1064,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_whats_buddha } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1053,8 +1075,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_chair_exam } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1062,8 +1086,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_emptiness_anger } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1071,8 +1097,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_master_knows_not } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1080,8 +1108,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_lotus_position } 
 			}
 			hidden_tooltip = {
-				94 = { }
-				6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				random_list = {
+					94 = { }
+					6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				}
 			}
 		}
 		hidden_tooltip = { #Simple Meditation events - likely to occur
@@ -1141,8 +1171,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_whats_buddha } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1150,8 +1182,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_chair_exam } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1159,8 +1193,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_emptiness_anger } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1168,8 +1204,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_master_knows_not } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1177,8 +1215,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_lotus_position } 
 			}
 			hidden_tooltip = {
-				94 = { }
-				6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				random_list = {
+					94 = { }
+					6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				}
 			}
 		}
 		hidden_tooltip = { #Simple Meditation events - likely to occur
@@ -1238,8 +1278,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_whats_buddha } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.20 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1247,8 +1289,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_chair_exam } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.21 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1256,8 +1300,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_emptiness_anger } 
 			}
 			hidden_tooltip = {
-				96 = { }
-				4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				random_list = {
+					96 = { }
+					4 = { character_event = { id = meditation.22 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1265,8 +1311,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_master_knows_not } 
 			}
 			hidden_tooltip = {
-				97 = { }
-				3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				random_list = {
+					97 = { }
+					3 = { character_event = { id = meditation.23 days = 45 random = 10 } }
+				}
 			}
 		}
 		if = {
@@ -1274,8 +1322,10 @@ character_event = {
 				NOT = { has_character_flag = retreat_lotus_position } 
 			}
 			hidden_tooltip = {
-				94 = { }
-				6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				random_list = {
+					94 = { }
+					6 = { character_event = { id = meditation.24 days = 45 random = 10 } }
+				}
 			}
 		}
 		hidden_tooltip = { #Simple Meditation events - likely to occur

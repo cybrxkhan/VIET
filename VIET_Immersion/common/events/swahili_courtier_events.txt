@@ -1,9 +1,9 @@
 #SWAHILI COURTIERS - Credits to jordarkelf for original Jewish spawn events (from which these events' code are based on), all other events by cybrxkhan
-#Spawn Hindu courtiers and their wives 1000109207 - 1000109209
+#Spawn Hindu courtiers and their wives VIETnam.124 - 1000109209
 
 #Swahili
 character_event = {
-	id = 1000109207
+	id = VIETnam.124
 	desc = "EVTDESC1000109207"
 	picture = GFX_evt_african_savanna
 	
@@ -21,6 +21,12 @@ character_event = {
 				any_demesne_province = {
 					port = yes
 				}
+			}
+		}
+		NOT = {
+			any_courtier = {
+				culture = swahili
+				has_character_flag = VIET_spawned_courtier
 			}
 		}
 		NOT = {
@@ -74,7 +80,7 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		years = 30
+		months = 1300
 
 		modifier = {
 			factor = 4
@@ -155,6 +161,7 @@ character_event = {
 			}
 		}
 		new_character = {
+			set_character_flag = VIET_spawned_courtier
 			opinion = {
 				modifier = opinion_patron
 				who = ROOT
@@ -180,6 +187,7 @@ character_event = {
 			}
 		}
 		new_character = {
+			set_character_flag = VIET_spawned_courtier
 			opinion = {
 				modifier = opinion_patron
 				who = ROOT
@@ -208,6 +216,7 @@ character_event = {
 					}
 				}
 				new_character = {
+					set_character_flag = VIET_spawned_courtier
 					opinion = {
 						modifier = opinion_patron
 						who = ROOT
@@ -268,6 +277,7 @@ character_event = {
 					}
 				}
 				new_character = {
+					set_character_flag = VIET_spawned_courtier
 					opinion = {
 						modifier = opinion_patron
 						who = ROOT
@@ -289,163 +299,4 @@ character_event = {
 	
 }
 
-#Swahili Courtier about to get married
-character_event = {
-	id = 1000109208
-	desc = "EVTDESC1000109208"
-	picture = GFX_evt_african_savanna
-	
-	trigger = {
-		culture = swahili
-		is_married = no
-		is_female = no
-		is_adult = yes
-		NOT = { age = 45 }
-		is_ruler = no
-		liege = {
-			NOT = {
-				culture = swahili
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		years = 20
-		
-		modifier = {
-			factor = 0.7
-			ROOT = {
-				age = 16
-				NOT = { age = 25 }
-			}
-		}
-		
-		modifier = {
-			factor = 0.8
-			ROOT = {
-				age = 25
-				NOT = { age = 32 }
-			}
-		}
-		
-		modifier = {
-			factor = 1.2
-			ROOT = {
-				age = 32
-				NOT = { age = 40 }
-			}
-		}
-		
-		modifier = {
-			factor = 1.5
-			ROOT = {
-				age = 40
-			}
-		}
-		
-		modifier = {
-			factor = 10
-			ROOT = { trait = celibate }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = lustful }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = fair }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = genius }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = quick }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = zealous }
-		}
-
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = charitable }
-		}	
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = greedy }
-		}
-		
-		modifier = {
-			factor = 0.9
-			ROOT = { trait = gregarious }
-		}	
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = cynical }
-		}
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = ugly }
-		}	
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = chaste }
-		}
-				
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = homosexual }
-		}
-		
-		modifier = {
-			factor = 1.1
-			ROOT = { trait = shy }
-		}			
-	}
-	
-	option = {
-		name = "EVTOPTA1000109208"  # inform liege
-		liege = {
-			character_event = { id = 1000109209 }
-		}
-	}
-	
-}
-
-#liege informed of Swahili courtier's marriage
-character_event = {
-	id = 1000109209
-	desc = "EVTDESC1000109209"
-	picture = GFX_evt_african_savanna
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA1000109209" #Swahili
-		create_character = {
-			female = yes
-			random_traits = yes
-			dynasty = random
-			religion = sunni
-			culture = swahili
-		}
-		new_character = {
-			add_spouse = FROM
-		}
-		FROM = {
-			prestige = 10
-			piety = 10
-		}
-	}
-}
+#1000109208-1000109209 removed

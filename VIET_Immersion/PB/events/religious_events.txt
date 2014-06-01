@@ -3530,8 +3530,8 @@ character_event = {
 			modifier = {
 				factor = 5
 				OR = {
-					religion = cuman
-					religion = pecheneg
+					culture = cuman
+					culture = pecheneg
 				}
 				year = 930
 				NOT = { year = 1220 }
@@ -3572,15 +3572,6 @@ character_event = {
 				factor = 10
 				any_war = {
 					using_cb = religious
-					attacker = {
-						character = ROOT
-					}
-				}
-			}
-			modifier = {
-				factor = 10
-				any_war = {
-					using_cb = pagan_holy_war
 					attacker = {
 						character = ROOT
 					}
@@ -5231,6 +5222,12 @@ character_event = {
 				religion_group = jewish_group
 			}
 			add_trait = sympathy_judaism
+		}
+		if = {
+			limit = {
+				religion_group = gnostic_group
+			}
+			add_trait = sympathy_gnostic
 		}
 		
 		religion = FROMFROM

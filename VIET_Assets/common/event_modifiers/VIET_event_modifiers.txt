@@ -409,3 +409,30 @@ good_time_obby_oss = {
 }
 ultima_silliness_screw_EA = {
 }
+VIET_li_bai_poetry = {
+	diplomacy = 1
+	icon = 39
+}
+VIET_deep_contemplation = {
+	monthly_character_piety = 0.2
+	icon = 8
+}
+VIET_impressed_ruler = {
+	diplomacy = 1
+	intrigue = -1
+	learning = 1
+	icon = 7
+}
+### HOLY ORDERS
+expelled_manichean_holy_order = {
+	icon = 35
+}
+expelled_yazidi_holy_order = {
+	icon = 35
+}
+expelled_ibadi_holy_order = {
+	icon = 35
+}
+expelled_east_african_pagan_holy_order = {
+	icon = 35
+}

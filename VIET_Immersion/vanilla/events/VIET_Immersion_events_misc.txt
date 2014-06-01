@@ -2,7 +2,7 @@ namespace = VIETmisc
 
 #Become old
 character_event = {
-	id = 1000109000
+	id = VIETnam.13
 	desc = "EVTDESC1000109000"
 	picture = "GFX_evt_pale_rider"
 	
@@ -272,7 +272,7 @@ character_event = {
 
 #Character begins to push claim on Byzantine throne through decision
 character_event = {
-	id = 1000109019
+	id = VIETnam.20
 	desc = "EVTDESC1000109019"
 	picture = "GFX_evt_emissary"
 	
@@ -287,7 +287,7 @@ character_event = {
 
 #Character has completed seizing the throne for him/herself
 character_event = {
-	id = 1000109044
+	id = VIETnam.30
 	desc = "EVTDESC1000109044"
 	picture = "GFX_evt_emissary"
 	
@@ -315,7 +315,7 @@ character_event = {
 
 # Claim by battle on ERE (credits to ChildeR)
 character_event = {
-	id = 1000109045
+	id = VIETnam.31
 	desc = "EVTDESC1000109045"
 	picture = "GFX_evt_battle"
 	border = GFX_event_normal_frame_war
@@ -829,7 +829,7 @@ character_event = {
 
 #Become Young (if not young before)
 character_event = {
-	id = 1000109205
+	id = VIETnam.122
 	desc = "EVTDESC1000109205"
 	picture = "GFX_evt_child_play"
 	
@@ -843,17 +843,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = no
-				is_female = yes
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -867,7 +856,7 @@ character_event = {
 
 #Lose Youth
 character_event = {
-	id = 1000109206
+	id = VIETnam.123
 	desc = "EVTDESC1000109206"
 	picture = "GFX_evt_child_play"
 	
@@ -973,52 +962,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = muslim
-				NOT = { religion_group = muslim }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				religion_group = christian
-				NOT = { religion_group = christian }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				culture_group = byzantine
-				NOT = { culture_group = byzantine }
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				has_ambition = obj_have_a_son
-				has_ambition = obj_have_a_daughter
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1048,24 +991,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = {
@@ -1195,24 +1120,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = { #Convert
@@ -1243,7 +1150,7 @@ character_event = {
 		religion = FROM
 		if = {
 			limit = {
-				culture_group = judaic
+				culture_group = israelite
 			}
 			culture = FROM
 		}
@@ -1289,24 +1196,6 @@ character_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			is_alive = yes
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_ruler = yes
-				is_ruler = no
-			}
-			factor = 0.01
-		}
-		modifier = {
-			OR = {
-				is_female = yes
-				is_female = no
-			}
-			factor = 0.01
-		}
 	}
 	
 	option = { #Convert
@@ -1337,7 +1226,7 @@ character_event = {
 		religion = FROM
 		if = {
 			limit = {
-				culture_group = judaic
+				culture_group = israelite
 			}
 			culture = FROM
 		}
@@ -1419,14 +1308,14 @@ character_event = {
 	option = {
 		name = "VIETmisc.8.b"
 		trigger = {
-			religion_group = vedic
+			religion_group = indian_group
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
 	option = {
 		name = "VIETmisc.8.c"
 		trigger = {
-			NOT = { religion_group = vedic }
+			NOT = { religion_group = indian_group }
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
@@ -1496,14 +1385,14 @@ character_event = {
 	option = {
 		name = "VIETmisc.9.b"
 		trigger = {
-			religion_group = eastern_group
+			religion_group = indian_group
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
 	option = {
 		name = "VIETmisc.9.c"
 		trigger = {
-			NOT = { religion_group = eastern_group }
+			NOT = { religion_group = indian_group }
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
@@ -1550,7 +1439,7 @@ character_event = {
 			factor = 0.75
 			OR = {
 				has_global_flag = jewish_homeland_restored
-				is_title_active = d_kohen_gadol
+				is_title_active = d_jewish
 			}
 		}
 	}
@@ -1771,14 +1660,14 @@ character_event = {
 	option = {
 		name = "VIETmisc.8.b"
 		trigger = {
-			religion_group = vedic
+			religion_group = indian_group
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
 	option = {
 		name = "VIETmisc.8.c"
 		trigger = {
-			NOT = { religion_group = vedic }
+			NOT = { religion_group = indian_group }
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -1848,14 +1737,14 @@ character_event = {
 	option = {
 		name = "VIETmisc.9.b"
 		trigger = {
-			religion_group = eastern_group
+			religion_group = indian_group
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
 	option = {
 		name = "VIETmisc.9.c"
 		trigger = {
-			NOT = { religion_group = eastern_group }
+			NOT = { religion_group = indian_group }
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -1902,7 +1791,7 @@ character_event = {
 			factor = 0.75
 			OR = {
 				has_global_flag = jewish_homeland_restored
-				is_title_active = d_kohen_gadol
+				is_title_active = d_jewish
 			}
 		}
 	}
@@ -2658,7 +2547,7 @@ character_event = {
 				}
 			}
 		}
-		death = { death_reason = DEATH_BY_NATURE }
+		death = { death_reason = death_natural }
 	}
 }
 

@@ -1,6 +1,6 @@
 1205.1.1=
 {
-de_jure_liege="e_trebizond"
-add_law = succ_primogeniture
-add_law = cognatic_succession
+	de_jure_liege="e_trebizond"
+	law = succ_primogeniture
+	law = cognatic_succession
 }

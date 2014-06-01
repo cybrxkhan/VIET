@@ -1,8 +1,8 @@
-#1000109047 <--
+#VIETnam.32 <--
 #Events when a siege is finished
 
 character_event = {
-	id = 1000109047
+	id = VIETnam.32
 	desc = "EVTDESC1000109047"
 	picture = GFX_evt_siege
 	border = GFX_event_normal_frame_war
@@ -12,7 +12,7 @@ character_event = {
 	trigger = {
 		NOT = {
 			FROM = {
-				owner = ROOT
+				holder = ROOT
 			}
 		}
 	}

@@ -144,7 +144,7 @@ character_event = {
 	
 	trigger = {
 		is_adult = yes
-		culture_group = judaic
+		culture_group = israelite
 		NOT = { religion_group = jewish_group }
 		NOT = { has_character_flag = no_more_jewish_event }
 		OR = {
@@ -219,7 +219,7 @@ character_event = {
 		}
 		IF = { 
 			limit = { culture = caucasian_jewish }
-			culture = geogrian
+			culture = georgian
 		}
 		IF = { 
 			limit = { culture = indian_jewish }
@@ -278,7 +278,7 @@ character_event = {
 		random_list = {
 			50 = { add_trait = blinded }
 			30 = { add_trait = incapable }
-			20 = { death = { death_reason = trait } }
+			20 = { death = { death_reason = death_trait } }
 		}
 	}
 }
@@ -320,7 +320,7 @@ character_event = {
 			40 = { add_trait = blinded }
 			30 = { add_trait = deaf }
 			20 = { add_trait = incapable }
-			10 = { death = { death_reason = trait } }
+			10 = { death = { death_reason = death_trait } }
 		}
 	}
 }

@@ -655,8 +655,9 @@ character_event = {
 	option = {
 		name = CURSES
 		random_list = {
-			75 = { add_trait = incapable }
+			50 = { add_trait = incapable }
 			25 = { add_trait = blinded }
+			25 = { add_trait = deaf }
 		}
 	}
 }

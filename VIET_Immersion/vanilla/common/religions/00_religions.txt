@@ -543,6 +543,7 @@ muslim = {
 	graphical_culture = muslimgfx
 	crusade_cb = crusade
 	playable = yes
+	hostile_within_group = yes
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 1 # try to convert if ai_zeal is high
@@ -1173,7 +1174,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -1239,7 +1240,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -1475,7 +1476,7 @@ pagan_group = {
 	aztec_reformed = {
 		graphical_culture = mesoamericangfx
 		
-		secondary_event_pictures = aztec_pagan
+		secondary_event_pictures = aztec
 		
 		icon = 17
 		
@@ -1709,7 +1710,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -1779,7 +1780,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -1878,7 +1879,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -1950,7 +1951,7 @@ pagan_group = {
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
-		intermarry = qadiri
+		intermarry = qalandari
 		intermarry = hurufi
 		intermarry = alawite
 		intermarry = yarsani
@@ -2051,10 +2052,7 @@ zoroastrian_group = {
 		heresy_icon = 12
 		color = { 0.65 0.85 0.15 }
 		parent = zoroastrian
-		priests_can_marry = yes	
-
-		parent = zoroastrian
-		priests_can_marry = yes	
+		priests_can_marry = yes
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes
@@ -2077,10 +2075,7 @@ zoroastrian_group = {
 		heresy_icon = 12
 		color = { 0.7 0.7 0.4 }
 		parent = zoroastrian
-		priests_can_marry = yes	
-
-		parent = zoroastrian
-		priests_can_marry = yes	
+		priests_can_marry = yes
 		
 		can_grant_divorce = yes
 		can_call_crusade = yes
@@ -2093,7 +2088,7 @@ zoroastrian_group = {
 		bs_marriage = yes
 		
 		religious_clothing_head = 5
-		religious_clothing_priest = 5		
+		religious_clothing_priest = 5
 	}
 }
 
@@ -2213,6 +2208,7 @@ indian_group = {
 	graphical_culture = indiangfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
 	
 	ai_convert_same_group = 1 # try to convert if ai_zeal is high
 	ai_convert_other_group = 2	# always try to convert

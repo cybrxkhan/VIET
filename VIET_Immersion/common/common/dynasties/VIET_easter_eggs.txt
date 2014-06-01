@@ -41,15 +41,15 @@
 }
 1000091906 = {
 	name="Le Chevalier"
-	culture = french
+	culture = frankish
 }
 1000091907 = {
 	name="Hennessey"
-	culture = french
+	culture = frankish
 }
 1000091920 = {
 	name="Lamperougue"
-	culture = french
+	culture = frankish
 }
 1000091921 = {
 	name="Statdfeld"
@@ -73,7 +73,7 @@
 }
 1000091926 = {
 	name="Fenette"
-	culture = french
+	culture = frankish
 }
 1000091927 = {
 	name="Ashford"

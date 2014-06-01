@@ -711,6 +711,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -737,6 +738,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
@@ -767,6 +769,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { 
@@ -800,6 +803,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { 
@@ -833,6 +837,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { 
@@ -866,6 +871,7 @@ castle = {
 			OR = {
 				culture_group = altaic
 				culture_group = iranian
+				culture_group = serindian
 			}
 		}
 		trigger = { 

@@ -2,7 +2,7 @@
 #
 # Old Age Events (for old characters)
 #
-# Set 1: 1000109311-1000109313
+# Set 1: VIETnam.138-VIETnam.140
 #
 # Fired from on actions
 #
@@ -10,7 +10,7 @@
 
 # Baby kicking in stomach
 character_event = {
-	id = 1000109311
+	id = VIETnam.138
 	desc = "EVTDESC1000109311"
 	picture = GFX_evt_pregnancy
 	
@@ -85,11 +85,9 @@ character_event = {
 
 # Character feels sick from pregnancy
 character_event = {
-	id = 1000109312
+	id = VIETnam.139
 	desc = "EVTDESC1000109312"
 	picture = GFX_evt_pregnancy
-	
-	is_triggered_only = yes
 	
 	is_triggered_only = yes
 	
@@ -171,11 +169,9 @@ character_event = {
 
 # Character's child asks whether sibling will be boy or girl
 character_event = {
-	id = 1000109313
+	id = VIETnam.140
 	desc = "EVTDESC1000109313"
 	picture = GFX_evt_pregnancy
-	
-	is_triggered_only = yes
 	
 	is_triggered_only = yes
 	
@@ -273,8 +269,10 @@ character_event = {
 		name = "EVTOPTA1000109313"
 		prestige = 5
 		random_child = {
-			is_adult = no
-			age = 2			
+			limit = {
+				is_adult = no
+				age = 2
+			}
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT
@@ -287,8 +285,10 @@ character_event = {
 		name = "EVTOPTB1000109313"
 		piety = 5
 		random_child = {
-			is_adult = no
-			age = 2			
+			limit = {
+				is_adult = no
+				age = 2
+			}
 			opinion = {
 				modifier = opinion_happy
 				who = ROOT

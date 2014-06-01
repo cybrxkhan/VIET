@@ -1509,7 +1509,7 @@
 	}
 	1078.3.31={
 		effect = {
-			remove_weak_claim = e_byzantium
+			remove_claim = e_byzantium
 		}
 	}
 	1081.4.1={

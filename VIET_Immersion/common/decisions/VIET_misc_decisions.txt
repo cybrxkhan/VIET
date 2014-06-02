@@ -755,9 +755,6 @@ decisions = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				factor = 0.2
-			}
-			modifier = {
 				factor = 0
 				any_courtier = {
 					is_consort = yes
@@ -774,10 +771,6 @@ decisions = {
 			modifier = {
 				factor = 2
 				trait = gregarious
-			}
-			modifier = {
-				factor = 0.5
-				trait = chaste
 			}
 			modifier = {
 				factor = 1

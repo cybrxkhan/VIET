@@ -116,7 +116,7 @@ decisions = {
 			
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 1 #Decrease chance AI will do this
 			}
@@ -497,7 +497,7 @@ decisions = {
 			
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 1 #Decrease chance AI will do this
 			}
@@ -615,7 +615,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 0
 				NOT = { scaled_wealth = 0.6 }
@@ -753,7 +753,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 0.2
 			}
@@ -978,7 +978,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -1014,7 +1014,7 @@ decisions = {
 			narrative_event = { id = ottoman.1 tooltip = ottoman.1.tt }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	

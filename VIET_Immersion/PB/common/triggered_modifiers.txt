@@ -21,39 +21,6 @@ negative_money = {
 	active = no
 }
 
-# Ethiopian Defense
-ethiopian_defense = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		culture_group = east_african
-		religion_group = christian
-		any_war = {
-			defender = {
-				character = ROOT
-			}
-			attacker = {
-				religion_group = muslim
-			}
-		}
-		NOT = {
-			any_war = {
-				attacker = {
-					character = ROOT
-				}
-			}
-		}
-	}
-	
-	icon = 13
-
-	land_morale = 0.3
-	land_organisation = 0.3
-
-}
-
 #Defending Against Holy War
 religious_defense = {
 	potential = {
@@ -68,13 +35,7 @@ religious_defense = {
 				character = ROOT
 			}
 		}
-		NOT = {
-			any_war = {
-				attacker = {
-					character = ROOT
-				}
-			}
-		}
+		is_primary_war_attacker = no
 	}
 	
 	icon = 16
@@ -95,86 +56,17 @@ disorganized = {
 
 	trigger = {
 		has_landed_title = e_byzantium
-		NOT = { year = 1075 }
+		NOT = { year = 1081 }
 		NOT = { has_global_flag = 867_start }
 	}
 	
 	icon = 34
 	
-	land_morale = -0.2
+	castle_vassal_max_levy = -0.1
+	temple_vassal_max_levy = -0.1
+	city_vassal_max_levy = -0.1
+	land_morale = -0.25
 	land_organisation = -0.2
-}
-
-#Muslim Merchant Republic
-muslim_merchant_republic = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		religion_group = muslim
-		OR = {
-			is_patrician = yes
-			is_merchant_republic = yes
-		}
-	}
-	
-	global_tax_modifier = -0.4
-}
-
-#Low decandence
-low_decadence = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		is_ruler = yes
-		religion_group = muslim
-		NOT = { decadence = 10 }
-	}
-	
-	icon = 16
-	
-	city_vassal_max_levy = 0.05
-	castle_vassal_max_levy = 0.05
-	temple_vassal_max_levy = 0.05
-	general_opinion = 10
-}
-
-#Medium decadence
-medium_decadence = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		is_ruler = yes
-		religion_group = muslim
-		decadence = 50
-		NOT = { decadence = 75 }
-	}
-	
-	icon = 34
-	
-	general_opinion = -10
-}
-
-#High decadence
-high_decadence = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		is_ruler = yes
-		religion_group = muslim
-		decadence = 75
-	}
-	
-	icon = 34
-	
-	general_opinion = -20
 }
 
 #Decentralized HRE
@@ -238,6 +130,94 @@ theme_system_2 = {
 	castle_vassal_tax_modifier = -0.025
 	temple_vassal_tax_modifier = -0.05
 	city_vassal_tax_modifier = -0.075
+}
+
+#Decadence triggered modifiers aren't working as intended anymore
+
+##Low decandence
+# low_decadence = {
+	# potential = {
+		# is_ruler = yes
+	# }
+	
+	# trigger = {
+		# religion_group = muslim
+		# NOT = { decadence = 10 }
+	# }
+	
+	# icon = 16
+	
+	# city_vassal_max_levy = 0.05
+	# castle_vassal_max_levy = 0.05
+	# temple_vassal_max_levy = 0.05
+	# general_opinion = 10
+# }
+
+##Medium decadence
+# medium_decadence = {
+	# potential = {
+		# is_ruler = yes
+	# }
+	
+	# trigger = {
+		# religion_group = muslim
+		# decadence = 50
+		# NOT = { decadence = 75 }
+	# }
+	
+	# icon = 34
+	
+	# general_opinion = -10
+# }
+
+##High decadence
+# high_decadence = {
+	# potential = {
+		# is_ruler = yes
+	# }
+	
+	# trigger = {
+		# religion_group = muslim
+		# decadence = 75
+	# }
+	
+	# icon = 34
+	
+	# general_opinion = -20
+# }
+
+
+# Ethiopian Defense
+ethiopian_defense = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		culture_group = east_african
+		religion_group = christian
+		any_war = {
+			defender = {
+				character = ROOT
+			}
+			attacker = {
+				religion_group = muslim
+			}
+		}
+		NOT = {
+			any_war = {
+				attacker = {
+					character = ROOT
+				}
+			}
+		}
+	}
+	
+	icon = 13
+
+	land_morale = 0.3
+	land_organisation = 0.3
+
 }
 
 #Fatimid Chaos
@@ -697,6 +677,21 @@ zen_supporter = {
 	learning = 1
 	build_cost_modifier = -0.20
 	build_time_modifier = -0.20
+	icon = 2
+}
+yogacara_supporter = {
+	potential = {
+		religion = buddhist
+		trait = mahayana_buddhist
+		primary_title = { higher_tier_than = BARON }
+	}
+	
+	trigger = {
+		has_character_flag = yogacara_flag
+		religion = buddhist
+	}
+	learning = 2
+	monthly_character_piety = 0.25
 	icon = 2
 }
 buddhist_zeal = {

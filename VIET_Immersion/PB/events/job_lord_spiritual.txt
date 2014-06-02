@@ -456,7 +456,7 @@ character_event = {
 			religion_group = pagan_group
 			is_reformed_religion = no
 		}
-		
+
 		# PB standard employer opinion factors
 		modifier = {
 			factor = 1.09
@@ -2228,14 +2228,14 @@ character_event = {
 			religion_group = jewish_group
 			religion_group = gnostic_group
 		}
-		liege = { 
+		liege = {
 			is_heretic = no
 			OR = {
 				religion_group = christian
 				religion_group = muslim
 				religion_group = jewish_group
 				religion_group = gnostic_group
-		}
+			}
 		}
 	}
 	

@@ -146,6 +146,8 @@ zen_supporter;Patron of Zen;;;;;;;;;;;;;x
 zen_supporter_desc;This Buddhist lord supports the Zen sect of Buddhism.;;;;;;;;;;;;;x
 vajrayana_supporter;Patron of Vajrayana;;;;;;;;;;;;;x
 vajrayana_supporter_desc;This Buddhist lord supports the Vajrayana sect of Buddhism.;;;;;;;;;;;;;x
+yogacara_supporter;Patron of Yogacara;;;;;;;;;;;;;x
+yogacara_supporter_desc;This Buddhist lord supports the Yogacara sect of Buddhism.;;;;;;;;;;;;;x
 spiritually_insincere_buddhist;Spiritually Insincere;;;;;;;;;;;;;x
 spiritually_insincere_buddhist_desc;This lord's decision to shift support from one major Buddhist sect to another has been seen as insecure and questionable by many within his/her realm, and his/her reputation suffers as a result.;;;;;;;;;;;;;x
 buddhist.2.desc;As a new Buddhist ruler, it is important that you maintain good relations with the Sangha, or the Buddhist community, by sponsoring one of the major sects of Buddhism in your realm. There are several prominent ones to choose from.;;;;;;;;;;;;;x
@@ -164,27 +166,27 @@ buddhist.5.desc;You gather a number of scholars, priests, and other learned men,
 buddhist.5.a;Zen;;;;;;;;;;;;;x
 buddhist.5.b;Pure Land;;;;;;;;;;;;;x
 buddhist.5.c;Lotus School;;;;;;;;;;;;;x
-buddhist.5.d;Vajrayana;;;;;;;;;;;;;x
+buddhist.5.d;Yogacara;;;;;;;;;;;;;x
 buddhist.6.tooltip;Learn about Zen;;;;;;;;;;;;;x
 buddhist.6.desc;You learn more about Zen, a sect known for the puzzling and unusual methods it uses to teach practitioners and monks the way towards Enlightenment. (Sponsoring the Zen sect gives you +1 learning, +2 intrigue, and -20% build time and cost.);;;;;;;;;;;;;x
 buddhist.6.a;I see. Now, tell me about Pure Land.;;;;;;;;;;;;;x
 buddhist.6.b;I see. Now, tell me about the Lotus School.;;;;;;;;;;;;;x
-buddhist.6.c;I see. Now, tell me about Vajrayana.;;;;;;;;;;;;;x
+buddhist.6.c;I see. Now, tell me about Yogacara.;;;;;;;;;;;;;x
 buddhist.6.d;I have learned all I wanted to about these schools.;;;;;;;;;;;;;x
 buddhist.7.tooltip;Learn about Pure Land;;;;;;;;;;;;;x
 buddhist.7.desc;You learn more about Pure Land, a sect named after the celestial realms of the Bodhisattvas and Buddhas. The sect emphasizes reaching a Pure Land as a means to enlightenment. (Sponsoring the Pure Land sect gives you +1 learning, +1 diplomacy, and +10 to general opinion.);;;;;;;;;;;;;x
 buddhist.7.a;I see. Now, tell me about Zen.;;;;;;;;;;;;;x
 buddhist.7.b;I see. Now, tell me about the Lotus School.;;;;;;;;;;;;;x
-buddhist.7.c;I see. Now, tell me about Vajrayana.;;;;;;;;;;;;;x
+buddhist.7.c;I see. Now, tell me about Yogacara.;;;;;;;;;;;;;x
 buddhist.7.d;I have learned all I wanted to about these schools.;;;;;;;;;;;;;x
 buddhist.8.tooltip;Learn about the Lotus School;;;;;;;;;;;;;x
 buddhist.8.desc;You learn more about the Lotus school of Buddhism, which considers the Lotus Sutra a central element of Buddhist practice. Its doctrines are flexible and open-minded, readily accepting ideas from other sects. (Sponsoring the Lotus school gives you +1 learning, +1 stewardship, and +5% to tech.);;;;;;;;;;;;;x
 buddhist.8.a;I see. Now, tell me about Zen.;;;;;;;;;;;;;x
 buddhist.8.b;I see. Now, tell me about Pure Land.;;;;;;;;;;;;;x
-buddhist.8.c;I see. Now, tell me about Vajrayana.;;;;;;;;;;;;;x
+buddhist.8.c;I see. Now, tell me about Yogacara.;;;;;;;;;;;;;x
 buddhist.8.d;I have learned all I wanted to about these schools.;;;;;;;;;;;;;x
-buddhist.9.tooltip;Learn about Vajrayana;;;;;;;;;;;;;x
-buddhist.9.desc;You learn more about the Vajrayana or Esoteric sect of Buddhism, popular in Tibet. Vajrayana is considered heretical by some Buddhists, but there is appeal in its ritualistic, colorful methods. (Sponsoring the Vajrayana sect gives you +2 learning, +10% to troop morale, and +3% tax income at the cost of general opinion.);;;;;;;;;;;;;x
+buddhist.9.tooltip;Learn about Yogacara;;;;;;;;;;;;;x
+buddhist.9.desc;You learn more about the Yogacara, which is an old sect that has significant influence on "newer" sects such as Zen. Followers of this sect argue that the mind is real but objects are just ideas or states of consciousness. (Sponsoring the Yogacara sect gives you +2 learning and a piety boost.);;;;;;;;;;;;;x
 buddhist.9.a;I see. Now, tell me about Zen.;;;;;;;;;;;;;x
 buddhist.9.b;I see. Now, tell me about Pure Land.;;;;;;;;;;;;;x
 buddhist.9.c;I see. Now, tell me about the Lotus School.;;;;;;;;;;;;;x
@@ -194,7 +196,7 @@ buddhist.10.desc;After careful deliberation and spiritual meditation, you have s
 buddhist.10.a;Zen;;;;;;;;;;;;;x
 buddhist.10.b;Pure Land;;;;;;;;;;;;;x
 buddhist.10.c;Lotus School;;;;;;;;;;;;;x
-buddhist.10.d;Vajrayana;;;;;;;;;;;;;x
+buddhist.10.d;Yogacara;;;;;;;;;;;;;x
 buddhist.11.desc;It had been a rather short time since you just supported another Buddhist sect, so  unsurprisingly, your decision to shift support from one major Buddhist sect to another is seen as insecure and questionable by many within your realm. Your reputation suffers as a result.;;;;;;;;;;;;;x
 buddhist.11.a;I made my decision knowing the consequences.;;;;;;;;;;;;;x
 buddhist.11.b;What? How…;;;;;;;;;;;;;x
@@ -202,6 +204,7 @@ i_choose_zen;You will support the Zen sect - may it flourish across the land and
 i_choose_pure_land;You will support the Pure Land sect - may it flourish across the land and help spread the Dharma!;;;;;;;;;;;;;x
 i_choose_lotus_school;You will support the Lotus School sect - may it flourish across the land and help spread the Dharma!;;;;;;;;;;;;;x
 i_choose_vajrayana;You will support the Vajrayana sect - may it flourish across the land and help spread the Dharma!;;;;;;;;;;;;;x
+i_choose_yogacara;You will support the Yogacara sect - may it flourish across the land and help spread the Dharma!;;;;;;;;;;;;;x
 change_buddhist_sect;Support a Different Buddhist Sect;;;;;;;;;;;;;x
 change_buddhist_sect_desc;Change support to a different Buddhist sect.;;;;;;;;;;;;;x
 #Retreat ;;;;;;;;;;;;;;x

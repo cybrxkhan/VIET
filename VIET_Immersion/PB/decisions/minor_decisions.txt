@@ -103,7 +103,7 @@ decisions = {
 			set_character_flag = upcoming_feast
 			
 			hidden_tooltip = {
-				letter_event = { 
+				character_event = {
 					id = 72109  
 				}
 			}
@@ -130,7 +130,7 @@ decisions = {
 						days = 730
 					}
 				}
-			}						
+			}
 		}
 	}
 	
@@ -198,7 +198,7 @@ decisions = {
 						days = 730
 					}
 				}
-			}
+			}			
 			
 		}
 	}
@@ -298,7 +298,7 @@ decisions = {
 			}
 		}
 	}
-
+	
 	hold_tiger_hunt = {
 		potential = {
 			has_dlc = "Rajas of India"
@@ -311,6 +311,7 @@ decisions = {
 					empire = { title = e_rajastan }
 					empire = { title = e_bengal }
 					empire = { title = e_deccan }
+					empire = { title = e_india }
 				}
 			}
 			NOT = { has_character_flag = do_not_disturb }
@@ -402,7 +403,7 @@ decisions = {
 				trait = cynical
 			}
 		}
-	}	
+	}
 	
 	catholic_pilgrimage = {
 		potential = {
@@ -421,7 +422,7 @@ decisions = {
 				is_occupied = no
 			}
 			prisoner = no
-			scaled_wealth = 0.20
+			scaled_wealth = 0.2
 			age = 16
 			custom_tooltip = {
 				text = health_travel_condition
@@ -440,8 +441,9 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = -0.20
+			scaled_wealth = -0.2
 			set_character_flag = activated_pilgrimage
+			set_character_flag = do_not_disturb
 			hidden_tooltip = {
 				character_event = { 
 					id = SoA.5000
@@ -486,7 +488,7 @@ decisions = {
 				is_occupied = no
 			}
 			prisoner = no
-			scaled_wealth = 0.20
+			scaled_wealth = 0.2
 			age = 16
 			custom_tooltip = {
 				text = health_travel_condition
@@ -504,12 +506,12 @@ decisions = {
 			}
 		}
 		effect = {
-			scaled_wealth = -0.20
+			scaled_wealth = -0.2
 			clr_character_flag = promise_hajj
 			set_character_flag = activated_hajj
 			set_character_flag = recent_minor_decision
 			set_character_flag = do_not_disturb
-
+			
 			if = {
 				limit = {
 					trait = decadent
@@ -629,7 +631,7 @@ decisions = {
 			}
 			OR = {
 				primary_title = { higher_tier_than = COUNT }
-				father_even_if_dead = { primary_title = { higher_tier_than = COUNT } }
+				father = { primary_title = { higher_tier_than = COUNT } }
 			}
 			NOT = {	has_character_flag = commissioned_runestone }
 			NOT = { year = 1150 }
@@ -653,13 +655,13 @@ decisions = {
 			modifier = {
 				factor = 0
 				NOT = { wealth = 300 }
-				}
+			}
 			modifier = {
 				factor = 0
 				NOT = { age = 30 }
-			}
+			}			
 		}
-	}	
+	}
 	
 	hold_nerge = {
 		is_high_prio = yes
@@ -729,11 +731,11 @@ decisions = {
 			modifier = {
 				factor = 0
 				trait = craven
-				}
+			}
 			modifier = {
 				factor = 0
 				NOT = { martial = 10 }
-			}
+			}	
 			modifier = {
 				factor = 0
 				has_character_flag = recent_minor_decision

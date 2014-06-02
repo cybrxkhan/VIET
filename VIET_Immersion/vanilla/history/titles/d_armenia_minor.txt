@@ -7,11 +7,11 @@
 1066.1.1={
 	liege="e_byzantium"
 }
-1074.1.1={
-	holder=90040
-}
 1071.8.26={
 	liege=0
+}
+1074.1.1={
+	holder=90040
 }
 1080.1.1={
 	holder=232561 #Roupen I Rubenid
@@ -37,11 +37,11 @@
 1145.1.1={
 	holder=223014 #Thoros II Rubenid
 }
-1169.1.1={
-	holder=232569 #Roupen II Rubenid
-}
 1151.1.1={
 	liege=0
+}
+1169.1.1={
+	holder=232569 #Roupen II Rubenid
 }
 1170.1.1={
 	holder=232571 #Mleh Rubenid

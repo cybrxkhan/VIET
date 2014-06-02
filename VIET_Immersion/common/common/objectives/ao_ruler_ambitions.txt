@@ -73,7 +73,6 @@ obj_peace_10_year = {
 	}
 	chance = {
 		factor = 0
-		
 	}
 	
 	success = {
@@ -110,40 +109,20 @@ obj_great_council = {
 		independent = yes
 		NOT = { has_character_flag = great_council_formed }
 		OR = {
-			job_chancellor = {
-				diplomacy = 20
-			}
-			job_marshal = {
-				martial = 20
-			}
-			job_treasurer = {
-				stewardship = 20
-			}
-			job_spymaster = {
-				intrigue = 20
-			}
-			job_spiritual = {
-				learning = 20
-			}
+			job_chancellor = { diplomacy = 20 }
+			job_marshal = { martial = 20 }
+			job_treasurer = { stewardship = 20 }
+			job_spymaster = { intrigue = 20 }
+			job_spiritual = { learning = 20 }
 		}
 		
 		NOT = {
 			AND = {
-				job_chancellor = {
-					diplomacy = 20
-				}
-				job_marshal = {
-					martial = 20
-				}
-				job_treasurer = {
-					stewardship = 20
-				}
-				job_spymaster = {
-					intrigue = 20
-				}
-				job_spiritual = {
-					learning = 20
-				}
+				job_chancellor = { diplomacy = 20 }
+				job_marshal = { martial = 20 }
+				job_treasurer = { stewardship = 20 }
+				job_spymaster = { intrigue = 20 }
+				job_spiritual = { learning = 20 }
 			}
 		}
 	}
@@ -157,21 +136,11 @@ obj_great_council = {
 		}
 	}
 	success = {
-		job_chancellor = {
-			diplomacy = 20
-		}
-		job_marshal = {
-			martial = 20
-		}
-		job_treasurer = {
-			stewardship = 20
-		}
-		job_spymaster = {
-			intrigue = 20
-		}
-		job_spiritual = {
-			learning = 20
-		}
+		job_chancellor = { diplomacy = 20 }
+		job_marshal = { martial = 20 }
+		job_treasurer = { stewardship = 20 }
+		job_spymaster = { intrigue = 20 }
+		job_spiritual = { learning = 20 }
 	}
 	abort = {
 		OR = {
@@ -203,65 +172,65 @@ obj_increase_demesne = {
 		higher_tier_than = baron
 		NOT = { trait = incapable }
 		NOT = { trait = content }
-		NOT = { demesne_size = 9}
+		NOT = { demesne_size = 9 }
 		#according to evil_events.txt, demesne_efficiency seems to be demesne_max/demesne
 		demesne_efficiency = 1.01  
-		NOT = {has_character_modifier = gain_demesne_obj_timer}
+		NOT = { has_character_modifier = gain_demesne_obj_timer }
 	}
 	creation_effect = {
 		if = {
 			limit = { 
 				demesne_size = 1 
-				NOT = {demesne_size = 2}
+				NOT = { demesne_size = 2 }
 			}
 			set_character_flag = demesne1
 		}
 		if = {
 			limit = { 
 				demesne_size = 2 
-				NOT = {demesne_size = 3}
+				NOT = { demesne_size = 3 }
 			}
 			set_character_flag = demesne2
 		}
 		if = {
 			limit = { 
 				demesne_size = 3
-				NOT = {demesne_size = 4}
+				NOT = { demesne_size = 4 }
 			}
 			set_character_flag = demesne3
 		}
 		if = {
 			limit = { 
 				demesne_size = 4 
-				NOT = {demesne_size = 5}
+				NOT = { demesne_size = 5 }
 			}
 			set_character_flag = demesne4
 		}
 		if = {
 			limit = { 
 				demesne_size = 5 
-				NOT = {demesne_size = 6}
+				NOT = { demesne_size = 6 }
 			}
 			set_character_flag = demesne5
 		}
 		if = {
 			limit = { 
 				demesne_size = 6 
-				NOT = {demesne_size = 7}
+				NOT = { demesne_size = 7 }
 			}
 			set_character_flag = demesne6
 		}
 		if = {
 			limit = { 
 				demesne_size = 7 
-				NOT = {demesne_size = 8}
+				NOT = { demesne_size = 8 }
 			}
 			set_character_flag = demesne7
 		}
 		if = {
 			limit = { 
 				demesne_size = 8 
-				NOT = {demesne_size = 9}
+				NOT = { demesne_size = 9 }
 			}
 			set_character_flag = demesne8
 		}
@@ -287,7 +256,7 @@ obj_increase_demesne = {
 		}
 		modifier = {
 			factor = 0.2
-			OR={
+			OR = {
 				tier = duke
 				tier = king
 			}
@@ -350,16 +319,28 @@ obj_increase_demesne = {
 		OR = {
 			trait = incapable
 			is_ruler = no
-			NOT = {demesne_efficiency = 1.00}
+			NOT = { demesne_efficiency = 1.00 }
 		}
 	}
+	abort_effect = {
+		clr_character_flag = demesne1
+		clr_character_flag = demesne2
+		clr_character_flag = demesne3
+		clr_character_flag = demesne4
+		clr_character_flag = demesne5
+		clr_character_flag = demesne6
+		clr_character_flag = demesne7
+		clr_character_flag = demesne8
+	}
 	effect = {
-		if={
-			limit = { NOT = { has_character_flag = obj_demesne_used } }
+		if = {
+			limit = {
+				NOT = { has_character_flag = obj_demesne_used }
+			}
 			change_stewardship = 1
 		}
 		prestige = 100
-		hidden_tooltip={
+		hidden_tooltip = {
 			clr_character_flag = demesne1
 			clr_character_flag = demesne2
 			clr_character_flag = demesne3
@@ -412,7 +393,7 @@ obj_become_duke = {
 		higher_tier_than = count
 	}
 	abort = {
-		OR={
+		OR = {
 			is_ruler = no
 			NOT = { higher_tier_than = baron }
 			trait = incapable
@@ -461,7 +442,7 @@ obj_become_multiduke = {
 		num_of_duke_titles = 2
 	}
 	abort = {
-		OR={
+		OR = {
 			is_ruler = no
 			NOT = { higher_tier_than = count }
 			trait = incapable
@@ -478,20 +459,42 @@ obj_civilize_province = {
 	type = character
 	allow = {
 		is_ruler = yes
-		any_realm_lord = {any_demesne_province = {NOT = {culture = ROOT culture = PREV}}}
-	NOT = {has_character_flag = civilized_province}
+		any_realm_lord = {
+			any_demesne_province = {
+				NOT = {
+					culture = ROOT
+					culture = PREV
+				}
+			}
+		}
+		NOT = { has_character_flag = civilized_province }
 	}
-	chance = { factor = 5 }
-	success = { has_character_flag = civilized_province }
+	chance = {
+		factor = 5
+	}
+	success = {
+		has_character_flag = civilized_province
+	}
 	abort = {
 		AND = {
 			NOT = { has_character_flag = civilized_province }
-			NOT = { any_realm_lord = { any_demesne_province = { NOT = { culture = ROOT culture = PREV}}}}
+			NOT = {
+				any_realm_lord = {
+					any_demesne_province = {
+						NOT = {
+							culture = ROOT
+							culture = PREV
+						}
+					}
+				}
+			}
 		}
 	}
 	effect = {
 		if = {
-			limit={NOT={has_character_flag=already_civilized_province}}
+			limit = {
+				NOT = { has_character_flag = already_civilized_province }
+			}
 			change_stewardship = 1
 			set_character_flag = already_civilized_province
 		}
@@ -503,38 +506,20 @@ obj_civilize_province = {
 obj_noble_concubine = {
 	type = character
 	allow = {
+		ai = no
 		is_female = no
 		religion_group = pagan_group
 		prisoner = no
 		NOT = {
 			any_consort = {
-				OR={
-					any_sibling = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					father = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					mother = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					father_even_if_dead = {
-						any_sibling = {
-							is_ruler = yes
-							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-						}
-					}
-
-					mother_even_if_dead = {
-						any_sibling = {
-							is_ruler = yes
-							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
+				any_dynasty_member = {
+					is_close_relative = PREV
+					is_ruler = yes
+					OR = {
+						higher_tier_than = duke
+						AND = {
+							higher_tier_than = count
+							independent = yes
 						}
 					}
 				}
@@ -542,78 +527,42 @@ obj_noble_concubine = {
 			any_courtier = {
 				is_female = yes
 				prisoner = yes
-				OR={
-					any_sibling = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					father = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					mother = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-
-					father_even_if_dead = {
-						any_sibling = {
-							is_ruler = yes
-							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-						}
-					}
-
-					mother_even_if_dead = {
-						any_sibling = {
-							is_ruler = yes
-							OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
+				any_dynasty_member = {
+					is_close_relative = PREV
+					is_ruler = yes
+					OR = {
+						higher_tier_than = duke
+						AND = {
+							higher_tier_than = count
+							independent = yes
 						}
 					}
 				}
 			}
-			#am I blind or is there no num_consorts?
+			any_consort = { count = 3 }
 		}
 	}
-	chance = {factor = 1 modifier={factor=0 ai=yes}}
+	chance = {
+		factor = 1
+	}
 	success = {
 		any_consort = {
-			OR={
-				any_sibling = {
-					is_ruler = yes
-					OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-				}
-
-				father = {
-					is_ruler = yes
-					OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-				}
-
-				mother = {
-					is_ruler = yes
-					OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-				}
-
-				father_even_if_dead = {
-					any_sibling = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
-					}
-				}
-
-				mother_even_if_dead = {
-					any_sibling = {
-						is_ruler = yes
-						OR = { higher_tier_than = duke AND = { higher_tier_than = count independent = yes } }
+			any_dynasty_member = {
+				is_close_relative = PREV
+				is_ruler = yes
+				OR = {
+					higher_tier_than = duke
+					AND = {
+						higher_tier_than = count
+						independent = yes
 					}
 				}
 			}
 		}
 	}
 	abort = {
-		#am I blind or is there no num_consorts?
-		NOT = {religion_group = pagan_group}
+		any_consort = { count = 3 }
+		NOT = { religion_group = pagan_group }
 	}
 	effect = {
 		prestige = 200

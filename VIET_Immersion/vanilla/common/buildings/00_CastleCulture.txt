@@ -1381,7 +1381,6 @@ castle = {
 		desc = ca_culture_jewish_1_desc
 		potential = {
 			FROM = {
-				religion_group = jewish_group
 				culture_group = israelite
 			}
 		}
@@ -1399,7 +1398,6 @@ castle = {
 		desc = ca_culture_jewish_1_desc
 		potential = {
 			FROM = {
-				religion_group = jewish_group
 				culture_group = israelite
 			}
 		}
@@ -1417,7 +1415,6 @@ castle = {
 		desc = ca_culture_jewish_1_desc
 		potential = {
 			FROM = {
-				religion_group = jewish_group
 				culture_group = israelite
 			}
 		}
@@ -1435,7 +1432,6 @@ castle = {
 		desc = ca_culture_jewish_1_desc
 		potential = {
 			FROM = {
-				religion_group = jewish_group
 				culture_group = israelite
 			}
 		}

@@ -446,7 +446,7 @@ faction_succ_seniority = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -1006,7 +1006,7 @@ faction_succ_primogeniture = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -1567,7 +1567,7 @@ faction_succ_gavelkind = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -2166,7 +2166,7 @@ faction_succ_feudal_elective = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -2680,7 +2680,7 @@ faction_lower_crown_authority = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -3164,12 +3164,10 @@ faction_independence = {
 				has_landed_title = e_hre
 			}
 		}
-		
 		modifier = {
 			factor = 0.5
 			opinion = { who = LIEGE value = 40 } 
 		}
-		
 		modifier = {
 			factor = 1.5
 			NOT = { opinion = { who = LIEGE value = 0 } } 
@@ -3497,7 +3495,7 @@ faction_independence = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -3608,12 +3606,10 @@ faction_independence = {
 				has_landed_title = e_hre
 			}
 		}
-		
 		modifier = {
 			factor = 0.5
 			opinion = { who = LIEGE value = 40 } 
 		}
-		
 		modifier = {
 			factor = 1.5
 			NOT = { opinion = { who = LIEGE value = 0 } } 
@@ -3944,8 +3940,10 @@ faction_claimant = {
 			new_character = {
 				FROM = {
 					liege = {
-						NOT = { is_father = PREVPREV }
-						NOT = { is_mother = PREVPREV }
+						or = {
+							is_father = PREVPREV
+							is_mother = PREVPREV
+						}
 					}
 				}
 			}
@@ -4652,7 +4650,7 @@ faction_claimant = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -5104,7 +5102,7 @@ faction_antiking = {
 					}
 				}
 			}
-		}
+		}		
 		
 		modifier = {
 			factor = 0.2
@@ -5263,7 +5261,7 @@ faction_antiking = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction

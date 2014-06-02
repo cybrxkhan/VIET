@@ -109,7 +109,7 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		NOT = { religion_group = jewish_group }
-		mother_even_if_dead = { religion_group = jewish_group }
+		mother = { religion_group = jewish_group }
 		NOT = { has_character_flag = no_more_jewish_event }
 	}
 	
@@ -121,7 +121,7 @@ character_event = {
 		name = jordarkelf.3.a
 		ai_chance = { factor = 100 }
 		set_character_flag = no_more_jewish_event
-		mother_even_if_dead = { 
+		mother = { 
 			reverse_religion = ROOT
 		}
 	}
@@ -148,7 +148,7 @@ character_event = {
 		NOT = { religion_group = jewish_group }
 		NOT = { has_character_flag = no_more_jewish_event }
 		OR = {
-			mother_even_if_dead = { religion_group = jewish_group }
+			mother = { religion_group = jewish_group }
 			NOT = { #only member of dynasty so probably a spawned Jew
 				any_dynasty_member = {
 					NOT = { character = ROOT }
@@ -167,9 +167,9 @@ character_event = {
 		set_character_flag = no_more_jewish_event
 		IF = { 
 			limit = { 
-				mother_even_if_dead = { religion_group = jewish_group }
+				mother = { religion_group = jewish_group }
 			}
-			mother_even_if_dead = {
+			mother = {
 				reverse_religion = ROOT
 			}
 		}

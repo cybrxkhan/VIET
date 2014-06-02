@@ -2643,14 +2643,10 @@ character_event = {
 	desc = VIETjewish.19.desc
 	picture = GFX_evt_holy_jerusalem
 	
-	trigger = {
-		has_landed_title = d_israel_defense
-		NOT = { has_global_flag = israel_defense_setup_complete }
-	}
+	is_triggered_only = yes
 	
 	option = { #ok
 		name = VIETjewish.19.a
-		set_global_flag = israel_defense_setup_complete
 		hidden_tooltip = {
 			#The likely suspects
 			create_random_soldier = {
@@ -3281,7 +3277,6 @@ character_event = {
 	
 }
 
-
 #The four questions
 character_event = {
 	id = passover.3
@@ -3647,7 +3642,7 @@ character_event = {
 # Exilarch Fun Fun Fun
 #############################################
 
-# Wifey for the Exilarch
+# Wives for Exilarch and family
 character_event = {
 	id = exilarch.0
 	desc = exilarch.0.desc
@@ -3655,11 +3650,18 @@ character_event = {
 	
 	only_men = yes
 	only_rulers = yes
+	ai = yes
 	
 	trigger = {
 		OR = {
 			has_landed_title = d_exilarch
 			has_landed_title = d_exilarch_karaite
+			father = {
+				OR = {
+					has_landed_title = d_exilarch
+					has_landed_title = d_exilarch_karaite
+				}
+			}
 		}
 		is_adult = yes
 		is_married = no
@@ -3680,10 +3682,13 @@ character_event = {
 			random_traits = yes
 		}
 		new_character = {
+			remove_trait = celibate
+			remove_trait = chaste
 			add_spouse = ROOT
 		}
 	}	
 }
+
 # End of the Exilarchy
 narrative_event = {
 	id = exilarch.1
@@ -3732,6 +3737,7 @@ narrative_event = {
 		}
 	}
 }
+
 # End of the Karaite Exilarchy
 narrative_event = {
 	id = exilarch.2
@@ -3780,6 +3786,7 @@ narrative_event = {
 		}
 	}
 }
+
 # Fix the exilarch's religion
 character_event = {
 	id = exilarch.4
@@ -3788,6 +3795,7 @@ character_event = {
 	
 	only_men = yes
 	only_rulers = yes
+	ai = yes
 	
 	trigger = {
 		OR = {
@@ -3839,6 +3847,7 @@ character_event = {
 		}
 	}	
 }
+
 # Exilarch becomes vassal of Israel
 character_event = {
 	id = exilarch.5
@@ -3903,7 +3912,6 @@ character_event = {
 character_event = {
 	id = exilarch.6
 	desc = exilarch.6.desc
-	
 	picture = GFX_evt_holy_jerusalem
 	
 	only_men = yes
@@ -3932,7 +3940,6 @@ character_event = {
 character_event = {
 	id = exilarch.7
 	desc = exilarch.7.desc
-
 	picture = GFX_evt_holy_jerusalem
 
 	only_men = yes
@@ -3965,7 +3972,6 @@ character_event = {
 character_event = {
 	id = exilarch.8
 	desc = exilarch.8.desc
-
 	picture = GFX_evt_holy_jerusalem
 
 	only_men = yes
@@ -4026,7 +4032,7 @@ character_event = {
 	}
 
 	immediate = {
-		clr_global_flag= VIET_end_of_exilarch
+		clr_global_flag = VIET_end_of_exilarch
 		activate_title = { title = d_exilarch status = yes }
 	}
 
@@ -4041,7 +4047,6 @@ character_event = {
 character_event = {
 	id = exilarch.10
 	desc = exilarch.10.desc
-
 	picture = GFX_evt_holy_jerusalem
 
 	only_men = yes
@@ -4069,7 +4074,7 @@ character_event = {
 	}
 
 	immediate = {
-		clr_global_flag= VIET_end_of_exilarch_karaite
+		clr_global_flag = VIET_end_of_exilarch_karaite
 		activate_title = { title = d_exilarch_karaite status = yes }
 	}
 

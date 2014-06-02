@@ -20,31 +20,6 @@ e_bulgaria = {
 }
 
 #KINGDOMS
-k_trebizond = {
-	color={ 100 40 160 }
-	color2={ 255 255 255 }
-	
-	capital = 678 # Trepezous
-
-	culture = greek
-	
-	# Creation/Usurp Trigger
-	allow = {
-		NOT = { has_landed_title = e_byzantium }
-		NOT = {
-			liege = {
-				has_landed_title = e_byzantium
-			}
-		}
-	}
-	
-		
-	orthodox = 200 # Crusade target weight
-	muslim = 25 # Crusade target weight	
-	
-}
-
-
 k_nikaea = {
 	color={ 40 20 70 }
 	color2={ 255 255 255 }
@@ -215,4 +190,15 @@ k_kipchak = { #Kipchaks
 	capital = 896 # Aktobe
 	
 	tengri_pagan_reformed = 500
+}
+
+k_iceland = {
+	color = { 200 200 200 }
+	capital = 2 # Austurland
+	culture = icelandic
+
+	allow = {
+		is_republic = yes
+	}
+	
 }

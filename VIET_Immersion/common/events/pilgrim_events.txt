@@ -24,7 +24,6 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5000
 		piety = 20
-		set_character_flag = do_not_disturb
 		set_character_flag = preparing_pilgrimage
 		clr_character_flag = activated_pilgrimage
 		hidden_tooltip = {

@@ -7,43 +7,22 @@
 namespace = ottoman
 
 #Character conquers Constantinople
-
-character_event = {
+narrative_event = {
 	id = ottoman.1
 	desc = ottoman.1.desc
 	picture = GFX_evt_fetih
+	border = GFX_event_narrative_frame_war
 	
-	only_rulers = yes
-	
-	trigger = {
-		has_global_flag = VIET_immersion_on
-		NOT = { has_global_flag = VIET_turkish_features_off }
-		culture = turkish
-		religion_group = muslim
-		independent = yes
-		prisoner = no
-		war = no
-		NOT = { has_global_flag = fall_of_constantinople }
-		OR = {
-			has_landed_title = c_byzantion
-			any_realm_lord = {
-				has_landed_title = c_byzantion
-			}
-		}
-	}
-	
-	mean_time_to_happen = { 
-		days = 1
-	}
-	
+	is_triggered_only = yes
+
 	option = {
+		trigger = { character = ROOT }
 		name = ottoman.1.a
 		set_dynasty_flag = the_ottomans
 		prestige = 300
 		piety = 300
 		give_nickname = nick_fetih
 		add_trait = kayser_i_rum
-		set_global_flag = fall_of_constantinople
 		if = {
 			limit = {
 				NOT = { has_landed_title = c_byzantion }
@@ -54,7 +33,6 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { primary_title = { higher_tier_than = KING } }
 				e_turkish = { has_holder = no }
 			}
 			e_turkish = {
@@ -66,7 +44,7 @@ character_event = {
 				limit = {
 					ai = no
 				}
-				narrative_event = { id = VIETnarrative.1 }
+				narrative_event = { id = ottoman.6 }
 			}
 		}
 	}
@@ -112,37 +90,40 @@ character_event = {
 	option = {
 		name = "ottoman.2.a"
 		set_global_flag = byzantium_eliminated
-		e_byzantium = {
-			any_direct_de_jure_vassal_title = {
-				de_jure_liege = e_turkish
+		if = {
+			limit = {
+				e_byzantium = { has_holder = no }
+			}
+			e_byzantium = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = e_turkish
+				}
+			}
+			e_byzantium = {
+				destroy_landed_title = THIS
 			}
 		}
-		e_byzantium = {
-			destroy_landed_title = THIS
+		if = {
+			limit = {
+				e_byzantium = { has_holder = yes }
+			}
+			e_byzantium = {
+				holder_scope = {
+					letter_event = { id = ottoman.8 tooltip = ottoman.8.tt }
+				}
+			}
 		}
 	}
 }
 
 #Turkish Conquest CB gets free troops
+# Fired from the Turkish Conquest CB
 character_event = {
 	id = ottoman.3
 	desc = "ottoman.3.desc"
 	picture = GFX_evt_fetih
 	
-	only_rulers = yes
-	
-	trigger = {
-		has_global_flag = VIET_immersion_on
-		is_adult = yes
-		culture = turkish
-		religion_group = muslim
-		any_war = {
-			using_cb = turkish_conquest
-			attacker = { character = ROOT }
-		}
-		NOT = { has_character_flag = turkish_got_free_troops_already }
-		NOT = { has_global_flag = VIET_turkish_features_off }
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "ottoman.3.a"
@@ -204,6 +185,10 @@ character_event = {
 		NOT = { has_global_flag = VIET_turkish_features_off }
 	}
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = {
 		name = "ottoman.4.a"
 		add_trait = kayser_i_rum
@@ -228,6 +213,10 @@ character_event = {
 		NOT = { has_global_flag = VIET_turkish_features_off }
 	}
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = {
 		name = "ottoman.5.a"
 		remove_trait = kayser_i_rum
@@ -237,34 +226,33 @@ character_event = {
 }
 
 
-#Fall of Constantinople - replaced in VIET_Narrative
-# narrative_event = {
-	# id = ottoman.6
-	# title = "ottoman.6.name"
-	# desc = "ottoman.6.desc"
-	# major = yes
+#Fall of Constantinople
+narrative_event = {
+	id = ottoman.6
+	title = "ottoman.6.name"
+	desc = "ottoman.6.desc"
 	
-	# picture = "GFX_evt_fetih"
-	# border = "GFX_event_narrative_frame_war"
+	picture = "GFX_evt_fetih"
+	border = "GFX_event_narrative_frame_war"
 	
-	# is_triggered_only = yes
+	is_triggered_only = yes
 	
-	# option = {
-		# name = "ottoman.6.a"
-		# trigger = { 
-			# NOT = { religion_group = muslim } 
-			# NOT = { religion_group = christian } 
-		# }
-	# }
-	# option = {
-		# name = "ottoman.6.b"
-		# trigger = { religion_group = muslim }
-	# }	
-	# option = {
-		# name = "ottoman.6.c"
-		# trigger = { religion_group = christian }
-	# }
-# }
+	option = {
+		name = "ottoman.6.a"
+		trigger = { 
+			NOT = { religion_group = muslim } 
+			NOT = { religion_group = christian } 
+		}
+	}
+	option = {
+		name = "ottoman.6.b"
+		trigger = { religion_group = muslim }
+	}	
+	option = {
+		name = "ottoman.6.c"
+		trigger = { religion_group = christian }
+	}
+}
 
 
 #Free Eunuchs
@@ -418,5 +406,26 @@ character_event = {
 	}	
 	option = {
 		name = "ottoman.7.b"
+	}
+}
+
+# Inform Byzantine Emperor of his title loss
+letter_event = {
+	id = ottoman.8
+	desc = ottoman.8.desc
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ottoman.8.a
+		e_byzantium = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = e_turkish
+			}
+		}
+		e_byzantium = {
+			destroy_landed_title = THIS
+		}
 	}
 }

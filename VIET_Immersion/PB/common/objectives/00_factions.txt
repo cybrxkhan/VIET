@@ -466,7 +466,7 @@ faction_succ_seniority = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -1100,7 +1100,7 @@ faction_succ_primogeniture = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -1708,7 +1708,7 @@ faction_succ_gavelkind = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -1967,7 +1967,7 @@ faction_succ_feudal_elective = {
 		modifier = {
 			factor = 0.2
 			FROM = { pacifist = yes }
-		}		
+		}
 		
 		modifier = {
 			factor = 0
@@ -2256,7 +2256,7 @@ faction_succ_feudal_elective = {
 		modifier = {
 			factor = 0.2
 			pacifist = yes
-		}		
+		}
 		
 		modifier = {
 			factor = 0
@@ -2348,12 +2348,12 @@ faction_succ_feudal_elective = {
 				}
 			}
 			
-			NOT = {	
+			NOT = {
 				AND = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_coerced_into_joining_faction
-				}
+					has_opinion_modifier = {
+						who = FROM
+						modifier = opinion_coerced_into_joining_faction
+					}
 					opinion = { who = FROM value = 0 }
 				}
 			}
@@ -2402,12 +2402,12 @@ faction_succ_feudal_elective = {
 					}
 				}
 			}
-			NOT = {	
+			NOT = {
 				AND = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_coerced_into_joining_faction
-				}
+					has_opinion_modifier = {
+						who = FROM
+						modifier = opinion_coerced_into_joining_faction
+					}
 					opinion = { who = FROM value = 0 }
 				}
 			}
@@ -2479,7 +2479,7 @@ faction_succ_feudal_elective = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -2664,7 +2664,7 @@ faction_independence = {
 				any_demesne_title = {
 					temporary = yes
 				}
-			}			
+			}
 		}
 		
 		NOT = { has_landed_title = k_orthodox }
@@ -2709,7 +2709,7 @@ faction_independence = {
 		modifier = {
 			factor = 0.2
 			FROM = { pacifist = yes }
-		}		
+		}
 		
 		modifier = {
 			factor = 0
@@ -3161,7 +3161,7 @@ faction_independence = {
 		modifier = {
 			factor = 0.2
 			pacifist = yes
-		}			
+		}
 		
 		modifier = {
 			factor = 0
@@ -3325,7 +3325,7 @@ faction_independence = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -3804,7 +3804,7 @@ faction_claimant = {
 			OR = {
 				is_female = no
 				AND = {
-					NOT = { religion_group = muslim } 
+					NOT = { religion_group = muslim }
 					NOT = { ROOT = { succ_law_title = { has_law = agnatic_succession } } }
 				}
 			}
@@ -3860,7 +3860,7 @@ faction_claimant = {
 			NOT = { trait = incapable }
 			prisoner = no
 		}
-	}	
+	}
 	
 	# AI creation weight
 	chance = {
@@ -3869,7 +3869,7 @@ faction_claimant = {
 		modifier = {
 			factor = 0.2
 			FROM = { pacifist = yes }
-		}		
+		}
 		
 		modifier = {
 			factor = 0
@@ -3898,8 +3898,10 @@ faction_claimant = {
 			new_character = {
 				FROM = {
 					liege = {
-						NOT = { is_father = PREVPREV }
-						NOT = { is_mother = PREVPREV }
+						OR = {
+							is_father = PREVPREV
+							is_mother = PREVPREV
+						}
 					}
 				}
 			}
@@ -4400,7 +4402,7 @@ faction_claimant = {
 				}
 				opinion = { who = LIEGE value = -25 }
 			}
-		}		
+		}
 	}
 	
 	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
@@ -4410,7 +4412,7 @@ faction_claimant = {
 		modifier = {
 			factor = 0.2
 			pacifist = yes
-		}			
+		}
 		
 		modifier = {
 			factor = 0
@@ -4603,7 +4605,7 @@ faction_claimant = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction
@@ -5092,15 +5094,15 @@ faction_antiking = {
 		
 		modifier = {
 			factor = 0
-			FROM = {
-						opinion = { who = LIEGE value = 25 } 
+			FROM = { 
+				opinion = { who = LIEGE value = 25 } 
 				NOT = {
 					trait = deceitful
 					trait = ambitious
 					trait = envious
 				}
 			}
-		}
+		}		
 		
 		modifier = {
 			factor = 0
@@ -5266,7 +5268,7 @@ faction_antiking = {
 		}
 		
 		modifier = {
-			factor = 10000
+			factor = 1000
 			has_opinion_modifier = {
 				who = FROM
 				modifier = opinion_coerced_into_joining_faction

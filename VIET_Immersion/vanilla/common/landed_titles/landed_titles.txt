@@ -2767,7 +2767,7 @@ d_ghilman = {
 	
 	strength_growth_per_century = 1.0
 	
-	mercenary_type = naval_merc_composition
+	mercenary_type = ghilman_composition
 }
 
 d_ghanan_band = {
@@ -2802,7 +2802,7 @@ d_ghanan_band = {
 	
 	strength_growth_per_century = 1.0
 	
-	mercenary_type = naval_merc_composition
+	mercenary_type = ghanan_band_composition
 }
 
 # EMPIRES
@@ -6208,7 +6208,7 @@ e_byzantium = {
 				}
 				b_matsnaberd = {
 				}
-				b_sanahin = {
+				b_tumanyan = {
 				}
 			}
 			c_ani = {
@@ -14649,7 +14649,7 @@ e_russia = {
 				b_narim = {}
 				b_kolta = {}
 				b_yag = {}
-				b_abakan = {}
+				b_askiz = {}
 			}
 			
 		}
@@ -14983,13 +14983,13 @@ e_tartaria = {
 				}
 				b_zhanakush = {
 				}
-				b_birlik = {
-				}
 				b_karabatyr = {
 				}
 				b_mantyube = {
 				}
 				b_besikty = {
+				}
+				b_arlik = {
 				}
 			}
 			c_pecheneg = {
@@ -16387,10 +16387,10 @@ e_tartaria = {
 				b_sarkand = {}
 				b_taldykorgan = {}
 				b_karatal = {}
-				b_aksu = {}
 				b_kapchagai = {}
 				b_koksu = {}
 				b_matay = {}
+				b_kargal = {}
 			}
 			c_karluk = {
 				color= { 180 165 15 }
@@ -16591,8 +16591,6 @@ e_persia = {
 				}
 				b_gonabad = {
 				}
-				b_kalat = {
-				}
 				b_torbatjam = {
 				}
 				b_bardaskan = {
@@ -16600,6 +16598,8 @@ e_persia = {
 				b_mahvalat = {
 				}
 				b_fariman = {
+				}
+				b_dasu = {
 				}
 			}
 			c_lut = {
@@ -17130,7 +17130,7 @@ e_persia = {
 				}
 				b_masouleh = {
 				}
-				b_rudbar = {
+				b_masal = {
 				}
 			}
 			c_tabriz = {
@@ -17331,13 +17331,13 @@ e_persia = {
 				}
 				b_dozz_aap = {
 				}
-				b_zabol = {
-				}
 				b_shahresukhteh = {
 				}
 				b_esfandak = {
 				}
 				b_dehak = {
+				}
+				b_adar = {
 				}
 			}
 			c_zahedan = {
@@ -17393,8 +17393,6 @@ e_persia = {
 				b_tis = {
 				}
 				b_chabahar = {
-				}
-				b_konarak = {
 				}
 				b_pozm_machchan = {
 				}
@@ -17476,8 +17474,6 @@ e_persia = {
 				b_zakhak = {
 				}
 				b_shibar = {
-				}
-				b_chak = {
 				}
 			}
 			c_kunduz = {
@@ -17701,8 +17697,6 @@ e_persia = {
 				b_chardjul = {
 				}
 				b_kogon = {
-				}
-				b_agar = {
 				}
 				b_ayrybaba = {
 				}
@@ -23718,27 +23712,6 @@ e_arabia = {
 				b_ziwaelbahari = {
 				}
 			}
-			c_buhairya = {
-				color={ 108 227 142 }
-				color2={ 255 255 255 }
-			
-				b_buhairya = {
-				}
-				b_mut = {
-				}
-				b_qasrfarfra = {
-				}
-				b_elkharga = {
-				}
-				b_baris = {
-				}
-				b_budhkula = {
-				}
-				b_abuminqar = {
-				}
-				b_ismant = {
-				}
-			}
 			c_gizeh = {
 				color={ 110 229 144 }
 				color2={ 255 255 255 }
@@ -26077,8 +26050,6 @@ e_abyssinia = {
 				}
 				b_maydh = {
 				}
-				b_amud = {
-				}
 				b_gabiley = {
 				}
 				b_burco = {
@@ -27913,12 +27884,12 @@ e_britannia = {
 		swedish = Skottland
 		danish = Skotland
 		norwegian = Skottland
-		irish = Alba
-		norsegael = Alba
 		welsh = Caledonia
+		irish = Alba
+		breton = Caledonia
+		norsegael = Alba
 		cumbrian = Caledonia
 		cornish = Caledonia
-		breton = Caledonia
 		norsebriton = Caledonia
 		
 		d_galloway = {
@@ -28783,7 +28754,7 @@ e_britannia = {
 } #e_britannia
 
 e_mali = {
-	color={ 138 148 55 }
+	color={ 225 228 125 }
 	color2={ 255 255 255 }
 	
 	capital = 911 # Timbuktu
@@ -28796,7 +28767,7 @@ e_mali = {
 	serer = "Wolof"
 	
 	k_mali = {
-		color={ 158 188 61 }
+		color={ 236 195 59 }
 		color2={ 255 255 255 }
 		
 		capital = 911 # Timbuktu
@@ -28804,13 +28775,13 @@ e_mali = {
 		culture = manden
 	
 		d_timbuktu = {
-			color={ 130 180 61 }
+			color={ 240 245 100 }
 			color2={ 255 255 255 }
 	
 			capital = 911 # Timbuktu			
 		
 			c_timbuktu = {
-				color={ 130 180 61 }
+				color={ 240 245 100 }
 				color2={ 255 255 255 }
 			
 				b_timbuktu = {}
@@ -28826,7 +28797,7 @@ e_mali = {
 				b_aglal = {}
 			}
 			c_oualata = {
-				color={ 130 180 61 }
+				color={ 226 229 148 }
 				color2={ 255 255 255 }
 			
 				b_oualata = {}
@@ -28839,7 +28810,7 @@ e_mali = {
 				b_fassekra = {}
 			}
 			c_araouane = {
-				color={ 130 180 61 }
+				color={ 185 185 85 }
 				color2={ 255 255 255 }
 			
 				b_araouane = {}
@@ -28852,7 +28823,7 @@ e_mali = {
 				b_tazrouk = {}
 			}
 			c_taghaza = {
-				color={ 130 180 61 }
+				color={ 233 224 93 }
 				color2={ 255 255 255 }
 			
 				b_taghaza = {}
@@ -28873,7 +28844,7 @@ e_mali = {
 			capital = 913 # Ghana
 		
 			c_ghana = {
-				color={ 130 180 61 }
+				color={ 245 188 102 }
 				color2={ 255 255 255 }
 				
 				b_el_ghaba = {}
@@ -28888,7 +28859,7 @@ e_mali = {
 				b_kughah = {}
 			}
 			c_aoudaghost = {
-				color={ 130 180 61 }
+				color={ 253 217 163 }
 				color2={ 255 255 255 }
 			
 				b_aoudaghost = {}
@@ -28898,7 +28869,7 @@ e_mali = {
 				
 			}
 			c_ouadane = {
-				color={ 130 180 61 }
+				color={ 240 198 28 }
 				color2={ 255 255 255 }
 			
 				b_ouadane = {}
@@ -28907,7 +28878,7 @@ e_mali = {
 				b_ksaralkiali = {}
 			}
 			c_idjil = {
-				color={ 130 180 61 }
+				color={ 252 209 145 }
 				color2={ 255 255 255 }
 			
 				b_idjil = {}
@@ -28919,13 +28890,13 @@ e_mali = {
 		}
 		
 		d_mali = {
-			color={ 80 120 70 }
+			color={ 255 179 0 }
 			color2={ 255 255 255 }
 	
 			capital = 925 # Mali
 		
 			c_mali = {
-				color={ 130 180 61 }
+				color={ 255 179 0 }
 				color2={ 255 255 255 }
 				
 				b_boure = {}
@@ -28941,7 +28912,7 @@ e_mali = {
 				b_soussa = {}
 			}
 			c_bambuk = {
-				color={ 130 180 61 }
+				color={ 255 211 105 }
 				color2={ 255 255 255 }
 			
 				b_bambuk = {}
@@ -28952,7 +28923,7 @@ e_mali = {
 				b_aftout = {}
 			}
 			c_djenne = {
-				color={ 130 180 61 }
+				color={ 248 222 111 }
 				color2={ 255 255 255 }
 			
 				b_djenne = {}
@@ -28965,7 +28936,7 @@ e_mali = {
 				b_derary = {}
 			}
 			c_gurma = {
-				color={ 130 180 61 }
+				color={ 255 178 50 }
 				color2={ 255 255 255 }
 				
 				b_gurma = {}
@@ -28974,13 +28945,13 @@ e_mali = {
 			}
 		}
 		d_songhay = {
-			color={ 80 120 70 }
+			color={ 242 238 179 }
 			color2={ 255 255 255 }
 	
 			capital = 914 # Gao
 		
 			c_gao = {
-				color={ 130 180 61 }
+				color={ 242 238 179 }
 				color2={ 255 255 255 }
 				
 				b_gao = {}
@@ -28993,7 +28964,7 @@ e_mali = {
 				b_anchawadi = {}
 			}
 			c_tadmekka = {
-				color={ 130 180 61 }
+				color={ 246 239 146 }
 				color2={ 255 255 255 }
 			
 				b_tadmekka = {}
@@ -29003,7 +28974,7 @@ e_mali = {
 				b_kidal = {}
 			}
 			c_zarma = {
-				color={ 130 180 61 }
+				color={ 235 203 76 }
 				color2={ 255 255 255 }
 				b_bura = {}
 				b_ouallam = {}
@@ -29923,14 +29894,27 @@ k_seljuk_turks = { # Seljuk Turks
 k_tekke = {
 	color={ 244 153 189 }
 }
-k_trebizond = {
-	color={ 100 151 33 }
-	capital = 678 # Trapezous
+k_trebizond = { # Modified by VIET
+	color={ 100 40 160 }
+	color2={ 255 255 255 }
+	
+	capital = 678 # Trepezous
+
 	culture = greek
 	
+	# Creation/Usurp Trigger
 	allow = {
-		always = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = {
+			liege = {
+				has_landed_title = e_byzantium
+			}
+		}
 	}
+	
+		
+	orthodox = 200 # Crusade target weight
+	muslim = 25 # Crusade target weight	
 }
 k_trinacria = {
 	color={ 249 232 247 }
@@ -31150,7 +31134,7 @@ e_rajastan = {
 				}
 				b_kalari = {
 				}
-				b_atri = {
+				b_sialkot = {
 				}
 				b_shikarpur = {
 				}
@@ -31534,8 +31518,6 @@ e_rajastan = {
 				}
 				b_shankaracharya = {
 				}
-				b_jayapura = {
-				}
 				b_parihasapura = {
 				}
 				b_padmapura = {
@@ -31839,8 +31821,6 @@ e_rajastan = {
 				}
 				b_modhera = {
 				}
-				b_idar = {
-				}
 				b_kheralu = {
 				}
 				b_shertha = {
@@ -31903,9 +31883,9 @@ e_rajastan = {
 				}
 				b_lakhota = {
 				}
-				b_halvad = {
-				}
 				b_khasta = {
+				}
+				b_dhrol = {
 				}
 			}
 			c_dvaraka = {
@@ -32230,7 +32210,7 @@ e_rajastan = {
 				}
 				b_jaisalmer = {
 				}
-				b_pali = {
+				b_ranakpur = {
 				}
 			}
 			c_vijnot = {
@@ -32313,8 +32293,6 @@ e_rajastan = {
 				b_ramgarh = {
 				}
 				b_bundi = {
-				}
-				b_taragarh = {
 				}
 			}
 		}
@@ -32888,6 +32866,8 @@ e_bengal = {
 	
 	capital = 1151 # Laksmanavati
 
+	short_name = yes
+	
 	k_gondwana = {
 		color = { 32 128 55 }
 		color2={ 255 255 255 }
@@ -33165,11 +33145,11 @@ e_bengal = {
 				}
 				b_malda = {
 				}
-				b_rampur_boalia = {
+				b_pankak = {
 				}
-				b_pandua = {
+				b_banan = {
 				}
-				b_tanda = {
+				b_shukla = {
 				}
 				b_puthia = {
 				}
@@ -34016,6 +33996,8 @@ e_deccan = {
 	
 	capital = 1210 # Manyaketha
 
+	short_name = yes
+	
 	k_maharastra = {
 		color={ 150 0 20 }
 		color2={ 255 255 255 }
@@ -34477,8 +34459,6 @@ e_deccan = {
 				b_talikota = {
 				}
 				b_sorapur = {
-				}
-				b_bagalkot = {
 				}
 			}
 		}
@@ -34992,8 +34972,6 @@ e_deccan = {
 				}
 				b_tirupati = {
 				}
-				b_kalahasti = {
-				}
 				b_melpadi = {
 				}
 				b_virincipuram = {
@@ -35072,15 +35050,11 @@ e_deccan = {
 				
 				b_rajamahendravaram = {
 				}
-				b_bhadrachalam = {
-				}
 				b_kuwakonda = {
-				}
-				b_dantewada = {
 				}
 				b_kirandul = {
 				}
-				b_barsoor = {
+				b_pattiseema = {
 				}
 			}
 		}
@@ -35234,8 +35208,6 @@ e_deccan = {
 				}
 				b_indur = {
 				}
-				b_ramgarh = {
-				}
 				b_potali = {
 				}
 			}
@@ -35304,8 +35276,6 @@ e_deccan = {
 				b_charakonda = {
 				}
 				b_mutudugu = {
-				}
-				b_ghanpur = {
 				}
 			}
 			c_medak = {
@@ -35964,14 +35934,14 @@ d_exilarch = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_composition
+	# mercenary_type = exilarch_composition
 	
 
 }
@@ -35990,14 +35960,14 @@ d_exilarch_karaite = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_karaite_composition
+	# mercenary_type = exilarch_karaite_composition
 	
 
 }

@@ -96,6 +96,16 @@ turkish_conquest = {
 				duration = 1825
 			}
 		}
+		ROOT = {
+			hidden_tooltip = {
+				if = {
+					limit = {
+						NOT = { has_character_flag = turkish_got_free_troops_already }
+					}
+					character_event = { id = ottoman.3 }
+				}
+			}
+		}
 	}
 
 	on_success = {
@@ -612,7 +622,7 @@ khitan_invasion = {
 	can_ask_to_join_war = yes
 	check_de_jure_tier = KING # this scans all de jure kingdoms for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 
-	can_use_gui = {
+	can_use = {
 		ROOT = {
 			has_landed_title = e_khitan
 			culture = khitan
@@ -620,7 +630,7 @@ khitan_invasion = {
 			NOT = { realm_size = 120 }
 		}
 	}
-
+	
 	can_use_title = {
 		ROOT = {
 			NOT = { is_liege_or_above = FROM }

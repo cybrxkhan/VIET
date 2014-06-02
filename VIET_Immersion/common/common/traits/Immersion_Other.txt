@@ -296,6 +296,8 @@ sympathy_gnostic = {
 	}
 
 	tolerates_gnostic_group = yes		# Tolerates and is tolerated by Gnostics
+	
+	same_opinion_if_same_religion = 10
 
 	customizer = no
 	random = no
@@ -382,7 +384,9 @@ calligrapher = {
 		# religion_group = eastern_group
 	}
 
-	lifestyle = yes
+	# lifestyle = yes
+	# Uncomment this when there are active religious requirements or something else
+	# Otherwise the game hands it out randomly anyway
 
 	customizer = no
 	random = no
@@ -392,7 +396,7 @@ zither_player = {
 		# religion_group = eastern_group
 	}
 
-	lifestyle = yes
+	# lifestyle = yes
 
 	customizer = no
 	random = no	
@@ -402,7 +406,7 @@ go_player = {
 		# religion_group = eastern_group
 	}
 
-	lifestyle = yes
+	# lifestyle = yes
 
 	customizer = no
 	random = no	
@@ -412,7 +416,7 @@ chinese_painter = {
 		# religion_group = eastern_group
 	}
 
-	lifestyle = yes
+	# lifestyle = yes
 
 	customizer = no
 	random = no
@@ -422,7 +426,7 @@ tea_master = {
 		# religion_group = eastern_group
 	}
 
-	lifestyle = yes
+	# lifestyle = yes
 
 
 	customizer = no

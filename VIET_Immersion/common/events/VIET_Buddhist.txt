@@ -178,7 +178,7 @@ character_event = {
 		NOT = { has_character_flag = pure_land_flag }
 		NOT = { has_character_flag = lotus_school_flag }
 		NOT = { has_character_flag = zen_flag }
-		NOT = { has_character_flag = vajrayana_flag }
+		NOT = { has_character_flag = yogacara_flag }
 		NOT = { has_character_flag = choosing_buddhist_sect }
 		primary_title = { higher_tier_than = BARON }
 	}
@@ -256,7 +256,7 @@ character_event = {
 	}	
 	option = {
 		name = buddhist.5.d
-		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Yogacara
 	}
 }
 
@@ -278,7 +278,7 @@ character_event = {
 	}	
 	option = {
 		name = buddhist.6.c
-		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Yogacara
 	}	
 	option = {
 		name = buddhist.6.d
@@ -304,7 +304,7 @@ character_event = {
 	}	
 	option = {
 		name = buddhist.7.c
-		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Yogacara
 	}	
 	option = {
 		name = buddhist.7.d
@@ -330,7 +330,7 @@ character_event = {
 	}	
 	option = {
 		name = buddhist.8.c
-		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Vajrayana
+		character_event = { id = buddhist.9 tooltip = "buddhist.9.tooltip" } # Yogacara
 	}	
 	option = {
 		name = buddhist.8.d
@@ -338,7 +338,7 @@ character_event = {
 	}
 }
 
-# learn about sects - Vajrayana
+# learn about sects - Yogacara
 character_event = {
 	id = buddhist.9
 	desc = buddhist.9.desc	
@@ -378,7 +378,7 @@ character_event = {
 		set_character_flag = zen_flag
 		clr_character_flag = pure_land_flag
 		clr_character_flag = lotus_school_flag
-		clr_character_flag = vajrayana_flag
+		clr_character_flag = yogacara_flag
 		clr_character_flag = choosing_buddhist_sect
 		remove_character_modifier = recently_chose_buddhist_sect
 		add_character_modifier = {
@@ -413,7 +413,7 @@ character_event = {
 		clr_character_flag = zen_flag
 		set_character_flag = pure_land_flag
 		clr_character_flag = lotus_school_flag
-		clr_character_flag = vajrayana_flag
+		clr_character_flag = yogacara_flag
 		clr_character_flag = choosing_buddhist_sect
 		remove_character_modifier = recently_chose_buddhist_sect
 		add_character_modifier = {
@@ -446,7 +446,7 @@ character_event = {
 		clr_character_flag = zen_flag
 		clr_character_flag = pure_land_flag
 		set_character_flag = lotus_school_flag
-		clr_character_flag = vajrayana_flag
+		clr_character_flag = yogacara_flag
 		clr_character_flag = choosing_buddhist_sect
 		remove_character_modifier = recently_chose_buddhist_sect
 		add_character_modifier = {
@@ -473,13 +473,13 @@ character_event = {
 			}
 		}
 	}			
-	option = { #Vajrayana
+	option = { #Yogacara
 		name = buddhist.10.d
-		custom_tooltip = { text = i_choose_vajrayana }
+		custom_tooltip = { text = i_choose_yogacara }
 		clr_character_flag = zen_flag
 		clr_character_flag = pure_land_flag
 		clr_character_flag = lotus_school_flag
-		set_character_flag = vajrayana_flag
+		set_character_flag = yogacara_flag
 		clr_character_flag = choosing_buddhist_sect
 		remove_character_modifier = recently_chose_buddhist_sect
 		add_character_modifier = {

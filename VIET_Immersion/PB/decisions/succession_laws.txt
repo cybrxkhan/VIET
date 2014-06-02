@@ -52,34 +52,34 @@ succession_laws = {
 				}
 			}
 			is_primary_type_title = no
-			NOT = { tier = baron }
 		}
 		allow = {
-			holder_scope = {
-				OR = {
-					AND = {
-						tier = count
-						prestige = 100
-					}
-					AND = {
-						tier = duke
-						prestige = 250
-					}
-					AND = {
-						tier = king
-						prestige = 500
-					}
-					AND = {
-						tier = emperor
-						prestige = 1000
-					}
-				}
+			OR = {
+				is_recent_grant = yes
 				AND = {
-					is_feudal = yes
-					NOT = { has_landed_title = e_hre}						
+					holder_scope = {
+						OR = {
+							AND = {
+								tier = count
+								prestige = 100
+							}
+							AND = {
+								tier = duke
+								prestige = 250
+							}
+							AND = {
+								tier = king
+								prestige = 500
+							}
+							AND = {
+								tier = emperor
+								prestige = 1000
+							}
+						}
+					}
+					NOT = { has_law = hre_law_0 }
 				}
 			}
-			NOT = { has_law = hre_law_0 }
 		}
 		effect = {
 			succession = gavelkind
@@ -108,18 +108,17 @@ succession_laws = {
 						}
 					}
 				}
+				
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-						NOT = { religion_group = indian_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
 					is_patrician = yes
+					culture_group = west_african
 				}
 				
 				OR = {
@@ -163,48 +162,53 @@ succession_laws = {
 		
 		allow = {
 			OR = {
-				hidden_tooltip = {
-					has_crown_law_title = no
-				}
-				holder_scope = { is_patrician = yes }
-				lower_tier_than = king
-				crownlaw_title = {
+				is_recent_grant = yes
+				AND = {
 					OR = {
-						has_law = king_peace_1
-						has_law = king_peace_2
-						has_law = emperor_peace_1
-						has_law = emperor_peace_2
-						has_law = revokation_1
-						has_law = revokation_2
-						has_law = inheritance_1
-						has_law = crown_levies_2
-						has_law = crown_levies_3
-						has_law = crown_levies_4
+						hidden_tooltip = {
+							has_crown_law_title = no
+						}
+						holder_scope = { is_patrician = yes }
+						lower_tier_than = king
+						crownlaw_title = {
+							OR = {
+								has_law = king_peace_1
+								has_law = king_peace_2
+								has_law = emperor_peace_1
+								has_law = emperor_peace_2
+								has_law = revokation_1
+								has_law = revokation_2
+								has_law = inheritance_1
+								has_law = crown_levies_2
+								has_law = crown_levies_3
+								has_law = crown_levies_4
+							}
+						}
 					}
+					holder_scope = {
+						OR = {
+							is_patrician = yes
+							AND = {
+								tier = count
+								prestige = 100
+							}
+							AND = {
+								tier = duke
+								prestige = 250
+							}
+							AND = {
+								tier = king
+								prestige = 500
+							}
+							AND = {
+								tier = emperor
+								prestige = 1000
+							}
+						}
+					}
+					NOT = { has_law = hre_law_0 }
 				}
 			}
-			holder_scope = {
-				OR = {
-					is_patrician = yes
-					AND = {
-						tier = count
-						prestige = 100
-					}
-					AND = {
-						tier = duke
-						prestige = 250
-					}
-					AND = {
-						tier = king
-						prestige = 500
-					}
-					AND = {
-						tier = emperor
-						prestige = 1000
-					}
-				}
-			}
-			NOT = { has_law = hre_law_0 }
 		}
 		
 		effect = {
@@ -233,14 +237,13 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-					}
-					culture_group = west_african 
+					NOT = { religion_group = pagan_group }
 					is_reformed_religion = yes
 					religion = hellenic_pagan
+					culture_group = west_african
+					religion_group = indian_group
 				}
 				
 				is_merchant_republic = no
@@ -280,42 +283,47 @@ succession_laws = {
 		}
 		allow = {
 			OR = {
-				lower_tier_than = king
-				hidden_tooltip = {
-					has_crown_law_title = no
-				}
-				crownlaw_title = {
+				is_recent_grant = yes
+				AND = {
 					OR = {
-						has_law = king_peace_1
-						has_law = king_peace_2
-						has_law = emperor_peace_1
-						has_law = emperor_peace_2
-						has_law = revokation_1
-						has_law = revokation_2
+						lower_tier_than = king
+						hidden_tooltip = {
+							has_crown_law_title = no
+						}
+						crownlaw_title = {
+							OR = {
+								has_law = king_peace_1
+								has_law = king_peace_2
+								has_law = emperor_peace_1
+								has_law = emperor_peace_2
+								has_law = revokation_1
+								has_law = revokation_2
+							}
+						}
 					}
+					holder_scope = {
+						OR = {
+							AND = {
+								tier = count
+								prestige = 200
+							}
+							AND = {
+								tier = duke
+								prestige = 500
+							}
+							AND = {
+								tier = king
+								prestige = 1000
+							}
+							AND = {
+								tier = emperor
+								prestige = 2000
+							}
+						}
+					}
+					NOT = { has_law = hre_law_0 }
 				}
 			}
-			holder_scope = {
-				OR = {
-					AND = {
-						tier = count
-						prestige = 200
-					}
-					AND = {
-						tier = duke
-						prestige = 500
-					}
-					AND = {
-						tier = king
-						prestige = 1000
-					}
-					AND = {
-						tier = emperor
-						prestige = 2000
-					}
-				}
-			}
-			NOT = { has_law = hre_law_0 }
 		}
 		
 		effect = {
@@ -344,15 +352,15 @@ succession_laws = {
 						}
 					}
 				}
+				NOT = { religion_group = muslim }
+				NOT = { religion_group = indian_group }
 				is_merchant_republic = no
 				is_patrician = no
 				
 				OR = {
-					AND = {
-						NOT = {religion_group = muslim }
-						NOT = {religion_group = pagan_group }
-						NOT = { religion_group = indian_group }
-					}
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
 					AND = {
 						OR = {
 							religion = ibadi
@@ -365,11 +373,9 @@ succession_laws = {
 							tier = emperor 
 						}						
 					}
-					culture_group = west_african 
-					is_reformed_religion = yes
-					religion = hellenic_pagan
 					has_landed_title = d_ibadi
 					religion = qarmatian
+					culture_group = west_african
 				}
 			}
 			OR = {
@@ -400,29 +406,34 @@ succession_laws = {
 			}
 		}
 		allow = {
-			NOT = { has_law = revokation_2 }
-			NOT = { has_law = king_peace_2 }
-			NOT = { has_law = emperor_peace_2 }
-			NOT = { has_law = inheritance_1 }
-			NOT = { has_law = crown_levies_3 }
-			NOT = { has_law = crown_levies_4 }
-			holder_scope = {
-				OR = {
-					AND = {
-						tier = count
-						prestige = 100
-					}
-					AND = {
-						tier = duke
-						prestige = 250
-					}
-					AND = {
-						tier = king
-						prestige = 500
-					}
-					AND = {
-						tier = emperor
-						prestige = 1000
+			OR = {
+				is_recent_grant = yes
+				AND = {
+					NOT = { has_law = revokation_2 }
+					NOT = { has_law = king_peace_2 }
+					NOT = { has_law = emperor_peace_2 }
+					NOT = { has_law = inheritance_1 }
+					NOT = { has_law = crown_levies_3 }
+					NOT = { has_law = crown_levies_4 }
+					holder_scope = {
+						OR = {
+							AND = {
+								tier = count
+								prestige = 100
+							}
+							AND = {
+								tier = duke
+								prestige = 250
+							}
+							AND = {
+								tier = king
+								prestige = 500
+							}
+							AND = {
+								tier = emperor
+								prestige = 1000
+							}
+						}
 					}
 				}
 			}
@@ -457,9 +468,9 @@ succession_laws = {
 				is_merchant_republic = no
 				is_patrician = no
 				OR = {
-						culture_group = celtic
-						culture = saxon
-						culture_group = altaic
+					culture_group = celtic
+					culture = saxon
+					culture_group = altaic
 				}
 			}
 			OR = {
@@ -483,46 +494,41 @@ succession_laws = {
 			}
 		}
 		allow = {
-			holder_scope = {
-				OR = {
-					AND = {
-						tier = count
-						prestige = 100
-					}
-					AND = {
-						tier = duke
-						prestige = 250
-					}
-					AND = {
-						tier = king
-						prestige = 500
-					}
-					AND = {
-						tier = emperor
-						prestige = 1000
-					}
-				}
-				OR = {
-					culture_group = celtic
-					AND = {
-						ai = no
-						NOT = { trait = content }
-						NOT = { trait = craven }
-						NOT = { trait = slothful }
-						NOT = { trait = stressed }
+			OR = {
+				is_recent_grant = yes
+				AND = {
+					holder_scope = {
 						OR = {
-							trait = ambitious
-							trait = brave
-							trait = diligent
+							AND = {
+								tier = count
+								prestige = 100
+							}
+							AND = {
+								tier = duke
+								prestige = 250
+							}
+							AND = {
+								tier = king
+								prestige = 500
+							}
+							AND = {
+								tier = emperor
+								prestige = 1000
+							}
+						}
+						OR = {
+							culture_group = celtic
+							ai = no
+							culture = saxon
+							culture_group = altaic
 						}
 					}
+					NOT = { has_law = hre_law_0 }
 				}
 			}
-			NOT = { has_law = hre_law_0 }
 		}
 		effect = {
 			succession = tanistry
-			gender_succ = agnatic
 		}
 		revoke_allowed = {
 			always = no
@@ -546,17 +552,9 @@ succession_laws = {
 				}
 				OR = {
 					culture = mongol
-					AND = {
-						NOT = { religion = norse_pagan }
-						NOT = { religion = tengri_pagan }
-						NOT = { religion = baltic_pagan }
-						NOT = { religion = finnish_pagan }
-						NOT = { religion = aztec }
-						NOT = { religion = pagan }
-						NOT = { religion = slavic_pagan }
-						NOT = { religion = west_african_pagan }
-						NOT = { religion = east_african_pagan }
-					}
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+					religion = hellenic_pagan
 				}
 				
 				NOT = { religion_group = muslim }
@@ -593,46 +591,51 @@ succession_laws = {
 		}
 		allow = {
 			OR = {
-				hidden_tooltip = {
-					has_crown_law_title = no
-				}
-				lower_tier_than = king
-				crownlaw_title = {
+				is_recent_grant = yes
+				AND = {
 					OR = {
-						has_law = king_peace_1
-						has_law = king_peace_2
-						has_law = emperor_peace_1
-						has_law = emperor_peace_2
-						has_law = revokation_1
-						has_law = revokation_2
-						has_law = inheritance_1
-						has_law = crown_levies_2
-						has_law = crown_levies_3
-						has_law = crown_levies_4
+						hidden_tooltip = {
+							has_crown_law_title = no
+						}
+						lower_tier_than = king
+						crownlaw_title = {
+							OR = {
+								has_law = king_peace_1
+								has_law = king_peace_2
+								has_law = emperor_peace_1
+								has_law = emperor_peace_2
+								has_law = revokation_1
+								has_law = revokation_2
+								has_law = inheritance_1
+								has_law = crown_levies_2
+								has_law = crown_levies_3
+								has_law = crown_levies_4
+							}
+						}
 					}
+					holder_scope = {
+						OR = {
+							AND = {
+								tier = count
+								prestige = 100
+							}
+							AND = {
+								tier = duke
+								prestige = 250
+							}
+							AND = {
+								tier = king
+								prestige = 500
+							}
+							AND = {
+								tier = emperor
+								prestige = 1000
+							}
+						}
+					}
+					NOT = { has_law = hre_law_0 }
 				}
 			}
-			holder_scope = {
-				OR = {
-					AND = {
-						tier = count
-						prestige = 100
-					}
-					AND = {
-						tier = duke
-						prestige = 250
-					}
-					AND = {
-						tier = king
-						prestige = 500
-					}
-					AND = {
-						tier = emperor
-						prestige = 1000
-					}
-				}
-			}
-			NOT = { has_law = hre_law_0 }
 		}
 		
 		effect = {
@@ -881,12 +884,9 @@ gender_laws = {
 			is_primary_type_title = no
 		}
 		allow = {
-			AND = {
-				NOT = { has_law = succ_tanistry }
-				OR = {
-					has_law = agnatic_succession
-					has_law = true_cognatic_succession
-				}
+			OR = {
+				has_law = agnatic_succession
+				has_law = true_cognatic_succession
 			}
 			holder_scope = { prestige = 500 }
 		}
@@ -920,7 +920,6 @@ gender_laws = {
 			factor = 1
 		}		
 	}
-	
 	true_cognatic_succession = {
 		male_dynasty_opinion = -10
 		
@@ -1013,7 +1012,6 @@ gender_laws = {
 								has_nickname = nick_the_great
 							}
 						}
-						NOT = { has_law = succ_tanistry }
 					}
 				}
 				has_law = enatic_cognatic_succession

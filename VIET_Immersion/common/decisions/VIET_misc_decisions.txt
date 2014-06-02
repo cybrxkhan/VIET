@@ -3,6 +3,7 @@ decisions = {
 	claim_byzantine_empire = {
 		is_high_prio = yes
 		potential = {
+			always = no
 			prestige = 40 #need 400 prestige to see the decision
 			is_feudal = yes
 			NOT = { tier = baron }
@@ -126,10 +127,6 @@ decisions = {
 			modifier = {
 				factor = 1.8
 				trait = proud
-			}
-			modifier = {
-				factor = 0.6
-				trait = humble
 			}
 			modifier = {
 				factor = 2
@@ -724,6 +721,7 @@ decisions = {
 	
 	take_courtier_as_concubine = { # AI Pagan rulers get concubines
 		potential = {
+			always = no
 			is_ruler = yes
 			higher_tier_than = baron
 			is_adult = yes

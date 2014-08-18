@@ -247,5 +247,102 @@ VIETmisc.2048.b;We must help those poor peasants!;;;;;;;;;;;;;x
 VIETmisc.2049.desc;The sun is high above - it’s noontime, isn’t it? And it is rather hot outside. You’ve been out for a bit too long doing whatever business you were doing, and you’re starting to feel a little light-headed.;;;;;;;;;;;x
 VIETmisc.2049.a;Better retreat inside into the shade, maybe drink some water too.;;;;;;;;;;;;;x
 VIETmisc.2049.b;I have some business to finish, unfortunately!;;;;;;;;;;;;;x
-VIETmisc.2050.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2050.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2050.desc;Oh dear, it seems like I've misplaced one of my rings. Goodness gracious, what am I to do?;;;;;;;;;;;x
+VIETmisc.2050.a;Oh well... hopefully we'll find it....;;;;;;;;;;;;;x
+VIETmisc.2050.b;Oh well... hopefully we'll find it....;;;;;;;;;;;;;x
+VIETmisc.2051.desc;One of my courtiers seems to be sad. Why I asked why, I learned that their favorite horse was very ill, and unlikely to survive. I remember this steed was a fine specimen, worthy of honor and praise, who brought its master much prestige and joy.;;;;;;;;;;;x
+VIETmisc.2051.a;Such is life, unfortunately!;;;;;;;;;;;;;x
+VIETmisc.2051.b;Such is life, unfortunately!;;;;;;;;;;;;;x
+VIETmisc.2052.desc;My life is terrible.;;;;;;;;;;;x
+VIETmisc.2052.a;Why?;;;;;;;;;;;;;x
+VIETmisc.2053.desc;I feel exhausted...;;;;;;;;;;;x
+VIETmisc.2053.a;So exhausted...;;;;;;;;;;;;;x
+VIETmisc.2054.desc;I threw up on someone!;;;;;;;;;;;x
+VIETmisc.2054.a;Heehee.;;;;;;;;;;;;;x
+VIETmisc.2055.tooltip;Uh-oh...;;;;;;;;;;;x
+VIETmisc.2055.desc;That little brat [From.GetFirstName] threw up on me while we were dining.;;;;;;;;;;;x
+VIETmisc.2055.a;Ew.;;;;;;;;;;;;;x
+VIETmisc.2056.desc;Thankfully, I've discovered where I misplaced my ring. It was under my bed.;;;;;;;;;;;x
+VIETmisc.2056.a;Thankfully, I've discovered where I misplaced my ring. It was under my bed.;;;;;;;;;;;;;x
+VIETmisc.2057.desc;While traveling to a nearby town on official business you come across a corpse on the side of the road. Upon further inspection, it appears to be a beggar who died of who knows what.;;;;;;;;;;;x
+VIETmisc.2057.a;Ignore the corpse and move on.;;;;;;;;;;;;;x
+VIETmisc.2057.b;Inspect it - maybe the beggar has something of use?;;;;;;;;;;;;;x
+VIET_beggar_corpse_inspect;“What?” you say as everyone looks at you, bewildered. “Beggars might carry useful things! I read it in a story once!”;;;;;;;;;;;;;x
+VIETmisc.2058.desc;As one of your guards approaches the beggar, the old man suddenly jumps up. Everyone shouts in surprise, and your guard nearly cuts down the man by accident. It seems like the beggar was actually just in deep sleep.;;;;;;;;;;;x
+VIETmisc.2058.a;Haha, what a fool.;;;;;;;;;;;;;x
+VIETmisc.2058.b;Haha, have a coin, beggar, and [Root.Religion.GetRandomGodName] bless you.;;;;;;;;;;;x
+VIETmisc.2058.c;Kill that bastard! He dares offend me!;;;;;;;;;;;x
+VIETmisc.2059.desc;The beggar has nothing useful. That's to be expected. Behind you, someone says, “What sort of [Root.GetTitle] goes around searching beggars, anyways?”;;;;;;;;;;;x
+VIETmisc.2059.a;I feel foolish.;;;;;;;;;;;;;x
+VIET_ridiculous_greed;Ridiculous Greed;;;;;;;;;;;;;x
+VIET_ridiculous_greed_desc;The lengths this character would go to satisfy their greed are shocking.;;;;;;;;;;;;;x
+VIETmisc.2060.desc;The beggar seems to have a precious amulet of some sort - your suspicions were correct! Yet you can’t help but wonder. Why did he keep it, when he could have sold it for money? Did he steal it, and was unable to sell it? Or was it something so precious to him he couldn’t bear to part with it? Or was he just plain stupid?;;;;;;;;;;;x
+VIETmisc.2060.a;It’s mine now, at any rate. I probably can sell it.;;;;;;;;;;;;;x
+VIETmisc.2060.b;I don’t feel comfortable looting this beggar’s corpse.;;;;;;;;;;;;;x
+VIET_childlike_wonder;Childlike Wonder;;;;;;;;;;;x
+VIETmisc.2061.desc;Why does the sky have different colors when the sun rises and when the sun sets?;;;;;;;;;;;x
+VIETmisc.2061.a;So mysterious....;;;;;;;;;;;;;x
+VIETmisc.2062.desc;What was that?;;;;;;;;;;;x
+VIETmisc.2062.a;Never mind. Must have been my imagination.;;;;;;;;;;;;;x
+VIETmisc.2063.desc;Bwahahahahahahahahahaha! The suffering of others makes me feel so giddy inside. ;;;;;;;;;;;x
+VIETmisc.2063.a;It's like music to my ears.;;;;;;;;;;;;;x
+VIET_enjoys_others_suffering;Enjoys Others' Suffering;;;;;;;;;;;x
+VIET_enjoys_others_suffering_desc;This character is a terrible person who delighs in the pain of others.;;;;;;;;;;;x
+VIET_sunset_watcher;Sunset Watcher;;;;;;;;;;;x
+VIET_sunset_watcher_desc;This character often goes out late in the day to watch the sun set, as it brings them inner peace.;;;;;;;;;;;x
+VIETmisc.2064.desc;Now and then, I like to sneak out at dusk and watch the sun as it sets in the sky.;;;;;;;;;;;x
+VIETmisc.2064.a;It's lovely, isn't it?;;;;;;;;;;;;;x
+VIETmisc.2065.desc;Today’s sunset is particularly beautiful. Words can’t describe it.;;;;;;;;;;;x
+VIETmisc.2065.a;I’m loving it.;;;;;;;;;;;;;x
+opinion_sexy_times;Did naughty things with me recently;;;;;;;;;;;x
+VIETmisc.2066.desc;Making love to my beloved during the sunset was a magical experience. My lover may not understand why sunsets appeal to me, but that’s fine.;;;;;;;;;;;x
+VIETmisc.2066.a;While the sun may set, something else rises...;;;;;;;;;;;;;x
+VIETmisc.2067.desc;I’ve learned that one of my courtiers enjoys watching sunsets, just like me. Yesterday we watched the sunset together, and found that despite our differences, we both shared many things as well.;;;;;;;;;;;x
+VIETmisc.2067.a;My sunset-watching buddy!;;;;;;;;;;;;;x
+VIET_navel_gazing;Navel-Gazer;;;;;;;;;;;x
+VIET_navel_gazing_desc;What's the meaning of life?;;;;;;;;;;;x
+VIETmisc.2068.desc;I feel as if my life was just a part of some bard's pathetic tale, and I'm just a character in it.;;;;;;;;;;;x
+VIETmisc.2068.a;Who would care about my life, anyways?;;;;;;;;;;;;;x
+VIETmisc.2069.desc;This itch is really bothersome. I can't stop scratching it.;;;;;;;;;;;x
+VIETmisc.2069.a;I look like a fool in front of my court!;;;;;;;;;;;;;x
+VIETmisc.2070.desc;A tree above me sways gently, its shadow caressing my face. Nearby, I hear the water quietly running down to the fountain below. Birds chirp, and insects buzz. Yes! When I sit in the garden to relax, I feel closer to Allah, and feel his compassion, his mercy, the ingenuity of his designs. It’s as if I can see all of nature before me, from the desert warmth to the ocean breeze.;;;;;;;;;;;x
+VIETmisc.2070.a;Also, it's a good place to take a nice nap.;;;;;;;;;;;;;x
+VIETmisc.2071.desc;Something smells funny….\n\nNever mind, the smell went away.;;;;;;;;;;;x
+VIETmisc.2071.a;Must’ve been my mind playing tricks on me.;;;;;;;;;;;;;x
+VIETmisc.2072.desc;In the middle of a conversation with a courtier, you pause, suddenly. You forgot what you were going to say next.;;;;;;;;;;;x
+VIETmisc.2072.a;I hate it when that happens.;;;;;;;;;;;;;x
+VIETmisc.2073.desc;Some disgustingly horrific, vile thought just entered my mind. Try as I might, I can’t get rid of it!;;;;;;;;;;;x
+VIETmisc.2073.a;If I told my court, they’d think me a lunatic.;;;;;;;;;;;;;x
+VIETmisc.2073.b;Then again, this isn’t the weirdest thing I’ve thought of.;;;;;;;;;;;;;x
+VIETmisc.2074.desc;For the past few weeks, your court has been short on baklava. Thankfully, a new batch has just arrived from the local baklava merchants! Praise be to [Root.Religion.GetRandomGodName] indeed!;;;;;;;;;;;x
+VIETmisc.2074.a;Now out of my way, fools, I have baklava to eat!;;;;;;;;;;;;;x
+VIETmisc.2075.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2075.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2076.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2076.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2077.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2077.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2078.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2078.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2079.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2079.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2080.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2080.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2081.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2081.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2082.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2082.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2083.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2083.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2084.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2084.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2085.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2085.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2086.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2086.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2087.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2087.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2088.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2088.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2089.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2089.a;Xxxxxxffff;;;;;;;;;;;;;x

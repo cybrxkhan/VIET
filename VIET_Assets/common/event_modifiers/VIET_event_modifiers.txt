@@ -428,29 +428,6 @@ VIET_efficient_time = {
 	stewardship = 1
 	icon = 10
 }
-VIET_ridiculous_greed = {
-	monthly_character_piety = -0.05
-	monthly_character_prestige = -0.1
-	icon = 24
-}
-VIET_childlike_wonder = {
-	diplomacy = 1
-	icon = 39
-}
-VIET_enjoys_others_suffering = {
-	diplomacy = -2
-	martial = 1
-	icon = 36
-}
-VIET_sunset_watcher = {
-	monthly_character_piety = 0.02
-	icon = 8
-}
-VIET_navel_gazing = {
-	diplomacy = -1
-	learning = 2
-	icon = 2
-}
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

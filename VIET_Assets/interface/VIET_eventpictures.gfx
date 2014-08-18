@@ -640,16 +640,6 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\khitan_invasion.tga"
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_evt_hyouka"
-		texturefile = "gfx\\event_pictures\hyouka.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_rainstorm"
-		texturefile = "gfx\\event_pictures\rainstorm.tga"
-		allwaystransparent = yes
-	}
 	
 	
 	#Buddhist	

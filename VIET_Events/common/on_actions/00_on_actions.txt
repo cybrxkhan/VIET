@@ -377,6 +377,22 @@ on_yearly_pulse = {
 		100 = VIETmisc.2024
 		100 = VIETmisc.2025
 		100 = VIETmisc.3000
+		#Generica
+		100 = VIETmisc.2050
+		100 = VIETmisc.2052
+		100 = VIETmisc.2053
+		100 = VIETmisc.2062
+		100 = VIETmisc.2063
+		100 = VIETmisc.2065
+		100 = VIETmisc.2066
+		100 = VIETmisc.2067
+		100 = VIETmisc.2068
+		100 = VIETmisc.2069
+		100 = VIETmisc.2070
+		100 = VIETmisc.2071
+		100 = VIETmisc.2072
+		100 = VIETmisc.2073
+		100 = VIETmisc.2074
 		
 		#VIET CULTURE SPECIFIC EVENTS
 		#African
@@ -746,6 +762,8 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.335
 		#References
 		3 = VIETmisc.2513
+		#Generica
+		10 = VIETmisc.2051
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -917,6 +935,9 @@ on_five_year_pulse = {
 		10 = VIETnam.183
 		#Briton
 		10 = VIETmisc.2026
+		#Generica
+		10 = VIETmisc.2057
+		10 = VIETmisc.2064
 		
 		#VIET Event Chains
 		2 = VIETmisc.2513
@@ -928,7 +949,7 @@ on_five_year_pulse = {
 		2 = fantasia.0
 		2 = fantasia.8 
 		
-		40 = 0
+		80 = 0
 	}
 }
 
@@ -1039,6 +1060,9 @@ on_yearly_childhood_pulse = {
 		10 = VIETnam.336
 		#Sogdian
 		100 = VIETmisc.2044
+		#Generica
+		15 = VIETmisc.2054
+		15 = VIETmisc.2061
 		
 		#VIET CVLTVRE
 		#Turkish

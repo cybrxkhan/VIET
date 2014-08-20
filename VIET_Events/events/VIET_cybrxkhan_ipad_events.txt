@@ -3914,11 +3914,7 @@ character_event = {
 					}					
 				}
 			}
-		}
-		OR = {
-			is_married = yes
-			has_lover = yes
-		}
+		}		
 	}
 
 	weight_multiplier = {

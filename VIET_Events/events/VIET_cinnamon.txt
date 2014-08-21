@@ -1388,7 +1388,7 @@ character_event = {
 
 	immediate = {
 		FROM = {
-			character_event = { id = VIETmisc.5035 }
+			character_event = { id = VIETmisc.5036 }
 		}
 	}
 
@@ -1436,14 +1436,12 @@ narrative_event = {
 	desc = VIETmisc.5038.desc
 	picture = GFX_evt_castle_construction
 
-	hide_window = yes
-
 	is_triggered_only = yes
 
 	option = {
 		name = VIETmisc.5038.a
 		FROM = {
-			character_event = { id = VIETmisc.5039 }
+			character_event = { id = VIETmisc.5039 tooltip = VIETmisc.5039.tooltip }
 		}
 	}
 
@@ -1461,7 +1459,7 @@ character_event = {
 
 	immediate = {
 		FROM = {
-			character_event = { id = VIETmisc.5039 }
+			character_event = { id = VIETmisc.5040 }
 		}
 	}
 
@@ -1474,14 +1472,12 @@ narrative_event = {
 	desc = VIETmisc.5040.desc
 	picture = GFX_evt_lovers
 
-	hide_window = yes
-
 	is_triggered_only = yes
 
 	option = {
 		name = VIETmisc.5040.a
 		FROM = {
-			character_event = { id = VIETmisc.5041 }
+			character_event = { id = VIETmisc.5041 tooltip = VIETmisc.5041.tooltip }
 		}
 	}
 }
@@ -1510,8 +1506,6 @@ character_event = {
 	title = VIETmisc.5042.title
 	desc = VIETmisc.5042.desc
 	picture = GFX_evt_hyouka
-
-	hide_window = yes
 
 	is_triggered_only = yes
 

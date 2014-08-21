@@ -144,7 +144,7 @@ VIETmisc.5030.desc;[From.GetFirstName] has been bothering me with that stupid fa
 VIETmisc.5030.a;“Sure,” she says, “What could go wrong?”;;;;;;;;;;;;;x
 VIETmisc.5031.tooltip;Heh heh… just you wait, silly sister of mine.;;;;;;;;;;;;;x
 VIETmisc.5032.title;The Toothbrush;;;;;;;;;;;;;x
-VIETmisc.5032.desc;I return with a toothbrush, and tell [From.GetFirstName] what game we’ll be playing: “I will brush your teeth, for, say, five minutes. If you can bear with it, then I’ll do as you wish.”\n\nWhen my sister looks at me incredulously, bewildered at why I would do this, I explain. “It is uncomfortable when someone touches your hair, no? Or when someone tickles you for that matter, right? Then if someone were to brush your teeth, it’d be extremely uncomfortable. Endure this discomfort for five minutes, and you win.”\n\nYour sister understands, and laughs. She’s confident she can win such a silly game.;;;;;;;;;;;x
+VIETmisc.5032.desc;I return with a toothbrush, and tell [From.GetFirstName] what game we’ll be playing: “I will brush your teeth, for, say, five minutes. If you can bear with it, then I’ll do as you wish.”\n\nWhen my sister looks at me incredulously, bewildered at why I would do this, I explain. “It is uncomfortable when someone touches your hair, no? Or when someone tickles you for that matter, right? Then if someone were to brush your teeth, it’d be extremely uncomfortable. Endure this discomfort for five minutes, and you win.”\n\nMy sister understands, and laughs. She’s confident she can win such a silly game.;;;;;;;;;;;x
 VIETmisc.5032.a;How naive. Let’s begin, then!;;;;;;;;;;;;;x
 VIETmisc.5033.tooltip;The two of you sit down, and you ready the toothbrush. “Say aaah,” you tell her.;;;;;;;;;;;;;x
 VIETmisc.5034.title;Uncomfortable;;;;;;;;;;;;;x
@@ -164,7 +164,7 @@ VIETmisc.5040.desc;After a long awkward silence, eventually, I speak. “Um… well,
 VIETmisc.5040.a;“Sure,” I reply, “Why not.”;;;;;;;;;;;;;x
 VIETmisc.5041.tooltip;My sister and I watch each other warily for a moment, and then...;;;;;;;;;;;;;x
 VIETmisc.5042.title;Fraternal Love;;;;;;;;;;;;;x
-VIETmisc.5042.desc;And so, after that day, NAME and I began to get along a little better.;;;;;;;;;;;x
+VIETmisc.5042.desc;And so, after that day, [From.GetFirstName] and I began to get along a little better.;;;;;;;;;;;x
 VIETmisc.5042.a;To be honest, I don’t remember who won the contest.;;;;;;;;;;;;;x
 VIETmisc.5043.title;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5043.desc;xxxxx;;;;;;;;;;;x

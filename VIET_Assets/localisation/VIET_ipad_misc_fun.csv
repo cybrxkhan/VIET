@@ -316,33 +316,90 @@ VIETmisc.2073.a;If I told my court, they’d think me a lunatic.;;;;;;;;;;;;;x
 VIETmisc.2073.b;Then again, this isn’t the weirdest thing I’ve thought of.;;;;;;;;;;;;;x
 VIETmisc.2074.desc;For the past few weeks, your court has been short on baklava. Thankfully, a new batch has just arrived from the local baklava merchants! Praise be to [Root.Religion.GetRandomGodName] indeed!;;;;;;;;;;;x
 VIETmisc.2074.a;Now out of my way, fools, I have baklava to eat!;;;;;;;;;;;;;x
-VIETmisc.2075.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2075.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2076.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2076.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2077.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2077.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2078.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2078.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2079.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2079.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2080.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2080.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2081.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2081.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2082.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2082.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2083.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2083.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2084.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2084.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2085.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2085.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2086.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2086.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2087.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2087.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2088.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2088.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2089.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2089.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2075.desc;There is a large clump of dirt under one of my fingernails.;;;;;;;;;;;x
+VIETmisc.2075.a;Who cares.;;;;;;;;;;;;;x
+VIETmisc.2075.b;Better remove it.;;;;;;;;;;;;;x
+VIETmisc.2076.desc;The weather is unusually pleasant today.;;;;;;;;;;;x
+VIETmisc.2076.a;A good day!;;;;;;;;;;;;;x
+VIETmisc.2077.desc;Eerie, loud noises were heard at night in some of the nearby villages not too long ago. They were sometimes accompanied by strange colors in the sky. Investigation by our officials and soldiers could not determine as to what was the cause.;;;;;;;;;;;x
+VIETmisc.2077.a;Frightening!;;;;;;;;;;;;;x
+VIETmisc.2078.desc;A strange report from one of your messengers! It appears that every inhabitant of one of the villages in your realm has mysteriously vanished a year ago. Many have searched far and wide, but none were able to where any of these villagers went. Were they murdered? Wandered away? Kidnapped by bandits or otherworldly beings?;;;;;;;;;;;x
+VIETmisc.2078.a;Seems like supernatural forces at work. Heavens preserve us!;;;;;;;;;;;;;x
+VIETmisc.2079.desc;While eating, you accidentally put way too much salt on your food, mistaking it for sugar or cheese or something of that sort.;;;;;;;;;;;x
+VIETmisc.2079.a;This tastes horrible! Too salty, too salty!;;;;;;;;;;;;;x
+VIETmisc.2080.desc;While holding court, I notice one of my courtiers is picking their nose.;;;;;;;;;;;x
+VIETmisc.2080.a;Disgusting! I should look away.;;;;;;;;;;;;;x
+VIETmisc.2080.b;I should draw attention to and embarrass them.;;;;;;;;;;;;;x
+VIETmisc.2080.c;Well, I like picking my nose too, so I don't see what's the issue.;;;;;;;;;;;;;x
+VIETmisc.2081.desc;NOOOOOOOOOOOOOO -\n\nOh, never mind. I thought my baklava disappeared, but it was just behind my globet.;;;;;;;;;;;x
+VIETmisc.2081.a;I did look like a fool, though, but I have no regrets!;;;;;;;;;;;;;x
+VIETmisc.2082.desc;While having intercourse with my lover, feeling the curves of their body, tickling the places that bring pleasure, and doing other intimate things with them, I notice a strange smell. It's a pleasant smell, but one I don't recognize. Could it... never mind, the smell goes away as quickly as it came.;;;;;;;;;;;x
+VIETmisc.2082.a;Probably just imagining things.;;;;;;;;;;;;;x
+VIETmisc.2083.desc;Lately, I've been able to last longer in bed.;;;;;;;;;;;x
+VIETmisc.2083.a;Bring on the fun!;;;;;;;;;;;;;x
+VIETmisc.2084.desc;I've heard rumors that the Emperors of Cathay are so virile that they have thousands of beautiful young concubines and make love with ten or more of them every night.;;;;;;;;;;;x
+VIETmisc.2084.a;I wish I had thousands of beautiful women with me!;;;;;;;;;;;;;x
+VIETmisc.2084.b;I'm content with the relationships I already have.;;;;;;;;;;;;;x
+VIETmisc.2084.c;Who would want to live in such a sinful lifestyle?;;;;;;;;;;;;;x
+VIETmisc.2084.d;I feel sorry for the Emperor, having to put up with so many women.;;;;;;;;;;;;;x
+VIETmisc.2085.desc;Last night, I dreamt of making love to the most beautiful person I ever met.;;;;;;;;;;;x
+VIETmisc.2085.a;I’m still feeling a bit aroused.;;;;;;;;;;;;;x
+VIETmisc.2086.desc;In your realm, stories have spread of a conman who sells “charms” to unsuspecting children. Some have said that these charms are actually real, others claim they are fake. Some say the fake ones are as effective if not more than real charms, and yet others believe the opposite. Regardless, the conman seems to have mysteriously left for other lands.;;;;;;;;;;;x
+VIETmisc.2086.a;I wonder whether he was a real conman, or a fake one?;;;;;;;;;;;;;x
+VIETmisc.2087.desc;Three pretty wenches throw themselves at you.;;;;;;;;;;;x
+VIETmisc.2087.a;YES!;;;;;;;;;;;;;x
+VIETmisc.2087.b;I'm not in the mood for this.;;;;;;;;;;;;;x
+VIET_foursome_aw_yeah;Three beauties at once? The only thing better than this is...;;;;;;;;;;;x
+VIETmisc.2088.desc;Unfortunately, it seems three wenches were too much for you, and you exhausted yourself way too quickly. In other words, you were a bit too eager, and embarrassed yourself due to your lack of stamina.;;;;;;;;;;;x
+VIETmisc.2088.a;Now I’ll be a laughingstock.;;;;;;;;;;;;;x
+VIETmisc.2088.b;I have no regrets.;;;;;;;;;;;;;x
+VIETmisc.2089.desc;You had a great tumble with those three wenches. Rumors are now spreading about your insatiable lust and great virility.;;;;;;;;;;;x
+VIETmisc.2089.a;I feel like a real, manly man.;;;;;;;;;;;;;x
+VIETmisc.2090.desc;While visiting one of the local taverns, you spot a barmaid, unusually attractive for a peasant. You starting making a move on her, but unlike other wenches you’ve come across, she begs for you to leave her alone. She dare refuses you, so mighty and powerful! She should be serving your needs, no?;;;;;;;;;;;x
+VIETmisc.2090.a;I'll do with her as I wish!;;;;;;;;;;;;;x
+VIETmisc.2090.b;It is wrong to force her like this. I shall leave her alone.;;;;;;;;;;;;;x
+VIET_barmaid_harassment;You can't wait to satisfy your lust.;;;;;;;;;;;x
+VIETmisc.2091.desc;As you rip her clothes off, and start having your way with her, you fail to notice a dark figure nearby. Before you or your guards can react, a man - who could be her husband, brother, father, friend, or someone else - jumps on you, screaming for you to leave her alone, and begins stabbing you. Though your guards quickly take care of him, it’s too late.;;;;;;;;;;;x
+VIETmisc.2091.a;Gugghhhh....;;;;;;;;;;;;;x
+VIET_you_deserved_it_for_harassing_barmaid;Before you pass out, you hear someone mutter, "That's what he gets for trying to mess with a girl like that.";;;;;;;;;;;x
+VIETmisc.2092.desc;What an amazing dream I had last night! After waking up, I rush over to one of my servants, and begin excitedly telling her about the dream. "You see, last night, I dreamt that I was... um, well, the dream mainly revolved around... uh....";;;;;;;;;;;x
+VIETmisc.2092.a;Crap, I forgot what it was about.;;;;;;;;;;;;;x
+VIETmisc.2093.desc;While out and about, visiting one of the local towns, I saw a most peculiar scene. A young man seemed to be gifting a friend of his a roasted bird, for food, but when his friend took the bird, it sprang to life! It was never dead in the first place. The friend looked terrified, while the young man only laughed at his successful prank.;;;;;;;;;;;x
+VIETmisc.2093.a;That was funny!;;;;;;;;;;;;;x
+VIETmisc.2093.b;I should ask him how he did that... I want to try such a prank!;;;;;;;;;;;;;x
+VIETmisc.2094.desc;I farted so loudly everyone must have heard me.;;;;;;;;;;;x
+VIETmisc.2094.a;Um...;;;;;;;;;;;;;x
+VIETmisc.2095.desc;While making love, I farted at a most unfortunate time.;;;;;;;;;;;x
+VIETmisc.2095.a;That killed the mood quickly.;;;;;;;;;;;;;x
+VIETmisc.2096.desc;I can’t believe it! One of my courtiers absolutely detests one of my favorite stories. Who could even think of criticizing it? Every time I hear a bard sing it I am absolutely spellbound. It has great character development, engaging dialogue, thought provoking themes, and deep symbolism.;;;;;;;;;;;x
+VIETmisc.2096.a;I admit it can be lewd here and there, but surprisingly this enhances it!;;;;;;;;;;;;;x
+VIETmisc.2097.desc;If my life was simply a bard’s tale, what kind of story would it be, I wonder?;;;;;;;;;;;x
+VIETmisc.2097.a;Romance;;;;;;;;;;;;;x
+VIETmisc.2097.b;Satire;;;;;;;;;;;;;x
+VIETmisc.2097.c;Epic;;;;;;;;;;;;;x
+VIETmisc.2097.d;Allegory;;;;;;;;;;;;;x
+VIETmisc.2098.desc;Lately there’s been a fad amongst the younger people, where they tilt their head in strange or awkward positions in order to emphasize things they say in the middle of a discussion. These “head tilts” are supposed to make them look imposing or mysterious. To my surprise, I’m pretty good at it myself and unlike the youths, I can pull it off well without looking like a fool.;;;;;;;;;;;x
+VIETmisc.2098.a;My neck is very flexible! Now fear me!;;;;;;;;;;;;;x
+VIETmisc.2098.b;That said, I don’t want to partake in this stupid fad.;;;;;;;;;;;;;x
+VIETmisc.2099.desc;I accidentally bit my tongue.;;;;;;;;;;;x
+VIETmisc.2099.a;Ouch!;;;;;;;;;;;;;x
+VIETmisc.2100.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2100.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2101.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2101.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2102.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2102.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2103.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2103.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2104.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2104.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2105.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2105.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2106.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2106.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2107.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2107.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2108.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2108.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2109.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2109.a;Xxxxxxffff;;;;;;;;;;;;;x

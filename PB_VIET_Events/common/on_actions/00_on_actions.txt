@@ -381,6 +381,31 @@ on_yearly_pulse = {
 		100 = VIETmisc.2024
 		100 = VIETmisc.2025
 		100 = VIETmisc.3000
+		#Generica
+		100 = VIETmisc.2050
+		100 = VIETmisc.2052
+		100 = VIETmisc.2053
+		100 = VIETmisc.2062
+		100 = VIETmisc.2063
+		100 = VIETmisc.2065
+		100 = VIETmisc.2066
+		100 = VIETmisc.2067
+		100 = VIETmisc.2068
+		100 = VIETmisc.2069
+		100 = VIETmisc.2070
+		100 = VIETmisc.2071
+		100 = VIETmisc.2072
+		100 = VIETmisc.2073
+		100 = VIETmisc.2074
+		100 = VIETmisc.2075
+		100 = VIETmisc.2076
+		100 = VIETmisc.2079
+		100 = VIETmisc.2080
+		100 = VIETmisc.2081
+		100 = VIETmisc.2092
+		100 = VIETmisc.2094
+		100 = VIETmisc.2095
+		100 = VIETmisc.2099
 		
 		#VIET CULTURE SPECIFIC EVENTS
 		#African
@@ -750,6 +775,14 @@ on_bi_yearly_pulse = {
 		10 = VIETnam.335
 		#References
 		3 = VIETmisc.2513
+		#Generica
+		10 = VIETmisc.2051
+		10 = VIETmisc.2082
+		10 = VIETmisc.2083
+		10 = VIETmisc.2085
+		10 = VIETmisc.2093
+		10 = VIETmisc.2096
+		10 = VIETmisc.2097
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -921,6 +954,16 @@ on_five_year_pulse = {
 		10 = VIETnam.183
 		#Briton
 		10 = VIETmisc.2026
+		#Generica
+		10 = VIETmisc.2057
+		10 = VIETmisc.2064
+		10 = VIETmisc.2077
+		10 = VIETmisc.2078
+		10 = VIETmisc.2084
+		10 = VIETmisc.2086
+		10 = VIETmisc.2087
+		10 = VIETmisc.2090
+		10 = VIETmisc.2098
 		
 		#VIET Event Chains
 		2 = VIETmisc.2513
@@ -931,8 +974,9 @@ on_five_year_pulse = {
 		2 = OCC.1 
 		2 = fantasia.0
 		2 = fantasia.8 
+		2 = VIETmisc.5028 #TOOTHBRUSHING IMOUTO
 		
-		40 = 0
+		80 = 0
 	}
 }
 
@@ -1043,6 +1087,9 @@ on_yearly_childhood_pulse = {
 		10 = VIETnam.336
 		#Sogdian
 		100 = VIETmisc.2044
+		#Generica
+		15 = VIETmisc.2054
+		15 = VIETmisc.2061
 		
 		#VIET CVLTVRE
 		#Turkish

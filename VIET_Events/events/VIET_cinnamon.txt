@@ -8,7 +8,9 @@
 # Cinnamon Toast Crunch 5000 - 5006
 # Napoleon's Omelette 5007-5014
 # The Minotaur 5015-5020
-# Tarim Basin Documents 5021-
+# Tarim Basin Documents 5021-5027
+# Imouto Toothbrushing 5028-5042
+#
 #
 ########################################################
 namespace = VIETmisc
@@ -1109,5 +1111,407 @@ narrative_event = {
 			name = best_meal_in_ages
 			duration = 365
 		}
+	}
+}
+
+
+########################################
+# IMOVTO TOOTHBRVSHING (see Nisemonogatari, second half of episode 8)
+########################################
+
+
+# Imouto and onii-chan
+character_event = {
+	id = VIETmisc.5028
+	desc = VIETmisc.5028.desc
+	picture = GFX_evt_marriage_zoroastrian_group
+
+	is_triggered_only = yes
+
+	min_age = 14
+	max_age = 18
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	only_men = yes
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no	
+		NOT = { has_global_flag =  VIET_nisemonogatari }
+		NOT = { has_character_flag =  VIET_koyomi }
+		OR = {
+			religion_group = zoroastrian_group
+			religion = messalian
+		}
+		OR = {
+			trait = gregarious
+			trait = lustful
+			trait = arbitrary
+			trait = brave
+			trait = lunatic
+			trait = cruel
+			trait = patient
+			trait = fair
+			trait = proud
+		}
+		NOT = { trait = chaste } #araragi isn't not a pervert
+		NOT = { trait = homosexual } #no yaoi
+		NOT = { has_character_flag = do_not_disturb }
+		NOT = {	health_traits = 1 }
+		has_lover = no
+		is_married = no
+		any_sibling = {
+			age = 14
+			NOT = { age = 18 }
+			is_female = yes
+			NOT = { trait = homosexual }
+			NOT = { trait = ugly }
+			NOT = { trait = hunchback }
+			NOT = { has_character_flag = do_not_disturb }
+			NOT = {	health_traits = 1 }
+			NOT = { has_character_flag =  VIET_karen }
+			NOT = {
+				is_rival = ROOT
+			}
+			NOT = {
+				is_friend = ROOT
+			}
+			has_lover = no
+			is_married = no
+			OR = {
+				religion_group = zoroastrian_group
+				religion = messalian
+			}
+		}		
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 5
+			trait = lustful
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+
+	option = {
+		name = VIETmisc.5028.a
+		set_global_flag =  VIET_nisemonogatari
+		set_character_flag =  VIET_koyomi
+		random_sibling = {
+			limit = {
+				age = 14
+				NOT = { age = 18 }
+				is_female = yes
+				NOT = { trait = ugly }
+				NOT = { trait = hunchback }
+				NOT = { has_character_flag = do_not_disturb }
+				NOT = {	health_traits = 1 }
+				NOT = { has_character_flag =  VIET_karen }
+				NOT = {
+					is_rival = ROOT
+				}
+				NOT = {
+					is_friend = ROOT
+				}
+				has_lover = no
+				is_married = no
+				OR = {
+					religion_group = zoroastrian_group
+					religion = messalian
+				}
+			}
+			set_character_flag = VIET_karen
+			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip }
+		}	
+	}
+}
+
+#Finding Karen
+character_event = {
+	id = VIETmisc.5029
+	desc = VIETmisc.5029.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = { 
+			character_event = { id = VIETmisc.5030 }
+		}
+	}
+
+}
+
+
+# Let's have a contest
+narrative_event = {
+	id = VIETmisc.5030
+	title = VIETmisc.5030.title
+	desc = VIETmisc.5030.desc
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5030.a
+		FROM = {
+			character_event = { id = VIETmisc.5031 tooltip = VIETmisc.5031.tooltip }
+		}
+	}
+}
+
+
+#Karen
+character_event = {
+	id = VIETmisc.5031
+	desc = VIETmisc.5031.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5032 }
+		}
+	}
+
+}
+
+# Toothbrush
+narrative_event = {
+	id = VIETmisc.5032
+	title = VIETmisc.5032.title
+	desc = VIETmisc.5032.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5032.a
+		FROM = {
+			character_event = { id = VIETmisc.5033 tooltip = VIETmisc.5033.tooltip }
+		}
+	}
+}
+
+#Karen
+character_event = {
+	id = VIETmisc.5033
+	desc = VIETmisc.5033.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5034 }
+		}
+	}
+
+}
+
+# Are?
+narrative_event = {
+	id = VIETmisc.5034
+	title = VIETmisc.5034.title
+	desc = VIETmisc.5034.desc
+	picture = GFX_evt_holy_light
+	
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5034.a
+		FROM = {
+			character_event = { id = VIETmisc.5035 tooltip = VIETmisc.5035.tooltip }
+		}
+	}
+}
+
+#Karen
+character_event = {
+	id = VIETmisc.5035
+	desc = VIETmisc.5035.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5036 }
+		}
+	}
+
+}
+
+# Almost Sex
+narrative_event = {
+	id = VIETmisc.5036
+	title = VIETmisc.5036.title
+	desc = VIETmisc.5036.desc
+	picture = GFX_evt_hyouka
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5036.a
+		FROM = {
+			character_event = { id = VIETmisc.5037 tooltip = VIETmisc.5037.tooltip }
+		}
+	}
+}
+
+#Karen
+character_event = {
+	id = VIETmisc.5037
+	desc = VIETmisc.5037.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5038 }
+		}
+	}
+
+}
+
+#Interrupted!
+narrative_event = {
+	id = VIETmisc.5038
+	title = VIETmisc.5038.title
+	desc = VIETmisc.5038.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5038.a
+		FROM = {
+			character_event = { id = VIETmisc.5039 tooltip = VIETmisc.5039.tooltip }
+		}
+	}
+
+}
+
+#Karen
+character_event = {
+	id = VIETmisc.5039
+	desc = VIETmisc.5039.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5040 }
+		}
+	}
+
+}
+
+#Rematch?
+narrative_event = {
+	id = VIETmisc.5040
+	title = VIETmisc.5040.title
+	desc = VIETmisc.5040.desc
+	picture = GFX_evt_lovers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5040.a
+		FROM = {
+			character_event = { id = VIETmisc.5041 tooltip = VIETmisc.5041.tooltip }
+		}
+	}
+}
+
+#Karen
+character_event = {
+	id = VIETmisc.5041
+	desc = VIETmisc.5041.desc
+	picture = GFX_evt_courtiers_talking
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			character_event = { id = VIETmisc.5042 }
+		}
+	}
+
+}
+
+#Getting Along
+character_event = {
+	id = VIETmisc.5042
+	title = VIETmisc.5042.title
+	desc = VIETmisc.5042.desc
+	picture = GFX_evt_hyouka
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETmisc.5042.a
+		add_lover = FROM
+		add_friend = FROM
 	}
 }

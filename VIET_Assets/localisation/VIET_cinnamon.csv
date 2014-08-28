@@ -136,6 +136,84 @@ VIETmisc.5027.desc;The scroll appears to be commercial or administrative in natu
 VIETmisc.5027.a;MOOOOO.;;;;;;;;;;;;;x
 VIETmisc.5027.b;I saw a cow the other day. Awful creatures. I avoid them whenever I can.;;;;;;;;;;;;;x
 VIETmisc.5027.c;I’m in the mood for some beef, actually.;;;;;;;;;;;;;x
-VIETmisc.5028.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5028.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5028.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5028.desc;The holy men always suggest I unite with my sister in a holy union. Ha! Never! Sure, she isn’t a bad person, but there are better choices out there. She is annoying at times, too. These past few days, for instance, she has been insisting I do a certain favor for her. It’s not an unreasonable favor, I admit, but why does it have to be me? ;;;;;;;;;;;x
+VIETmisc.5028.a;The holy men always suggest I unite with my sister in a holy union. Ha! Never! Sure, she isn’t a bad person, but there are better choices out there. She is annoying at times, too. These past few days, for instance, she has been insisting I do a certain favor for her. It’s not an unreasonable favor, I admit, but why does it have to be me? ;;;;;;;;;;;;;x
+VIETmisc.5029.tooltip;Sorry, my sister, but no.;;;;;;;;;;;;;x
+VIETmisc.5030.title;A Strange Contest;;;;;;;;;;;;;x
+VIETmisc.5030.desc;[From.GetFirstName] has been bothering me with that stupid favor again. At wit’s end, I think of a way to get rid of her. I rummage through my possessions, trying to see if there’s anything of use. Threatening her with a sword might be too drastic, for instance, and I don’t think bribing her with gold would work either. Then, I see something and come up with an idea.\n\nLater, when she approaches me again with the same request, I smile deviously, telling her that I will do the favor she asks… if, that is, she plays a “game” of my choosing.;;;;;;;;;;;x
+VIETmisc.5030.a;“Sure,” she says, “What could go wrong?”;;;;;;;;;;;;;x
+VIETmisc.5031.tooltip;Heh heh… just you wait, silly sister of mine.;;;;;;;;;;;;;x
+VIETmisc.5032.title;The Toothbrush;;;;;;;;;;;;;x
+VIETmisc.5032.desc;I return with a toothbrush, and tell [From.GetFirstName] what game we’ll be playing: “I will brush your teeth, for, say, five minutes. If you can bear with it, then I’ll do as you wish.”\n\nWhen my sister looks at me incredulously, bewildered at why I would do this, I explain. “It is uncomfortable when someone touches your hair, no? Or when someone tickles you for that matter, right? Then if someone were to brush your teeth, it’d be extremely uncomfortable. Endure this discomfort for five minutes, and you win.”\n\nMy sister understands, and laughs. She’s confident she can win such a silly game.;;;;;;;;;;;x
+VIETmisc.5032.a;How naive. Let’s begin, then!;;;;;;;;;;;;;x
+VIETmisc.5033.tooltip;The two of you sit down, and you ready the toothbrush. “Say aaah,” you tell her.;;;;;;;;;;;;;x
+VIETmisc.5034.title;Uncomfortable;;;;;;;;;;;;;x
+VIETmisc.5034.desc;Without further ado, I lower the toothbrush, and begin brushing [From.GetFirstName]’s teeth. She whimpers a bit, feeling uncomfortable, but manages to stay composed. I can only continue grinning, knowing the worst is yet to come.\n\nShe moans.\n\nI gulp. That moan sounded very strange. And as she trembles under the discomfort - and pleasure? - of the sensations, I, too, begin to feel strange.;;;;;;;;;;;x
+VIETmisc.5034.a;Seeing her like this… could she be more attractive than I realized?;;;;;;;;;;;;;x
+VIETmisc.5035.tooltip;I’m beginning to see her in a new light.;;;;;;;;;;;;;x
+VIETmisc.5036.title;Strange Sensations;;;;;;;;;;;;;x
+VIETmisc.5036.desc;As I continue moving the toothbrush back and forth in [From.GetFirstName]’s mouth, caressing her teeth, stroking her tongue, and other such things, she begins to whimper and moan more loudly. My heart begins to beat wildly, and my face grows hot. This is a bad, this is bad!\n\nMy head grows dizzy, as I feel a strange passion overwhelm me. And I see it in her eyes, too.\n\nI edge closer and closer to her, still brushing her teeth, and gaze deeply into her eyes. “[From.GetFirstName]...” I murmur, unable to resist any longer, as my free hand moves closer and closer to her.;;;;;;;;;;;x
+VIETmisc.5036.a;“It’s alright, brother,” she whimpers.;;;;;;;;;;;;;x
+VIETmisc.5037.tooltip;And my hand moves closer… and closer… and closer… and -;;;;;;;;;;;;;x
+VIETmisc.5038.title;Interrupted;;;;;;;;;;;;;x
+VIETmisc.5038.desc;“What are you two doing?”\n\nThe two of us jerk away from each other as one of my servants interrupts. Apparently he was passing by the room, and noticed the commotion. The servant looks bewildered at first. “What are you doing, master, pushing your sister down while she is smiling? And what are you doing, mistress, having a smile on your face while your brother pushes you down?”\n\n“What a coincidence! What were we doing?” [From.GetFirstName] and I exclaim in unison.\n\nThe servant says, “I absolutely understand! I won’t say a thing!”;;;;;;;;;;;x
+VIETmisc.5038.a;With that, the servant runs out.;;;;;;;;;;;;;x
+VIETmisc.5039.tooltip;Um…. This is awkward.;;;;;;;;;;;;;x
+VIETmisc.5040.title;Um…. This is awkward.;;;;;;;;;;;;;x
+VIETmisc.5040.desc;After a long awkward silence, eventually, I speak. “Um… well, [From.GetFirstName], it looks like you’ve won. That was certainly longer than five minutes. I’ll do that favor you want.”\n\n”Still,” she says, with a thoughtful look on her face, “That seems kind of unfair to you. Maybe we can make it best two out of three? I can brush your teeth this time.”\n\nI consider that for a moment.;;;;;;;;;;;x
+VIETmisc.5040.a;“Sure,” I reply, “Why not.”;;;;;;;;;;;;;x
+VIETmisc.5041.tooltip;My sister and I watch each other warily for a moment, and then...;;;;;;;;;;;;;x
+VIETmisc.5042.title;Fraternal Love;;;;;;;;;;;;;x
+VIETmisc.5042.desc;And so, after that day, [From.GetFirstName] and I began to get along a little better.;;;;;;;;;;;x
+VIETmisc.5042.a;To be honest, I don’t remember who won the contest.;;;;;;;;;;;;;x
+VIETmisc.5043.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5043.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5043.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5044.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5044.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5044.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5045.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5045.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5045.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5046.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5046.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5046.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5047.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5047.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5047.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5048.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5048.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5048.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5049.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5049.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5049.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5050.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5050.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5050.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5051.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5051.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5051.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5052.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5052.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5052.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5053.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5053.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5053.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5054.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5054.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5054.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5055.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5055.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5055.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5056.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5056.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5056.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5057.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5057.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5057.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5058.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5058.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5058.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5059.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5059.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5059.a;xxxxx;;;;;;;;;;;;;x

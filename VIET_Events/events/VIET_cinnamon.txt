@@ -1264,7 +1264,7 @@ character_event = {
 				}
 			}
 			set_character_flag = VIET_karen
-			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip }
+			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip days = 3 random = 3 }
 		}	
 	}
 }
@@ -1300,7 +1300,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5030.a
 		FROM = {
-			character_event = { id = VIETmisc.5031 tooltip = VIETmisc.5031.tooltip }
+			character_event = { id = VIETmisc.5031 tooltip = VIETmisc.5031.tooltip days = 2 random = 2 }
 		}
 	}
 }
@@ -1336,7 +1336,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5032.a
 		FROM = {
-			character_event = { id = VIETmisc.5033 tooltip = VIETmisc.5033.tooltip }
+			character_event = { id = VIETmisc.5033 tooltip = VIETmisc.5033.tooltip days = 1 }
 		}
 	}
 }
@@ -1371,7 +1371,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5034.a
 		FROM = {
-			character_event = { id = VIETmisc.5035 tooltip = VIETmisc.5035.tooltip }
+			character_event = { id = VIETmisc.5035 tooltip = VIETmisc.5035.tooltip days = 1 }
 		}
 	}
 }
@@ -1406,7 +1406,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5036.a
 		FROM = {
-			character_event = { id = VIETmisc.5037 tooltip = VIETmisc.5037.tooltip }
+			character_event = { id = VIETmisc.5037 tooltip = VIETmisc.5037.tooltip days = 1 }
 		}
 	}
 }
@@ -1441,7 +1441,7 @@ narrative_event = {
 	option = {
 		name = VIETmisc.5038.a
 		FROM = {
-			character_event = { id = VIETmisc.5039 tooltip = VIETmisc.5039.tooltip }
+			character_event = { id = VIETmisc.5039 tooltip = VIETmisc.5039.tooltip days = 1 random = 2 }
 		}
 	}
 

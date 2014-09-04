@@ -477,6 +477,11 @@ VIET_shaft_head_tilt = {
 	intrigue = 1
 	icon = 18
 }
+VIET_loves_toothbrushing = {
+	health = 0.2
+	general_opinion = 5
+	icon = 39
+}
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

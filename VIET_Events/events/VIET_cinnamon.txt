@@ -1364,7 +1364,7 @@ narrative_event = {
 	id = VIETmisc.5034
 	title = VIETmisc.5034.title
 	desc = VIETmisc.5034.desc
-	picture = GFX_evt_holy_light
+	picture = GFX_evt_toothbrush
 	
 	is_triggered_only = yes
 

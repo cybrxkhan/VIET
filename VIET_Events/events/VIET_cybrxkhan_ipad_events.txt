@@ -15,6 +15,7 @@
 # 2040-2044: Sogdian/Silk Road
 # 2045-2049: Time
 # 2050-2099: Really Generic Stuff
+# 2100-2109: Toothbrush
 # 3000-3099: various traits events coded by cybrxkhan on ipad while he is ill
 # 10050-10053: Fraticelli
 ########################################################
@@ -9335,6 +9336,1062 @@ character_event = {
 	option = {#Ok
 		name = VIETmisc.2099.a
 		prestige = -1
+	}
+}
+
+############################################################################################
+# TOOTHBRUSH (No Nisemonogatari references, surprisingly, but hopefully it'll probably be on your mind.)
+############################################################################################
+
+
+# Miswak usage is encouraged by scripture
+character_event = {
+	id = VIETmisc.2100
+	desc = VIETmisc.2100.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		religion_group = muslim
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			religion_group = muslim
+			OR = {
+				trait = slothful
+				trait = content
+				NOT = { health = 3 }
+				trait = ugly
+				trait = cynical
+				trait = depressed
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}
+	}
+
+	option = {#Ok
+		name = VIETmisc.2100.a
+		add_character_modifier = {
+			name = advice_giver
+			duration = 365
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				religion_group = muslim
+				OR = {
+					trait = slothful
+					trait = content
+					NOT = { health = 3 }
+					trait = ugly
+					trait = cynical
+					trait = depressed
+				}
+			}
+			opinion = {
+				modifier = opinion_helped_me
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# Miswak usage is encouraged by scripture
+character_event = {
+	id = VIETmisc.2101
+	desc = VIETmisc.2101.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		religion_group = muslim
+		NOT = { has_character_modifier = VIET_loves_toothbrushing }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = scholar
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}
+	}
+
+	option = {#Ok
+		name = VIETmisc.2101.a
+		add_character_modifier = {
+			name = VIET_loves_toothbrushing
+			duration = -1
+		}
+		piety = 5
+	}
+	option = {#Nay
+		name = VIETmisc.2101.b
+		if = {
+			limit = {
+				NOT = { trait = cynical }
+				NOT = { trait = zealous }
+			}
+			random_list = {
+				40 = { add_trait = cynical }
+				60 = {}
+			}
+		}
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random_list = {
+				50 = { remove_trait = zealous }
+				50 = {}
+			}
+		}		
+	}
+}
+
+# The gold toothpick
+character_event = {
+	id = VIETmisc.2102
+	desc = VIETmisc.2102.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		diplomacy = 11
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+	}
+
+	option = {#Ok
+		name = VIETmisc.2102.a
+		prestige = 4		
+	}
+}
+
+# Silly Chinese toothbrushes
+character_event = {
+	id = VIETmisc.2103
+	desc = VIETmisc.2103.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				religion_group = christian
+				religion_group = pagan_group
+			}
+		}
+	}
+
+	option = {#Ok
+		name = VIETmisc.2103.a
+		prestige = 1
+	}
+	option = {#Ok
+		name = VIETmisc.2103.b
+		piety = 1
+	}
+}
+
+# Toothbrush sexy times
+character_event = {
+	id = VIETmisc.2104
+	desc = VIETmisc.2104.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		any_courtier = {
+			is_adult = yes
+			OR = {
+				trait = lustful
+				trait = gregarious
+				trait = hedonist
+				has_lover = yes
+			}
+			NOT = { trait = celibate }
+			NOT = { trait = shy }
+			NOT = { trait = incapable }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 3
+			has_character_flag = VIET_koyomi
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+	}
+
+	option = {#run away
+		name = VIETmisc.2104.a
+		piety = 3
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				OR = {
+					trait = lustful
+					trait = gregarious
+					trait = hedonist
+					has_lover = yes
+				}
+				NOT = { trait = celibate }
+				NOT = { trait = shy }
+				NOT = { trait = incapable }
+			}
+			piety = -3
+		}
+	}
+	option = {#Ok
+		name = VIETmisc.2104.b
+		prestige = 3
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				OR = {
+					trait = lustful
+					trait = gregarious
+					trait = hedonist
+					has_lover = yes
+				}
+				NOT = { trait = celibate }
+				NOT = { trait = shy }
+				NOT = { trait = incapable }
+			}
+			piety = -3
+		}
+	}
+	option = {#Ok
+		name = VIETmisc.2104.c
+		random_list = {
+			85 = { }
+			15 = { add_trait = lustful }
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				OR = {
+					trait = lustful
+					trait = gregarious
+					trait = hedonist
+					has_lover = yes
+				}
+				NOT = { trait = celibate }
+				NOT = { trait = shy }
+				NOT = { trait = incapable }
+			}
+			piety = -3
+		}
+	}
+	option = {#Ok
+		name = VIETmisc.2104.d
+		trigger = {
+			has_character_flag = VIET_koyomi
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				OR = {
+					trait = lustful
+					trait = gregarious
+					trait = hedonist
+					has_lover = yes
+				}
+				NOT = { trait = celibate }
+				NOT = { trait = shy }
+				NOT = { trait = incapable }
+			}
+			piety = -3
+		}
+		add_character_modifier = {
+			name = lustful_ruler
+			duration = 365
+		}
+		custom_tooltip = { text = VIET_toothbrush_sexy_times_amateurs }
+	}
+}
+
+# Clean your tongue as well
+character_event = {
+	id = VIETmisc.2105
+	desc = VIETmisc.2105.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2105.a
+		health = 0.2
+	}
+}
+
+# Jewish mouthwash
+character_event = {
+	id = VIETmisc.2106
+	desc = VIETmisc.2106.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = { religion_group = jewish_group }
+		NOT = { culture_group = israelite }
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			religion_group = jewish_group
+			culture_group = israelite
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2106.a
+		health = 0.1
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				religion_group = jewish_group
+				culture_group = israelite
+			}
+			opinion = {
+				modifier = opinion_respectful_of_jewish_customs 
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+	option = {#be a bigot
+		name = VIETmisc.2106.b
+		prestige = 3
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				religion_group = jewish_group
+				culture_group = israelite
+			}
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# Old people bad teeth scare me
+character_event = {
+	id = VIETmisc.2107
+	desc = VIETmisc.2107.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	max_age = 35
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2107.a
+		add_character_modifier = {
+			name = VIET_loves_toothbrushing
+			duration = -1
+		}
+	}
+}
+
+# Bloody teeth
+character_event = {
+	id = VIETmisc.2108
+	desc = VIETmisc.2108.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			has_character_modifier = VIET_loves_toothbrushing
+		}
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2108.a
+		prestige = -2
+	}
+	option = {#ok
+		name = VIETmisc.2108.a
+		tooltip_info = fair
+		trigger = {
+			trait = fair
+		}
+	}
+	option = {#ok
+		name = VIETmisc.2108.a
+		tooltip_info = imposing
+		trigger = {
+			trait = imposing
+		}
+		prestige = 2
+	}
+}
+
+# prankster?
+character_event = {
+	id = VIETmisc.2109
+	desc = VIETmisc.2109.desc
+	picture = GFX_evt_toothbrush
+
+	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			AND = {
+				trait = gregarious
+				trait = cruel
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+	}
+
+	option = {#ok
+		name = VIETmisc.2109.a
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				AND = {
+					trait = gregarious
+					trait = cruel
+				}
+			}
+			reverse_opinion = {
+				modifier = opinion_afraid
+				who = ROOT
+				years = 1
+			}
+		}
+		random_list = {
+			90 = { }
+			3 = { add_trait = paranoid }
+			7 = { add_trait = ill }
+		}
 	}
 }
 

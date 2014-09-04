@@ -402,6 +402,10 @@ on_yearly_pulse = {
 		100 = VIETmisc.2094
 		100 = VIETmisc.2095
 		100 = VIETmisc.2099
+		#Toothbrush
+		100 = VIETmisc.2102
+		100 = VIETmisc.2103
+		100 = VIETmisc.2108
 		
 		#VIET CULTURE SPECIFIC EVENTS
 		#African
@@ -779,6 +783,11 @@ on_bi_yearly_pulse = {
 		10 = VIETmisc.2093
 		10 = VIETmisc.2096
 		10 = VIETmisc.2097
+		#Toothbrush
+		10 = VIETmisc.2100
+		10 = VIETmisc.2104
+		10 = VIETmisc.2105
+		10 = VIETmisc.2106
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -960,16 +969,21 @@ on_five_year_pulse = {
 		10 = VIETmisc.2087
 		10 = VIETmisc.2090
 		10 = VIETmisc.2098
+		#Toothbrush
+		10 = VIETmisc.2101
+		10 = VIETmisc.2107
+		10 = VIETmisc.2109
 		
 		#VIET Event Chains
-		2 = VIETmisc.2513
-		2 = VIETmisc.5000
-		2 = VIETmisc.5007
-		2 = VIETmisc.5015
-		2 = ordepchains.1000
-		2 = OCC.1 
-		2 = fantasia.0
-		2 = fantasia.8 
+		2 = VIETmisc.2513 #Call on the avatar
+		2 = VIETmisc.5000 #Cinnamon toast crunch
+		2 = VIETmisc.5007 #Napoleon's Omelette
+		2 = VIETmisc.5015 #The Minotaur
+		2 = VIETmisc.5021 #Tarim Basin Documents
+		2 = ordepchains.1000 #Ruin Exploration (Ordep's silent protest over the lack of an EU:Rome II)
+		2 = OCC.1 #Dance of the dead
+		2 = fantasia.0 #Mermaid
+		2 = fantasia.8 #Merlin
 		2 = VIETmisc.5028 #TOOTHBRUSHING IMOUTO
 		
 		80 = 0

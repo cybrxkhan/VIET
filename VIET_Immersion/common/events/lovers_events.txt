@@ -1140,18 +1140,6 @@ character_event = {
 	option = {
 		name = "EVTOPTA64018"
 		add_lover = FROM
-		FROM = {
-			add_character_modifier = {
-				name = "new_love"
-				duration = 90
-				hidden = yes
-			}
-		}
-		add_character_modifier = {
-			name = "new_love"
-			duration = 90
-			hidden = yes
-		}
 	}
 }
 
@@ -1297,16 +1285,6 @@ character_event = {
 		clr_character_flag = poet_spouse_muse
 		spouse = {
 			add_lover = ROOT
-			add_character_modifier = {
-				name = "new_love"
-				duration = 90
-				hidden = yes
-			}
-		}
-		add_character_modifier = {
-			name = "new_love"
-			duration = 90
-			hidden = yes
 		}
 	}
 	option = {
@@ -1619,7 +1597,6 @@ character_event = {
 	
 	trigger = {
 		has_lover = yes
-		NOT = { has_character_modifier = new_love }
 		any_lover = {
 			OR = {
 				NOT = {
@@ -1834,18 +1811,6 @@ character_event = {
 	option = {
 		name = "EVTOPTA64051"
 		add_lover = FROM
-		FROM = {
-			add_character_modifier = {
-				name = "new_love"
-				duration = 90
-				hidden = yes
-			}
-		}
-		add_character_modifier = {
-			name = "new_love"
-			duration = 90
-			hidden = yes
-		}
 	}
 }
 

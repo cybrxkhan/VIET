@@ -1,8 +1,0 @@
-20.1.1={
-	active = no
-}
-1340.1.1={
-	liege="k_israel"
-	active = yes
-	set_global_flag = israel_military_elite_formed
-}

@@ -37,16 +37,6 @@ job_chancellor = {
 		NOT = { trait = incapable }
 	}
 	gain_effect = {
-		if = {
-			limit = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_fired_from_council
-				}
-			}
-			remove_opinion = { who = FROM modifier = opinion_fired_from_council }
-			opinion = { who = FROM modifier = opinion_job_security_concerns }
-		}
 	}
 	lose_effect = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }
@@ -165,16 +155,6 @@ job_marshal = {
 	}
 	
 	gain_effect = {
-		if = {
-			limit = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_fired_from_council
-				}
-			}
-			remove_opinion = { who = FROM modifier = opinion_fired_from_council }
-			opinion = { who = FROM modifier = opinion_job_security_concerns }
-		}
 	}
 	lose_effect = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }
@@ -215,16 +195,6 @@ job_treasurer = {
 		NOT = { has_character_flag = guru }
 	}
 	gain_effect = {
-		if = {
-			limit = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_fired_from_council
-				}
-			}
-			remove_opinion = { who = FROM modifier = opinion_fired_from_council }
-			opinion = { who = FROM modifier = opinion_job_security_concerns }
-		}
 	}
 	lose_effect = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }
@@ -277,16 +247,6 @@ job_spymaster = {
 		NOT = { has_character_flag = guru }
 	}
 	gain_effect = {
-		if = {
-			limit = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_fired_from_council
-				}
-			}
-			remove_opinion = { who = FROM modifier = opinion_fired_from_council }
-			opinion = { who = FROM modifier = opinion_job_security_concerns }
-		}
 	}
 	lose_effect = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }
@@ -375,16 +335,6 @@ job_spiritual = {
 		}
 	}
 	gain_effect = {
-		if = {
-			limit = {
-				has_opinion_modifier = {
-					who = FROM
-					modifier = opinion_fired_from_council
-				}
-			}
-			remove_opinion = { who = FROM modifier = opinion_fired_from_council }
-			opinion = { who = FROM modifier = opinion_job_security_concerns }
-		}
 	}
 	lose_effect = {
 		opinion = { who = FROM modifier = opinion_fired_from_council }

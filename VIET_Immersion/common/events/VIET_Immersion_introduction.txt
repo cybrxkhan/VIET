@@ -18,402 +18,464 @@ narrative_event = {
 	picture = "GFX_evt_baklava"
 	
 	immediate = {
-		#set_global_flag = VIET_Immersion_On
-		set_global_flag = cornish_statuary_charters_off
+		#set_global_flag = VIET_Immersion_On		
 		#Set-up Cornish mines
+		set_global_flag = cornish_statuary_charters_off		
 		29 = { set_province_flag = cornish_tin_mines }
-		31 = { set_province_flag = cornish_tin_mines }		
-		#############################################
-		# DE JURE BORDER SETUP
-		#############################################
-		#Movement of vanilla realms into Existing Vanilla Realms (i.e. NOT stuff added by VIET)
-		c_araouane = {
-			de_jure_liege = d_agadez
-		}
-		c_taghaza = {
-			de_jure_liege = d_agadez
-		}
-		c_hormuz = {
-			de_jure_liege = d_hormuz_republic
-		}
+		31 = { set_province_flag = cornish_tin_mines }	
 		if = {
 			limit = {
-				year = 1066
-			}
-			c_brugge = {
-				de_jure_liege = d_brugge
-			}
-		}
-		c_socotra = {
-			de_jure_liege = d_socotra
-		}
-		c_abydos = {
-			de_jure_liege = d_nikaea
-		}
-		d_genoa = {
-			de_jure_liege = k_genoa
-		}
-		d_pisa = {
-			de_jure_liege = k_pisa
-		}
-		d_genoa = {
-			de_jure_liege = k_genoa
-		}
-		d_latium = {
-			de_jure_liege = k_papal_state
-		}
-		d_hormuz_republic = {
-			de_jure_liege = k_hormuz
-		}
-		d_brugge = {
-			de_jure_liege = k_france
-		}
-		d_flanders = {
-			de_jure_liege = k_france
-		}
-		d_iceland = {
-			de_jure_liege = k_iceland
-		}
-		k_papal_state = {
-			de_jure_liege = e_italy
-		}
-		k_pisa = {
-			de_jure_liege = e_italy
-		}
-		k_genoa = {
-			de_jure_liege = e_italy
-		}
-		k_venice = {
-			de_jure_liege = e_italy
-		}
-		k_sicily = {
-			de_jure_liege = e_italy
-		}
-		k_serbia = {
-			de_jure_liege = e_carpathia
-		}
-		k_croatia = {
-			de_jure_liege = e_carpathia
-		}
-		k_iceland = {
-			de_jure_liege = e_scandinavia
-		}
-		k_songhay = {
-			de_jure_liege = e_mali
-		}
-		#New Duchies
-		c_aden = {
-			de_jure_liege = d_aden
-		}
-		c_bayda = {
-			de_jure_liege = d_aden
-		}
-		c_kathiri = {
-			de_jure_liege = d_aden
-		}
-		c_socotra = {
-			de_jure_liege = d_socotra
-		}
-		c_dhofar = {
-			de_jure_liege = d_dhofar
-		}
-		c_duqm = {
-			de_jure_liege = d_dhofar
-		}
-		c_mahra = {
-			de_jure_liege = d_dhofar
-		}
-		if = {
-			limit = {
-				year = 937
-			}
-			c_orania = {
-				de_jure_liege = d_oran
-			}	
-			c_al_djazair = {
-				de_jure_liege = d_oran
+				NOT = { has_global_flag = SWMH }
 			}			
-		}
-		c_tadmekka = {
-			de_jure_liege = d_agadez
-		}
-		c_araouane = {
-			de_jure_liege = d_agadez
-		}
-		c_canarias = {
-			de_jure_liege = d_canarias
-		}
-		c_aydhab = {
-			de_jure_liege = d_aydhab
-		}
-		c_suakin = {
-			de_jure_liege = d_suakin
-		}
-		c_fergana = {
-			de_jure_liege = d_fergana
-		}
-		c_oshrusana = {
-			de_jure_liege = d_fergana
-		}
-		c_chach = {
-			de_jure_liege = d_fergana
-		}
-		#New Kingdoms
-		d_sanaa = {
-			de_jure_liege = k_yemen
-		}
-		d_aden = {
-			de_jure_liege = k_yemen
-		}
-		d_socotra = {
-			de_jure_liege = k_yemen
-		}
-		d_oman = {
-			de_jure_liege = k_oman
-		}
-		d_dhofar = {
-			de_jure_liege = k_oman
-		}
-		d_epirus = {
-			de_jure_liege = k_epirus
-		}
-		d_dyrrachion = {
-			de_jure_liege = k_epirus
-		}
-		d_krete = {
-			de_jure_liege = k_morea
-		}
-		d_achaia = {
-			de_jure_liege = k_morea
-		}
-		d_athens = {
-			de_jure_liege = k_morea
-		}
-		d_aegean_islands = {
-			de_jure_liege = k_morea
-		}
-		d_nikaea = {
-			de_jure_liege = k_nikaea
-		}
-		d_samos = {
-			de_jure_liege = k_nikaea
-		}
-		d_cyprus = {
-			de_jure_liege = k_nikaea
-		}
-		d_cibyrrhaeot = {
-			de_jure_liege = k_nikaea
-		}
-		d_trebizond = {
-			de_jure_liege = k_trebizond
-		}
-		d_armeniacon = {
-			de_jure_liege = k_trebizond
-		}
-		d_paphlagonia = {
-			de_jure_liege = k_trebizond
-		}
-		d_armenia_minor = {
-			de_jure_liege = k_cilicia
-		}
-		d_kabylia = {
-			de_jure_liege = k_algeria
-		}
-		d_tlemcen = {
-			de_jure_liege = k_algeria
-		}
-		d_oran = {
-			de_jure_liege = k_algeria
-		}
-		d_alger = {
-			de_jure_liege = k_algeria
-		}
-		d_songhay = {
-			de_jure_liege = k_songhay
-		}
-		d_agadez = {
-			de_jure_liege = k_songhay
-		}
-		d_canarias = {
-			de_jure_liege = k_canarias
-		}
-		if = {
-			limit = {
-				NOT = { has_global_flag = project_balance }
+			
+			#############################################
+			# PROVINCE CULTURE
+			#############################################
+			
+			#Removed due to Charlemagne: Pictish, Somali, Lombard
+			#Cumbrian
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				38 = { culture = cumbrian }
+				47 = { culture = cumbrian }
+				49 = { culture = cumbrian }
+				50 = { culture = cumbrian }
+				53 = { culture = cumbrian }
 			}
-			d_beloozero = {
-				de_jure_liege = k_novgorod
+			#Norsegael
+			if = {
+				limit = {
+					year = 1066
+				}
+				35 = { culture = norsegael }
+				36 = { culture = norsegael }
+				37 = { culture = norsegael }
+				45 = { culture = norsegael }
+				49 = { culture = norsegael }
+				50 = { culture = norsegael }
+				54 = { culture = norsegael }
 			}
-			d_novgorod = {
-				de_jure_liege = k_novgorod
+			#Cornish
+			if = {
+				limit = {
+					NOT = { year = 900 }
+				}
+				27 = { culture = cornish }
+				28 = { culture = cornish }
 			}
-			d_polotsk = {
-				de_jure_liege = k_novgorod
+			if = {
+				limit = {
+					NOT = { year = 1200 }
+				}
+				29 = { culture = cornish }
 			}
-			d_chernigov = {
-				de_jure_liege = k_kiev
+			31 = { culture = cornish }
+			#Beja
+			878 = { culture = beja }
+			1320 = { culture = beja }
+			1330 = { culture = beja }
+			1332 = { culture = beja }
+			1343 = { culture = beja }
+			#Nilotic
+			881 = { culture = nilotic }
+			#Afar
+			873 = { culture = afar }
+			874 = { culture = afar }
+			1373 = { culture = afar }
+			1379 = { culture = afar }
+			#Udmurt
+			887 = { culture = udmurt }
+			891 = { culture = udmurt }
+			894 = { culture = udmurt }
+			#Azeri
+			668 = { culture = azeri }
+			670 = { culture = azeri }
+			671 = { culture = azeri }
+			674 = { culture = azeri }
+			675 = { culture = azeri }
+			#Sogdian
+			1186 = { culture = sogdian }
+			1423 = { culture = sogdian }
+			if = {
+				limit = {
+					NOT = { year = 890 }
+				}
+				1424 = { culture = sogdian }
 			}
-			d_kiev = {
-				de_jure_liege = k_kiev
+			if = {
+				limit = {
+					NOT = { year = 1000 }
+				}
+				628 = { culture = sogdian }
+				903 = { culture = sogdian }
+				1188 = { culture = sogdian }
 			}
-			d_ryazan = {
-				de_jure_liege = k_kiev
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				1181 = { culture = sogdian }
 			}
-			d_turov = {
-				de_jure_liege = k_kiev
+			#Tajik
+			624 = { culture = tajik }
+			902 = { culture = tajik }
+			904 = { culture = tajik }
+			if = {
+				limit = {
+					NOT = { year = 1230 }
+				}
+				625 = { culture = tajik }
+				627 = { culture = tajik }
+				629 = { culture = tajik }
+				630 = { culture = tajik }
+				631 = { culture = tajik }
+				1377 = { culture = tajik }
+				1378 = { culture = tajik }
 			}
-			d_vitebsk = {
-				de_jure_liege = k_kiev
+			if = {
+				limit = {
+					year = 1000
+				}
+				903 = { culture = tajik }
+				1188 = { culture = tajik }
 			}
-			d_tver = {
-				de_jure_liege = k_vladimir
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				1181 = { culture = tajik }
 			}
-			d_vladimir = {
-				de_jure_liege = k_vladimir
+			#Beta Israel
+			1380 = { culture = falashim }
+			#Sicilian
+			if = {
+				limit = {
+					year = 1130
+				}
+				334 = { culture = sicilian }
+				335 = { culture = sicilian }
+				336 = { culture = sicilian }
+				337 = { culture = sicilian }
+				338 = { culture = sicilian }
+				339 = { culture = sicilian }
+				340 = { culture = sicilian }
+				341 = { culture = sicilian }
+				342 = { culture = sicilian }
+				343 = { culture = sicilian }
+				344 = { culture = sicilian }
+				345 = { culture = sicilian }
+				346 = { culture = sicilian }
+				347 = { culture = sicilian }
+				812 = { culture = sicilian }
+				851 = { culture = sicilian }
+				935 = { culture = sicilian }
 			}
-			d_rostov = {
-				de_jure_liege = k_vladimir
+			#Siculo-Arabic
+			if = {
+				limit = {
+					NOT = { year = 1130 }
+				}
+				340 = { culture = siculo_arabic }
+				341 = { culture = siculo_arabic }
+				342 = { culture = siculo_arabic }
+				812 = { culture = siculo_arabic }
 			}
-			d_pereyaslavl = {
-				de_jure_liege = k_kiev
+			#Guanche
+			849 = { culture = guanche }
+			#Icelandic
+			1 = { culture = icelandic }
+			2 = { culture = icelandic }
+			#Songhai
+			914 = { culture = songhai }
+			922 = { culture = songhai }
+			927 = { culture = songhai }
+			928 = { culture = songhai }
+			
+			#############################################
+			# PROVINCE RELIGION
+			#############################################			
+
+			#Bosnian
+			if = {
+				limit = {
+					year = 1232
+				}
+				463 = { religion = bosnian_religion }
+				504 = { religion = bosnian_religion }
 			}
-			d_moskva = {
-				de_jure_liege = k_vladimir
+			#Maronite
+			770 = { religion = maronite }
+			#Miaphysite
+			789 = { religion = miaphysite }
+			797 = { religion = miaphysite }
+			798 = { religion = miaphysite }
+			799 = { religion = miaphysite }
+			800 = { religion = miaphysite }
+			801 = { religion = miaphysite }
+			803 = { religion = miaphysite }
+			804 = { religion = miaphysite }
+			#Nestorian
+			628 = { religion = nestorian }
+			698 = { religion = nestorian }
+			710 = { religion = nestorian }
+			711 = { religion = nestorian }
+			727 = { religion = nestorian }
+			729 = { religion = nestorian }
+			#Alawite
+			731 = { religion = alawite }
+			732 = { religion = alawite }
+			733 = { religion = alawite }
+			#Qarmatians
+			if = {
+				limit = {
+					year = 890
+					NOT = { year = 1100 }
+				}
+				652 = { religion = qarmatian }
+				653 = { religion = qarmatian }
 			}
-			d_yaroslavl = {
-				de_jure_liege = k_vladimir
+			#Yazidi
+			683 = { religion = yazidi }
+			685 = { religion = yazidi }
+			697 = { religion = yazidi }
+			#Manicheism
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				902 = { religion = yazidi }
+				903 = { religion = yazidi }
+				1181 = { religion = yazidi }
 			}
-			d_galich = {
-				de_jure_liege = k_galich
+			#Mandaean
+			647 = { religion = mandaean }
+			648 = { religion = mandaean }
+			690 = { religion = mandaean }
+			#Buddhism
+			if = {
+				limit = {
+					NOT = { year = 1230 }
+				}
+				1186 = { religion = buddhist }
 			}
-			d_volhynia = {
-				de_jure_liege = k_galich
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				1423 = { religion = buddhist }
 			}
-			d_novgorod-seversk = {
-				de_jure_liege = k_kiev
+			if = {
+				limit = {
+					NOT = { year = 890 }
+				}
+				1424 = { religion = buddhist }
 			}
-			d_smolensk = {
-				de_jure_liege = k_kiev
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				1187 = { religion = buddhist }
+				1188 = { religion = buddhist }
 			}
-		}
-		d_azerbaijan = {
-			de_jure_liege = k_azerbaijian
-		}
-		d_tabriz = {
-			de_jure_liege = k_azerbaijian
-		}
-		d_mazandaran = {
-			de_jure_liege = k_azerbaijian
-		}
-		d_yaik = {
-			de_jure_liege = k_kipchak
-		}
-		d_sibir = {
-			de_jure_liege = k_kipchak
-		}
-		d_kipchak = {
-			de_jure_liege = k_kipchak
-		}
-		d_kimak = {
-			de_jure_liege = k_kipchak
-		}
-		d_kirghiz = {
-			de_jure_liege = k_kipchak
-		}
-		d_hayya = {
-			de_jure_liege = k_beja
-		}
-		d_suakin = {
-			de_jure_liege = k_beja
-		}
-		d_aydhab = {
-			de_jure_liege = k_beja
-		}
-		d_afar = {
-			de_jure_liege = k_adal
-		}
-		d_harer = {
-			de_jure_liege = k_somalia
-		}
-		#New Empires
-		k_algeria = {
-			de_jure_liege = e_africa
-		}
-		k_africa = {
-			de_jure_liege = e_africa
-		}
-		k_mauretania = {
-			de_jure_liege = e_africa
-		}
-		k_bulgaria = {
-			de_jure_liege = e_bulgaria
-		}
-		k_dacia = {
-			de_jure_liege = e_bulgaria
-		}
-		k_georgia = {
-			de_jure_liege = e_caucasia
-		}
-		k_armenia = {
-			de_jure_liege = e_caucasia
-		}
-		#Leftovers
-		k_azerbaijian = {
-			de_jure_liege = e_persia
-		}
-		k_hormuz = {
-			de_jure_liege = e_persia
-		}
-		d_fergana = {
-			de_jure_liege = k_khiva
-		}
-		k_morea = {
-			de_jure_liege = e_byzantium
-		}
-		k_nikaea = {
-			de_jure_liege = e_byzantium
-		}
-		k_trebizond = {
-			de_jure_liege = e_byzantium
-		}
-		k_epirus = {
-			de_jure_liege = e_byzantium
-		}
-		k_kiev = {
-			de_jure_liege = e_russia
-		}
-		k_novgorod = {
-			de_jure_liege = e_russia
-		}
-		k_vladimir = {
-			de_jure_liege = e_russia
-		}
-		k_galich = {
-			de_jure_liege = e_russia
-		}		
-		k_kipchak = {
-			de_jure_liege = e_tartaria
-		}
-		k_cilicia = {
-			de_jure_liege = e_byzantium
-		}
-		k_beja = {
-			de_jure_liege = e_abyssinia
-		}
-		k_adal = {
-			de_jure_liege = e_abyssinia
-		}
-		k_somalia = {
-			de_jure_liege = e_abyssinia
-		}
-		k_yemen = {
-			de_jure_liege = e_arabia
-		}
-		k_oman = {
-			de_jure_liege = e_arabia
-		}
-		k_dumnonia = {
-			de_jure_liege = e_britannia
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				907 = { religion = buddhist }
+				904 = { religion = buddhist }
+			}
+			
+			
+
+			
+			#############################################
+			# DE JURE BORDER SETUP
+			#############################################
+			
+			#Movement of vanilla realms into Existing Vanilla Realms (i.e. NOT stuff added by VIET)
+			c_araouane = {
+				de_jure_liege = d_agadez
+			}
+			c_taghaza = {
+				de_jure_liege = d_agadez
+			}
+			c_hormuz = {
+				de_jure_liege = d_hormuz_republic
+			}
+			if = {
+				limit = {
+					year = 1066
+				}
+				c_brugge = {
+					de_jure_liege = d_brugge
+				}
+			}
+			c_socotra = {
+				de_jure_liege = d_socotra
+			}
+			c_abydos = {
+				de_jure_liege = d_nikaea
+			}
+			d_genoa = {
+				de_jure_liege = k_genoa
+			}
+			d_pisa = {
+				de_jure_liege = k_pisa
+			}
+			d_genoa = {
+				de_jure_liege = k_genoa
+			}
+			d_latium = {
+				de_jure_liege = k_papal_state
+			}
+			d_hormuz_republic = {
+				de_jure_liege = k_hormuz
+			}
+			d_brugge = {
+				de_jure_liege = k_france
+			}
+			d_flanders = {
+				de_jure_liege = k_france
+			}
+			d_iceland = {
+				de_jure_liege = k_iceland
+			}
+			k_papal_state = {
+				de_jure_liege = e_italy
+			}
+			k_pisa = {
+				de_jure_liege = e_italy
+			}
+			k_genoa = {
+				de_jure_liege = e_italy
+			}
+			k_venice = {
+				de_jure_liege = e_italy
+			}
+			k_sicily = {
+				de_jure_liege = e_italy
+			}
+			k_serbia = {
+				de_jure_liege = e_carpathia
+			}
+			k_croatia = {
+				de_jure_liege = e_carpathia
+			}
+			k_iceland = {
+				de_jure_liege = e_scandinavia
+			}
+			k_songhay = {
+				de_jure_liege = e_mali
+			}
+			#New Duchies
+			if = {
+				limit = {
+					year = 937
+				}
+				c_orania = {
+					de_jure_liege = d_oran
+				}	
+				c_al_djazair = {
+					de_jure_liege = d_oran
+				}			
+			}
+			c_tadmekka = {
+				de_jure_liege = d_agadez
+			}
+			c_araouane = {
+				de_jure_liege = d_agadez
+			}
+			c_aydhab = {
+				de_jure_liege = d_aydhab
+			}
+			c_suakin = {
+				de_jure_liege = d_suakin
+			}
+			c_canarias = {
+				de_jure_liege = d_canarias
+			}
+			c_fergana = {
+				de_jure_liege = d_fergana
+			}
+			c_oshrusana = {
+				de_jure_liege = d_fergana
+			}
+			c_chach = {
+				de_jure_liege = d_fergana
+			}
+			#New Kingdoms
+			d_sanaa = {
+				de_jure_liege = k_yemen
+			}
+			d_socotra = {
+				de_jure_liege = k_yemen
+			}
+			d_oman = {
+				de_jure_liege = k_oman
+			}
+			d_kabylia = {
+				de_jure_liege = k_algeria
+			}
+			d_tlemcen = {
+				de_jure_liege = k_algeria
+			}
+			d_oran = {
+				de_jure_liege = k_algeria
+			}
+			d_alger = {
+				de_jure_liege = k_algeria
+			}
+			d_songhay = {
+				de_jure_liege = k_songhay
+			}
+			d_agadez = {
+				de_jure_liege = k_songhay
+			}
+			d_canarias = {
+				de_jure_liege = k_canarias
+			}
+			d_hayya = {
+				de_jure_liege = k_beja
+			}
+			d_suakin = {
+				de_jure_liege = k_beja
+			}
+			d_aydhab = {
+				de_jure_liege = k_beja
+			}
+			d_afar = {
+				de_jure_liege = k_adal
+			}
+			d_harer = {
+				de_jure_liege = k_somalia
+			}
+			#Leftovers
+			k_hormuz = {
+				de_jure_liege = e_persia
+			}
+			d_fergana = {
+				de_jure_liege = k_khiva
+			}
+			k_beja = {
+				de_jure_liege = e_abyssinia
+			}
+			k_adal = {
+				de_jure_liege = e_abyssinia
+			}
+			k_somalia = {
+				de_jure_liege = e_abyssinia
+			}
+			k_yemen = {
+				de_jure_liege = e_arabia
+			}
+			k_oman = {
+				de_jure_liege = e_arabia
+			}
+			k_dumnonia = {
+				de_jure_liege = e_britannia
+			}
 		}
 	}
 	

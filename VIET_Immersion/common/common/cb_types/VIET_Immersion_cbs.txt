@@ -627,7 +627,7 @@ khitan_invasion = {
 			has_landed_title = e_khitan
 			culture = khitan
 			NOT = { year = 1170 }
-			NOT = { realm_size = 120 }
+			NOT = { realm_size = 80 }
 		}
 	}
 	

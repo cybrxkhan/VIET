@@ -166,39 +166,42 @@ VIETmisc.5041.tooltip;My sister and I watch each other warily for a moment, and 
 VIETmisc.5042.title;Fraternal Love;;;;;;;;;;;;;x
 VIETmisc.5042.desc;And so, after that day, [From.GetFirstName] and I began to get along a little better.;;;;;;;;;;;x
 VIETmisc.5042.a;To be honest, I don’t remember who won the contest.;;;;;;;;;;;;;x
-VIETmisc.5043.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5043.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5043.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5044.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5044.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5044.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5045.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5045.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5045.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5046.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5046.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5046.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5047.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5047.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5047.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5048.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5048.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5048.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5049.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5049.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5049.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5050.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5050.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5050.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5051.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5051.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5051.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5052.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5052.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5052.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5053.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5053.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5053.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5043.desc;You worry about a lot of things pertaining to your realm's safety and prosperity. There are so many problems to be solved, so many challenges to be tackled. Even today, as you attempt to take a stroll to get a breath of fresh air, you can not stop thinking about things.;;;;;;;;;;;x
+VIETmisc.5043.a;Hmm.... How can I deal with...;;;;;;;;;;;;;x
+VIETmisc.5044.tooltip;You continue thinking long and hard as you continue walking.;;;;;;;;;;;;;x
+VIETmisc.5044.title;Lost!;;;;;;;;;;;;;x
+VIETmisc.5044.desc;Suddenly, you look around, and your surroundings are unfamiliar. Lost! You got lost! It appears you were so deep in thought you wandered off the road.\n\n"Not good," you think to yourself, as you try to find your way. "Now what? Not only am I lost, I have serious problems in my realm to deal with. How will my vassals and courtiers deal with them if I'm not around? In particular, I am most worried about...";;;;;;;;;;;x
+VIETmisc.5044.a;My relations with other lords;;;;;;;;;;;;;x
+VIETmisc.5044.b;The military threats we face;;;;;;;;;;;;;x
+VIETmisc.5044.c;How well our realm's economy is;;;;;;;;;;;;;x
+VIETmisc.5044.d;Various plots that threaten me;;;;;;;;;;;;;x
+VIETmisc.5045.tooltip;So many things to think about!;;;;;;;;;;;;;x
+VIETmisc.5045.title;Hospitality;;;;;;;;;;;;;x
+VIETmisc.5045.desc;As you continue worrying about your problems, the sun begins to set. Thankfully, you stumble on a modest cottage. A middle-aged peasant woman opens the door after you knock on it several times. As you are wearing rather humble clothing, she mistakes you for a well-to-do merchant or traveler, rather than a noble lord. Still, because you are so deep in thought, and because she appears to be a trustworthy, good-natured sort, you don't bother to correct her misunderstanding.\n\nThe peasant graciously welcomes you inside. "Make yourself at home, traveler," she says, "I am but a humble peasant. You've come just in time, too! I'm baking bread right now, and I will share it with you if you're hungry.";;;;;;;;;;;x
+VIETmisc.5045.a;Thank you, m'am.;;;;;;;;;;;;;x
+VIETmisc.5046.tooltip;You take a seat across from the small oven in the hut.;;;;;;;;;;;;;x
+VIETmisc.5046.title;A Simple Task;;;;;;;;;;;;;x
+VIETmisc.5046.desc;Now in a safer location, you begin thinking about your problems again. However, you are interrupted by the peasant. "Sorry, dear guest, but it appears I've to take care of something. My stupid husband, leaving me to fix this - when he left this morning to go to the nearby town he accidentally... never mind, it probably doesn't matter to you. Anyways, would you mind watching the bread while I leave the house for a while? Just remove it from the oven if it looks like it's done."\n\n"Don't worry, m'am," you tell her, "It's the least I can do for your kindness and hospitality.";;;;;;;;;;;x
+VIETmisc.5046.a;The peasant woman leaves the hut.;;;;;;;;;;;;;x
+VIET_bready_thinking;And all is silent, save for the crackling of the fire.;;;;;;;;;;;;;x
+VIETmisc.5047.title;Time to Think;;;;;;;;;;;;;x
+VIETmisc.5047.desc;Alone by yourself, once more, you begin to contemplate the relations you have with the other realms around you. Envoys, dignitaries, merchants, and travelers visit you frequently to inform you on these matters. But there's one particular issue that's been bothering you. You're not sure how to solve it diplomatically without creating -;;;;;;;;;;;x
+VIETmisc.5047.a;Wait a moment...;;;;;;;;;;;;;x
+VIETmisc.5048.desc;Alone by yourself, once more, you begin to contemplate the military problems you face. Your warriors are brave, sure, but there are also certain weaknesses in your army you wish to address. Indeed there's one particular issue that's been bothering you. Your military, that is, may have trouble with regards to organizing -;;;;;;;;;;;x
+VIETmisc.5049.desc;Alone by yourself, once more, you begin to contemplate your realm's economy. So it seems that things are going well enough - trade flows through like ever, the peasants have enough to eat, and so on. However, there's one particular issue that's been bothering you. Your advisors and officers have warned you about possible trouble in the future when it comes to -;;;;;;;;;;;x
+VIETmisc.5050.desc;Alone by yourself, once more, you begin to contemplate the intrigue of your court. It's not that you don't know you have enemies, friends, and family, all scheming against you and each other. Still, there's one particular issue that's been bothering you. The problem is that you're unsure whether this plot you've heard about is actually -;;;;;;;;;;;x
+VIETmisc.5051.tooltip;What's that?;;;;;;;;;;;;;x
+VIETmisc.5051.title;Disaster!;;;;;;;;;;;;;x
+VIETmisc.5051.desc;"What did you do? I go away for a few minutes, and this happens!"\n\nYou apparently did not notice the peasant woman return, and now she is standing above you, fuming and red-faced. It takes you a while before you notice a strange smell... a burnt smell. In fact, you were too engrossed in your thoughts that you forgot to keep track of the bread.\n\n"I entrust you with one thing, and you ruin it!" she scolds as she takes the burnt bread off the oven. It's scary how calm her movements are, despite the anger in her voice. "You men are useless. Bah, my husband's the worse, but that’s not saying much! Now when you promise someone you'll do something, you better damn do it, I don't know why you - ";;;;;;;;;;;x
+VIETmisc.5051.a;She continues ranting on for a while.;;;;;;;;;;;;;x
+VIETmisc.5052.tooltip;For a very long while, in fact. Actually you’ve never seen a woman nag this long. If it weren’t for the guilt you feel, you’d have felt very sorry for her brave husband.;;;;;;;;;;;;;x
+VIETmisc.5052.title;Small Mistakes, Big Mistakes;;;;;;;;;;;;;x
+VIETmisc.5052.desc;Eventually, the peasant woman calms down and apologizes for her outburst, though she still berates you for failing to watch the bread. Even when you meekly tell her you were contemplating important business, she retorts, "If you can't deal with a simple task like watching this bread, how can you deal with whatever ‘important’ business you have? You're just like my husband."\n\nApologizing for your mistake, you help her the best you can with any other chores she has. As night falls, the two of you eat a simple, humble meal. Afterwards, you sleep on the floor of her cottage.;;;;;;;;;;;x
+VIETmisc.5052.a;Surprisingly, you slept better than you expected.;;;;;;;;;;;;;x
+VIETmisc.5053.tooltip;Maybe it's because you weren't as stressed about the problems of your realm.;;;;;;;;;;;;;x
+VIETmisc.5053.title;New Perspectives;;;;;;;;;;;;;x
+VIETmisc.5053.desc;The next morning, after bidding the peasant woman farewell, you come back home. Everybody was afraid that something had happened to you, but thankfully it was nothing of that sort.\n\nWishing to thank the peasant woman for her kindness, as well as her wisdom, you decide to send a messenger to her residence, along with some small gifts as a sign of your gratitude. In fact, you were even glad you went through your experience, simple and mundane as it was, for you learned a very important lesson. Not only that, but being able to clear your mind helped you figure out new ways to tackle the problem you were contemplating in the first place!;;;;;;;;;;;x
+VIETmisc.5053.a;A lesson well learnt! I will never burn my bread ever again.;;;;;;;;;;;;;x
 VIETmisc.5054.title;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5054.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.5054.a;xxxxx;;;;;;;;;;;;;x
@@ -217,3 +220,33 @@ VIETmisc.5058.a;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5059.title;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5059.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.5059.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5060.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5060.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5060.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5061.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5061.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5061.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5062.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5062.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5062.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5063.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5063.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5063.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5064.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5064.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5064.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5065.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5065.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5065.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5066.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5066.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5066.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5067.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5067.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5067.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5068.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5068.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5068.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5069.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5069.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5069.a;xxxxx;;;;;;;;;;;;;x

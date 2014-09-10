@@ -10,7 +10,7 @@
 # The Minotaur 5015-5020
 # Tarim Basin Documents 5021-5027
 # Imouto Toothbrushing 5028-5042
-#
+# Burnt 5043-5053
 #
 ########################################################
 namespace = VIETmisc
@@ -1513,5 +1513,341 @@ character_event = {
 		name = VIETmisc.5042.a
 		add_lover = FROM
 		add_friend = FROM
+	}
+}
+
+
+
+########################################
+# BURNT (based on Alfred the Great legend)
+########################################
+
+
+# Start
+character_event = {
+	id = VIETmisc.5043
+	desc = VIETmisc.5043.desc
+	picture = GFX_evt_bad_news
+
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	only_men = yes
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no	
+		OR = {
+			NOT = { has_dynasty_flag =  VIET_alfred_bread_burn }
+			ai = yes
+		}
+		OR = {
+			trait = diligent
+			trait = stressed
+			trait = ambitious
+			trait = just
+		}
+		NOT = { trait = slothful }
+		NOT = { trait = content }
+		NOT = { trait = cruel }
+		NOT = { trait = greedy }
+		NOT = { has_character_flag = do_not_disturb }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			OR = {
+				culture = anglo_saxon
+				culture = english
+			}
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = absentminded
+		}
+		modifier = {
+			factor = 0.5
+			trait = perceptive
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			NOT = { prestige = 1000 }
+		}
+		modifier = {
+			factor = 0.5
+			higher_tier_than = DUKE
+		}
+	}
+
+	option = {
+		name = VIETmisc.5043.a
+		if = {
+			limit = {
+				ai = no
+			}
+			set_dynasty_flag =  VIET_alfred_bread_burn
+		}
+		character_event = { id = VIETmisc.5044 tooltip = VIETmisc.5044.tooltip }
+	}
+}
+
+#Lost!
+narrative_event = {
+	id = VIETmisc.5044
+	title = VIETmisc.5044.title
+	desc = VIETmisc.5044.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+
+	option = { #diplomacy
+		name = VIETmisc.5044.a
+		add_character_modifier = {
+			name = VIET_contemplating_diplomacy
+			duration = 555
+		}
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+	}
+	option = { #martial
+		name = VIETmisc.5044.b
+		add_character_modifier = {
+			name = VIET_contemplating_martial
+			duration = 555
+		}
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+	}
+	option = { #stewardship
+		name = VIETmisc.5044.c
+		add_character_modifier = {
+			name = VIET_contemplating_stewardship
+			duration = 555
+		}
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+	}
+	option = { #intrigue
+		name = VIETmisc.5044.d
+		add_character_modifier = {
+			name = VIET_contemplating_intrigue
+			duration = 555
+		}
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+	}
+}
+
+#Isolated house
+narrative_event = {
+	id = VIETmisc.5045
+	title = VIETmisc.5045.title
+	desc = VIETmisc.5045.desc
+	picture = GFX_evt_nightmare
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5045.a
+		character_event = { id = VIETmisc.5046 tooltip = VIETmisc.5046.tooltip }
+	}
+}
+
+#Peasant woman leaves
+narrative_event = {
+	id = VIETmisc.5046
+	title = VIETmisc.5046.title
+	desc = VIETmisc.5046.desc
+	picture = GFX_evt_baklava
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5046.a
+		piety = 3
+		custom_tooltip = { text = VIET_bready_thinking }
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_character_modifier = VIET_contemplating_diplomacy
+				}
+				character_event = { id = VIETmisc.5047 }
+			}
+			if = {
+				limit = {
+					has_character_modifier = VIET_contemplating_martial
+				}
+				character_event = { id = VIETmisc.5048 }
+			}
+			if = {
+				limit = {
+					has_character_modifier = VIET_contemplating_stewardship
+				}
+				character_event = { id = VIETmisc.5049 }
+			}
+			if = {
+				limit = {
+					has_character_modifier = VIET_contemplating_intrigue
+				}
+				character_event = { id = VIETmisc.5050 }
+			}
+		}
+	}
+}
+
+#Thinking diplomacy
+narrative_event = {
+	id = VIETmisc.5047
+	title = VIETmisc.5047.title
+	desc = VIETmisc.5047.desc
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5047.a
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+	}
+}
+
+#Thinking martial
+narrative_event = {
+	id = VIETmisc.5048
+	title = VIETmisc.5047.title
+	desc = VIETmisc.5048.desc
+	picture = GFX_evt_battle
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5047.a
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+	}
+}
+
+#Thinking stewardship
+narrative_event = {
+	id = VIETmisc.5049
+	title = VIETmisc.5047.title
+	desc = VIETmisc.5049.desc
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5047.a
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+	}
+}
+
+#Thinking intrigue
+narrative_event = {
+	id = VIETmisc.5050
+	title = VIETmisc.5047.title
+	desc = VIETmisc.5050.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5047.a
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+	}
+}
+
+# U burnt it u fool
+narrative_event = {
+	id = VIETmisc.5051
+	title = VIETmisc.5051.title
+	desc = VIETmisc.5051.desc
+	picture = GFX_evt_quarrel
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5051.a
+		piety = -3
+		character_event = { id = VIETmisc.5052 tooltip = VIETmisc.5052.tooltip }
+	}
+}
+
+# The moral
+narrative_event = {
+	id = VIETmisc.5052
+	title = VIETmisc.5052.title
+	desc = VIETmisc.5052.desc
+	picture = GFX_evt_baklava
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5052.a
+		if = {
+			limit = {
+				trait = stressed
+			}
+			removed_trait = stressed
+		}
+		character_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip }
+	}
+}
+
+# Lesson learned!
+narrative_event = {
+	id = VIETmisc.5053
+	title = VIETmisc.5053.title
+	desc = VIETmisc.5053.desc
+	picture = GFX_evt_tuscan_country
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETmisc.5053.a
+		add_character_modifier = {
+			name = VIET_wisdom_ruler
+			duration = 1444
+		}
 	}
 }

@@ -502,6 +502,11 @@ VIET_contemplating_learning = {
 	learning = 1
 	icon = 2
 }
+VIET_wisdom_ruler = {
+	general_opinion = 15
+	global_revolt_risk = -0.05
+	icon = 7
+}
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

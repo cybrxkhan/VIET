@@ -1845,6 +1845,15 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5053.a
+		prestige = 20
+		piety = 20
+		random_list = {
+			25 = { add_trait = humble }
+			25 = { add_trait = patient }
+			20 = { add_trait = diligent }
+			20 = { add_trait = content }
+			10 = { add_trait = just }
+		}
 		add_character_modifier = {
 			name = VIET_wisdom_ruler
 			duration = 1444

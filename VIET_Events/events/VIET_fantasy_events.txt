@@ -11,7 +11,7 @@
 # Events:
 # 
 # fantasia.0-Fantasia.7 Mermaid
-# fantasia.8-Fantasia.12 Mermaid
+# fantasia.8-Fantasia.12 Merlin
 #
 ###############################################
 

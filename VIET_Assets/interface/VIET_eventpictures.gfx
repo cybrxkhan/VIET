@@ -650,6 +650,36 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\rainstorm.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_carriage_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\Carriage_escorted_by_guards_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_throne_room_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\throne_room_iranian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_throne_room_gnostic_group"
+		texturefile = "gfx\\event_pictures\throne_room_iranian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_throne_room_iranian"
+		texturefile = "gfx\\event_pictures\throne_room_iranian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_throne_room_serindian"
+		texturefile = "gfx\\event_pictures\throne_room_iranian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_toothbrush"
+		texturefile = "gfx\\event_pictures\toothbrush.tga"
+		allwaystransparent = yes
+	}
 	
 	
 	#Buddhist	

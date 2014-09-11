@@ -477,6 +477,36 @@ VIET_shaft_head_tilt = {
 	intrigue = 1
 	icon = 18
 }
+VIET_loves_toothbrushing = {
+	health = 0.2
+	general_opinion = 5
+	icon = 39
+}
+VIET_contemplating_diplomacy = {
+	diplomacy = 1
+	icon = 3
+}
+VIET_contemplating_martial = {
+	martial = 1
+	icon = 1
+}
+VIET_contemplating_stewardship = {
+	stewardship = 1
+	icon = 4
+}
+VIET_contemplating_intrigue = {
+	intrigue = 1
+	icon = 5
+}
+VIET_contemplating_learning = {
+	learning = 1
+	icon = 2
+}
+VIET_wisdom_ruler = {
+	general_opinion = 15
+	global_revolt_risk = -0.05
+	icon = 7
+}
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

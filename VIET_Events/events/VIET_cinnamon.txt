@@ -1633,7 +1633,7 @@ character_event = {
 			}
 			set_dynasty_flag =  VIET_alfred_bread_burn
 		}
-		character_event = { id = VIETmisc.5044 tooltip = VIETmisc.5044.tooltip }
+		character_event = { id = VIETmisc.5044 tooltip = VIETmisc.5044.tooltip days = 2 random = 2 }
 	}
 }
 
@@ -1652,7 +1652,7 @@ narrative_event = {
 			name = VIET_contemplating_diplomacy
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #martial
 		name = VIETmisc.5044.b
@@ -1660,7 +1660,7 @@ narrative_event = {
 			name = VIET_contemplating_martial
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #stewardship
 		name = VIETmisc.5044.c
@@ -1668,7 +1668,7 @@ narrative_event = {
 			name = VIET_contemplating_stewardship
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 	option = { #intrigue
 		name = VIETmisc.5044.d
@@ -1676,7 +1676,7 @@ narrative_event = {
 			name = VIET_contemplating_intrigue
 			duration = 555
 		}
-		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip }
+		character_event = { id = VIETmisc.5045 tooltip = VIETmisc.5045.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1691,7 +1691,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5045.a
-		character_event = { id = VIETmisc.5046 tooltip = VIETmisc.5046.tooltip }
+		character_event = { id = VIETmisc.5046 tooltip = VIETmisc.5046.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1713,25 +1713,25 @@ narrative_event = {
 				limit = {
 					has_character_modifier = VIET_contemplating_diplomacy
 				}
-				character_event = { id = VIETmisc.5047 }
+				character_event = { id = VIETmisc.5047 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_martial
 				}
-				character_event = { id = VIETmisc.5048 }
+				character_event = { id = VIETmisc.5048 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_stewardship
 				}
-				character_event = { id = VIETmisc.5049 }
+				character_event = { id = VIETmisc.5049 days = 2 random = 2 }
 			}
 			if = {
 				limit = {
 					has_character_modifier = VIET_contemplating_intrigue
 				}
-				character_event = { id = VIETmisc.5050 }
+				character_event = { id = VIETmisc.5050 days = 2 random = 2 }
 			}
 		}
 	}
@@ -1748,7 +1748,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1763,7 +1763,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1778,7 +1778,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1793,7 +1793,7 @@ narrative_event = {
 
 	option = { #ok
 		name = VIETmisc.5047.a
-		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip }
+		character_event = { id = VIETmisc.5051 tooltip = VIETmisc.5047.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1809,7 +1809,7 @@ narrative_event = {
 	option = { #ok
 		name = VIETmisc.5051.a
 		piety = -3
-		character_event = { id = VIETmisc.5052 tooltip = VIETmisc.5052.tooltip }
+		character_event = { id = VIETmisc.5052 tooltip = VIETmisc.5052.tooltip days = 1 random = 2 }
 	}
 }
 
@@ -1830,7 +1830,7 @@ narrative_event = {
 			}
 			removed_trait = stressed
 		}
-		character_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip }
+		character_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip days = 2 random = 2 }
 	}
 }
 

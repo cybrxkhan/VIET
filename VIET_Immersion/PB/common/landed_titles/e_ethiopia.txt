@@ -646,8 +646,6 @@ e_abyssinia = {
 				b_marawi = {
 				}
 				b_ghazali = {
-					holy_site = miaphysite
-					holy_site = monophysite
 				}
 				b_kanisah = {
 				}

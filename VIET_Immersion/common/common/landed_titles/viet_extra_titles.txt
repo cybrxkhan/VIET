@@ -247,32 +247,6 @@ k_dumnonia = {
 	}
 }
 
-
-k_lombardy = {
-	color={ 205 111 234  }
-	color2={ 255 255 20 }
-	
-	capital = 235 # Lombardia
-	
-	creation_requires_capital = no	
-	
-	culture = lombard
-
-	allow = {
-		num_of_duke_titles = 3
-		culture = lombard
-		independent = yes
-		NOT = { 		
-			any_demesne_title = {
-				OR = {
-					tier = king
-					tier = emperor
-				}
-			}
-		}
-	}
-}
-
 k_hormuz = {
 	color={ 100 125 88 }
 	color2={ 255 255 255 }

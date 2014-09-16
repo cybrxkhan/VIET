@@ -1,4 +1,0 @@
-1066.1.1={
-	liege="c_anjou"
-	holder=1000184326 #Eastern egg
-}

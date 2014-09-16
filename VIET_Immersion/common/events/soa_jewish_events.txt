@@ -26,6 +26,18 @@ character_event = {
 }
 
 # Third Temple Built
+province_event = {
+	id = SoA.10199
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = { narrative_event = { id = SoA.101 } }
+	}
+}
+
 narrative_event = {
 	id = SoA.101
 	title = EVTNAME_SoA_101

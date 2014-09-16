@@ -17,26 +17,7 @@ turkish_conquest = {
 
 	can_use_gui = {
 		ROOT = {
-			piety = 100
-			OR = {
-				trait = ambitious
-				trait = diligent
-				trait = wroth
-				trait = envious
-				trait = brave
-				trait = proud
-				trait = zealous
-				AND = {
-					NOT = { trait = content }
-					NOT = { trait = slothful }
-					NOT = { trait = imbecile }
-					NOT = { trait = craven }
-				}
-			}
-			OR = {
-				NOT = { has_character_modifier = holy_war_cooldown }
-				has_global_flag = cb_cooldowns_off
-			}			
+			piety = 100			
 		}
 	}
 	
@@ -90,12 +71,6 @@ turkish_conquest = {
 	
 	on_add = {
 		ROOT = { piety = -100 }
-		ROOT = {
-			add_character_modifier = {
-				name = holy_war_cooldown
-				duration = 1825
-			}
-		}
 		ROOT = {
 			hidden_tooltip = {
 				if = {
@@ -319,71 +294,7 @@ hypocrite_county_conquest = {
 	
 	can_use_gui = {
 		ROOT = {
-			OR = {
-				trait = ambitious
-				trait = diligent
-				trait = wroth
-				trait = brave
-				trait = zealous
-			}
-			OR = {
-				AND = {
-					trait = ambitious
-					OR = {
-						trait = diligent
-						trait = wroth
-						trait = brave
-						trait = zealous					
-					}
-				}
-				AND = {
-					trait = zealous
-					OR = {
-						trait = diligent
-						trait = wroth
-						trait = brave
-						trait = ambitious					
-					}
-				}
-				AND = {
-					trait = wroth
-					OR = {
-						trait = diligent
-						trait = zealous
-						trait = brave
-						trait = ambitious					
-					}
-				}
-				AND = {
-					trait = brave
-					OR = {
-						trait = diligent
-						trait = zealous
-						trait = wroth
-						trait = ambitious					
-					}
-				}
-				AND = {
-					trait = zealous
-					OR = {
-						trait = diligent
-						trait = brave
-						trait = wroth
-						trait = ambitious					
-					}
-				}
-				AND = {
-					NOT = { trait = slothful }
-					NOT = { trait = imbecile }
-					NOT = { trait = cynical }
-					NOT = { trait = content }
-				}
-			}
 			prestige = 50
-			OR = {
-				NOT = { has_character_modifier = holy_war_cooldown }
-				has_global_flag = cb_cooldowns_off
-			}
 		}
 		FROM = {
 			AND = {
@@ -426,11 +337,7 @@ hypocrite_county_conquest = {
 	
 	on_add = {
 		ROOT = { 
-			prestige = -50
-			add_character_modifier = {
-				name = holy_war_cooldown
-				duration = 1825
-			}			
+			prestige = -50			
 		}
 	}
 	
@@ -627,7 +534,7 @@ khitan_invasion = {
 			has_landed_title = e_khitan
 			culture = khitan
 			NOT = { year = 1170 }
-			NOT = { realm_size = 120 }
+			NOT = { realm_size = 80 }
 		}
 	}
 	

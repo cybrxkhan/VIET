@@ -219,6 +219,7 @@ e_arabia = {
 					holy_site = shiite
 					holy_site = pagan
 					holy_site = yazidi
+					holy_site = ibadi
 				}
 				b_jeddah = {
 				}
@@ -443,6 +444,7 @@ e_arabia = {
 				color2={ 255 255 255 }
 			
 				b_muscat = {
+					holy_site = ibadi
 				}
 				b_sur = {
 				}
@@ -719,6 +721,7 @@ e_arabia = {
 					holy_site = monophysite
 					holy_site = hellenic_pagan
 					holy_site = nestorian
+					holy_site = manichean
 					holy_site = east_african_pagan
 					holy_site = east_african_pagan_reformed
 				}
@@ -1412,6 +1415,8 @@ e_arabia = {
 					holy_site = jewish
 					holy_site = samaritan
 					holy_site = karaite
+					holy_site = manichean
+					holy_site = ibadi
 				}
 				b_nablus = {
 				}
@@ -1950,6 +1955,7 @@ e_arabia = {
 				color2={ 255 255 255 }
 			
 				b_mzab = {
+					holy_site = ibadi
 				}
 				b_noumerat = {
 				}
@@ -2550,6 +2556,16 @@ e_arabia = {
 	
 	allow = {
 		culture_group = arabic
+		OR = {
+			has_landed_title = k_mauretania
+			completely_controls = k_mauretania
+			k_mauretania = { is_titular = yes }
+		}
+		OR = {
+			has_landed_title = k_africa
+			completely_controls = k_africa
+			k_africa = { is_titular = yes }
+		}
 		OR = {
 			has_landed_title = k_egypt
 			completely_controls = k_egypt

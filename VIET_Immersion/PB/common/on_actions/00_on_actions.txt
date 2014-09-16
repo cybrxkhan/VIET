@@ -1,7 +1,7 @@
 #character
 on_yearly_pulse = {
 	events = {
-		VIETmaintenance.0 #Religious head authority
+		#VIETmaintenance.0 #Religious head authority
 		pb_various.15 #Interest on loans
 		meneth.211 #Factions
 		pb_various.1 #Killing useless courtiers
@@ -1477,7 +1477,6 @@ on_death = {
 		SoA.5306
 		705
 		finnish.1
-		ao_cleanup.0
 	}
 	random_events = {
 		10 = 24505

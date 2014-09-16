@@ -1,0 +1,50 @@
+####################################################################################
+#
+# For new de jure Kingdoms found in both vanilla and PB versions
+#
+#####################################################################################
+
+
+
+k_songhay = {
+	color={ 245 210 44 }
+	color2={ 255 255 255 }
+	
+	capital = 914 # Gao
+
+	culture = songhai
+
+	west_african_pagan_reformed = 300
+
+	songhai = "Songhay"
+}
+
+k_canarias = {
+	color={ 225 240 124 }
+	color2={ 255 255 255 }
+	
+	capital = 849 # Canarias
+	
+	culture = guanche
+	
+	west_african_pagan_reformed = 100 # Crusade target weight
+	
+	# Creation/Usurp Trigger
+	allow = {
+		culture = guanche
+		independent = yes
+		NOT = { tier = king }
+		NOT = { tier = emperor }	
+	}
+}
+
+
+k_somalia = {
+	color={ 0 175 255 }
+	color2={ 255 255 255 }
+	
+	capital = 872 # Berbera
+	
+	culture = somali
+	
+}

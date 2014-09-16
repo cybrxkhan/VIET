@@ -1,0 +1,67 @@
+####################################################################################
+#
+# For new de jure Duchies found in both vanilla and PB versions
+#
+#####################################################################################
+
+d_oran = { #Oran "Republic"
+	color={ 36 150 88 }
+	color2={ 255 255 20 }
+	
+	capital = 832 # Orania
+	
+	culture = maghreb_arabic
+	religion = sunni
+	
+	allow = {
+		always = no
+	}
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+}
+
+d_agadez = {
+	color={ 233 211 199 }
+	color2={ 255 255 255 }
+	
+	capital = 916 # Taghaza
+	
+}
+
+d_canarias = {
+	color={ 225 240 124 }
+	color2={ 255 255 255 }
+	
+	capital = 849 # Canarias
+	
+}
+
+d_hormuz_republic = { 
+	color={ 100 125 88 }
+	color2={ 255 255 255 }
+	
+	capital = 641 # Hormuz
+
+	allow = {
+		war = no
+		is_republic = yes
+	}
+
+	short_name = yes
+	
+	dynasty_title_names = no
+	
+	dignity = 10
+	
+}
+
+
+d_fergana = {
+	color={ 240 255 98 }
+	color2={ 255 255 255 }
+
+	capital = 1423 #Fergana
+	
+}
+

@@ -1,0 +1,1041 @@
+namespace = LatinEmpire #18
+namespace = latine #2
+#The ones with the "latine" id are jordarkelf's code, with (maybe) some minor changes to it's code, thanks, jordarkelf!
+#The LatinEmpire ones were made by mclemente, with some help from VIET's events, mostly turkish ones
+
+#Latin Empire becomes Byzantium de jure
+narrative_event = {
+	id = LatinEmpire.1
+	title = EVTNAMELatinEmpire.1
+	desc = EVTDESCLatinEmpire.1
+	
+	picture = GFX_evt_crusaders
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_latin_empire
+		realm_size = 100
+		NOT = { has_global_flag = latin_empire_conquers }
+		OR = {
+			AND = {
+				e_byzantium = {
+					holder_scope = {
+						NOT = { realm_size = 15 }
+					}
+				}
+				e_byzantium = {
+					owner = {
+						war = no
+					}
+				}
+			}
+			e_byzantium = { has_holder = no }
+		}
+	}
+	
+	immediate = {
+		activate_title = { title = e_byzantium status = no }
+		k_thessalonika = { de_jure_liege = e_latin_empire }
+		k_epirus = { de_jure_liege = e_latin_empire }
+		k_nikaea = { de_jure_liege = e_latin_empire }
+		if = {
+			limit = { e_trebizond = { has_holder = no } }
+			k_trebizond = { de_jure_liege = e_latin_empire }
+		}
+		if = {
+			limit = { e_trebizond = { has_holder = yes } }
+			set_global_flag = trebizond_vs_latin
+		}
+		if = {
+			limit = { 
+				e_trebizond = { 
+					has_holder = yes
+					is_titular = yes
+				}
+			}
+			k_trebizond = { de_jure_liege = e_trebizond }
+		}
+		set_global_flag = latin_empire_conquers
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		trigger = {
+			has_landed_title = e_latin_empire
+		}
+		name = EVTOPTALatinEmpire.1
+		prestige = 500
+		give_nickname = nick_the_great
+		if = {
+			limit = { e_byzantium = { has_holder = yes }}
+			e_byzantium = {
+				destroy_landed_title = THIS
+			}
+		}
+		hidden_tooltip = {
+			d_varangian_guard = {
+				holder_scope = {
+					top_liege = { letter_event = { id = LatinEmpire.2 days = 7 } }
+					e_latin_empire = { letter_event = { id = LatinEmpire.3 days = 14 } }
+				}
+				set_global_flag = varangian_defected
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_latin_empire }
+		}
+		name = OK
+	}
+}
+
+#Varangian Guard leader send guard to former liege
+letter_event = {
+	id = LatinEmpire.2
+	desc = EVTDESCLatinEmpire.2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALatinEmpire.2
+		prestige = -50
+	}
+}
+
+#Varangian Guard leader send guard to new liege
+letter_event = {
+	id = LatinEmpire.3
+	desc = EVTDESCLatinEmpire.3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Oh, well... Welcome!"
+		custom_tooltip = { 
+			text = EVTTooltipLatinEmpire.3
+			hidden_tooltip = {
+				d_varangian_guard = {
+					holder_scope = {
+						set_defacto_liege = ROOT
+					}
+				}
+			}
+		}
+		clr_global_flag = varangian_defected
+	}
+}
+
+#Free Eunuchs
+character_event = {
+	id = LatinEmpire.4
+	desc = EVTDESCLatinEmpire.4
+	picture = GFX_evt_emissary
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_global_flag = latin_empire_conquers
+		has_landed_title = e_latin_empire
+		religion_group = christian
+	}
+	
+	
+	mean_time_to_happen = { 
+		years = 10
+		modifier = {
+			factor = 3
+			has_character_flag = latin_eunuch
+		}
+		modifier = {
+			factor = 2
+			any_courtier = {
+				trait = eunuch
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTALatinEmpire.4
+		scaled_wealth = -0.1
+		prestige = 10
+		set_character_flag = latin_eunuch
+		random_list = {
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ethiopian
+					female = no
+				}
+			}			
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = nubian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = somali
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ethiopian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = armenian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = serbian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = greek
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = bulgarian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = russian
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = cuman
+					female = no
+				}
+			}
+			10 = {
+				create_character = {
+					trait = eunuch
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = georgian
+					female = no
+				}
+			}
+		}
+	}	
+	option = {
+		name = EVTOPTBLatinEmpire.4
+	}
+}
+
+#Latin Empire recovers Rum
+narrative_event = {
+	id = LatinEmpire.5
+	title = EVTNAMELatinEmpire.5
+	desc = EVTDESCLatinEmpire.5	#This is actually Meneth's!
+	picture = GFX_evt_battle
+	border = GFX_event_normal_frame_religion
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_latin_empire
+		has_global_flag = rum_formed
+		NOT = { has_global_flag = rum_regained }
+		war = no
+		completely_controls = k_rum
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		trigger = {
+			has_landed_title = e_latin_empire
+		}
+		name = OK
+		set_global_flag = rum_regained
+		hidden_tooltip = {
+			k_rum = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = k_anatolia
+				}
+				destroy_landed_title = THIS
+			}
+			d_cibyrrhaeot = {
+				de_jure_liege = k_anatolia
+			}
+		}
+		k_anatolia = {
+			de_jure_liege = e_latin_empire
+		}
+	}
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_latin_empire }
+		}
+		name = OK
+	}
+}
+
+#Nikaea recovers Constantinople
+narrative_event = {
+	id = LatinEmpire.6
+	title = EVTNAMELatinEmpire.6
+	desc = EVTDESCLatinEmpire.6
+	picture = GFX_evt_victory_arch_byzantine
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_nikaea
+		prisoner = no
+		war = no
+		OR = {
+			has_landed_title = c_byzantion
+			any_realm_lord = {
+				has_landed_title = c_byzantion
+			}
+		}
+		NOT = { has_global_flag = constantinople_recovered }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+	
+	option = {
+		trigger = {
+			has_landed_title = e_nikaea
+		}
+		name = "Rise from the ashes, Phoenix!"
+		prestige = 300
+		piety = 300
+		add_trait = restorer_byzantium
+		k_orthodox = {
+			holder_scope = {
+				b_hagiasophia = {
+					grant_title = PREV
+				}
+				set_defacto_liege = e_byzantium
+				496 = {
+					capital = PREVPREV
+				}
+			}
+		}
+		c_byzantion = {
+			ROOT = { capital = PREV }
+		}
+		e_byzantium = { 
+			copy_title_laws = ROOT
+			grant_title = ROOT
+		#Going from Crown Levies to Theme System, Meneth's
+			#if = {
+			#	limit = { has_law = crown_levies_3 }
+			#	add_law = themes_1
+			#	revoke_law = crown_levies_3
+			#}
+			#if = {
+			#	limit = { has_law = crown_levies_4 }
+			#	add_law = themes_2
+			#	revoke_law = crown_levies_4
+			#}
+		}
+		clr_global_flag = latin_empire_conquers
+		if = {
+			limit = { e_latin_empire = { has_holder = yes } }
+			hidden_tooltip = { destroy_landed_title = e_latin_empire }
+		}
+		e_latin_empire = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = e_byzantium
+			}
+		}
+		hidden_tooltip = {
+			k_nikaea = { de_jure_liege = e_byzantium }
+			e_nikaea = { destroy_landed_title = THIS }
+			activate_title = { title = e_nikaea status = no }
+		}
+		if = {
+			limit = { NOT = { has_landed_title = c_byzantion } }
+			c_byzantion = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		set_global_flag = constantinople_recovered
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_nikaea }
+		}
+		name = OK
+	}
+}
+
+#Trebizond recovers Constantinople
+narrative_event = {
+	id = LatinEmpire.7
+	title = EVTNAMELatinEmpire.7
+	desc = EVTDESCLatinEmpire.7
+	picture = GFX_evt_victory_arch_byzantine
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = e_trebizond
+		e_byzantium = { has_holder = no }
+		prisoner = no
+		war = no
+		OR = {
+			has_landed_title = c_byzantion
+			any_realm_lord = {
+				has_landed_title = c_byzantion
+			}
+		}
+		NOT = { has_global_flag = constantinople_recovered }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+	
+	option = {
+		trigger = {
+			has_landed_title = e_trebizond
+		}
+		name = "Rise from the ashes, Phoenix!"
+		prestige = 300
+		piety = 300
+		add_trait = restorer_byzantium
+		k_orthodox = {
+			holder_scope = {
+				b_hagiasophia = {
+					grant_title = PREV
+				}
+				set_defacto_liege = e_byzantium
+				496 = {
+					capital = PREVPREV
+				}
+			}
+		}
+		c_byzantion = {
+			ROOT = { capital = PREV }
+		}
+		e_byzantium = { 
+			copy_title_laws = ROOT
+			grant_title = ROOT
+		#Going from Crown Levies to Theme System, Meneth's
+			#if = {
+			#	limit = { has_law = crown_levies_3 }
+			#	#add_law = themes_1
+			#	revoke_law = crown_levies_3
+			#}
+			#if = {
+			#	limit = { has_law = crown_levies_4 }
+			#	#add_law = themes_2
+			#	revoke_law = crown_levies_4
+			#}
+		}
+		clr_global_flag = latin_empire_conquers
+		if = {
+			limit = { e_latin_empire = { has_holder = yes } }
+			hidden_tooltip = { destroy_landed_title = e_latin_empire }
+		}
+		e_latin_empire = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = e_byzantium
+			}
+		}
+		hidden_tooltip = {
+			k_trebizond = { de_jure_liege = e_byzantium }
+			e_trebizond = { destroy_landed_title = THIS }
+			activate_title = { title = e_trebizond status = no }
+		}
+		if = {
+			limit = { NOT = { has_landed_title = c_byzantion } }
+			c_byzantion = {
+				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+			}
+		}
+		set_global_flag = constantinople_recovered
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_trebizond }
+			ai = no
+		}
+		name = OK
+	}
+}
+
+#Latin Empire recovers Trebizond
+narrative_event = {
+	id = LatinEmpire.8
+	title = EVTNAMELatinEmpire.8
+	desc = EVTDESCLatinEmpire.8
+	picture = GFX_evt_crusaders
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	trigger = {
+		completely_controls = k_trebizond
+		has_landed_title = e_latin_empire
+		NOT = { has_global_flag = latin_empire_takes_trebizond }
+	}
+	
+	option = {
+		trigger = {
+			has_landed_title = e_latin_empire
+		}
+		name = EVTOPTALatinEmpire.8
+		prestige = 500
+		e_trebizond = { destroy_landed_title = THIS }
+		k_trebizond = { de_jure_liege = e_latin_empire }
+		set_global_flag = latin_empire_takes_trebizond
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_latin_empire }
+			ai = no
+		}
+		name = OK
+	}
+}
+
+#Empire of Trebizond is formed via decision
+narrative_event = {
+	id = LatinEmpire.9
+	title = EVTNAMELatinEmpire.9
+	desc = EVTDESCLatinEmpire.9
+	picture = GFX_evt_victory_arch_byzantine
+	border = "GFX_event_narrative_frame_war"
+	
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			has_landed_title = k_trebizond
+		}
+		name = EVTOPTALatinEmpire.9
+		set_character_flag = centralize_without_penalties
+		k_trebizond = {
+			add_law = succ_primogeniture
+			add_law = cognatic_succession
+			#add_law = crown_levies_1
+			de_jure_liege = e_trebizond
+		}
+		e_trebizond = {
+			copy_title_laws = FROM
+			grant_title = FROM
+		}
+		clr_character_flag = centralize_without_penalties
+		if = {
+			limit = { NOT = { has_landed_title = c_trapezous } }
+			FROM = {
+				678 = {
+					usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+				}
+			}
+		}
+		capital = 678
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_landed_title = k_trebizond }
+			ai = no
+		}
+		name = OK
+	}
+}
+
+#Byzantine Empire recovers Trebizond
+narrative_event = {
+	id = LatinEmpire.10
+	title = EVTNAMELatinEmpire.10
+	desc = EVTDESCLatinEmpire.10
+	picture = GFX_evt_victory_arch_byzantine
+	
+	only_rulers = yes
+	
+	trigger = {
+		always = no #y u give so much trouble?
+		has_landed_title = e_byzantium
+		completely_controls = k_trebizond
+		has_global_flag = constantinople_recovered
+		NOT = { has_global_flag = ere_takes_trebizond }
+	}
+	
+	option = {
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		name = EVTOPTALatinEmpire.10
+		prestige = 500
+		e_trebizond = { destroy_landed_title = THIS }
+		k_trebizond = { de_jure_liege = e_byzantium }
+		set_global_flag = ere_takes_trebizond
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			ai = no
+		}
+		name = OK
+	}
+}
+
+#Empire of Nikaea is formed via decision
+narrative_event = {
+	id = LatinEmpire.11
+	title = EVTNAMELatinEmpire.11
+	desc = EVTDESCLatinEmpire.11
+	picture = GFX_evt_victory_arch_byzantine
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	
+	option = {
+		trigger = {
+			has_landed_title = k_nikaea
+		}
+		name = EVTOPTALatinEmpire.11
+		set_character_flag = centralize_without_penalties
+		k_nikaea = {
+			add_law = succ_primogeniture
+			add_law = cognatic_succession
+			#add_law = crown_levies_1
+			de_jure_liege = e_nikaea
+		}
+		e_nikaea = {
+			copy_title_laws = FROM
+			grant_title = FROM
+		}
+		clr_character_flag = centralize_without_penalties
+		if = {
+			limit = { NOT = { has_landed_title = c_nikaea } }
+			FROM = {
+				c_nikaea = {
+					usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+				}
+			}
+		}
+		capital = 750
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_landed_title = k_nikaea }
+			ai = no
+		}
+		name = OK
+	}
+}
+
+#A random orthodox gets Constantinople. Who knows? Maybe Michael of Epirus
+character_event = {
+	id = LatinEmpire.12
+	desc = EVTDESCLatinEmpire.12
+	
+	trigger = {
+		year = 1204
+		OR = {
+			has_landed_title = c_byzantion
+			any_vassal = { has_landed_title = c_byzantion }
+		}
+		independent = yes
+		war = no
+		culture_group = byzantine
+		religion = orthodox
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_trebizond }
+		NOT = { has_landed_title = e_nikaea }
+		e_byzantium = { has_holder = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTALatinEmpire.12
+		prestige = 1000
+		give_nickname = nick_the_restorer
+		hidden_tooltip = {
+			e_byzantium = {
+					k_nikaea = { de_jure_liege = PREV }
+					k_thessalonika = { de_jure_liege = PREV }
+					k_epirus = { de_jure_liege = PREV }
+					e_latin_empire = {
+						any_direct_de_jure_vassal_title = {
+							de_jure_liege = PREV
+						}
+					}
+				copy_title_laws = ROOT
+				grant_title = ROOT
+				#Going from Crown Levies to Theme System, Meneth's
+				#if = {
+				#	limit = { has_law = crown_levies_3 }
+					#add_law = themes_1
+					#revoke_law = crown_levies_3
+				#}
+				#if = {
+					#limit = { has_law = crown_levies_4 }
+					#add_law = themes_2
+					#revoke_law = crown_levies_4
+				#}
+			}	
+			if = { #Latin Empire destroyed
+				limit = { e_latin_empire = { has_holder = yes } }
+				e_latin_empire = { destroy_landed_title = THIS }
+			}
+			if = { #Nikaea destroyed
+				limit = { e_nikaea = { has_holder = yes } }
+				e_nikaea = { destroy_landed_title = THIS }
+			}
+			if = { #If Constantinople isn't yours
+				limit = { NOT = { has_landed_title = c_byzantion } }
+				c_byzantion = {
+					usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+				}
+			}
+			k_nikaea = { 
+				any_de_jure_vassal = {
+					limit = {
+						NOT = { character = ROOT }
+						independent = yes
+					}
+					letter_event = { id = LatinEmpire.17 days = 7 }
+				}
+			}
+			k_thessalonika = { 
+				any_de_jure_vassal = {
+					limit = { 
+						NOT = { character = ROOT }
+						independent = yes
+					}
+					letter_event = { id = LatinEmpire.17 days = 7 }
+				}
+			}
+			k_epirus = { 
+				any_de_jure_vassal = {
+					limit = { 
+						NOT = { character = ROOT }
+						independent = yes
+					}
+					letter_event = { id = LatinEmpire.17 days = 7 }
+				}
+			}
+		}
+		custom_tooltip = { 
+			text = EVTTooltipALatinEmpire.12
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					religion = orthodox
+					culture = ROOT
+					female = no
+					age = 30
+					attributes = {
+						martial = 12
+					}
+					trait = brilliant_strategist
+				}
+				new_character = {
+					spawn_unit = {
+						province = 496
+						troops = {
+							horse_archers = { 1000 1000 }
+							light_cavalry = { 500 500 }
+							light_infantry = { 300 300 }
+							heavy_infantry = { 500 500 }
+							knights = { 300 300 }
+						}
+						attrition = 0
+					}
+				}
+			}
+		}
+		k_orthodox = {
+			holder_scope = {
+				b_hagiasophia = {
+					grant_title = PREV
+				}
+				set_defacto_liege = e_byzantium
+				496 = {
+					capital = PREVPREV
+				}
+			}
+		}
+		c_byzantion = {
+			ROOT = { capital = PREV }
+		}
+		add_trait = restorer_byzantium
+		clr_global_flag = latin_empire_conquers
+	}
+}
+
+#13 to 15 erased
+
+#Byzantium gets notified you're joining them
+character_event = {
+	id = LatinEmpire.16
+	desc = EVTDESCLatinEmpire.16
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		prestige = 50
+		opinion = { who = FROM modifier = opinion_joined_byzantium }
+		FROM = { set_defacto_liege = e_byzantium }
+	}
+}
+
+#Independent de jure vassals gets notified about Byzantium's invite
+letter_event = {
+	id = LatinEmpire.17
+	desc = EVTDESCLatinEmpire.17
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALatinEmpire.17
+		FROM = { letter_event = { id = LatinEmpire.16 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				e_byzantium = {
+					holder_scope = {
+						reverse_opinion = {
+							who = ROOT
+							value = 50
+						}
+					}
+				}
+				factor = 5
+			}
+			modifier = {
+				de_jure_liege_or_above = e_byzantium
+				factor = 5
+			}
+			modifier = {
+				num_of_king_titles = 1
+				factor = 0.5
+			}
+			modifier = {
+				tier = duke
+				factor = 1.5
+			}
+			modifier = {
+				tier = count
+				factor = 2
+			}
+			modifier = {
+				e_byzantium = {
+					holder_scope = {
+						is_close_relative = ROOT
+					}
+				}
+				factor = 2
+			}
+			modifier = {
+				trait = craven
+				factor = 2
+			}
+			modifier = {
+				trait = content
+				factor = 5
+			}
+			modifier = {
+				culture = greek
+				factor = 2
+			}
+			modifier = {
+				NOT = { religion = orthodox }
+				factor = 0
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBLatinEmpire.17
+		FROM = { letter_event = { id = LatinEmpire.18 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				NOT = {
+					e_byzantium = {
+						holder_scope = {
+							reverse_opinion = {
+								who = ROOT
+								value = 20
+							}
+						}
+					}
+				}
+				factor = 5
+			}
+			modifier = {
+				NOT = { de_jure_liege_or_above = e_byzantium }
+				factor = 5
+			}
+			modifier = {
+				NOT = { tier = king }
+				num_of_duke_titles = 2
+				factor = 2
+			}
+			modifier = {
+				trait = ambitious
+				factor = 10
+			}
+			modifier = {
+				trait = proud
+				factor = 5
+			}
+		}
+	}
+}
+	
+#Refusal of invite
+letter_event = {
+	id = LatinEmpire.18
+	desc = EVTDESCLatinEmpire.18
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		FROM = {
+			location = {
+				kingdom = {
+					any_title_under = {
+						add_claim = ROOT
+					}
+				}
+			}
+		}
+		ROOT = { opinion = { who = FROM modifier = opinion_disappointed } }
+	}
+}
+
+### Latin Empire Formation
+
+# The Latin Empire from jordarjkelf
+narrative_event = {
+	id = latine.1
+	title = EVTNAMElatine.1
+	desc = EVTDESClatine.1
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAlatine.1
+		e_latin_empire = {
+			grant_title = FROM
+			copy_title_laws = FROM
+		}
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					NOT = { has_landed_title = FROM }
+					ai = no
+				}
+				narrative_event = { id = latine.2 }
+			}
+		}
+	}	
+}
+
+# Informed about Latin Empire
+narrative_event = {
+	id = latine.2
+	title = EVTNAMElatine.2
+	desc = EVTDESClatine.2
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAlatine.2
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			ai = no
+		}
+	}
+	option = {
+		name = EVTOPTBlatine.2
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		prestige = -500
+	}
+}

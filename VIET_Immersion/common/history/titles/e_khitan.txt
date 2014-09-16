@@ -1,0 +1,29 @@
+20.1.1={
+	active=no
+}
+1066.1.1={
+	law = succ_primogeniture
+	law = cognatic_succession
+}
+1141.11.1={
+	active=yes
+	holder=1000158762
+	set_global_flag = khitan_refugees_rumors
+	set_global_flag = khitan_come_to_civilize
+}
+1143.1.1={
+	holder=1000158763
+}
+1163.1.1={
+	holder=1000158764
+}
+1178.1.1={
+	holder=1000158765
+}
+1211.1.1={
+	holder=1000158766
+}
+1221.1.1={
+	holder=0
+	active=no
+}

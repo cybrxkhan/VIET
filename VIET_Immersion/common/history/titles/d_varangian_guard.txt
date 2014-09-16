@@ -1,0 +1,14 @@
+20.1.1={
+	active = no
+}
+911.1.1={
+	liege="e_byzantium"
+	active = yes
+	set_global_flag = varangian_guard_founded
+}
+1204.5.16={
+	liege="e_nikaea"
+}
+1261.7.25={
+	liege="e_byzantium"
+}

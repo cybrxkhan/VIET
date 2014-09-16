@@ -1024,6 +1024,16 @@ character_event = {
 			clr_character_flag = encourage_courtship
 			clr_character_flag = ignore_courtship
 			add_lover = ROOT
+			add_character_modifier = {
+				name = "new_love"
+				duration = 90
+				hidden = yes
+			}
+		}
+		add_character_modifier = {
+			name = "new_love"
+			duration = 90
+			hidden = yes
 		}
 	}
 	
@@ -1041,6 +1051,16 @@ character_event = {
 			clr_character_flag = encourage_courtship
 			clr_character_flag = ignore_courtship
 			add_lover = ROOT
+			add_character_modifier = {
+				name = "new_love"
+				duration = 90
+				hidden = yes
+			}
+		}
+		add_character_modifier = {
+			name = "new_love"
+			duration = 90
+			hidden = yes
 		}
 	}
 }
@@ -1067,6 +1087,16 @@ character_event = {
 			clr_character_flag = encourage_courtship
 			clr_character_flag = ignore_courtship
 			add_lover = ROOT
+			add_character_modifier = {
+				name = "new_love"
+				duration = 90
+				hidden = yes
+			}
+		}
+		add_character_modifier = {
+			name = "new_love"
+			duration = 90
+			hidden = yes
 		}
 	}
 	
@@ -1083,6 +1113,16 @@ character_event = {
 			clr_character_flag = encourage_courtship
 			clr_character_flag = ignore_courtship
 			add_lover = ROOT
+			add_character_modifier = {
+				name = "new_love"
+				duration = 90
+				hidden = yes
+			}
+		}
+		add_character_modifier = {
+			name = "new_love"
+			duration = 90
+			hidden = yes
 		}
 	}
 }

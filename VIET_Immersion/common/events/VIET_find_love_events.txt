@@ -464,7 +464,11 @@ character_event = {
 				opinion = { who = FROM value = -100 }
 			}
 		}
-		add_friend = FROM
+		opinion = {
+			modifier = opinion_friend
+			who = FROM
+			years = 100
+		}
 		FROM = {
 			character_event = { id = VIETlove.12 days = 2 tooltip = "VIETlove.12.tooltip" }
 		}
@@ -1063,7 +1067,11 @@ character_event = {
 				opinion = { who = FROM value = -100 }
 			}
 		}
-		add_friend = FROM
+		opinion = {
+			modifier = opinion_friend
+			who = FROM
+			years = 100
+		}
 		FROM = {
 			character_event = { id = VIETlove.12 days = 2 tooltip = "VIETlove.12.tooltip" }
 		}
@@ -1174,7 +1182,11 @@ character_event = {
 	
 	option = { #Boohoohoo?
 		name = VIETlove.12.a
-		add_friend = FROM
+		opinion = {
+			modifier = opinion_friend
+			who = FROM
+			years = 100
+		}
 		remove_character_modifier = interest_in_spouse_start
 		remove_character_modifier = interest_in_courtier_start
 		add_character_modifier = {

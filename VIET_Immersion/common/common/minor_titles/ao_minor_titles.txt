@@ -1,0 +1,25 @@
+title_favored_son={
+	grant_limit = 1
+	opinion_effect = 0
+	monthly_salary = 0
+	monthly_prestige = 0
+	allow = {
+		is_female = no
+		is_adult = no
+		independent = no
+		dynasty = FROM
+		NOT = { trait = bastard }
+		is_child_of = FROM
+		father = {is_alive = yes}
+		#NOT = {has_minor_title = title_favored_son}
+	}
+	gain_effect = {
+		add_trait = favored_son
+	}
+	lose_effect = {
+		remove_trait = favored_son
+	}
+	message = no
+}
+
+#Revoke title minor title removed

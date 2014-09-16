@@ -1,0 +1,30 @@
+namespace = MSR
+
+character_event = {
+    id = MSR.1
+	title = "EVTNAMEMSR.1"
+	desc = "EVTDESCMSR.1"
+	
+	trigger = { 
+	    has_landed_title = k_venice
+		k_venice = { de_jure_liege = e_byzantium }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_venice } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_dioclea } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_dalmatia } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_croatia } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_ferrara } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_apulia } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_ancona } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_spoleto } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_carinthia } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_benevento } } }
+		NOT =  { e_byzantium = { owner = { completely_controls = d_verona } } }
+		NOT = { has_global_flag = venice_free_from_byz }
+	}
+	
+	option = {
+	    name = "EVTOPTAMSR.1"
+		set_global_flag = venice_free_from_byz
+		k_venice = { de_jure_liege = e_italy }
+	}
+}

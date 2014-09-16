@@ -71,70 +71,68 @@
 }
 #Shahis
 850.1.1={
-	holder=175060 # Kallar Shahi
+	holder=175060
 }
 #Ghaznavids
 977.1.1 = {
-	holder = 144123 # Sabuktigin
-	set_global_flag = sabuktigin_spawned
+	holder = 144123
 }
 997.1.1={
-	holder = 144124 # Ismail
+	holder = 144124
 }
 998.1.1={
-	holder = 144125 # Mahmud
+	holder = 144125
 }
 1030.1.1={
-	holder = 144126 # Muhammad
+	holder = 144126
 }
 1031.1.1={
-	holder = 144127 # Musud
+	holder = 144127
 }
 1041.1.1={
-	holder = 144128 # Mawdud
+	holder = 144128
 }
 1050.1.1={
-	holder = 144129 # Masud
+	holder = 144129
 }
 1050.6.1={
-	holder = 144130 # Ali
+	holder = 144130
 }
 1050.9.1={
-	holder = 144131 # Abd al-Rashid
+	holder = 144131
 }
 1053.1.1={
-	holder = 144132 # Farrukhzad
+	holder = 144132
 }
 1059.1.1={
-	holder = 144133 # Ibrahim
+	holder = 144133
 }
 1099.1.1={
-	holder = 144134 # Masud II
+	holder = 144134
 }
 1115.1.1={
-	holder = 144135 # Shirzad
+	holder = 144135
 }
 1115.6.1={
-	holder = 144136 # Arlsan Shah
+	holder = 144136
 }
 1118.1.1={
-	holder = 0 # Ghaznavid vassalage under Seljuks
+	holder = 144137
 }
-
-1157.1.1={
-	holder = 144138 # Khusraw Shah
+1152.1.1={
+	holder = 144138
 }
 1160.1.1={
-	holder = 144139 # Khusraw Malik
+	holder = 144139
 }
 1173.1.1={
-	holder = 144141 # Ghiyath Ghurid
+	holder = 144141
 }
 1186.1.1={
 	liege=e_rajastan
 }
 1203.1.1={
-	holder = 144142 # Mu'izz
+	holder = 144142
 }
 1206.3.15={
 	holder = 170302

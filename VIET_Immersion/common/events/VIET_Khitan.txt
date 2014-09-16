@@ -1,0 +1,1323 @@
+################################################################
+#
+# Khitan INVASSSSSIIIIIIOOOOONNNNN
+#
+# zhongguo.0-zhongguo.999 reserved
+#
+#
+################################################################
+
+
+
+# Rumors of the Khitan
+narrative_event = {
+	id = zhongguo.0
+	title = zhongguo.0.name
+	desc = zhongguo.0.desc
+	major = yes
+	
+	picture = "GFX_evt_khitan"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1120
+		
+		religion = catholic
+		controls_religion = yes # Let it happen for the Pope - he's always around
+		
+		has_global_flag = rise_of_khitan
+		has_global_flag = rise_of_song
+		NOT = { has_global_flag = khitan_refugees_rumors }
+		NOT = { has_global_flag = khitan_come_to_civilize }
+		NOT = { has_global_flag = VIET_no_khitan }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = khitan_refugees_rumors
+		activate_title = { title = e_khitan status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = 1000061600 # Yelu
+			name = "Dashi"
+			culture = khitan
+			religion = buddhist
+			age = 40
+			attributes = {
+				stewardship=7
+				martial=9
+				learning=7
+			}
+			health = 6
+			fertility = 0.7
+			trait = quick
+			trait = grey_eminence
+			trait = jinshi
+			trait = veteran
+			trait = diligent
+			trait = ambitious
+			trait = gregarious
+			trait = hunter
+			trait = scholar
+		}
+		new_character = {
+			set_character_flag = yelu_dashi_himself
+			e_khitan = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+		}
+	}
+	
+	option = {
+		name = zhongguo.0.a
+	}
+}
+
+
+# Arrival of the Khitan
+narrative_event = {
+	id = zhongguo.1
+	title = zhongguo.1.name
+	desc = zhongguo.1.desc
+	major = yes
+	hide_new = yes
+	
+	picture = "GFX_evt_khitans"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1121
+		has_landed_title = e_khitan
+		has_global_flag = khitan_refugees_rumors
+		NOT = { year = 1150 }
+		NOT = { has_global_flag = khitan_come_to_civilize }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "zhongguo.1.a"
+		trigger = {
+			has_landed_title = e_khitan
+		}
+		set_global_flag = khitan_come_to_civilize
+		1423 = { # Fergana
+			kingdom = {
+				ROOT = {
+					war = {
+						casus_belli = khitan_invasion
+						target = PREVPREV # The top liege of the owner
+						thirdparty_title = PREV # The de jure kingdom
+					}
+				}
+			}
+		}
+		wealth = 5000
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1181 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+				attrition = 0.25
+			}
+		}
+		
+		random = {
+			chance = 50
+			
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = buddhist
+				culture = khitan
+				female = no
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 903 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+					attrition = 0.25
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = buddhist
+				culture = khitan
+				female = no
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 903 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+					attrition = 0.25
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = buddhist
+				culture = khitan
+				female = no
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 903 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+					attrition = 0.25
+				}
+			}
+		}
+		
+		# Some extra courtiers and family members
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+		new_character = {
+			add_spouse = ROOT
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			age = 20
+			trait = skilled_tactician
+		}
+		new_character = {
+			set_father = ROOT
+			dynasty = father
+			# Traits aren't that random
+			random = {
+				chance = 25
+				add_trait = genius
+			}
+			random = {
+				chance = 25
+				add_trait = strong
+			}
+			remove_trait = imbecile
+			remove_trait = slow
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			age = 16
+			trait = skilled_tactician
+		}
+		new_character = {
+			set_father = ROOT
+			dynasty = father
+			# Traits aren't that random
+			random = {
+				chance = 10
+				add_trait = genius
+			}
+			random = {
+				chance = 10
+				add_trait = strong
+			}
+			remove_trait = imbecile
+			remove_trait = slow
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+		}
+		new_character = {
+			dynasty = ROOT
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+		}
+		new_character = {
+			dynasty = ROOT
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+		new_character = {
+			dynasty = ROOT
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = yes
+		}
+	}
+	option = {
+		name = "zhongguo.1.b"
+		trigger = {
+			OR = {
+				religion_group = muslim
+				religion_group = gnostic_group
+				religion_group = indian_group
+			}
+			NOT = { has_landed_title = e_khitan }
+		}
+	}
+	option = {
+		name = "zhongguo.1.c"
+		trigger = {
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = gnostic_group }
+			NOT = { religion_group = indian_group }
+			NOT = { has_landed_title = e_khitan }
+		}
+	}
+}
+
+
+
+
+# Khitan Refugees Reinforcements
+character_event = {
+	id = zhongguo.2
+	desc = zhongguo.2.desc
+	
+	picture = "GFX_evt_khitan"
+	border = "GFX_event_normal_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		NOT = { year = 1170 }
+		has_landed_title = e_khitan
+		had_global_flag = { flag = khitan_come_to_civilize days = 1000 }
+		e_khitan = {
+			holder_scope = {
+				culture = khitan
+				religion = buddhist
+				OR = {
+					war = yes
+					is_landed = yes
+				}
+			}
+		}
+		NOT = { has_character_flag = khitan_refugees_join_in }
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "zhongguo.2.a"
+		set_character_flag = khitan_refugees_join_in
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			female = no
+			trait = skilled_tactician
+		}
+		new_character = {
+			spawn_unit = {
+				province = 1423 # Fergana
+				troops =
+				{
+					horse_archers = { 1200 1200 }
+					light_cavalry = { 1200 1200 }
+					light_infantry = { 300 300 }
+					heavy_infantry = { 300 300 }
+					knights = { 50 50 }
+				}
+				attrition = 0.25
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+		}
+		new_character = {
+			dynasty = ROOT
+		}
+		
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = buddhist
+				culture = khitan
+				female = no
+				trait = skilled_tactician
+			}
+			new_character = {
+				spawn_unit = {
+					province = 1423 # Fergana
+					troops =
+					{
+						horse_archers = { 1200 1200 }
+						light_cavalry = { 1200 1200 }
+						light_infantry = { 300 300 }
+						heavy_infantry = { 300 300 }
+						knights = { 50 50 }
+					}
+					attrition = 0.25
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = buddhist
+				culture = khitan
+			}
+			new_character = {
+				dynasty = ROOT
+			}
+		}
+	}
+}
+
+
+
+# Khitan Done Conquering
+narrative_event = {
+	id = zhongguo.3
+	title = zhongguo.3.name
+	desc = zhongguo.3.desc
+	major = yes
+	
+	picture = "GFX_evt_khitan"
+	border = "GFX_event_narrative_frame_war"
+	
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+			year = 1170
+			AND = {
+				year = 1150
+				realm_size = 120
+			}
+		}
+		e_khitan = {
+			holder_scope = {
+				is_landed = yes
+			}
+		}
+		NOT = { has_global_flag = khitan_finished_conquering }
+	}
+	
+	immediate = {
+		set_global_flag = khitan_finished_conquering
+	}
+	
+	option = {
+		name = "zhongguo.3.a"
+	}
+}
+
+
+
+# Khitan Refugees
+character_event = {
+	id = zhongguo.4
+	desc = zhongguo.4.desc
+	picture = GFX_evt_market_sinic
+	
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = e_khitan
+			top_liege = {
+				has_landed_title = e_khitan
+			}
+		}
+		NOT = { year = 1200 }
+		has_global_flag = khitan_come_to_civilize
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+
+		modifier = {
+			factor = 3
+			has_character_flag = received_khitan_refugees
+		}
+		modifier = {
+			factor = 3
+			NOT = { culture_group = sinic }
+		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		
+		modifier = {
+			factor = 1.5
+			trait = arbitrary
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}		
+		
+		modifier = {
+			factor = 0.9
+			trait = scholar
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = ambitious
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = charitable
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = trusting
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = greedy
+		}
+		
+	}
+	
+	immediate = {
+		set_character_flag = received_khitan_refugees
+	}
+	
+	option = {
+		name = "zhongguo.4.a"
+
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			attributes = {
+				diplomacy = 3
+				martial = 3
+				stewardship = 3
+				intrigue = 3
+				learning = 3
+			}
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}				
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = buddhist
+			culture = khitan
+			attributes = {
+				diplomacy = 5
+				martial = 5
+				stewardship = 5
+				intrigue = 5
+				learning = 5
+			}
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}				
+		}
+		random_list = {
+			30 = {}
+			70 = {
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					religion = buddhist
+					culture = khitan
+					attributes = {
+						diplomacy = 7
+						martial = 7
+						stewardship = 7
+						intrigue = 7
+						learning = 7
+					}
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}
+			}
+		}
+		random_list = {
+			70 = {}
+			30 = {
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					religion = buddhist
+					culture = khitan
+					attributes = {
+						diplomacy = 8
+						martial = 8
+						stewardship = 8
+						intrigue = 8
+						learning = 8
+					}
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}
+			}
+		}
+		random_list = {
+			95 = {}
+			5 = {
+				create_character = {
+					random_traits = yes
+					dynasty = random
+					religion = buddhist
+					culture = khitan
+					attributes = {
+						diplomacy = 10
+						martial = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "reject.VIET.courtiers"
+		trigger = {
+			ai = no
+		}
+	}	
+	
+}
+
+
+# Khitan Members of the Royal Family
+character_event = {
+	id = zhongguo.5
+	desc = zhongguo.5.desc
+	picture = GFX_evt_emissary_sinic
+	
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	
+	trigger = {
+		dynasty = 1000061600
+		OR = {
+			has_landed_title = e_khitan
+			top_liege = {
+				has_landed_title = e_khitan
+				dynasty = 1000061600
+			}
+		}
+		NOT = { year = 1190 }
+		has_global_flag = khitan_come_to_civilize
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		
+		modifier = {
+			factor = 1.5
+			trait = arbitrary
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}		
+		
+		modifier = {
+			factor = 0.9
+			trait = scholar
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = ambitious
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = charitable
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = trusting
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = greedy
+		}
+		
+	}
+	
+	option = {
+		name = "zhongguo.5.a"
+
+		create_character = {
+			random_traits = yes
+			dynasty = 1000061600
+			religion = buddhist
+			culture = khitan
+			female = no
+		}
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = 1000061600
+				religion = buddhist
+				culture = khitan
+				female = no
+			}			
+		}
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = 1000061600
+				religion = buddhist
+				culture = khitan
+				female = yes
+			}			
+		}
+	}
+	
+	option = {
+		name = "zhongguo.5.b"
+		trigger = {
+			ai = no
+		}
+	}	
+	
+}

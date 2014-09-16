@@ -1,0 +1,5 @@
+rum = {
+	potential = { trait = rum }
+	cannot_inherit = yes
+	customizer = no
+}

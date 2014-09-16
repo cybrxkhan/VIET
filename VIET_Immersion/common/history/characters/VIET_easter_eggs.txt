@@ -1,0 +1,765 @@
+########################################################################################################################
+#Easter eggs - easter eggs characters added in VIET
+#Uses IDs 1000158241 - 1000158252, 1000158325,1000158331-1000158335,1000158880-x
+#They are placed separately here for easier mod integration and updating in between patches
+########################################################################################################################
+
+#Fairleystuff's Custom Characters (1000th post in the VIET thread winner)
+#Mayor of Glasgow
+1000158241 = {
+	name="Iain"
+	dynasty=1000061370
+	dna="bdcdfsjigay"
+	properties="0c0iek00000"
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	add_trait="quick"
+	add_trait="perceptive"
+	add_trait="scholar"
+	add_trait="cynical"
+	add_trait="just"
+	add_trait="ambitious"
+	add_trait="patient"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="deceitful"
+	add_trait="elusive_shadow"
+	religion="catholic"
+	culture="scottish"
+	1045.3.2={
+		birth="1045.3.2"
+	}
+	1066.1.1={
+		add_spouse=1000158242
+	}
+	1123.1.1={
+		death="1123.1.1"
+	}
+}
+1000158242 = {
+	name="Catrìona"
+	female=yes
+	dna="dggaiicfkbc"
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	add_trait="quick"
+	add_trait="fair"
+	add_trait="poet"
+	add_trait="hedonist"
+	add_trait="diligent"
+	add_trait="humble"
+	add_trait="gregarious"
+	add_trait="ambitious"
+	add_trait="trusting"
+	add_trait="mastermind_theologian"
+	religion="catholic"
+	culture="scottish"
+	1045.2.16={
+		birth="1045.2.16"
+	}
+	1123.1.1={
+		death="1123.1.1"
+	}
+}
+#Mayor of Scarborough and Friends
+1000158243 = { #The mayor's father
+	name="Stephen"
+	dynasty=1000061371
+	#dna="XXXXXXXXXXX"
+	diplomacy=7
+	learning=6
+	add_trait="quick"
+	add_trait="tall"
+	add_trait="slothful"
+	add_trait="kind"
+	add_trait="gregarious"
+	add_trait="proud"
+	add_trait="cynical"
+	add_trait="charismatic_negotiator"
+	religion="catholic"
+	culture="norman"
+	1017.2.28={
+		birth="1017.2.28"
+	}
+	1043.1.1={
+		add_spouse=1000158244
+	}
+	1090.1.1={
+		death="1090.1.1"
+	}
+}
+1000158244 = { #The mayor's mother
+	name="Susanna"
+	female=yes
+	dynasty=1000061376
+	#dna="XXXXXXXXXXX"
+	diplomacy=8
+	intrigue=8
+	learning=8
+	add_trait="fair"
+	add_trait="mystic"
+	add_trait="zealous"
+	add_trait="kind"
+	add_trait="diligent"
+	add_trait="wroth"
+	add_trait="midas_touched"
+	religion="catholic"
+	culture="norman"
+	1020.6.26={
+		birth="1020.6.26"
+	}
+	1095.1.1={
+		death="1095.1.1"
+	}
+}
+1000158245 = { #The mayor himself
+	name="Constantine"
+	dynasty=1000061371
+	dna="ddbch0ioaa0"
+	intrigue=3
+	learning=8
+	add_trait="genius"
+	add_trait="tall"
+	add_trait="scholar"
+	add_trait="slothful"
+	add_trait="kind"
+	add_trait="cynical"
+	add_trait="patient"
+	add_trait="content"
+	add_trait="midas_touched"
+	religion="catholic"
+	culture="norman"
+	1050.4.13={
+		birth="1050.4.13"
+	}
+	1066.1.1={
+		add_spouse=1000158246
+		effect = {
+			add_lover = 1000158246
+		}
+	}
+	1130.4.13={
+		death="1130.4.13"
+	}
+}
+1000158246 = { #The mayor's wife
+	name="Theodora"
+	female=yes
+	dynasty=1000061371
+	#dna="XXXXXXXXXXX"
+	martial=7
+	learning=8
+	add_trait="genius"
+	add_trait="attractive"
+	add_trait="slothful"
+	add_trait="kind"
+	add_trait="cynical"
+	add_trait="just"
+	add_trait="grey_eminence"
+	religion="catholic"
+	culture="norman"
+	1050.4.13={
+		birth="1050.4.13"
+	}
+	1130.4.13={
+		death="1130.4.13"
+	}
+}
+1000158247 = { #The mayor's brother
+	name="Andrew"
+	dynasty=1000061371
+	#dna="XXXXXXXXXXX"
+	diplomacy=10
+	add_trait="genius"
+	add_trait="deceitful"
+	add_trait="diligent"
+	add_trait="gregarious"
+	add_trait="cynical"
+	add_trait="ambitious"
+	add_trait="grey_eminence"
+	religion="catholic"
+	culture="norman"
+	1054.3.13={
+		birth="1050.3.13"
+	}
+	1140.1.1={
+		death="1140.1.1"
+	}
+}
+1000158248 = { #The mayor's sister
+	name="Teresa"
+	female=yes
+	dynasty=1000061371
+	#dna="XXXXXXXXXXX"
+	martial=10
+	stewardship=8
+	add_trait="quick"
+	add_trait="attractive"
+	add_trait="scholar"
+	add_trait="patient"
+	add_trait="kind"
+	add_trait="cynical"
+	add_trait="gregarious"
+	add_trait="midas_touched"
+	religion="catholic"
+	culture="norman"
+	1052.4.13={
+		birth="1052.4.13"
+	}
+	1150.4.13={
+		death="1150.4.13"
+	}
+}
+1000158249 = { #The mayor's right hand man
+	name="Raymond"
+	dynasty=1000061373
+	#dna="XXXXXXXXXXX"
+	martial=13
+	stewardship=10
+	add_trait="strong"
+	add_trait="attractive"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="kind"
+	add_trait="cynical"
+	add_trait="shy"
+	add_trait="ambitious"
+	add_trait="midas_touched"
+	religion="catholic"
+	culture="frankish"
+	1050.1.25={
+		birth="1050.1.25"
+	}
+	1066.1.1={
+		add_spouse=1000158252
+		effect = {
+			add_lover = 1000158252
+		}
+	}
+	1122.1.1={
+		death="1150.1.1"
+	}
+}
+1000158250 = { #The mayor's exotic friend
+	name="Layla"
+	female=yes
+	dynasty=1000061375
+	#dna="XXXXXXXXXXX"
+	add_trait="depressed"
+	add_trait="deceitful"
+	add_trait="patient"
+	add_trait="kind"
+	add_trait="gregarious"
+	add_trait="craven"
+	add_trait="charitable"
+	add_trait="tough_soldier"
+	religion="catholic"
+	culture="andalusian_arabic"
+	1050.7.11={
+		birth="1050.7.11"
+	}
+	1135.1.1={
+		death="1135.1.1"
+	}
+}
+1000158251 = { #The mayor's other friend
+	name="Kenneth"
+	dynasty=1000061374
+	#dna="XXXXXXXXXXX"
+	add_trait="deceitful"
+	add_trait="kind"
+	add_trait="gregarious"
+	add_trait="just"
+	add_trait="lustful"
+	add_trait="hedonist"
+	add_trait="tough_soldier"
+	religion="catholic"
+	culture="scottish"
+	1050.5.28={
+		birth="1050.5.28"
+	}
+	1127.1.1={
+		death="1127.1.1"
+	}
+}
+1000158252 = { #The mayor's other female friend and right hand man's wife
+	name="Flora"
+	female=yes
+	dynasty=1000061377
+	#dna="XXXXXXXXXXX"
+	add_trait="genius"
+	add_trait="attractive"
+	add_trait="shy"
+	add_trait="kind"
+	add_trait="trusting"
+	add_trait="chaste"
+	add_trait="content"
+	add_trait="humble"
+	add_trait="charismatic_negotiator"
+	religion="catholic"
+	culture="italian"
+	1050.2.28={
+		birth="1050.2.28"
+	}
+	1151.1.1={
+		death="1151.1.1"
+	}
+}
+
+#eosomeow's Custom Characters (2000th post in the VIET thread winner)
+#Baron of Pontici
+1000158325 = {
+	name="Giancarlo"
+	dynasty=1000061870
+	martial=1
+	add_trait="skilled_tactician"
+	add_trait="trained_warrior"
+	add_trait="genius"
+	add_trait="strong"
+	add_trait="duelist"
+	add_trait="flanker"
+	add_trait="brave"
+	add_trait="patient"
+	add_trait="diligent"
+	add_trait="ambitious"
+	religion="catholic"
+	culture="italian"
+	1046.1.1={
+		birth="1046.1.1"
+	}
+	1128.1.1={
+		death="1128.1.1"
+	}
+}
+
+#Stormweaver's Custom Characters (6000th post in the VIET thread winner)
+#Baron of Cholet
+1000184326 = {
+	name="Adam"
+	dynasty=1000091906
+	religion="catholic"
+	culture="scottish"
+	add_trait="scholar"
+	add_trait="gregarious"
+	add_trait="lustful"
+	add_trait="quick"
+	add_trait="martial_cleric"
+	1040.1.1={
+		birth="1040.1.1"
+		culture="frankish"
+	}
+	1066.1.1={
+		add_spouse=1000184327
+	}
+	1121.1.1={
+		death="1121.1.1"
+	}
+}
+1000184327 = {
+	name="Lisa"
+	female=yes
+	dynasty=1000091907
+	dna="ahjjhwjahcs"
+	properties="0f0efk00000"
+	religion="catholic"
+	culture="irish"
+	add_trait="quick"
+	add_trait="fair"
+	add_trait="proud"
+	add_trait="intricate_webweaver"
+	1040.1.1={
+		birth="1040.1.1"
+		culture="frankish"
+	}
+	1121.1.1={
+		death="1121.1.1"
+	}
+}
+
+################################################
+# Misc. Easter Eggs
+################################################
+# Freddie Mercury
+1000158331 = {
+	name="Farroukh"
+	dynasty=1000061940
+	#dna="XXXXXXXXXXX"
+	add_trait="charismatic_negotiator"
+	add_trait="poet"
+	add_trait="powerful_voice"
+	add_trait="shy"
+	add_trait="proud"
+	add_trait="charitable"
+	religion="zoroastrian"
+	culture="persian"
+	846.9.5={
+		birth="846.9.5"
+	}
+	991.11.24={
+		death="991.11.24"
+	}
+}
+#Da Vinci's great-great-grandfather
+1000158332 = {
+	name="Guido"
+	dynasty=1000061871
+	#dna="XXXXXXXXXXX"
+	add_trait="fortune_builder"
+	religion="catholic"
+	culture="italian"
+	1300.1.1={
+		birth="1300.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+#Grandfather of the "Founder" of Medici Family
+1000158333 = {
+	name="Chiarissimo"
+	dynasty=1000061873
+	#dna="XXXXXXXXXXX"
+	add_trait="fortune_builder"
+	religion="catholic"
+	culture="italian"
+	1290.1.1={
+		birth="1290.1.1"
+	}
+	1346.1.1={
+		death="1346.1.1"
+	}
+}
+#Father of the "Founder" of Medici Family
+1000158334 = {
+	name="Averardo"
+	dynasty=1000061873
+	#dna="XXXXXXXXXXX"
+	add_trait="fortune_builder"
+	religion="catholic"
+	culture="italian"
+	father=1000158333
+	1320.1.1={
+		birth="1320.1.1"
+	}
+	1380.1.1={
+		death="1380.1.1"
+	}
+}
+#Garibaldi
+1000158335 = {
+	name="Giuseppe"
+	dynasty=1000061885
+	diplomacy = 9
+	#dna="XXXXXXXXXXX"
+	add_trait="skilled_tactician"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	add_trait="brave"
+	religion="catholic"
+	culture="italian"
+	1007.7.4={
+		birth="1007.7.4"
+	}
+	1066.1.1 = {
+		employer=20315
+	}
+	1082.6.2={
+		death="1082.6.2"
+	}
+}
+
+############################################
+# ARRR HEIIIRRR BRITTAANNIIYYYAAA
+# 100015880 - 100015889
+# Other characters not included because I was too lazy
+############################################
+
+
+#Emperor
+100015880 = {
+	name="Karlz"
+	dynasty=1000091923
+	dna="bfdai0kiga0"
+	properties="le0dffbebbb"
+	add_trait="brilliant_strategist"
+	add_trait="genius"
+	add_trait="tall"
+	add_trait="ambitious"
+	add_trait="deceitful"
+	add_trait="diligent"
+	add_trait="proud"
+	add_trait="zealous"
+	religion="catholic"
+	culture="english"
+	1004.1.1={
+		birth="1004.1.1"
+		culture = "breton"
+	}
+	1067.1.1={
+		death="1067.1.1"
+	}
+}
+#Lulu
+100015881 = {
+	name="Loeiz"
+	dynasty=1000091920
+	dna="alamb0bhaa0"
+	properties="le0dhfbebbb"
+	add_trait="brilliant_strategist"
+	add_trait="genius"
+	add_trait="fair"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	add_trait="just"
+	add_trait="zealous"
+	religion="catholic"
+	culture="english"
+	father=100015880
+	mother=100015882
+	1049.1.1={
+		birth="1049.1.1"
+		culture = "breton"
+	}
+	1066.1.1 = {
+		employer=100015880
+	}
+	1067.1.1={
+		death="1067.1.1"
+	}
+}
+#Nun
+100015882 = {
+	name="Nonn Alis"
+	female=yes
+	dynasty=1000091920
+	dna="agama0bhca0"
+	properties="le0lhkbebbb"
+	add_trait="charismatic_negotiator"
+	add_trait="quick"
+	add_trait="fair"
+	add_trait="blinded"
+	add_trait="kind"
+	add_trait="diligent"
+	add_trait="humble"
+	add_trait="charitable"
+	add_trait="just"
+	religion="catholic"
+	culture="english"
+	father=100015880
+	mother=100015882
+	1050.1.1={
+		birth="1050.1.1"
+		culture = "breton"
+	}
+	1066.1.1 = {
+		employer=100015881
+	}
+	1144.1.1={
+		death="1144.1.1"
+	}
+}
+#Mommy Empress
+100015883 = {
+	name="Marianne"
+	female=yes
+	dynasty=1000091920
+	dna="agama0bhaa0"
+	properties="le0lhkbebbb"
+	add_trait="elusive_shadow"
+	add_trait="quick"
+	add_trait="fair"
+	add_trait="deceitful"
+	add_trait="zealous"
+	add_trait="diligent"
+	add_trait="ambitious"
+	add_trait="patient"
+	religion="catholic"
+	culture="frankish"
+	1028.1.1={
+		birth="1028.1.1"
+	}
+	1045.1.1={
+		add_spouse=100015880
+		effect = {
+			add_lover = 100015880
+		}
+	}
+	1046.1.1 = {
+		employer=100015880
+	}
+	1058.1.1={
+		death="1058.1.1"
+	}
+}
+#Not incest
+100015884 = {
+	name="Euphemia"
+	female=yes
+	dynasty=1000091923
+	dna="aaama0ahda0"
+	properties="le0lhkbebbb"
+	add_trait="charismatic_negotiator"
+	add_trait="fair"
+	add_trait="kind"
+	add_trait="humble"
+	add_trait="charitable"
+	add_trait="just"
+	add_trait="patient"
+	religion="catholic"
+	culture="frankish"
+	father=100015880
+	1050.1.1={
+		birth="1050.1.1"
+		culture="breton"
+	}
+	1066.1.1 = {
+		employer=100015880
+	}
+	1067.1.1={
+		death="1067.1.1"
+	}
+}
+#Chessmater
+100015885 = {
+	name="Sian"
+	dynasty=1000091923
+	dna="ajeme0bhga0"
+	properties="le0lhkbebbb"
+	add_trait="elusive_shadow"
+	add_trait="genius"
+	add_trait="ambitious"
+	add_trait="zealous"
+	add_trait="proud"
+	add_trait="just"
+	add_trait="patient"
+	religion="catholic"
+	culture="frankish"
+	father=100015880
+	1038.1.1={
+		birth="1038.1.1"
+		culture="breton"
+	}
+	1066.1.1 = {
+		employer=100015880
+	}
+	1067.1.1={
+		death="1067.1.1"
+	}
+}
+#Bodyguard
+100015886 = {
+	name="Kallen"
+	female=yes
+	dna="acefk0hlea0"
+	properties="lg0lhkbebbb"
+	properties="le0lhkbebbb"
+	martial=13
+	add_trait="skilled_tactician"
+	add_trait="strong"
+	add_trait="agile"
+	add_trait="cynical"
+	add_trait="proud"
+	add_trait="just"
+	add_trait="wroth"
+	religion="catholic"
+	culture="german"
+	1049.1.1={
+		birth="1049.1.1"
+	}
+	1066.1.1 = {
+		employer=100015881
+	}
+	1111.1.1={
+		death="1111.1.1"
+	}
+}
+#Waif
+100015887 = {
+	name="Cici"
+	female=yes
+	dna="aeffa0jlga0"
+	properties="lm0lhkbebbb"
+	add_trait="elusive_shadow"
+	add_trait="fair"
+	add_trait="cynical"
+	add_trait="gluttonous"
+	add_trait="patient"
+	add_trait="envious"
+	add_trait="depressed"
+	religion="catholic"
+	culture="german"
+	1050.1.1={
+		birth="1050.1.1"
+		culture="italian"
+	}
+	1066.1.1 = {
+		employer=100015881
+	}
+	1150.1.1={
+		death="1150.1.1"
+	}
+}
+#Table
+100015888 = {
+	name="Nina"
+	female=yes
+	dynasty=1000091928
+	dna="affff0mlaa0"
+	properties="ll0lhkbebbb"
+	add_trait="mastermind_theologian"
+	add_trait="zealous"
+	add_trait="paranoid"
+	add_trait="shy"
+	add_trait="homosexual"
+	add_trait="lunatic"
+	religion="jewish"
+	culture="german"
+	1049.1.1={
+		birth="1049.1.1"
+		culture="ashkenazi"
+	}
+	1066.1.1 = {
+		employer=100015881
+	}
+	1150.1.1={
+		death="1150.1.1"
+	}
+}
+#Lolol
+100015889 = {
+	name="Roland"
+	dynasty=1000091929
+	dna="amfff0llca0"
+	properties="lb0lhkbebbb"
+	add_trait="scholarly_theologian"
+	add_trait="zealous"
+	add_trait="envious"
+	add_trait="deceitful"
+	add_trait="shy"
+	add_trait="wroth"
+	add_trait="lunatic"
+	add_trait="bastard"
+	religion="catholic"
+	culture="frankish"
+	father=100015880
+	1050.1.1={
+		birth="1050.1.1"
+		culture="breton"
+	}
+	1066.1.1 = {
+		employer=100015881
+	}
+	1150.1.1={
+		death="1150.1.1"
+	}
+}
+
+

@@ -1,0 +1,4 @@
+1066.1.1={
+	liege="c_napoli"
+	holder=1000158325 #Eastern egg
+}

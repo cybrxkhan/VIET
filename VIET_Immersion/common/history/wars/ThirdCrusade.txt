@@ -1,0 +1,47 @@
+name = "3rd Catholic Crusade for Jerusalem"
+
+casus_belli = {
+	actor = 223754
+	recipient = 226000
+	casus_belli=crusade
+	landed_title=k_jerusalem
+	date=1187.1.1
+}
+
+1187.1.1 = {
+	add_attacker = 223754
+	add_attacker = 204500
+	add_attacker = 205506
+	add_attacker = 223500
+	add_attacker = 212501
+	add_attacker = 219500
+	add_attacker = 147008
+	add_attacker = 34349
+	add_attacker = 212057
+	add_attacker = 212530
+	add_attacker = 212500
+	add_defender = 226000
+	#add_defender = 215500 #Isaakios
+}
+
+1190.10.1={
+	rem_attacker = 223500
+	add_attacker = 223524 #Isabelle
+}
+
+1192.1.1 = {
+	rem_attacker = 223754
+	rem_attacker = 204500
+	rem_attacker = 205506
+	rem_attacker = 223500
+	rem_attacker = 212501
+	rem_attacker = 219500
+	rem_attacker = 147008
+	rem_attacker = 34349
+	rem_attacker = 212057
+	rem_attacker = 212530
+	rem_attacker = 212500
+	rem_attacker = 223524
+	#rem_defender = 215500 #Isaakios
+	rem_defender = 226000
+}

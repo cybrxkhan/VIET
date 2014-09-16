@@ -1,0 +1,13 @@
+1035.1.1=
+{
+holder=168427
+liege=d_amalfi
+}
+1075.1.1=
+{
+holder=168428
+}
+1076.12.13={
+	holder=0
+	liege=c_mahdia
+}

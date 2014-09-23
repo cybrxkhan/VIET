@@ -680,6 +680,41 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\toothbrush.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_maiden_muslim"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_turkish"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_arabic"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_iranian"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_north_african"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_andalusian_arabic"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
+		allwaystransparent = yes
+	}
 	
 	
 	#Buddhist	

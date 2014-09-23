@@ -184,8 +184,11 @@ attend_cretan_wine_festival;Attend Cretan Wine Festival;;;;;;;;;;;x
 attend_cretan_wine_festival_desc;Cretan has some of the best wines in all Greece - perhaps you should partake in one of the festivals celebrating these wines!;;;;;;;;;;;x
 VIET_attended_cretan_feast;Attended Cretan Wine Festival;;;;;;;;;;;x
 VIET_attended_cretan_feast_desc;Cretan has some of the best wines in all Greece - this ruler was lucky enough to partake in one of these exciting celebrations.;;;;;;;;;;;x
-VIETmisc.9008.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.9008.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.9008.desc;A Byzantine renegade - a former officer in the Byzantine army - has come to us, offering his services. Though his motives are questionable, his knowledge and skills may be of use to us.;;;;;;;;;;;x
+VIETmisc.9008.a;Let us welcome him then.;;;;;;;;;;;;;x
+VIETmisc.9008.b;This fellow is suspicious. I want no business with him.;;;;;;;;;;;;;x
+VIETmisc.9009.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.9009.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2513.desc;As you psyche yourself to begin your day and start receiving petitioners, an old man bursts through the front door and is quickly apprehended by the guards.;;;;;;;;;;;;;x
 VIETmisc.2513.a;Wait! I'd like to hear him out.;;;;;;;;;;;;;x
 VIETmisc.2513.b;Another beggar? Do they grow on trees?;;;;;;;;;;;;;x

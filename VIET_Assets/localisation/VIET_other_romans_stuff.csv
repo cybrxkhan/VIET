@@ -41,8 +41,16 @@ ottoman.7.desc;A talented eunuch has been brought before my attention. He is cur
 ottoman.7.a;Why not?;;;;;;;;;;;;;x
 ottoman.7.b;I don’t need another source of court intrigue.;;;;;;;;;;;;;x
 ottoman.8.tt;The so-called Byzantine Emperor will be informed of his misfortune.;;;;;;;;;;;;;x
-ottoman.8.desc;To the once mighty Byzantine Emperor,\nBy the grace of God I have been granted your lands. I suggest you pray that Allah does not also grant me your head.\n\n[From.GetFullName];;;;;;;;;;;;;x
-ottoman.8.a;Spiteful heathen bastard!;;;;;;;;;;;;;x
+ottoman.8.desc;To the once mighty Byzantine Emperor,\nBy the grace of God I now rule your lands, and your so called "Empire" is no more. I am now the true Roman Emperor! Pray to Allah that I do not come for your head!\n\n[From.GetFullName];;;;;;;;;;;;;x
+ottoman.8.a;Heathen bastard!;;;;;;;;;;;;;x
+ottoman.9.desc;I am the great and mighty [Root.GetTitledFirstName], who has no shortage of beautiful women available to me. Lately, I've been particularly interested in one of lesser concubines, spending a lot of quality time with her. Perhaps I should make her one of my official wives?;;;;;;;;;;;;;x
+ottoman.9.a;Yes! She deserves no less.;;;;;;;;;;;;;x
+ottoman.9.b;Then again, this might prove troublesome down the road.;;;;;;;;;;;;;x
+ottoman.10.desc;Sex! Sex! Sex! That's all they want me to do. The members of my harem, my servants, my ministers, my generals, all my subjects, it's like that's all they care about. Why do I have to "prove" my masculinity this way? I can only groan as one of my wives is brought before me for tonight's "activities". Why can't I just send her away and read a good book instead?;;;;;;;;;;;;;x
+ottoman.10.a;I have to do this, lest my reputation will suffer.;;;;;;;;;;;;;x
+ottoman.10.b;Bah! I don't care anymore! Go away, woman, leave me alone!;;;;;;;;;;;;;x
+ottoman.11.desc;Fetih;;;;;;;;;;;;;x
+ottoman.11.a;Fetih;;;;;;;;;;;;;x
 ######################################_TRAITS;;;;;;;;;;;;;;x
 kayser_i_rum;Kayser-i Rum;;;;;;;;;;;;;x
 kayser_i_rum_desc;This man is the absolute authority in the Turkish Empire, the Third Rome. He is its political, military, judicial, social, and religious leader.;;;;;;;;;;;;;x
@@ -58,3 +66,7 @@ ottoman_carpenter_desc;This Turkish lord has mastered the craft of carpentry, an
 ottoman_weaver_desc;This Turkish lord specializes in weaving, and can produce wonderful items of clothing using wool.;;;;;;;;;;;;;x
 ottoman_mason_desc;This Turkish lord has chosen a life with stone, able to craft sturdy and smooth stones that can be used in the construction of monuments, temples, roads, and more.;;;;;;;;;;;;;x
 ottoman_perfumer_desc;This Turkish lord has chosen a life with perfumes, and is able to craft fragrant and pleasing aromas with his creativity and knowledge of complex formulas.;;;;;;;;;;;;;x
+######################################_MISC;;;;;;;;;;;;;;x
+VIET_virile_ottoman;Virile Sultan;;;;;;;;;;;;;x
+VIET_virile_ottoman;This Sultan has much stamina and can make love to a myriad of beautiful wives and concubines without sweat. Surely, only a foolish man wouldn't envy such a position!;;;;;;;;;;;;;x
+xxxxxxxxx;xxx;;;;;;;;;;;;;x

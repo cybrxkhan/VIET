@@ -415,43 +415,122 @@ VIETmisc.2108.b;Thankfully, I look beautiful no matter what.;;;;;;;;;;;;;x
 VIETmisc.2108.c;This will only enhance my fearsome looks.;;;;;;;;;;;;;x
 VIETmisc.2109.desc;“By the way, [Root.GetTitledFirstName], I accidentally dropped your toothbrush in the chamber pot,” a courtier know for their pranks tells you. After you halt in shock, the courtier says, “I was just joking. Haha! You should’ve seen your face. Don’t worry, your toothbrush is fine.” Further investigation suggests that your toothbrush is clean as ever, but still…;;;;;;;;;;;x
 VIETmisc.2109.a;I feel uneasy. But… alright.;;;;;;;;;;;;;x
-VIETmisc.2110.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2110.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2111.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2111.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2112.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2112.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2113.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2113.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2114.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2114.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2115.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2115.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2116.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2116.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2117.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2117.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2118.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2118.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2119.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2119.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2120.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2120.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2121.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2121.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2122.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2122.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2123.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2123.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2124.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2124.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2125.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2125.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2126.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2126.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2127.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2127.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2128.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2128.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2129.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2129.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2110.desc;I'm dreaming of a beautiful place... warm, sunny, peaceful.... And there stands the most beautiful woman I have ever seen. She approaches me, in this tropical paradise, and caresses my face like the ocean breeze, pushes onto me like the waves onto the sand...;;;;;;;;;;;x
+VIETmisc.2110.a;I like this beach very much, in more ways than one.;;;;;;;;;;;;;x
+VIETmisc.2110.b;Bah! I prefer the cold. Much more romantic.;;;;;;;;;;;;;x
+VIETmisc.2110.c;This dream is evil! Begone, vile delusions!;;;;;;;;;;;;;x
+VIETmisc.2111.desc;Now I have to admit one of my courtiers is reasonably well-endowed, in a way that pleases my eyes.;;;;;;;;;;;x
+VIETmisc.2111.a;Ah, yes, dear, you were saying? I was distracted.;;;;;;;;;;;;;x
+VIETmisc.2111.b;But such fleeting thoughts are meaningless.;;;;;;;;;;;;;x
+VIETmisc.2112.desc;That courtier has such lovely arms. So manly. So rugged. So strong.;;;;;;;;;;;x
+VIETmisc.2112.a;Delicious!;;;;;;;;;;;;;x
+VIETmisc.2112.b;Well, it's not that great. I shouldn’t be distracted.;;;;;;;;;;;;;x
+VIETmisc.2113.desc;I heard about a very strange sort of... romantic "activity" one of my courtiers is rumored to enjoy.;;;;;;;;;;;x
+VIETmisc.2113.a;It's... really weird. Disturbing, even.;;;;;;;;;;;;;x
+VIETmisc.2114.desc;There’s talk of a “forbidden” book in my court. Forbidden in that no one wanted to admit reading it. Naturally, I got curious and started reading it. At first, I didn't see the big deal. That is, until I came to the chapter detailing a particularly creative activity lovers could partake in. The book only got worse from there... or, now that I think about it, perhaps better?;;;;;;;;;;;x
+VIETmisc.2114.a;I'd like to try all this sometime!;;;;;;;;;;;;;x
+VIETmisc.2114.b;I cannot forget this even though I want to! NOOOO!!!;;;;;;;;;;;;;x
+VIETmisc.2115.desc;Just the worst timing! Some “thing” is trying to poke out of my pants when it shouldn't be and everyone can see it. ;;;;;;;;;;;x
+VIETmisc.2115.a;I shouldn't have been thinking naughty thoughts.;;;;;;;;;;;;;x
+VIETmisc.2116.desc;The servant stutters, “Um… my [Root.GetTitle], I can see your…”\n\nYou look down, and to your horror, “it” is exposed. It’s a wardrobe malfunction!;;;;;;;;;;;x
+VIETmisc.2116.a;The servant mumbles “impressive” or something like that.;;;;;;;;;;;;;x
+VIETmisc.2117.desc;It's unusual cold today and snowing. While I sit outside with my lover, admiring the scenery, the tempting curves of their body is pressed against me to keep warm.\n\nBeing outside in the snow like this immerses me in a special feeling. ;;;;;;;;;;;x
+VIETmisc.2117.a;I like it!;;;;;;;;;;;;;x
+VIETmisc.2118.desc;I notice one of my courtiers - a sweet, innocent, somewhat awkward young man - is staring at my ample bosom while we talk. As the conversation dies down, he tries to awkwardly compliment me. "I admire your... large tracts of land.";;;;;;;;;;;x
+VIETmisc.2118.a;How dare you! Never speak like that!;;;;;;;;;;;;;x
+VIETmisc.2118.b;Sweetie... are you interested in something?;;;;;;;;;;;;;x
+VIETmisc.2118.c;I’ll just ignore that.;;;;;;;;;;;;;x
+VIETmisc.2118.d;Why yes, my tracts of land are very large!;;;;;;;;;;;;;x
+VIET_cougar_har_har;Seducing him is like stealing candy from a child… and I find it strangely arousing, to be able to control someone so innocent!;;;;;;;;;;;x
+VIETmisc.2119.desc;While visiting one of the local markets, I happened to see someone rather attractive. Sadly, before I could reach them, they disappeared into the crowd.;;;;;;;;;;;x
+VIETmisc.2119.a;At least it’ll fuel my imagination for a while.;;;;;;;;;;;;;x
+VIETmisc.2119.b;I should ignore these temptations.;;;;;;;;;;;;;x
+VIETmisc.2120.desc;I love my sibling. Very much. We have a special relationship.;;;;;;;;;;;x
+VIETmisc.2120.a;I think we’re about to take our relationship to the next level.;;;;;;;;;;;;;x
+VIETmisc.2121.desc;The people approve of my marriage to my beloved sibling. After all, we honor the [Root.Religion.GetScriptureName] with our holy union!;;;;;;;;;;;x
+VIETmisc.2121.a;Death to [Root.Religion.GetRandomEvilGodName]!;;;;;;;;;;;;;x
+VIETmisc.2122.desc;I've heard that foreign infidels scorn our ways. It is not the god or gods we worship, the [Root.Religion.GetScriptureName], nor our rituals that offend them. Nay, they think we are wrong for letting brothers and sisters consummate in holy union! Ridiculous, isn’t it? Who’d be insane enough to think that? They must have been misled by the false lies of [Root.Religion.GetRandomEvilGodName].;;;;;;;;;;;x
+VIETmisc.2122.a;I will pray for their souls, that they will see the true path one day.;;;;;;;;;;;;;x
+VIETmisc.2123.desc;Every time I make love to my sibling, I remember the holy words of the [Root.Religion.GetScriptureName]. Because I unite with my sibling, and not some random fool, it is said, I honor the heavens, fight against evil, and bring peace and harmony to the world.;;;;;;;;;;;x
+VIETmisc.2123.a;There is no greater (and pleasurable) duty as a [Root.Religion.GetName].;;;;;;;;;;;;;x
+VIETmisc.2124.desc;I haven't been making enough love to my sibling. Woe! What if I'm helping [Root.Religion.GetRandomEvilGodName] and bringing more chaos and evil into the world?;;;;;;;;;;;x
+VIETmisc.2124.a;We must consummate our marriage once again, dear!;;;;;;;;;;;;;x
+VIETmisc.2125.desc;Sometimes I find it difficult to approach my sibling romantically. I tell myself, however, that such doubts are only the evil, disgusting, terrible, cunning, unforgivable lies of [Root.Religion.GetRandomEvilGodName]. I must love my sibling and spouse in all ways if I truly believe in the glory of [Root.Religion.GetRandomGodName]!;;;;;;;;;;;x
+VIETmisc.2125.a;I must be strong if I am a proper [Root.Religion.GetName], no?;;;;;;;;;;;;;x
+VIETmisc.2125.b;This is just too difficult.;;;;;;;;;;;;;x
+VIETmisc.2126.desc;I don’t enjoy consummating my marriage with my sibling. Why? I must be a terrible and disgusting person to think like this, one who would rather embrace evil than love my sibling. Perhaps [Root.Religion.GetRandomEvilGodName] wishes to draw me away from the from truth, from good worship of [Root.Religion.GetRandomGodName]. I must love my sibling more! I must know them in ways no other person can!;;;;;;;;;;;x
+VIETmisc.2126.a;I have to do this! I have to be a good, respectable person.;;;;;;;;;;;;;x
+VIETmisc.2126.b;It seems I will be a disgusting, terrible person then.;;;;;;;;;;;;;x
+VIETmisc.2127.desc;“Stop fornicating with your sibling like animals! It disgusts me!” proclaims one of your courtiers, a follower of a different religion. “You follow an evil faith! You must stop!”;;;;;;;;;;;x
+VIETmisc.2127.a;No, my friend, it is YOU who follows the evil faith.;;;;;;;;;;;;;x
+VIETmisc.2127.b;Well… I’ll try to do it away from you… somehow…;;;;;;;;;;;;;x
+VIETmisc.2128.desc;I’ve learned that evil spirits, devas, are manifesting themselves in my residence. What misfortune! When I asked the priests of Zoroaster for their advice, they told me to make love to my sibling as much as I can. They explained that in doing so, the holiness of our union will inflict such doubt and pain on the devas that they lose the urge to harm and be destroyed.;;;;;;;;;;;x
+VIETmisc.2128.a;That makes perfect sense. Let’s go kill these demons with our fraternal love!;;;;;;;;;;;;;x
+VIETmisc.2128.b;Very well. Let me get my toothbrush first.;;;;;;;;;;;;;x
+VIETmisc.2129.desc;They say that there are lands where people will kill brothers who lie with their sisters, and sisters who lie with their brothers. What a saddening thought, that evil has spread so widely in the world, when those who follow the true way and honor the heavens are persecuted and murdered for bringing light and justice to the world!;;;;;;;;;;;x
+VIETmisc.2129.a;I’m glad we live in a [Root.Religion.GetName] country.;;;;;;;;;;;;;x
+VIETmisc.2130.desc;If only I had more siblings! I’d marry them all, and bring more peace and harmony to the world!;;;;;;;;;;;x
+VIETmisc.2130.a;Oh well, I must do with what I have.;;;;;;;;;;;;;x
+VIETmisc.2131.desc;I’ve heard that some lovers and spouses simply pretend they are siblings, to gain the approval of other adherents of the [Root.Religion.GetName] faith. Such lies. [Root.Religion.GetRandomGodName] knows the truth. ;;;;;;;;;;;x
+VIETmisc.2131.a;These sorts of liars invite demons and evil into their souls.;;;;;;;;;;;;;x
+VIETmisc.2131.b;Deception is sometimes necessary.;;;;;;;;;;;;;x
+VIETmisc.2132.desc;A wise man has told me, “It is better for a [Root.Religion.GetName] to make love with a half-sister a thousand times, than make love with ten different sisters but only once with each.”;;;;;;;;;;;x
+VIETmisc.2132.a;Wise words.;;;;;;;;;;;;;x
+VIETmisc.2133.desc;The foreigner seems young and naive, as you welcome him to your court. He even proclaims, rather audaciously, "I've heard that in your [Root.Religion.GetName] faith, brothers marry sisters and fornicate with them like wild animals! Ha ha, what a terrible joke my friends told me, don't you think? Obviously men who fantasize about their sisters don't have any to begin with!";;;;;;;;;;;x
+VIETmisc.2133.a;Well, actually, you're a bit mistaken, you see...;;;;;;;;;;;;;x
+VIETmisc.2133.b;Oh? Is that so? Let me introduce you to my sister and wife...;;;;;;;;;;;;;x
+VIETmisc.2133.c;Oh? Is that so? Let me introduce you to my brother and husband...;;;;;;;;;;;;;x
+VIET_traveler_learns_about_incest;The traveler’s eyes grow wide, and his jaw drops. Poor fellow, he is in complete shock.;;;;;;;;;;;x
+VIETmisc.2134.desc;Today a holy man is visiting my court. He is telling us various anecdotes and proverbs, and one in particular strikes me. “Vain men who follow the [Root.Religion.GetName] faith ask each other how many of their sisters they have united with.”;;;;;;;;;;;x
+VIETmisc.2134.a;I know those types.;;;;;;;;;;;;;x
+VIETmisc.2135.tooltip;Annoying, they can be. Not that... I'm one of them.;;;;;;;;;;;x
+VIETmisc.2135.desc;He continues: “But a true follower knows that it doesn’t matter how many sisters, but rather, how many times. Be not vain, for [Root.Religion.GetRandomGodName] knows the true worth of each man. Just as it matters not how much you pray, but how sincere your prayers are, to unite sincerely with a sister once is better than uniting with a sister a million times but without such sincerity.”;;;;;;;;;;;x
+VIETmisc.2135.a;An important lesson we should all remember!;;;;;;;;;;;;;x
+VIETmisc.2136.desc;Another day, another foreign visitor insisting on debating against the [Root.Religion.GetName] custom of sibling marriage. The foreigner can argue all he wants about why uniting with our siblings is immoral. But he knows deep inside his heart that his Lie is evil, and that he is wrong and insane for believing his Lie.;;;;;;;;;;;x
+VIETmisc.2136.a;There is no hope against the Truth!;;;;;;;;;;;;;x
+VIETmisc.2137.desc;Hilarious! Someone lent me a book written by a foreign scholar that describes our customs, and it condemns our sibling marriages. Does this man not know the spiritual, societal, and physical benefits such unions bring? Does he not want a perfect society? Alas, we cannot help such dishonest, depraved, degenerate, debased fools who have been seduced by evil and lies.;;;;;;;;;;;x
+VIETmisc.2137.a;Some people ignore the truth even if it was shoved in their face.;;;;;;;;;;;;;x
+VIETmisc.2138.desc;People in faraway realms have some misunderstandings about us followers of the [Root.Religion.GetName] faith. They think we have intercourse with our siblings to encourage all manners of evil and filth. How wrong! We have intercourse with our siblings to encourage justice and righteousness, fight demons, and honor [Root.Religion.GetRandomGodName]. To unite with a sibling is the greatest deed one can do!;;;;;;;;;;;x
+VIETmisc.2138.a;Ha! It is they who are filthy and evil for not doing such things.;;;;;;;;;;;;;x
+VIETmisc.2139.desc;Sometimes I wonder whether the infidels are right, whether it is a good thing that we should produce offspring with our siblings. But then I tell myself to stop thinking these types of disgusting, unforgivable thoughts only idiots, madmen, and those deceived by [Root.Religion.GetRandomEvilGodName] would believe. None can deny the truth, after all.;;;;;;;;;;;x
+VIETmisc.2139.a;The glory of a brother and sister united is an irrefutable truth.;;;;;;;;;;;;;x
+VIETmisc.2140.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2140.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2141.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2141.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2142.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2142.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2143.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2143.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2144.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2144.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2145.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2145.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2146.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2146.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2147.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2147.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2148.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2148.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2149.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2149.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2150.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2150.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2151.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2151.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2152.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2152.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2153.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2153.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2154.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2154.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2155.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2155.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2156.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2156.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2157.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2157.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2158.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2158.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2159.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2159.a;Xxxxxxffff;;;;;;;;;;;;;x

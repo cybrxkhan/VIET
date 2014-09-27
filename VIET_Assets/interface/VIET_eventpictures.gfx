@@ -571,6 +571,21 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_travel_iranian"
+		texturefile = "gfx\\event_pictures\\travel_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_andalusian_arabic"
+		texturefile = "gfx\\event_pictures\\travel_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_turkish"
+		texturefile = "gfx\\event_pictures\\travel_arabic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_evt_journey_to_spirit_world_tengri_pagan"
 		texturefile = "gfx\\event_pictures\\horse_spirit.tga"
 		allwaystransparent = yes
@@ -623,11 +638,6 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_skyrim_forest_mesoamerican"
 		texturefile = "gfx\\event_pictures\\skyrim_forest_mesoamerican.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_small_town_andalusian_arabic"
-		texturefile = "gfx\\event_pictures\small_town_north_african.tga"
 		allwaystransparent = yes
 	}
 	spriteType = {
@@ -715,6 +725,76 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\maiden_muslim.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_holy_light_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\holy_light_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\icon_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_zunist"
+		texturefile = "gfx\\event_pictures\icon_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_zunist_reformed"
+		texturefile = "gfx\\event_pictures\icon_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_gnostic_group"
+		texturefile = "gfx\\event_pictures\icon_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_gnostic_group"
+		texturefile = "gfx\\event_pictures\icon_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_emissary_zoroastrian_group"
+		texturefile = "gfx\\event_pictures\Emissary_kneeling_before_throne_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_emissary_iranian"
+		texturefile = "gfx\\event_pictures\Emissary_kneeling_before_throne_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_emissary_serindian"
+		texturefile = "gfx\\event_pictures\Emissary_kneeling_before_throne_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_west_african"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_west_african.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_east_african"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_west_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_arabic"
+		texturefile = "gfx\\event_pictures\small_town_arabic.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_small_town_iranian"
+		texturefile = "gfx\\event_pictures\small_town_arabic.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_hummus"
+		texturefile = "gfx\\event_pictures\VIET_hummus.tga"
+		allwaystransparent = yes
+	}	
 	
 	
 	#Buddhist	

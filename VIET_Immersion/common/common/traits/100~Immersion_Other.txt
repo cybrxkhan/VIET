@@ -9,33 +9,6 @@ traveling = {
 	pilgrimage = yes # Will need a regent, but can still be guardian to children
 }
 
-raider = {
-	potential = {
-		OR = {
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-			religion = tengri_pagan
-			religion = tengri_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = west_african_pagan
-			religion = west_african_pagan_reformed
-			religion = east_african_pagan
-			religion = east_african_pagan_reformed
-			religion = aztec
-			religion = aztec_reformed
-			religion = hellenic_pagan
-		}
-	}
-	martial = 1
-	monthly_character_prestige = 0.01
-	
-	same_opinion = 5
-	religious = yes
-}
-
 #Given to rulers of the Empire of Rumelia (i.e. "Ottoman" Empire")
 kayser_i_rum = {
 
@@ -562,21 +535,21 @@ secular_franciscan = {
 
 #Placeholder traits
 
-#immersion_placeholder_1 = {
-#
-#	customizer = no
-#	
-#}
-#immersion_placeholder_2 = {
-#
-#	customizer = no
-#	
-#}
-#immersion_placeholder_3 = {
-#
-#	customizer = no
-#	
-#}
+immersion_placeholder_1 = {
+
+	customizer = no
+	
+}
+immersion_placeholder_2 = {
+
+	customizer = no
+	
+}
+immersion_placeholder_3 = {
+
+	customizer = no
+	
+}
 immersion_placeholder_4 = {
 
 	customizer = no

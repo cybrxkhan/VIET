@@ -565,6 +565,39 @@ VIET_hummus_producing_region = {
 	local_tax_modifier = 0.05
 	icon = 18
 }
+VIET_enforcing_incest = {
+	local_revolt_risk = 0.05
+	icon = 38
+}
+VIET_incest_is_good = {
+	diplomacy = 1
+	fertility = 0.05
+	monthly_character_prestige = 0.05
+	icon = 39
+}
+VIET_loves_own_children = { #I'm not talking about incest you sickos
+	diplomacy = 1
+	monthly_character_piety = 0.05
+	icon = 18
+}
+VIET_practical_ruler = { 
+	intrigue = 1
+	icon = 5
+}
+VIET_incest_demon_exorcist = {
+	general_opinion = 10
+	fertility = 0.05
+	health = 0.2
+	monthly_character_piety = 0.3
+	icon = 17
+}
+VIET_obsessed_with_incest = {
+	diplomacy = -2
+	fertility = 0.05
+	learning = 1
+	icon = 17
+}
+
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

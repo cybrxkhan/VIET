@@ -460,7 +460,7 @@ VIETmisc.2125.a;I must be strong if I am a proper [Root.Religion.GetName], no?;;
 VIETmisc.2125.b;This is just too difficult.;;;;;;;;;;;;;x
 VIETmisc.2126.desc;I don’t enjoy consummating my marriage with my sibling. Why? I must be a terrible and disgusting person to think like this, one who would rather embrace evil than love my sibling. Perhaps [Root.Religion.GetRandomEvilGodName] wishes to draw me away from the from truth, from good worship of [Root.Religion.GetRandomGodName]. I must love my sibling more! I must know them in ways no other person can!;;;;;;;;;;;x
 VIETmisc.2126.a;I have to do this! I have to be a good, respectable person.;;;;;;;;;;;;;x
-VIETmisc.2126.b;It seems I will be a disgusting, terrible person then.;;;;;;;;;;;;;x
+VIETmisc.2126.b;I'm disgustingly depraved and obscene but I can't help it.;;;;;;;;;;;;;x
 VIETmisc.2127.desc;“Stop fornicating with your sibling like animals! It disgusts me!” proclaims one of your courtiers, a follower of a different religion. “You follow an evil faith! You must stop!”;;;;;;;;;;;x
 VIETmisc.2127.a;No, my friend, it is YOU who follows the evil faith.;;;;;;;;;;;;;x
 VIETmisc.2127.b;Well… I’ll try to do it away from you… somehow…;;;;;;;;;;;;;x
@@ -494,43 +494,177 @@ VIETmisc.2138.desc;People in faraway realms have some misunderstandings about us
 VIETmisc.2138.a;Ha! It is they who are filthy and evil for not doing such things.;;;;;;;;;;;;;x
 VIETmisc.2139.desc;Sometimes I wonder whether the infidels are right, whether it is a good thing that we should produce offspring with our siblings. But then I tell myself to stop thinking these types of disgusting, unforgivable thoughts only idiots, madmen, and those deceived by [Root.Religion.GetRandomEvilGodName] would believe. None can deny the truth, after all.;;;;;;;;;;;x
 VIETmisc.2139.a;The glory of a brother and sister united is an irrefutable truth.;;;;;;;;;;;;;x
-VIETmisc.2140.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2140.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2141.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2141.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2142.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2142.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2143.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2143.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2144.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2144.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2145.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2145.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2146.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2146.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2147.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2147.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2148.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2148.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2149.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2149.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2150.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2150.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2151.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2151.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2152.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2152.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2153.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2153.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2154.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2154.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2155.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2155.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2156.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2156.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2157.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2157.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2158.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2158.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2159.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2159.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2140.desc;A local innkeeper has just prepared the largest falafel balls ever heard of in these parts - they’re as big as a newborn child! He has invited you to join in eating these delicious, big balls. Hummus will be served alongside these huge balls, of course. With the offer of so many tasty falafel balls, accompanied by delicious hummus, you can't resist.;;;;;;;;;;;x
+VIETmisc.2140.a;I want these big, beautiful falafel balls.;;;;;;;;;;;;;x
+VIETmisc.2141.desc;I’ve learned that the local hummus merchant has managed to procure a fresh batch of delicious hummus. It is time to go into town and buy some.;;;;;;;;;;;x
+VIETmisc.2141.a;I’m hungry!;;;;;;;;;;;;;x
+VIETmisc.2142.desc;What sort of hummus am I interested in buying today? The hummus merchant has so many varieties available!;;;;;;;;;;;x
+VIETmisc.2142.a;I like good old plain hummus.;;;;;;;;;;;;;x
+VIETmisc.2142.b;Hummus with some red peppers is my preferred type.;;;;;;;;;;;;;x
+VIETmisc.2142.c;Why not try some spicy hummus?;;;;;;;;;;;;;x
+VIETmisc.2142.d;How about some nuts on my hummus? Lots of nuts!;;;;;;;;;;;;;x
+VIETmisc.2143.desc;A foreign dignitary visited my court today. As I served him some snacks, out of courtesy, he tried some hummus - having never tried any in his life, he thought its sour taste meant that it was spoiled. The poor man vomited right there and then.Now that’s something you don’t see every day!;;;;;;;;;;;x
+VIETmisc.2143.a;Pity he can’t enjoy hummus! More for me, then.;;;;;;;;;;;;;x
+VIETmisc.2144.desc;You overhear some hummus merchants arguing about who invented the hummus. The Egyptian says the Egyptians did it, the Levantine says the Levantines did it, and the Jew says the Jews did it. You decide to intervene, as it looked like their argument was getting out of hand and they were about to start a scene in the middle of the marketplace.;;;;;;;;;;;x
+VIETmisc.2144.a;The wise, ancient Egyptians must’ve learned the secrets of hummus long ago.;;;;;;;;;;;;;x
+VIETmisc.2144.b;The Jews are intelligent, obviously they figured out how to make hummus.;;;;;;;;;;;;;x
+VIETmisc.2144.c;The cosmopolitan, shrewd Levantines probably came up with the idea of hummus.;;;;;;;;;;;;;x
+VIETmisc.2145.desc;Bleh! There’s not enough hummus with my falafel - the dryness of these chickpeas is grating my throat.;;;;;;;;;;;x
+VIETmisc.2145.a;Next time, I’ll remember to have more hummus dip.;;;;;;;;;;;;;x
+VIETmisc.2146.desc;I put too much hummus on my pita bread.;;;;;;;;;;;x
+VIETmisc.2146.a;The flavor is overwhelming!;;;;;;;;;;;;;x
+VIETmisc.2147.desc;I love eating hummus. I eat it with everything, everyday. The best part is, the physicians and wise men believe that hummus is a good and nutritious food!;;;;;;;;;;;x
+VIETmisc.2147.a;Bring me more hummus!;;;;;;;;;;;;;x
+VIETmisc.2148.desc;Utterly shocking. A hummus merchant living nearby was recently accused of using sawdust to add flavor and texture to his hummus. Now, it turns out that that was indeed the case! Thankfully, the fiend has been arrested and will soon be dealt with.;;;;;;;;;;;x
+VIETmisc.2148.a;I bought hummus from this fraud the other day!;;;;;;;;;;;;;x
+VIETmisc.2149.desc;My cook added too many different spices to today’s hummus.;;;;;;;;;;;x
+VIETmisc.2149.a;Too many spices spoil the hummus!;;;;;;;;;;;;;x
+VIETmisc.2149.b;It has a different taste, that’s all… I’m not complaining.;;;;;;;;;;;;;x
+VIETmisc.2150.desc;Today you want to be a bit more adventurous with your food (but not too much). You’ve been eating a lot of hummus and loving it, like anybody would, so your cook knows exactly what would satisfy you: msabbaha. It’s more or less the same as hummus, except with whole chickpeas, so it has a noticeably different texture.;;;;;;;;;;;x
+VIETmisc.2150.a;Now give me some pita bread!;;;;;;;;;;;;;x
+VIETmisc.2151.desc;This is terrible, absolutely terrible. One of my vassals has admitted to not liking hummus! Crazy, isn't it? What sort of self-respecting [Root.Culture.GetName] hates hummus? That's like a man saying he doesn't want to breath, or a bee saying it detests honey, or a tree saying it prefers to go without water.;;;;;;;;;;;x
+VIETmisc.2151.a;Crazy, crazy people out there, you know.;;;;;;;;;;;;;x
+VIETmisc.2152.desc;Lately, [Root.GetName] is becoming renowned throughout the world for the quality of its hummus. Travelers will even go there to sample fresh hummus. These erudite hummus connoisseurs would then gauge the quality of hummus made in various regions of the province, comparing taste, texture, and compatibility with pita bread, among other things.;;;;;;;;;;;x
+VIETmisc.2152.a;Maybe I’ll visit there one day.;;;;;;;;;;;;;x
+VIETmisc.2153.desc;In recent years, it seems that hummus production has declined sharply in [Root.GetName]. People are starting to lose interest in the hummus produced here, and it seems like the hummus-makers here might not be able to recover from the inevitable catastrophe.;;;;;;;;;;;x
+VIETmisc.2153.a;Sad to hear.;;;;;;;;;;;;;x
+VIETmisc.2154.desc;Some people like putting a lot of hummus on their flatbread, savoring the intense amount of flavor. Others prefer just a little, desiring a subtler affect. Where do I stand on such an important issue?;;;;;;;;;;;x
+VIETmisc.2154.a;The more hummus the better!;;;;;;;;;;;;;x
+VIETmisc.2154.b;Less is more, obviously, when it comes to hummus.;;;;;;;;;;;;;x
+VIETmisc.2154.c;I prefer to take the middle ground.;;;;;;;;;;;;;x
+VIETmisc.2154.d;I hate hummus. It’s overrated.;;;;;;;;;;;;;x
+VIETmisc.2155.desc;Strange question I was asked today. If I were stuck on a desert island, and could only bring baklava or hummus to survive on, which would I choose?;;;;;;;;;;;x
+VIETmisc.2155.a;Hummus of course;;;;;;;;;;;;;x
+VIETmisc.2155.b;Baklava without a doubt;;;;;;;;;;;;;x
+VIETmisc.2156.desc;Merchants from afar offer you some samples of "hummus," a strange mush of chickpeas, olive oil, lemon juice, and other ingredients. It tastes a bit sour, and the merchants suggest I eat it with bread.;;;;;;;;;;;x
+VIETmisc.2156.a;I... kind of like it! I'll buy some more.;;;;;;;;;;;;;x
+VIETmisc.2156.b;It's not horrible, but it doesn't interest me.;;;;;;;;;;;;;x
+VIETmisc.2157.desc;Nothing's better than waking up and enjoying a hearty, healthy breakfast of ful medames - fava beans mixed with spices and oil - topped with hummus. It is said even the ancient Pharaohs of Egypt ate ful, but certainly they did not eat it in style with hummus.;;;;;;;;;;;x
+VIETmisc.2157.a;The hummus certainly improves the dish.;;;;;;;;;;;;;x
+VIETmisc.2158.desc;The best part about welcoming foreign envoys is not the feast, but what comes before it - namely the meze, a selection of small dishes served with drinks. So many things to choose, indeed, and one's hunger only makes it better. Yogurt, meatballs, eggplants, olives, beans, cheese - there's just so much to choose from.;;;;;;;;;;;x
+VIETmisc.2158.a;But best of all is the hummus.;;;;;;;;;;;;;x
+VIETmisc.2159.desc;Local nobles from [Root.GetName] wish to prove their loyalty to you. As  [Root.GetName] is a world-renowned hummus producing region, they have decided to present you with a great offering of hummus. The hummus you receive is of high quality, with many varieties flavored with the most succulent spices and ingredients.;;;;;;;;;;;x
+VIETmisc.2159.a;Thanks!;;;;;;;;;;;;;x
+VIETmisc.2160.desc;Ah! Excellent! Finally, a book written by an infidel that doesn't condemn our custom of brother-sister marriage.\n\nAs I continue reading the story, however, I realize I was misled. The story doesn't praise our sacred unions, it satirizes it.;;;;;;;;;;;x
+VIETmisc.2160.a;Saddening.;;;;;;;;;;;;;x
+VIETmisc.2161.desc;There is a sizeable population of infidels in one of your provinces. Many of them are critical of our practice of sibling marriage. In fact, some of these infidels - be they commoners, nobles, or educated men - openly mock and condemn such sacred unions in public! Surely this is an affront to the wisdom of [Root.Religion.GetRandomGodName].;;;;;;;;;;;x
+VIETmisc.2161.a;Those who insult [Root.Religion.GetRandomGodName]’s truth will be punished!;;;;;;;;;;;;;x
+VIETmisc.2161.b;They can go to hell for all I care.;;;;;;;;;;;;;x
+VIETmisc.2161.c;We must respect them, but in turn, they must respect us.;;;;;;;;;;;;;x
+VIET_no_incest_hell;And obviously they will, for it is said in the [Root.Religion.GetScriptureName] that those who speak against sacred marriage and try to destroy it are destined for hell no matter what.;;;;;;;;;;;x
+VIETmisc.2162.desc;Seeing more and more marriages between close kin among the commoners is a good thing, so I am led to believe. I cannot deny that such marriages are always easy, but it is through our good actions that we will be able to uphold truth and justice, and fight the demonic forces of [Root.Religion.GetRandomEvilGodName].;;;;;;;;;;;x
+VIETmisc.2162.a;We honor [Root.Religion.GetRandomGodName] so.;;;;;;;;;;;;;x
+VIETmisc.2163.desc;They say that those who unite with their siblings will have beautiful children, for they honor [Root.Religion.GetRandomGodName].;;;;;;;;;;;x
+VIETmisc.2163.a;I am glad I found the right husband.;;;;;;;;;;;;;x
+VIETmisc.2163.b;I am glad I found the right wife.;;;;;;;;;;;;;x
+VIETmisc.2164.desc;I am reading some religious commentary on our noble practice of sibling marriage, and I come to an interesting part. Here, [Root.Religion.GetRandomEvilGodName] tells lesser demons to not bother trying to ruin the sacred marriages, for it is possible to destroy the power of prayers and other good practices through deceit and evil, but it is impossible to fight the holy nature of a sibling marriage. ;;;;;;;;;;;x
+VIETmisc.2164.a;These unions are so righteous, even [Root.Religion.GetRandomEvilGodName] fears them!;;;;;;;;;;;;;x
+VIETmisc.2165.desc;As I lie in bed with my sibling and spouse at night, I can't help but think how lucky I am to be not only married to such a good person, but also encourage good in the world in doing so.;;;;;;;;;;;x
+VIETmisc.2165.a;[Root.Religion.GetRandomGodName] must be smiling down on me.;;;;;;;;;;;;;x
+VIETmisc.2166.desc;I've found an ancient [Root.Religion.GetName] text, discussing various details about our world, some of which I did not know before. For instance, the first time one has intercourse with one's sibling, as part of a divine marriage, one thousand demons and two thousand sorcerers and witches die! Simply amazing.;;;;;;;;;;;x
+VIETmisc.2166.a;If more siblings loved one another, we could solve all the world's problems.;;;;;;;;;;;;;x
+VIETmisc.2167.desc;I have heard that Zoroaster himself expressed doubts about whether sacred marriage between family members was a good thing. When I hear that, I strangely feel comforted, as I have sometimes had similar doubts about such practices. But I know in the end the truth can sometimes be scary and confusing. ;;;;;;;;;;;x
+VIETmisc.2167.a;Better to know the truth than live a life of lies after all.;;;;;;;;;;;;;x
+VIETmisc.2168.desc;I passionately yet gently move my body against that of my sibling and consort. The pleasure we feel, as we become one, is heightened by the knowledge that we are doing good things in the name of [Root.Religion.GetRandomGodName] and fighting the evil of [Root.Religion.GetRandomEvilGodName].;;;;;;;;;;;x
+VIETmisc.2168.a;Our love is powerful!;;;;;;;;;;;;;x
+VIETmisc.2169.desc;After another round of lovemaking with my sibling and consort, I feel as if I'm closer to [Root.Religion.GetRandomGodName] and the entirety of the universe. It's a humbling feeling.;;;;;;;;;;;x
+VIETmisc.2169.a;There is a reason why our marriage is sacred, after all.;;;;;;;;;;;;;x
+VIETmisc.2170.desc;Tonight, I go to bed together with my sibling once more. I hesitate, as I sometimes do, as our faces near, and we kiss. But our union, no matter how uneasy it makes us, is something wonderful and sacred, that will not be destroyed by the hate and evil.;;;;;;;;;;;x
+VIETmisc.2170.a;I love you, my sister.;;;;;;;;;;;;;x
+VIETmisc.2170.b;I love you, my brother.;;;;;;;;;;;;;x
+VIETmisc.2171.desc;My marriage to my beloved sibling isn't always easy. Sometimes I wonder whether it was worth it. But truthfully, I think this is simply a test by [Root.Religion.GetRandomGodName]. My holy union with my sibling is a recreation of paradise - who said it would be easy?;;;;;;;;;;;x
+VIETmisc.2171.a;It can be paradise in other ways as well.;;;;;;;;;;;;;x
+VIETmisc.2172.desc;Some people think xwedodah, the sacred marriage, can also apply to cousins. One such courtier of mine expressed support for such a view. While these cousin unions might not be as beneficial as a union between brother and sister, or parent and child, the courtier argues they too have their own merits, please [Root.Religion.GetRandomGodName], and fulfill the requirements for xwedodah.;;;;;;;;;;;x
+VIETmisc.2172.a;I'm not against it… the arguments are sound.;;;;;;;;;;;;;x
+VIETmisc.2172.b;Heresy! Cousins aren’t close enough. The closer the relations the better!;;;;;;;;;;;;;x
+VIETmisc.2173.desc;What would the best type of sacred union be? Which family member would make the best spouse?;;;;;;;;;;;x
+VIETmisc.2173.a;Parent;;;;;;;;;;;;;x
+VIETmisc.2173.b;Sibling;;;;;;;;;;;;;x
+VIETmisc.2173.c;Child;;;;;;;;;;;;;x
+VIETmisc.2174.desc;Some within the [Root.Religion.GetName] faith argue there are circumstances when it is acceptable to abandon a sacred marriage between two family members. For instance, if a man was impotent and could not produce offspring with his sister, than it is acceptable to give her away to a good [Root.Religion.GetName] man so that more good [Root.Religion.GetName]s can be born.;;;;;;;;;;;x
+VIETmisc.2174.a;This is true. We have to be flexible and sensible with our beliefs.;;;;;;;;;;;;;x
+VIETmisc.2174.b;Lies! To end a sacred marriage is a heinous crime!;;;;;;;;;;;;;x
+VIETmisc.2175.desc;Another foreigner visiting my court wishes to argue against our sacred tradition of marriage between close kin. This fellow is cleverer than most, however, and he mentions supposed legal issues with these marriages. Who is heir? How would an estate be divided? What would be the proper way to address someone in such and such a situation? And such things.;;;;;;;;;;;x
+VIETmisc.2175.a;What matters is that we honor [Root.Religion.GetRandomGodName].;;;;;;;;;;;;;x
+VIETmisc.2175.b;You do raise good points...;;;;;;;;;;;;;x
+VIETmisc.2175.c;According to the legal commentaries written by…;;;;;;;;;;;;;x
+VIET_foreigner_impressed_incest_arguments;The foreigner is impressed with the legal arguments I have presented. He asks for a copy of the commentaries I referred to. Maybe he’ll convert to our faith one day. Maybe. Then he shall know the glory and pleasure our sacred marriages bring.;;;;;;;;;;;x
+VIETmisc.2176.desc;I dreamt of a world where brothers could marry sisters. Where sons could become closer to their mothers, and thus their place of origin. Where fathers could make love to their daughters. Where the sacred marriages of the [Root.Religion.GetName] faith were widespread, accepted, and encouraged, where righteousness and justice were everywhere as a result. Then, I woke up.;;;;;;;;;;;x
+VIETmisc.2176.a;I hope one day my dream will come true.;;;;;;;;;;;;;x
+VIETmisc.2177.desc;Usually when travelers from faraway lands learn about our [Root.Religion.GetName] custom of sacred marriage between close kin, they show a range of negative emotions such as disgust or anger. This foreigner, whom I met today, is different. He seems politely curious, respectful even, and strangely open-minded as I explained things.;;;;;;;;;;;x
+VIETmisc.2177.a;It's good to meet open-minded people.;;;;;;;;;;;;;x
+VIETmisc.2178.desc;I've been thinking about how in different parts of the world, people have different customs. For instance, many regions do not allow for siblings to marry. We might think of such behavior as strange, irrational, and even repulsive, but to them, it's normal. It's strange how people can differ so much!;;;;;;;;;;;x
+VIETmisc.2178.a;Marriage with kin, however, is good. This is an uncontested, absolute truth.;;;;;;;;;;;;;x
+VIETmisc.2178.b;The more we understand others, the easier it will be to coexist.;;;;;;;;;;;;;x
+VIETmisc.2179.desc;While walking around your palace, you hear two of your children playing. Your son is being pestered by his sister, who proclaims, "Brother, let's get married, married, married, married, married...";;;;;;;;;;;x
+VIETmisc.2179.a;Adorable.;;;;;;;;;;;;;x
+VIETmisc.2179.b;They'll eventually grow out of that phase.;;;;;;;;;;;;;x
+VIETmisc.2179.c;[Root.Religion.GetRandomGodName] would be proud!;;;;;;;;;;;;;x
+VIETmisc.2180.desc;You have a servant you've known for a while. You respect him greatly for he is kind, humble, and friendly. He is a good [Root.Religion.GetName] who married his sister. Lately, however, rumors abound that he has been reluctant to consummate his marriage with his sister. He also doesn’t seem to be himself. You decide you must help him, lest his soul falls into the clutches of [Root.Religion.GetRandomEvilGodName].;;;;;;;;;;;x
+VIETmisc.2180.a;It's time to stage an intervention!;;;;;;;;;;;;;x
+VIETmisc.2181.tooltip;You and several others get together and figure out how to best carry out your plan.;;;;;;;;;;;x
+VIETmisc.2181.name;Let's Talk;;;;;;;;;;;x
+VIETmisc.2181.desc;As planned, you approach your servant one day. You pretend that you want to talk to him about something. He does not suspect a thing as you lead him into a quiet room in your palace. Once he’s inside, he sees everyone else - friends and some other fellow servants - standing and sitting around. “Uncle? Dad? Wait - you, you’re that friend of mine I haven’t seen in…”\n\n“Please,” you tell him, as someone closes the door, “Have a seat.” ;;;;;;;;;;;x
+VIETmisc.2181.a;“We want to talk to you about something serious.”;;;;;;;;;;;;;x
+VIETmisc.2182.tooltip;He cautiously sits down and asks, “What’s going on?”;;;;;;;;;;;x
+VIETmisc.2182.name;Here to Help;;;;;;;;;;;x
+VIETmisc.2182.desc;“It isn’t easy talking about this, because we know you might be going through some tough times,” you begin, “but we want you to know we’re here for you. We care about you.”\n\nThen, you all begin telling him your worries concerning his relationship with his sister. "We are worried that [Root.Religion.GetRandomEvilGodName] could be deceiving your soul!" someone might say. “This is your decision, of course, but we want you to hear our opinions first,” someone else might say.;;;;;;;;;;;x
+VIETmisc.2182.a;Though silent, he listens attentively.;;;;;;;;;;;;;x
+VIETmisc.2183.tooltip;The atmosphere is tense and emotional.;;;;;;;;;;;x
+VIETmisc.2183.desc;At last, when everyone has earnestly made their concerns clear, your servant begins crying. He admits it has been difficult, trying to consummate the marriage with his sister, but he greatly appreciates everyone's support. He promises to try his best, and the rest of you promise in return to help him whatever way you can.;;;;;;;;;;;x
+VIETmisc.2183.a;Together, we can overcome [Root.Religion.GetRandomEvilGodName]’s web of deceit.;;;;;;;;;;;;;x
+VIETmisc.2184.desc;Every time I make love to my sibling, I use it as an opportunity to understand [Root.Religion.GetRandomGodName] and the universe better - after all, our sacred marriage is divine. However, lately my sibling claims my overly religious attitude is preventing us from being able to pleasure one another properly.;;;;;;;;;;;x
+VIETmisc.2184.a;How can we do this without understanding its spiritual basis?;;;;;;;;;;;;;x
+VIETmisc.2184.b;I'm sorry! I should be more considerate.;;;;;;;;;;;;;x
+VIETmisc.2185.desc;[Root.Religion.GetName]s who live in foreign lands ruled by infidels often have to deny that they practice of encourage sacred marriages between siblings, or between a parent and child. When asked by the authorities, they feign ignorance, saying such rumors are slanderous lies. If I were in their situation, would I pretend to loathe the sacred marriage as well? Or would I tell the truth?;;;;;;;;;;;x
+VIETmisc.2185.a;Even if it costs my life, I will defend the truth!;;;;;;;;;;;;;x
+VIETmisc.2185.b;Lying is necessary if I am to survive in hostile lands.;;;;;;;;;;;;;x
+VIETmisc.2186.desc;Night falls, and I retreat to my bedroom with my sibling and spouse. I kiss them gently on the forehead, while embracing them, before we fall down together on our bed. It is time to please [Root.Religion.GetRandomGodName], once more, to consummate our sacred union, once more.;;;;;;;;;;;x
+VIETmisc.2186.a;The night is still young.;;;;;;;;;;;;;x
+VIETmisc.2187.desc;One of my courtiers had always been troubled by evil spirits, even possessed by them, some say. However, recently, these problems have vanished. Many are attributing this miracle of miracles to my divine marriage with my sibling, for such marriages between close kin undoubtedly bring fear and terror into the hearts of demons, after all, and even kill them.;;;;;;;;;;;x
+VIETmisc.2187.a;Glory to [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+VIETmisc.2188.desc;A courtier of mine is known for his skilled and articulate defense of our [Root.Religion.GetName] faith. He particularly is passionate about defending our practice of divine marriage between siblings and parents and their children. That said, he seems almost obsessed with defending this practice.;;;;;;;;;;;x
+VIETmisc.2188.a;His fascination with incest is strange, even disturbing.;;;;;;;;;;;;;x
+VIETmisc.2189.desc;I have heard sad news from one of the provinces of my realm. An influential, local [Root.Religion.GetName] nobleman has converted to another faith. He was once a good believer who married his sister in accordance with our holy laws. Arrogant and foolish, he is now disgusted for some reason with his sister, and refuses to sleep with her any longer. He has even given her away in marriage.;;;;;;;;;;;x
+VIETmisc.2189.a;A victory for [Root.Religion.GetRandomEvilGodName]! This is terrible!;;;;;;;;;;;;;x
+VIETmisc.2190.desc;A local noblewoman who married her brother in a sacred [Root.Religion.GetName] marriage has accused him of not performing his duty as her brother-husband as he refuses to bed her. The evidence seems to be against him, and, if true, means that whatever merit he would've accumulated from the sacred marriage in the first place would now be sin. She is appealing to you for judgment.;;;;;;;;;;;x
+VIETmisc.2190.a;He will consummate his marriage with his sister, or face punishment!;;;;;;;;;;;;;x
+VIETmisc.2190.b;I'm not here to give marriage advice. This is their problem.;;;;;;;;;;;;;x
+VIETmisc.2191.desc;I have talked with some merchants recently, men who have traveled far and have contacts in the great Chinese Empire to the east. They have told me that there, in this civilized land, the people think we [Root.Religion.GetName] [Root.Culture.GetName]s are lewd barbarians for we fornicate with our siblings and parents and children. How strange, that a civilized people could hold such a barbaric viewpoint!;;;;;;;;;;;x
+VIETmisc.2191.a;Only barbarians refuse to sleep with their siblings, parents, or children.;;;;;;;;;;;;;x
+VIETmisc.2192.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2192.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2193.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2193.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2194.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2194.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2195.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2195.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2196.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2196.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2197.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2197.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2198.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2198.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2199.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2199.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2200.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2200.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2201.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2201.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2202.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2202.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2203.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2203.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2204.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2204.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2205.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2205.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2206.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2206.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2207.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2207.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2208.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2208.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2209.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2209.a;Xxxxxxffff;;;;;;;;;;;;;x

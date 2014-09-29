@@ -1,9 +1,0 @@
-1050.1.1=
-{
-holder=168487
-liege=d_amalfi
-}
-1076.12.13={
-	holder=0
-	liege=c_trapani
-}

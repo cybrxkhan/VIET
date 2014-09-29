@@ -2846,8 +2846,6 @@ e_hre = {
 			
 			culture = dutch
 			
-			name_tier = count
-			
 			c_holland = {
 				color={ 235 85 30 }
 				color2={ 255 255 255 }
@@ -3086,8 +3084,6 @@ e_hre = {
 			capital = 78
 			
 			culture = dutch
-			
-			name_tier = count
 			
 			c_artois = {
 				color={ 234 110 90 }
@@ -8826,19 +8822,19 @@ e_italy = {
 	}
 	
 	allow = {
-		#hidden_tooltip = {
-		#	OR = {
-		#		ai = no
-		#		culture=italian
-		#	}
-		#}
-		#has_landed_title=k_italy
-		#has_landed_title=k_sicily
-		#any_demesne_title = {
-		#	tier = king
-		#	NOT = { title = k_italy }
-		#	NOT = { title = k_sicily }
-		#}
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture=italian
+			}
+		}
+		has_landed_title=k_italy
+		has_landed_title=k_sicily
+		any_demesne_title = {
+			tier = king
+			NOT = { title = k_italy }
+			NOT = { title = k_sicily }
+		}
 	}
 } #e_italy
 
@@ -8862,9 +8858,6 @@ e_scandinavia = {
 		}
 	}
 	
-	name_tier = king
-	short_name = yes
-
 	k_sweden = {
 		color={ 55 112 170 }
 		color2={ 255 255 0 }
@@ -13062,25 +13055,6 @@ e_russia = {
 				culture_group = finno_ugric
 			}
 		}
-		OR = {
-			AND = {
-				e_roman_empire = {
-					has_holder = no
-				}
-				e_byzantium = {
-					has_holder = no
-				}
-			}
-			AND = {
-				NOT = { religion = orthodox }
-				NOT = { is_heresy_of = orthodox }
-			}
-		}
-		OR = {
-			culture_group = north_germanic
-			culture_group = east_slavic
-			culture_group = finno_ugric
-		}
 	}
 	
 	finnish = "Uralica"
@@ -14473,7 +14447,12 @@ e_russia = {
 		
 		# Creation/usurpation trigger
 		allow = {
-			always = no
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = finno_ugric
+				}
+			}
 		}
 	
 		d_perm = {
@@ -14773,15 +14752,14 @@ e_russia = {
 			
 			capital = 396 # Bjarmia
 			
-			# FIXME:
-			# samoyed = "Lamt?"
-			# finnish = "Lamt?"
-			# mordvin = "Lamt?"
-			# lappish = "Lamt?"
-			# komi = "Lamt?"
-			# udmurt = "Lamt?"
-			# ugricbaltic = "Lamt?"
-			# khanty = "Lamt?"
+			samoyed = "Lamtü"
+			finnish = "Lamtü"
+			mordvin = "Lamtü"
+			lappish = "Lamtü"
+			komi = "Lamtü"
+			udmurt = "Lamtü"
+			ugricbaltic = "Lamtü"
+			khanty = "Lamtü"
 			
 			culture = komi
 			
@@ -15807,8 +15785,7 @@ e_tartaria = {
 		tengri_pagan_reformed = 200
 		slavic_pagan_reformed = 50 # Crusade target weight
 		
-		# FIXME:
-		# hungarian = Etelk?z
+		hungarian = Etelköz
 
 		d_cherson = {
 			color={ 188 91 154 }
@@ -18562,8 +18539,6 @@ e_carpathia = {
 	tengri_pagan_reformed = 100
 	slavic_pagan_reformed = 50 # Crusade target weight
 	
-	name_tier = king
-	
 	k_dacia = {
 		color={ 220 132 40 }
 		color2={ 255 255 255 }
@@ -20153,8 +20128,6 @@ e_france = {
 			
 			culture = occitan
 			
-			name_tier = count
-			
 			c_montpellier = {
 				color={ 10 16 243 }
 				color2={ 255 255 255 }
@@ -20761,8 +20734,6 @@ e_france = {
 		
 		catholic = 5000 # Crusade target weight
 		
-		name_tier = count
-		
 		d_provence = {
 			color={ 145 37 67 }
 			color2={ 255 255 255 }
@@ -21199,9 +21170,6 @@ e_spain = {
 	#	}
 	#}
 	
-	name_tier = king
-	short_name = yes
-
 	k_castille = { #Spain
 		color={ 243 209 23 }
 		color2={ 200 80 10 }
@@ -21447,8 +21415,6 @@ e_spain = {
 			capital = 204 # Barcelona
 			
 			culture = catalan
-			
-			name_tier = count
 			
 			c_barcelona = {
 				color = { 166 110 72 }
@@ -26833,15 +26799,16 @@ e_abyssinia = {
 	}
 	
 	allow = {
-		#hidden_tooltip = {
-		#	OR = {
-		#		ai = no
-		#		culture_group = east_african
-		#	}
-		#}
-		#has_landed_title=k_egypt
-		#has_landed_title=k_nubia
-		#has_landed_title=k_abyssinia
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = east_african
+			}
+		}
+		has_landed_title=k_egypt
+		has_landed_title=k_nubia
+		has_landed_title=k_abyssinia
+		has_landed_title=k_somalia
 	}
 }
 
@@ -26869,9 +26836,6 @@ e_britannia = {
 		}
 	}
 	
-	name_tier = king
-	short_name = yes
-
 	k_england = {
 		color={ 202 26 26 }
 		color2={ 255 255 255 }
@@ -28984,19 +28948,15 @@ e_mali = {
 	}
 	
 	allow = {
-		#hidden_tooltip = {
-		#	OR = {
-		#		ai = no
-		#		culture_group = west_african
-		#	}
-		#}
-		#has_landed_title=k_mauretania
-		#has_landed_title=k_mali
-		#any_demesne_title = {
-		#	tier = king
-		#	NOT = { title = k_mali }
-		#	NOT = { title = k_mauretania }
-		#}
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture_group = west_african
+			}
+		}
+		has_landed_title=k_mauretania
+		has_landed_title=k_mali
+		has_landed_title=k_songhay
 	}
 } #e_mali
 
@@ -29894,27 +29854,14 @@ k_seljuk_turks = { # Seljuk Turks
 k_tekke = {
 	color={ 244 153 189 }
 }
-k_trebizond = { # Modified by VIET
-	color={ 100 40 160 }
-	color2={ 255 255 255 }
-	
-	capital = 678 # Trepezous
-
+k_trebizond = {
+	color={ 100 151 33 }
+	capital = 678 # Trapezous
 	culture = greek
 	
-	# Creation/Usurp Trigger
 	allow = {
-		NOT = { has_landed_title = e_byzantium }
-		NOT = {
-			liege = {
-				has_landed_title = e_byzantium
-			}
-		}
+		always = no
 	}
-	
-		
-	orthodox = 200 # Crusade target weight
-	muslim = 25 # Crusade target weight	
 }
 k_trinacria = {
 	color={ 249 232 247 }
@@ -35971,70 +35918,6 @@ d_exilarch_karaite = {
 	
 
 }
-#West African mercenaries
-d_mandinka_horsemen = {
-	color = { 160 190 65 }
-	color2 = { 255 255 255 }
-
-	capital = 925 # Mali
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = west_african_pagan
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = mandinka_horsemen_composition
-	strength_growth_per_century = 0.25
-}
-
-d_sofa_warriors = {
-	color = { 165 195 60 }
-	color2 = { 255 255 255 }
-
-	capital = 911 #Timbuktu
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = sunni
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = sofa_warriors_composition
-	strength_growth_per_century = 0.25
-}
 
 
 #Vanilla VIET Only
@@ -36065,36 +35948,3 @@ d_east_african_pagan_reformed = {
 }
 
 
-
-d_daylamite_warriors = {
-	color = { 72 109 178 }
-	color2 = { 255 255 255 }
-
-	capital = 662 # Mazandaran
-
-	# Hire Trigger
-	allow = {
-		culture_group = iranian
-		religion_group = zoroastrian_group
-	}
-
-	religion = zoroastrian
-	culture = persian
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = daylamite_warriors_composition
-	strength_growth_per_century = 0.25
-}

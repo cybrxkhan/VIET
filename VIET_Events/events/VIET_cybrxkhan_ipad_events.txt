@@ -12134,6 +12134,7 @@ character_event = {
 			if = {
 				limit = {
 					NOT = { age = 45 }
+					is_female = yes
 				}
 				random = {
 					chance = 25
@@ -15136,6 +15137,14 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = proud
+		}
+		modifier = {
+			factor = 2
+			culture = egyptian_arabic
+		}
+		modifier = {
+			factor = 0.5
+			prestige = 1000
 		}
 	}
 

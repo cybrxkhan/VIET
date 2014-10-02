@@ -1,11 +1,14 @@
 taking_a_break;Taking a break from hard work;;;;;;;;;;;x
 deep_contemplation;Deeply contemplating the world;;;;;;;;;;;x
+deep_contemplation_desc;"What is the meaning of life?";;;;;;;;;;;x
 lustful_ruler;Lustful Ruler;;;;;;;;;;;x
+lustful_ruler_desc;This ruler feels aroused a lot.;;;;;;;;;;;x
 eating_gruel;Eating gruel;;;;;;;;;;;x
 eating_lots_of_gruel;Eating lots of gruel;;;;;;;;;;;x
 best_meal_in_ages;Had the best meal in ages;;;;;;;;;;;x
 paranoid_coward;Paranoid coward;;;;;;;;;;;x
 reminiscing;Reminiscing about the past;;;;;;;;;;;x
+reminiscing_desc;"Remember the time when...";;;;;;;;;;;x
 opinion_patron;Gave patronage;;;;;;;;;;;x
 opinion_new_courtier;New courtier;;;;;;;;;;;x
 olive_garden;Improved olive production;;;;;;;;;;;x
@@ -75,6 +78,7 @@ byzantine_chaos;Byzantine Chaos;;;;;;;;;;;;;x
 byzantine_chaos_desc;The end of the Macedonian dynasty, founded by the illustrious and brilliant Basil II, has left the empire in a troubled state. The military is in disarray, the treasury is greatly reduced, and the empire's borders are threatened by enemies on all sides.;;;;;;;;;;;;;x
 opinion_corrected_me;Corrected me;;;;;;;;;;;;;x
 opressive_ruler;Opressive ruler;;;;;;;;;;;;;x
+opressive_ruler_desc;"Help! Help! I'm being oppressed!";;;;;;;;;;;;;x
 listens_to_others;Listens to Others;;;;;;;;;;;;;x
 listens_to_others_desc;This character is willing to consider others' suggestions and opinions, even if they criticize him or her.;;;;;;;;;;;;;x
 good_conversation;Good conversation;;;;;;;;;;;;;x
@@ -89,6 +93,7 @@ VIET_supernatural_happenings_desc;Bizarre events have occurred in this province,
 VIET_kaiki_best_girl_was_here;Mysterious Conman;;;;;;;;;;;;;x
 VIET_kaiki_best_girl_was_here_desc;A mysterious conman visited the area selling fake charms. But then again, were they actually real to begin with?;;;;;;;;;;;;;x
 VIET_virile_ruler;Virile Ruler;;;;;;;;;;;;;x
+VIET_virile_ruler_desc;This ruler just keeps going, and going, and going, and going, and going, and...;;;;;;;;;;;;;x
 VIET_sex_failure;Lacks Stamina;;;;;;;;;;;;;x
 VIET_sex_failure_desc;This character can't keep up when it comes to lovemaking.;;;;;;;;;;;;;x
 VIET_shaft_head_tilt;Master Head Tilter;;;;;;;;;;;;;x
@@ -101,4 +106,41 @@ VIET_contemplating_stewardship;Contemplating Economic Matters;;;;;;;;;;;;;x
 VIET_contemplating_intrigue;Contemplating Matters of Intrigue;;;;;;;;;;;;;x
 VIET_contemplating_learning;Contemplating Cultural Matters;;;;;;;;;;;;;x
 VIET_wisdom_ruler;Wise Ruler;;;;;;;;;;;;;x
+VIET_romantic_ruler;Feeling Romantic;;;;;;;;;;;;;x
+VIET_romantic_ruler_desc;But if I know you, I know what you'll do\nYou'll love me at once, the way you did once upon a dream ;;;;;;;;;;;;;x
+VIET_resists_temptation;Resists Temptation;;;;;;;;;;;;;x
+VIET_resists_temptation_desc;It's too perilous!;;;;;;;;;;;;;x
+opinion_eye_candy;Eye Candy;;;;;;;;;;;;;x
+VIET_admiring_eye_candy;Eye Candy;;;;;;;;;;;;;x
+VIET_admiring_eye_candy_desc;Oh my...;;;;;;;;;;;;;x
+opinion_disturbing_fetish;Disturbing Fetish;;;;;;;;;;;;;x
+VIET_incest_ruler_province;Ruler Married Sibling;;;;;;;;;;;;;x
+VIET_incest_ruler_province_desc;The faithful in this province approve of this ruler's marriage to his or her sibling. Their wise and just union has, so it said, frightened the demons and brought nothing but good fortune and prosperity to this province!;;;;;;;;;;;;;x
+VIET_religiously_tolerant_ruler;Tolerant of Religious Differences;;;;;;;;;;;;;x
+VIET_religiously_tolerant_ruler_desc;"It just happens that I'm right and you're wrong, but I don't feel any ill-will or hatred towards you because of it.";;;;;;;;;;;;;x
+VIET_feeling_thankful;Feeling Thankful;;;;;;;;;;;;;x
+VIET_having_a_good_time;Having a Good Time;;;;;;;;;;;;;x
+VIET_having_a_good_time_desc;Life is good, no?;;;;;;;;;;;;;x
+VIET_huge_falafel_balls;Local Cook Made Huge Falafel Balls;;;;;;;;;;;;;x
+VIET_huge_falafel_balls_desc;Those balls look so big and round!;;;;;;;;;;;;;x
+VIET_great_hummus;Ate Some Good Hummus;;;;;;;;;;;;;x
+VIET_great_hummus_desc;Hummus is a very delicious and nutrituous food dip made from cooked, mashed chickpeas usually blended with tahini, olive oil, lemon juice, salt and garlic.;;;;;;;;;;;;;x
+VIET_ate_bad_food;Ate Bad Food;;;;;;;;;;;;;x
+VIET_ate_bad_food_desc;"I'm suddenly not feeling that well...";;;;;;;;;;;;;x
+VIET_hummus_hater;Hates Hummus;;;;;;;;;;;;;x
+VIET_hummus_hater_desc;"You're insane! You're completely insane! You're like a unicorn - who in the world would ever hate hummus?";;;;;;;;;;;;;x
+VIET_hummus_producing_region;Hummus Producing Region;;;;;;;;;;;;;x
+VIET_hummus_producing_region_desc;This province is known for the quality of its hummus. Travelers everywhere come here to enjoy the soul of hummus!;;;;;;;;;;;;;x
+VIET_enforcing_incest;Enforcing Incest;;;;;;;;;;;;;x
+VIET_enforcing_incest_desc;The people in this province are encouraged by their ruler to understand the benefits of marriage between close kin. Any condemnation of such practices would be punished severely!;;;;;;;;;;;;;x
+VIET_incest_is_good;Inbreeding is Good;;;;;;;;;;;;;x
+VIET_incest_is_good_desc;To marry one's sibling, parent, or child is a great deed! This character has recently reflected on the immeasurable benefits of such a union, and is quite encouraged. Who wouldn't want to uphold justice and truth, bring peace to the world, and destroy evil, after all?;;;;;;;;;;;;;x
+VIET_loves_own_children;My Children are Wonderful;;;;;;;;;;;;;x
+VIET_loves_own_children_desc;"Isn't my child so cute? Oh my goodness! So cute!";;;;;;;;;;;;;x
+VIET_practical_ruler;Practical Ruler;;;;;;;;;;;;;x
+VIET_practical_ruler_desc;This character is not easily swayed by blind faith or ideology. They understand that sometimes, you just have to be practical.;;;;;;;;;;;;;x
+VIET_incest_demon_exorcist;Exorcised Demons with Divine Marriage;;;;;;;;;;;;;x
+VIET_incest_demon_exorcist_desc;There is clear evidence that this character's divine marriage with one of their close kin has successfully killed and exorcised evil spirits and encouraged spiritual peace and harmony around them.;;;;;;;;;;;;;x
+VIET_obsessed_with_incest;Obsessed with Incest;;;;;;;;;;;;;x
+VIET_obsessed_with_incest_desc;This character is obsessed with incest. It's rather disturbing for various reasons.;;;;;;;;;;;;;x
 xyxyxyxyxyxxy;xxxxx;;;;;;;;;;;;;x

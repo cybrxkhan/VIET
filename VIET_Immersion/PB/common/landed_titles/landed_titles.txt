@@ -6269,72 +6269,6 @@ d_exilarch_karaite = {
 	
 
 }
-#West African mercenaries
-d_mandinka_horsemen = {
-	color = { 160 190 65 }
-	color2 = { 255 255 255 }
-
-	capital = 925 # Mali
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = west_african_pagan
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = mandinka_horsemen_composition
-	strength_growth_per_century = 0.25
-}
-
-d_sofa_warriors = {
-	color = { 165 195 60 }
-	color2 = { 255 255 255 }
-
-	capital = 911 #Timbuktu
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = sunni
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = sofa_warriors_composition
-	strength_growth_per_century = 0.25
-}
-
-
 #Vanilla VIET Only
 d_east_african_pagan_reformed = {
 	color={ 111 44 11 }
@@ -6363,36 +6297,3 @@ d_east_african_pagan_reformed = {
 }
 
 
-
-d_daylamite_warriors = {
-	color = { 72 109 178 }
-	color2 = { 255 255 255 }
-
-	capital = 662 # Mazandaran
-
-	# Hire Trigger
-	allow = {
-		culture_group = iranian
-		religion_group = zoroastrian_group
-	}
-
-	religion = zoroastrian
-	culture = persian
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = daylamite_warriors_composition
-	strength_growth_per_century = 0.25
-}

@@ -1,7 +1,7 @@
 #########################################################
 #
 # Emirate of Crete
-#
+# Vanilla: Hafsids
 # 1000158870-1000158872: Najdahids
 # 1000158873-1000158875: Abdallahids
 # 1000158876:Korniaktos

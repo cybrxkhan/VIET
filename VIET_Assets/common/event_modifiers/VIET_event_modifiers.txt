@@ -507,6 +507,97 @@ VIET_wisdom_ruler = {
 	global_revolt_risk = -0.05
 	icon = 7
 }
+VIET_virile_ottoman = {
+	general_opinion = 5
+	fertility = 0.1
+	icon = 39
+}
+VIET_romantic_ruler = {
+	diplomacy = 1
+	fertility = 0.05
+	icon = 39
+}
+VIET_resists_temptation = {
+	monthly_character_piety = 0.15
+	fertility = -0.05
+	icon = 8
+}
+VIET_admiring_eye_candy = {
+	fertility = 0.05
+	icon = 39
+}
+VIET_incest_ruler_province = {
+	local_tax_modifier = 0.02
+	local_revolt_risk = -0.05
+	icon = 39
+}
+VIET_religiously_tolerant_ruler = {
+	diplomacy = 2
+	monthly_character_piety = -0.05
+	icon = 8
+}
+VIET_feeling_thankful = {
+	monthly_character_piety = 0.01
+	icon = 8
+}
+VIET_having_a_good_time = {
+	diplomacy = 1
+	icon = 16
+}
+VIET_huge_falafel_balls = {
+	local_revolt_risk = -0.02
+	icon = 18
+}
+VIET_great_hummus = {
+	diplomacy = 1
+	health = 0.2
+	icon = 18
+}
+VIET_ate_bad_food = {
+	health = -0.5
+	icon = 23
+}
+VIET_hummus_hater = {
+	diplomacy = -1
+	icon = 23
+}
+VIET_hummus_producing_region = {
+	local_tax_modifier = 0.05
+	icon = 18
+}
+VIET_enforcing_incest = {
+	local_revolt_risk = 0.05
+	icon = 38
+}
+VIET_incest_is_good = {
+	diplomacy = 1
+	fertility = 0.05
+	monthly_character_prestige = 0.05
+	icon = 39
+}
+VIET_loves_own_children = { #I'm not talking about incest you sickos
+	diplomacy = 1
+	monthly_character_piety = 0.05
+	icon = 18
+}
+VIET_practical_ruler = { 
+	intrigue = 1
+	icon = 5
+}
+VIET_incest_demon_exorcist = {
+	general_opinion = 10
+	fertility = 0.05
+	health = 0.2
+	monthly_character_piety = 0.3
+	icon = 17
+}
+VIET_obsessed_with_incest = {
+	diplomacy = -2
+	fertility = 0.05
+	learning = 1
+	icon = 17
+}
+
 ### HOLY ORDERS
 expelled_manichean_holy_order = {
 	icon = 35

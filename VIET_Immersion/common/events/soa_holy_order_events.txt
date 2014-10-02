@@ -1503,6 +1503,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		is_heretic = no
 		has_character_modifier = borrowed_from_bektashi
@@ -1671,6 +1672,7 @@ narrative_event = {
 				religion = qalandari
 				religion = salihist
 				religion = murjite
+				religion = muridist
 			}
 			is_heretic = no
 		NOT = {
@@ -1883,6 +1885,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite			
+			religion = muridist			
 		}
 		is_heretic = no
 		
@@ -2061,6 +2064,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		is_heretic = no
 		
@@ -2270,6 +2274,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		
 		d_bektashi = {
@@ -2962,6 +2967,7 @@ character_event = {
 			religion = hurufi
 			religion = alawite
 			religion = qarmatian
+			religion = ghurabi
 		}
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
@@ -3170,6 +3176,7 @@ character_event = {
 			religion = hurufi
 			religion = alawite
 			religion = qarmatian
+			religion = ghurabi
 		}
 		
 		has_character_modifier = borrowed_from_assassins
@@ -3347,6 +3354,7 @@ character_event = {
 			religion = hurufi
 			religion = alawite
 			religion = qarmatian
+			religion = ghurabi
 		}
 		
 		martial = 5
@@ -3554,6 +3562,7 @@ character_event = {
 			religion = hurufi
 			religion = alawite
 			religion = qarmatian
+			religion = ghurabi
 		}
 		
 		d_hashshashin = {
@@ -4405,15 +4414,15 @@ narrative_event = {
 				religion = iconoclast
 			}
 			AND = {
-				764 = { # Antioch is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
+				764 = { # Antioch is barlaamite
+					holder_scope = { religion = barlaamite }
+					religion = barlaamite 
 				}
-				774 = { # Jerusalem is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
+				774 = { # Jerusalem is barlaamite
+					holder_scope = { religion = barlaamite }
+					religion = barlaamite 
 				}
-				religion = paulician
+				religion = barlaamite
 			}
 			AND = {
 				764 = { # Antioch is bosnian_religion
@@ -4562,7 +4571,7 @@ character_event = {
 			religion = bogomilist
 			religion = monothelite
 			religion = iconoclast
-			religion = paulician
+			religion = barlaamite
 			religion = bosnian_religion
 		}
 		is_heretic = no
@@ -4814,7 +4823,7 @@ character_event = {
 			religion = bogomilist
 			religion = monothelite
 			religion = iconoclast
-			religion = paulician
+			religion = barlaamite
 			religion = bosnian_religion
 		}
 		is_heretic = no
@@ -5139,6 +5148,21 @@ narrative_event = {
 				}
 				religion = maronite
 			}
+			AND = {
+				875 = { # Aksum is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				793 = { # Makuria is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				802 = { # Alexandria is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				religion = stefanite
+			}
 		}
 		is_heretic = no
 		
@@ -5275,6 +5299,7 @@ character_event = {
 			religion = monophysite
 			religion = syriac
 			religion = maronite
+			religion = stefanite
 		}
 		is_heretic = no
 		
@@ -5525,6 +5550,7 @@ character_event = {
 			religion = monophysite
 			religion = syriac
 			religion = maronite
+			religion = stefanite
 		}
 		is_heretic = no
 		
@@ -12259,6 +12285,7 @@ narrative_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		
 		is_heretic = no
@@ -12308,6 +12335,17 @@ narrative_event = {
 				774 = { # Jerusalem is chaldean
 					holder_scope = { religion = chaldean }
 					religion = chaldean 
+				}
+			}
+			AND = {
+				religion = marcionite
+				693 = { # Baghdad is marcionite
+					holder_scope = { religion = marcionite }
+					religion = marcionite 
+				}
+				774 = { # Jerusalem is marcionite
+					holder_scope = { religion = marcionite }
+					religion = marcionite 
 				}
 			}
 		}
@@ -12441,6 +12479,7 @@ character_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		is_heretic = no
 		
@@ -12691,6 +12730,7 @@ character_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		
 		is_heretic = no

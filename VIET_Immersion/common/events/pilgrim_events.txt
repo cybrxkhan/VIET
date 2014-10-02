@@ -34,7 +34,7 @@ character_event = {
 						religion = iconoclast
 						religion = monothelite
 						religion = bogomilist
-						religion = paulician
+						religion = barlaamite
 						religion = bosnian_religion
 					}
 				}
@@ -51,6 +51,9 @@ character_event = {
 						religion = messalian
 						religion = syriac
 						religion = maronite
+						religion = paulician
+						religion = stefanite
+						religion = marcionite
 					}
 				}
 				character_event = { id = SoA.5011 }
@@ -157,6 +160,9 @@ character_event = {
 			NOT = { religion = arkagun }
 			NOT = { religion = chaldean }
 			NOT = { religion = messalian }
+			NOT = { religion = marcionite }
+			NOT = { religion = stefanite }
+			NOT = { religion = paulician }
 		}
 		set_character_flag = pilgrimage_to_constantinople
 		hidden_tooltip = {
@@ -179,6 +185,10 @@ character_event = {
 			OR = {
 				religion = miaphysite
 				religion = monophysite
+				religion = syriac
+				religion = maronite
+				religion = paulician
+				religion = stefanite
 			}
 		NOT = { at_location = 875 }
 		}

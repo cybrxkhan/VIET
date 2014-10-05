@@ -148,7 +148,7 @@ VIETmisc.5032.desc;I return with a toothbrush, and tell [From.GetFirstName] what
 VIETmisc.5032.a;How naive. Let’s begin, then!;;;;;;;;;;;;;x
 VIETmisc.5033.tooltip;The two of you sit down, and you ready the toothbrush. “Say aaah,” you tell her.;;;;;;;;;;;;;x
 VIETmisc.5034.title;Uncomfortable;;;;;;;;;;;;;x
-VIETmisc.5034.desc;Without further ado, I lower the toothbrush, and begin brushing [From.GetFirstName]’s teeth. She whimpers a bit, feeling uncomfortable, but manages to stay composed. I can only continue grinning, knowing the worst is yet to come.\n\nShe moans.\n\nI gulp. That moan sounded very strange. And as she trembles under the discomfort - and pleasure? - of the sensations, I, too, begin to feel strange.;;;;;;;;;;;x
+VIETmisc.5034.desc;Without further ado, I lower the toothbrush, and begin brushing [From.GetFirstName]’s teeth. She whimpers a bit, feeling uncomfortable, but manages to stay composed. I can only continue grinning, knowing the worst is yet to come. Thin hairs are stimulating the most delicate, interior parts of her body, so it will feel good - too good, in fact! "If you give up now, sister dear, you'll feel good. Or, rather, you'll stop feeling good!"\n\nShe moans.\n\nI gulp. That moan sounded very strange. And as she trembles under the discomfort - and pleasure - of the sensations, I, too, begin to feel strange.;;;;;;;;;;;x
 VIETmisc.5034.a;Seeing her like this… could she be more attractive than I realized?;;;;;;;;;;;;;x
 VIETmisc.5035.tooltip;I’m beginning to see her in a new light.;;;;;;;;;;;;;x
 VIETmisc.5036.title;Strange Sensations;;;;;;;;;;;;;x
@@ -156,9 +156,9 @@ VIETmisc.5036.desc;As I continue moving the toothbrush back and forth in [From.G
 VIETmisc.5036.a;“It’s alright, brother,” she whimpers.;;;;;;;;;;;;;x
 VIETmisc.5037.tooltip;And my hand moves closer… and closer… and closer… and -;;;;;;;;;;;;;x
 VIETmisc.5038.title;Interrupted;;;;;;;;;;;;;x
-VIETmisc.5038.desc;“What are you two doing?”\n\nThe two of us jerk away from each other as one of my servants interrupts. Apparently he was passing by the room, and noticed the commotion. The servant looks bewildered at first. “What are you doing, master, pushing your sister down while she is smiling? And what are you doing, mistress, having a smile on your face while your brother pushes you down?”\n\n“What a coincidence! What were we doing?” [From.GetFirstName] and I exclaim in unison.\n\nThe servant says, “I absolutely understand! I won’t say a thing!”;;;;;;;;;;;x
+VIETmisc.5038.desc;“What are you two doing?”\n\nThe two of us jerk away from each other as one of my servants interrupts. Apparently he was passing by the room, and noticed the commotion. The servant looks bewildered at first. “What are you doing, master, pushing your sister down while she is smiling? And what are you doing, mistress, having a smile on your face while your brother pushes you down?”\n\n“What a coincidence! What were we doing?” [From.GetFirstName] and I exclaim in unison, feigning ignorance and confusion.\n\nThe servant says, “I absolutely understand! I won’t say a thing!”;;;;;;;;;;;x
 VIETmisc.5038.a;With that, the servant runs out.;;;;;;;;;;;;;x
-VIETmisc.5039.tooltip;Um…. This is awkward.;;;;;;;;;;;;;x
+VIETmisc.5039.tooltip;A silence envelops the room.;;;;;;;;;;;;;x
 VIETmisc.5040.title;Um…. This is awkward.;;;;;;;;;;;;;x
 VIETmisc.5040.desc;After a long awkward silence, eventually, I speak. “Um… well, [From.GetFirstName], it looks like you’ve won. That was certainly longer than five minutes. I’ll do that favor you want.”\n\n”Still,” she says, with a thoughtful look on her face, “That seems kind of unfair to you. Maybe we can make it best two out of three? I can brush your teeth this time.”\n\nI consider that for a moment.;;;;;;;;;;;x
 VIETmisc.5040.a;“Sure,” I reply, “Why not.”;;;;;;;;;;;;;x
@@ -229,8 +229,7 @@ VIET_succubus_prestige;Though you can’t exactly move, you try thrusting yourself
 VIETmisc.5059.title;Awake;;;;;;;;;;;;;x
 VIETmisc.5059.desc;You open your eyes.\n\nYou can move again! You even blubber some words! Alive, alive! It seems like it was just a bad nightmare! Or… was it? After the initial euphoria passes, you sit up in bed, thinking about the experience. Though it was a dream - nay, a nightmare - the fact that you almost died thanks to unrestrained lust is unsettling. What if it had happened in real life? You’ve heard tales of evil demons or spirits tempting good men and women, after all. You must be careful from now on.\n\nYou say a quick prayer to GOD, before going back to sleep.;;;;;;;;;;;x
 VIETmisc.5059.a;You sleep soundly.;;;;;;;;;;;;;x
-VIETmisc.5060.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5060.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5060.desc;Everyone says I should always get along with my sister. Ha! Never! Sure, she isn’t a bad person, but our relationship isn't perfect. She is annoying at times. These past few days, for instance, she has been insisting I do a certain favor for her. It’s not an unreasonable favor, I admit, but why does it have to be me?;;;;;;;;;;;x
 VIETmisc.5060.a;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5061.title;xxxxx;;;;;;;;;;;;;x
 VIETmisc.5061.desc;xxxxx;;;;;;;;;;;x

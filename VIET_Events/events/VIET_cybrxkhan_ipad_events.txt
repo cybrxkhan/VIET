@@ -11709,8 +11709,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -11796,8 +11796,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -11892,8 +11892,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -11979,8 +11979,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -12066,8 +12066,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -12165,8 +12165,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -12261,8 +12261,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -12357,8 +12357,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -12370,8 +12370,8 @@ character_event = {
 			NOT = { trait = content }
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { religion = zunist }
-			NOT = { religion = zunist_reformed }
+			NOT = { #religion = zunist }
+			NOT = { #religion = zunist_reformed }
 			OR = {
 				trait = zealous
 				trait = proud
@@ -12456,8 +12456,8 @@ character_event = {
 				NOT = { trait = content }
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion = messalian }
-				NOT = { religion = zunist }
-				NOT = { religion = zunist_reformed }
+				NOT = { #religion = zunist }
+				NOT = { #religion = zunist_reformed }
 				OR = {
 					trait = zealous
 					trait = proud
@@ -12659,8 +12659,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -12746,8 +12746,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -12825,8 +12825,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -12908,8 +12908,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13002,8 +13002,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13116,8 +13116,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13230,8 +13230,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13324,8 +13324,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13419,8 +13419,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -13506,8 +13506,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -15314,8 +15314,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -15397,14 +15397,14 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_demesne_province = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { religion = zunist }
-			NOT = { religion = zunist_reformed }
+			NOT = { #religion = zunist }
+			NOT = { #religion = zunist_reformed }
 		}
 	}
 	
@@ -15475,8 +15475,8 @@ character_event = {
 			limit = {
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion = messalian }
-				NOT = { religion = zunist }
-				NOT = { religion = zunist_reformed }			
+				NOT = { #religion = zunist }
+				NOT = { #religion = zunist_reformed }			
 			}
 			add_province_modifier = {
 				name = VIET_enforcing_incest
@@ -15525,8 +15525,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -15611,8 +15611,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -15722,8 +15722,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -15807,8 +15807,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -15897,8 +15897,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -16046,8 +16046,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -16135,8 +16135,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -16224,8 +16224,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -16629,8 +16629,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -16731,8 +16731,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -16830,8 +16830,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -16916,8 +16916,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -17002,8 +17002,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -17090,8 +17090,8 @@ character_event = {
 		#OR = {
 		#	religion_group = zoroastrian_group
 		#	religion = messalian
-		#	religion = zunist
-		#	religion = zunist_reformed
+		#	#religion = zunist
+		#	#religion = zunist_reformed
 		#}
 		any_child = {
 			age = 4
@@ -17160,8 +17160,8 @@ character_event = {
 		trigger = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { religion = zunist }
-			NOT = { religion = zunist_reformed }			
+			NOT = { #religion = zunist }
+			NOT = { #religion = zunist_reformed }			
 		}
 		add_character_modifier = {
 			name = VIET_loves_own_children
@@ -17181,8 +17181,8 @@ character_event = {
 			OR = {
 				religion_group = zoroastrian_group
 				religion = messalian
-				religion = zunist
-				religion = zunist_reformed
+				#religion = zunist
+				#religion = zunist_reformed
 			}		
 		}
 		random_child = {
@@ -17232,8 +17232,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		NOT = { has_character_flag = VIET_incest_intervention }
 		intrigue = 8
@@ -17426,8 +17426,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -17553,8 +17553,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -17645,8 +17645,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -17745,8 +17745,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_spouse = {
 			sibling = ROOT
@@ -17888,8 +17888,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		NOT = {
 			any_courtier = {
@@ -18029,14 +18029,14 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		any_demesne_province = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { religion = zunist }
-			NOT = { religion = zunist_reformed }
+			NOT = { #religion = zunist }
+			NOT = { #religion = zunist_reformed }
 		}
 	}
 	
@@ -18129,8 +18129,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 	}
 	
@@ -18225,8 +18225,8 @@ character_event = {
 		OR = {
 			religion_group = zoroastrian_group
 			religion = messalian
-			religion = zunist
-			religion = zunist_reformed
+			#religion = zunist
+			#religion = zunist_reformed
 		}
 		NOT = { culture_group = sinic }
 		capital_scope = {

@@ -15,6 +15,7 @@ decisions = {
 				higher_tier_than = count
 			}
 			is_adult = yes
+			NOT = {	has_character_flag = do_not_disturb  }
 		}
 		allow = {
 			scaled_wealth = 0.3
@@ -26,23 +27,15 @@ decisions = {
 				hidden_tooltip = {
 					NOT = {	has_character_flag = surveyed_realm }
 				}
-			}
-			NOT = { trait = on_hajj }
-			NOT = {	has_character_flag = preparing_hajj }
-			NOT = {	has_character_flag = ramadan }
-			NOT = {	has_character_flag = activated_hajj }			
+			}			
 			NOT = { trait = traveling }
-			NOT = { has_character_modifier = holding_large_feast }
-			NOT = { has_character_modifier = holding_summer_fair }
-			NOT = {	has_character_flag = holding_grand_hunt }
-			#NOT = { has_character_flag = epic_tournament }		
-			NOT = { has_character_flag = performing_sacrifice }
 			
 		}
 		effect = {
 			scaled_wealth = -0.3
 			set_character_flag = surveyed_realm
 			set_character_flag = begin_survey_realm
+			set_character_flag = do_not_disturb
 		}
 		revoke_allowed = {
 			always = no

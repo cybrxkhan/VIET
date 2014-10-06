@@ -5,7 +5,7 @@ on_yearly_pulse = {
 		meneth.211 #Factions
 		pb_various.1 #Killing useless courtiers
 		pb_various.14 #Errant flag cleanup (do_not_disturb)
-		# VIETmaintenance.0 #Religious head authority # This event requires Immersion
+		wafrica.4 #Warning about having no griot
 	}
 	random_events = {
 		

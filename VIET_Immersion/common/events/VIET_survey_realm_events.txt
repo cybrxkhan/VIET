@@ -353,6 +353,7 @@ character_event = {
 		prestige = 25
 		remove_trait = traveling
 		clr_character_flag = maiq_the_liar
+		clr_character_flag = do_not_disturb 
 	}
 }
 
@@ -3219,6 +3220,20 @@ character_event = {
 	}	
 	option = { #Heheheh
 		name = VIETsurvey.16.b
+		trigger = {
+		   OR = {
+			  AND = {
+				 is_female = no
+				 NOT = { trait = homosexual }
+			  }
+			  AND = {
+				 is_female = yes
+				 trait = homosexual
+			  }
+		   }
+		   NOT = { trait = eunuch }
+		   NOT = { trait = celibate }
+		}
 		ai_chance = {
 			factor = 1
 			modifier = {

@@ -1131,7 +1131,7 @@ character_event = {
 	is_triggered_only = yes
 
 	min_age = 14
-	max_age = 18
+	max_age = 20
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
@@ -1167,7 +1167,7 @@ character_event = {
 		is_married = no
 		any_sibling = {
 			age = 14
-			NOT = { age = 18 }
+			NOT = { age = 20 }
 			is_female = yes
 			NOT = { trait = homosexual }
 			NOT = { trait = ugly }
@@ -1535,7 +1535,7 @@ character_event = {
 			add_friend = FROM
 			random = {
 				add_lover = FROM
-				chance = 3
+				chance = 5
 			}
 		}
 	}
@@ -2139,7 +2139,7 @@ narrative_event = {
 character_event = {
 	id = VIETmisc.5060
 	desc = VIETmisc.5060.desc
-	picture = GFX_evt_marriage_zoroastrian_group
+	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
 

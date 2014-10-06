@@ -1,11 +1,7 @@
 #character
 on_yearly_pulse = {
 	events = {
-		#VIETmaintenance.0 #Religious head authority
-		ottoman.1 #Constantinople conquered by Turks
-		ottoman.2 #Turks get de jure territory over ERE
-		ottoman.4 #Become Kayser-i Rum
-		ottoman.5 #Lose Kayser-i Rum
+		wafrica.4 #Warning about having no griot
 	}
 	random_events = {
 		

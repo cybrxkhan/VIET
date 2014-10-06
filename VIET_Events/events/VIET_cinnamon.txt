@@ -12,6 +12,7 @@
 # Imouto Toothbrushing 5028-5042
 # Burnt 5043-5053
 # Succubus 5054-5059
+# Imouto Toothbrushing Non-Incest Alternative 5060-
 #
 ########################################################
 namespace = VIETmisc
@@ -1512,8 +1513,31 @@ character_event = {
 
 	option = {
 		name = VIETmisc.5042.a
-		add_lover = FROM
-		add_friend = FROM
+		if = {
+			limit = {
+				OR = {
+					religion_group = zoroastrian_group
+					religion = messalian
+				}
+			}
+			add_lover = FROM
+			add_friend = FROM
+		}
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						religion_group = zoroastrian_group
+						religion = messalian
+					}
+				}
+			}
+			add_friend = FROM
+			random = {
+				add_lover = FROM
+				chance = 3
+			}
+		}
 	}
 }
 
@@ -2102,5 +2126,152 @@ narrative_event = {
 			20 = { add_trait = paranoid }
 		}
 		piety = 20
+	}
+}
+
+############################################
+# Imouto Toothbrushing non-Incest Alternative (for religions following the incest-hating lies of Angra Mainyu)
+############################################
+
+
+
+# Imouto and onii-chan
+character_event = {
+	id = VIETmisc.5060
+	desc = VIETmisc.5060.desc
+	picture = GFX_evt_marriage_zoroastrian_group
+
+	is_triggered_only = yes
+
+	min_age = 14
+	max_age = 20
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	ai = no
+	only_men = yes
+
+	trigger = { 
+		war = no 
+		in_command = no 
+		is_abroad = no	
+		NOT = { has_global_flag =  VIET_nisemonogatari }
+		NOT = { has_character_flag =  VIET_koyomi }
+		OR = {
+			trait = gregarious
+			trait = lustful
+			trait = arbitrary
+			trait = brave
+			trait = lunatic
+			trait = cruel
+			trait = patient
+			trait = fair
+			trait = proud
+		}
+		NOT = { trait = chaste } #araragi isn't not a pervert
+		NOT = { trait = homosexual } #no yaoi
+		NOT = { has_character_flag = do_not_disturb }
+		NOT = {	health_traits = 1 }
+		has_lover = no
+		#is_married = no
+		any_sibling = {
+			age = 14
+			NOT = { age = 20 }
+			is_female = yes
+			NOT = { trait = homosexual }
+			NOT = { trait = ugly }
+			NOT = { trait = hunchback }
+			NOT = { has_character_flag = do_not_disturb }
+			NOT = {	health_traits = 1 }
+			NOT = { has_character_flag =  VIET_karen }
+			NOT = {
+				is_rival = ROOT
+			}
+			NOT = {
+				is_friend = ROOT
+			}
+			has_lover = no
+			is_married = no
+		}		
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 5
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.25
+			is_married = yes
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+
+	option = {
+		name = VIETmisc.5028.a
+		set_global_flag =  VIET_nisemonogatari
+		set_character_flag =  VIET_koyomi
+		random_sibling = {
+			limit = {
+				age = 14
+				NOT = { age = 18 }
+				is_female = yes
+				NOT = { trait = ugly }
+				NOT = { trait = hunchback }
+				NOT = { has_character_flag = do_not_disturb }
+				NOT = {	health_traits = 1 }
+				NOT = { has_character_flag =  VIET_karen }
+				NOT = {
+					is_rival = ROOT
+				}
+				NOT = {
+					is_friend = ROOT
+				}
+				has_lover = no
+				is_married = no
+			}
+			set_character_flag = VIET_karen
+			character_event = { id = VIETmisc.5029 tooltip = VIETmisc.5029.tooltip days = 3 random = 3 }
+		}	
 	}
 }

@@ -18837,7 +18837,7 @@ character_event = {
 		}
 	}
 	option = {#ok
-		name = VIETmisc.2196.b
+		name = VIETmisc.2197.b
 		random_list = {
 			70 = { }
 			15 = { add_trait = shy }

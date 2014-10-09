@@ -351,6 +351,9 @@ shaman_old_age = {
 # EASTERN RELIGIONS
 #####################################################################
 
+recently_chose_buddhist_sect = {
+	icon = 2
+}
 visited_buddhist_temple = {
 	monthly_character_piety = 0.1
 	church_opinion = 5
@@ -420,7 +423,7 @@ gelug_supporter = {
 }
 sakya_supporter = {
 	diplomacy = 1
-	garrison_growth = 0.05
+	land_morale = 0.1
 	levy_reinforce_rate = 0.05
 	icon = 2
 }
@@ -449,6 +452,9 @@ abhayagiri_vihara_supporter = {
 	tech_growth_modifier_military = 0.1
 	tech_growth_modifier_economy = 0.1
 	monthly_character_prestige = 0.25
+	icon = 2
+}
+VIET_retreat_timer = {
 	icon = 2
 }
 

@@ -148,3 +148,6 @@ opinion_eye_candy = {
 opinion_disturbing_fetish = {
 	opinion = -10
 }
+opinion_shared_activity = {
+	opinion = 10
+}

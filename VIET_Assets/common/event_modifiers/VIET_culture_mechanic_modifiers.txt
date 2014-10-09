@@ -389,7 +389,68 @@ participated_in_meditation_retreat = {
 	church_opinion = 10
 	icon = 8
 }
-
+pure_land_supporter = {
+	diplomacy = 1
+	general_opinion = 10
+	icon = 2
+}
+lotus_school_supporter = {
+	stewardship = 1
+	tech_growth_modifier_culture = 0.05
+	tech_growth_modifier_military = 0.05
+	tech_growth_modifier_economy = 0.05
+	icon = 2
+}
+zen_supporter = {
+	intrigue = 1
+	build_cost_modifier = -0.20
+	build_time_modifier = -0.20
+	icon = 2
+}
+yogacara_supporter = {
+	learning = 2
+	monthly_character_piety = 0.25
+	icon = 2
+}
+gelug_supporter = {
+	tech_growth_modifier_culture = 0.05
+	tech_growth_modifier_economy = 0.05
+	monthly_character_prestige = 0.35
+	icon = 2
+}
+sakya_supporter = {
+	diplomacy = 1
+	garrison_growth = 0.05
+	levy_reinforce_rate = 0.05
+	icon = 2
+}
+kagyu_supporter = {
+	intrigue = 1
+	fertility = 0.2
+	health = 0.1
+	icon = 2
+}
+nyingma_supporter = {
+	general_opinion = 10
+	global_revolt_risk = -0.05
+	icon = 2
+}
+mahavihara_supporter = {
+	tech_growth_modifier_culture = -0.03
+	tech_growth_modifier_military = -0.03
+	tech_growth_modifier_economy = -0.03
+	monthly_character_piety = 0.25
+	global_tax_modifier = 0.1
+	icon = 2
+}
+abhayagiri_vihara_supporter = {
+	general_opinion = -5
+	tech_growth_modifier_culture = 0.1
+	tech_growth_modifier_military = 0.1
+	tech_growth_modifier_economy = 0.1
+	monthly_character_prestige = 0.25
+	icon = 2
+}
 
 #####################################################################
 # CELTIC

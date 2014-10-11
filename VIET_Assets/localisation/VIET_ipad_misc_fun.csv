@@ -632,22 +632,29 @@ VIETmisc.2190.a;He will consummate his marriage with his sister, or face punishm
 VIETmisc.2190.b;I'm not here to give marriage advice. This is their problem.;;;;;;;;;;;;;x
 VIETmisc.2191.desc;I have talked with some merchants recently, men who have traveled far and have contacts in the great Chinese Empire to the east. They have told me that there, in this civilized land, the people think we [Root.Religion.GetName] [Root.Culture.GetName]s are lewd barbarians for we fornicate with our siblings and parents and children. How strange, that a civilized people could hold such a barbaric viewpoint!;;;;;;;;;;;x
 VIETmisc.2191.a;Only barbarians refuse to sleep with their siblings, parents, or children.;;;;;;;;;;;;;x
-VIETmisc.2192.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2192.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2193.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2193.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2194.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2194.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2195.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2195.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2196.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2196.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2197.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2197.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2198.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2198.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2199.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2199.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2192.desc;After a large meal such as the one I hosted today it is typical to the give the trenchers - stale bread used as plates - as alms to the poor. One of my courtiers suggested I do this directly myself to display my virtue to all, instead of having my servants do it.;;;;;;;;;;;x
+VIETmisc.2192.a; A splendid idea! Everyone will know me as generous.;;;;;;;;;;;;;x
+VIETmisc.2192.b;I won't go near that filthy scum!;;;;;;;;;;;;;x
+VIETmisc.2192.c;I must meet and  help the poor beggars to understand their plight.;;;;;;;;;;;;;x
+VIETmisc.2193.desc;People say I am generally in unusually excellent health. I asked a learned monk how this could be the case. After asking me many questions, some strange, about my diet and lifestyle, he concluded my good health is due to the fact that I enjoy eating bread crusts.;;;;;;;;;;;x
+VIETmisc.2193.a;I see! I will continue enjoying them then!;;;;;;;;;;;;;x
+VIETmisc.2194.desc;I haven't been feeling well lately, probably due to my poor health. My stomach especially has been feeling uneasy. My physicians recommend I eat some hardtack daily for a few weeks instead of bread to alleviate my problems, as it will help with digestion. Perhaps I will have to stock up on a large amount.;;;;;;;;;;;x
+VIETmisc.2194.a;I don't like the taste but I have no choice.;;;;;;;;;;;;;x
+VIETmisc.2194.b;Why would I ever eat those disgusting bland things?;;;;;;;;;;;;;x
+VIETmisc.2194.c;I'm pretty used to eating these with my troops, so I can do this.;;;;;;;;;;;;;x
+VIETmisc.2195.desc;I know everyone wonders why I always prefer to eat sangak - traditional Iranian flatbread - instead of other breads. But being a military man all my life, how can I not enjoy eating the traditional bread of the Iranian armies?;;;;;;;;;;;x
+VIETmisc.2195.a;It's a soldier's life for me.;;;;;;;;;;;;;x
+VIETmisc.2196.desc;You pass by the village just in time to see the local baker punished by the local authorities for constantly cheating his customers. He is dragged around on a sleigh with the offending loaf of bread tied around his neck.;;;;;;;;;;;x
+VIETmisc.2196.a;Huh. How curious.;;;;;;;;;;;;;x
+VIETmisc.2197.desc;You notice one of your courtiers feeding the birds out in your garden, throwing some bread crumbs to the ground for the creatures.;;;;;;;;;;;x
+VIETmisc.2197.a;Can I join in?;;;;;;;;;;;;;x
+VIETmisc.2197.b;It’s of no interest to me.;;;;;;;;;;;;;x
+VIETmisc.2198.desc;I came across an old book on food from across the world. Most of it was damaged save for one section that discussed bread. There are so many types of breads, that can be cooked in a variety of ways. This information is really useful, and I see many applications for it - what bread is best used on military marches, for instance, or what types go with what food at feasts.;;;;;;;;;;;x
+VIETmisc.2198.a;I’m glad I found out about this.;;;;;;;;;;;;;x
+VIETmisc.2199.desc;The young, attractive, shapely vendor offers you a taste of her big melonpan. They look so round, so cushiony, so creamy and beautiful. What man wouldn’t want something so tempting?;;;;;;;;;;;x
+VIETmisc.2199.a;I’ll buy some! Japanese sweet buns!;;;;;;;;;;;;;x
+VIETmisc.2199.b;Not interested.;;;;;;;;;;;;;x
+VIETmisc.2199.c;Oh, you meant that kind of melonpan… the bread, I mean, haha...;;;;;;;;;;;;;x
 VIETmisc.2200.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2200.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2201.desc;xxxxx;;;;;;;;;;;x

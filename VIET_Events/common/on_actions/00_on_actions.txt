@@ -454,6 +454,15 @@ on_yearly_pulse = {
 		100 = VIETmisc.2155
 		100 = VIETmisc.2157
 		100 = VIETmisc.2158
+		#Bread
+		100 = VIETmisc.2192
+		100 = VIETmisc.2193
+		100 = VIETmisc.2194
+		100 = VIETmisc.2195
+		100 = VIETmisc.2196
+		100 = VIETmisc.2197
+		100 = VIETmisc.2198
+		100 = VIETmisc.2199
 		
 		#VIET CULTURE SPECIFIC EVENTS
 		#African
@@ -1601,7 +1610,6 @@ on_loot_settlement = {
 		5 = TOG.3302
 		5 = TOG.3303
 		35 = TOG.3320
-		# 15 = VIETmisc.100 # This event requires a trait only found in VIET Immersion
 		250 = 0
 	}
 }

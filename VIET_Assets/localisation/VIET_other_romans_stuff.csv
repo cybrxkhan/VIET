@@ -21,6 +21,7 @@ CB_NAME_TURKISH_CONQUEST;Turkish Conquest of Byzantine [Title.GetBaseName];;;;;;
 WAR_NAME_TURKISH_CONQUEST;$ORDER$$FIRST_ADJ$ Conquest of $OTHER_TITLE$;;;;;;;;;;;;;x
 turkish_conquest_desc;The word of the Prophet shall spread through Rome and one day reach Constantinople! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;;;;;;;;;;;;x
 ######################################_EVENTS;;;;;;;;;;;;;;x
+ottoman.1.tt;The Turkish Empire is founded;;;;;;;;;;;;;x
 ottoman.1.name;A Turkish Empire arises!;;;;;;;;;;;;;x
 ottoman.1.desc;[Root.GetTitledFirstName], you did what generations of holy warriors failed to do. By conquering Constantinople, you prove yourself a conqueror above all conquerors. The first Rome was Pagan, the second Christian, but now the Third shall be Muslim under the [Root.GetOnlyDynastyName] dynasty!;;;;;;;;;;;;;x
 ottoman.1.a;Allahu Akbar!;;;;;;;;;;;;;x
@@ -69,4 +70,6 @@ ottoman_perfumer_desc;This Turkish lord has chosen a life with perfumes, and is 
 ######################################_MISC;;;;;;;;;;;;;;x
 VIET_virile_ottoman;Virile Sultan;;;;;;;;;;;;;x
 VIET_virile_ottoman;This Sultan has much stamina and can make love to a myriad of beautiful wives and concubines without sweat. Surely, only a foolish man would envy such a position!;;;;;;;;;;;;;x
+ottoman_promote_concubine;Promote Concubine;;;;;;;;;;;;;x
+ottoman_promote_concubine_desc;You have many lesser concubines, beauties drawn from many different lands. Perhaps one of them should be promoted to a higher position, to become one of your official wives?;;;;;;;;;;;;;x
 xxxxxxxxx;xxx;;;;;;;;;;;;;x

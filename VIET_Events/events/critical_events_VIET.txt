@@ -105,7 +105,7 @@ character_event = {
 character_event = {
 	id = monogatari.2002
 	desc = monogatari.2002.desc
-	picture = GFX_evt_lunatic
+	picture = GFX_evt_nightmare 
 	
 	is_triggered_only = yes
 	
@@ -121,7 +121,7 @@ character_event = {
 character_event = {
 	id = monogatari.2003
 	desc = monogatari.2003.desc
-	picture = GFX_evt_nightmare
+	picture = GFX_evt_lunatic
 	
 	is_triggered_only = yes
 	
@@ -213,7 +213,7 @@ character_event = {
 	}
 	
 	option = {
-		name = monogatari.2005.a
+		name = monogatari.2006.a
 		hidden_tooltip = {
 			character_event = { id = monogatari.2007 }
 		}
@@ -229,7 +229,7 @@ narrative_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = monogatari.2005.a
+		name = monogatari.2007.a
 		change_learning = 1
 	}
 }
@@ -420,7 +420,7 @@ character_event = {
 	}
 	
 	option = {
-		name = monogatari.2013.a
+		name = monogatari.2015.a
 		add_trait = cynical
 		prestige = 50
 	}

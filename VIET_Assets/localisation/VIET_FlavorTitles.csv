@@ -38,6 +38,7 @@ baron_welsh;Lord;Lord;Lord;;Lord;;;;;;;;;x
 baron_welsh_female;Lady;Lady;Lady;;Lady;;;;;;;;;x
 county_of_welsh;Country of;Country de;Country von;;Country de;;;;;;;;;x
 county_welsh;Country;Country;Country;;Country;;;;;;;;;x
+title_tanist_welsh;Edling;Edling;Edling;;Edling;;;;;;;;;x
 #Byzantine;;;;;;;;;;;;;;x
 baron_greek;Kephale;Kephale;Kephale;;Kephale;;;;;;;;;x
 baron_female_greek;Kephale;Kephale;Kephale;;Kephale;;;;;;;;;x
@@ -486,3 +487,7 @@ city_count_norman_female;Reeve;Reeve;Reeve;;Reeve;;;;;;;;;x
 city_duke_norman;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 city_duke_norman_female;High Reeve;High Reeve;High Reeve;;High Reeve;;;;;;;;;x
 city_job_chancellor;Ambassador;Ambassadeur;Botschafter;;Embajador;;;;;;;;;x
+title_tanist_saxon;Aetheling;Aetheling;Aetheling;;Aetheling;;;;;;;;;x
+duke_lombard;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
+duke_female_lombrd;Princess;Princesse;Prinzessin;;Princesa;;;;;;;;;x
+duchy_of_lombard;Principality of;Principauté de;Fürstentum;;Principado de;;;;;;;;;x

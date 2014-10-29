@@ -151,3 +151,12 @@ opinion_disturbing_fetish = {
 opinion_shared_activity = {
 	opinion = 10
 }
+VIET_opinion_granted_big_muafname = {
+	opinion = 30
+}
+VIET_opinion_granted_small_muafname = {
+	opinion = 15
+}
+VIET_opinion_refused_muafname = {
+	opinion = -20
+}

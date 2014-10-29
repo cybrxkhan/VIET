@@ -45,31 +45,31 @@ character_event = {
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = cynical
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = scholar
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.5
 			culture = greek
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = zealous
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = envious
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = paranoid
 		}
 	}
@@ -151,31 +151,31 @@ character_event = {
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = cynical
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = scholar
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			culture = greek
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = zealous
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = envious
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = paranoid
 		}
 	}
@@ -243,35 +243,35 @@ character_event = {
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = greedy
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = charitable
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = temperate
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = envious
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = paranoid
 		}
 	}
@@ -368,27 +368,27 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = paranoid
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = envious
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = content
 		}
 		modifier = {
-			factor = 0.9
+			factor = 0.5
 			trait = kind
 		}
 	}
@@ -478,23 +478,23 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = just
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = charitable
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = ambitious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = diligent
 		}
 		modifier = {
@@ -502,15 +502,15 @@ character_event = {
 			trait = shy
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = content
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = slothful
 		}
 		modifier = {
-			factor = 0.9
+			factor = 0.5
 			trait = arbitrary
 		}
 		modifier = {
@@ -532,10 +532,10 @@ character_event = {
 		wealth = -5
 		prestige = 10
 		random_list = {
-			25 = {
+			20 = {
 				create_random_soldier = {
 					random_traits = yes
-					dynasty = random
+					dynasty = culture
 					religion = catholic
 					culture = italian
 					female = no
@@ -553,10 +553,10 @@ character_event = {
 					}				
 				}
 			}
-			25 = {
+			20 = {
 				create_random_soldier = {
 					random_traits = yes
-					dynasty = random
+					dynasty = culture
 					religion = catholic
 					culture = frankish
 					female = no
@@ -574,10 +574,10 @@ character_event = {
 					}				
 				}				
 			}
-			25 = {
+			20 = {
 				create_random_soldier = {
 					random_traits = yes
-					dynasty = random
+					dynasty = culture
 					religion = catholic
 					culture = norman
 					female = no
@@ -595,12 +595,33 @@ character_event = {
 					}				
 				}				
 			}
-			25 = {
+			20 = {
 				create_random_soldier = {
 					random_traits = yes
-					dynasty = random
+					dynasty = culture
 					religion = catholic
 					culture = occitan
+					female = no
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}				
+			}
+			20 = {
+				create_random_soldier = {
+					random_traits = yes
+					dynasty = culture
+					religion = catholic
+					culture = german
 					female = no
 				}
 				new_character = {
@@ -644,31 +665,31 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = hedonist
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = lustful
 		}
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = chaste
 		}
 		modifier = {
-			factor = 0.9
+			factor = 0.5
 			trait = temperate
 		}
 	}
@@ -749,11 +770,11 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gluttonous
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
@@ -785,11 +806,11 @@ character_event = {
 			trait = temperate
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.9
+			factor = 0.5
 			trait = slothful
 		}
 	}
@@ -833,7 +854,7 @@ character_event = {
 		location = {
 			add_province_modifier = {
 				name = olive_garden
-				duration = -1
+				duration = 7300
 			}		
 		}
 	}
@@ -912,39 +933,35 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = just
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = trusting
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = paranoid
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 0.8
+			factor = 2
 			trait = slothful
 		}
 		modifier = {
-			factor = 1.2
-			trait = slothful
-		}
-		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = content
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = ambitious
 		}
 	}

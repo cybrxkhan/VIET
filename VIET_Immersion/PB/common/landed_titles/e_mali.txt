@@ -84,7 +84,7 @@ e_mali = {
 		}
 		
 		d_ghana = {
-			color={ 90 130 30 }
+			color={ 234 180 111 }
 			color2={ 255 255 255 }
 	
 			capital = 913 # Ghana

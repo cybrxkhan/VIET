@@ -1,0 +1,98 @@
+###########################################################################
+# 
+# All fictional
+#
+# Representing the Cantabri, Astures, etc. that managed to survive in the region
+#
+###########################################################################
+
+1000158826 = {
+	name="Viriatus"
+	dynasty=1000092236
+	religion="catholic"
+	culture="celtiberian"
+	father=1000158829
+	750.1.1 = {
+		birth="750.1.1"
+	}
+	820.1.1 = {
+		death="820.1.1"
+	}
+}
+1000158827 = {
+	name="Corocotta"
+	dynasty=1000092236
+	religion="catholic"
+	culture="celtiberian"
+	father=1000158826
+	mother=1000158828
+	767.1.1 = {
+		birth="767.1.1"
+	}
+	830.1.1 = {
+		death="830.1.1"
+	}
+}
+1000158828 = {
+	name="Sulona"
+	female = yes
+	dynasty=1000092236
+	religion="catholic"
+	culture="celtiberian"
+	father=1000158826
+	750.1.1 = {
+		birth="750.1.1"
+	}
+	820.1.1 = {
+		death="820.1.1"
+	}
+}
+1000158829 = {
+	name="Orgevix"
+	dynasty=1000092236
+	religion="catholic"
+	culture="celtiberian"
+	700.1.1 = {
+		birth="700.1.1"
+	}
+	770.1.1 = {
+		death="770.1.1"
+	}
+}
+#A few random courtiers to put in the Visigothic court, representing the supporters of Pelayo/Pelagius and their descendants
+1000158830 = {
+	name="Boduotix"
+	dynasty=1000092643
+	religion="catholic"
+	culture="celtiberian"
+	add_trait="skilled_tactician"
+	#father=1000158826
+	700.1.1 = {
+		birth="700.1.1"
+	}
+	767.1.1 = {
+		employer=70004 # Fruela I de Asturias
+	}
+	770.1.1 = {
+		death="770.1.1"
+	}
+}
+1000158831 = {
+	name="Orgemarus"
+	dynasty=1000092643
+	religion="catholic"
+	culture="celtiberian"
+	add_trait="skilled_tactician"
+	father=1000158830
+	740.1.1 = {
+		birth="740.1.1"
+	}
+	767.1.1 = {
+		employer=70004 # Fruela I de Asturias
+	}
+	800.1.1 = {
+		death="800.1.1"
+	}
+}
+
+

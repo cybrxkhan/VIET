@@ -46,6 +46,7 @@ job_chancellor = {
 		}
 		prisoner = no
 		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
 	}
 	gain_effect = {
 		if = {
@@ -168,10 +169,6 @@ job_marshal = {
 						liege = { religion = west_african_pagan_reformed }
 						religion = west_african_pagan_reformed				
 					}
-					AND = {
-						liege = { religion = haruri }
-						religion = haruri				
-					}
 				}
 				any_dynasty_member = { higher_tier_than = baron }
 				martial = 16
@@ -195,6 +192,7 @@ job_marshal = {
 		}
 		prisoner = no
 		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
 		NOT = { has_character_flag = guru }
 		NOT = {
 			AND = {
@@ -254,6 +252,7 @@ job_marshal = {
 	action = action_assist_arrest
 	action = action_train_troops
 	action = action_advance_mil_tech
+	action = action_organize_raid # Replaces action_advance_mil_tech for Tribes
 
 	lift_fow = yes
 }
@@ -297,6 +296,7 @@ job_treasurer = {
 		}
 		prisoner = no
 		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
 		NOT = { has_character_flag = guru }
 	}
 	gain_effect = {
@@ -340,8 +340,10 @@ job_treasurer = {
 	}
 	
 	action = action_squeeze_peasants
+	action = action_settle_tribe # Replaces action_squeeze_peasants for Tribes
 	action = action_oversee_construction
 	action = action_advance_eco_tech
+	action = action_build_legend # Replaces action_advance_eco_tech for Tribes
 
 	lift_fow = yes
 }
@@ -356,33 +358,10 @@ job_spymaster = {
 	monthly_prestige = 0.15
 	
 	allow = {
-		OR = {
-			AND = {
-				OR = {
-					is_female = no
-					liege = { 
-						OR = {
-							mother = { character = FROM }
-							spouse = { character = FROM }
-						}
-					}
-					AND = {
-						religion_group = pagan_group
-						liege = {
-							religion_group = pagan_group
-						}
-					}
-					AND = {
-						religion = cathar
-						liege = { religion = cathar }
-					}
-				}
 				is_adult = yes
-			}
-			has_character_flag = special_spymaster
-		}
 		prisoner = no
 		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
 		NOT = { has_character_flag = guru }
 	}
 	gain_effect = {
@@ -445,6 +424,8 @@ job_spiritual = {
 	allow = {
 		is_adult = yes
 		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
 		liege = {
 			religion = ROOT
 		}
@@ -463,7 +444,6 @@ job_spiritual = {
 					}
 					religion = cathar
 					religion = bogomilist
-					religion = haruri
 				}
 				OR = {
 					NOT = { religion = hindu }
@@ -561,6 +541,7 @@ job_spiritual = {
 	action = action_advance_cul_tech
 	action = action_improve_rel_relations
 	action = action_charity
+	action = action_build_zeal # Tribal replacement for 'action_advance_cul_tech'
 
 	lift_fow = yes
 }

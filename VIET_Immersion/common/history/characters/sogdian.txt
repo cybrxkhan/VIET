@@ -1,0 +1,473 @@
+########################################################################################################################
+#
+# Sogdians, some Real, some Fictional - the end of the old Silk Road... or not?
+#
+# 100015890 - 100015xxx
+#
+########################################################################################################################
+
+################################################
+# Lyw - Fictional Buddhists in Chuy (under the Karluks)
+################################################
+
+100015890 = { #Fictional Granddaughter of An Lushan who fled to the West
+	name="Rokhshan"
+	female=yes
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="gregarious"
+	add_trait="humble"
+	add_trait="paranoid"
+	751.1.1={
+		birth="751.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+100015891 = {
+	name="Y’n"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="midas_touched"
+	add_trait="patient"
+	add_trait="kind"
+	add_trait="diligent"
+	mother=100015890
+	777.1.1={
+		birth="777.1.1"
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+100015892 = {
+	name="Vuvva"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	father=100015891
+	800.1.1={
+		birth="800.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+100015893 = {
+	name="Kushan"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="patient"
+	add_trait="gregarious"
+	add_trait="diligent"
+	father=100015892
+	822.1.1={
+		birth="822.1.1"
+	}
+	866.1.1={
+		death="866.1.1"
+	}
+}
+100015894 = {
+	name="Wakhushakk"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="fortune_builder"
+	add_trait="tall"
+	add_trait="shy"
+	add_trait="kind"
+	add_trait="content"
+	add_trait="cynical"
+	father=100015893
+	850.1.1={
+		birth="850.1.1"
+	}
+	866.1.1={
+		effect = {
+			add_friend = 100015895
+		}
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}
+100015895 = {
+	name="Khwadhawanakk"
+	dynasty=1000092085
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="charismatic_negotiator"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="diligent"
+	add_trait="proud"
+	father=100015893
+	851.1.1={
+		birth="851.1.1"
+	}
+	920.1.1={
+		death="920.1.1"
+	}
+}
+
+######################################
+# Bokar-kodats in Bukhara - all historical except indicated otherwise
+######################################
+
+#Questionable Historiocity of rulers up to Kana and Bidun
+100015896 = {
+	name="Abarzi"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	476.1.1={
+		birth="476.1.1"
+	}
+	510.1.1={
+		death="510.1.1"
+	}
+}
+100015897 = {
+	name="Asthath"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	father=100015896
+	500.1.1={
+		birth="500.1.1"
+	}
+	550.1.1={
+		death="550.1.1"
+	}
+}
+100015898 = {
+	name="Mak"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	father=100015897
+	535.1.1={
+		birth="535.1.1"
+	}
+	590.1.1={
+		death="590.1.1"
+	}
+}
+100015899 = {
+	name="Dizo'i"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	father=100015898
+	560.1.1={
+		birth="560.1.1"
+	}
+	620.1.1={
+		death="620.1.1"
+	}
+}
+100015900 = {
+	name="Kana"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	father=100015899
+	600.1.1={
+		birth="600.1.1"
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+100015901 = {
+	name="Bidun"
+	dynasty=1000092074
+	religion="nestorian"
+	culture="sogdian"
+	father=100015900
+	650.1.1={
+		birth="650.1.1"
+	}
+	676.1.1={
+		add_spouse=100015902
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+100015902 = { #Regent for Togshada after husband's death
+	name="Katun"
+	female=yes
+	#dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	#father=100015900
+	660.1.1={
+		birth="660.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+100015903 = { #birth/death dates aren't made up
+	name="Togshada"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015901
+	mother=100015902
+	679.1.1={
+		birth="679.1.1"
+	}
+	773.1.1={
+		death="773.1.1"
+	}
+}
+100015904 = {
+	name="Qotayba"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015903
+	710.1.1={
+		birth="710.1.1"
+	}
+	785.1.1={
+		death="785.1.1"
+	}
+}
+100015905 = {
+	name="Skan"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015903
+	715.1.1={
+		birth="715.1.1"
+	}
+	788.1.1={
+		death="788.1.1"
+	}
+}
+100015906 = {
+	name="Bonyat"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015903
+	725.1.1={
+		birth="725.1.1"
+	}
+	790.1.1={
+		death="790.1.1"
+	}
+}
+100015907 = {
+	name="Eskander"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015906
+	765.1.1={
+		birth="765.1.1"
+	}
+	833.1.1={
+		death="833.1.1"
+	}
+}
+100015908 = {
+	name="Farn"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015907
+	810.1.1={
+		birth="810.1.1"
+	}
+	866.1.1={
+		death="866.1.1"
+	}
+}
+100015909 = {
+	name="Abu Eshaq Ebrahim"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015908
+	850.1.1={
+		birth="850.1.1"
+	}
+	914.1.1={
+		death="914.1.1"
+	}
+}
+100015910 = {
+	name="Ali"
+	dynasty=1000092074
+	religion="sunni"
+	culture="sogdian"
+	father=100015907
+	820.1.1={
+		birth="820.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+
+##################################
+#
+# Afshins of Oshrusanna
+#
+# Note: Supposedly converted to Islam, but were possible apostates and secretly Buddhist, Zoroastrian, or Manichean depending on the source and scholar
+# Encyclopedia Iranica suggests Buddhism, and to a lesser extent Manicheism, and I've taken that interpretation here
+#
+#################################
+
+100015911 = {
+	name="Karakana"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	#father=100015911
+	720.1.1={
+		birth="720.1.1"
+	}
+	780.1.1={
+		death="780.1.1"
+	}
+}
+100015912 = {
+	name="Kavoos"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	father=100015911
+	750.1.1={
+		birth="750.1.1"
+	}
+	810.1.1={
+		death="810.1.1"
+	}
+}
+100015913 = {
+	name="Fazl"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	father=100015912
+	789.1.1={
+		birth="789.1.1"
+	}
+	813.1.1={
+		death="813.1.1"
+	}
+}
+100015914 = {
+	name="Khaydar"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	add_trait="brilliant_strategist"
+	add_trait="wroth"
+	add_trait="kind"
+	add_trait="diligent"
+	add_trait="just"
+	add_trait="cynical"
+	father=100015912
+	788.1.1={
+		birth="788.1.1"
+	}
+	841.1.1={
+		death="841.1.1"
+	}
+}
+100015915 = {
+	name="Abdallah"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	father=100015914
+	811.1.1={
+		birth="811.1.1"
+	}
+	866.1.1={
+		death="866.1.1"
+	}
+}
+100015916 = {
+	name="Sayyar"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	father=100015915
+	843.1.1={
+		birth="843.1.1"
+	}
+	893.1.1={
+		death="893.1.1"
+	}
+}
+#Fictional Afshins below
+100015917 = {
+	name="Abu"
+	dynasty=1000092079
+	religion="khurramite"
+	culture="sogdian"
+	father=100015915
+	845.1.1={
+		birth="845.1.1"
+	}
+	893.1.1={
+		death="893.1.1"
+	}
+}
+100015918 = {
+	name="Shapur"
+	dynasty=1000092079
+	religion="manichean"
+	culture="sogdian"
+	father=100015915
+	846.1.1={
+		birth="846.1.1"
+	}
+	893.1.1={
+		death="893.1.1"
+	}
+}
+100015919 = {
+	name="Barak"
+	dynasty=1000092079
+	religion="buddhist"
+	culture="sogdian"
+	father=100015915
+	850.1.1={
+		birth="850.1.1"
+	}
+	893.1.1={
+		death="893.1.1"
+	}
+}
+100015920 = {
+	name="Ali"
+	dynasty=1000092079
+	religion="manichean"
+	culture="sogdian"
+	father=100015915
+	851.1.1={
+		birth="851.1.1"
+	}
+	893.1.1={
+		death="893.1.1"
+	}
+}

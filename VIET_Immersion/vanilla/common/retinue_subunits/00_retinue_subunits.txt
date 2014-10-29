@@ -10,58 +10,77 @@
 RETTYPE_INF1 =
 {
 	first_type = 1
-	first_amount = 400
+	first_amount = 200
 	second_type = 5
-	second_amount = 100
+	second_amount = 50
 	
 	modifier = {
-		archers_offensive = 0.4
-		heavy_infantry_defensive = 0.2
+		archers_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
 	}
 }
 
 RETTYPE_INF2 =
 {
 	first_type = 2
-	first_amount = 300
+	first_amount = 250
 	second_type = 5
-	second_amount = 200
+	second_amount = 50
 	
 	modifier = {
-		archers_offensive = 0.4
-		pikemen_defensive = 0.2
+		archers_defensive = 0.2
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
 	}
 }
 
 RETTYPE_CAV1 =
 {
 	first_type = 4
-	first_amount = 100
+	first_amount = 50
 	second_type = 3
-	second_amount = 400
+	second_amount = 200
 	
 	modifier = {
-		knights_offensive = 0.3
-		light_cavalry_offensive = 0.3
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
 	}
 }
 
 RETTYPE_SKIR1 = 
 {
 	first_type = 5
-	first_amount = 400
+	first_amount = 200
 	second_type = 1
-	second_amount = 100
+	second_amount = 50
 	
 	modifier = {
-		archers_offensive = 0.6
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+		heavy_infantry_defensive = 0.1
+	}
+}
+
+RETTYPE_SKIR2 = 
+{
+	first_type = 5
+	first_amount = 150
+	second_type = 0
+	second_amount = 400
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_ENG = 
 {
 	first_type = 5
-	first_amount = 500
+	first_amount = 250
 	
 	potential = {
 		OR = {
@@ -71,32 +90,34 @@ RETTYPE_CUL_ENG =
 	}
 	
 	modifier = {
-		archers_offensive = 0.6
+		archers_offensive = 0.2
+		archers_defensive = 0.1
 	}
 }
 
 RETTYPE_CUL_SCOT = 
 {
 	first_type = 2
-	first_amount = 500
+	first_amount = 400
 	
 	potential = {
 		OR = {
 			culture = scottish
-			culture = pictish
 			culture = cumbrian
 		}
 	}
 	
 	modifier = {
-		pikemen_defensive = 0.6
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+		pikemen_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_BALT = 
 {
 	first_type = 1
-	first_amount = 500
+	first_amount = 300
 	
 	potential = {
 		OR = {
@@ -106,17 +127,18 @@ RETTYPE_CUL_BALT =
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.6
+		heavy_infantry_defensive = 0.3
+		heavy_infantry_morale = 0.1
 	}
 }
 
 RETTYPE_CUL_ALTAIC = 
 {
 	first_type = 6
-	first_amount = 260
+	first_amount = 130
 	
 	second_type = 3
-	second_amount = 240
+	second_amount = 120
 
 	special_troops = horse_archers
 	
@@ -130,18 +152,18 @@ RETTYPE_CUL_ALTAIC =
 	}
 	
 	modifier = {
-		horse_archers_offensive = 0.4
-		horse_archers_morale = 0.2
+		horse_archers_offensive = 0.2
+		horse_archers_morale = 0.12
 	}
 }
 
 RETTYPE_CUL_FRANK_NOR_GER = 
 {
 	first_type = 4
-	first_amount = 300
+	first_amount = 150
 	
 	second_type = 3
-	second_amount = 200
+	second_amount = 100
 	
 	potential = {
 		OR = {
@@ -155,60 +177,68 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	}
 	
 	modifier = {
-		knights_offensive = 0.6
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_IBER = 
 {
 	first_type = 3
-	first_amount = 500
+	first_amount = 400
 	
 	potential = {
 		culture_group = iberian
+		NOT = { culture = andalusian_arabic }
+		NOT = { culture = suebi }
 	}
 	
 	modifier = {
-		light_cavalry_offensive = 0.6
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_ITA = 
 {
 	first_type = 2
-	first_amount = 500
+	first_amount = 400
 	
 	potential = {
 		OR = {
 			culture = italian
-			culture = lombard
 			culture = sicilian
 		}
 	}
 	
 	modifier = {
-		pikemen_morale = 0.6
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.4
 	}
 }
 
 RETTYPE_CUL_RUS = 
 {
 	first_type = 1
-	first_amount = 500
+	first_amount = 250
 	
 	potential = {
-		culture = russian
+		culture_group = east_slavic
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.6
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_defensive = 0.5
+		heavy_infantry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_NORTHGER = 
 {
 	first_type = 1
-	first_amount = 500
+	first_amount = 200
 	
 	potential = {
 		OR = {
@@ -216,18 +246,21 @@ RETTYPE_CUL_NORTHGER =
 			culture = norsegael
 			culture = norsebriton
 			culture = saxon
+			culture = old_saxon
+			culture = frisian
 		}
 	}
 	
 	modifier = {
-		heavy_infantry_offensive = 0.6
+		heavy_infantry_offensive = 0.4
+		heavy_infantry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_HUNG = 
 {
 	first_type = 3
-	first_amount = 500
+	first_amount = 300
 	
 	potential = {
 		OR = {
@@ -238,35 +271,66 @@ RETTYPE_CUL_HUNG =
 	
 	modifier = {
 		light_cavalry_defensive = 0.6
+		light_cavalry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_ARAB = 
 {
 	first_type = 6
-	first_amount = 500
+	first_amount = 250
 	
 	special_troops = camel_cavalry
 	
 	potential = {
-		OR = {
 			culture_group = arabic
-			culture_group = north_african
-		}
 	}
 	
 	modifier = {
-		camel_cavalry_defensive = 0.6
+		camel_cavalry_offensive = 0.2
+		camel_cavalry_defensive = 0.2
+		camel_cavalry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_ANDALUSIAN = 
+{
+	first_type = 3
+	first_amount = 400
+
+	potential = {
+		culture = andalusian_arabic
+	}
+
+	modifier = {
+		light_cavalry_defensive = 0.4
+		light_cavalry_offensive = 0.2
+		light_cavalry_morale = 0.2
+		}
+}
+
+RETTYPE_CUL_BERBER = 
+{
+	first_type = 3
+	first_amount = 400
+
+	potential = {
+		culture_group = north_african
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.5
+		light_cavalry_morale = 0.3
 	}
 }
 
 RETTYPE_CUL_BYZ = 
 {
 	first_type = 4
-	first_amount = 300
+	first_amount = 150
 	
 	second_type = 6
-	second_amount = 200
+	second_amount = 100
 
 	special_troops = horse_archers
 	
@@ -275,47 +339,71 @@ RETTYPE_CUL_BYZ =
 	}
 	
 	modifier = {
-		knights_offensive = 0.3
-		horse_archers_offensive = 0.3
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_IRISH = 
 {
 	first_type = 1
-	first_amount = 500
+	first_amount = 200
 	
 	potential = {
 		culture = irish
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.6
+		heavy_infantry_defensive = 0.4
+		heavy_infantry_morale = 0.2
 	}
 }
 
 RETTYPE_CUL_ETHIO = 
 {
 	first_type = 0
-	first_amount = 500
+	first_amount = 400
 	
 	potential = {
-		culture_group = east_african
-
+		OR = {
+			culture = ethiopian
+			culture = nilotic
+		}
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.6
+		light_infantry_offensive = 0.5
+		light_infantry_defensive = 0.3
+	}
+}
+
+RETTYPE_CUL_SOMALI = 
+{
+	first_type = 0
+	first_amount = 400
+
+	potential = {
+		OR = {
+			culture = somali
+			culture = afar
+			culture = swahili
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.4
+		light_infantry_defensive = 0.4
 	}
 }
 
 RETTYPE_CUL_W_AFR = 
 {
 	first_type = 0
-	first_amount = 300
+	first_amount = 400
 	
 	second_type = 5
-	second_amount = 200
+	second_amount = 100
 	
 	potential = {
 		culture_group = west_african
@@ -323,24 +411,28 @@ RETTYPE_CUL_W_AFR =
 	
 	modifier = {
 		light_infantry_offensive = 0.6
+		light_infantry_defensive = 0.1
+		light_infantry_morale = 0.1
 	}
 }
 
 RETTYPE_CUL_SOUTH_SLA = 
 {
 	first_type = 4
-	first_amount = 300
+	first_amount = 100
 	
 	second_type = 3
-	second_amount = 200
+	second_amount = 150
 	
 	potential = {
 		culture_group = south_slavic
 	}
 	
 	modifier = {
-		knights_defensive = 0.3
-		light_cavalry_defensive = 0.3
+		knights_defensive = 0.1
+		knights_morale = 0.1
+		light_cavalry_defensive = 0.2
+		light_cavalry_offensive = 0.2
 	}
 }
 
@@ -350,55 +442,62 @@ RETTYPE_CUL_DUTCH =
 	first_amount = 300
 	
 	second_type = 2
-	second_amount = 200
+	second_amount = 100
 	
 	potential = {
 		culture = dutch
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.3
+		light_infantry_offensive = 0.2
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.1
 		pikemen_offensive = 0.3
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.1
 	}
 }
 
 RETTYPE_CUL_NAHUA = 
 {
 	first_type = 0
-	first_amount = 250
+	first_amount = 375
 	second_type = 1
-	second_amount = 250
+	second_amount = 125
 	
 	potential = {
 		culture = nahuatl
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.3
-		heavy_infantry_offensive = 0.3
+		light_infantry_offensive = 0.4
+		light_infantry_morale = 0.2
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.1
 	}
 }
 
 RETTYPE_CUL_JEWISH = 
 {
 	first_type = 1
-	first_amount = 500
+	first_amount = 200
 	
 	potential = {
 		culture_group = israelite
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.6
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.1
 	}
 }
 
 RETTYPE_CUL_INDIAN = 
 {
 	first_type = 5
-	first_amount = 470
+	first_amount = 200
 	second_type = 6
-	second_amount = 30
+	second_amount = 20
 	
 	special_troops = war_elephants
 	
@@ -410,6 +509,92 @@ RETTYPE_CUL_INDIAN =
 	}
 	
 	modifier = {
-		archers_offensive = 0.6
+		archers_offensive = 0.1
+		archers_defensive = 0.3
+	}
+}
+
+RETTYPE_CUL_NUBIAN = 
+{
+	first_type = 5
+	first_amount = 300
+
+	potential = {
+		OR = {
+			culture = nubian
+			culture = daju
+			culture = beja
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.2
+	}
+}
+
+RETTYPE_CUL_FRA = 
+{
+	first_type = 1
+	first_amount = 200
+	
+	potential = {
+		culture = old_frankish
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_LOM = 
+{
+	first_type = 1
+	first_amount = 300
+	
+	potential = {
+		culture = lombard
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_SUEBI = 
+{
+	first_type = 2
+	first_amount = 400
+	
+	potential = {
+		culture = suebi
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_PICTISH = 
+{
+	first_type = 0
+	first_amount = 375
+	second_type = 5
+	second_amount = 125
+	
+	potential = {
+		culture = pictish
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		light_infantry_defensive = 0.1
+		light_infantry_morale = 0.2
+		archers_offensive = 0.1
+		archers_morale = 0.1
 	}
 }

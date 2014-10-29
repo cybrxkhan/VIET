@@ -124,6 +124,7 @@ narrative_event = {
 					NOT = { year = 1230 }
 				}
 				625 = { culture = tajik }
+				626 = { culture = tajik }
 				627 = { culture = tajik }
 				629 = { culture = tajik }
 				630 = { culture = tajik }
@@ -189,6 +190,24 @@ narrative_event = {
 			922 = { culture = songhai }
 			927 = { culture = songhai }
 			928 = { culture = songhai }
+			#Celtiberian
+			if = {
+				limit = {
+					NOT = { year = 900 }
+				}
+				154 = { culture = celtiberian }
+				155 = { culture = celtiberian }
+				156 = { culture = celtiberian }
+			}
+			if = {
+				limit = {
+					NOT = { year = 825 }
+				}
+				189 = { culture = celtiberian }
+				190 = { culture = celtiberian }
+				199 = { culture = celtiberian }
+			}
+			
 			
 			#############################################
 			# PROVINCE RELIGION
@@ -283,10 +302,40 @@ narrative_event = {
 				907 = { religion = buddhist }
 				904 = { religion = buddhist }
 			}
+			#Zunist
+			if = {
+				limit = {
+					NOT = { year = 1250 }
+				}
+				907 = { religion = zun_pagan }
+			}
+			if = {
+				limit = {
+					NOT = { year = 1100 }
+				}
+				1183 = { religion = zun_pagan }
+				1342 = { religion = zun_pagan } #Kalash and Nuristani
+			}
+			if = {
+				limit = {
+					NOT = { year = 950 }
+				}
+				299 = { religion = zun_pagan }
+				1275 = { religion = zun_pagan }
+			}
+			#East African Pagan
+			878 = { religion = east_african_pagan }
+			1320 = { religion = east_african_pagan }
+			1330 = { religion = east_african_pagan }
+			1332 = { religion = east_african_pagan }
+			1343 = { religion = east_african_pagan }
+			881 = { religion = east_african_pagan }			
+			882 = { religion = east_african_pagan }			
+			884 = { religion = east_african_pagan }			
+			1428 = { religion = east_african_pagan }			
+			1335 = { religion = east_african_pagan }			
 			
-			#EAST AFRICAN PAGANSSSSSSSSSSS EAST AFRICAN PAGANSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS PANGASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS PANDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-			#Make Ghor Zunist until 1200 blah blah blah
-			#Harran is Sabian until 1000
+			#Harran is Harranian until 1000
 			
 			#############################################
 			# DE JURE BORDER SETUP

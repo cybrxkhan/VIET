@@ -35,6 +35,7 @@ narrative_event = {
 			religion = hurufi
 			religion = alawite
 			religion = qarmatian
+			religion = ghurabi
 		}
 		is_heretic = no
 		NOT = { 
@@ -637,6 +638,7 @@ character_event = {
 		has_global_flag = assassins_founded
 		NOT = { has_global_flag = assassins_scatter }
 		NOT = { has_global_flag = assassins_destroyed }
+		NOT = { trait = in_hiding }
 	}
 	
 	mean_time_to_happen = {
@@ -695,6 +697,8 @@ character_event = {
 	
 	option = {
 		name = "OK"
+		if = {
+			limit = { liege = { NOT = { trait = in_hiding } } }
 		random_list = {
 			33 = {
 				liege = {
@@ -709,6 +713,22 @@ character_event = {
 			33 = {
 				liege = {
 					character_event = { id = 88018 }
+				}
+			}
+		}
+	}
+		if = {
+			limit = { liege = { trait = in_hiding } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = 88016 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = 88017 }
+					}
 				}
 			}
 		}
@@ -813,6 +833,7 @@ character_event = {
 				war_with = ROOT
 			}
 		}
+		NOT = { trait = in_hiding }
 	}
 	
 	mean_time_to_happen = {
@@ -892,6 +913,8 @@ character_event = {
 	
 	option = {
 		name = "OK"
+		if = {
+			limit = { liege = { NOT = { trait = in_hiding } } }
 		random_list = {
 			33 = {
 				liege = {
@@ -906,6 +929,22 @@ character_event = {
 			33 = {
 				liege = {
 					character_event = { id = 88018 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { liege = { trait = in_hiding } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = 88016 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = 88017 }
+					}
 				}
 			}
 		}

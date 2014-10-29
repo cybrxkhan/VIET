@@ -25,58 +25,6 @@ kayser_i_rum = {
 	
 }
 
-
-#Ottoman Practical Trade events
-ottoman_goldsmith = {
-
-	customizer = no
-	
-	diplomacy = 1
-	
-	vassal_opinion = 10
-	
-}
-ottoman_blacksmith = {
-
-	customizer = no
-	
-	martial = 1
-
-	command_modifier = {
-		damage = 0.05
-		defence = 0.05
-	}
-	
-}
-ottoman_carpenter = {
-
-	customizer = no
-	
-	stewardship = 1
-	
-	global_tax_modifier = 0.1
-	
-}
-ottoman_weaver = { #carpet weaver
-
-	customizer = no
-	
-	intrigue = 1
-
-	monthly_character_piety = 0.1	
-	fertility = 0.1
-	
-}
-ottoman_perfumer = { #perfumer
-
-	customizer = no
-	
-	learning = 1
-
-	monthly_character_prestige = 0.1
-	
-}
-
 #Other Culture and religion unique
 
 griot = { #West African Griot
@@ -492,6 +440,18 @@ sartapaw = {
 	diplomacy = 1
 	stewardship = 2
 	global_tax_modifier = 0.05
+
+	customizer = no
+	random = no
+	
+}
+
+#Finnish Pagan
+
+sacred_reindeer = { #Shaman
+
+	learning = 3
+	monthly_character_piety = 0.3
 
 	customizer = no
 	random = no

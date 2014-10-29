@@ -9,29 +9,12 @@ namespace = ottoman
 #Character conquers Constantinople
 narrative_event = {
 	id = ottoman.1
+	name = ottoman.1.title
 	desc = ottoman.1.desc
 	picture = GFX_evt_fetih
 	border = GFX_event_narrative_frame_war
 	
-	trigger = {
-		NOT = { has_global_flag = fall_of_constantinople }
-		culture = turkish
-		religion_group = muslim
-		independent = yes
-		NOT = { has_landed_title = e_turkish }
-		prisoner = no
-		war = no
-		OR = {
-			has_landed_title = c_byzantion
-			any_realm_character = {
-				has_landed_title = c_byzantion
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
 	option = {
 		trigger = { character = ROOT }
@@ -49,14 +32,9 @@ narrative_event = {
 			c_byzantion = {
 				usurp_title_plus_barony_if_unlanded_and_vassals = PREV
 			}
-		}
-		if = {
-			limit = {
-				e_turkish = { has_holder = no }
-			}
-			e_turkish = {
-				grant_title = ROOT
-			}
+		}		
+		e_turkish = {
+			grant_title = ROOT
 		}
 		hidden_tooltip = {
 			any_playable_ruler = {
@@ -89,7 +67,7 @@ character_event = {
 			e_byzantium = { has_holder = no }
 			e_byzantium = {
 				holder_scope = {
-					NOT = { realm_size = 15 }
+					NOT = { realm_size = 20 }
 				}
 			}
 		}
@@ -388,11 +366,7 @@ character_event = {
 	desc = "ottoman.9.desc"
 	picture = GFX_evt_maiden_muslim
 	
-	min_age = 16
-	only_men = yes
-	only_rulers = yes
-	capable_only = yes
-	prisoner = no
+	is_triggered_only = yes
 	
 	trigger = {
 		OR = {
@@ -405,38 +379,19 @@ character_event = {
 		NOT = { num_of_spouses = 4 }
 	}	
 	
-	mean_time_to_happen = { 
-		months = 1000
-		modifier = {
-			factor = 4
-			has_character_flag = ottoman_wifey_harem
-		}
-		modifier = {
-			factor = 4
-			trait = homosexual
-		}
-		modifier = {
-			factor = 1.25
-			trait = chaste
-		}
-		modifier = {
-			factor = 0.8
-			trait = lustful
-		}
-		modifier = {
-			factor = 1.25
-			trait = shy
-		}
-		modifier = {
-			factor = 0.8
-			trait = gregarious
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = ottoman_wifey_harem_done_once }
+			}
+			set_character_flag = ottoman_wifey_harem_done_once
 		}
 	}
 	
 	option = {
 		name = "ottoman.9.a"
 		prestige = 10
-		set_character_flag = ottoman_wifey_harem
+		clr_character_flag = ottoman_wifey_harem
 		add_character_modifier = {
 			name = VIET_virile_ottoman
 			duration = 730
@@ -1130,10 +1085,11 @@ character_event = {
 	}	
 	option = {
 		name = "ottoman.9.b"
+		trigger = {
+			ai = no
+		}
 	}
 }
-
-
 
 
 # Ottoman Sultans are supposed to have lots and lots of sexy times, whether they like it or not
@@ -1252,3 +1208,273 @@ character_event = {
 		}
 	}
 }
+
+
+#Province wants Muafname?
+province_event = {
+	id = ottoman.11
+
+	hide_window = yes
+	
+	trigger = {
+		OR = {
+			top_liege = {
+				has_landed_title = e_turkish
+				NOT = { trait = incapable }
+				is_adult = yes			
+			}
+			owner = {
+				has_landed_title = e_turkish
+			}
+		}
+		OR = {
+				NOT = { religion_group = muslim }
+				NOT = { culture = turkish }
+		}
+		owner = {
+			NOT = {
+				any_demesne_province = {
+					has_province_modifier = VIET_muafname_granted
+				}
+			}
+			NOT = { tier = baron }			
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2580
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_landed_title = e_turkish }
+				}
+			}
+			character_event = { id = ottoman.12 }
+		}
+		if = {
+			limit = {
+				owner = {
+					has_landed_title = e_turkish
+				}
+			}
+			character_event = { id = ottoman.17 }
+		}
+	}
+}
+
+
+# Ottoman lord considers petitioning the Sultan for Muafname exemption
+character_event = {
+	id = ottoman.12
+	desc = "ottoman.12.desc"
+	picture = GFX_evt_turkish_sultan
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = "ottoman.12.a" #yes let's do this
+		e_turkish = {
+			holder_scope = {
+				character_event = { id = ottoman.13 days = 5 random = 5 tooltip = ottoman.13.tooltip }
+			}
+		}
+	}	
+	option = {
+		name = "ottoman.12.b" #No
+	}
+}
+
+# Sultan considers whether to accept or not
+letter_event = {
+	id = ottoman.13
+	desc = ottoman.13.desc
+	border = GFX_event_letter_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ottoman.13.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				trait = trusting
+			}
+			modifier = {
+				factor = 2
+				trait = craven
+			}
+		}
+		FROM = {
+			opinion = {
+				modifier = VIET_opinion_granted_big_muafname
+				who = ROOT
+				years = 5
+			}
+			letter_event = { id = ottoman.14 days = 5 random = 5 tooltip = ottoman.14.tooltip }
+		}
+		FROMFROM = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 7300
+			}		
+		}
+	}	
+	option = {
+		name = ottoman.13.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+		}
+		FROM = {
+			opinion = {
+				modifier = VIET_opinion_granted_small_muafname
+				who = ROOT
+				years = 5
+			}
+			letter_event = { id = ottoman.15 days = 5 random = 5 tooltip = ottoman.15.tooltip }
+		}
+		FROMFROM = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 1095
+			}		
+		}
+	}
+	option = {
+		name = ottoman.13.c
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = paranoid
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 2
+				trait = cruel
+			}
+		}
+		FROM = {
+			opinion = {
+				modifier = VIET_opinion_refused_muafname
+				who = ROOT
+				years = 5
+			}
+			letter_event = { id = ottoman.16 days = 5 random = 5 tooltip = ottoman.16.tooltip }
+		}
+	}
+}
+
+# Sultan grants long muafname
+letter_event = {
+	id = ottoman.14
+	desc = ottoman.14.desc
+	border = GFX_event_letter_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ottoman.14.a
+		prestige = 20
+	}
+}
+
+# Sultan grants short muafname
+letter_event = {
+	id = ottoman.15
+	desc = ottoman.15.desc
+	border = GFX_event_letter_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ottoman.15.a
+		prestige = 10
+	}
+}
+
+# Sultan refuses
+letter_event = {
+	id = ottoman.16
+	desc = ottoman.16.desc
+	border = GFX_event_letter_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ottoman.16.a
+		prestige = -15
+	}	
+	option = {
+		name = ottoman.16.b
+		prestige = -15
+	}
+}
+
+# Ottoman Sultan considers muafname for province
+character_event = {
+	id = ottoman.17
+	desc = "ottoman.17.desc"
+	picture = GFX_evt_turkish_sultan
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ottoman.17.a" #big muafname
+		FROM = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 3650
+			}		
+		}
+	}	
+	option = {
+		name = "ottoman.17.b" #small muafname
+		FROM = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 1095
+			}		
+		}
+	}	
+	option = {
+		name = "ottoman.17.c" #No
+	}
+}
+
+
+
+
+
+
+

@@ -158,6 +158,17 @@ letter_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -463,10 +474,10 @@ character_event = {
 		is_title_active = d_knights_templar
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -631,6 +642,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -1023,10 +1045,10 @@ character_event = {
 		is_title_active = d_knights_hospitaler
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -1191,6 +1213,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -1216,7 +1249,7 @@ character_event = {
 	}
 }
 
-# Ping event when donating money to the Hospitallers
+# Ping event when donating money to the Hospitallers (also used for Bektashi, Assassins, Haruriyyah and Templar orders)
 character_event = {
 	id = SoA.1140
 	desc = OK
@@ -1229,9 +1262,20 @@ character_event = {
 	
 	immediate = {
 		wealth = 300
+		if = {
+			limit = { religion_group = christian }
 		FROM = {
 			letter_event = {
 				id = SoA.1141
+			}
+		}
+		}
+		if = {
+			limit = { religion_group = muslim }
+			FROM = {
+				letter_event = {
+					id = CM.4399
+				}
 			}
 		}
 		opinion = {
@@ -1627,6 +1671,17 @@ letter_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -2073,10 +2128,10 @@ character_event = {
 		is_title_active = d_bektashi
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -2214,21 +2269,29 @@ character_event = {
 # Son or brother joins the Bektashi Order
 character_event = {
 	id = SoA.1232
-	desc = EVTDESC_SOA_1232
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = EXCELLENT
 		
+	immediate = {
 		d_bektashi = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -2239,15 +2302,12 @@ character_event = {
 # Liege refuses request to join the Bektashi
 character_event = {
 	id = SoA.1233
-	desc = EVTDESC_SOA_1233
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_SOA_1033
 		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -2438,7 +2498,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1254
-	desc = EVTDESC_SOA_1254
+	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -2494,10 +2554,10 @@ character_event = {
 		is_title_active = d_teutonic_order
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -2664,6 +2724,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -3098,6 +3169,17 @@ letter_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -3362,10 +3444,10 @@ character_event = {
 		is_title_active = d_hashshashin
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -3518,6 +3600,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -3846,10 +3939,10 @@ character_event = {
 		is_title_active = d_jomsvikings
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -4004,6 +4097,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					religion = PREV
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -4581,10 +4685,10 @@ character_event = {
 		is_title_active = d_holy_sepulchre
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -4739,6 +4843,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -5308,10 +5423,10 @@ character_event = {
 		is_title_active = d_saint_anthony
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -5466,6 +5581,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -5952,10 +6078,10 @@ character_event = {
 		is_title_active = d_immortals
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -6108,6 +6234,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -6589,10 +6726,10 @@ character_event = {
 		is_title_active = d_zealots
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -6745,6 +6882,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -7219,17 +7367,17 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
-		religion = tengri_pagan_reformed #tengri_pagan_reformed
+		religion = tengri_pagan_reformed
 		
 		martial = 5
 		
 		is_title_active = d_sky_lords
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -7383,6 +7531,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -7462,7 +7621,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = tengri_pagan_reformed #tengri_pagan_reformed
+		religion = tengri_pagan_reformed
 		
 		d_sky_lords = {
 			holder_scope = {
@@ -7862,10 +8021,10 @@ character_event = {
 		is_title_active = d_spirit_guardians
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -8018,6 +8177,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -8498,10 +8668,10 @@ character_event = {
 		is_title_active = d_warriors_perun
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -8654,6 +8824,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -9134,10 +9315,10 @@ character_event = {
 		is_title_active = d_chosen_perkunas
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -9290,6 +9471,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -9769,10 +9961,10 @@ character_event = {
 		is_title_active = d_sons_kaleva
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -9924,6 +10116,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -10403,10 +10606,10 @@ character_event = {
 		is_title_active = d_huitzilopochtli
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -10558,6 +10761,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -11074,10 +11288,10 @@ character_event = {
 		is_title_active = d_knights_santiago
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -11239,6 +11453,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -11763,10 +11988,10 @@ character_event = {
 		is_title_active = d_knights_calatrava
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -11928,6 +12153,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -12488,10 +12724,10 @@ character_event = {
 		is_title_active = d_saint_addai
 		
 		OR = {
-			father = {
+			father_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
-			mother = {
+			mother_even_if_dead = {
 				primary_title = { higher_tier_than = BARON }
 			}
 		}
@@ -12646,6 +12882,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}

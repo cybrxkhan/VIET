@@ -127,20 +127,3 @@ kingdom_berber;Sultanate;Sultanat;Sultanat;;Sultanato;;;;;;;;;x;
 job_chancellor_berber;Grand Vizier;Grand Vizir;Großwesir;;Gran Visir;;;;;;;;;x
 emperor_berber;Badshah;Badshah;Badshah;;Badshah;;;;;;;;;x
 arabic;Semitic;Semitic;Semitic;Semitic;;;;;;;;;x
-emperor_pannonian;Imperator;Roi;Rex;;Rey;;;;;;;;;x
-emperor_female_pannonian;Imperatrix;Roi;Rex;;Rey;;;;;;;;;x
-king_pannonian;Rex;Roi;Regas;;Rey;;;;;;;;;x
-king_female_pannonian;Regina;Reine;Regina;;Reina;;;;;;;;;x
-duke_pannonian;Legatus Augusti;;;;;;;;;;;;;x
-duke_female_pannonian;Legata Augusti;;;;;;;;;;;;;x
-count_pannonian;Legatus;;;;;;;;;;;;;x
-count_female_pannonian;Legata;;;;;;;;;;;;;x
-baron_pannonian;Eques;;;;;;;;;;;;;x
-baron_female_pannonian;Domina;Domina;Domina;;Domina;;;;;;;;;x
-city_emperor_pannonian;Emperor;Empereur;Kaiser;;Emperador;;;;;;;;;x
-city_king_pannonian;Consul;Consul;Konsulat;;Cónsul;;;;;;;;;x
-city_duke_pannonian;Proconsul;Proconsul;Prokonsul;;Procónsul;;;;;;;;;x
-city_count_pannonian;Praefectus Urbanus;Praefectus Urbanus;Praefectus Urbanus;;Praefectus Urbanus;;;;;;;;;x
-city_baron_pannonian;Praefectus;Praefectus;Praefectus;;Praefectus;;;;;;;;;x
-family_palace_baron_pannonian;Pater Familias;;;;;;;;;;;;;x
-family_palace_baron_female_pannonian;Mater Familias;;;;;;;;;;;;;x

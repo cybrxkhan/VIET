@@ -366,6 +366,23 @@ city_count_roman;Praefectus Urbanus;Praefectus Urbanus;Praefectus Urbanus;;Praef
 city_baron_roman;Praefectus;Praefectus;Praefectus;;Praefectus;;;;;;;;;x
 family_palace_baron_roman;Pater Familias;;;;;;;;;;;;;x
 family_palace_baron_female_roman;Mater Familias;;;;;;;;;;;;;x
+emperor_pannonian;Imperator;Roi;Rex;;Rey;;;;;;;;;x
+emperor_female_pannonian;Imperatrix;Roi;Rex;;Rey;;;;;;;;;x
+king_pannonian;Rex;Roi;Regas;;Rey;;;;;;;;;x
+king_female_pannonian;Regina;Reine;Regina;;Reina;;;;;;;;;x
+duke_pannonian;Legatus Augusti;;;;;;;;;;;;;x
+duke_female_pannonian;Legata Augusti;;;;;;;;;;;;;x
+count_pannonian;Legatus;;;;;;;;;;;;;x
+count_female_pannonian;Legata;;;;;;;;;;;;;x
+baron_pannonian;Eques;;;;;;;;;;;;;x
+baron_female_pannonian;Domina;Domina;Domina;;Domina;;;;;;;;;x
+city_emperor_pannonian;Emperor;Empereur;Kaiser;;Emperador;;;;;;;;;x
+city_king_pannonian;Consul;Consul;Konsulat;;Cónsul;;;;;;;;;x
+city_duke_pannonian;Proconsul;Proconsul;Prokonsul;;Procónsul;;;;;;;;;x
+city_count_pannonian;Praefectus Urbanus;Praefectus Urbanus;Praefectus Urbanus;;Praefectus Urbanus;;;;;;;;;x
+city_baron_pannonian;Praefectus;Praefectus;Praefectus;;Praefectus;;;;;;;;;x
+family_palace_baron_pannonian;Pater Familias;;;;;;;;;;;;;x
+family_palace_baron_female_pannonian;Mater Familias;;;;;;;;;;;;;x
 #Other Religious Titles;;;;;;;;;;;;;;x
 temple_king_gnostic_group;Apostle;Apostle;Apostle;;Apostle;;;;;;;;;x
 temple_kingdom_of_gnostic_group;Apostolate of;Apostolate de;Apostolate von;;Apostolate de;;;;;;;;;x

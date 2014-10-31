@@ -7446,6 +7446,7 @@ character_event = {
 	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
+	only_playable = yes
 	capable_only = yes
 	prisoner = no
 	
@@ -7485,14 +7486,6 @@ character_event = {
 			modifier = {
 					factor = 0.5
 					trait = ambitious
-			}
-			modifier = {
-					factor = 2
-					trait = shy
-			}
-			modifier = {
-					factor = 0.5
-					trait = gregarious
 			}
 			modifier = {
 					factor = 2
@@ -7524,6 +7517,7 @@ character_event = {
 	is_triggered_only = yes
 	min_age = 16
 	only_rulers = yes
+	only_playable = yes
 	capable_only = yes
 	prisoner = no
 	
@@ -7563,14 +7557,6 @@ character_event = {
 			modifier = {
 					factor = 0.5
 					trait = ambitious
-			}
-			modifier = {
-					factor = 2
-					trait = shy
-			}
-			modifier = {
-					factor = 0.5
-					trait = gregarious
 			}
 			modifier = {
 					factor = 2
@@ -12371,7 +12357,7 @@ character_event = {
 			NOT = { trait = content }
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { #religion = zunist }
+			#NOT = { religion = zunist }
 			NOT = { #religion = zunist_reformed }
 			OR = {
 				trait = zealous
@@ -12457,7 +12443,7 @@ character_event = {
 				NOT = { trait = content }
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion = messalian }
-				NOT = { #religion = zunist }
+				#NOT = { religion = zunist }
 				NOT = { #religion = zunist_reformed }
 				OR = {
 					trait = zealous
@@ -15404,7 +15390,7 @@ character_event = {
 		any_demesne_province = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { #religion = zunist }
+			#NOT = { religion = zunist }
 			NOT = { #religion = zunist_reformed }
 		}
 	}
@@ -15476,8 +15462,8 @@ character_event = {
 			limit = {
 				NOT = { religion_group = zoroastrian_group }
 				NOT = { religion = messalian }
-				NOT = { #religion = zunist }
-				NOT = { #religion = zunist_reformed }			
+				#NOT = { religion = zunist }
+				#NOT = { religion = zunist_reformed }			
 			}
 			add_province_modifier = {
 				name = VIET_enforcing_incest
@@ -17161,8 +17147,8 @@ character_event = {
 		trigger = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { #religion = zunist }
-			NOT = { #religion = zunist_reformed }			
+			#NOT = { religion = zunist }
+			#NOT = { religion = zunist_reformed }			
 		}
 		add_character_modifier = {
 			name = VIET_loves_own_children
@@ -18036,7 +18022,7 @@ character_event = {
 		any_demesne_province = {
 			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion = messalian }
-			NOT = { #religion = zunist }
+			#NOT = { religion = zunist }
 			NOT = { #religion = zunist_reformed }
 		}
 	}

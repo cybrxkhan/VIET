@@ -1,0 +1,1792 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+
+################
+#
+# Remember the Falashim
+#
+################
+
+andaman = {
+	graphical_culture = africangfx
+
+	andamanese = { 
+		graphical_culture = africangfx
+		
+		color = { 0.4 0.25 0.15 }
+		
+		used_for_random = no
+
+		male_names = {
+			Balea-dala Bani-dala Birola-dala Boitso-dala Bol-dala Bora-dala Buio-dala Chormila-dala Dora-dala Elpe-dala Golat-dala
+			Jaro-dala Kala-dala Kea-dala Kidseri-dala Lipa-dala Maro-dala Meo-dala Nggongala-dala Nimi-dala Potya-dala Punga-dala
+			Tseo-dala Tsokbi-dala Tsop-dala Yega-dala
+		}
+		female_names = {
+			Balea-pilola Bani-pilola Birola-pilola Boitso-pilola Bol-pilola Bora-pilola Buio-pilola Chormila-pilola Dora-pilola Elpe-pilola Golat-pilola
+			Jaro-pilola Kala-pilola Kea-pilola Kidseri-pilola Lipa-pilola Maro-pilola Meo-pilola Nggongala-pilola Nimi-pilola Potya-pilola Punga-pilola
+			Tseo-pilola Tsokbi-pilola Tsop-pilola Yega-pilola
+		}
+
+		modifier = default_culture_modifier
+	}
+}
+
+
+arabic = {
+	graphical_culture = muslimgfx
+	
+	assyrian = { 
+		graphical_culture = muslimgfx #arabicgfx
+		
+		color = { 0.4 0.9 0.25 }
+
+		male_names = {
+			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha Akha-d'abuh Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
+			Babaeus_Babaeus Babai_Babaeus Babowai_Babaeus Babwahi_Babaeus Bar Bar-Abba Barba'shimin Bar-Nabha Bar-Talmai Bar-Timai Bar-Tolmai Bustan_Bustan Caiaphas Cephas_Peter Cephus_Peter Chadlai Chama Chanin_Chanin Chanina_Chanin Chaninai_Chanin Chinena_Chanin
+			Chozai_Chozai Chuma Chunya_Chunya Clopas Dadisho' Denha Dikla_Dikla Diklah_Dikla Dimi Dinkha Dunanu Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel Farbokht_Farbokht Foma Giwargis_George Grwgari_Gregory Hanina_Chanin Hnanisho' Hozai_Chozai Idan Idra Ila Isaac_Isaac Isho' Isho'yahb Israel_Israel Kaiapha Karna Katsiu Kelaya Laszio_Lazarus Lazar_Lazarus
+			Lazare_Lazarus Lazaro_Lazarus Lazaros_Lazarus Lazarus_Lazarus Lazarz_Lazarus Lazer_Lazarus Lebbaeus Maadai Macabee_Macabee Maccabee_Macabee Magna_Ma'na Makkikha Maluch Ma'na_Ma'na Marabokht_Farbokht Maremmeh Mari Mikha'il_Michael Moqli Muna Nahir_Nahir Nahor_Nahir Nahur_Nahir Narsai Nazuk Nechunya_Chunya
+			Nehor_Nahir Nehorai Niv Nun Nur Oran_Nahir Pappa Paul_Paul Pethion Petros_Peter Petuel Qaligh Qayyoma Raca_Raka Rachim_Chanin Rahim_Chanin Raka_Raka Raz Raziel_Raphael Rubil Saad Saba_Saba Sabah_Saba Sabba'e_Saba Sabrisho'_Sabrisho' Sabr-Ishu_Sabrisho' Salu Samal Sami_Sami Samiy_Sami Sagi_Sagi Sargis Sava_Saba Sawma
+			Shafer Shahdost Shahlufa Shai Shalmai Shama Shamir Shammai Shemaiah Shem'on_Simon Sheraga_Sheraga Shila Shovai Shraga_Sheraga Sima Sliba-zkha Surin Tabbai Taddai_Thaddeus Talia_Talia Taliah_Talia Talmai_Bartholomew Talya_Talia Tam_Thomas
+			Tam'as_Thomas Ta'mhas_Thomas Targhal Tauma Tavi_Tavi Tavish_Tavi Tevis_Tavis Th'amhais_Thomas Thoma_Thomas Timai_Timothy Tiv Toba Todos Tolmai_Bartholomew Tomarsa_Tomarsa Tamuza_Tomarsa Tulmay_Bartholomew Ukba Yahballaha Yanai Ya'qob_Jacob Yeshua_Joshua Yohannan_John Yosip_Joseph Yousef_Joseph Yunanis_John Zerika
+		}
+		female_names = {
+			Adva Alya Anena Anina Bustan_Bustan Chanina Chasina Chayuta_Chayuta China_Hina Chiyuta_Chayuta Dikla_Dikla Diklah_Dikla Diklit_Dikla Duvsha Hanina_Chanin Hasna Hayuta_Chayuta Hina_Hina Ketina Kitra
+			Magdala Mahalia_Mahalia Mahalie_Mahalia Marfa_Martha Mariam_Mary Marta_Martha Marte_Martha Martha_Martha Marthe_Martha Marti_Martha Martita_Martha Mehalia_Mahalia Meiriona_Meirona Meirona_Meirona Morta_Martha
+			Nahara_Nura Nura_Nura Raz Reuma Saba_Saba Sabah_Saba Samantha Sameah_Sami Samee_Sami Sameea_Sami Samiya_Sami Samiyah_Sami Samiyya_Sami Samya_Sami Sava_Saba Shapira Sima Tabatha_Tabitha Tabby_Tabitha Tabetha_Tabitha
+			Tabitha_Tabitha Tadea_Thaddea Talia_Talia Taliah_Talia Talya_Talia Talitha Tam_Thomasa Tamasin_Thomasa Tami_Thomasa Tammy_Thomasa Tamsin_Thomasa Tamsyn_Thomasa Tamzin_Thomasa Thaddea_Thaddea Thomasa_Thomasa Zeita_Zeta Zeta_Zeta
+		}
+
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "Bar "
+		female_patronym = "Barta "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}	
+
+	aramean = { 
+		graphical_culture = muslimgfx #arabicgfx
+		
+		color = { 0.4 0.9 0.25 }
+
+		male_names = {
+			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek Abraham_Abraham Abris Abrisius_Abrisius Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha Ahadabui Ahha_Ahha Akha-d'abuh Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu Avdima_Avdima Avdimi_Avdima Avina Avira Azai
+			Babaeus_Babaeus Babai_Babaeus Babowai_Babaeus Babwahi_Babaeus Bar Bar-Abba Barba'shimin Bar-Nabha Bar-Talmai Bar-Timai Bar-Tolmai Bustan_Bustan Caiaphas Cephas_Peter Cephus_Peter Chadlai Chama Chanin_Chanin Chanina_Chanin Chaninai_Chanin Chinena_Chanin
+			Chozai_Chozai Chuma Chunya_Chunya Clopas Dadisho' Denha Dikla_Dikla Diklah_Dikla Dimi Dinkha Dunanu Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel Farbokht_Farbokht Foma Giwargis_George Grwgari_Gregory Hanina_Chanin Hnanisho' Hozai_Chozai Idan Idra Ila Isaac_Isaac Isho' Isho'yahb Israel_Israel Kaiapha Karna Katsiu Kelaya Laszio_Lazarus Lazar_Lazarus
+			Lazare_Lazarus Lazaro_Lazarus Lazaros_Lazarus Lazarus_Lazarus Lazarz_Lazarus Lazer_Lazarus Lebbaeus Maadai Macabee_Macabee Maccabee_Macabee Magna_Ma'na Makkikha Maluch Ma'na_Ma'na Marabokht_Farbokht Maremmeh Mari Mikha'il_Michael Moqli Muna Nahir_Nahir Nahor_Nahir Nahur_Nahir Narsai Nazuk Nechunya_Chunya
+			Nehor_Nahir Nehorai Niv Nun Nur Oran_Nahir Pappa Paul_Paul Pethion Petros_Peter Petuel Qaligh Qayyoma Raca_Raka Rachim_Chanin Rahim_Chanin Raka_Raka Raz Raziel_Raphael Rubil Saad Saba_Saba Sabah_Saba Sabba'e_Saba Sabrisho'_Sabrisho' Sabr-Ishu_Sabrisho' Salu Samal Sami_Sami Samiy_Sami Sagi_Sagi Sargis Sava_Saba Sawma
+			Shafer Shahdost Shahlufa Shai Shalmai Shama Shamir Shammai Shemaiah Shem'on_Simon Sheraga_Sheraga Shila Shovai Shraga_Sheraga Sima Sliba-zkha Surin Tabbai Taddai_Thaddeus Talia_Talia Taliah_Talia Talmai_Bartholomew Talya_Talia Tam_Thomas
+			Tam'as_Thomas Ta'mhas_Thomas Targhal Tauma Tavi_Tavi Tavish_Tavi Tevis_Tavis Th'amhais_Thomas Thoma_Thomas Timai_Timothy Tiv Toba Todos Tolmai_Bartholomew Tomarsa_Tomarsa Tamuza_Tomarsa Tulmay_Bartholomew Ukba Yahballaha Yanai Ya'qob_Jacob Yeshua_Joshua Yohannan_John Yosip_Joseph Yousef_Joseph Yunanis_John Zerika
+		}
+		female_names = {
+			Adva Alya Anena Anina Bustan_Bustan Chanina Chasina Chayuta_Chayuta China_Hina Chiyuta_Chayuta Dikla_Dikla Diklah_Dikla Diklit_Dikla Duvsha Hanina_Chanin Hasna Hayuta_Chayuta Hina_Hina Ketina Kitra
+			Magdala Mahalia_Mahalia Mahalie_Mahalia Marfa_Martha Mariam_Mary Marta_Martha Marte_Martha Martha_Martha Marthe_Martha Marti_Martha Martita_Martha Mehalia_Mahalia Meiriona_Meirona Meirona_Meirona Morta_Martha
+			Nahara_Nura Nura_Nura Raz Reuma Saba_Saba Sabah_Saba Samantha Sameah_Sami Samee_Sami Sameea_Sami Samiya_Sami Samiyah_Sami Samiyya_Sami Samya_Sami Sava_Saba Shapira Sima Tabatha_Tabitha Tabby_Tabitha Tabetha_Tabitha
+			Tabitha_Tabitha Tadea_Thaddea Talia_Talia Taliah_Talia Talya_Talia Talitha Tam_Thomasa Tamasin_Thomasa Tami_Thomasa Tammy_Thomasa Tamsin_Thomasa Tamsyn_Thomasa Tamzin_Thomasa Thaddea_Thaddea Thomasa_Thomasa Zeita_Zeta Zeta_Zeta
+		}
+
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "Bar "
+		female_patronym = "Barta "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}	
+	
+}
+
+
+
+
+byzantine = {
+	graphical_culture = easterngfx
+	
+	crimean_gothic = { #ostrogoth
+		graphical_culture = easternslavicgfx
+		
+		color = { 0.3 0.3 0.3 }
+		
+		male_names = {
+			Achiulf Airmanareiks Alaric Alatheus Alhareiks Amal Amala Amalafrid Andagis Andela Ansila Aoric Ariaric Athal Athala Athalaric Audawulfs Augis Baduela Beremud Cniva Ediulf Eisarn
+			Eraric Ermanaric Eutharic Frithugairns Fritigern Gaisumunths Geberich Gesimund Gunthigis Hachiulf Harjareiks Hermanaric Hilderith Hildireths Hisarnis Hunamunths Hunawilja Hunimund
+			Hunuil Ildibad Nidada Oduulf Ovida Respa Safrac Sarus Thaurismunths Theia Theodahad Theodoric_Theodoric Thiudareiks_Theodoric Thiudimer_Theodimer Thorismud Thuruar Totila Valamir Valaravans Valia Veduc Vidimer
+			Vinitharius Vultuulf Walahrabns Walja Wandilaharjis Winithaharjis Witiges
+		}
+		female_names = {
+			Amalaberga Amalafrida Amalasuentha Amalasuntha Brunhild Erelieva Ermenberga Evermud Galswinth Gunthswinth Mathesuentha Ostrogotha Thiudigoto Vadamerca
+		}
+		
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
+
+
+
+east_african = {
+	graphical_culture = muslimgfx
+
+    swahili = {
+       graphical_culture = africangfx
+      
+       color = { 0.35 0.35 0.65 }
+      
+
+       male_names = {
+			Abasi_Abbas Abdalla_Abdullah Abdu_Abdu Adhama_Adhama Ahmaad_Ahmad Ahmad_Ahmad Akua_Akua Ali_Ali 
+			Amal_Amal Amani_Amani Amir_Amir Amiri_Amiri Anasa_Anasa Ashon_Ashon Atieno_Atieno Ayo_Ayo 
+			Azima_Azima Azizi_Azizi Badru_Badru Baingana_Baingana Bakari_Bakari Barak_Barak Baraka_Barakat Bavana_Bavana 
+			Busar_Busar Busara_Busara Bwana-Mkubwa_Bwana-Mkubwa Chane_Chane Chidi_Chidi Darweshi_Darweshi Daudi_Daudi Duma_Duma 
+			Elea_Elea Elim_Elim Fanaka_Fanaka Faraji_Faraj Farijika_Farijika Habib_Habib Hakeem_Hakim Hakim_Hakim 
+			Hali_Hali Hamadi_Hamad Hamid_Hamid Hamidi_Hamidi Hamisi_Hamisi Hanif_Hanif Haoniyao_Haoniyao Hashim_Hashim 
+			Hodari_Hodari Imamu_Imamu Issa_Isaac Jabari_Jabari Jafari_Jafari Jaha_Jaha Jamal_Jamal Jamel_Jamel 
+			Jela_Jela Jelani_Jelani Jengo_Jengo Jina_Jina Juma_Juma Jumaane_Jumaane Kadir_Kadir Kamari_Kamari 
+			Kareem_Kareem Karim_Karim Kereenyaga_Kereenyaga Khairi_Khairi Khalfani_Khalfani Khalil_Khalil Khamisi_Khamus Khari_Khari 
+			Kibwe_Kibwe Kito_Kito Kitwana_Kitwana Kobe_Kobe Kofi_Kofi Koman_Koman Kopa_Kopa Kovu_Kovu 
+			Kuende_Kuende Kwame_Kwame Kwanzaa_Kwanzaa Malik_Malik Masud_Masud Maulidi_Maulidi Mbita_Mbita Mhina_Mhina 
+			Mosi_Mosi Moyo_Moyo Mshindi_Mshindi Msia_Msia Mufasa_Mufasa Muhammed_Muhammed Musa_Moses Mustafa_Mustafa 
+			Mwinyi_Mwinyi Myenye_Myenye Mzuzi_Mzuzi Neema_Neema Nkosi_Nkosi Nyo_Nyo Okapi_Okapi Pumbaa_Pumbaa 
+			Rafiki_Rafiki Rajabu_Rajabu Ramadhani_Ramadhani Rasheed_Rasheed Rashid_Rashid Rehema_Rehema Saed_Said Safiri_Safiri 
+			Salehe_Salehe Salene_Salene Sefu_Sefu Shani_Shani Sharif_Sharif Shomari_Shomari Simba_Simba Siwazuri_Siwazuri 
+			Sudi_Sudi Sultan_Sultan Tabia_Tabia Taji_Taji Tambo_Tambo Tamu_Tamu Tarik_Tarik Tendaji_Tendaji 
+			Timon_Timon Umoja_Umoja Usian_Usian Yahya_Yahya Zahur_Zahur Zakia_Zakia Zawadi_Zawadi Zuberi_Zubeyr 
+       }
+       female_names = {
+			Adhama_Adama Adia_Adia Afiya_Afiya Aisha_Aisha Akila_Akila Akina_Akina Akua_Akua Aleela_Aleela 
+			Aliya_Aliyah Aliyah_Aliyah Amal_Amal Amana_Amana Amanika_Amanika Amir_Amir Amiri_Amiri Andaiye_Andaiye 
+			Angalia_Angalia Arusi_Arusi Asha_Asha Ashura_Ashura Asya_Asya Atiena_Atiena Ayah_Ayah Ayana_Ayana 
+			Ayubu_Ayubu Bahati_Bahati Bakari_Bakari Baraka_Baraka Barika_Barika Bavana_Bavana Bayinika_Bayinika Budhya_Budhya 
+			Busara_Busara Chagina_Chagina Chanua_Chanua Chausiku_Chausiku Chidi_Chidi Chiku_Chiku Chinira_Chinira Chriki_Chriki 
+			Dafina_Dafina Dalia_Dalia Dalila_Dalila Dhamiria_Dhamiria Dinka_Dinka Elea_Elea Elewa_Elewa Elimisha_Elimisha 
+			Endelea_Endelea Eshe_Eshe Fanaka_Fanaka Faraji_Faraji Farijika_Farijika Fatuma_Fatima Fikira_Fikira Furaha_Furayja 
+			Goma_Goma Hadiya_Hadiya Halima_Halima Halina_Halina Halisi_Halisi Haoniyao_Haoniyao Hasana_Hasana Hasanati_Hasanati 
+			Hasina_Hasina Hawa_Hawa Heshima_Heshima Himaya_Himaya Hodari_Hodari Huseina_Huseina Imani_Imani Imara_Imara 
+			Imarisha_Imarisha Issa_Issa Jaha_Jaha Jahaira_Jahaira Jala_Jala Jama_Jama Jamaa_Jama Jamani_Jamani 
+			Jehlani_Jehlani Jela_Jela Jina_Jina Jiona_Joan Julisha_Julisha Kalere_Kalere Kaluwa_Kaluwa Kamara_Kamara 
+			Kamaria_Kamaria Kanene_Kanene Kanisa_Kanisa Karama_Karama Kesi_Kesi Khadija_Khadija Kiara_Kiara Kibibi_Kibibi 
+			Kichea_Kichea Kijakazi_Kijakazi Kilinda_Kilinda Kinaya_Kinaya Kinjia_Kinjia Kito_Kito Koffi_Koffi Kofi_Kofi 
+			Kudio_Kudio Kuende_Kuende Kwame_Kwame Kwanzaa_Kwanzaa Kwashi_Kwashi Lindana_Lindana Lindia_Lindia Lisha_Lisha 
+			Madini_Madini Mahiri_Mahiri Majda_Majda Maji_Maji Majida_Majida Malika_Malika Maliza_Maliza Malkia_Malkia 
+			Maridhia_Maridhia Marijani_Marijani Marini_Marini Marjani_Marjani Mashika_Mashika Masika_Masika Maskini_Maskini Maulidi_Maulidi 
+			Mchumba_Mchumba Mhina_Mhina Milima_Milima Mkiwa_Mkiwa Msia_Msia Mtupeni_Mtupeni Mwamini_Mwamini Mwanahamisi_Mwanahamisi 
+			Mwanaidi_Mwanaidi Mwanajuma_Mwanajuma Mwasaa_Mwasaa Mwatabu_Mwatabu Nadira_Nadira Naeem_Naeem Naeemah_Naeemah Najuma_Najuma 
+			Nbushe_Nbushe Neema_Neema Nia_Nia Nkosi_Nkosi Nurisha_Nurisha Nuru_Nuru Nyah_Nyah Nyota_Nyota 
+			Onyesha_Onyesha Otesha_Otesha Panya_Panya Pasua_Pasua Penda_Penda Radhiya_Radhiya Ramla_Ramla Rasheda_Rashida 
+			Rashida_Rashida Rasida_Rashida Raziya_Raziya Rehema_Rehema Risala_Risala Rukiya_Rukiya Saada_Saada Safi_Safi 
+			Safika_Safika Safiri_Safiri Salama_Salama Sanaa_Sanaa Sanura_Sanura Sarabi_Sarabi Sauda_Sauda Shani_Shani 
+			Sharifa_Sharifa Shauri_Shauri Shauriana_Shauriana Sikudhani_Sikudhani Siti_Siti Siwazuru_Siwazuru Subira_Subira Taabu_Taabu 
+			Taji_Taji Tamu_Tamu Tisa_Tisa Tosha_Tosha Tuliza_Tuliza Ujamaa_Ujamaa Ujana_Ujana Umija_Umija 
+			Usia_Usia Waseme_Waseme Winda_Winda Zahra_Zahra Zaida_Zaida Zakia_Zakia Zakiya_Zakiya Zawadi_Zawadi 
+			Zawati_Zawati Zuri_Zuri Zuwena_Zuwena
+       }
+
+		founder_named_dynasties = yes
+
+		dukes_called_kings = yes
+
+       male_patronym = "ibn "
+       female_patronym = "bint "
+		prefix = yes
+
+       modifier = default_culture_modifier
+    }
+
+}
+
+
+himalayan = {
+	graphical_culture = mongolgfx
+
+	tibetan = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.9 0.9 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Akar Anil Assam Boshay Ceba Cepla Cetan Champo Chodrak Choejor Chogyal Chophel Cimba Dache Dachen Daivika Dampa Dawa Dechen Dedan Denpa Denpo
+			Dhargey Dorje Dorjee Garkan Gephel Goba Gyaltsen Gyaltso Gyalwa Jalus Jampa Jampo Jangbu Jetsan Jigme Jinpa Jungney Kaba Kalden Kalsang Kamala
+			Karma Kasa Ketu Khadroma Khalama Khandro Kipu Kitsi Kona Kunchen Kundun Lha-mo Lhak-pa Lhundup Lobsang Michewa Mida Mingma Nam-kha Nawang Ngawang
+			Ngodup Nima Norbu Nuba Nyima Pabu Palden Pasang Pemba Phuntsok Popo Poso Rabten Rinchen Rinzen Samdhup Sangye Sashi Seba Senge Skamar Somba Sonam
+			Tashi Temba Tenzin Tenzing Thekchen Thokmay Thubten Torma Tsering Tseten Tsewang Wangchuk Wangdak Wangdue Yeshe Yongten Yonten Zapa Zenji Zigsa
+			Zonpa Zopa 
+		}
+		female_names = {
+			Akar Amala Amrita Assam Bhasundara Boshay Brag-srin-mo Ceba Cepla Chesa Chewa Chime Choden Chodrak Chodren Choejor Chomden Chomo-Lung-Ma Chophel
+			Cimba Dawa Dechen Dhargey Diki Dohna Dolkar Dolma Dorjne-Naljorma Ekadzati Garkan Gawa Gewa Gokarmo Gu-Lang Gyaltsen Gyalwa Hariti Indira Jalus
+			Jampa Jampo Jamyang Jangmu Je-tsun Jinpa Jungney Kaba Kalsang Kamala Karma Kasa Ketu Keyuri Khadroma Khalama Khandro Khon-Ma Kipu Kitsi Kona Kunchen
+			Kurukulla Lasya Lha-mi Lha-mo Lhak-pa Lhamu Lhundup Michewa Mida Nam-kha Nele Ngawang Ngodup Nguntre Nima Ninguerre Nuba Nyima Opame Pabu Palden
+			Pasang Pema Pemala Penden Phuntsok Popo Poso Prajnaparamita Rabten Rinchen Rinzen Samdhup Sangmu Sangs-rygas-mkhá Sangye Sashi Seba Sengdroma
+			Sengemo Sgeg-mo-ma Shenden Skamar Somba Sonam Tara Tashi Temba Tenzin Tenzing Thekchen Tho-og Thokmay Thubten Torma Tsering Tseten Tsewang "Ui Tango"
+			Wangchuk Wangdak Wangdue Yangchen Yongten Yum-chen-mo Zapa Zas-ster-ma-dmar-mo Zenji Zigsa Zonpa Zopa 
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	
+}
+
+
+
+
+iranian = {
+	graphical_culture = muslimgfx
+
+	parsi = {
+		graphical_culture = persiangfx
+
+		color = { 0.5 0.5 0.05 }
+
+		male_names = {
+			Abbas_Abbas Abolhassan_Abolhassan Abolhassan_Abolhassan Afshar_Afshar Ahmad_Ahmad Akbar_Akbar Alah-Verdi_Alah-Verdi Ali_Ali 
+			Allahyar_Allahyar Allahyar_Allahyar Amin_Amin Anushirvan_Anushirvan Aram_Aram Ardahan_Ardahan Ardavan_Ardavan Ardeshir_Ardeshir 
+			Assad_Assad Aurang_Aurang Ayeshah_Ayeshah Babak_Babak Bahman_Bahman Bahram_Bahram Bakhtiar_Bakhtiar Balash_Vologases 
+			Behrad_Behrad Behrouz_Behrouz Bozorg_Bozorg Danush_Danush Darab_Darab Dariush_Darius Davud_David Djamasp_Djamasp 
+			Ebrahim_Abraham Ehsan_Ehsan Esfandiar_Esfandiar Eskander_Alexander Esma'il_Ismail Faramarz_Faramarz Faraz_Faraz Fareed_Farid 
+			Farhad_Farhad Fariborz_Fariborz Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fath_Fath Ferdows_Ferdows Fereedun_Feridun 
+			Ghobad_Ghobad Gholam_Gholam Godarz_Godarz Goshtasb_Goshtasb Hafez_Hafez Hassan_Hasan Hazarasp_Hazarasp Hedayat_Hedayat 
+			Hooshyar_Hooshyar Hormazd_Hormazd Hormoz_Hormoz Hossein_Hussayn Humayun_Humayun Jahandar_Jahandar Jahangir_Jahangir Jahanshah_Jahanshah 
+			Jamshid_Jamshid Javanshir_Javanshir Javeed_Javeed Kambiz_Kambiz Kamran_Kamran Kavadh_Kavadh Kavoos_Kavoos Keyghobad_Keyghobad 
+			Keykhosrau_Keykhosrau Keykhosrow_Keykhosrow Kharmandar_Kharmandar Khashayar_Khashayar Khodadad_Khodadad Khosrau_Khosrau Khosrow_Khosrow Khudayar_Khudayar 
+			Khurshid_Khurshid Kurush_Cyrus Mahmud_Mahmud Manuchihr_Manuchihr Manushihr_Manushihr Marzuban_Marzuban Mashad_Mashad Maziar_Maziar 
+			Mehrab_Mehrab Mehrzad_Mehrzad Mohammed_Muhammad Mohammed_Muhammad Morad_Morad Morteza_Morteza Mozaffar_Mozaffar Nard_Nard 
+			Naveed_Naveed Nawid_Nawid Nezam_Nezam Parviz_Parviz Pashang_Pashang Peroz_Peroz Pujman_Pujman Reza_Reza 
+			Rostam_Rostam Ruhollah_Ruhollah Sadri_Sadri Salman_Solomon Shahab_Shahab Shahbaz_Shahbaz Shahin_Shahin Shahram_Shahram 
+			Shahrokh_Sharokh Shahruz_Shahruz Shahryar_Shahryar Shapur_Shapur Shayan_Shayan Sina_Sina Tahmasb_Tahmasb Vahhab_Vahhab 
+			Vahid_Vahid Vali_Vali Vandad_Vandad Varshasb_Varshasb Vishtasb_Vishtasb Xsayarsa_Xerxes Yazdegerd_Yazdegerd Yousef_Joseph 
+			Zahak_Zahak Zakaria_Zachary Zand_Zand Zartosht_Zartosht Zia_Zia
+		}
+		female_names = {
+			Afsaneh_Afsaneh Ahu_Ahu Arghavan_Arghavan Asa_Asa Azadeh_Azadeh Azarmidokht_Azarmidokht Bahar_Bahar Banafsheh_Banafsheh 
+			Behnaz_Behnaz Burandokht_Burandokht Darya_Darya Delaram_Delaram Delbar_Dilber Dinah_Dinah Donya_Donya Elham_Elham 
+			Elnaz_Elnaz Farah_Farah Fareedeh_Farida Farnaz_Farnaz Farrin_Farrin Farva_Farva Furuzan_Furuzan Ghamze_Ghamze 
+			Ghazal_Ghazal Ghoncheh_Ghoncheh Golbahar_Golbahar Golnaz_Golnaz Golpari_Golpari Golshan_Golshan Hamdam_Hamdam Hurmat_Hurmat 
+			Irandokht_Irandokht Jamileh_Jamila Javaneh_Javaneh Leila_Leila Mahdokht_Mahdokht Mahtab_Mahtab Mariam_Maria Mariam_Maria 
+			Navvaba_Navvaba Nazgol_Nazgol Nazilla_Nazilla Niloufar_Nilufer Noor_Noor Parvaneh_Parvaneh Parvin_Parvin Pertevniyal_Pertevniyal 
+			Pourandokht_Pourandokht Roshanora_Roshanora Roxana_Roxana Salomeh_Salomeh Sanaz_Sanaz Shahrzad_Shahzadah Shahzadeh_Shahzadah Shirin_Shirin 
+			Soraya_Soraya Touran_Touran Tourandokht_Tourandokht Yasaman_Yasaman Yekta_Yekta Zarrindokht_Zarrindokht Zeynab_Zeynab Zohreh_Zohreh 
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		male_patronym = "zade"
+		female_patronym = "dokht"
+		prefix = no
+		
+		modifier = cultural_flexibility
+	}	
+}
+
+
+israelite = {
+	graphical_culture = muslimgfx
+
+	mizrahi = { # Edot Hamizrah, originally compiled by Duinnin 
+		graphical_culture = muslimgfx
+		color = { 0.45 0.35 0.45 }
+
+		male_names = {
+	Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+	Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+	Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+	Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+	Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+	Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+	Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+	Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+	Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+	Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+	Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+	Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+	Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+	Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+	Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+	Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+	Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+	Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+	Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+	Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+	Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+	Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+	Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+	Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+	Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+	Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+	Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+	Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+	Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+	Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+	Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+	Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+	Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+	Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+	Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+	Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+	Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+	Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+	Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+	Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+	Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+	Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}
+	
+	romaniote = { #Greek Jews, original list by cybrxkhan but edited by Frostschaden
+		graphical_culture = byzantinegfx
+      
+		color = { 0.35 0.45 0.35 } 
+
+		male_names = {
+	Aaron_Aaron Abdiou_Obadiah Abraam_Abraham Adam_Adam Alexandros_Alexander Alexios_Alexis Amnon_Amnon Amon_Amon 
+	Andzelos_Angelos Ariel_Ariel Askinazi_Askinazi Avraam_Abraham Barouch_Baruch Bartholomaios_Bartolomeus Bechoraki_Bechoraki Beniamin_Benjamin 
+	Daniel_Daniel Dauid_David Davijon_Davijon Eli'ezer_Eliezer Elias_Elijah Eliezer_Eliezer Esdras_Esdras Gabriel_Gabriel 
+			Georgios_George Iacob_Jacob Iakobos_Jacob Ilias_Ilias Ioannes_John Iosef_Joseph Isaak_Isaac Isaakios_Isaac 
+			Ismael_Ismail Israel_Israel Matsel_Matsel Meir_Meir Michael_Michael Moisis_Moses Molhos_Molhos Mordechai_Mordechai 
+			Mordos_Mordos Moskos_Moskos Mouses_Moses Natanel_Nathaniel Nissim_Nissim Noe_Noah Petros_Peter Raphael_Raphael 
+			Rouben_Reuben Sabbatai_Sabbatai Salomon_Solomon Samouel_Samuel Sampson_Samson Saoul_Saul Shalom_Shalom Simon_Simon 
+			Symeon_Simon Tzaddik_Tzaddik Yohanan_John Zacharias_Zachary
+		}
+		female_names = {
+			Ada_Ada Alexandra_Alexandra Amalia_Amalia Anna_Anna Dana_Dana Deborra_Deborah Dina_Dinah Dorothea_Dorothy 
+			Eftihia_Eftihia Eirene_Irene Gracia_Grace Hanna_Hannah Ioanna_Joan Ioanna_Joan Ioudith_Judith Maria_Maria 
+			Marika_Mary Martha_Martha Mina_Mina Miriam_Maria Naomi_Naomi Perna_Perna Rachel_Rachel Rae_Rae 
+			Routh_Ruth Sarra_Sarah Simone_Simonis Sophia_Sophia Stemma_Stemma Sterina_Esther Susanna_Susana Tamar_Tamar 
+			Velleli_Bella Zoe_Zoe
+		}
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		modifier = religiously_tolerant_culture
+	}
+	
+	crimean_jewish = { #Crimean Jews including the Karaites and Krymchaks
+
+		graphical_culture = turkishgfx
+
+		color = { 0.35 0.35 0.35 }
+
+		male_names = {
+			Abraham_Abraham Aharon_Aaron Anan_Anan Chaim_Chaim David_David Elias_Elliot Eliezer_Eliezer Ezra_Ezra 
+			Georgius_George Hezekiah_Hezekiah Isaac_Isaac Joseph_Joseph Josiah_Jesus Judah_Judah Karasubazar_Karasubazar Lehno_Lehno 
+			Medini_Medini Meir_Meir Meir_Meir Mordecai_Mordechai Moshe_Moses Nathan_Nathaniel Nehemiah_Nehemia Nissan_Nissan 
+			Salomon_Solomon Samuel_Samuel Seraya_Seraya Sima_Sima Yitzhak_Yitzhak Zelig_Zelig Zera_Zera
+		}
+
+		female_names = {
+			Agar_Agar Deborra_Deborah Edna_Edna Esther_Esther Golda_Golda Hanna_Hannah Haya_Hayat Izza_Izza 
+			Lea_Leah Menora_Menora Miriam_Maria Naomi_Naomi Rahel_Rachel Ruth_Ruth Salma_Salma Sara_Sarah 
+			Shoshana_Susana Susanna_Susana Tamar_Tamar Turkia_Turkia Yehudis_Judith
+		}
+
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		modifier = religiously_tolerant_culture
+	}
+	
+	bukharim = { # Bukharan Jews, based on Mizrahi list, originally compiled by Duinnin 
+		graphical_culture = turkishgfx
+		color = { 0.5 0.35 0.55 }
+
+		male_names = {
+			Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+			Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+			Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+			Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+			Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+			Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+			Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+			Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+			Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+			Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+			Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+			Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+			Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+			Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+			Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+			Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+			Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+			Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+			Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+			Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+			Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+			Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+			Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+			Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+			Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+			Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+			Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+			Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+			Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+			Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+			Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+			Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+			Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+			Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+			Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+			Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+			Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+			Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+			Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+			Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+			Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+			Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}
+	
+	indian_jewish = { # Indian Jews, on Mizrahi list, originally compiled by Duinnin 
+		graphical_culture = muslimgfx
+		color = { 0.55 0.55 0.35 }
+		
+		used_for_random = no
+
+		male_names = {
+			Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+			Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+			Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+			Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+			Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+			Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+			Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+			Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+			Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+			Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+			Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+			Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+			Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+			Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+			Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+			Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+			Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+			Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+			Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+			Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+			Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+			Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+			Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+			Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+			Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+			Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+			Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+			Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+			Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+			Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+			Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+			Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+			Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+			Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+			Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+			Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+			Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+			Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+			Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+			Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+			Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+			Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}
+	
+    chinese_jewish = {
+        graphical_culture = mongolgfx
+        
+        color = { 0.35 0.3 0.3 }
+		
+		used_for_random = no
+        
+        male_names = {
+			Ailize_Eliezer Ali’er_Ariel Baluke_Baluke Benjieming_Benjamin Bishai_Bishai Danniu_Daniel Dawei_David Ebadi_Ebadi 
+			Feiniyasi_Feiniyasi Jiabaili_Gabriel Jialide_Jialide Jidian_Jidian Jie_Jie Kailaibu_Kaleb Liwei_Liwei Luben_Reuben 
+			Luode_Lothair Maike’er_Michael Moxi_Moxi Nasini’er_Nasini’er Nuoya_Noah Qiaonashen_Jonathan Sajialiya_Zachary Samu’er_Samuel 
+			Saoluo_Saul Shenluomo_Shenluomo Suoluomen_Solomon Tian_Tian Tuomasi_Thomas Ximeng_Simon Ximian_imian Xixijia_ixijia 
+			Yabolahan_Yabolahan Yadang_Yadang Yage_Jacob Yalun_Aaron Yashalong_Yashalong Yesu_Jesus Yifalian_Yifalian Yiliya_Elijah 
+			Yingcheng_Yingcheng Yingdou_Yingdou Yisa_Isaac Yisang_Yisang Yiselie_Israel Yishamali_Ismail Yuehan_Yuehan Yuesefu_Joseph 
+			Yueshuya_Jesus
+        }
+        female_names = {
+			Aidena_Aidena Anna_Anna Dibola_Deborah Dina_Dinah Hanna_Hannah Lajie_Lajie Leiqie’er_Leiqie’er Libaijia_Libaijia 
+			Liya_Liya Mali_Maria Milian_Maria Naaomi_Naaomi Shala_Sarah Sushanna_Susana Tama_Tamara Yabi_Yabi 
+			Yifu_Yifu Yilishabai_Elisabeth Yinan_Yinan Yisitie_Yisitie Zhudisi_Judith
+        }
+
+        prefix = no
+
+        modifier = religiously_tolerant_culture
+    }
+
+	
+	maghreb_jewish = { # Jews of the Maghreb and West Africa, based on Mizrahi list originally compiled by Duinnin 
+		graphical_culture = muslimgfx
+		color = { 0.45 0.65 0.3 }
+
+		male_names = {
+			Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+			Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+			Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+			Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+			Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+			Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+			Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+			Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+			Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+			Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+			Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+			Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+			Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+			Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+			Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+			Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+			Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+			Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+			Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+			Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+			Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+			Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+			Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+			Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+			Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+			Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+			Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+			Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+			Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+			Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+			Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+			Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+			Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+			Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+			Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+			Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+			Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+			Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+			Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+			Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+			Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+			Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}
+	
+	yemenite_jewish = { # Jews of Yemen, based on Mizrahi list originally compiled by Duinnin 
+		graphical_culture = muslimgfx
+		color = { 0.35 0.45 0.65 }
+
+		male_names = {
+			Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+			Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+			Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+			Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+			Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+			Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+			Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+			Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+			Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+			Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+			Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+			Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+			Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+			Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+			Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+			Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+			Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+			Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+			Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+			Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+			Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+			Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+			Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+			Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+			Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+			Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+			Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+			Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+			Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+			Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+			Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+			Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+			Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+			Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+			Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+			Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+			Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+			Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+			Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+			Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+			Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+			Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}	
+	
+	caucasian_jewish = { # Georgian and Mountain Jews, based on Mizrahi list originally compiled by Duinnin 
+		graphical_culture = muslimgfx
+		color = { 0.5 0.4 0.65 }
+
+		male_names = {
+			Aaron_Aaron Abdallah_Abdullah Abir_Abir Abraham_Abraham Adonim_Adonim Ali_Ali Allan_Alan Allun_Alan 
+			Amin_Amin Ammar_Ammar Amram_Amram Antuh_Antuh Arah_Arah Arus_Arus Asad_Asad Ata_Ata 
+			Awad_Awad Ayyash_Ayyash Azarya_Azarya Azhar_Azhar Aziza_Aziza Baha_Baha Bana_Bana Barakat_Barakat 
+			Barhun_Barhun Baruch_Baruch Benaya_Benaya Berakhot_Berakhot Berechiah_Berechiah Bishara_Bishara Bishr_Bishr Bundar_Bundar 
+			Burayk_Barak Daniel_Daniel Daniyal_Daniel Daud_David David_David Dosa_Dosa Durri_Durri Efraim_Efraim 
+			Elazar_Eliezer Eli_Eli Elijah_Elijah Ephraim_Ephraim Evyatar_Evyatar Ezar_Ezar Ezekiel_Ezekiel Ezer_Ezer 
+			Fadl_Fadl Farah_Farah Faraj_Faraj Fashshat_Fashshat Fayruz_Fayruz Furat_Furat Futuh_Futuh Gazal_Gazal 
+			Ghalib_Ghalib Ghulayb_Ghulayb Halfon_Halfon Hananel_Hananel Hananya_Hanania Harbonah_Harbonah Hasan_Hasan Hasday_Hasday 
+			Hassun_Hasan Hatib_Hatib Hayfa_Hayfa Hayyim_Hayyim Hesed_Hesed Hezekiah_Hezekiah Hiba_Hiba Hillel_Hillel 
+			Hisday_Hisday Hotam_Hotam Husayn_Husayn Ibrahim_Abraham Imran_Imran Iran_Iran Isaac_Isaac Isaiah_Isaiah 
+			Ishaq_Isaac Ismail_Ismail Israel_Israel Jabir_Jabir Jacob_Jacob Japtheth_Japtheth Jarrah_Jarrah Jekuthiel_Jekuthiel 
+			Joseph_Joseph Joshiah_Jesus Joshua_Jesus Judah_Judah Jurj_George Kammuna_Kammuna Khadir_Khadir Khalaf_Khalaf 
+			Kohen_Kohen Kulayb_Kulayb Labrat_Labrat Levi_Levi Maani_Maani Madmun_Madmun Mahruz_Mahruz Makhluf_Makhluf 
+			Manasse_Manasses Mansur_Mansur Marduk_Marduk Marwan_Marwan Masliah_Masliah Mawhub_Mawhub Mehullal_Mehullal Meir_Meir 
+			Meshullam_Meshullam Mevasser_Mevasser Mevorakh_Mevorakh Misgaviya_Misgaviya Mishael_Michael Moses_Moses Muammar_Muammar Mubarak_Mubarak 
+			Mufaddal_Mufaddal Muhriz_Muhriz Muhsin_Muhsin Mukhtar_Mukhtar Muqbil_Muqbil Musa_Moses Musafir_Musafir Muwaffaq_Muwaffaq 
+			Nahman_Nahman Nahray_Nahray Nahum_Nahum Nasr_Nasr Nathan_Nathaniel Nethanel_Nathaniel Nissim_Nissim Nufay_Nufay 
+			Obadiah_Obadiah Paltiel_Paltiel Perahya_Perahya Qasasa_Qasasa Rahma_Rahman Rahmamin_Rahmamin Raja_Raja Rashid_Rashid 
+			Rayhan_Rayhan Rayyis_Rayyis Saada_Saada Saadya_Saadiah Sad_Sad Sadaqa_Sadaqa Sadel_Sadel Sadoq_Sadoq 
+			Sadr_Sadr Safi_Safi Sahl_Sahl Sahlan_Sahlan Sahlawayh_Sahlawayh Said_Said Salam_Salam Salama_Salama 
+			Salih_Salih Salman_Solomon Salmuna_Solomon Samuel_Samuel Sandal_Sandal Sariyy_Sariyy Sason_Samson Sedaqa_Sedaqa 
+			Semah_Semah Shabbat_Shabbat Shabbetay_Shabbetay Shalom_Shalom Shaman_Shaman Shaul_Saul Shaya_Shaya Shekhanya_Shekhanya 
+			Shela_Shela Shelah_Shelah Shemarya_Shemarya Shemaya_Shemaya Shua_Shua Siba_Siba Sighmar_Sighmar Simha_Simha 
+			Solomon_Solomon Sulayman_Solomon Surur_Surur Tahir_Tahir Tahor_Tahor Tajin_Tajin Tammam_Tammam Tanim_Tanim 
+			Tarib_Tarib Tovia_Tovia Ulla_Ulla Umayra_Umayra Usayd_Usayd Wahb_Wahab Yahya_John Yair_Yair 
+			Yaish_Yaish Yakhin_Yakhin Yaqub_Jacob Yehiel_Yehiel Yekuthiel_Jekuthiel Yeshua_Jesus Yihye_Yihye Yukuthiel_Jekuthiel 
+			Yusha_Yusha Yusuf_Joseph Zachariah_Zachary Zakarriyya_Zachary Zayn_Zayn
+			}
+		female_names = {
+			Abla_Abla Afaf_Afaf Akramiyya_Akramiyya Alam_Alam Amaim_Amaim Atika_Atika Aziza_Aziza Bagdad_Bagdad 
+			Bahiyya_Bahia Banat_Banat Banuqa_Banuqa Baqa_Baqa Baqiyya_Baqiyya Baraka_Baraka Barra_Barra Berakha_Berakha 
+			Bushr_Bushr Cassia_Cassia Dalal_Dalal Dhahab_Dhahab Dhukhr_Dhukhr Diya_Diya Esther_Esther Fadla_Fadla 
+			Fahda_Fahda Faiza_Faiza Fakhr_Fakhr Faraj_Faraj Farajiyya_Farajiyya Faras_Faras Furayja_Furayja Ghaliya_Ghaliya 
+			Ghunya_Ghunya Haritha_Haritha Hasab_Hasab Hasna_Hasna Haya_Haya Hayfa_Hayfa Haziyya_Haziyya Hiba_Hiba 
+			Hilala_Hilala Husn_Husn Jamila_Jamila Jawhara_Jawhara Jayyida_Jaida Karima_Karima Kassah_Kassah Khafar_Khafar 
+			Khalifa_Khalifa Khazariyya_Khazariyya Khiba_Khiba Khulla_Khulla Kifa_Kifa Kufu_Kufu Labwa_Labwa Layla_Leila 
+			Maani_Maani Mahfuza_Mahfuza Malika_Malika Mawadda_Mawadda Mawlat_Mawlat Maymuna_Maymuna Milah_Milah Miriam_Maria 
+			Muammala_Muammala Muazzaza_Muazzaza Mubaraka_Mubaraka Mudallila_Mudallila Muffadat_Muffadat Muluk_Muluk Muna_Muna Munisa_Munisa 
+			Naama_Naama Naba_Naba Nabila_Nabila Nafisa_Nafisa Najiya_Najiya Nasab_Nasab Nasiya_Nasiya Nasr_Nasr 
+			Nazar_Nazar Nisaba_Nisaba Qurra_Qurra Rafia_Rafia Ramle_Ramle Rashida_Rashida Rayyisa_Rayyisa Rebekah_Rebekah 
+			Rivka_Rivka Saada_Saada Sabah_Sabah Sadah_Sadah Salama_Salama Samra_Samra Sara_Sarah Sarwa_Sarwa 
+			Sayyida_Sayyida Sittan_Sittan Sitthum_Sitthum Sittuna_Sittuna Sumr_Sumr Surura_Surura Sutayt_Sutayt Talba_Talba 
+			Tawfiq_Tawfiq Thamira_Thamira Tujjar_Tujjar Turayk_Turayk Turfa_Turfa Turkiyya_Turkiyya Wad_Wad Wazira_Wazira 
+			Wuhsha_Wuhsha Yaman_Yaman Yumm_Yumm Zafira_Zafira 
+			}		
+		
+		from_dynasty_prefix = "ibin "
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+		
+		modifier = religiously_tolerant_culture
+	}	
+
+	italian_jewish = { #Italian Jews, based on Sephardic list originally compiled by Thure
+		graphical_culture = southerngfx
+		
+		color = { 0.5 0.55 0.35 }
+
+		male_names = {
+			Abba_Abbas Abdallah_Abdullah Abel_Abel Abiezer_Abiezer Abitob_Abitob Abner_Abner Abraham_Abraham Abshalom_Absolom 
+			Abud_Abud Adam_Adam Addi_Addi Aharon_Aaron Akiva_Akiva Allal_Allal Allouche_Allouche Aluf_Aluf 
+			Amar_Amr Amin_Amin Amnon_Amnon Amon_Amon Amos_Amos Amram_Amram Arie_Ariel Ariel_Ariel 
+			Asher_Asher Aslan_Aslan Ayush_Ayush Azaria_Azaria Aziz_Aziz Azoum_Azim Azran_Azran Azriel_Azriel 
+			Barukh_Barukh Barzilai_Barzilai Bekhor_Bekhor Ben-Tsion_Ben-Tsion Benyamin_Benjamin Berekhia_Berekhia Betsalel_Betsalel Boaz_Boaz 
+			Caleb_Kaleb Chebabe_Chebabe Chefatya_Chefatya Cherif_Cherif Damam_Damam Dan_Daniel Daniel_Daniel David_David 
+			Efraim_Efraim Elazar_Eliezer Eldad_Eldad Elghali_Elghali Elhanan_Elhanan Eliahu_Eliahu Eliakim_Eliakim Eliashiv_Eliashiv 
+			Eliezer_Eliezer Elisha_Elijah Elishama_Elishama Elkana_Elkana Eviatar_Eviatar Ezer_Ezer Ezra_Ezra Faradji_Faradji 
+			Farid_Farid Fraji_Fraji Gabriel_Gabriel Gad_Gad Gedalia_Gedalia Gershon_Gershon Ghali_Ghalib Gideon_Gideon 
+			Giora_Giora Habib_Habib Hagai_Hagai Hai_Hai Haim_Haim Hakham_Hakim Halim_Halim Hallil_Halil 
+			Hananel_Hananel Hanania_Hanania Hani_Hani Hannoun_Hannoun Hanokh_Hanokh Haouali_Haouali Hasdai_Hasdai Hassan_Hasan 
+			Hassin_Hasan Hillel_Hillel Hizkia_Hizkia Ibrahim_Abraham Imanuel_Imanuel Ishmael_Ismail Israel_Israel Itamar_Itamar 
+			Iyad_Iyad Jamil_Jamal KaIifa_KaIifa Kaduri_Kaduri Khaled_Khalid Khalfon_Khalfon Khalifa_Khalifa Khamus_Khamus 
+			Levi_Levi Maatuk_Maatuk Makhluf_Makhluf Malakhi_Malakhi Mallah_Malla Manoah_Manoah Mansur_Mansur Marzuk_Marzuk 
+			Mashiah_Mashiah Masliah_Masliah Matatia_Matatia Matsliah_Matsliah Mebourakh_Mebourakh Meir_Meir Meleh_Meleh Menahem_Menahem 
+			Menashe_Menas Mendil_Mendil Meshulam_Meshullam Messod_Messod Mevorakh_Mevorakh Meyuhas_Meyuhas Mikhael_Michael Mordekhai_Mordechai 
+			Moshe_Moses Naaman_Naaman Naftali_Naftali Nahman_Nahman Nahshon_Nahshon Nahum_Nahum Naim_Naim Natan_Nathaniel 
+			Natanel_Nathaniel Nehemia_Nehemia Nehorai_Nehorai Nisim_Nissim Noah_Noah Ohad_Ohad Ovadia_Obadiah Ozer_Ozer 
+			Perahia_Perahia Perets_Perets Pesah_Pesakh Petahia_Petahia Pinhas_Pinhas Rabenu_Reuben Rafael_Raphael Rahamim_Rahmamin 
+			Reuben_Reuben Saad_Said Saadia_Saadiah Saadon_Saadon Said_Said Salem_Salim Sason_Samson Sevi_Sevi 
+			Shabtai_Shabtai Shalev_Shalev Shalom_Shalom Shama_Shaman Shaul_Saul Shealtiel_Shealtiel Shem-Tov_Shem-Tov Shemaria_Shemaria 
+			Shemaya_Shemaya Shimon_Simon Shimshon_Samson Shlomo_Shlomo Shmuel_Samuel Shukri_Shukri Shushan_Shushan Sid_Sid 
+			Siman-Tov_Siman-Tov Simhon_Simon Suliman_Solomon Toubia_Toubia Toufik_Toufik Tov_Tov Tsadik_Tsadik Tsadok_Tsadok 
+			Tsemah_Tsemah Tsion_Tsion Ulad_Ulad Uriel_Uriel Uziel_Uziel Yaakov_Jacob Yaish_Yaish Yakir_Yakir 
+			Yamin_Yamin Yedidia_Yedidia Yefet_Yefet Yehezkel_Yehezkel Yehiel_Yehiel Yehoshua_Jesus Yehuda_Yehuda Yekutiel_Jekuthiel 
+			Yerahmiel_Yerahmiel Yeshaya_Yeshaya Yiftah_Yiftah Yihye_Yihye Yirmiyahu_Yirmiyahu Yisaskhar_Yisaskhar Yishmael_Ismail Yisrael_Israel 
+			Yitshak_Isaac Yoav_Yoav Yoel_Yoel Yohanan_Johan Yom_Yom Yona_Jonas Yonathan_Jonathan Yosef_Joseph 
+			Zebouloun_Zebulon Zeev_Zeev Zekharia_Zachary Zerah_Zerah Zerahia_Zerahia
+		}
+		female_names = {
+			Abigail_Abigail Ada_Ada Adina_Adina Agar_Agar Aida_Aida Aisha_Aisha Alia_Alia Aliza_Alice 
+			Aljafa_Aljafa Amalia_Amelia Amina_Aamina Amira_Aamira Awali_Awali Badra_Badra Bahia_Bahia Barucha_Berakha 
+			Bat-Sheva_Bathsheba Batia_Batia Bekhora_Bekhora Beya_Beyan Boulissa_Bulisa Brakha_Brakha Bulisa_Bulisa Camuna_Camuna 
+			Damtia_Damtia Dana_Dana Debora_Deborah Delisia_Delisia Dina_Dinah Dudun_Dudun Dulsae_Douce Edna_Edna 
+			Elisheva_Elisheva Ermoza_Ermoza Esther_Esther Estreya_Estreya Fakima_Fatima Farida_Farida Freha_Freja Gemila_Gemila 
+			Ghalia_Ghaliya Ghezala_Ghezala Gmara_Gmara Gulsum_Gulsum Habiba_Habiba Hadassa_Hadassa Hanem_Hanem Hanna_Hannah 
+			Hasiba_Habiba Hasna'a_Hasna Hava_Hava Haya_Hayat Hnina_Hnina Izza_Izza Jamila_Jamila Jemima_Jemima 
+	Johar_Johar Kabira_Kabira Kaden_Kaden Kamer_Kamer Kamuna_Kamuna Khamissa_Khamissa Laila_Leila Lea_Leah 
+	Lulu_Lulu Maatuka_Maatuka Malika_Malika Malka_Malka Marhaba_Marhaba Martha_Martha Maymona_Maymona Mazal_Mazal 
+	Menora_Menora Merkada_Merquada Merquada_Merquada Mesoda_Mesoda Mina_Mina Miriam_Maria Naama_Naama Nadjma_Nadjma 
+	Naomi_Naomi Naziha_Naziha Nehama_Nehama Oruçeti_Oruçeti Oumila_Oumila Palomba_Palomba Penina_Penina Presiada_Presiada 
+	Rahel_Rachel Rahma_Rahma Reyhan_Reyhan Rica_Rica Richetta_Ricarda Rivka_Rivka Rumiya_Rumiya Ruth_Ruth 
+	Saada_Saada Sabatia_Sabatia Saida_Saida Salma_Salma Saphira_Saphira Sara_Sarah Sedike_Sedike Shoshana_Susana 
+	Sida_Sida Simha_Simha Simone_Simonis Sitbona_Sitbona Siti_Siti Sultana_Sultana Susanna_Susana Tama_Tamar 
+	Tamar_Tamar Tamo_Tamo Tova_Tova Tsipora_Tsipora Turkia_Turkia Wardia_Wardia Yael_Yael Yafa_Yafa 
+	Yakot_Yakot Yamna_Yamna Yasmin_Yasmin Yehudit_Judith Yokheved_Yokheved Zahra_Zahra Zana_Zana Zinbul_Zinbul 
+		} 
+
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ben "
+		female_patronym = "bat "
+		prefix = yes
+
+		modifier = religiously_tolerant_culture
+
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 20
+		father_name_chance = 10
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 20
+		mother_name_chance = 30
+	}
+}
+
+papuan_group = {
+	graphical_culture = africangfx
+
+    papuan = {
+        graphical_culture = africangfx
+        
+        color = { 0.7 0.8 0.7 }
+		
+		used_for_random = no
+        
+        male_names = {
+            Abututi Ajuk Akali Ambua Asao Auwebe Bailom Bapak Beworpits Boas Buchtar Bunop Busoate Darawa Darew Daru Dicim Doyam Elape Enod-anem 
+			Ewago Fumeripits Ginu Halit Hubugaiyo Hune Ibatiri Isini Jagik Japusuok Kelape Kewago Khanduop Kilikili Kilu Kiluwa Kinim Kurelu Leiron 
+			Lemeane Lepeadon Maigi Mako Mangasesse Mangaueru Marunogere Mbakwi Mbuirepits Momakowa Munipumb Nakmatugi Nemayokh Nesoipits Nilik Nugu 
+			Opeko-anem Pako Pakure Phuba Piru Popaya Pore Pua Pumpa Pupurpits Refafu Repes Rukas Sefanpo Seitakap Sosom Taras Tewer Tomaiang Tukum 
+			Tumbrenjak U-mue Ukumhearik Umue Waba Wali Wamena Wawa Wea Weake Weaklekek Wejakhe Wena Weru Weyak Wiro Wiwa Wiwil Yakor Yali Yawi Yugil Yusak
+        }
+        female_names = {
+            Akwaliwa Aramemb Balu Bauwa Bis Dundame Dunumuni Elaboke Ganga Gunduba Jalige Khenei Korikuku Laka Lakeame Mbis Milige Nali Nambweapaw 
+			Ogonege Ribeka Rusa Teweraot Teweraut Waliwamb Wanumb Yanti
+        }
+
+        prefix = no
+
+        modifier = default_culture_modifier
+    }
+}
+
+
+serindian = {
+	graphical_culture = muslimgfx
+
+    khotanese = {
+        graphical_culture = persiangfx
+		second_graphical_culture = muslimgfx
+        color = { 0.4 0.2 0.75  }
+        
+        male_names = {
+            Alysanna Arsa Aryamgula Asi Baga Bahudhiva Bamdaka Bhadra Bradaysaa Brika Capastaka Ceguti Chika Daisai Dharma Dum Dzatsi Gostana Gulai Harka 
+			Haskadatta Huyi Hvam Hvarda Hvardamaya Hvimdu Ikam Irasamga Jabgu Jajahasa Kamnai Kayam Kharusa Khina Khuradatta Khvarnarse Kimashana Kimashani 
+			Kimatcuna Kirtti Kriti Kunala Kushtana Mamatti Manohara Murlimin Naganpaka Nipandaka Padatcaina Pakyau Phimduka Presamdha Punarrjam Punekula 
+			Purgula Raghu Samgai Samgaka Samgalaka Sangrama Sayausa Sham Shambhava Shikshananda Shinganca Shiresala Shirvamdai Shribhadra Shtrugize Shudamgula S
+			hura Sidaka Sihya Siladharma Simhyi Sthavira Sudarrjam Sudhana Sumauna Sumtharaka Tayasham Tcusyau Tcu?ttehi Vadhaga Vagiti Vaham Vahana 
+			Vardhana Varman Vasudeva Vidakai Vidaram Vijita Vijitasimha Vikrama Virsha Visaram Vishirapumna Visma Ysambasta Zambasta
+        }
+        female_names = {
+            Alsamgya Alyonj Armaiti Dharmadasi Khivyaina Maya Nanda Nirmala Praniyata Safali Shandramata Shri Tisyarakshita Vimala Vimalaprabha Yavalac
+        }
+
+        from_dynasty_prefix = "nava "
+        male_patronym = "puri "
+        female_patronym = "duda "
+
+        modifier = religious_and_culture_tolerant_culture
+    }
+
+    tocharian = {
+        graphical_culture = persiangfx
+		second_graphical_culture = muslimgfx
+        color = { 0.75 0.45 0.95  }
+        
+        male_names = {
+            Acila Acokisgiya Acufiaya Acuiiiya Acuni Acuniya Agisala Alyaya Amgoka Amguvaka Amkvaga Amkvage Amtgiya Amti Amto Anamdasena Anandavarman Angi 
+			Anugaya Apcula Apemna Apgaya Apge Apgeya Apigo Apmya Apniya Apta Aputa Aralyi Arcaka Ardeshir_Ardeshir Ardharasa Argi Argiceya Arispa Arjuna 
+			Arselis Arsina Aryasa Asamma Asan Asdhaya Asena Asham Asoga Asuraga Athama Augala Avana Aya Ayila Azuraka Bagusaina Balasena Balasura Balavama 
+			Bhagarka Bhagasena Bhagusena Bharsavadhi Bhasdha Bhatiga Bhatisama Bhatra Bhimasena Bhoti Bimmasena Bimna Brahmi Buddhacinga Buddhaisra Buddhatala 
+			Budhaghosa Budhamitra Budhanamti Budhapliarma Budharacfii Budharachi Budharachida Budhavama Budhaya Budhila Budhosa Bushi Bushibi Caclota Cacuka 
+			Cadhi Cadhiya Cadota Cagusena Cakasa Cakla Cakola Caku Cakurata Cakuraya Cakuvala Cakvala Calmadana Calmasa Camaga Camaka Camca Camja Campe 
+			Camtgala Canaga Caneya Cangeya Capeya Capnuneya Capyana Caru Caruveta Casgeya Casmina Cataraga Cataraka Catata Cateya Catgila Catisa Catmage Cato 
+			Catugeya Caule Cetrakirti Cgito Chakir Chhu Cigha Cigita Cikimto Cimaga Cimaka Cimga Cimge Cimgse Cimnaphara Cimola Cinama Cinapliara Cinasa 
+			Cinasena Cinika Cinyasa Cipitga Citughi Cmaga Codiru Codistri Conakara Cramaena Cugapa Cupoga Cuvalayina Dadavala Dajapala Danutreya Darova Daruge 
+			Devaputra Dhaci Dhaffiadara Dhafhapala Dhagiya Dhalnapriya Dhalnena Dhamaja Dhamakama Dhamalada Dhamamitra Dhamapala Dhamapri Dhamapriya Dhamasa 
+			Dhamasena Dhamasira Dhamasretha Dhameca Dhamila Dhammaramna Dhamnapala Dhamnila Dhapaya Dharma Dharmapriya Dharmaraksha Dhraka Dmusvamta Dryaehi 
+			Gamasena Gamca Gapika Gara Garaspa Gersivas Girmitra Goboziko Govadara Grananaprema Grasdha Gronasena Gronga Grumbat Heraus Hormazd_Hormazd 
+			Huvishka Jarge Jayasa Jebhatra Jepriya Jeyabhatra Jeyaka Jhanacamdre Jihmaya Jimoya Jitugha Jivadeya Jivaka Jivamitra Jivasama Jnanasene Kacana 
+			Kacano Kaci Kadphises Kake Kakeya Kala Kalasdha Kalu Kalyanadhama Kalyanakarimitra Kalyigeya Kamaya Kamcgeya Kamci Kamciya Kame Kamjaka Kamjiya 
+			Kamki Kamkuca Kanasaga Kandik Kane Kanika Kanishka Kapge Kapgeya Kapota Kapotae Kapumca Karamtsa Kararntsa Kartsa Katge Katila Kaucasshe Kayamdaga 
+			Kecana Keniga Kenika Keyumars Khara Khingila Khosa Kidara Kilyage Kilyagi Kilyagiya Kilyama Kipunada Kirteya Kirti Kirtisama Klemjiya Kogitasasa 
+			Koiiaya Kolamte Kolasi Koleta Kolgeya Kolyisa Kompala Koneta Kosgashka Kranaya Kreya Kriti Kroae Krunbin Ktesana Kua Kuamca Kuber Kude Kuiiita 
+			Kujula Kukita Kulavardhana Kulbhu Kuleya Kuluca Kumarajiva Kumdho Kumpara Kumsena Kumtsena Kunala Kungas Kungeya Kunita Kupsimta Kupsuda Kupsuta 
+			Kurage Kurageya Kusamta Kusanasena Kustanagga Kusulaka Kutaga Kutgeya Kutre Kutreya Kuuna Kuunge Kuvaya Kuvayici Kuvifieya Kuvineya Kvinaga 
+			Kyutseya Lakunagita Lala Lampurta Larishka Larsu Latsangi Layimmaka Laza Ldasa Lepata Lgipava Liaka Lipatga Livarazma Lokaksema Lokakshema 
+			Lugaya Luhrasp Lustu Luthu Lyimgaya Lyimge Lyimimna Lyimo Lyimsu Lyipama Lyipamma Lyipana Lyipatga Lyipe Lyipeya Lyipta Lyivrasma Lyupe 
+			Mahagiri Mahiri Mahiriya Mairi Makasa Maltsuta Mangeya Manigeya Manigi Marega Masaga Masdhige Mayiri Meghima Mendre Metroma Micgae Micorca 
+			Mihirakula Mitrapala Mitro Mochabudhi Mochakama Mochapri Mochapriya Mochasena Mogata Moge Mogecika Mogeya Mogi Mogiya Molyina Mosdhaya Motega 
+			Moteka Motge Mudhaiitsa Muldeya Multeya Murunda Mutrasra Mutreya Namarazma Namata Namdasena Namdhaka Nammasura Namsuka Namtiga Namtipala Napugi 
+			Narasaka Naravahanadatta Narsita Nasova Nastimta Natasrrmi Navote Nimeya Nyanaviri Oga Ogaca Ogiya Onugi Opave Opge Opgeya Opimta Opuge Pabis 
+			Pacgoyae Pagina Pago Pakhi Pakusena Pakuva Pakuvaya Pakvaya Palge Palnamto Palugeya Pamcama Pamcatva Pamcimna Pamcina Panagara Parneya Parpana 
+			Parsu Parsuge Parvata Pataya Patika Patraya Payina Peco Pepiya Pepriya Peroz_Peroz Pgeca Pgena Pgeya Pgi Pgina Pgita Pgiya Pgoco Pgu Phaklu 
+			Phamaja Phapaya Phuinaseva Phumaseva Phuvasena Picga Pigita Pite Piteca Piteya Pitga Pitseya Plata Platga Pleya Pogana Ponicga Ponigana Porkota 
+			Portsaya Posarsa Priska Priyapata Priyaratna Priyasri Priyavada Priyavaga Priyosa Prusdhaya Pugo Pultsaya Pumfiabala Pumfiadeva Pumfiasena 
+			Pumiiasena Pumnabala Pumnavamta Pumnavati Pumnyabala Pumnyasa Punamo Purnabala Purnadana Purnasa Purnasena Purnnyabala Pursavara Purzavara Puse 
+			Pusgari Racgeya Rahulatga Ramaka Ramastso Ramatsoga Ramsotsa Rasena Raspara Rasvara Rathapala Ricikga Ricilkga Ridhasena Ripti Rohana Rokitsi 
+			Ronaprema Ropgeya Rtveladze Rutra Rutrapala Rutrasena Rutraya Sa-Nu Saca Sacha Sadarsana Sadaskana Sagamovi Sagamoya Sagana Sagapeya Sagima 
+			Sagimoya Sakha Sakhusa Salanavira Salar Salueya Saluveta Saluviya Salve Salveta Samajha Samamnera Samasena Sambhava Samca Sameka Samgaparana 
+			Samgarachi Samgaratha Samgasira Samgasri Samgha Samghabudhi Samghadharima Samghaparana Samghapriya Samgharachi Samgharaclii Samghasena Samghila 
+			Samghosa Samluve Sammapri Sammarya Samngo Samogata Sanab Sanaga Sapalbiz Sapuga Saraspa Sarivara Sarmagarachiya Sarngarama Sarpe Sarpiga Saru 
+			Sarvasrre Sarvatrata Sarviga Sekla Semniga Seraka Sevasena Sgasi Shahanshahi Shahi Shaka Sictnaya Sigayita Signaya Silaprabha Silaprava Sira 
+			Sirasa Sirmitra Siru Sirzata Siyavush Smati Socara Somcaka Somjaka Sotaya Sotuge Spaktanik Spalyaya Spirta Spyi-pri Srasdha Srimitra Sriste 
+			Srivamma Srustinga Sruthe Sucama Sucamma Sugi Sugika Sugita Sugiya Sugnuta Suguta Suhavati Sujada Sujata Sukmana Sumadata Sumata Sunamta Sundara 
+			Suryamitra Sutahar Suthu Suvarnamasuga Suvarnapala Suvaya Suyama Svaka Svaneya Svarasena Svarnabala Svaya Tagira Tagu Tajaka Takra Takto Tamaspa 
+			Tamcano Tamcgeya Tameya Tami Tamjaka Tatiga Tgaca Tiraphara Tirapiiara Titsa Togaja Tolayana Tomgraka Toramana Tryaclii Tryaehi Tsaga Tsagirsta 
+			Tsaroka Tsgatsi Tsimava Tsimaya Tsina Tsomgo Tsordhoe Tsugenamma Tsugesila Tsugesla Tsugiya Tumpala Tusana Ucadhina Ugra Upasena Upateyu Uvasena 
+			Uyage Vahana Vajesa Vammasula Vamto Vamtuavana Vanamato Vanamkha Vapika Vapo Varhran Varpa Varpe Varpeya Vasishka Vaskushana Vasmana Vasudeva Vato 
+			Vekumjiya Vemasena Vespasi Vidhura Viharavala Vijaya-Bala Vijaya-Dharma Vijaya-Jaya Vijaya-Kirti Vijaya-Sambhava Vijaya-Samgrama Vijaya-Sastra 
+			Vijaya-Simha Vijaya-Sura Vijaya-Vahana Vijaya-Vikrama Vijaya-Virya Vima Vinayaditya Vishtapsi Vua Vugaca Vugeya Vugica Vugina Vuginga Vugto Vukimna
+			Vukimtga Vukto Vumeya Vurdhiya Vuru Vusmeka Vutsava Vyarivala Winanne Wrauske Yagpu YanaSrimitra Yapgu Yasala Yehu-La Yen Yilaga Yili Yipicga 
+			Yipiya Yirumdhina Yitaka Yogasena Yonge Yonu Ype Yudhishthira Zagimoya
+		}
+        female_names = {
+            Apisae Argiyotgisaae Atamsiyae Cakuvaae Camasriae Camavati Camoae Camtamnoae Camtroae Catisae Catroae Cimikae Cinasyaniyae Cinga Cukapae 
+			Dhamasriae Dirsateyae Kacaka Kaciyae Kamcgoae Koloae Konuma Konumae Koparsaniae Kosenae Kosenaya Kuti Laroae Lyimisoae Lyipaae Mumtritsae 
+			Namilgaae Namisyanae Namsanae Paluvisae Pgisa Priyaniae Pumfiavatiyae Pumnalazaae Ramasri Ramasriae Ramatiae Ramomtiae Ramotiyae Saganapaae 
+			Saluvaae Saluve Samapriae Samoae Sariyae Sarpina Sarpinae Sarvasriae Simasriae Smagasae Smitsae Somjagrrae Somjasrryae Sriyavamtiae Sugisae 
+			Sugnumae Supriyae Suvisae Tamasyanae Tamcina Tilutamaae Tsimnaae Tsinae Visaliae Vuruvisaae
+		}
+
+        from_dynasty_prefix = "auz "
+
+        modifier = religious_and_culture_tolerant_culture
+    }
+
+    uighur = {
+
+       graphical_culture = persiangfx
+	   second_graphical_culture = muslimgfx
+
+       color = { 0.45 0.05 0.80 }
+
+		male_names = {
+			Adigh Afaq Arslan Art Bagha Barchuq Bars Bayanchur Bazh Bilge Bogu Boyla Buqa Buzurb Bögü Böra Chawar Dost Elterish Eretna 
+			Erkin Hushu Ilteber Ishana Juluobo Kebek Kulug Kurebir Kutlug Kül-Erkin Ormïzt Palta Pan-kül Peilo Pojuan Pusa Qaplan Qara Qasar Setiwaldi 
+			Sheto Shingqur Süpürga Tardu Tatatunga Tay Tegin Tekin Tengri Tiliwaldi Toghril Tuchiachi Tumitu Tun Tunga Turdi Turghan Tursun Tusun Tutuk 
+			Tömür Wuhe Yabgu Öge
+		}
+
+		female_names = {
+			Altun Aykhan Chechak Ghuncha Gül Hawa-gül Hidligh Ibadat-gül Ilbilge Iparhan Khanum Kunduz Ninguo Pati-gül Po Ruqiya Yultuz Zuleiha Zuwida
+		}
+
+        modifier = religious_and_culture_tolerant_culture
+    }
+
+	sogdian = {
+		graphical_culture = persiangfx
+		second_graphical_culture = muslimgfx
+		color = { 0.2 0.05 0.3 }
+		
+		male_names = {
+			Abarzi Abu_Abu Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh 
+			Artivan_Ardavan Aspandhat Asthath Astken Aurang_Aurang Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Babak_Babak Bahram_Bahram 
+			Banda Barak_Barak Bharkhuman_Bharkhuman Bhurz_Bhurz Bidun Bonyat Buddhadasa Chakar_Chakar Chakhapak Chakhren_Chakhren Cher_Cher Chetvandak Dariush_Darius 
+			Devadasa Dewashtich_Dewashtich Dhakh Dhruwaspvandak Dizo’i Esfandiar_Esfandiar Eskander_Alexander Ewakhsh Faramarz_Faramarz Farhad_Farhad Farn Farnaghat 
+			Farnch Farnkhund Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fatmiwach Ferdows_Ferdows Fereedun_Feridun Frikhwataw Ghawtus Ghobad_Ghobad 
+			Ghoshfarn Ghotamsach Godarz_Godarz Goshtasb_Goshtasb Hazarasp_Hazarasp Hormazd_Hormazd Hormoz_Hormoz Ibrahim_Abraham Induk Irkin_Irkin Ishaq_Isaac Jamshid_Jamshid Jiamut 
+			Jimatvande_Jimatvande Kana Kanak_Kanak Kanakk Karakana Kartir Karzhtik Kavoos_Kavoos Kaway Kharstrang Khosrow_Khosrow Khun Khurshid_Khurshid Khwadhawanakk 
+			Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush_Cyrus Kushan Kushanakanak Mak Makhak_Makhak Marti Marzuban_Marzuban Maymarghch Methakan Mew Miren 
+			Muqanna Nanai Nanaidhvar Nanaifarn_Nanaifarn Nanaikhsay Nanaithvar_Nanaydvar Nanaizanch Nanayakk Nanevante_Nanevante Narisaf Narshakhi Nawchirth 
+			Nibothak_Nibothak Nipak_Nipak Nithan_Nithan Ot-tegin_Ot-tegin Papakk Parsak Parviz_Parviz Pashang_Pashang Patrodhan Pekako Peroz_Peroz Pesakk 
+			Pujman_Pujman Qotayba Qishiq_Qishiq Ramtish_Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan_Rokhshan Rostam_Rostam Rutha Sagharak Sas Sasan Satasp 
+			Sesh_Sesh Shahbaz_Shahbaz Shahin_Shahin Shahrokh_Sharokh Shans Shapur_Shapur Shaw_Shaw Shennu_Shennu Shirch Sina_Sina Skan Spadh Spadhkharsh Srawakk 
+			Stayidh Suryakk Tahmasb_Tahmasb Takhsich Takhsichvandak Takut Tarkhun_Tarkhun Taw Tir Tishtrya_Tishtrya Tishvandak Togshada Turghar_Turghar Ukhushukan_Ukhushukan 
+			Urak_Urak Vagh Vaghrew Vahhab_Vahhab Varshasb_Varshasb Varzak_Varzak Varzirak Vishtasb_Vishtasb Viyus_Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak 
+			Wankaway Wankhanak_Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow_Keykhosrow Y’n_Y’n Zand_Zand Zartosht_Zartosht Zymt_Zymt
+		}
+		female_names = {
+			Aghatzak Anakhit Arghavan_Arghavan Banafsheh_Banafsheh Chat_Chat Chatis Chet Chinanch Darya_Darya Funa_Funa Furuzan_Furuzan Ghamze_Ghamze Ghoncheh_Ghoncheh 
+			Golbahar_Golbahar Golshan_Golshan Khansch Makh Mah_Mah Mahtab_Mahtab Miwnay Nana_Nana Nanai_Nanai Nanaidhat Navvaba_Navvaba Nazgol_Nazgol 
+			Nazilla_Nazilla Parvaneh_Parvaneh Parvin_Parvin Ranisa Roxana_Roxana Sanakhram Shahrzad_Shahrzad Shahzadeh_Shahzadeh Shayn Shirin_Shirin Touran_Touran 
+			Yasaman_Yasaman Yena_Yena
+		}
+
+		from_dynasty_prefix = "m "
+		male_patronym = "zk "
+		female_patronym = "zk "
+
+		modifier = religious_and_culture_tolerant_culture
+	}	
+	
+}
+
+south_slavic = {
+
+	graphical_culture = easterngfx
+	
+	gepid = { # Gepids
+		graphical_culture = norsegfx #gepidgfx
+		
+		color = { 0.6 0.6 0.8 }
+	
+		male_names = {
+			Ardaric Armatus Athanaric Audomharjaz_Omharius Bonos Calluc Cniva Constantinus_Constantine Cunimund Edeko Edika Elemund Fastida Gelemund Giesmus 
+			Gunderith Ioannes_John Leupichis Marcus_Marcus Mauricius_Maurice Mundonus Mundus Omacar Omharius_Omharius Ostrogotha Ounulf Paulus_Paul Peredeo 
+			Peter_Peter Reptila Stephanos_Stephen Suartua Thela Thrasarik Thurisind Trapstila Trasericus Turismod Usdibad Warnefrid
+		}
+		female_names = {
+		   Amalaberga Amalafrida Amalasuntha Anna_Anna Arevagni Austrigusa Christina_Christina Clementia_Clementia Ereleuva Gudeliva Gudrun Hervor Ildiko 
+		   Irene_Irene Maria_Maria Matasuntha Ostrogotha Rosamund Sara_Sarah Sophia_Sophia Stephania_Stephania Sunigilda Teudigota Theodegotha Theodelinda 
+		   Theodora_Theodora Zoe_Zoe
+		}
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 5
+		mat_grm_name_chance = 5
+		mother_name_chance = 5      
+		modifier = default_culture_modifier
+	}
+	pannonian = { # Pannonian Romance
+        graphical_culture = westernslavicgfx
+        
+        color = { 0.65 0.45 0.25 }
+    
+        male_names = {
+            Antonio_Antonius Apricanu Arelio_Aurelius Artebus Batsio Brogduos Brutus_Brutus Generido Hadreano_Hadrianus Iodorus_Theodore Iogenio_Eugene 
+			Iulio_Julius Luciniu Lugnu Marco_Marcus Matsiu_Matthew Mesala Moge Odoacer Paulus_Paul Petru_Peter Priscu Sevru_Severus Tiofilus_Theophilus 
+			Tiognis Tiotigino Urso_Ursus Valerio_Valerius Vidassus
+        }
+        female_names = {
+           Aelia Anna_Anna Antonia Deane_Diana Domnica Iulea_Julia Lucea_Lucia Mara Maria_Maria Sabina Sofea_Sofia Thana Tiodora_Theodora 
+		   Tiofila_Theophila Utsia Valerea_Valeria 
+        }
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 25
+        mat_grf_name_chance = 20
+        father_name_chance = 25
+        
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 15
+        mat_grm_name_chance = 15
+        mother_name_chance = 15      
+        modifier = default_culture_modifier
+    }		
+
+}
+
+#Some of these cultures are unused, but were added for fun nevertheless - use at your own risk
+
+sinic = { # EAST ASIAN in-game
+	graphical_culture = mongolgfx
+
+    chinese = {
+
+		graphical_culture = mongolgfx
+
+		color = { 0.99 0.99 0.01 }
+	   
+		used_for_random = no
+
+		male_names = {
+			Anshi Bai Baiqi Baisha Baiwen Bao Baoheng Baorong Baoxu Bei Bi Bian Biao Bida Bin Bing Bo Bogong Bogui Boqing Bu Can Caolu Chang Changben Changyuan 
+			Chao Che Chen Cheng Chengda Chengxun Chengyou Chong Chonggao Chonggui Chongji Chongjin Chongmei Chongrui Chongwang Chongxin Chongxuan Chongyang Chongyi 
+			Chongying Chongyu Chuanliao Chuansu Chun Chundao Chuyun Ci Cishan Ciwang Cong Congdang Conghou Conghui Congjia Congke Congqian Congrang Congrong 
+			Congshen Congyi Congyu Cui Cunxu Da Dao Daolong Dashen Dexing Deyuan Dezhao Di Dong Duo Fang Fangde Fei Fen Fengliu Fu Fude Gang Gao Gaochi Gaosui 
+			Gaoxi Gaoxu Gong Gongfu Gongmao Gonzao Gou Guan Guang Guangbi Guangda Guangmei Guangqi Guangyi Gui Guitu Hao He Heng Hongbi Hongcao Hongchang Hongchu 
+			Hongdao Hongdu Hongfan Honggao Hongji Hongjian Hongmiao Hongwei Hongwo Hongxi Hongxin Hongxuan Hongya Hongyang Hongyi Hongyin Hongyou Hongze Hongzhao 
+			Hongzheng Hongzhuan Hongzong Hongzun Hongzuo Hong’an Honzahn Houcong Houwei Houzhao Houzhu Hu Hua Huaide Huan Huang Hui Huizu Ji Jian Jianchun Jianfeng 
+			Jianji Jianjun Jianlin Jianpei Jianshen Jianshi Jianshu Jianze Jianzhi Jichan Jichong Jie Jigong Jiji Jiming Jin Jing Jingda Jingdi Jinghua Jingqian 
+			Jingsui Jingtang Jingtong Jingxuan Jiong Jipeng Jirong Jisong Jitao Jitong Jiushao Jixing Jiyan Jiyao Jiyu Jiyuan Jizong Ji’en Jun Junshi Juren Juzheng 
+			Kan Keda Kefu Kerang Keyong Kuan Kuangji Kuangmei Kuangyi Kuangyin Kuangzan Kui Kun Kuo Lian Liang Lin Linghua Lingwu Lishan Liu Longyang Lu Luan Lun 
+			Luzhi Mai Maozhen Meng Mengqi Mengyan Mi Min Mingcheng Minzhai Minzhong Miyuan Mo Naiyou Nan Pian Pu Qi Qian Qiaoxin Qilao Qingge Qingtian Qiu Qiyu Qu 
+			Quan Quanzhong Qubo Que Rangneng Rencao Rende Renyi Renyu Renzan Renzhi Rong Ruoshui Shao Shaoyong Sheng Shenquan Shenzhi Shi Shifan Shihuang Shinan 
+			Shiqi Shizhong Shou Shouli Shu Shuang Shunfu Sicheng Sidao Side Siqi Sixun Song Songnian Songrui Su Sui Sun Taiyi Tan Tang Tao Ti Tian Tianfu Tianxiang 
+			Tinggui Tingjian Tingmei Tingxiang Tingxiu Tingyin Tingzhi Tong Tuan Tuozhou Weixian Weiyo Weiyong Weizhong Wen Wengui Wenji Wenkui Wenkun Wenlong 
+			Wenwei Wo Wuyi Xi Xian Xiang Xianzhang Xichong Xifan Xigao Xiguan Xiguang Xijun Xilang Xin Xineng Xinfu Xingmi Xingmin Xiongying Xisheng Xiu Xiufu 
+			Xiwang Xiyin Xizhan Xizhao Xizhen Xizhi Xi’e Xu Xuan Xun Yan Yanbao Yanbin Yanchang Yanchen Yanfeng Yangming Yangui Yanhan Yanhui Yanjun Yanmei Yanruo 
+			Yanshou Yanwang Yanwu Yanxi Yanzhang Yanzhao Yanzheng Yanzong Yaoshu Ye Yi Yifan Yige Yiju Yin Ying Yinggong Yingxu Yiqing Yiye Yiyong Yizhong Yong 
+			Yongde You Youbin Yougong Yougui Youheng Youhui Youji Youkai Youlun Youqi Youqing Yourang Youshu Youshun Youtang Youwen Youyong Youyu Youyuan Youyun 
+			Youzhang Youzhen Youzi Yu Yuan Yuancheng Yuandai Yuanfen Yuang Yuangjie Yuanliao Yuanming Yuanpu Yuanwo Yuanxi Yuanxiang Yuanyan Yuanyi Yuanzhang 
+			Yuanzuo Yue Yun Yunching Yunjian Yunrang Yuntong Yunwen Yunxi Yuqun Yurui Zaicheng Zanhua Zao Ze Zeduan Zengbo Zengshou Zhan Zhangang Zhangyuan Zhanji 
+			Zhankai Zhanshan Zhanxun Zhanyan Zhanyin Zhanyong Zhanyu Zhaodu Zhaowei Zhaozuo Zhen Zhengchang Zhengyan Zhewei Zhi Zhigao Zhijin Zhixiang Zhiyuan 
+			Zhong Zhongde Zhongji Zhongqing Zhongxuan Zhongyan Zhu Zhuan Zi Zicheng Zisheng Zonghui Zongjin Zongquan Zongrang Zongxun Zunwu Zuo Zuqian
+		}
+
+		female_names = {
+			Ancheng Anhua Anqing Anyang Baoqing Cailuan Chadan Chang Changde Changle Changning Changtai Changyuan Chen Chonge Chonghua Chongning Chouzhen Chu 
+			Chuiping Chuniang Chunjie Chun’an Cuibing Cuiluan Cuiping Daming Daoqing Daosheng Da’er Dehui Deng Deqing Derong Deyuan Dezhen De’an Diaochan Diaogei 
+			Doupo Du Duanduan E Fan Fansu Fanxi Feiyan Fengcheng Fengjie Fomu Fonu Fu Fujin Fuqing Guang Guangde Gui Gun Gu’an Hanshan Hanyue Hongfu Honghong 
+			Hong’er Hua Huaiqing Huarui Hui Huiming Huiyuan Jialian Jianchang Jiangdu Jiashan Jiaxiang Jiaxing Jiehao Jieyu Jinfeng Jing Jingchong Jinglan Jingshun 
+			Jinhua Jinlian Jinluan Jiongying Kui Lan Leping Lian Lin’an Longqing Lu Luanluan Lun Mei Meifang Meiping Meizi Miaofeng Miaoniang Miaoqu Miaoyin Mu 
+			Mulan Mushun Nankang Nanping Neiming Ning Panpan Pingyang Pingyuan Pukang Puning Pu’an Qi Qian Qing Qinghe Qingnu Qingzhao Qiongying Qixiang Ranmei 
+			Renhe Renshou Rong Roujia Runing Ruozhao Ruyang Ruyi Saijin Sai’er Shang Shangrao Shen Sheng Shengtang Shiguang Shishi Shouchun Shuduan Shun Shunde 
+			Shuzen Shuzhen Shuzheng Su Suizhen Taihe Taikang Tang Tangqiao Tangxing Tao Taotao Tongchang Wa Wan’er Wenchen Wuniang Xian Xiangjun Xiangling Xianning 
+			Xianxian Xianyou Xiaochengjing Xiaoman Xiaoshu Xiaowan Xiaoxiao Xindu Xingguo Xinxing Xinyue Xin’an Xiumei Xiurong Xi’er Xu Xuanji Xueying Xunyang Yang 
+			Yanping Yanshu Yanxiu Yao Yaoniang Yaose Yaoying Ye Yi Yichang Yihua Yihui Yilun Yin Yincheng Yingying Yinshen Yinzhe Yishun Yixing Yi’an Yongkang 
+			Yongming Yongning Yongping Yongqing Yongshou Yongxing Yong’an Youcheng Yu Yuantong Yuanxiao Yuanzhen Yue Yuhuan Yulien Yuluo Yuniang Yunying Yushan 
+			Zhangzeng Zhao Zhaobi Zhaoqi Zhaoyi Zhaoyun Zhen Zhending Zhenning Zhenyi Zhen’er Zhouchen Zhu Zhunhua Zhuodiu Zhuzhu Zihe Ziye Ziyi
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+		prefix = no
+
+		modifier = default_culture_modifier
+    }
+	
+	vietnamese = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.9 0.9 0.15 }
+		
+		used_for_random = no
+        
+        male_names = {
+            An An-Di An-Toan Anh Anh-Han Anh-Vu Bac Bach-Ho Ban Bang-Cu Bao Bat-Cap Bi Bien Binh Binh-Trong Bo-Linh Boc Ca-Dao Cam-Moc Can Can-Duc Canh Canh-Thac Cat-Nguyen Cham Chieu Chim Chinh-Binh Chong-Duy Chu Chu-Tuong Chung Chuong Cong-Bat Cong-Han Cong-Tien Cong-Tru Cong-Uan Dai-Nien Dan Dang-Dung Dao-Hanh Dao-Thanh Di Di-Mong Dien Dinh Dinh-Chi Dinh-Nghe Dong Du Duc Dung Duong Duong-Hoan Duong-Long Duy Gia Giac-Mat Giang Hai Han-Sieu Hang Hang-Lang Hao Hich Hien Hien-Thanh Hien-Tich Hieu Hoa Hoai Hoan Hoang Hoc Huan Huc Hung Huy Ich-Tac Kha Kha-Vinh Khac-Chinh Khac-Chung Kham Khanh Khanh-Du Khat-Chan Khe Khoa Khoai Khoan Khoang Khoi Khoi-Nguyen Khuong Kiem Kien Kim Kinh Kinh-Tu Ky-Son Lai Lam Le Lenh-Cong Liem Lien Liet Lieu Loc Loi Long-Can Long-Dinh Long-Trat Long-Viet Ly Man Manh Mich Minh Minh-Khong Mong Nam Nam-Tan Ngac Ngan Ngoi Ngu-Lao Ngung Nguyen-Buu Nguyen-Dan Nguyen-Dieu Nguyen-Duc Nguyen-Han Nguyen-Hu Nguyen-Hy Nguyen-Thach Nguyen-Tiet Nguyen-Trac Nhan-Chu Nhan-Tong Nhat-Chuong Nhat-Duat Nhat-Hieu Nhat-Khanh Nhat-Le Nhat-Ton Nhat-Vinh Nhu-Cai Nhu-Hai Nien Phe-De Phong Phu Phu-Tran Phuc Phuoc Quang Quang-Khai Quoc-Chan Quoc-Khang Quoc-Nghien Quoc-Toan Quoc-Tu Quoc-Tuan Quy-Ly Quy-Nguyen Quyen Sa Sat Si-Co Si-Lien Sieu Son Su-On Sy Tan Teo Thai Thai-To Thai-Tong Thanh Thanh-Huan Thanh-Tong Thau Thiem Thien-Loc Thien-Sach Thien-To Thien-Trach Thu-Do Thu-Tiep Thua Thua-Du Thua-My Thuan Thuan-Duc Thuc-Loan Thuc-Ngan Thuong Thuong-Kiet Thuy Thuyen Thuyet Tien Toan Ton-Nguyen Tong Trai Tri Trien Trinh Trung-Ta Tu Tu-Binh Tu-Tien Tuan Uong Van-An Van-Huu Van-Thinh Van-Xao Vi Viet Vuong Xi Xuong Xuong-Ngap Xuong-Van Xuong-Xi Y
+        }
+        female_names = {
+            An An-Tu Anh Bach-Yen Bao Bi Bian Cau Chau Chieu-Hoang Dao Diem Diep Dung Duong Duyen Hang Hanh Hao Hien Hoa Hong Hop Hue Hue-Chan Huong Huy-Chan Huyen Huyen-Tran Khanh Khue Khuong Khuyen Kieu La-Thanh Lan Lieu Linh Loan Ly My My-Dung My-Linh My-Phuong Ngoc-Tha Nguyen-Dan Nhi Nhu Nhung Nu Phuong Quac Quang-Loan Quynh Sen Thanh Thanh-Chan Thanh-Nhau Thao Thi Thien Thien-Chan Thien-Cuc Thu Thuc-My Thuong Thuy Thy Tiem Tien Toan Trang Trinh Trung Tu Tuyen Tuyet Uyen Van-Nga Vui Xuan Y-Thinh
+        }
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+        prefix = no
+
+        modifier = default_culture_modifier
+    }
+	
+    khitan = {
+
+		graphical_culture = mongolgfx
+
+		color = { 0.95 0.95 0.1 }
+		
+		used_for_random = no
+
+		male_names = {
+		Abaoji Abo Abugu Aguo Aguzhi Ala Anquan Anshi Asi Baiqi Baiwen Baiya Bei Bi Bida Biegute Bingchang Bogong Boqing Caolu Chala Changyuan Changyun Cheng 
+		Chengjun Chixin Chonggui Chongrong Chucai Chun Chunyou Chuzhi Ci Cite Ciwang Dali Dao Daoyin Dashi Deguang Deming Dewang Deyuan Di Diela Dilie Dilu 
+		Dorlipun Du Duolubu Duoluo Duomi Fangde Fuguzhi Fuliu Fuyi Gan Gang Gaoligu Gongmao Gongzao Gou’er Guan Guang Guangbi Gui Guochang Guozhe Hao He 
+		Hechen Hongben Hongdao Hongfan Hongji Hongyong Hongzhen Hougu Huaijie Huaixiu Hudujin Hui Huiyuan Hunhe Jie Jin Jing Jingtang Jinzhong Jiqian Jiuli 
+		Jiushao Jiyuan Ji’en Jue Jun Junshi Kaigu Kailuo Keda Keling Kenagan Ketuyu Keyong Kuan Kuge Kui Kuo Liangzuo Lihu Lin Linggong Lishan Liuge Loguo 
+		Longqing Longxian Longxu Longyou Louguo Lu Luju Luzhi Mada Mai Maozhen Min Ming Mingyi Mohui Naihe Nieli Nielieji Noulisi Nu Paolu Pedie Pusuwan Qi 
+		Qianshun Qinde Quchulu Quju Qulie Qulu Renxian Renxiao Ruan Sage Salade Saladi Sha Shao Sheng Shenmi Shi Shihuo Shilu Shinan Shizhong Shu Shulu Si 
+		Sicheng Sidao Side Song Songrui Suogu Tabuyan Tadun Tai Taishan Taishi Taiyi Temei Tianxiang Tingjian Tong Tuguci Tuyu Waihe Wangrong Wansi Wanxin Wei 
+		Wen Wenshunu Wenzao Wolila Wotela Wuge Wujun Wumo Wuyi Wuyu Wuzheng Xi Xian Xiangwen Xiaozheng Xiaozhong Xiazhen Xidi Xinie Xiu Xiuge Xi’er Xunning 
+		Yali Yan Yangxi Yanxi Yanzhang Yaogu Yaoshinu Yi Yilie Yiliu Yixinning Yongning Yougui Youqing Youyu Yu Yuanhao Yunching Yundeshi Yuyu Zanhua Zao 
+		Zeduan Zengbo Zhangyuan Zhaosan Zhen Zhengchang Zhengyan Zhibuwu Zhigu Zhilugu Zhixian Zhiyuan Zhong Zhonggong Zhongji Zhongxuan Zhongyan Zhongyuan 
+		Zhulie Zongjiao Zongzhen Zuli Zunxu Zuqian
+		}
+
+		female_names = {
+		Ai Ankang Bage Bai Bohai Boshi Cao Chadan Chang Changshou Changshounu Chen Chonghua Chu Chunqin Chuo Cui Cuiba Cuiluan Cuiping Da Daopo Daosheng Deng 
+		Deyao Dezhen Dianni Dong Duan Emei Feishan Fengcheng Fu Fujin Gao Ge Guang Guanyinnu Guo Han Hanyue He Hongdu Hongfu Honghong Hou Hu Hua Huang Huarui 
+		Huiming Jianchang Jiang Jin Jinfeng Jinluan Jiuge Lanling Li Liang Liao Liu Luanluan Ma Meizhu Meizi Meng Miaoniang Miaoyin Nalan Neiming Noujin 
+		Nuoujin Panpan Ping Pucha Puci Puning Pusage Pusuwan Puwei Qian Qiao Qin Qinai Qingnu Qingzhao Qungu Ren Renyi Ruishun Ruizhi Saige She Shen Shengtang 
+		Shi Shige Shiguang Shishi Shizhen Shuge Shuiqiu Shuogu Shuzen Shuzheng Siao Song Su Sun Tabuyan Tabuye Taige Taihe Tangqiao Tao Taoge Tian Tong Tudan 
+		Wa Wang Wan’er Wenji Wu Wulinda Wuniang Xia Xiao Xiaoming Xiaoxiao Xingge Xingguo Xinyue Xu Xuanji Xuanyi Xueying Xunyang Yan Yange Yaniang Yanmu 
+		Yanshounu Yanxiu Yaonian Yaoniang Yaoying Ye Yi Yingtian Yingying Yi’an Yongqing Yongxing Yu Yuan Yuanzhen Yue’e Yuniang Yunying Yushan Zhai Zhang 
+		Zhaoyun Zheng Zhenjian Zhong Zhou Zhu Zhuzhu Zihe Ziye
+		}
+		
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		modifier = religious_and_culture_tolerant_culture
+    }
+
+	korean = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.95 0.85 0.1 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Bal Bang-Gwa Bang-Won Bon-Hwa Chi Chin-Hae Chin-Hwa Chin-Mae Chul-Moo Chung-Hee Chung-Ho Dak-Ho Do Doh Dong-Sun Dong-Yul Duck-Hwan Duck-Young Geon Geum Gong Gyeoggu Gyun Gwang Hak-Kun Heum Ho Hon Hong-Rip Hong-Wi Hyang Hyeol Hyeong Hwan Hwang Hwi 
+			Hyun-Ki Hyun-Shik I Il In-Su Jae-Hwa Je Jong Jong-Mu Ju Kang-Dae Kwang-Sun Kyu Mal-Chin Mal-Shik Mal-Young Mu Myung-Dae Myung-Suck Ryung San Sang-ook Seung Seong-Gye Simin So Song Suk-Ju Sun-Sin Suck-Shin
+			Suk Sun U Uk Won-Shik Won-Ro Wook Ye Yeo Yeok Yeon Yo Yon Yong-Sun Young Young-Jae Young-Soo Yu Yun Yung
+		}
+		
+		female_names = {
+			Ae-Cha Chin-Sun Choon-Hee Chul Chung-Ae Chung-Cha Du Eui Eun Eun-Kyung Goo Hae Hae-Won Hea Hee-Young Hei-Ran Ho-Sook Hwa-Young
+			Hye Hyo Hyo-Sonn Hyun-Ae Hyun-Ok Joo Ki Kwan Kyung-Hu Kyung-Soon Mee Mi-Cha Mi-Hi Mi-Ok Myung-Hee Myung-Ok Soon-Bok Sun-Hi Young-Il Young-Soon
+		}
+
+		dynasty_title_names = no		
+		
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	japanese = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.85 0.85 0.01 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Akifusa Akihaya Akihisa Akikage Akimori Akimoto Akimune Akimura Akinaga Akinao Akisada Akisuke Akitada
+			Akitame Akitane Akitsugu Akitsuna Akitsura Akiyasu Akiyoshi Akizane Arinaga Arinobu Chikafuyu Chikahide
+			Chikaie Chikakata Chikamasa Chikamori Chikamori Chikamoto Chikamune Chikanaga Chikanao Chikanobu
+			Chikanori Chikasada Chikashige Chikasue Chikatada Chikatake Chikatoki Chikatoshi Chikatsugu
+			Chikatsune Chikayasu Chikayoshi Chikayuki Chikazane Doronosuke Eisaburo Eishi Ekei Fujiaki 
+			Fujiatsu Fujikane Fujinaga Fujisada Fujisuke Fujitaka Fujiuji Fumitane Furuyasu Fusaaki Fusakata 
+			Fusanaga Fusasada Fusatsuna Fusazane Fuyuhisa Fuyuki Fuyuyasu Genzo Hachiro Hajime Haru Haruhide
+			Haruhiro Haruhisa Harukage Harukiyo Harumasa Harumichi Harumoto Harumune Harunaga Harunobu Harusada 
+			Harusuke Harutane Haruto Harutomo Harutsugu Haruuji Haruyasu Haruyuki Haruzumi Hayate Hideaki Hideharu
+			Hidehisa Hideie Hidekatsu Hidemasa Hidemitsu Hidemoto Hidenaga Hidenao Hidenobu Hideo Hidesada Hidetada
+			Hidetaka Hidetsugu Hidetsuna Hideyasu Hideyori Hideyoshi Hideyuki Hikonosuke Hiro Hirofusa Hiroie
+			Hirokado Hiromitsu Hironari Hironobu Hiroshi Hirotaka Hiroteru Hirotoshi Hirotsugu Hirotsuna Hiroyo 
+			Hiroyori Hiroyoshi Hiroyuki Hisaaki Hisahide Hisaka Hisakane Hisamasa Hisamichi Hisamori Hisamoto 
+			Hisanaga Hisanaka Hisatada Hisataka Hisatane Hisatomo Hisatora Hisatoyo Hisatsuna Hisatsune 
+			Hisayasu Hisayuki Ibaranosuke Ichiro Iechika Iehisa Iemasa Iemon Iemori Ienari Ietoki Ietoshi Ietsugu
+			Ieuji Inori Iori Isamu Isao Issen Jiro Jotaro Jubei Jun'ichi Junji Juro Kageakira Kagechika
+			Kagehiro Kageie Kagekata Kagekatsu Kagekuni Kagemasa Kagemochi Kagemoto Kagenobu Kagenori Kagetaka
+			Kagetake Kagetora Kagetoshi Kagetou Kagetsugu Kagetsuna Kagetsura Kageyori Kageyoshi Kakuken Kanemasa
+			Kanemori Kanenaka Kanesada Kanesuke Kanetsugu Kankuro Katahide Kataie Katatoyo Katsuchika Katsuhisa 
+			Katsuie Katsumasa Katsumo Katsumoto Katsunaga Katsunobu Katsusada Katsushige Katsusuke Katsuteru
+			Katsutoshi Katsutoyo Katsuyasu Katsuyori Katsuyoshi Kazuemon Kazuhide Kazuma Kazumasa Kazumasu
+			Kazumori Kazunobu Kazunori Kazuo Kazutoyo Kazuuji Kazuya Kei Keiji Ken'ichi Kenta Kenzo Kinmoto 
+			Kintaro Kiyofusa Kiyohide Kiyomasa Kiyomoto Kiyomune Kiyonaga Kiyonari Kiyonori Kiyooki Kiyoshi 
+			Kiyoshige Kiyosue Kiyotsuna Kiyoyoshi Kogen Koichi Kojiro Korekado Koremasa Korenao Korenori Koretane
+			Koretoyo Koretsuna Koreyoshi Korishige Kunichika Kunihisa Kunikiyo Kuninori Kunitane Kunitora Kunitsuna
+			Kuniuji Manabu Masaaki Masachika Masafusa Masahide Masahiro Masahisa Masaie Masakage Masakatsu Masaki 
+			Masakuni Masamitsu Masamori Masamoto Masamune Masamura Masanaga Masanao Masanari Masanobu Masanori Masaru 
+			Masasada Masashi Masashige Masatada Masato Masatomo Masatoshi Masatoyo Masatsugu Masatsuna Masatsune
+			Masayasu Masayori Masayoshi Masayuki Masazane Masazumi Masushige Masutane Michimori Michinao Michinobu
+			Michisue Michitane Michitoshi Michiyasu Michiyo Michiyoshi Mitsuchika Mitsufusa Mitsuharu Mitsuhide
+			Mitsukuni Mitsumune Mitsunari Mitsunobu Mitsushige Mitsusuke Mitsutada Mitsutsugu Mitsutsuna 
+			Mitsuuji Mitsuyasu Mitsuyori Mitsuyoshi Mochihisa Mochinaga Mochitaka Monzaemon Moriaki Morichika
+			Moriharu Morihiro Morikiyo Morikuni Morimasa Morimi Morimitsu Morimune Morinaga Morinari Morinobu Morioki
+			Morishige Moritaka Moritane Moritsuna Moriuji Moriyasu Morizane Morotane Motochika Motoharu Motohide
+			Motoie Motokage Motokiyo Motokuni Motomune Motonaga Motonao Motonari Motonobu Motonori Motosada
+			Motoshige Motosuke Mototada Mototaka Mototake Mototane Mototomo Mototsugu Mototsuna Motouji Motoyasu 
+			Motoyoshi Motozane Motozumi Munefusa Muneharu Munehide Munehisa Muneie Munekage Munekatsu Munemasa
+			Munemura Munenobu Munenori Munetaka Munetoki Munetomo Munetora Munetsuna Muneuji Muneyoshi Muneyuki
+			Munezane Murashige Muratane Nagaakira Nagaatsu Nagachika Nagafusa Nagaharu Nagahide Nagamasa 
+			Nagamasu Nagamochi Nagamori Nagamoto Nagamura Naganari Naganobu Naganori Nagashige Nagataka Nagateru
+			Nagato Nagatomo Nagatsune Nagayasu Nagayori Nagayoshi Nagayuki Nagazane Nakaaki Naofusa Naoie
+			Naomasa Naomoto Naoshige Naotaka Naoto Naotsune Naoyasu Naoyori Naoyuki Nariharu Narikata Narikuni 
+			Narimasa Narimori Narimura Narinobu Narioki Narishige Narisuke Naritada Nariyoshi Natsume Noboru 
+			Nobuari Nobuchika Nobufusa Nobuhira Nobukado Nobukane Nobukatsu Nobukimi Nobukiyo Nobumasa Nobumitsu
+			Nobumori Nobumoto Nobunaga Nobunaka Nobunao Nobunari Nobunori Nobuo Nobuoki Nobusada Nobushige 
+			Nobutada Nobutaka Nobutane Nobutomo Nobutora Nobutoyo Nobutsuna Nobutsune Nobuyasu Nobuyoshi Nobuyuki
+			Nobuzumi Noriaki Norifuji Norifusa Noriharu Norihide Norihiko Norihito Norikage Norikata Norikuni 
+			Norimasa Norimochi Norimoto Norinao Norinari Norinobu Norinushi Norisada Norishige Norisuke 
+			Noritada Noritaka Noritane Noritoki Noriuji Noriyasu Noriyori Noriyoshi Norizane Okihide Okihisa 
+			Okikazu Okimori Osamu Osatada Osauji Raizo Reiji Ryuji Sadachika Sadahide Sadahisa Sadakage 
+			Sadakatsu Sadakuni Sadamichi Sadamitsu Sadamune Sadanaga Sadanao Sadanobu Sadanori Sadaoki Sadaomi 
+			Sadashige Sadasuke Sadataka Sadato Sadatoshi Sadatsugu Sadatsuna Sadayo Sadayori Sadayoshi Sadayuki
+			Saenosuke Sakinobu Sanechika Sanekatsu Sanemitsu Sanemoto Sanesue Sanetomo Saneyori Satoru 
+			Satoshi Satotoki Shichiroemon Shigefusa Shigeharu Shigehide Shigehira Shigehisa Shigeie Shigekado
+			Shigekane Shigekiyo Shigemasa Shigemochi Shigemoto Shigemune Shigemura Shigenaga Shigenami Shigenari
+			Shigenobu Shigenori Shigeoki Shigeru Shigesada Shigesato Shigesue Shigetada Shigetaka Shigetake
+			Shigetane Shigetatsu Shigetomo Shigetoshi Shigetsugu Shigetsuna Shigetsune Shigeyasu Shigeyoshi 
+			Shigezane Shingen Shinji Shintaro Shojiro Sosen Soun Suehiro Sukeharu Sukehide Sukehiro Sukekage
+			Sukekiyo Sukemasa Sukemitsu Sukemori Sukenaga Sukenao Sukenori Suketada Suketaka Suketane Suketoshi
+			Suketoyo Sukeyasu Sumiharu Sumitada Sumiyasu Tadaaki Tadaakira Tadaatsu Tadachika Tadafuyu Tadaharu 
+			Tadahiro Tadahisa Tadaie Tadakado Tadakatsu Tadakuni Tadamasa Tadamichi Tadamochi Tadamoto
+			Tadamune Tadanao Tadanari Tadao Tadaoki Tadasuke Tadataka Tadateru Tadatoki Tadatomo Tadatoshi
+			Tadatsugu Tadatsune Tadayo Tadayoshi Tadayuki Tadazumi Takaaki Takaakira Takachika Takafusa Takaharu
+			Takahide Takahiro Takahisa Takaie Takakage Takakane Takakazu Takamasu Takamichi Takamitsu Takamochi 
+			Takamori Takamoto Takanaka Takanao Takanobu Takaoki Takasada Takashige Takasue Takasuke Takatake
+			Takatane Takatomo Takatora Takatoyo Takatsugu Takauji Takayasu Takayori Takayoshi Takayuki Takazane
+			Takeaki Takehisa Taketane Takeyoshi Tameharu Tamehiro Tamekage Tamekiyo Tamenobu Tameyori Taneakira 
+			Tanechika Tanefuji Taneharu Tanehide Tanekane Tanekiyo Tanemune Tanenaga Tanenao Tanenori Tanesada
+			Taneshige Tanetoki Tanetomi Tanetsugu Tanetsune Taneyoshi Taneyuki Tanezane Tatsuoki Teruhiro 
+			Teruhisa Terukage Terumasa Terumichi Terumori Terumoto Terumune Terutora Teruzumi Tokiaki Tokihisa
+			Tokimori Tokishige Tokitaka Tokiuji Tomofuji Tomofusa Tomoharu Tomohide Tomohisa Tomokane Tomokata
+			Tomokatsu Tomomasa Tomomichi Tomomori Tomomune Tomonao Tomonari Tomonobu Tomonori Tomosada Tomotane 
+			Tomoteru Tomotsune Tomoyoshi Toramasa Toramori Toratane Torayasu Toshifusa Toshihisa Toshiie
+			Toshikage Toshikatsu Toshimasu Toshimitsu Toshimune Toshinaga Toshinao Toshinobu Toshisue Toshitomo
+			Toyoharu Toyohisa Toyokuni Toyosada Toyouji Tsugumichi Tsugumitsu Tsugunari Tsugutoshi Tsugutoyo 
+			Tsugutsura Tsuguyori Tsunachika Tsunafusa Tsunahisa Tsunakage Tsunakatsu Tsunakiyo Tsunamoto Tsunanao
+			Tsunanori Tsunasada Tsunashige Tsunatada Tsunatake Tsunatatsu Tsuneaki Tsunehide Tsunehisa Tsuneie
+			Tsunemitsu Tsunenaga Tsuneoki Tsunetada Tsuneyasu Tsuneyoshi Tsuratatsu Ujifusa Ujiharu Ujihide
+			Ujihira Ujihiro Ujikage Ujikane Ujikatsu Ujikuni Ujimasa Ujimichi Ujimoto Ujinaga Ujinao Ujinari 
+			Ujinori Ujioki Ujisada Ujisato Ujishige Ujisuke Ujiteru Ujitoyo Ujitsuna Ujiyasu Ujizane Ujtsuna 
+			Yasuharu Yasuhide Yasukage Yasumasa Yasumori Yasunaga Yasunari Yasunobu Yasunori Yasusue Yasusuke
+			Yasutada Yasutomo Yasutoshi Yasuyoshi Yasuzane Yoriaki Yorichika Yorifusa Yoriharu Yorihira Yorihisa 
+			Yorikatsu Yorimori Yorioki Yorishige Yoritada Yoritaka Yoritake Yoritoki Yoritsugu Yoritsuna Yoriuji
+			Yoriyasu Yoshiaki Yoshiakira Yoshiari Yoshiatsu Yoshichika Yoshifuyu Yoshiharu Yoshihi Yoshihide 
+			Yoshihira Yoshihiro Yoshihisa Yoshihito Yoshikado Yoshikage Yoshikane Yoshikata Yoshikatsu Yoshikiyo 
+			Yoshikuni Yoshimasa Yoshimasu Yoshimichi Yoshimitsu Yoshimochi Yoshimori Yoshimoto Yoshimune 
+			Yoshimura Yoshinaga Yoshinao Yoshinari Yoshinobu Yoshinori Yoshioki Yoshisada Yoshisaki
+			Yoshisato Yoshishige Yoshisuke Yoshitada Yoshitaka Yoshitake Yoshitane Yoshitatsu Yoshiteru
+			Yoshitoki Yoshitomo Yoshitora Yoshitoshi Yoshitou Yoshitsugu Yoshitsuna Yoshiuji Yoshiyasu 
+			Yoshiyori Yoshiyuki Yoshizane Yoshizumi Yukihiro Yukimasa Yukimori Yukimura Yukinaga Yukishige
+		}
+		female_names = {
+			Acha Achacha Ago Agogo Ai Aiyasha Akaka Akashi Aki Ako Akoko Ame Amu Asa Asahi Ate Aya Ayamachi
+			Ayaya Azechi Chacha Chago Chau Chibo Chii Etsu Chima Chise Chiyo Cho Chobo Ei Fuku Fuji Fumi Furi
+			Fusa Fuyo Fuyu Gin Go Gomoji Gou Hagi Haku Hana Haru Hatsu Hatsune Hide Hiko Hina Hiro Hisa 
+			Hochi Hoju Hou Ia Icha Ichako Ichi Ichiba Ima Imaaki Ina Inaka Ine Ino Inu Iemon Ietoki Iori
+			Ira Iro Iroha Ishi Ishika Ito Itoito Itoko Iwa Iya Iyo Kaga Kai Kaji Kaka Kama Kame Kane Kasuga Katsu
+			Kaze Kazusa Kesa Kichi Kichou Kii Kiku Kimi Kin Kinu Kisa Kita Kitsuno Kiyo Kocha Kochiyo Kochou Kofuku
+			Kogou Koi Koishi Koito Koko Koma Komatsu Kon Koto Kou Kowa Koya Koyaya Kubo Kuma Kuni Kurikaka
+			Kyaku Maa Machi Maki Man Mari Masa Masako Mayo Mate Matsu Matsuno Mego Meshi Minoru Minato
+			Mitsu Miya Mono Miwa Moto Muku Mume Mumetsu Naa Nabe Naka Nami Natsu Natsumi Naya Nene Nii
+			Nishi Nue Oku Raku Ren Riri Ruri Ritsu Roku Sachi Sae Sako Sana Sanae Sashi Sayo Sei Seki Sen Sena
+			Shichi Shige Shima Shimo Shina Shizuka Shosho Shou Shuku Some Soyo Sue Sugi Suke Suki Satsu
+			Suwa Tai Take Takechiyo Takematsu Taku Tama Tane Tara Tau Tatsu Tatsuko Tayo Teru Toku Tome
+			Tomo Tomoe Tora Toyo Tsuma Tsune Tsuru Tsuta Tsui Tsuya Tsuyo Uba Ume Uta Wakana Waki
+			Yaya Yayacha Yome Yone Yoshi Yachi Yasha Yashayo Yasu Yoshi Yui Yuki Yuku Yume Yumi Zen
+		}
+
+		dynasty_title_names = yes		
+		
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	ryukyuan = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.3 0.2 0.2 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Jamatuu Masanda Masanduu Mashumikani Matarukani Mausa Maumituku Sanda Shumikani Tarukani Usa Umituku
+		}
+		female_names = {
+			Chiru Damacii Kama Kamado Kamaru Kame Kami Kana Kanimega Matsu Majaa Nabe Nabi Sanra Tomi Tsuru Usa Use Ushi Uto
+		}
+
+		dynasty_title_names = yes		
+		
+		prefix = no
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 30
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	
+	jurchen = {
+		graphical_culture = mongolgfx
+		horde = yes
+		
+		color = { 0.795 1.1 1.65 }
+		
+		used_for_random = no		
+
+		male_names = {
+			Abatai Agu Aguda Ahacu Agunai Ajige Amin Argun Atai Bahai Baindari Bayara Bodedalai Bombogor Boolungga Boosi Bujantai Bukuri Buyan Buyandalai Cangšu Canca Cinggiyanu Ciputan Cirugani Ciurhala Cungšan 
+			Cuyen Daišan Darhan Degelei Desiku Digunai Dorgon Doulijin Ebilun Eidu Fanca Fiyangguu Fuca Fuhecinga Gaose Gebohui Gehašan Gintaisi Giocangga Gongala Hela Hohori Hooge Horchingo Hurhan Išiha Jaisang Jintaisi Jukungge Kesina 
+			Laimbu Leodan Loge Manggusi Mantai Menggebulu Mengtemu Mujangga Mukedengbu Murhaci Muyangga Nacibulu Nahacu Namusai Narbu Narimbulu Nasutu Nurhaci Oboi Polašu Sagai Šarhuda Sibeoci Singgen Songgotu Sonin Soocangga Suksaha 
+			Suna Tabai Tabonbayan Taicu Taksi Taose Tolo Tulišen Uici Ulgungga Urgudai Wangginu Worgudai Wugunai Wukešan Wuši Wuyašu Wucimai Yangginu Yarhaci Yebušu Yongšon Šigiyanu Širugeminggedo Šose Šurhaci
+		}
+		female_names = {
+			Abahai Abdahan Atu Aukhan Biya Bulukan Bumubutai Donggo Eniye Endurin Enduringge Erde Fulehun Fulgiyan Gefehe Gereke Gerišembi Gosin Gosingga Gulu Hahana Harjol Huwaliyasun Jacing Jusiban Kurun Labsan Mergen Monggo Mujilen 
+			Mukušen Namujun Naracun Narinburu Nunje Saikan Sargan Serguwen Sišargan Sunggari Šanggiyan Šehun Šengge Šungga Šungkeri Šušungge Šušurgan Tugi Tumin Ulhicun Urgunjen Usiha Yatu Wangga Wulinda 
+		}
+		
+		dynasty_title_names = yes		
+		
+		prefix = no
+		
+		modifier = default_culture_modifier
+	}		
+	
+}
+
+
+
+
+# These cultures are mainly for various Muslim Republic event chains (not implemented yet)
+
+southeast_asian = {
+	graphical_culture = muslimgfx
+
+	khmer = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.7 0.8 0.2 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Amara Anol Arun Bona Bora Bourey Chea Dara Kong Kou Lee Lim Munny Nhean Pheakdet Phirun Pich Rithisak Sakngea Samnang Saron Sereyuth Sokheng Sokyana Somnang
+			Sopheak Sopheap Sothorn Sovann Teige Toto Veasna Vibol Viphop
+		}
+		female_names = {
+			Botum Boupha Champei Champey Chan Channary Chantou Chantrea Chenda Chhean Darareaksmey Elita Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Pheakkley
+			Phhoung Puthykol Raksa Seab Solyna Sreykeo Sreyneang Thida Vatey Veata
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	
+	cham = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.4 0.2 0.2 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Amu Anan Angsaraja Asa-ari Binasuor Birthuor Brei Bunga Chan Char Cheng Chong Fat Ganvuh Garai He 
+			Isvan Khai Klong Krei Ku Kubah Lach Lathun Ling Ma Me Mo Moeun Muno Niga Nik Patra Peang Phaow Raden Rame Rattirai Ro Rome 
+			Sahinu Saktirai Saut Sumat Ta Tat Tathun Thuttirai Tithun Tithuntirai Tuon Yurath
+		}
+		female_names = {
+			Hara Inu Kalichip Kanitha Kaut Lagia Maly Man Nagar Putri Ratna Riya Sary Sokha Sros Uroja Yan Ye
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	
+	malay = {
+		graphical_culture = mongolgfx
+
+		color = { 0.5 0.6 0.2 }
+		
+		used_for_random = no
+
+		male_names = {
+			Adi Adiputra Agung Agus Ahad Andika Anuar Atan Awang Baba Bachok Bagus Bambang Basuki Bayu Bestari Bintang
+			Biru Bongsu Bujang Budi Budiarto Bulat Che Chik Danang Danial Daud Demak Demang Deraman Deris Desa Dollah
+			Dumadi Elyas Embong Fajar Gombak Hamengku Haron Hijau Hitam Indera Ishak Izzat Jati Jaya Jebat Jiwa Johan
+			Jumaat Jusoh Kechik Kefli Kesuma Khamis Kuning Leman Lokman Luncai Mad Mail Malim Megat Merdeka Muda Mulia Nerang
+			Noh Omar Osman Perang Perwira Putra Puteh Rabu Raja Sabtu Selamat Selasa Senin Shuib Sulong Suria Tanggang
+			Teh Teruna Tuah Uda Ujang Ungu Usop Wira Yaakob Yahaya Yeop Yunos Zakaria Zulkarnain Zulkifli
+		}
+		female_names = {
+			Adiputri Aishah Ayu Bunga Cahaya Cempaka Cik Dara Dayang Delima Dewi Dian Embun Esah Hapsah Harum Haryati Indah
+			Intan Izzati Jenab Juwita Kartika Kartini Kembang Kemboja Kemuning Khatijah Kuntum Latipah Mahsuri Mahura
+			Manjalara Mariah Mariam Mas Masayu Mastini Mayang Mawar Maya Melati Melur Minah Munah Murni Nawar Nilam Nirmala
+			Pertiwi Puspa Puspawati Putri Saadong Sari Sayang Sepiah Seri Suriani Suriawati Surintan Tempawan Teratai Tijah
+			Tipah Wangi Wati Yati Zamrud
+		}
+
+		modifier = default_culture_modifier
+	}
+	
+	javanese = {
+		graphical_culture = mongolgfx
+
+		color = { 0.2 0.2 0.1 }
+		
+		used_for_random = no
+
+		male_names = {
+			Aditya Asman Basman Bisiman Cemani Cemeti Cemplunk Cengkal Cengkir Cepak Ceplis Cingkrak Cipta Cucul Cucup Cunduk Curibrata
+			Curiga Curik Dacin Dadap Dadi Dagel Daliman Dalimin Daliono Damu Daniswara Danu Danuja Darijan Darimin Darmaji Darman
+			Darmana Darmanto Dartono Daru Dasa Digdaya Dimas Dimaz Dipa Dirja Drajat Edi Elon Eman Emas Embuh Emong Empluk Endra
+			Enteng Estiawan Estiono Gada Gadang Gaduh Gaiman Galak Galang Galar Galih Galuh Galur Gaman Gamani Gamanto Gambira
+			Gamblang Ganda Gandewa Gandi Gandik Ganep Gangsa Gangsar Ganjaran Gantar Gara Garan Garang Garda Gatot Gatra Gatuk Gede
+			Geger Gelar Gemana Gendut Genjah Gepeng Gesang Giman Giras Girasto Giyarto Giyono Gogor Guna Gunadi Gunamin Gunanto Gunari
+			Gunawan Gusti Hardana Hardi Harimurti Harja Harjasa Harjaya Harsana Harsaya Hartaka Hartana Hasta Her Heru Himawan Ibrit
+			Idam Jabal Jaeman Jaga Jagapati Jagaraga Jail Jaiman Jaka Jarwa Jarwadi Jarwi Jasmani Jaswadi Jatmiko Jayadi Jayeng
+			Jindra Jumadi Jumari Kacung Kajen Kambali Kamidin Kariman Karja Karma Karman Karna Karsa Karsana Karta Kesiran Kasusra
+			Kawaca Kawaya Kayun Kemba Kenes Ketut Kuncara Kunthara Kusuma Labuh Laksana Lamar Lanang Langgeng Lanjar Lantar Las Lega
+			Legawa Lembah Liman Limar Luhung Lukita Luluh Lulut Lurhur Luwar Luwes Made Mahesa Makara Makuta Manah Maras Margana Mariadi
+			Marsudi Martaka Martana Martani Marwata Maryadi Mitra Mujur Mulya Mulyanto Mumpuni Nalar Naradi Nardi Niyaga Nrima Nugraha
+			Nyana Nyata Nyoman Owel Pada Padang Padma Padmana Padu Paiman Paing Pajang Panca Pande Pandega Panembrama Pengeran Pangestu
+			Panggih Panggon Pangkur Pangrukti Panjarwala Panjut Pantar Pardi Parman Paser Perbawa Perdata Perkasa Pasek Pikat
+			Pitrah Praba Prabaswara Prabawa Pradana Pradapa Pradipta Prakosa Prama Pramana Pramatya Pranata Pranawa Prasetya
+			Prawira Prayitna Prayoga Priya Pulih Pulung Punjul Pupus Purba Purbawasesa Purbawisesa Purnama Purwa Purwadi Purwaka
+			Purwanto Purwo Raden Raharja Rama Rancak Rangga Ranggah Rangkung Reja Reken Reksa Respati Rojak Rojalih Rosman Rungu Rupadi Rupaka Ruruh
+			Saba Saban Sad Sadali Sadana Sadarpa Sadelih Sadran Saliman Samapta Samar Sambada Sambang Samita Sampun Sampurna Sanding Saniman
+			Santosa Sapar Sapari Sapon Sapta Sarju Saru Sarwadi Sasangka Sasmaka Satmaka Satriya Satya Sawang Seda Sejati Selaka
+			Senen Seneng Sentana Setu Sigit Subadya Subagya Subur Suciatma Sudana Sudarga SUdarma Sudarman Sudarpa Sudarsa Sudarsana
+			Sudarsono Sudibya Sudira Suganda Sugiman Sujana Sujita Sukarja Sukarya Sukmadi Sulaksana Sunyata Suparman Supena Sura
+			Surasa Surya Suryono Susila Susmana Sutapa Suteja Sutikna Suwardi Tadah Tadi Takat Tameng Tampa Tampi Tanaya Tanda Tani
+			Tarub Tasdik Tawang Tedas Teges Teguh Teja Temaha Temu Tiban Tilem Timbul Timur Tirta Tiyasa Togiman Tranggana Tresna
+			Tuah Tuduh Tuhu Tukul Tuladha Tulen Tulus Tuman Tunjung Turmukti Tutuh Tuwuk Ujud Ulung Umbar Unduh Unggul Untap Upadi
+			Wadi Wage Wahana Waja Wakiman Walaka Waluya Warah Warangka Wardaya Warih Warsa Warsita Warta Wasis Wasista Waskita Waspada
+			Wawan Wayan Wayu Wegig Wengi Werdaya Wibawa Wicaksana Widada Widagda Widayat Wigih Wijaksana Wijaya Wirya Wyakta Yasan Yasman
+			Yudayana Yuwa Yuwana
+		}
+		female_names = {
+			Adine Adiratna Adriyani Adriyanti Ambar Ambarningsih Ambarsari Ambarwati Ana Anindita Anindya Apsarini Aras Arawinda
+			Ardhiona Ardiningrum Ardiyanti Ariani Arini Arisanti Aristawati Arjani Arjanti Arpani Artanti Arum Ashadewi Asih Asiri
+			Aslimah Asmaranti Asmarini Asmawa Asmawati Asmiani Asmiasih Asminah Asmirah Asoka Astamurti Astuti Astutiningsih
+			Astutiningtyas Aswati Aswini Atmaranti Atmariani Atmarini Atmawati Atresia Ayem Ayu Balila Bandiani Bandinah
+			Bandini Bandriya Bardinah Basirah Batari Bawita Belani Bendari Besariyanti Bhanurasmi Bhanuwati Bilis Bintari
+			Brantandari Bratawati Budiani Budiati Cahyana Cahyani Cahyarini Cakradara Candana Candrakanti Candraningsih
+			Candraningtyas Candrasmurti Candrawati Candrawimba Candrika Cawis Cepaka Cicik Ciptana Cira Cita Citra Citrahayi
+			Citranti Citrawati Daliani Dalianti Dalimah Dalirin Danumaya Danurdara Darapuspita Dariani Darmani Darmastuti Darminah
+			Eliyani Elok Elus Endah Endang Entik Eriati Estiningtyas Estu Gaimah Gandes Gati Gayatri Gelis Gemani Gemi Gendis Genduk
+			Giyati Harjanti Hartati Hawa Indri Indriani Ipeh Jani Jariani Jariati Jarha Jarwani Kani Kanti Kari Karni Karsani Karti Kartika
+			Kartini Kasmirah Kasti Kedasih Kidung Kinasih Laksmi Laras Lati Legi Lestari Lila Lintang Lisah Lituhayu Lola Loma Luh
+			Luhtitisari Mari Marta Martyani Maryani Maryanti Nari Nastiti Nawa Nindita Nindya Nini Padmi Pertiwi Pilis Pinda Pramudita
+			Pramusita Purwakanti Purwastuti Purwati Puspa Puspita Putri Rada Rahayu Raras Ratih Ratna Ratri Rema Resmi Rina Sarwa
+			Sasanti Sasi Sasikirana Sasmaya Sasmita Sasri Sekar Sela Sida Sila Silih Sitaresmi Sri Suci Sukma Sulanjari Sundari
+			Surastri Suyati Tarasari Tari Tarima Tasmirah Tirah Titah Titi Turasih Tyas Wanda Wani Warni Warti Wasita Wastuti Wayah
+			Welas Widati Widya Widyastuti Wigati Wignya Wijayanti Windriya Wulan Wuri Wusana Yayi Yekti
+		}
+
+		modifier = default_culture_modifier
+	}
+	
+	tagalog = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.5 0.6 0.4 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Abog Alinsangan Amaganacan Amansinaya Baga Bagsic Balagot Balagtas Balubal Banta Bantog Baon Basa Batongbacal
+			Bayani Binaohan Bondoc Bugtong Bunga Cabasa Calaycay Capuno Casama Catacataca Catig Cayabyab Dakila Dasig
+			Datu Dimaaliw Dimaano Dimaculangan Dimaporo Dimasuay Dimasupil Dimawili Doon Galang Gapusan Gubatan Gulay
+			Gumabay Halimaw Hinagpis Idiyanale Inabayan Juni Kabunian Kalaw Katigbak Katindig Lagatoc Lakambakod Lakampati
+			Lalamunan Ligaya Liwanag Lumanta Mabilangan Macabuhay Macalintal Macaranas Macatulad Macatunao Magpantay
+			Magpuri Magsino Magsombol Magtubo Manas Mancucutor Mangahas Mangkukutod Manibog Matanguihan Ontog Palicpic
+			Panaligan Pati Pilapil Puno Sayoc Tabil Tandang Tanguilig Taupo Timbancaya
+		}
+		female_names = {
+			Abalahin Abiog Akiaten Ampon Aniton-Tavo Anitong-Tawo Atangan Atay Babalato Bagasbas
+			Bagong-Gahasa Balot Banayat Bantay Batacan Batongmalaque Bigayan Biglang-Awa Bituin Bugnos Caacbay
+			Cahambing Calumpang Caoili Capulong Catacutan Corotan Dalawampu Dalisay Dimacuha Dimaisip Dimalaluan Dimaranan
+			Dimayuga Domagas Halina Hinahon Kabaitan Kalangitan Lacambui Lakambini Lakan-Ilaw Lamug Landas Litao
+			Liwayway Liwliwa Lualhati Lumungsub Luningning Mabunga Macaalay Madamba Magana Magbojos Magbuhat Magkawas Malaki
+			Malinsangan Manlapaz Marilag Maturan Mayumi Pagaspas Pagtalunan Panganiban Puzon Rasalan Sakay Salop Sicat
+			Tumangan Una Yabut Ysip
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+
+	moluccan = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.8 0.2 0.4 }
+		
+		used_for_random = no	
+		
+		male_names = {
+			Afdan Ahad Ahver Akasian Akbar Aldama Alfanay Alkatiri Altin Alwy Anas Andino Angels Apalem Aprian Assegaf Partosoebroto Saleh
+			Abutan Adam Akai Aling Alui Amoi Angkouw Batas Bokau Bokong Bolang Bolung Bororing Boyoh Buyung Damongilala Damopoli Dapu Datu
+			Datumbanua Dayoh Dededaka Dendeng Dengah Dewat Dien Dimpudus Dipan Dompis Dondo Dondokambei Donsu Doodoh Doringin Dotulong
+			Dumais Dumanauw Dumbi Dungus Dusaw Egam Egetan Ekel Elean Gerungan Gigir Gimon Girot Goni Goniwala Gonta Gosal Gumalag
+			Gumansing Gumion Ilat Imbar Item Kaat Kaawoan Kaendo Kaeng Kaes Kairupan Kalengkongan Kalesaran Kalici Kalitow Kaloh Kalonta
+			Kalumata Kamagi Kambey Kambong Karuyan Karwur Kasenda Katopo Katuuk Kawengian Kawilarang Kawulusan Kawung Kawuwung Keincem
+			Kekung Keles Kelung Kembal Kembau Kembuan Kenap Kepel Kerap Koleangan Koloday Koly Komaling Kondoi Kontul Kopalit Koraah Korah
+			Korengkeng Korompis Koropitan Korouw Korua Kotambunan Kountud Kowaas Kowonbon Kowu Kowulur Koyansouw Kuhu Kulit Kumaat
+			Kumaunang Kumayas Kumendong Kumolontang Kumontoy Kupon Kusen Kusoi Lembong Lempas Lempou Lengkey Lengkoan Lensun Leong Lepar
+			Lesar Lewu Liando Limbat Limbong Limpele Lincewas Lintang Lintong Loing Lolombulan Lomboan Lompoliu Lonan Londa Londok Longdong
+			Lontaan Lontoh Losung Lowai Lowing Ludong Lumanau Lumangkun Lumatau Lumenpouw Lumenta Lumi Lumingas Luminuut Lumowa Lumunon
+			Luntungan Maengkom Maengkong Mailangkai Mailoor Maindoka Mainsouw Mait Makadada Makal Makaley Makaliwe Makangares Makaoron
+			Makarawis Makarawung Makatuuk Makawalang Makawulur Makiolol Mamahit Mamangkey Mamantouw Mamanua Mamarimbing Mamba Mambo Mambu
+			Mamentu Mamoto Mamuaya Mamuntu Mamusung Manarisip Manebu Manese Mangare Mangkey Mangowal Mangundap Manimporok Manopo Manorek
+			Mantoauw Manurip Manus Mapaliey Minder Mingkid Mmanua Mogot Mokalu Mokolensang Mokorimban Momongan Momor Momuat Mondigir Mondong
+			Mondoringin Mondou Mongi Mongilala Mongisidi Mongkaren Mongkau Mongkol Mongula Moniaga Moninca Moningka Moniung Mononimbar
+			Mononutu Montolalu Montong Montung Motto Muaya Mudeng Mukuan Mumek Mumu Mundung Muntu Muntu-Untu Muntuan Musak Mussu Nangka
+			Nangon Nangoy Naray Nayoan Nelwan Nender Ngala Ngangi Ngantung Ngayouw Ngion Ogi Ogot Ogotan Oleng Oley Ombeng Ombu Ompi Ondang
+			Onsu Opit Oroh Otay Paat Pai Paila Pakasi Palangiten Palar Palenewen Palenteng Palilingan Palit Panambunan Panda Pandean Pandelaki
+			Pandey Pandi Pandong Pangalila Pangau Pangemanan Pangila Pangkerego Pangkey Pantonuwu Pantouw Parengkuan Paruntu Paseki Pasla
+			Pele Pelengkahu Pendang Pepah Pesik Pesot Piay Pinangkaan Pinantik Pinaria Pinontoan Pioh Piri Pitong Pitoy Podung Pola Poli
+			Polimpong Politon Poluakan Pomantouw Ponamon Pondaag Pongayouw Ponggawa Pongilatan Pongoh Ponosingon Pontoan Pontoh Pontororing
+			Poraweouw Porayouw Posumah Potu Poyouw Pua Pungus Punuh Purukan Pusung Putong Raintung Rambi Rambing Rambitan Rampangilei Rampen
+			Rampengan Ransun Rantung Ratag Rembang Rembet Rempas Rengku Rengkuan Rengkung Repi Retor Rimper Rindengan "Rindo Rindo" Robot Rogi
+			Rolangon Rolos Rombot Rompas Rompis Rondo Rondonuwu Rooro Rorimpandey Roring Rorintulus Rosok Ruaw Ruidengan Rumagit Rumambi
+			Rumampen Rumampuk Rumayar Rumbay Rumende Rumengan Rumenser Rumimpunu Rumincap Rumokoy Rumpesak Runturambi Sariowan Sarundayang
+			Saul Seke Seko Sembel Sembung Semeke Senduk Sengke Sengkey Senouw Siwu Siwy Solang Somba Sompi Sompotan Sondakh Soputan Sorongan
+			Suak Suatan Sumaiku Sumakud Sumakul Sumangkud Sumanti Sumarandak Sumarauw Sumele Sumendap Sumesei Sumilat Sumlang Sumolang Sumual
+			Sumuan Sundah Sungkudon Suot Supit Surentu Suwu Taas Tairas Talumepa Talumewo Tambahani Tambalean Tambarici Tambayong Tambengi
+			Tambingon Tamboto Tambun Tambunan Tambuntuan Tambuwun Tamon Tampa Tampanatu Tampanguma Tampemawa Tampenawas Tampi Tampinongkol
+			Tandayu Tangka Tangkere Tangkow Tangkudung Tanod Tanor Tanos Tarandung Taroreh Taulu Tawas Tendean Tengges Tenggor Tengker Terok
+			Tidayoh Tiendas Tikoalu Tikonuwu Tilaar Timbuleng Timpal Tinangon Tindengen Tintingon Tirayoh Tiwa Tiwow Toalu Todar Togas Tololiu
+			Tombeng Tombokan Tompodung Tompunu Tongkeles Tooi Torar Torek Towo Tuegeh Tuera Tulandi Tular Tulenan Tulung Tumanduk Tumangkeng
+			Tumatar Tumbei Tumbelaka Tumbol Tumbuan Tumembouw Tumengkol Tumewu Tumilaar Tumilesar Tumimomor Tumiwa Tumiwang Tumober Tumondo
+			Tumonggor Tumundo Tumurang Tumuyu Tunas Tundalangi Tungka Turang Turangan Tuwaidan Tuyu Tuyuwale Uguy Ukus Ulaan Umbas Umboh Umpel
+			Undap Unsulangi Untu Waani Wagei Wagiu Waha Wahon Wakari Wala Walalangi Walandouw Walintukan Waluyan Wawolangi Wawolumaya Waworuntu
+			Weku Welong Wenas Wenur Weol Wilar Winerungan Winokan Woimbon Wokas Wola Wondal Wongkar Wonok Wooy Worang Worotikan Wotulo Wowilang
+			Wowor Wuisan Wuisang Wulur Wungkana Wungow Wuntu Wurangian Wuwung Wuwungan
+		}
+		female_names = {
+			Andu Anes Anis Antou Arina Asry Assah Awondatu Awui Bella Inarai Ingkiriwang Inolatan Intama Kalalo Kalangi Kalempou Kalempouw
+			Kamu Kandio Kandou Kapantouw Kaparang Kapele Kapoh Kapoyos Karamoy Karau Karinda Karundeng Kere Kesek Kewas Khodong Kindangen
+			Kirangen Kodongan Kojongian Lala Lalamentik Lalowang Lalu Laluyan Lambogia Lampah Lampus Lanes Langelo Langi Langitan Langkai
+			Languyu Lantang Lantu Laoh Lapian Lasut Legi Legoh Liogu Litow Liu Liwe Loho Makisanti Malingkas Mamesah Manalu Manampiring
+			Manangkod Manapa Manayang Mandang Mangempis Mangindaan Mantik Mantiri Maramis Marentek Maringka Masinambau Masing Masoko Matindas
+			Maukar Mawei Maweru Mawikere Mawuntu Mekel Mema Mende Mendur Mengko Mentang Mentu Mesak Mewengkang Mewoh Mince Mincelungan Pauner
+			Raranta Rares Rarun Rasu Ratu Ratulangi Ratumbuisang Ratuwalangaouw Ratuwalangon Ratuwandang Rau Rauta Regar Rei Rindengan
+			Rogahang Salangka Salendu Sambouw Sambuaga Sambul Sambur Samola Sangkaeng Sangkal Sarapung Saraun Sarayar Sepang Sigar Sigarlaki
+			Simbar Simbawa Sinaulan Singal Singkoh Sinolungan Sirang Walangitan Walean Walebangko Walelang Walian Wanei Wangania Wangko Wantah
+			Wantania Wantasen Wariki Watah Watti Watugigir Watuna Watung Watupongoh Waturandang Watuseke Wauran Wawoh Wawointama
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+	
+    tai = {
+        graphical_culture = mongolgfx
+        
+        color = { 0.3 0.2 0.8 }
+		
+		used_for_random = no		
+        
+        male_names = {
+			Akamu Analu Aran Aron Aroon Athinhkaya Chanarong Daw Dika Fuseni Havika Hkonmaing Hsan Hsinhtin Ikaika Kaipo Kamol Kasem Khampeng Khamsone 
+			Khemkhaeng Kiet Klahan Kyawhtin Kyawswa Leilani Min Minbyauk Minkhaung Minnge Minyaza Minye Minyekyawswa Mogaung Mongkut Nandapangyan Nansi 
+			Narapati Narathu Nauk Naung Nawrahta Niran Noi Nu Palani Papep Pekelo Phaivanh Phettakoun Rahula Sand Saw Sawlon Sawmungyi Sawyun Shin 
+			Shwenankyawshin Shwetaungtet Sithu Som Sounanxay Sunan Swasawke Swe Tarabya Tay Tetpya Thado Thadominbya Theiddat Theinkhabo Thihapate Thihathu 
+			Thilawa Thohanbwa Uzana Virote Wunzin Xaikeo Yan Yazathingyan
+        }
+        female_names = {
+            Aelan Ailani Akela Atula Bo-Me Chantha Dewi Gyi Haimi Hla Hnit Htut Iokina Ipo Isra Kalea Kanya Khamemi Kodawgyi Kulap Kyetaungnyo Lari Lawan Maha
+			Mahina Makala Mali Mi-Nauk Mimio Min Minhla Mya Nyet Olina Omma Onaona Oo Pakpao Palila Phailin Phueng Pye Pyi-Shin Ratana Sallymata Sasilvia Saw 
+			Sawbu Shin So-Yeon Soe Somchai Somsri Suchin Sukhon Sumalee Tasanee Teza Thiri Thurian Tola Ululani Vanida Wanika Yadanabon Yaza
+		}
+
+        prefix = no
+
+        modifier = default_culture_modifier
+    }		
+	
+}
+
+
+
+
+taiwanese = {
+	formosan = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.5 0.3 0.8 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Adawil_Adawil Ali_Walis Alis_Walis Alunah Amit Anem_Azem Anísi_Walis Apa_Apa Aras_Aras Aslamie Attun Azas_Aras Azem_Azem Balabul_Balabul 
+			Bali_Fali Baliw_Baliw Banas_Vanas Baniw_Baliw Banun Banási_Vanas Bari_Fali Basin_Vaqesin Baso Bassin_Vaqesin Belbel_Balabul Belebel_Balabul 
+			Biho Binnan_Venan Bokeh Boso_Vus Bulbil_Balabul Bunbun_Balabul Bunur Bunux Choma_Sumay Cimu_Timu Cmapu Cmoi_Sumay Comay_Sumay Covi_Adawil 
+			Cumay_Sumay Dakis Dala_Raga Dara_Raga Daxa_Raga Difang Dilhkay_Tikay Dinan_Dinan Dinan_Djilan Djilan_Djilan Djmilan_Djilan Ekuho_Kuknav Fali_Fali 
+			Fanas_Vanas Faniw_Baliw Fari_Fali Fizfiz_Balabul Flhush_Vus Fnosi_Vanas Funush_Fonos Gamil_Lamis Gmeya_Gmeya Gussin_Sumay Haval_Haval Hayung 
+			Hisi_Walis Idas_Qilas Ilas_Qilas Kakasu_Kakatu Kakatu_Kakatu Kalawal_Haval Kamachat Kamalan Kasbol_Tsevul Kawas_Kawas Kawash_Kawas Kawkaw_Kawkaw 
+			Kosang Kourey Kton_Kton Ktuktunan_Kton Ktun_Kton Kuknav_Kuknav Kulhi_Kuri Kulái Kumay_Sumay Kuri_Kuri Laari_Haval Labis_Rabis Lames_Lamis 
+			Lamis_Lamis Lamit_Lamis Lamzae_Gmeya Lava_Haval Lelian Lhalha_Raga Lhamic_Lamis Lhimza_Gmyea Lhizash_Linas Likes_Likes Likilaw_Kuknav Linas_Linas 
+			Loklaw_Kuknav Lotok_Lutjuk Lotoko_Lutjuk Ludúh_Lutjuk Luhe Lutjuk_Lutjuk Láali_Haval Mabari_Mavali Madavili_Adawil Mafari_Mavali Maicelene_Qetsenel
+			Maloe Manan Mavali_Mavali Mazjies_Pais Mona Mpuqaw Mummu_Mumu Mumu_Mumu Nalo_Sumay Namat_Dinan Narux_Sumay Nawi Nisnis Nomin Nusul_Nusul 
+			Nuzush_Nusul Pabura Pais_Pais Palalin Palin_Palin Paris_Pais Pasnamatan Patas_Patas Patash_Patas Pattas_Patas Pawan Pazish_Pais Penusul_Penusul 
+			Phiphini_Palin Punayan_Unay Qadis_Qadis Qanus_Qanus Qaqanus_Qanus Qenus_Qanus Qetsenel_Qetsenel Qian Qilas_Qilas Qudas_Qudas Qutash_Qudas 
+			Rabis_Rabis Raga_Raga Rala_Raga Rami_Lamis Rawar_Haval Rawaz_Haval Rikig_Likes Rikish_Likes Rilan_Djilan Rinas_Linas Ris_Likes Rise_Likes 
+			Rmisi_Lamis Roi Rudao Rukcaw_Kuknav Ruqnaw_Kuknav Rutok_Lutjuk Rvori_Haval Rzis_Qadis Samingad Sanamatan Sapo Sapoeh Somay_Sumay Sukath_Tikay 
+			Sulain Sumay_Sumay Suming Supay_Supay Syulan Tadao Tadaw_Tadaw Tado Takish_Tjakit Tamat_Dinan Tanadex_Sumay Tanah Tanayan Tavit_Adawil Tayouan 
+			Temu Tenem Tenen_Qetsenel Tikay_Tikay Timo_Timu Timu_Timu Tjakit_Tjakit Toketok Tomay_Sumay Tsevul_Tsevul Tsumay_Sumay Tultun_Tuqul Tumay_Sumay 
+			Tumaz_Sumay Tumey_Sumay Tuqul_Tuqul Turukuk Ulas_Ulas Unay_Unay Unlhanuzushan_Penusul Uras_Ulas Vadiw_Baliw Vali_Fali Valo_Walu Valísi_Walis 
+			Vanas_Vanas Vanis_Walis Vanu_Walu Vaqesin_Vaqesin Vare_Fali Vari_Fali Velvel_Balabul Venan_Venan Vus_Vus Wali_Walis Walis_Walis Walis_Walsi 
+			Walo_Walu Walu_Walu Waqit Wazish_Walis Wutao Xames_Lamis Yowkow Yunay_Unay Zihikay_Tikay Zupay_Supay
+		}
+		female_names = {
+			Aeris Alunah Aláy_Walay Amit Anem_Azem Apa_Apa Azem_Azem Balabul_Balabul Bali_Fali Banas_Vanas Banes_Vanes Banun Banási_Vanas Bari_Fali 
+			Basin_Vaqesin Bassin_Vaqesin Baxat Belbel_Balabul Belebel_Balabul Benan_Venan Bidai Bolay Boso_Vus Buabuay Bula Bulbil_Balabul Bunbun_Balabul 
+			Bura Busel_Pona Cacapu Cakese_Rakus Cekese_Tkes Cimu_Timu Cucsu_Cucsu Cumabu_Cumabu Dakes_Rakus Dakese_Rakus Dakus_Rakus Daniiv Daqu_Raqu 
+			Daw_Raqu Duana Dukuduk_Cucsu Ekuho_Kuknav Fali_Fali Fanas_Vanas Fanes_Vanes Fari_Fali Fizfiz_Balabul Flhush_Vus Fnosi_Vanas Gamil_Lamis Gitu_Gitu 
+			Gmeya_Gmeya Gulilai Huci_Kuti Idas_Qilas Igay Ilas_Qilas Ilid Iok_Ithuk Ithuk_Ithuk Itju_Gitu Kakasu_Kakatu Kakatu_Kakatu Kakliw_Kgiy Kaolo 
+			Kapua Keriw_Kgiy Kgiy_Kgiy Kixiw_Kgiy Klhiw_Kgiy Kliw_Kgiy Kpua Kuci_Kuti Kuknav_Kuknav Kulhi_Kuri Kulkul_Kulkul Kulukun_Kulkul Kuri_Kuri 
+			Kuti_Kuti Kutji_Kuti Kuzkuz_Kulkul Laazi_Lalaqedian Lalapit_Lalapit Lalaqedian_Lalaqedian Lames_Lamis Lamis_Lamis Lamit_Lamis Lamzae_Gmeya 
+			Lapis_Lalapit Lhamic_Lamis Lhari Lhimza_Gmyea Lhmir_Tsemel Libo_Libu Libu_Libu Likilaw_Kuknav Litu_Gitu Liv_Kgiy Livu_Libu Loklaw_Kuknav 
+			Lopas_Lupas Lotok_Lutjuk Lotoko_Lutjuk Ludúh_Lutjuk Lupas_Lupas Lutjuk_Lutjuk Mabari_Mavali Mabunux Mafari_Mavali Mahung Maket_Sakut Malim_Malim 
+			Mapoli_Popoli Mapoule_Popoli Mapuqaw Mapuzi_Popoli Marim_Malim Matas_Matas Matash_Matas Mausi_Popoli Mavali_Mavali Mbunur Mimpuzi Mummu_Mumu 
+			Mumu_Mumu Musapuh Nibu_Libu Obing Palalin Patasan_Patasan Patashan_Patasan Piliki_Pona Poli_Poli Pollol_Pona Pona_Pona Popoli_Popoli Poucol_Pona 
+			Pozok_Pona Pudek_Pona Puga_Pona Puta_Pona Putsemel Puza_Pona Puzi_Poli Qilas_Qilas Qilasan Qriw_Kgiy Rakus_Rakus Rami_Lamis Rapis_Lalapit 
+			Rapit_Lalapit Raqu_Raqu Rmisi_Lamis Rtuu_Gitu Rubu_Rubu Rukcaw_Kuknav Rupas_Lupas Rupi Ruqnaw_Kuknav Rutok_Lutjuk Ruvu_Rubu Rítu_Gitu Sabo_Tsavu 
+			Saburan Sakut_Sakut Sali Samingad Sasapuh Satabuan Semer_Tsemel Shakish_Rakus Shkish_Tkes Sinkliw_Kgiy Sjibo_Libu Suksuk_Cucsu Sulain Sumabo_Cumabu
+			Suusuku_Cucsu Tabu_Tsavu Tai Takic_Sakut Taktes_Sakut Tali Taro Tatak Tayouan Tenayan Tenem Timo_Timu Timu_Timu Tkes_Tkes Tmabu_Cumabu Tmavu 
+			Tsavu_Tsavu Tsekes_Tkes Tsemel_Tsemel Tulukuk Ulas_Ulas Uras_Ulas Vagat Vali_Fali Valo_Walu Vanas_Vanas Vanes_Vanes Vanu_Walu Vaqesin_Vaqesin 
+			Vare_Fali Vari_Fali Velvel_Balabul Venan_Venan Vus_Vus Walay_Walay Walo_Walu Walu_Walu Waray_Waray Xames_Lamis Xubu_Rubu Yo_Ithuk Youkui Yungai 
+			Yurunana Zaqes_Rakus Zaqu_Raqu Zifu_Libu
+		}
+
+		prefix = no
+
+		modifier = default_culture_modifier
+	}
+}
+
+
+
+

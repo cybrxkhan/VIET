@@ -735,11 +735,12 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	only_rulers = yes
 	
 	trigger = {
-		is_ruler = yes
 		war = no
-		in_command = no 
+		in_command = no
+		NOT = { has_character_flag = VIET_olive_garden }
 		OR = {
 			has_landed_title = e_byzantium
 			liege = { has_landed_title = e_byzantium }
@@ -778,7 +779,7 @@ character_event = {
 			trait = gregarious
 		}
 		modifier = {
-			factor = 2
+			factor = 1.25
 			OR = {
 				location = { province_id = 475 }
 				location = { province_id = 476 }
@@ -822,6 +823,7 @@ character_event = {
 			name = best_meal_in_ages
 			duration = 30
 		}
+		set_character_flag = VIET_olive_garden
 	}
 	
 	option = { #Help farmer
@@ -851,12 +853,13 @@ character_event = {
 			50 = { }
 			50 = { add_trait = charitable }
 		}
-		location = {
+		random_demesne_province = {
 			add_province_modifier = {
 				name = olive_garden
 				duration = 7300
 			}		
 		}
+		set_character_flag = VIET_olive_garden
 	}
 	option = { #Steal!
 		name = "EVTOPTC1000109167"
@@ -902,6 +905,7 @@ character_event = {
 			name = best_meal_in_ages
 			duration = 180
 		}
+		set_character_flag = VIET_olive_garden
 	}
 }
 

@@ -3025,9 +3025,9 @@ character_event = {
 	min_age = 16
 	capable_only = yes
 	prisoner = no
+	only_rulers = yes
 	
 	trigger = {
-		is_ruler = yes
 		religion_group = muslim
 		war = no
 		in_command = no
@@ -3060,36 +3060,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious
-		}
-		modifier = {
-			factor = 0.5
-			trait = shy
-		}
-		modifier = {
-			factor = 2
 			trait = ambitious
 		}
 		modifier = {
 			factor = 0.5
 			trait = content
 		}
-		modifier = {
-			factor = 2
-			trait = poet
-		}
-		modifier = {
-			factor = 0.5
-			trait = slow
-		}
 	}
 	
 	option = {
 		name = "EVTOPTA1000109351"  #ok
-		ai_chance = {
-			factor = 1
-		}
-		location = {
+		capital_scope = {
 			add_province_modifier = {
 				name = muslim_paper_makers
 				duration = 7300

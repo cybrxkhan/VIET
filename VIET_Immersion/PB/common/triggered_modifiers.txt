@@ -21,119 +21,6 @@ negative_money = {
 	active = no
 }
 
-#Defending Against Holy War
-religious_defense = {
-	potential = {
-		is_ruler = yes
-	}
-	
-	trigger = {
-		any_war = {
-			using_cb = religious
-			
-			defender = {
-				character = ROOT
-			}
-		}
-		is_primary_war_attacker = no
-	}
-	
-	icon = 16
-	
-	city_vassal_min_levy = 0.1
-	city_vassal_max_levy = 0.1
-	castle_vassal_min_levy = 0.1
-	castle_vassal_max_levy = 0.1
-	temple_vassal_min_levy = 0.1
-	temple_vassal_max_levy = 0.1
-}
-
-#Disorganized
-disorganized = {
-	potential = {
-		is_ruler = yes
-	}
-
-	trigger = {
-		has_landed_title = e_byzantium
-		NOT = { year = 1081 }
-		NOT = { has_global_flag = 867_start }
-	}
-	
-	icon = 34
-	
-	castle_vassal_max_levy = -0.1
-	temple_vassal_max_levy = -0.1
-	city_vassal_max_levy = -0.1
-	land_morale = -0.25
-	land_organisation = -0.2
-}
-
-#Decentralized HRE
-decentralized_hre = {
-	potential = {
-		is_ruler = yes
-	}
-	trigger = {
-		OR = {
-			has_landed_title = e_hre
-			has_landed_title = e_germany
-		}
-		NOT = { has_global_flag = hre_centralized }
-	}
-	
-	icon = 34
-	
-	castle_vassal_max_levy = -0.25
-	temple_vassal_max_levy = -0.2
-	city_vassal_max_levy = -0.15
-	castle_vassal_tax_modifier = -0.05
-	temple_vassal_tax_modifier = -0.1
-	city_vassal_tax_modifier = -0.15
-}
-
-#Theme system
-theme_system = {
-	potential = {
-		is_ruler = yes
-	}
-	trigger = {
-		has_landed_title = e_byzantium
-		NOT = { has_global_flag = theme_system_reformed }
-	}
-	
-	icon = 34
-	
-	castle_vassal_max_levy = -0.2
-	temple_vassal_max_levy = -0.15
-	city_vassal_max_levy = -0.15
-	castle_vassal_tax_modifier = -0.05
-	temple_vassal_tax_modifier = -0.1
-	city_vassal_tax_modifier = -0.15
-}
-
-theme_system_2 = {
-	potential = {
-		is_ruler = yes
-	}
-	trigger = {
-		has_landed_title = e_byzantium
-		has_global_flag = theme_system_reformed
-		NOT = { has_global_flag = theme_system_reformed_2 }
-	}
-	
-	icon = 34
-	
-	castle_vassal_max_levy = -0.1
-	temple_vassal_max_levy = -0.075
-	city_vassal_max_levy = -0.075
-	castle_vassal_tax_modifier = -0.025
-	temple_vassal_tax_modifier = -0.05
-	city_vassal_tax_modifier = -0.075
-}
-
-
-
 # Adopted ruler
 adopted_ruler = {
 	potential = {
@@ -151,6 +38,7 @@ adopted_ruler = {
 	general_opinion = -20
 	
 }
+
 
 
 ##################################
@@ -418,20 +306,6 @@ zoroastrian_chastity = {
 	monthly_character_piety = -0.70
 }
 
-zoroastrian_hedonism = {
-	potential = {
-		religion_group = zoroastrian_group
-	}
-	
-	trigger = {
-		trait = hedonist
-		religion_group = zoroastrian_group
-	}
-	
-	icon = 12
-	monthly_character_piety = 0.70
-}
-
 
 zoroastrian_lustfulness = {
 	potential = {
@@ -448,92 +322,10 @@ zoroastrian_lustfulness = {
 }
 
 
-zoroastrian_not_married = {
-	potential = {
-		religion_group = zoroastrian_group
-	}
-	
-	trigger = {
-		age = 16
-		religion_group = zoroastrian_group
-		is_married = no
-	}
-	
-	icon = 36
-	monthly_character_piety = -0.40
-	monthly_character_prestige = -0.40
-}
-
 #####################################################################
 # BVDDHIST
 #####################################################################
 
-pure_land_supporter = {
-	potential = {
-		religion = buddhist
-		trait = mahayana_buddhist
-		primary_title = { higher_tier_than = BARON }
-	}
-	
-	trigger = {
-		has_character_flag = pure_land_flag
-		religion = buddhist
-	}
-	diplomacy = 1
-	learning = 1
-	general_opinion = 10
-	icon = 2
-}
-lotus_school_supporter = {
-	potential = {
-		religion = buddhist
-		trait = mahayana_buddhist
-		primary_title = { higher_tier_than = BARON }
-	}
-	
-	trigger = {
-		has_character_flag = lotus_school_flag
-		religion = buddhist
-	}
-	stewardship = 1
-	learning = 1
-	tech_growth_modifier_culture = 0.05
-	tech_growth_modifier_military = 0.05
-	tech_growth_modifier_economy = 0.05
-	icon = 2
-}
-zen_supporter = {
-	potential = {
-		religion = buddhist
-		trait = mahayana_buddhist
-		primary_title = { higher_tier_than = BARON }
-	}
-	
-	trigger = {
-		has_character_flag = zen_flag
-		religion = buddhist
-	}
-	intrigue = 1
-	learning = 1
-	build_cost_modifier = -0.20
-	build_time_modifier = -0.20
-	icon = 2
-}
-yogacara_supporter = {
-	potential = {
-		religion = buddhist
-		trait = mahayana_buddhist
-		primary_title = { higher_tier_than = BARON }
-	}
-	
-	trigger = {
-		has_character_flag = yogacara_flag
-		religion = buddhist
-	}
-	learning = 2
-	monthly_character_piety = 0.25
-	icon = 2
-}
 buddhist_zeal = {
 	potential = {
 		religion = buddhist
@@ -629,6 +421,9 @@ corrupt_dulcinian_1 = {
    icon = 24
 
 }
+
+
+
 corrupt_dulcinian_2 = {
    potential = {
       religion = dulcinian
@@ -687,6 +482,8 @@ corrupt_dulcinian_2 = {
    icon = 24
 
 }
+
+
 corrupt_dulcinian_3 = {
    potential = {
       religion = dulcinian
@@ -750,7 +547,4 @@ corrupt_dulcinian_3 = {
    icon = 24
 
 }
-
-
-
 

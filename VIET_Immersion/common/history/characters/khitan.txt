@@ -1,0 +1,474 @@
+##############################################################################
+#
+# Kara-Khitai/Western Liao Empire
+#
+# 1000158761 - 1000158787
+#
+##############################################################################
+
+1000158761 = {
+	name="Baighu"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	#father=204750
+	1067.1.1 = {
+		birth="1067.1.1"
+	}
+	1110.1.1 = {
+		death="1110.1.1"
+	}
+}
+1000158762 = {
+	name="Dashi"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	stewardship=7
+	martial=9
+	learning=7
+	add_trait="quick"
+	add_trait="grey_eminence"
+	add_trait="jinshi"
+	add_trait="veteran"
+	add_trait="brave"
+	add_trait="diligent"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="hunter"
+	add_trait="scholar"
+	father=1000158761
+	1087.1.1 = {
+		birth="1087.1.1"
+	}
+	1110.1.1={
+		add_spouse=1000158769
+	}
+	1141.11.1 = {
+		effect = {
+			wealth = 200
+			spawn_unit = {
+				province = 901 #Khiva
+				owner = ROOT
+				leader = 1000158763
+				troops =
+				{
+					horse_archers = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					knights = { 100 100 }
+				}
+			}
+			spawn_unit = {
+				province = 901 #Khiva
+				owner = ROOT
+				leader = 1000158770
+				troops =
+				{
+					horse_archers = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					knights = { 100 100 }
+				}
+			}
+			spawn_unit = {
+				province = 901 #Khiva
+				owner = ROOT
+				leader = 1000158771
+				troops =
+				{
+					horse_archers = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					knights = { 100 100 }
+				}
+			}
+			spawn_unit = {
+				province = 901 #Khiva
+				owner = ROOT
+				leader = 1000158776
+				troops =
+				{
+					horse_archers = { 1000 1000 }
+					light_cavalry = { 500 500 }
+					light_infantry = { 250 250 }
+					heavy_infantry = { 250 250 }
+					knights = { 100 100 }
+				}
+			}
+		}	
+	}
+	1143.1.1 = {
+		death="1143.1.1"
+	}
+}
+1000158763 = {
+	name="Yiliu"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	martial=7
+	add_trait="skilled_tactician"
+	add_trait="brave"
+	father=1000158762
+	mother=1000158769
+	1110.1.1 = {
+		birth="1130.1.1"
+	}
+	1143.1.1 = {
+		name="Renzong"
+	}
+	1163.1.1 = {
+		death="1163.1.1"
+	}
+}
+1000158764 = {
+	name="Pusuwan"
+	female=yes
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158762
+	1131.1.1 = {
+		birth="1131.1.1"
+	}
+	1178.1.1 = {
+		death="1178.1.1"
+	}
+}
+1000158765 = {
+	name="Zhilugu"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158763
+	1145.1.1 = {
+		birth="1145.1.1"
+	}
+	1211.1.1 = {
+		death="1211.1.1"
+	}
+}
+1000158766 = {
+	name="Kuchlug"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	#father=1000158763
+	1170.1.1 = {
+		birth="1170.1.1"
+	}
+	1209.1.1={
+		add_spouse=1000158767
+	}
+	1221.1.1 = { #Technically died in 1218, but extended to ensure Mongol troops take over
+		death="1221.1.1"
+	}
+}
+1000158767 = {
+	name="Qungu"
+	female=yes
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	#father=1000158763
+	1185.1.1 = {
+		birth="1185.1.1"
+	}
+	1221.1.1 = {
+		death="1221.1.1"
+	}
+}
+#Xiao Family - Dukes of Samarkhand
+1000158768 = { #fictional
+	name="Saladi"
+	dynasty=1000061601
+	religion="buddhist"
+	culture="khitan"
+	#father=1000158763
+	1070.1.1 = {
+		birth="1070.1.1"
+	}
+	1140.1.1 = {
+		death="1140.1.1"
+	}
+}
+1000158769 = {
+	name="Tabuyan"
+	female=yes
+	dynasty=1000061601
+	religion="buddhist"
+	culture="khitan"
+	add_trait="diligent"
+	add_trait="ambitious"
+	father=1000158768
+	1090.1.1 = {
+		birth="1090.1.1"
+	}
+	1166.1.1 = {
+		death="1166.1.1"
+	}
+}
+1000158770= {
+	name="Wolila"
+	dynasty=1000061601
+	religion="buddhist"
+	culture="khitan"
+	martial = 7
+	add_trait="skilled_tactician"
+	add_trait="just"
+	add_trait="wroth"
+	add_trait="ambitious"
+	father=1000158768
+	1105.1.1 = {
+		birth="1105.1.1"
+	}
+	1180.1.1 = {
+		death="1180.1.1"
+	}
+}
+1000158771= {
+	name="Duolubu"
+	dynasty=1000061601
+	religion="buddhist"
+	culture="khitan"
+	add_trait="tough_soldier"
+	father=1000158770
+	1130.1.1 = {
+		birth="1130.1.1"
+	}
+	1199.1.1 = {
+		death="1199.1.1"
+	}
+}
+1000158772= {
+	name="Fuguzhi"
+	dynasty=1000061601
+	religion="buddhist"
+	culture="khitan"
+	add_trait="tough_soldier"
+	add_trait="fair"
+	add_trait="gregarious"
+	father=1000158770
+	1134.1.1 = {
+		birth="1134.1.1"
+	}
+	1177.1.1 = {
+		death="1177.1.1"
+	}
+}
+#Later Khitan
+1000158773= {
+	name="Baraq Hajib"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	add_trait="skilled_tactician"
+	add_trait="wroth"
+	father=1000158765
+	1184.1.1 = {
+		birth="1184.1.1"
+	}
+	1225.1.1 = {
+		religion="sunni"
+	}
+	1255.1.1 = {
+		death="1255.1.1"
+	}
+}
+1000158774= {
+	name="Hamid Pur"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158765
+	1186.1.1 = {
+		birth="1186.1.1"
+	}
+	1225.1.1 = {
+		religion="sunni"
+	}
+	1255.1.1 = {
+		death="1255.1.1"
+	}
+}
+#Fictional Relatives of Yelu Dashi as vassals
+1000158775 = {
+	name="Mohui"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	#father=204750
+	1070.1.1 = {
+		birth="1070.1.1"
+	}
+	1140.1.1 = {
+		death="1140.1.1"
+	}
+}
+1000158776 = {
+	name="Dorlipun"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158775
+	1103.1.1 = {
+		birth="1103.1.1"
+	}
+	1156.1.1 = {
+		death="1156.1.1"
+	}
+}
+1000158777 = {
+	name="Songrui"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158776
+	1131.1.1 = {
+		birth="1131.1.1"
+	}
+	1200.1.1 = {
+		death="1200.1.1"
+	}
+}
+1000158778 = {
+	name="Bingchang"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158777
+	1156.1.1 = {
+		birth="1156.1.1"
+	}
+	1225.1.1 = {
+		death="1225.1.1"
+	}
+}
+1000158779 = {
+	name="Bogong"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158778
+	1180.1.1 = {
+		birth="1180.1.1"
+	}
+	1225.1.1 = {
+		death="1225.1.1"
+	}
+}
+#Counts of Herat
+1000158780 = {
+	name="Duolubu"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158775
+	1104.1.1 = {
+		birth="1104.1.1"
+	}
+	1168.1.1 = {
+		death="1168.1.1"
+	}
+}
+1000158781 = {
+	name="Qianshun"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158780
+	1125.1.1 = {
+		birth="1125.1.1"
+	}
+	1187.1.1 = {
+		death="1187.1.1"
+	}
+}
+1000158782 = {
+	name="Aguzhi"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158781
+	1161.1.1 = {
+		birth="1161.1.1"
+	}
+	1212.1.1 = {
+		death="1212.1.1"
+	}
+}
+1000158783 = {
+	name="Yaoshinu"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158782
+	1180.1.1 = {
+		birth="1180.1.1"
+	}
+	1235.1.1 = {
+		death="1235.1.1"
+	}
+}
+1000158784 = {
+	name="Hunhe"
+	dynasty=1000061600
+	religion="buddhist"
+	culture="khitan"
+	father=1000158783
+	1201.1.1 = {
+		birth="1201.1.1"
+	}
+	1250.1.1 = {
+		death="1250.1.1"
+	}
+}
+#Counts of Dashhowuz
+1000158785 = {
+	name="Tuguci"
+	dynasty=1000061602
+	religion="buddhist"
+	culture="khitan"
+	#father=1000158785
+	1120.1.1 = {
+		birth="1120.1.1"
+	}
+	1188.1.1 = {
+		death="1188.1.1"
+	}
+}
+1000158786 = {
+	name="Gongzao"
+	dynasty=1000061602
+	religion="buddhist"
+	culture="khitan"
+	father=1000158785
+	1152.1.1 = {
+		birth="1152.1.1"
+	}
+	1217.1.1 = {
+		death="1217.1.1"
+	}
+}
+1000158787 = {
+	name="Quchulu"
+	dynasty=1000061602
+	religion="buddhist"
+	culture="khitan"
+	father=1000158786
+	1189.1.1 = {
+		birth="1189.1.1"
+	}
+	1255.1.1 = {
+		death="1255.1.1"
+	}
+}
+
+
+
+
+

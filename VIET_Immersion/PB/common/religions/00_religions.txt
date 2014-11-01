@@ -638,6 +638,8 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -661,6 +663,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
 		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
@@ -686,6 +690,8 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -705,6 +711,8 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+		
+		landed_kin_prestige_bonus = yes
 		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
@@ -726,6 +734,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -746,6 +756,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -756,8 +768,8 @@ muslim = {
 	yazidi = {
 		graphical_culture = muslimgfx
 
-		icon = 55
-		heresy_icon = 56
+		icon = 58
+		heresy_icon = 59
 		
 		color = { 0.2 0.2 0.7 }
 		
@@ -777,13 +789,16 @@ muslim = {
 		can_hold_temples = yes
 		can_excommunicate = yes
 		max_wives = 4
+
+		landed_kin_prestige_bonus = yes
+
 		matrilineal_marriages = no
 	}
 	yarsani = {
 		graphical_culture = muslimgfx
 
-		icon = 55
-		heresy_icon = 56
+		icon = 58
+		heresy_icon = 59
 		
 		color = { 0.5 0.9 0.6 }
 		
@@ -802,6 +817,9 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+
+		landed_kin_prestige_bonus = yes
+
 		matrilineal_marriages = no
 		
 		intermarry = tengri_pagan
@@ -814,8 +832,8 @@ muslim = {
 	alevi = {
 		graphical_culture = muslimgfx
 
-		icon = 55
-		heresy_icon = 56
+		icon = 58
+		heresy_icon = 59		
 		
 		color = { 0.55 0.85 0.75 }
 		
@@ -834,6 +852,8 @@ muslim = {
 		matrilineal_marriages = no
 		female_temple_holders = yes 
 		
+		landed_kin_prestige_bonus = yes 
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -844,8 +864,8 @@ muslim = {
 	dimli = {
 		graphical_culture = muslimgfx
 
-		icon = 55
-		heresy_icon = 56
+		icon = 58
+		heresy_icon = 59
 		
 		
 		color = { 0.45 0.9 0.75 }
@@ -867,6 +887,8 @@ muslim = {
 		female_temple_holders = yes
 		feminist = yes
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -877,8 +899,8 @@ muslim = {
 	ibadi = {
 		graphical_culture = muslimgfx
 
-		icon = 51
-		heresy_icon = 52
+		icon = 54
+		heresy_icon = 55
 		
 		crusade_name = JIHAD
 		scripture_name = THE_KORAN
@@ -901,27 +923,7 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
-		intermarry = tengri_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = east_african_pagan
-		intermarry = east_african_pagan_reformed
-	}
-	haruri = {
-		graphical_culture = muslimgfx
-
-		icon = 51
-		heresy_icon = 52
-		
-		color = { 0.7 0.8 0.5 }
-		parent = ibadi
-		priests_can_marry = yes
-		can_hold_temples = yes
-		psc_marriage = no
-		female_temple_holders = yes
-		max_wives = 4
-		matrilineal_marriages = no
+		landed_kin_prestige_bonus = yes
 		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
@@ -933,8 +935,8 @@ muslim = {
 	ajareda = {
 		graphical_culture = muslimgfx
 
-		icon = 51
-		heresy_icon = 52
+		icon = 54
+		heresy_icon = 55
 		
 		color = { 0.7 0.95 0.45 }
 		parent = ibadi
@@ -945,14 +947,55 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		allow_looting = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
+
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = west_african_pagan
+		intermarry = west_african_pagan_reformed
+		intermarry = east_african_pagan
+		intermarry = east_african_pagan_reformed
+
+	}
+	kharijite = {
+		graphical_culture = muslimgfx
+
+		icon = 54
+		heresy_icon = 55
+		
+		crusade_name = JIHAD
+
+		color = { 0.4 0.8 0.6 }
+		parent = ibadi
+		can_grant_claim = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		can_hold_temples = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = west_african_pagan
+		intermarry = west_african_pagan_reformed
+		intermarry = east_african_pagan
+		intermarry = east_african_pagan_reformed
+
 	}
 	najdite = {
 		graphical_culture = muslimgfx
 
-		icon = 51
-		heresy_icon = 52
+		icon = 54
+		heresy_icon = 55
 		
 		color = { 0.75 0.85 0.45 }
 		parent = ibadi
@@ -962,14 +1005,24 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		allow_looting = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
+
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = west_african_pagan
+		intermarry = west_african_pagan_reformed
+		intermarry = east_african_pagan
+		intermarry = east_african_pagan_reformed
+
 	}
 	azraqite = {
 		graphical_culture = muslimgfx
 
-		icon = 51
-		heresy_icon = 52
+		icon = 54
+		heresy_icon = 55
 		
 		color = { 0.85 0.95 0.45 }
 		parent = ibadi
@@ -978,6 +1031,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
 		
 		unit_modifier = {		
 			garrison_size = -0.1
@@ -994,6 +1049,14 @@ muslim = {
 		allow_looting = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
+
+		intermarry = tengri_pagan
+		intermarry = tengri_pagan_reformed
+		intermarry = west_african_pagan
+		intermarry = west_african_pagan_reformed
+		intermarry = east_african_pagan
+		intermarry = east_african_pagan_reformed
+
 	}
 	shiite = {
 		graphical_culture = muslimgfx
@@ -1021,6 +1084,8 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -1044,6 +1109,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
 	}
 	hurufi = {
 		graphical_culture = muslimgfx
@@ -1061,6 +1128,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
 		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
@@ -1083,6 +1152,8 @@ muslim = {
 		max_wives = 4
 		matrilineal_marriages = no
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -1102,6 +1173,8 @@ muslim = {
 		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
+		
+		landed_kin_prestige_bonus = yes
 		
 		allow_looting = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
@@ -1126,6 +1199,8 @@ muslim = {
 		psc_marriage = no
 		max_wives = 4
 		
+		landed_kin_prestige_bonus = yes
+		
 		intermarry = tengri_pagan
 		intermarry = tengri_pagan_reformed
 		intermarry = west_african_pagan
@@ -1136,7 +1211,7 @@ muslim = {
 }
 
 pagan_group = {
-	has_coa_on_barony_only = no
+	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
 	hostile_within_group = yes
@@ -1177,6 +1252,10 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		dislike_tribal_organization = yes
 	}
 	
 	norse_pagan_reformed = {
@@ -1225,6 +1304,8 @@ pagan_group = {
 		religious_clothing_priest = 11
 		
 		intermarry = norse_pagan
+		
+		allow_in_ruler_designer = no
 	}		
 	
 	norse_pagan = {
@@ -1273,6 +1354,8 @@ pagan_group = {
 		religious_clothing_priest = 11
 		
 		intermarry = norse_pagan_reformed
+		
+		dislike_tribal_organization = yes
 	}	
 	
 	tengri_pagan_reformed = { # Mongols
@@ -1313,6 +1396,8 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 		
+		allow_in_ruler_designer = no
+		
 		intermarry = tengri_pagan
 		intermarry = orthodox
 		intermarry = sunni
@@ -1325,7 +1410,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = salihist
 		intermarry = murjite
 		intermarry = muridist
@@ -1381,6 +1466,8 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 		
+		allow_in_ruler_designer = no
+		
 		intermarry = tengri_pagan_reformed
 		intermarry = orthodox
 		intermarry = sunni
@@ -1393,7 +1480,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = salihist
 		intermarry = murjite
 		intermarry = muridist
@@ -1446,6 +1533,7 @@ pagan_group = {
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
+		allow_in_ruler_designer = no
 	}		
 	
 	baltic_pagan = {
@@ -1485,6 +1573,7 @@ pagan_group = {
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
+		dislike_tribal_organization = yes
 	}	
 	
 	finnish_pagan_reformed = {
@@ -1526,6 +1615,7 @@ pagan_group = {
 		
 		religious_clothing_head = 14
 		religious_clothing_priest = 14
+		allow_in_ruler_designer = no
 	}	
 	
 	finnish_pagan = {
@@ -1566,6 +1656,7 @@ pagan_group = {
 		
 		religious_clothing_head = 14
 		religious_clothing_priest = 14
+		dislike_tribal_organization = yes
 	}
 	
 	aztec_reformed = {
@@ -1603,6 +1694,8 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
 	}	
 	
 	aztec = {
@@ -1637,6 +1730,8 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		
+		dislike_tribal_organization = yes
 	}
 
 	slavic_pagan_reformed = {
@@ -1690,6 +1785,7 @@ pagan_group = {
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
+		allow_in_ruler_designer = no
 	}		
 	
 	slavic_pagan = {
@@ -1731,6 +1827,7 @@ pagan_group = {
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
+		dislike_tribal_organization = yes
 	}
 	
 	west_african_pagan_reformed = {
@@ -1775,6 +1872,8 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
+		allow_in_ruler_designer = no
+		
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
@@ -1785,7 +1884,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = salihist
 		intermarry = murjite
 		intermarry = muridist
@@ -1821,6 +1920,7 @@ pagan_group = {
 			key = "DEF_RELIGION"
 		}
 		
+		defensive_attrition = yes
 		priests_can_marry = yes
 		female_temple_holders = yes
 		allow_looting = yes
@@ -1835,6 +1935,8 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
+		dislike_tribal_organization = yes
+		
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
@@ -1845,7 +1947,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = najdite
 		intermarry = azraqite
 		intermarry = ajareda
@@ -1889,8 +1991,8 @@ pagan_group = {
 	east_african_pagan_reformed = {
 		graphical_culture = africangfx
 
-		icon = 49
-		heresy_icon = 50
+		icon = 52
+		heresy_icon = 53
 		
 		color = { 1.0 0.45 0.0 }
 		crusade_name = GREAT_HOLY_WAR
@@ -1924,7 +2026,6 @@ pagan_group = {
 			garrison_size = 0.4
 			
 			key = "DEF_RELIGION_HOME_TERRITORY"
-			
 		}
 		
 		priests_can_marry = yes
@@ -1938,6 +2039,8 @@ pagan_group = {
 		religious_clothing_head = 13
 		religious_clothing_priest = 13
 		
+		allow_in_ruler_designer = no
+		
 		intermarry = sunni
 		intermarry = shiite
 		intermarry = ibadi
@@ -1948,7 +2051,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = najdite
 		intermarry = azraqite
 		intermarry = ajareda
@@ -1965,8 +2068,8 @@ pagan_group = {
 	east_african_pagan = {
 		graphical_culture = africangfx
 
-		icon = 48
-		heresy_icon = 49
+		icon = 51
+		heresy_icon = 53
 		
 		color = { 0.8 0.35 0.0 }
 		crusade_name = GREAT_HOLY_WAR
@@ -2002,6 +2105,7 @@ pagan_group = {
 		
 		priests_can_marry = yes
 		female_temple_holders = yes
+		defensive_attrition = yes
 		allow_looting = yes
 		
 		max_consorts = 3
@@ -2013,6 +2117,7 @@ pagan_group = {
 		
 		religious_clothing_head = 13
 		religious_clothing_priest = 13
+		dislike_tribal_organization = yes
 		
 		intermarry = sunni
 		intermarry = shiite
@@ -2024,7 +2129,7 @@ pagan_group = {
 		intermarry = yarsani
 		intermarry = alevi
 		intermarry = dimli
-		intermarry = haruri
+		intermarry = kharijite
 		intermarry = najdite
 		intermarry = azraqite
 		intermarry = ajareda
@@ -2037,7 +2142,85 @@ pagan_group = {
 		intermarry = west_african_pagan_reformed
 		intermarry = east_african_pagan_reformed
 	}	
+	zun_pagan_reformed = {
+		graphical_culture = muslimgfx
+
+		icon = 49
+		heresy_icon = 50
+
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.9 1.0 0.0 }
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		allow_in_ruler_designer = no
+	}
 	
+	zun_pagan = {
+		graphical_culture = muslimgfx
+
+		icon = 48
+		heresy_icon = 50
+		
+		color = { 0.9 1.0 0.0 }
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		defensive_attrition = yes
+		max_consorts = 3
+		reformed = zun_pagan_reformed
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		dislike_tribal_organization = yes
+	}	
 }
 
 zoroastrian_group = {
@@ -2453,8 +2636,8 @@ gnostic_group = {
 	manichean = {
 		graphical_culture = persiangfx
 		
-		icon = 53
-		heresy_icon = 54
+		icon = 56
+		heresy_icon = 57
 		
 		color = { 0.6 0.15 0.8 }
 		
@@ -2494,8 +2677,8 @@ gnostic_group = {
 			Ptahil DEMONS_OF_DARKNESS
 		}
 
-		icon = 53
-		heresy_icon = 54
+		icon = 56
+		heresy_icon = 57
 		color = { 0.65 0.15 0.85 }
 		parent = manichean
 		
@@ -2509,8 +2692,8 @@ gnostic_group = {
 	sabian = {
 		graphical_culture = persiangfx
 		
-		icon = 53
-		heresy_icon = 54
+		icon = 56
+		heresy_icon = 57
 		
 		color = { 0.55 0.15 0.75 }
 		
@@ -2524,8 +2707,8 @@ gnostic_group = {
 	denawar = {
 		graphical_culture = persiangfx
 		
-		icon = 53
-		heresy_icon = 54
+		icon = 56
+		heresy_icon = 57
 		
 		color = { 0.55 0.15 0.75 }
 		
@@ -2539,8 +2722,8 @@ gnostic_group = {
 	elkasite = {
 		graphical_culture = persiangfx
 		
-		icon = 53
-		heresy_icon = 54
+		icon = 56
+		heresy_icon = 57
 		
 		color = { 0.5 0.2 0.6 }
 		

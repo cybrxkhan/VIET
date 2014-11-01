@@ -1,0 +1,293 @@
+######################################################################################
+#
+# VIET Dynasties - Set 3
+#
+# This is for any new dynasties added in VIET
+# They are placed separately here for easier mod integration and updating in between patches
+# Generally they are arranged in sets of 10 (i.e. 10, 20, 30 dynasties per culture)
+#
+# 1000092600 -  (some IDs may have been skipped)
+#
+######################################################################################
+
+
+1000092600 = {
+	name="Castiglioni"
+	culture = italian
+}
+1000092601 = {
+	name="Ferrari"
+	culture = italian
+}
+1000092602 = {
+	name="Olivo"
+	culture = italian
+}
+1000092603 = {
+	name="Monteverdi"
+	culture = italian
+}
+1000092604 = {
+	name="Franco"
+	culture = italian
+}
+1000092605 = {
+	name="Bardi"
+	culture = italian
+}
+1000092606 = {
+	name="Peruzzi"
+	culture = italian
+}
+1000092607 = {
+	name="Malatesta"
+	culture = italian
+}
+1000092608 = {
+	name="Ghibli"
+	culture = italian
+}
+1000092609 = {
+	name="Pizzaiolo"
+	culture = italian
+}
+1000092610 = {
+	name="Amalek"
+	culture = aramean
+}
+1000092611 = {
+	name="Ebernari"
+	culture = aramean
+}
+1000092612 = {
+	name="Hanna"
+	culture = aramean
+}
+1000092613 = {
+	name="Bihram"
+	culture = aramean
+}
+1000092614 = {
+	name="Zihrun"
+	culture = aramean
+}
+1000092615 = {
+	name="Naddaf"
+	culture = aramean
+}
+1000092616 = {
+	name="Ahmar"
+	culture = aramean
+}
+1000092617 = {
+	name="Baylan"
+	culture = aramean
+}
+1000092618 = {
+	name="Malla"
+	culture = aramean
+}
+1000092619 = {
+	name="Caldani"
+	culture = aramean
+}
+1000092620 = {
+	name="Ramman"
+	culture = aramean
+}
+1000092621 = {
+	name="Akkurt"
+	culture = aramean
+}
+1000092622 = {
+	name="Kifa"
+	culture = aramean
+}
+1000092623 = {
+	name="Gadala"
+	culture = aramean
+}
+1000092624 = {
+	name="Doumit"
+	culture = aramean
+}
+1000092625 = {
+	name="Dag"
+	culture = aramean
+}
+1000092626 = {
+	name="Phares"
+	culture = aramean
+}
+1000092627 = {
+	name="Messo"
+	culture = aramean
+}
+1000092628 = {
+	name="Ugarit"
+	culture = aramean
+}
+1000092629 = {
+	name="Ahlamu"
+	culture = aramean
+}
+1000092630 = {
+	name="Urhoy"
+	culture = aramean
+}
+1000092631 = {
+	name="Malko"
+	culture = aramean
+}
+1000092632 = {
+	name="Serugh"
+	culture = aramean
+}
+1000092633 = {
+	name="Haditha"
+	culture = aramean
+}
+1000092634 = {
+	name="Salibi"
+	culture = aramean
+}
+1000092635 = {
+	name="Ebroyo"
+	culture = aramean
+}
+1000092636 = {
+	name="Fayeq"
+	culture = aramean
+}
+1000092637 = {
+	name="Arzo"
+	culture = aramean
+}
+1000092638 = {
+	name="Safa"
+	culture = aramean
+}
+1000092639 = {
+	name="Arz"
+	culture = aramean
+}
+1000092640 = {
+	name="Avarigines"
+	culture = celtiberian
+}
+1000092641 = {
+	name="Blendii"
+	culture = celtiberian
+}
+1000092642 = {
+	name="Camarici"
+	culture = celtiberian
+}
+1000092643 = {
+	name="Concani"
+	culture = celtiberian
+}
+1000092644 = {
+	name="Coniaci"
+	culture = celtiberian
+}
+1000092645 = {
+	name="Morecani"
+	culture = celtiberian
+}
+1000092646 = {
+	name="Noegi"
+	culture = celtiberian
+}
+1000092647 = {
+	name="Orgenomesci"
+	culture = celtiberian
+}
+1000092648 = {
+	name="Salaeni"
+	culture = celtiberian
+}
+1000092649 = {
+	name="Vadinienses"
+	culture = celtiberian
+}
+1000092650 = {
+	name="Velliques"
+	culture = celtiberian
+}
+1000092651 = {
+	name="Cabarci"
+	culture = celtiberian
+}
+1000092652 = {
+	name="Iburri"
+	culture = celtiberian
+}
+1000092653 = {
+	name="Luggones"
+	culture = celtiberian
+}
+1000092654 = {
+	name="Paesici"
+	culture = celtiberian
+}
+1000092655 = {
+	name="Paenii"
+	culture = celtiberian
+}
+1000092656 = {
+	name="Saelini"
+	culture = celtiberian
+}
+1000092657 = {
+	name="Vinciani"
+	culture = celtiberian
+}
+1000092658 = {
+	name="Viromenici"
+	culture = celtiberian
+}
+1000092659 = {
+	name="Brigaentini"
+	culture = celtiberian
+}
+1000092660 = {
+	name="Baedunienses"
+	culture = celtiberian
+}
+1000092661 = {
+	name="Amaci"
+	culture = celtiberian
+}
+1000092662 = {
+	name="Cabruagenigi"
+	culture = celtiberian
+}
+1000092663 = {
+	name="Lancienses"
+	culture = celtiberian
+}
+1000092664 = {
+	name="Lougei"
+	culture = celtiberian
+}
+1000092665 = {
+	name="Tiburi"
+	culture = celtiberian
+}
+1000092666 = {
+	name="Orniaci"
+	culture = celtiberian
+}
+1000092667 = {
+	name="Gigurri"
+	culture = celtiberian
+}
+1000092668 = {
+	name="Zoelae"
+	culture = celtiberian
+}
+1000092669 = {
+	name="Susarri"
+	culture = celtiberian
+}

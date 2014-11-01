@@ -194,13 +194,13 @@ province_event = {
 			culture = occitan
 		}
 		owner = {
-			top_liege = { culture = norse }
+			culture = norse
 		}
 		NOT = { year = 1150 }
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 600
 	}
 
 	option = {

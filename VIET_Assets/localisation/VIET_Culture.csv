@@ -84,7 +84,11 @@ parsi;Parsi;;;;;;;;;;;;;x
 khotanese;Khotanese;;;;;;;;;;;;;x
 frisian;Frisian;;;;;;;;;;;;;x
 afar;Afar;;;;;;;;;;;;;x
-serindian;Serindian;;;;;;;;;;;;;x
+pannonian;Pannonian;;;;;;;;;;;;;x
+gepid;Gepid;;;;;;;;;;;;;x
+jurchen;Jurchen;;;;;;;;;;;;;x
+tai;Tai;;;;;;;;;;;;;x
+aramean;Aramean;;;;;;;;;;;;;x
 #ETC;;;;;;;;;;;;;;x
 baron_andalusian_arabic;Wâli;Wâli;Wâli;;Valí;;;;;;;;;x
 baron_female_andalusian_arabic;Wâlia;Walia;Wâlia;;Valía;;;;;;;;;x
@@ -122,9 +126,4 @@ duchy_berber;Emirate;Émirat;Emirat;;Emirato;;;;;;;;;x;
 kingdom_berber;Sultanate;Sultanat;Sultanat;;Sultanato;;;;;;;;;x;
 job_chancellor_berber;Grand Vizier;Grand Vizir;Großwesir;;Gran Visir;;;;;;;;;x
 emperor_berber;Badshah;Badshah;Badshah;;Badshah;;;;;;;;;x
-title_tanist_saxon;Aetheling;Aetheling;Aetheling;;Aetheling;;;;;;;;;x
-title_tanist_welsh;Edling;Edling;Edling;;Edling;;;;;;;;;x
 arabic;Semitic;Semitic;Semitic;Semitic;;;;;;;;;x
-duke_lombard;Prince;Prince;Prinz;;Príncipe;;;;;;;;;x
-duke_female_lombrd;Princess;Princesse;Prinzessin;;Princesa;;;;;;;;;x
-duchy_of_lombard;Principality of;Principauté de;Fürstentum;;Principado de;;;;;;;;;x

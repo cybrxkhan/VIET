@@ -7,22 +7,19 @@ title_kanikleios = {
 	monthly_salary = 0.01
 	monthly_prestige = 0.005
 	
+	is_unique = yes
+	
 	allow = {
 		is_adult = yes
 		is_female = no
 		FROM = {
-			is_feudal = yes
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
 			NOT = { religion_group = muslim }
+			NOT = { religion_group = zoroastrian_group }
 		}
-		NOT = { has_minor_title = title_despot }
-		NOT = { has_minor_title = title_sebastokrator }
-		NOT = { has_minor_title = title_caesar }
-		NOT = { has_minor_title = title_kouropalates }
-		NOT = { has_minor_title = title_protospatharios }
 	}
 	
 	gain_effect = {
@@ -41,85 +38,19 @@ title_protospatharios = {
 	monthly_salary = 0.005
 	monthly_prestige = 0.002
 	
+	is_unique = yes
+	
 	allow = {
 		is_adult = yes
 		is_female = no
 		FROM = {
-			is_feudal = yes
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
 			NOT = { religion_group = muslim }
+			NOT = { religion_group = zoroastrian_group }
 		}
-		NOT = { has_minor_title = title_despot }
-		NOT = { has_minor_title = title_sebastokrator }
-		NOT = { has_minor_title = title_caesar }
-		NOT = { has_minor_title = title_kouropalates }
-		NOT = { has_minor_title = title_kanikleios }
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-
-	message = yes
-}
-
-title_court_musician = { #Moved from muslim titles - now available to non-muslims
-	dignity = 0.06
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
-	
-	monthly_salary = 0.02
-	monthly_prestige = 0.004
-	
-	allow = {
-		is_adult = yes
-		FROM = {
-			is_feudal = yes
-			NOT = { culture_group = west_african }
-			NOT = { culture_group = central_african }
-			NOT = { religion = west_african_pagan }
-			NOT = { religion = west_african_pagan_reformed }
-		}
-		OR = {
-			is_female = no
-			religion_group = muslim
-			culture_group = latin
-			culture_group = iberian
-			culture_group = gallic
-		}
-		OR = {
-			trait = poet
-			trait = melodious_voice
-			trait = powerful_voice
-			AND = {
-				diplomacy = 11
-				learning = 8
-			}
-		}		
-		NOT = { has_minor_title = title_food_taster }
-		NOT = { has_minor_title = title_court_calligrapher }
-		NOT = { has_minor_title = title_court_poet }
-		NOT = { has_minor_title = title_chief_architect }
-		NOT = { has_minor_title = title_cupbearer }
-		NOT = { has_minor_title = title_chief_qadi }
-		NOT = { has_minor_title = title_keeper_of_swans }
-		NOT = { has_minor_title = title_master_of_the_horse }
-		NOT = { has_minor_title = title_master_of_the_hunt }
-		NOT = { has_minor_title = title_high_almoner }
-		NOT = { has_minor_title = title_cupbearer }
-		NOT = { has_minor_title = title_seneschal }
-		NOT = { has_minor_title = title_court_jester }
-		NOT = { has_minor_title = title_sebastokrator }
-		NOT = { has_minor_title = title_caesar }
-		NOT = { has_minor_title = title_kouropalates }
-		NOT = { has_minor_title = title_kanikleios }
-		NOT = { has_minor_title = title_protospatharios }
-		NOT = { has_minor_title = title_anthypatos }
 	}
 	
 	gain_effect = {
@@ -137,6 +68,8 @@ title_lique_mekwas = {
 
 	monthly_salary = 0.01
 	monthly_prestige = 0.008
+	
+	is_unique = yes	
 	
 	allow = {
 		is_adult = yes
@@ -173,6 +106,8 @@ title_belen_tigui = {
 	monthly_salary = 0.01
 	monthly_prestige = 0.005
 	
+	is_unique = yes
+	
 	allow = {
 		is_adult = yes
 		is_female = no
@@ -185,7 +120,6 @@ title_belen_tigui = {
 				}
 			}
 			culture_group = west_african
-			NOT = { culture = maghreb_arabic }
 		}
 		NOT = { trait = imbecile }
 		NOT = { trait = slow }
@@ -207,6 +141,8 @@ title_nagid = {
 	
 	monthly_salary = 0.01
 	monthly_prestige = 0.01
+	
+	is_unique = yes
 	
 	allow = {
 		is_adult = yes
@@ -236,6 +172,8 @@ title_marcher_lord = {
 	
 	monthly_salary = 0.01
 	monthly_prestige = 0.01
+	
+	is_unique = yes
 	
 	allow = {
 		is_adult = yes
@@ -286,6 +224,8 @@ title_amir_al_umara = {
 	monthly_salary = 0.01
 	monthly_prestige = 0.005
 	
+	is_unique = yes	
+	
 	allow = {
 		is_adult = yes
 		is_female = no
@@ -316,18 +256,18 @@ title_court_griot = { #Court Griot
 	monthly_salary = 0.02
 	monthly_prestige = 0.01
 	
+	is_unique = yes	
+	
 	allow = {
 		is_adult = yes
 		is_ruler = no
 		FROM = {
-			is_feudal = yes
 			OR = {
 				culture_group = west_african
 				culture_group = central_african
 				religion = west_african_pagan
 				religion = west_african_pagan_reformed
 			}
-			NOT = { has_global_flag = VIET_wafrican_features_off }
 		}
 		is_female = no
 		trait = griot
@@ -350,6 +290,8 @@ title_farima_soura = {
 	
 	monthly_salary = 0.05
 	monthly_prestige = 0.05
+	
+	is_unique = yes	
 	
 	allow = {
 		is_adult = yes
@@ -384,6 +326,8 @@ title_sankar_zouma = {
 	
 	monthly_salary = 0.05
 	monthly_prestige = 0.05
+	
+	is_unique = yes	
 	
 	allow = {
 		is_adult = yes
@@ -420,6 +364,8 @@ title_saintly_monk = {
 	
 	monthly_prestige = 0.02
 	
+	is_unique = yes	
+	
 	allow = {
 		age = 16
 		religion = buddhist
@@ -432,6 +378,7 @@ title_saintly_monk = {
 			OR = {
 				is_feudal = yes
 				is_merchant_republic = yes
+				is_tribal = yes
 			}
 			primary_title = {
 				OR = {
@@ -459,6 +406,8 @@ title_knight_of_the_round_table = {
 	opinion_effect = 15
 	
 	monthly_prestige = 0.01
+	
+	is_unique = yes	
 	
 	allow = {
 		age = 16

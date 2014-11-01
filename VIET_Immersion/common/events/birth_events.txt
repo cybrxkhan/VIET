@@ -95,6 +95,7 @@ character_event = {
 				is_married = no
 				NOT = { trait = chaste }
 			}
+			NOT = { trait = in_hiding }
 		}
 		has_lover = no
 		is_pregnant = no
@@ -103,6 +104,7 @@ character_event = {
 		NOT = { trait = incapable }
 		NOT = { trait = celibate }
 		NOT = { trait = eunuch }
+		NOT = { trait = in_hiding }
 	}
 
 
@@ -638,6 +640,7 @@ character_event = {
 		NOT = { trait = incapable }
 		NOT = { trait = celibate }
 		NOT = { trait = eunuch }
+		NOT = { trait = in_hiding }
 	}
 
 
@@ -725,6 +728,7 @@ character_event = {
 					NOT = { trait = eunuch }
 					NOT = { trait = chaste }
 					NOT = { spouse = { character = ROOT } }
+					NOT = { trait = in_hiding }
 					opinion = { who = ROOT value = 0 }
 					reverse_opinion = { who = ROOT value = 0 }
 					NOT = {
@@ -992,8 +996,35 @@ character_event = {
 
 	option = {
 		name = OK
+		if = {
+			limit = {
+				father = {
+					religion_group = christian
+				} 
+			}
 		father = {
 			character_event = { id = 301 days = 1 } # The father's reaction
+		}
+	}
+		
+		if = {
+			limit = {
+				father = {
+					NOT = { religion_group = christian }
+				} 
+			}
+			if = {
+				limit = { trait = born_in_the_purple }
+				remove_trait = born_in_the_purple
+			}
+			if = {
+				limit = { trait = saoshyant_descendant }
+				remove_trait = saoshyant_descendant
+			}
+			if = {
+				limit = { trait = sayyid }
+				remove_trait = sayyid
+			}
 		}
 	}
 }
@@ -1144,16 +1175,20 @@ character_event = {
 
 	option = {
 		name = EVTOPTA304
-		opinion = {
-			who = FROM
+		FROMFROM = {
+			real_father = {
+				reverse_opinion = {
+					who = ROOT
 			modifier = cuckolded
 			years = 10
 		}
-		spouse = {
+			}
+			mother = {
 			reverse_opinion = {
 				who = ROOT
 				modifier = unfaithful
 				years = 10
+				}
 			}
 		}
 	}

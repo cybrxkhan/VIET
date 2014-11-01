@@ -1,36 +1,3 @@
-RETTYPE_CUL_JEWISH_WARRIOR = 
-{
-	first_type = 4
-	first_amount = 100
-	
-	second_type = 1
-	second_amount = 100
-	
-	potential = {
-		culture_group = israelite
-		
-		# PB's retinue spam filter
-		OR = {
-			ai = no
-			AND = {
-				higher_real_tier_than = count
-				OR = {
-					higher_real_tier_than = duke
-					AND = {
-						independent = yes
-						realm_size = 18
-					}
-					realm_size = 24
-				}
-			}
-		}
-	}
-	
-	modifier = {
-		light_infantry_defensive = 0.4
-		light_cavalry_defensive = 0.2
-	}
-}
 
 RETTYPE_CUL_ASIAN_CHAMPION = 
 {

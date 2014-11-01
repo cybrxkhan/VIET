@@ -1,14 +1,28 @@
 ######################################################################################
 #
-# Surnames for Sinic Cultures
+# Surnames for Cultures of East and Southeast Asia
 #
 # i.e. Chinese, Khitan, Japanese, Korean, and Vietnamese
 #
-# 1000061500 - 1000061599, 1000091000-1000091019 Chinese
-# 1000061600 - 1000061639 Khitan
-# 1000061640 - 1000061659, 1000091020-1000091029 Japanese
-# 1000061660 - 1000061679, 1000091030-1000091039 Korean
-# 1000061680 - 1000061699, 1000091040-1000091049 Vietnamese
+# Cultures are as follows:
+#
+# Andamanese 1000092460-1000092479
+# Cham 1000092330-1000092339
+# Chinese 1000061500 - 1000061599, 1000091000-1000091019, 1000092480-1000092499
+# Formosan 1000092550-1000092579
+# Javanese 1000092360-1000092379
+# Japanese 1000061640 - 1000061659, 1000091020-1000091029, 1000092100-1000092169 
+# Jurchen 100009240-1000092459 
+# Khitan 1000061600 - 1000061639 
+# Khmer 1000092300-1000092329
+# Korean 1000061660 - 1000061679, 1000091030-1000091039
+# Malay 1000092340-1000092359
+# Moluccan 1000092380-1000092389
+# Papuan 1000092500-1000092549
+# Ryukyuan 1000092170-1000092189
+# Tagalog 1000092390-1000092399 
+# Tai 1000092400-1000092439 
+# Vietnamese 1000061680 - 1000061699, 1000091040-1000091049, 1000092190-1000092199 
 #
 ######################################################################################
 
@@ -1011,4 +1025,1612 @@
 1000091049 = {
 	name="Chu"
 	culture = vietnamese
+}
+#Monogatari Series
+1000092100 = {
+	name="Senjougahara"
+	culture = japanese
+}
+1000092101 = {
+	name="Araragi"
+	culture = japanese
+}
+1000092102 = {
+	name="Tsubasa"
+	culture = japanese
+}	
+1000092103 = {
+	name="Oshino"
+	culture = japanese
+}
+1000092104 = {
+	name="Kanbaru"
+	culture = japanese
+}
+1000092105 = {
+	name="Gaen"
+	culture = japanese
+}
+1000092106 = {
+	name="Sengoku"
+	culture = japanese
+}
+1000092107 = {
+	name="Hachikuji"
+	culture = japanese
+}
+1000092108 = {
+	name="Kaiki" #undeniably bestest best girl ever
+	culture = japanese
+}
+1000092109 = {
+	name="Kagenui"
+	culture = japanese
+}
+1000092110 = {
+	name="Ononoki"
+	culture = japanese
+}
+1000092111 = {
+	name="Mizudori"
+	culture = japanese
+}
+1000092112 = {
+	name="Rousokuzawa"
+	culture = japanese
+}
+#Clannad	
+1000092113 = {
+	name="Okazaki"
+	culture = japanese
+}
+1000092114 = {
+	name="Furukawa"
+	culture = japanese
+}
+1000092115 = {
+	name="Fujibayashi" #best girl
+	culture = japanese
+}
+1000092116 = {
+	name="Ichinose"
+	culture = japanese
+}
+1000092117 = {
+	name="Sakagami"
+	culture = japanese
+}
+1000092118 = {
+	name="Ibuki"
+	culture = japanese
+}
+1000092119 = {
+	name="Miyazawa"
+	culture = japanese
+}
+1000092120 = {
+	name="Sagara"
+	culture = japanese
+}
+1000092121 = {
+	name="Yoshino"
+	culture = japanese
+}
+1000092122 = {
+	name="Sunohara"
+	culture = japanese
+}
+#Azumanga Daioh	
+1000092123 = {
+	name="Mihama"
+	culture = japanese
+}
+1000092124 = {
+	name="Kasuga"
+	culture = japanese
+}
+1000092125 = {
+	name="Takino"
+	culture = japanese
+}
+1000092126 = {
+	name="Mizuhara"
+	culture = japanese
+}
+1000092127 = {
+	name="Sakaki"
+	culture = japanese
+}
+1000092128 = {
+	name="Kagura"
+	culture = japanese
+}
+1000092129 = {
+	name="Kaori"
+	culture = japanese
+}
+1000092130 = {
+	name="Tanizaki"
+	culture = japanese
+}
+1000092131 = {
+	name="Kurosawa"
+	culture = japanese
+}
+1000092132 = {
+	name="Kimura"
+	culture = japanese
+}	
+1000092133 = { #technically a dog, I know
+	name="Tadakichi"
+	culture = japanese
+}
+#End references
+1000092134 = {
+	name="Doi"
+	culture = japanese
+}
+1000092135 = {
+	name="Mano"
+	culture = japanese
+}
+1000092136 = {
+	name="Nishibeppu"
+	culture = japanese
+}
+1000092137 = {
+	name="Rinbayashi"
+	culture = japanese
+}
+1000092138 = {
+	name="Miso"
+	culture = japanese
+}
+1000092139 = {
+	name="Shouyu"
+	culture = japanese
+}
+1000092140 = {
+	name="Ushikuso" #means cow poop, some people chose really weird surnames
+	culture = japanese
+}
+1000092141 = {
+	name="Umajiri" #means horse butt, some people chose really weird surnames
+	culture = japanese
+}
+1000092142 = {
+	name="Asano"
+	culture = japanese
+}	
+1000092143 = {
+	name="Akiyama"
+	culture = japanese
+}
+1000092144 = {
+	name="Date"
+	culture = japanese
+}
+1000092145 = {
+	name="Hatakeyama"
+	culture = japanese
+}
+1000092146 = {
+	name="Hojo"
+	culture = japanese
+}
+1000092147 = {
+	name="Honma"
+	culture = japanese
+}
+1000092148 = {
+	name="Ii"
+	culture = japanese
+}
+1000092149 = {
+	name="Imagawa"
+	culture = japanese
+}
+1000092150 = {
+	name="Ito"
+	culture = japanese
+}
+1000092151 = {
+	name="Koga"
+	culture = japanese
+}
+1000092152 = {
+	name="Maeda"
+	culture = japanese
+}	
+1000092153 = {
+	name="Mori"
+	culture = japanese
+}
+1000092154 = {
+	name="Nagao"
+	culture = japanese
+}
+1000092155 = {
+	name="Ota"
+	culture = japanese
+}
+1000092156 = {
+	name="Otomo"
+	culture = japanese
+}
+1000092157 = {
+	name="Saito"
+	culture = japanese
+}
+1000092158 = {
+	name="Sakai"
+	culture = japanese
+}
+1000092159 = {
+	name="Sasaki"
+	culture = japanese
+}
+1000092160 = {
+	name="Shimazu"
+	culture = japanese
+}
+1000092161 = {
+	name="Takeda"
+	culture = japanese
+}
+1000092162 = {
+	name="Tanegashima"
+	culture = japanese
+}	
+1000092163 = {
+	name="Uesugi"
+	culture = japanese
+}
+1000092164 = {
+	name="Watanabe"
+	culture = japanese
+}
+1000092165 = {
+	name="Yuki"
+	culture = japanese
+}
+1000092166 = {
+	name="Soga"
+	culture = japanese
+}
+1000092167 = {
+	name="Hata"
+	culture = japanese
+}
+1000092168 = {
+	name="Ouchi"
+	culture = japanese
+}
+1000092169 = {
+	name="Chosokabe"
+	culture = japanese
+}
+1000092170 = {
+	name="Sho"
+	culture = ryukyuan
+}
+1000092171 = {
+	name="Eizo"
+	culture = ryukyuan
+}
+1000092172 = {
+	name="Haniji"
+	culture = ryukyuan
+}	
+1000092173 = {
+	name="Ozato"
+	culture = ryukyuan
+}
+1000092174 = {
+	name="Shunten"
+	culture = ryukyuan
+}
+1000092175 = {
+	name="Minshi Kameya"
+	culture = ryukyuan
+}
+1000092176 = {
+	name="Satto"
+	culture = ryukyuan
+}
+1000092177 = {
+	name="Sho"
+	culture = ryukyuan
+}
+1000092178 = {
+	name="Makishi"
+	culture = ryukyuan
+}
+1000092179 = {
+	name="Itarashiki"
+	culture = ryukyuan
+}
+1000092180 = {
+	name="Ufusatu"
+	culture = ryukyuan
+}
+1000092181 = {
+	name="Arakachi"
+	culture = ryukyuan
+}
+1000092182 = {
+	name="Yamagushiku"
+	culture = ryukyuan
+}	
+1000092183 = {
+	name="Owan"
+	culture = ryukyuan
+}
+1000092184 = {
+	name="Maeda"
+	culture = ryukyuan
+}
+1000092185 = {
+	name="Higashi"
+	culture = ryukyuan
+}
+1000092186 = {
+	name="Fukuyama"
+	culture = ryukyuan
+}
+1000092187 = {
+	name="Gushichan"
+	culture = ryukyuan
+}
+1000092188 = {
+	name="Miyagusuku"
+	culture = ryukyuan
+}
+1000092189 = {
+	name="Tamagusuku"
+	culture = ryukyuan
+}
+1000092190 = {
+	name="Cao"
+	culture = vietnamese
+}
+1000092191 = {
+	name="Truong"
+	culture = vietnamese
+}
+1000092192 = {
+	name="Bao"
+	culture = vietnamese
+}	
+1000092193 = {
+	name="Vo"
+	culture = vietnamese
+}
+1000092194 = {
+	name="Pho"
+	culture = vietnamese
+}
+1000092195 = {
+	name="Mac"
+	culture = vietnamese
+}
+1000092196 = {
+	name="Hong"
+	culture = vietnamese
+}
+1000092197 = {
+	name="Thuc"
+	culture = vietnamese
+}
+1000092198 = {
+	name="Trieu"
+	culture = vietnamese
+}
+1000092199 = {
+	name="Mai"
+	culture = vietnamese
+}
+1000092300 = {
+	name="Keo"
+	culture = khmer
+}
+1000092301 = {
+	name="Khat"
+	culture = khmer
+}
+1000092302 = {
+	name="Kim"
+	culture = khmer
+}
+1000092303 = {
+	name="Chhan"
+	culture = khmer
+}
+1000092304 = {
+	name="Chey"
+	culture = khmer
+}
+1000092305 = {
+	name="Nhek"
+	culture = khmer
+}
+1000092306 = {
+	name="Dith"
+	culture = khmer
+}
+1000092307 = {
+	name="Duong"
+	culture = khmer
+}
+1000092308 = {
+	name="Tep"
+	culture = khmer
+}
+1000092309 = {
+	name="Toch"
+	culture = khmer
+}
+1000092310 = {
+	name="Pen"
+	culture = khmer
+}
+1000092311 = {
+	name="Bun"
+	culture = khmer
+}
+1000092312 = {
+	name="Phan"
+	culture = khmer
+}
+1000092313 = {
+	name="Phy"
+	culture = khmer
+}
+1000092314 = {
+	name="Ma"
+	culture = khmer
+}
+1000092315 = {
+	name="Meas"
+	culture = khmer
+}
+1000092316 = {
+	name="Lim"
+	culture = khmer
+}
+1000092317 = {
+	name="Sor"
+	culture = khmer
+}
+1000092318 = {
+	name="Vang"
+	culture = khmer
+}
+1000092319 = {
+	name="Sang"
+	culture = khmer
+}
+1000092320 = {
+	name="Sok"
+	culture = khmer
+}
+1000092321 = {
+	name="Suy"
+	culture = khmer
+}
+1000092322 = {
+	name="Som"
+	culture = khmer
+}
+1000092323 = {
+	name="Ong"
+	culture = khmer
+}
+1000092324 = {
+	name="Ek"
+	culture = khmer
+}
+1000092325 = {
+	name="Ok"
+	culture = khmer
+}
+1000092326 = {
+	name="Iv"
+	culture = khmer
+}
+1000092327 = {
+	name="Mean"
+	culture = khmer
+}
+1000092328 = {
+	name="Chea"
+	culture = khmer
+}
+1000092329 = {
+	name="Khiev"
+	culture = khmer
+}
+1000092330 = {
+	name="Po"
+	culture = cham
+}
+1000092331 = {
+	name="Che"
+	culture = cham
+}
+1000092332 = {
+	name="Amu"
+	culture = cham
+}
+1000092333 = {
+	name="Phu"
+	culture = cham
+}
+1000092334 = {
+	name="Dang"
+	culture = cham
+}
+1000092335 = {
+	name="La"
+	culture = cham
+}
+1000092336 = {
+	name="Moho"
+	culture = cham
+}
+1000092337 = {
+	name="Maija"
+	culture = cham
+}
+1000092338 = {
+	name="Ko"
+	culture = cham
+}
+1000092339 = {
+	name="Fan"
+	culture = cham
+}
+1000092340 = {
+	name="Hang"
+	culture = malay
+}
+1000092341 = {
+	name="Dang"
+	culture = malay
+}
+1000092342 = {
+	name="Sang Sapurba"
+	culture = malay
+}
+1000092343 = {
+	name="Srivijaya"
+	culture = malay
+}
+1000092344 = {
+	name="Bolkiah"
+	culture = malay
+}
+1000092345 = {
+	name="Kedah"
+	culture = malay
+}
+1000092346 = {
+	name="Kelantan"
+	culture = malay
+}
+1000092347 = {
+	name="Tungku"
+	culture = malay
+}
+1000092348 = {
+	name="Yang"
+	culture = malay
+}
+1000092349 = {
+	name="Long"
+	culture = malay
+}
+1000092350 = {
+	name="Daeng"
+	culture = malay
+}
+1000092351 = {
+	name="Engku"
+	culture = malay
+}
+1000092352 = {
+	name="Megat"
+	culture = malay
+}
+1000092353 = {
+	name="Awan"
+	culture = malay
+}
+1000092354 = {
+	name="Tuang"
+	culture = malay
+}
+1000092355 = {
+	name="Nik"
+	culture = malay
+}
+1000092356 = {
+	name="Wan"
+	culture = malay
+}
+1000092357 = {
+	name="Che"
+	culture = malay
+}
+1000092358 = {
+	name="Rajah"
+	culture = malay
+}
+1000092359 = { #this is real, yes
+	name="Merican"
+	culture = malay
+}
+1000092360 = {
+	name="Sanjaya"
+	culture = javanese
+}
+1000092361 = {
+	name="Isyana"
+	culture = javanese
+}
+1000092362 = {
+	name="Sanna"
+	culture = javanese
+}
+1000092363 = {
+	name="Sailendra"
+	culture = javanese
+}
+1000092364 = {
+	name="Rajasa"
+	culture = javanese
+}
+1000092365 = {
+	name="Rake"
+	culture = javanese
+}
+1000092366 = {
+	name="Panembahan"
+	culture = javanese
+}
+1000092367 = {
+	name="Kyai"
+	culture = javanese
+}
+1000092368 = {
+	name="Falatehan"
+	culture = javanese
+}
+1000092369 = {
+	name="Arbi"
+	culture = javanese
+}
+1000092370 = {
+	name="Baderan"
+	culture = javanese
+}
+1000092371 = {
+	name="Djoyosuroto"
+	culture = javanese
+}
+1000092372 = {
+	name="Guret"
+	culture = javanese
+}
+1000092373 = {
+	name="Kiaidemak"
+	culture = javanese
+}
+1000092374 = {
+	name="Modjo"
+	culture = javanese
+}
+1000092375 = {
+	name="Ngurawan"
+	culture = javanese
+}
+1000092376 = {
+	name="Pulukadang"
+	culture = javanese
+}
+1000092377 = {
+	name="Suratinoyo"
+	culture = javanese
+}
+1000092378 = {
+	name="Wonopati"
+	culture = javanese
+}
+1000092379 = {
+	name="Zees"
+	culture = javanese
+}
+1000092380 = {
+	name="Bugi"
+	culture = moluccan
+}
+1000092381 = {
+	name="Aru"
+	culture = moluccan
+}
+1000092382 = {
+	name="Kei"
+	culture = moluccan
+}
+1000092383 = {
+	name="Ternate"
+	culture = moluccan
+}
+1000092384 = {
+	name="Tidore"
+	culture = moluccan
+}
+1000092385 = {
+	name="Kalano"
+	culture = moluccan
+}
+1000092386 = {
+	name="Buru"
+	culture = moluccan
+}
+1000092387 = {
+	name="Ambon"
+	culture = moluccan
+}
+1000092388 = {
+	name="Nuku"
+	culture = moluccan
+}
+1000092389 = {
+	name="Baab"
+	culture = moluccan
+}
+1000092390 = {
+	name="Namayan"
+	culture = tagalog
+}
+1000092391 = {
+	name="Tondo"
+	culture = tagalog
+}
+1000092392 = {
+	name="Sabag"
+	culture = tagalog
+}
+1000092393 = {
+	name="Maynila"
+	culture = tagalog
+}
+1000092394 = {
+	name="Pule"
+	culture = tagalog
+}
+1000092395 = {
+	name="Visayan"
+	culture = tagalog
+}
+1000092396 = {
+	name="Tausug"
+	culture = tagalog
+}
+1000092397 = {
+	name="Subanon"
+	culture = tagalog
+}
+1000092398 = {
+	name="Bikol"
+	culture = tagalog
+}
+1000092399 = {
+	name="Lapulapu"
+	culture = tagalog
+}
+1000092400 = {
+	name="Lu"
+	culture = tai
+}
+1000092401 = {
+	name="Nua"
+	culture = tai
+}
+1000092402 = {
+	name="Lao Ga"
+	culture = tai
+}
+1000092403 = {
+	name="Lao Krang"
+	culture = tai
+}
+1000092404 = {
+	name="Lao Lom"
+	culture = tai
+}
+1000092405 = {
+	name="Lao Ngaew"
+	culture = tai
+}
+1000092406 = {
+	name="Lao Ti"
+	culture = tai
+}
+1000092407 = {
+	name="Lao Weing"
+	culture = tai
+}
+1000092408 = {
+	name="Pong"
+	culture = tai
+}
+1000092409 = {
+	name="Khao"
+	culture = tai
+}
+1000092410 = {
+	name="Ya"
+	culture = tai
+}
+1000092411 = {
+	name="Paxi"
+	culture = tai
+}
+1000092412 = {
+	name="He"
+	culture = tai
+}
+1000092413 = {
+	name="Bueng"
+	culture = tai
+}
+1000092414 = {
+	name="Doi"
+	culture = tai
+}
+1000092415 = {
+	name="Gapong"
+	culture = tai
+}
+1000092416 = {
+	name="Kaleun"
+	culture = tai
+}
+1000092417 = {
+	name="Kuan"
+	culture = tai
+}
+1000092418 = {
+	name="Khang"
+	culture = tai
+}
+1000092419 = {
+	name="Lan"
+	culture = tai
+}
+1000092420 = {
+	name="Loi"
+	culture = tai
+}
+1000092421 = {
+	name="Men"
+	culture = tai
+}
+1000092422 = {
+	name="Nyo"
+	culture = tai
+}
+1000092423 = {
+	name="Pao"
+	culture = tai
+}
+1000092424 = {
+	name="Peung"
+	culture = tai
+}
+1000092425 = {
+	name="Pong"
+	culture = tai
+}
+1000092426 = {
+	name="Sam"
+	culture = tai
+}
+1000092427 = {
+	name="Song"
+	culture = tai
+}
+1000092428 = {
+	name="Yang"
+	culture = tai
+}
+1000092429 = {
+	name="Yuan"
+	culture = tai
+}
+1000092430 = {
+	name="Khamti"
+	culture = tai
+}
+1000092431 = {
+	name="Laing"
+	culture = tai
+}
+1000092432 = {
+	name="Phake"
+	culture = tai
+}
+1000092433 = {
+	name="Aiton"
+	culture = tai
+}
+1000092434 = {
+	name="Khamyang"
+	culture = tai
+}
+1000092435 = {
+	name="Ahom"
+	culture = tai
+}
+1000092436 = {
+	name="Turung"
+	culture = tai
+}
+1000092437 = {
+	name="Sapa"
+	culture = tai
+}
+1000092438 = {
+	name="Isan"
+	culture = tai
+}
+1000092439 = {
+	name="Tay"
+	culture = tai
+}
+1000092440 = {
+	name="Wanyan"
+	culture = jurchen
+}
+1000092441 = {
+	name="Hoifa"
+	culture = jurchen
+}
+1000092442 = {
+	name="Ula"
+	culture = jurchen
+}
+1000092443 = {
+	name="Aisin Goro"
+	culture = jurchen
+}
+1000092444 = {
+	name="Odoli"
+	culture = jurchen
+}
+1000092445 = {
+	name="Hesheri"
+	culture = jurchen
+}
+1000092446 = {
+	name="Suksuhu"
+	culture = jurchen
+}
+1000092447 = {
+	name="Hunehe"
+	culture = jurchen
+}
+1000092448 = {
+	name="Wanggiya"
+	culture = jurchen
+}
+1000092449 = {
+	name="Donggo"
+	culture = jurchen
+}
+1000092450 = {
+	name="Jecen"
+	culture = jurchen
+}
+1000092451 = {
+	name="Magiya"
+	culture = jurchen
+}
+1000092452 = {
+	name="Niohuru"
+	culture = jurchen
+}
+1000092453 = {
+	name="Tuseri"
+	culture = jurchen
+}
+1000092454 = {
+	name="U"
+	culture = jurchen
+}
+1000092455 = {
+	name="Nara"
+	culture = jurchen
+}
+1000092456 = {
+	name="Hada"
+	culture = jurchen
+}
+1000092457 = {
+	name="Yehe"
+	culture = jurchen
+}
+1000092458 = {
+	name="Ikderi"
+	culture = jurchen
+}
+1000092459 = {
+	name="Warka"
+	culture = jurchen
+}
+1000092460 = {
+	name="Kol"
+	culture = andamanese 
+}
+1000092461 = {
+	name="Juwoi"
+	culture = andamanese 
+}
+1000092462 = {
+	name="Puckiwar"
+	culture = andamanese 
+}
+1000092463 = {
+	name="Bale"
+	culture = andamanese 
+}
+1000092464 = {
+	name="Bea"
+	culture = andamanese 
+}
+1000092465 = {
+	name="Chariar"
+	culture = andamanese 
+}
+1000092466 = {
+	name="Shompen"
+	culture = andamanese 
+}
+1000092467 = {
+	name="Ongan"
+	culture = andamanese 
+}
+1000092468 = {
+	name="Senteneli"
+	culture = andamanese 
+}
+1000092469 = {
+	name="Baratang"
+	culture = andamanese 
+}
+1000092470 = {
+	name="Egu Belong"
+	culture = andamanese 
+}
+1000092471 = {
+	name="Jarawa"
+	culture = andamanese 
+}
+1000092472 = {
+	name="Jangil"
+	culture = andamanese 
+}
+1000092473 = {
+	name="Onge"
+	culture = andamanese 
+}
+1000092474 = {
+	name="Irula"
+	culture = andamanese 
+}
+1000092475 = {
+	name="Cari"
+	culture = andamanese 
+}
+1000092476 = {
+	name="Cora"
+	culture = andamanese 
+}
+1000092477 = {
+	name="Bo"
+	culture = andamanese 
+}
+1000092478 = {
+	name="Jeru"
+	culture = andamanese 
+}
+1000092479 = {
+	name="Kede"
+	culture = andamanese 
+}
+1000092480 = {
+	name="Cu"
+	culture = chinese 
+}
+1000092481 = {
+	name="Yi"
+	culture = chinese 
+}
+1000092482 = {
+	name="Ling"
+	culture = chinese 
+}
+1000092483 = {
+	name="Miao"
+	culture = chinese 
+}
+1000092484 = {
+	name="Xiao"
+	culture = chinese 
+}
+1000092485 = {
+	name="Liu"
+	culture = chinese 
+}
+1000092486 = {
+	name="Wang"
+	culture = chinese 
+}
+1000092487 = {
+	name="Zhang"
+	culture = chinese 
+}
+1000092488 = {
+	name="Li"
+	culture = chinese 
+}
+1000092489 = {
+	name="Zhou"
+	culture = chinese 
+}
+1000092490 = {
+	name="Huang"
+	culture = chinese 
+}
+1000092491 = {
+	name="Lu"
+	culture = chinese 
+}
+1000092492 = {
+	name="Chang"
+	culture = chinese 
+}
+1000092493 = {
+	name="Zhao"
+	culture = chinese 
+}
+1000092494 = {
+	name="Chan"
+	culture = chinese 
+}
+1000092495 = {
+	name="Meng"
+	culture = chinese 
+}
+1000092496 = {
+	name="Yuan"
+	culture = chinese 
+}
+1000092497 = {
+	name="Mo"
+	culture = chinese 
+}
+1000092498 = {
+	name="Wu"
+	culture = chinese 
+}
+1000092499 = {
+	name="Yang"
+	culture = chinese 
+}
+1000092500 = {
+	name="Korowai"
+	culture = papuan
+}
+1000092501 = {
+	name="Khaim"
+	culture = papuan
+}
+1000092502 = {
+	name="Mek"
+	culture = papuan
+}
+1000092503 = {
+	name="Amung"
+	culture = papuan
+}
+1000092504 = {
+	name="Asmat"
+	culture = papuan
+}
+1000092505 = {
+	name="Bauzi"
+	culture = papuan
+}
+1000092506 = {
+	name="Dani"
+	culture = papuan
+}
+1000092507 = {
+	name="Ekari"
+	culture = papuan
+}
+1000092508 = {
+	name="Fayu"
+	culture = papuan
+}
+1000092509 = {
+	name="Kombai"
+	culture = papuan
+}
+1000092510 = {
+	name="Koteka"
+	culture = papuan
+}
+1000092511 = {
+	name="Lani"
+	culture = papuan
+}
+1000092512 = {
+	name="Moni"
+	culture = papuan
+}
+1000092513 = {
+	name="Willihiman-Wallalua"
+	culture = papuan
+}
+1000092514 = {
+	name="Loro-Mabel"
+	culture = papuan
+}
+1000092515 = {
+	name="Kosi-Alua"
+	culture = papuan
+}
+1000092516 = {
+	name="Biak"
+	culture = papuan
+}
+1000092517 = {
+	name="Manikom"
+	culture = papuan
+}
+1000092518 = {
+	name="Hatam"
+	culture = papuan
+}
+1000092519 = {
+	name="Aman-Namkaj"
+	culture = papuan
+}
+1000092520 = {
+	name="Yei"
+	culture = papuan
+}
+1000092521 = {
+	name="Sentani"
+	culture = papuan
+}
+1000092522 = {
+	name="Marind"
+	culture = papuan
+}
+1000092523 = {
+	name="Sawi"
+	culture = papuan
+}
+1000092524 = {
+	name="Wolani"
+	culture = papuan
+}
+1000092525 = {
+	name="Yali"
+	culture = papuan
+}
+1000092526 = {
+	name="Tampoto"
+	culture = papuan
+}
+1000092527 = {
+	name="Dasem"
+	culture = papuan
+}
+1000092528 = {
+	name="Sebo"
+	culture = papuan
+}
+1000092529 = {
+	name="Keraki"
+	culture = papuan
+}
+1000092530 = {
+	name="Arapesh"
+	culture = papuan
+}
+1000092531 = {
+	name="Kukukuku"
+	culture = papuan
+}
+1000092532 = {
+	name="Bunak"
+	culture = papuan
+}
+1000092533 = {
+	name="Fataluku"
+	culture = papuan
+}
+1000092534 = {
+	name="Makasae"
+	culture = papuan
+}
+1000092535 = {
+	name="Adabe"
+	culture = papuan
+}
+1000092536 = {
+	name="Kimyal"
+	culture = papuan
+}
+1000092537 = {
+	name="Wano"
+	culture = papuan
+}
+1000092538 = {
+	name="Nduame"
+	culture = papuan
+}
+1000092539 = {
+	name="Lelome"
+	culture = papuan
+}
+1000092540 = {
+	name="Balim"
+	culture = papuan
+}
+1000092541 = {
+	name="Mimika"
+	culture = papuan
+}
+1000092542 = {
+	name="Bisman"
+	culture = papuan
+}
+1000092543 = {
+	name="Simai"
+	culture = papuan
+}
+1000092544 = {
+	name="Ilahita"
+	culture = papuan
+}
+1000092545 = {
+	name="Manoum"
+	culture = papuan
+}
+1000092546 = {
+	name="Etoro"
+	culture = papuan
+}
+1000092547 = {
+	name="Sambia"
+	culture = papuan
+}
+1000092548 = {
+	name="Yafar"
+	culture = papuan
+}
+1000092549 = {
+	name="Yafar"
+	culture = papuan
+}
+1000092550 = {
+	name="Ami"
+	culture = formosan
+}
+1000092551 = {
+	name="Atayal"
+	culture = formosan
+}
+1000092552 = {
+	name="Bunun"
+	culture = formosan
+}
+1000092553 = {
+	name="Kavalan"
+	culture = formosan
+}
+1000092554 = {
+	name="Paiwan"
+	culture = formosan
+}
+1000092555 = {
+	name="Puyuma"
+	culture = formosan
+}
+1000092556 = {
+	name="Rukai"
+	culture = formosan
+}
+1000092557 = {
+	name="Saisiyat"
+	culture = formosan
+}
+1000092558 = {
+	name="Tao"
+	culture = formosan
+}
+1000092559 = {
+	name="Thao"
+	culture = formosan
+}
+1000092560 = {
+	name="Tsou"
+	culture = formosan
+}
+1000092561 = {
+	name="Truku"
+	culture = formosan
+}
+1000092562 = {
+	name="Sakizaya"
+	culture = formosan
+}
+1000092563 = {
+	name="Sadiq"
+	culture = formosan
+}
+1000092564 = {
+	name="Babuza"
+	culture = formosan
+}
+1000092565 = {
+	name="Basay"
+	culture = formosan
+}
+1000092566 = {
+	name="Hoanya"
+	culture = formosan
+}
+1000092567 = {
+	name="Ketegalan"
+	culture = formosan
+}
+1000092568 = {
+	name="Luilang"
+	culture = formosan
+}
+1000092569 = {
+	name="Makatao"
+	culture = formosan
+}
+1000092570 = {
+	name="Pazeh"
+	culture = formosan
+}
+1000092571 = {
+	name="Papora"
+	culture = formosan
+}
+1000092572 = {
+	name="Qauqaut"
+	culture = formosan
+}
+1000092573 = {
+	name="Siraya"
+	culture = formosan
+}
+1000092574 = {
+	name="Taokas"
+	culture = formosan
+}
+1000092575 = {
+	name="Trobiawan"
+	culture = formosan
+}
+1000092576 = {
+	name="Kaxabu"
+	culture = formosan
+}
+1000092577 = {
+	name="Yami"
+	culture = formosan
+}
+1000092578 = {
+	name="Pepo"
+	culture = formosan
+}
+1000092579 = {
+	name="Kamachat"
+	culture = formosan
+}
+#Ano Hana - goddamn long-named Japanese media
+1000092580 = {
+	name="Yadomi"
+	culture = japanese
+}
+1000092581 = {
+	name="Honma"
+	culture = japanese
+}
+1000092582 = {
+	name="Anjou"
+	culture = japanese
+}
+1000092583 = {
+	name="Matsuyuki"
+	culture = japanese
+}
+1000092584 = {
+	name="Tsurumi"
+	culture = japanese
+}
+1000092585 = {
+	name="Hisakawa"
+	culture = japanese
+}
+# Usagi Drop - recommended for those with maturer tastes
+1000092586 = {
+	name="Kawachi"
+	culture = japanese
+}
+1000092587 = {
+	name="Kaga"
+	culture = japanese
+}
+1000092588 = {
+	name="Nitani"
+	culture = japanese
+}
+#Skaamiamamammaachi Apollon - I'm running out of ideas, I know
+1000092589 = {
+	name="Nishimi"
+	culture = japanese
+}
+1000092590 = {
+	name="Kawabuchi"
+	culture = japanese
+}
+1000092591 = {
+	name="Mukae"
+	culture = japanese
+}
+1000092592 = {
+	name="Katsuragi"
+	culture = japanese
+}
+1000092593 = {
+	name="Fukahori"
+	culture = japanese
+}
+1000092594 = {
+	name="Maruo"
+	culture = japanese
+}
+1000092595 = {
+	name="Matsuoka"
+	culture = japanese
+}
+#More best girls
+1000092596 = {
+	name="Senjougahara"
+	culture = japanese
+}
+1000092597 = {
+	name="Kaiki"
+	culture = japanese
+}
+1000092598 = {
+	name="Tsubasa"
+	culture = japanese
+}
+1000092599 = {
+	name="Araragi"
+	culture = japanese
 }

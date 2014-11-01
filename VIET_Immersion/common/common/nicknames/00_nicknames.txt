@@ -39,6 +39,8 @@ nick_hardeknud = {}
 nick_the_maid = {}
 nick_darc = {}
 nick_the_master_of_hungary = {}
+nick_hildetand = {}
+nick_ring = {}
 
 # GIVEN BY TRAITS
 #################
@@ -1438,6 +1440,20 @@ nick_the_great = {
 			factor = 2.0
 			prestige = 6000
 		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+
+nick_the_hunchback = {
+	allow = {
+		age = 20
+		trait = hunchback
+	}
+	chance = {
+		factor = 1
 		modifier = {
 			factor = 5 #OBJGETNICK
 			has_ambition = obj_get_nick

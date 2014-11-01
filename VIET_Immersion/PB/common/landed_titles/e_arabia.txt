@@ -10,6 +10,19 @@ e_arabia = {
 	
 	short_name = yes
 
+	k_israel = {
+		color = { 20 138 255 }
+
+		title = "KING"
+		title_female = "QUEEN"
+
+		dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+		
+		allow = {
+			always = no # Only created through special event
+		}
+	}
+	
 	k_arabia = {
 		color={ 124 199 50 }
 		color2={ 255 255 255 }
@@ -192,6 +205,7 @@ e_arabia = {
 				b_medina = {
 					holy_site = sunni
 					holy_site = shiite				
+					holy_site = ibadi
 				}
 				b_khaybar = {
 				}
@@ -425,6 +439,7 @@ e_arabia = {
 				b_alhamra = {
 				}
 				b_nizwa = {
+					holy_site = ibadi
 				}
 				b_ibri = {
 				}
@@ -444,7 +459,6 @@ e_arabia = {
 				color2={ 255 255 255 }
 			
 				b_muscat = {
-					holy_site = ibadi
 				}
 				b_sur = {
 				}
@@ -1149,8 +1163,12 @@ e_arabia = {
 		
 		# Creation Effect
 		gain_effect = {
+			if = {
+				limit = { NOT = { has_character_flag = created_jerusalem } }
 			prestige = 5000
 			piety = 2000
+				set_character_flag = created_jerusalem
+			}
 		}
 		
 		christian = 500 # Crusade target weight
@@ -1896,6 +1914,7 @@ e_arabia = {
 				b_bordj = {
 					holy_site = west_african_pagan
 					holy_site = west_african_pagan_reformed
+					holy_site = ibadi
 				}
 				b_elyourh = {
 				}
@@ -1955,7 +1974,6 @@ e_arabia = {
 				color2={ 255 255 255 }
 			
 				b_mzab = {
-					holy_site = ibadi
 				}
 				b_noumerat = {
 				}

@@ -597,6 +597,15 @@ VIET_obsessed_with_incest = {
 	learning = 1
 	icon = 17
 }
+VIET_muafname_granted = {
+	local_build_time_modifier = -0.1
+	local_build_cost_modifier = -0.1
+	levy_size = 0.25
+	levy_reinforce_rate = 0.25
+	local_revolt_risk = -0.1
+	local_tax_modifier = -0.5
+	icon = 6
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

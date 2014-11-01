@@ -655,16 +655,17 @@ VIETmisc.2199.desc;The young, attractive, shapely vendor offers you a taste of h
 VIETmisc.2199.a;I’ll buy some! Japanese sweet buns!;;;;;;;;;;;;;x
 VIETmisc.2199.b;Not interested.;;;;;;;;;;;;;x
 VIETmisc.2199.c;Oh, you meant that kind of melonpan… the bread, I mean, haha...;;;;;;;;;;;;;x
-VIETmisc.2200.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2200.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2201.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2201.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2202.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2202.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2203.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2203.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2204.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2204.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2200.desc;A local confectioner has developed a special new candy, which he calls “candy apples.” These apples are covered in an entire layer of hard sugar, and people say they are quite a tasty treat! The confectioner has given you some samples, free of charge.;;;;;;;;;;;x
+VIETmisc.2200.a;Yes, thanks!;;;;;;;;;;;;;x
+VIETmisc.2201.desc;With the Aztec invasions, pumpkins have been introduced as a food crop. This year, some creative peasants have figured out something to do with pumpkins after they extract the edible part inside - carve faces on them. These carved pumpkins are both amusing yet frightening all the while.;;;;;;;;;;;x
+VIETmisc.2201.a;Ha! I like them.;;;;;;;;;;;;;x
+VIETmisc.2201.b;What a stupid thing to do.;;;;;;;;;;;;;x
+VIETmisc.2202.desc;Pumpkins may not be as popular as other foods from the Far West such as potatoes or tomatoes, but they sure have their appeal. You’ve taken a liking to roasted pumpkin seeds. Humble and simple they may be, but their appeal can’t be denied.;;;;;;;;;;;x
+VIETmisc.2202.a;Mmmm!;;;;;;;;;;;;;x
+VIETmisc.2203.desc;Is there a difference between apple juice and apple cider? A courtier of mine claims so, and has been harassing anyone who can’t figure out otherwise.;;;;;;;;;;;x
+VIETmisc.2203.a;What a jerk.;;;;;;;;;;;;;x
+VIETmisc.2204.desc;I ate too much candy.;;;;;;;;;;;x
+VIETmisc.2204.a;Guggghhh...;;;;;;;;;;;;;x
 VIETmisc.2205.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2205.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2206.desc;xxxxx;;;;;;;;;;;x
@@ -675,3 +676,43 @@ VIETmisc.2208.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2208.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2209.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2209.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2210.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2210.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2211.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2211.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2212.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2212.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2213.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2213.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2214.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2214.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2215.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2215.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2216.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2216.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2217.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2217.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2218.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2218.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2219.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2219.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2220.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2220.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2221.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2221.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2222.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2222.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2223.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2223.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2224.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2224.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2225.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2225.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2226.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2226.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2227.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2227.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2228.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2228.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2229.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2229.a;Xxxxxxffff;;;;;;;;;;;;;x

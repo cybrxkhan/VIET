@@ -506,6 +506,7 @@ on_yearly_pulse = {
 		100 = VIETmisc.2209
 		100 = VIETmisc.2210
 		100 = VIETmisc.2213
+		#Cocks
 		100 = VIETmisc.2220
 		100 = VIETmisc.2221
 		100 = VIETmisc.2222

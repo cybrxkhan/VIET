@@ -562,6 +562,46 @@ VIET_erected_breton_cavalry = {
 	monthly_character_piety = 0.5
 	icon = 17
 }
+VIET_lancelot = {
+	martial = 3
+	fertility = 0.05
+	monthly_character_prestige = 0.1
+	icon = 13
+}
+VIET_perceval = {
+	martial = 1
+	general_opinion = 5
+	monthly_character_piety = 0.5
+	icon = 13
+}
+VIET_gawain = {
+	martial = 1
+	general_opinion = 20
+	diplomacy = 1
+	icon = 13
+}
+VIET_galahad = {
+	martial = 1
+	learning = 1
+	monthly_character_piety = 0.75
+	icon = 13
+}
+VIET_mordred = {
+	martial = 2
+	intrigue = 2
+	general_opinion = -20
+	icon = 13
+}
+VIET_has_excalibur = {
+	martial = 10
+	land_morale = 0.2	
+	castle_vassal_max_levy = 0.05
+	temple_vassal_max_levy = 0.05
+	city_vassal_max_levy = 0.05
+	monthly_character_piety = 0.01
+	monthly_character_prestige = 0.05
+	icon = 1
+}
 
 
 #####################################################################

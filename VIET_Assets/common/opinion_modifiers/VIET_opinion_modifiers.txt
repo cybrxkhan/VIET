@@ -160,3 +160,36 @@ VIET_opinion_granted_small_muafname = {
 VIET_opinion_refused_muafname = {
 	opinion = -20
 }
+viet_opinion_welcome_minority = {
+	opinion = -5
+}
+viet_opinion_talk_minority = {
+	opinion = -5
+}
+viet_opinion_compare_minority = {
+	opinion = -10
+}
+viet_opinion_dismiss_minority = {
+	opinion = 5
+}
+viet_opinion_accepted_arameans_first = {
+	opinion = -15
+}
+viet_opinion_refused_arameans = {
+	opinion = 10
+}
+viet_opinion_accepted_arameans_again = {
+	opinion = -10
+}
+viet_opinion_refused_arameans = {
+	opinion = 15
+}
+opinion_betrayed_arameans = {
+	opinion = -200
+}
+viet_opinion_accepted_arameans_final = {
+	opinion = -15
+}
+opinion_is_mordred = {
+	opinion = -50
+}

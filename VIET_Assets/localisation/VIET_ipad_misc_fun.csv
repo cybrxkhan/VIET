@@ -484,7 +484,7 @@ VIET_traveler_learns_about_incest;The traveler’s eyes grow wide, and his jaw dro
 VIETmisc.2134.desc;Today a holy man is visiting my court. He is telling us various anecdotes and proverbs, and one in particular strikes me. “Vain men who follow the [Root.Religion.GetName] faith ask each other how many of their sisters they have united with.”;;;;;;;;;;;x
 VIETmisc.2134.a;I know those types.;;;;;;;;;;;;;x
 VIETmisc.2135.tooltip;Annoying, they can be. Not that... I'm one of them.;;;;;;;;;;;x
-VIETmisc.2135.desc;He continues: “But a true follower knows that it doesn’t matter how many sisters, but rather, how many times. Be not vain, for [Root.Religion.GetRandomGodName] knows the true worth of each man. Just as it matters not how much you pray, but how sincere your prayers are, to unite sincerely with a sister once is better than uniting with a sister a million times but without such sincerity.”;;;;;;;;;;;x
+VIETmisc.2135.desc;He continues: “But a true follower knows that it doesn’t matter how many sisters or how many times, but rather how sincerely you love them. Be not vain, for [Root.Religion.GetRandomGodName] knows each man's true man. Just as it matters not how much you pray, but how sincerely you pray, to unite sincerely with a sister once is better than uniting with a sister a million times but without such sincerity.”;;;;;;;;;;;x
 VIETmisc.2135.a;An important lesson we should all remember!;;;;;;;;;;;;;x
 VIETmisc.2136.desc;Another day, another foreign visitor insisting on debating against the [Root.Religion.GetName] custom of sibling marriage. The foreigner can argue all he wants about why uniting with our siblings is immoral. But he knows deep inside his heart that his Lie is evil, and that he is wrong and insane for believing his Lie.;;;;;;;;;;;x
 VIETmisc.2136.a;There is no hope against the Truth!;;;;;;;;;;;;;x
@@ -666,46 +666,62 @@ VIETmisc.2203.desc;Is there a difference between apple juice and apple cider? A 
 VIETmisc.2203.a;What a jerk.;;;;;;;;;;;;;x
 VIETmisc.2204.desc;I ate too much candy.;;;;;;;;;;;x
 VIETmisc.2204.a;Guggghhh...;;;;;;;;;;;;;x
-VIETmisc.2205.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2205.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2206.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2206.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2207.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2207.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2208.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2208.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2209.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2209.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2210.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2210.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2211.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2211.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2212.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2212.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2213.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2213.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2214.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2214.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2215.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2215.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2216.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2216.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2217.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2217.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2218.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2218.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2219.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2219.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2220.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2220.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2221.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2221.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2222.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2222.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2223.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2223.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2224.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2224.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2205.desc;I was browsing some wares at the market when I saw a foreign adventurer walking by. One of my guards sneered at him, and told the man in his husky, coarse voice: “We’re watching you… scum.”;;;;;;;;;;;x
+VIETmisc.2205.a;That’s right, scum! You foreigners are no good.;;;;;;;;;;;;;x
+VIETmisc.2205.b;Hey, hey, that’s no way to treat anybody.;;;;;;;;;;;;;x
+VIETmisc.2206.desc;You found an interesting play not too long ago, called the “Lusty [Root.Culture.GetName] Maid,” and decided to take some time to read it today.;;;;;;;;;;;x
+VIETmisc.2206.a;Flip to a random page;;;;;;;;;;;;;x
+VIETmisc.2207.title;The Lusty [Root.Culture.GetName] Maid;;;;;;;;;;;x
+VIETmisc.2207.desc;\n\nMaid: I must finish my cleaning, sir. The mistress will have my head if I do not!\nMaster: Cleaning, eh? I have something for you. Here, polish my spear.\nMaid: But it is huge! It could take me all night!\nMaster: Plenty of time, my sweet. Plenty of time.\nEND OF ACT IV, SCENE III;;;;;;;;;;;x
+VIETmisc.2207.a;This book is vile! I must destroy it.;;;;;;;;;;;;;x
+VIETmisc.2207.b;I don’t get it.;;;;;;;;;;;;;x
+VIETmisc.2207.c;I like this. A lot.;;;;;;;;;;;;;x
+VIETmisc.2208.desc;What an excellent meal! Today your cook decided to do something a bit different, serving you foreign, exotic recipes. You ask your cook what was in that delicious sauce. The man thinks for a moment, before replying, “Powdered deer penis.”;;;;;;;;;;;x
+VIETmisc.2208.a;WHAT IN THE NAME OF -;;;;;;;;;;;;;x
+VIETmisc.2208.b;Oh. Interesting.;;;;;;;;;;;;;x
+VIETmisc.2209.desc;You are taking a break from discussing war plans with your fellow commanders, and decide to start chatting with one of your guards. He tells you, “My cousin is out fighting infidels, and what do I get? Guard duty.”;;;;;;;;;;;x
+VIETmisc.2209.a;Worry not, you’ll get an opportunity to kill infidels soon.;;;;;;;;;;;;;x
+VIETmisc.2209.b;Everyone does their part. Even guard duty has its honor.;;;;;;;;;;;;;x
+VIETmisc.2209.c;Don’t complain.;;;;;;;;;;;;;x
+VIETmisc.2210.desc;You overhear one of your guards saying to another, I got to thinking, maybe I’m the Saoshyant, and I just don’t know it yet!”;;;;;;;;;;;x
+VIETmisc.2210.a;Haha, that’s a good one.;;;;;;;;;;;;;x
+VIETmisc.2210.b;Who knows?;;;;;;;;;;;;;x
+VIETmisc.2211.desc;I find one of my courtier’s wolfish grins unsettling.;;;;;;;;;;;x
+VIETmisc.2211.a;Yeesh!;;;;;;;;;;;;;x
+VIETmisc.2212.desc;You pass by a [Root.Religion.GetName] preacher on the street who looks deranged. He screams: “[Root.Religion.GetRandomGodName] THE MIGHTY! [Root.Religion.GetRandomGodName] THE UNERRING! [Root.Religion.GetRandomGodName] THE UNASSAILABLE! TO YOU WE GIVE PRAISE! WE ARE BUT MAGGOTS, WRITING IN THE FILTH OF OUR OWN CORRUPTION! WHILE YOU HAVE - ”;;;;;;;;;;;x
+VIETmisc.2212.a;Heavens have mercy, he is annoying.;;;;;;;;;;;;;x
+VIETmisc.2213.desc;In the market, you encounter a courtier, who doesn’t seem to recognize you and mistakes you for a lesser noble. The courtier says, haughtily: “Do you go to [From.GetFirstName]’s palace very often? Oh what am I saying, of course you don’t. I actually advise the [Root.GetTitle] on political matters. My input is invaluable, of course. But this is all probably a bit over your head.”;;;;;;;;;;;x
+VIETmisc.2213.a;Why you arrogant little…;;;;;;;;;;;;;x
+VIETmisc.2213.b;Ignore the fool and move on.;;;;;;;;;;;;;x
+VIETmisc.2214.desc;Before you land the finishing blow on the enemy soldier, who now lays, half-dead, crumpled, on the ground, he grins and says defiantly, “My ancestors are smiling at me, [Root.Culture.GetName] trash, can you say the same?”;;;;;;;;;;;x
+VIETmisc.2214.a;You duly kill him.;;;;;;;;;;;;;x
+VIETmisc.2215.desc;“WHY. WON’T. YOU. DIEEEE!!!!!” the enemy warrior screams as he lunges at you.\n\nMoments later, he falls down, dead, slain by your own hand.;;;;;;;;;;;x
+VIETmisc.2215.a;He was too reckless.;;;;;;;;;;;;;x
+VIETmisc.2216.desc;A foolish, foppish, silly-looking young man runs up to you, squealing with glee. “By [Root.Religion.GetRandomGodName]! By [Root.Religion.GetRandomGodName]! By [Root.Religion.GetRandomGodName]! It's the [Root.GetTitle]! I can't believe it's you! Standing here, next to me!”;;;;;;;;;;;x
+VIETmisc.2216.a;Begone, pathetic worm!;;;;;;;;;;;;;x
+VIETmisc.2216.b;Out of my sight before I am forced to kill you!;;;;;;;;;;;;;x
+VIETmisc.2216.c;Don’t bother me, useless filth!;;;;;;;;;;;;;x
+VIETmisc.2216.d;I will not associate myself with disgusting vermin like you!;;;;;;;;;;;;;x
+VIETmisc.2217.desc;The young buffoon seems to ignore your insults, and continues: “Wow! You're the [Root.GetTitle]! You're the best! Can I... Can I follow you around? I won't get in the way!”;;;;;;;;;;;x
+VIETmisc.2217.a;Why don’t you wait here for a moment?;;;;;;;;;;;;;x
+VIETmisc.2217.b;Beat it, kid, I don’t need you.;;;;;;;;;;;;;x
+VIETmisc.2218.desc;"Here? Right here? What about, say... over there? No? Right here? All right then, you're the [Root.GetTitle]! Whatever you say!";;;;;;;;;;;x
+VIETmisc.2218.a;You and your entourage run away from the lunatic as fast as you can.;;;;;;;;;;;;;x
+VIETmisc.2219.desc;"Aw gee! You sure? Okay, well, I'll be hanging around [Root.Location.GetName] if you need someone to worship the ground you walk on. Bye!";;;;;;;;;;;x
+VIETmisc.2219.a;You and your entourage run away from the lunatic as fast as you can.;;;;;;;;;;;;;x
+VIETmisc.2220.desc;You visit a farmer in an effort to get to understand the commoners better. The man shows you around his farm, and the two of you come across his large cock. 'My hens love this cock, but unfortunately I'm thinking of eating this big, juicy, nice cock later today.”;;;;;;;;;;;x
+VIETmisc.2220.a;Would you mind if I join you in eating that big, juicy, nice cock?;;;;;;;;;;;;;x
+VIETmisc.2220.b;Wouldn’t it be wiser to let the hens have their big cock instead?;;;;;;;;;;;;;x
+VIETmisc.2221.desc;You realize the egg you’re eating is a cock egg, that is, an egg without yolk. The peasants say such eggs are laid by cocks, hence their lack of yolk. They say if the cock egg were to hatch, it would hatch a great evil monster, the cockatrice, a gigantic, fearsome, big cock-monster.;;;;;;;;;;;x
+VIETmisc.2221.a;Cocks are very strange.;;;;;;;;;;;;;x
+VIETmisc.2222.desc;A local peasant happened to have one of the biggest cocks ever seen in these parts. Out of respect, he has presented it to you as a gift. Thus, today, you and some your courtiers are enjoying this big, delicious, meaty cock.;;;;;;;;;;;x
+VIETmisc.2222.a;Mmmm!;;;;;;;;;;;;;x
+VIETmisc.2223.desc;Cock a doodle doo!;;;;;;;;;;;x
+VIETmisc.2223.a;Will that rooster shut up! I’m awake, alright, I’m awake!;;;;;;;;;;;;;x
+VIETmisc.2224.desc;On the side of the road, you notice a monstrous, vicious cock attacking a smaller, weaker, flabbier cock. It looks like one nasty mess of cocks.;;;;;;;;;;;x
+VIETmisc.2224.a;The stronger cock deserves to beat the weaker one!;;;;;;;;;;;;;x
+VIETmisc.2224.b;I’m rooting for the weaker cock to win against the odds!;;;;;;;;;;;;;x
+VIETmisc.2224.c;These cocks are ridiculous.;;;;;;;;;;;;;x
 VIETmisc.2225.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2225.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2226.desc;xxxxx;;;;;;;;;;;x
@@ -716,3 +732,43 @@ VIETmisc.2228.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2228.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2229.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2229.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2230.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2230.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2231.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2231.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2232.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2232.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2233.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2233.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2234.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2234.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2235.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2235.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2236.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2236.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2237.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2237.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2238.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2238.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2239.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2239.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2240.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2240.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2241.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2241.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2242.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2242.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2243.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2243.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2244.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2244.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2245.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2245.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2246.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2246.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2247.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2247.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2248.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2248.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2249.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2249.a;Xxxxxxffff;;;;;;;;;;;;;x

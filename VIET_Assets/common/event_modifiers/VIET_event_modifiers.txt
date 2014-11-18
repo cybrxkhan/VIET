@@ -606,6 +606,11 @@ VIET_muafname_granted = {
 	local_tax_modifier = -0.5
 	icon = 6
 }
+VIET_annoyed_ruler = {
+	diplomacy = -1
+	intrigue = -1
+	icon = 18
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

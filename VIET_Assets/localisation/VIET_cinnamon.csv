@@ -231,60 +231,120 @@ VIETmisc.5059.desc;You open your eyes.\n\nYou can move again! You even blubber s
 VIETmisc.5059.a;You sleep soundly.;;;;;;;;;;;;;x
 VIETmisc.5060.desc;Everyone says I should always get along with my sister. Ha! Never! Sure, she isn’t a bad person, but our relationship isn't perfect. She is annoying at times. These past few days, for instance, she has been insisting I do a certain favor for her. It’s not an unreasonable favor, I admit, but why does it have to be me?;;;;;;;;;;;x
 VIETmisc.5060.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5061.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5061.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5061.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5062.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5062.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5062.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5063.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5063.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5063.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5064.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5064.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5064.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5065.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5065.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5065.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5066.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5066.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5066.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5067.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5067.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5067.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5068.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5068.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5068.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5069.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5069.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5069.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5070.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5070.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5070.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5071.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5071.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5071.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5072.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5072.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5072.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5073.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5073.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5073.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5074.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5074.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5074.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5075.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5075.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5075.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5076.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5076.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5076.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5077.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5077.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5077.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5078.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5078.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5078.a;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5079.title;xxxxx;;;;;;;;;;;;;x
-VIETmisc.5079.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.5079.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5061.title;Wintry Wind Sentiment;;;;;;;;;;;;;x
+VIETmisc.5061.desc;As the winter wind begins to come down this year, I am suddenly reminded of someone dear to my heart.;;;;;;;;;;;x
+VIETmisc.5061.a;Her.;;;;;;;;;;;;;x
+VIETmisc.5062.title;My Memories are Still Beautiful;;;;;;;;;;;;;x
+VIETmisc.5062.desc;Do I want to remember? As much as it pains me, thinking about her still makes me so happy all the while.;;;;;;;;;;;x
+VIETmisc.5062.a;Back then...;;;;;;;;;;;;;x
+VIETmisc.5063.title;Despite a Sheet of Frozen Tears;;;;;;;;;;;;;x
+VIETmisc.5063.desc;She was a girl who lived nearby. I think she was of high birth - otherwise how would I have been able to play with her in the first place? - but her family was impoverished and had little influence on local affairs. We played a lot as children, her and me, the both of us. Now, I’m starting to really miss those times.;;;;;;;;;;;x
+VIETmisc.5063.a;Makes me feel melancholy.;;;;;;;;;;;;;x
+VIETmisc.5064.title;And I Don’t Remember;;;;;;;;;;;;;x
+VIETmisc.5064.desc;Unfortunately a lot of my memories of that girl are hazy.;;;;;;;;;;;x
+VIETmisc.5064.a;It’s been a while, after all.;;;;;;;;;;;;;x
+VIETmisc.5065.title;Why I Shed These Tears;;;;;;;;;;;;;x
+VIETmisc.5065.desc;For instance, I vaguely recall some argument we had. We were young, after all, and did stupid things. I think I said some really nasty things to her. Wait, that’s what happened, right? I don’t exactly recall. Maybe it was something else? Perhaps I offended her somehow and didn’t properly apologize?;;;;;;;;;;;x
+VIETmisc.5065.a;Whatever it was, I regret doing it.;;;;;;;;;;;;;x
+VIETmisc.5066.title;Now the Winter Winds of Yesteryear;;;;;;;;;;;;;x
+VIETmisc.5066.desc;When did we have that argument again? Oh, it must have been sometime during the winter, I think. Argh! Just thinking about it puts me in a bad mood. Sure, sure, I tell myself, I was young, I was young, but come on, no one should say those kinds of things.;;;;;;;;;;;x
+VIETmisc.5066.a;I would apologize now if I could.;;;;;;;;;;;;;x
+VIETmisc.5067.title;Turn Back the Clock for Us;;;;;;;;;;;;;x
+VIETmisc.5067.desc;Why did we even fight that time? We made up so quickly, as young people are wont to do, but I am rather curious now. What was it that got us into that argument in the first place? This is bothering me quite a bit. Regardless, how I wish I could go back, make sure it never happened! Admittedly, I’m probably thinking about this too much, anyways.;;;;;;;;;;;x
+VIETmisc.5067.a;We did reconcile after all.;;;;;;;;;;;;;x
+VIETmisc.5068.title;A Misunderstanding;;;;;;;;;;;;;x
+VIETmisc.5068.desc;Hmm. Now that I think it over, our conflict must have started with some sort of misunderstanding. It had to be. We usually got along, that girl and I, and shared things and agreed with each other. Surely there was some sort of misunderstanding - yes, that had to be it.;;;;;;;;;;;x
+VIETmisc.5068.a;And somehow, thanks to that, we got into our argument...?;;;;;;;;;;;;;x
+VIETmisc.5069.title;A Moment’s Hesitation;;;;;;;;;;;;;x
+VIETmisc.5069.desc;Maybe she asked me a very sensitive question, and I did not respond immediately, making her think I had a negative response in mind?;;;;;;;;;;;x
+VIETmisc.5069.a;Maybe.;;;;;;;;;;;;;x
+VIETmisc.5070.title;Cliched Sentimentalism;;;;;;;;;;;;;x
+VIETmisc.5070.desc;Or perhaps she wanted some romance - we were just starting to come to that age after all - but I misinterpreted her advances. Would be a bit of a cliche if that were the case, though.;;;;;;;;;;;x
+VIETmisc.5070.a;Perhaps.;;;;;;;;;;;;;x
+VIETmisc.5071.title;The Perfect Moment;;;;;;;;;;;;;x
+VIETmisc.5071.desc;What was it? I at least recall that she asked me something, yes, that was it, that’s what started this all. But I don’t quite remember what. Not yet, at least. She did seem nervous, right, didn’t she? Maybe she had waited a long time to answer this - to clear up some sort of misunderstanding, to confirm something.;;;;;;;;;;;x
+VIETmisc.5071.a;Hmm...;;;;;;;;;;;;;x
+VIETmisc.5072.title;Lost Forever;;;;;;;;;;;;;x
+VIETmisc.5072.desc;But anyways, I still miss that girl. We were such good friends… could our relationship have deepened into something more beautiful?;;;;;;;;;;;x
+VIETmisc.5072.a;I’ll never know.;;;;;;;;;;;;;x
+VIETmisc.5073.title;Once More, Never Again;;;;;;;;;;;;;x
+VIETmisc.5073.desc;If we met again, I’d make sure we wouldn’t get into those sort of arguments, ever again. It’d just be like the good days, when we’d mess around and enjoy ourselves, when we did not have to worry about adult responsibilities. No more stupid arguments. No more.;;;;;;;;;;;x
+VIETmisc.5073.a;I do miss her, don’t I?;;;;;;;;;;;;;x
+VIETmisc.5074.title;I Remain Young and Trusting;;;;;;;;;;;;;x
+VIETmisc.5074.desc;Though, now that I think about it, thinking that you will never get into stupid arguments is kind of naive. Only children think that everybody can simply get along with each other. The world just doesn’t work like that. Yet, to be honest, I wanted - and want - that sort of relationship with that girl. A pure companionship. A pure love.;;;;;;;;;;;x
+VIETmisc.5074.a;I suppose I’m still childish in a way, then.;;;;;;;;;;;;;x
+VIETmisc.5075.title;With My Unspoken Love;;;;;;;;;;;;;x
+VIETmisc.5075.desc;So I did love her after all, I’ve realized. I wanted to be with her forever - silly, isn’t it? I thought she was the most wonderful person ever.;;;;;;;;;;;x
+VIETmisc.5075.a;Yet I never told her.;;;;;;;;;;;;;x
+VIETmisc.5076.title;And Numb Memories;;;;;;;;;;;;;x
+VIETmisc.5076.desc;Oh, wait now…. Now I remember what she asked me. I can’t believe it. It’s so cliched. I should have remembered after all these years. She said it so randomly, so suddenly that day:;;;;;;;;;;;x
+VIETmisc.5076.a;“Hey, [Root.GetFirstName], do you love me?”;;;;;;;;;;;;;x
+VIETmisc.5077.title;Once More, Never Again;;;;;;;;;;;;;x
+VIETmisc.5077.desc;I didn’t answer her at the time. But if she were here now, and asked me that question again, what would I tell her? Would I answer “yes”?;;;;;;;;;;;x
+VIETmisc.5077.a;Surely I would, considering how much I miss her now?;;;;;;;;;;;;;x
+VIETmisc.5078.title;I Never Gave an Answer;;;;;;;;;;;;;x
+VIETmisc.5078.desc;And so I finally recall now why she was so angry. I didn’t give her any sort of proper response that day.;;;;;;;;;;;x
+VIETmisc.5078.a;That must have hurt her deeply.;;;;;;;;;;;;;x
+VIETmisc.5079.title;Which Pains Me;;;;;;;;;;;;;x
+VIETmisc.5079.desc;Frankly, it hurts me too, that I never gave her a proper answer.;;;;;;;;;;;x
+VIETmisc.5079.a;And I will never be able to.;;;;;;;;;;;;;x
+VIETmisc.5080.title;But I Remain Beautiful;;;;;;;;;;;;;x
+VIETmisc.5080.desc;I wonder if she were here, now, I would still love her. But that said, I hope - and I only hope - that she would still think of me highly on the other hand. I haven’t done many great things in life, but, then, nobody’s perfect. She always encouraged me to do my best. ;;;;;;;;;;;x
+VIETmisc.5080.a;I hope she is proud of me...;;;;;;;;;;;;;x
+VIETmisc.5081.title;And Leave Behind;;;;;;;;;;;;;x
+VIETmisc.5081.desc;But she is no longer here. Even though we made up after the incident, of course, we soon parted afterwards - parted forever. It was inevitable, I suppose. We were young, we did not realize that our childhood would not last forever.;;;;;;;;;;;x
+VIETmisc.5081.a;Nothing lasts forever. Nothing bad, nothing good. Nothing.;;;;;;;;;;;;;x
+VIETmisc.5082.title;The Warmth of Your Skin;;;;;;;;;;;;;x
+VIETmisc.5082.desc;But to this day, I still think of that silly girl. I still think of those times we sat under that tree, side by side, our shoulders touching as we smiled and laughed and talked about nothing. I still think of that stupid, silly way she smiled. My friend. My companion. My inspiration. My angel.;;;;;;;;;;;x
+VIETmisc.5082.a;My first love.;;;;;;;;;;;;;x
+VIETmisc.5083.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5083.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5083.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5084.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5084.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5084.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5085.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5085.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5085.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5086.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5086.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5086.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5087.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5087.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5087.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5088.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5088.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5088.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5089.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5089.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5089.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5090.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5090.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5090.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5091.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5091.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5091.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5092.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5092.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5092.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5093.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5093.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5093.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5094.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5094.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5094.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5095.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5095.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5095.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5096.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5096.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5096.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5097.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5097.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5097.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5098.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5098.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5098.a;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5099.title;xxxxx;;;;;;;;;;;;;x
+VIETmisc.5099.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.5099.a;xxxxx;;;;;;;;;;;;;x

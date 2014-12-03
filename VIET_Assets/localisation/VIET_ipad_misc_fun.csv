@@ -722,53 +722,122 @@ VIETmisc.2224.desc;On the side of the road, you notice a monstrous, vicious cock
 VIETmisc.2224.a;The stronger cock deserves to beat the weaker one!;;;;;;;;;;;;;x
 VIETmisc.2224.b;I’m rooting for the weaker cock to win against the odds!;;;;;;;;;;;;;x
 VIETmisc.2224.c;These cocks are ridiculous.;;;;;;;;;;;;;x
-VIETmisc.2225.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2225.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2226.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2226.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2227.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2227.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2228.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2228.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2229.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2229.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2230.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2230.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2231.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2231.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2232.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2232.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2233.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2233.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2234.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2234.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2235.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2235.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2236.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2236.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2237.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2237.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2238.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2238.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2239.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2239.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2240.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2240.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2241.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2241.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2242.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2242.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2243.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2243.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2244.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2244.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2245.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2245.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2246.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2246.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2247.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2247.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2248.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2248.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2249.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2249.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2225.desc;In the midst of our raid this time we captured a few healthy men, women, and children. They will be sold for a nice profit elsewhere.;;;;;;;;;;;x
+VIETmisc.2225.a;Good profits indeed.;;;;;;;;;;;;;x
+VIETmisc.2226.desc;While pillaging the settlement you come across two small children child. As you raise your weapon, ready to kill the miserable little runt, one child, who looks to be the older one, begs for mercy, asking that you spare their younger sibling. For some reason, you start to feel bad...;;;;;;;;;;;x
+VIETmisc.2226.a;Kill the older child and leave the younger one sobbing.;;;;;;;;;;;;;x
+VIETmisc.2226.b;Kill the younger child and laugh at the older one.;;;;;;;;;;;;;x
+VIETmisc.2226.c;Kill both reluctantly. The job has to be done - there can be no mercy!;;;;;;;;;;;;;x
+VIETmisc.2226.d;Spare the two. Sometimes there are exceptions.;;;;;;;;;;;;;x
+VIETmisc.2227.desc;The screams of your victims fill you with delight, as you and your men haul away another stash of rightly-earned loot. The town you just raided surely was a good spot to do so, and you all had a lot of fun terrorizing the inhabitants too. ;;;;;;;;;;;x
+VIETmisc.2227.a;The greatest joy for a man...;;;;;;;;;;;;;x
+VIETmisc.2228.desc;When we looted the holding, we found a library of scrolls and books. ;;;;;;;;;;;x
+VIETmisc.2228.a;Burn it, what is it good for anyways?;;;;;;;;;;;;;x
+VIETmisc.2228.b;Perhaps we can sell this to someone who would value them.;;;;;;;;;;;;;x
+VIETmisc.2228.c;I'd like to study them myself.;;;;;;;;;;;;;x
+VIETmisc.2229.desc;On raids, we usually take some of their women and do with them as we please whether they like it or not. Some of my men have rounded up a few girls and are inviting me to join in the inevitable orgy.;;;;;;;;;;;x
+VIETmisc.2229.a;I'll join in with my men and have a great time!;;;;;;;;;;;;;x
+VIETmisc.2229.b;I feel like I should restrain myself a bit.;;;;;;;;;;;;;x
+VIETmisc.2229.c;No thanks. I prefer to disregard the females and acquire real loot.;;;;;;;;;;;;;x
+VIETmisc.2229.d;Leave those women alone, let’s just focus on getting some loot.;;;;;;;;;;;;;x
+VIETmisc.2230.desc;One aspect of looting I look forward to is when I take all the good food. Amazing, is it not - all these delicious ingredients and dishes, it's like going to an exotic market.;;;;;;;;;;;x
+VIETmisc.2230.a;Mmm mmm! I’ll take that baklava over there!;;;;;;;;;;;;;x
+VIETmisc.2231.desc;"Aha! Caught you! Now die!" I shout as I jump around a corner.\n\nNothing is there.\n\nHmm. I could've sworn the peasant I wanted to slay was hiding there...;;;;;;;;;;;x
+VIETmisc.2231.a;No matter, back to looting!;;;;;;;;;;;;;x
+VIETmisc.2232.desc;You have found a large stash of precious herbs and medicines in the holding you looted.;;;;;;;;;;;x
+VIETmisc.2232.a;We will bring it to our healers so they can make the best use of it.;;;;;;;;;;;;;x
+VIETmisc.2233.desc;While looting, one of your warriors snatched a valuable item right before you had the opportunity to take it yourself! Surely, since you are the leader, this man had no right to take what is rightfully yours?;;;;;;;;;;;x
+VIETmisc.2233.a;No, he won it fair and square.;;;;;;;;;;;;;x
+VIETmisc.2233.b;I will make him hand it over!;;;;;;;;;;;;;x
+VIETmisc.2234.desc;It's time I buy a new wardrobe, somewhere to put my favorite clothes. My old one is worn out and will likely fall apart any day now. What sort of wardrobe should I get? A person of status such as myself can afford a decent wardrobe made of good quality wood, at any rate.;;;;;;;;;;;x
+VIETmisc.2234.a;A simple one will do;;;;;;;;;;;;;x
+VIETmisc.2234.b;Something nice, a bit stylish, but not too much;;;;;;;;;;;;;x
+VIETmisc.2234.c;It needs to be extravagant - gold plated, with intricate carvings everywhere!;;;;;;;;;;;;;x
+VIETmisc.2235.desc;"Aaahh!"\n\nThe chair you were sitting on broke, and you fell to the ground, looking like a clown.;;;;;;;;;;;x
+VIETmisc.2235.a;Why is this happening to me?;;;;;;;;;;;;;x
+VIETmisc.2236.desc;There's nothing much to do while you're waiting for your food at the dinner table. Out of curiosity, you glance under the table you sit at. You almost puke as you see some disgusting mess - partly crusty and dried up, partly still icky and goopy - sticking to the underside of the table. Who in the blazes put that there? What is that, anyways, to begin with?;;;;;;;;;;;x
+VIETmisc.2236.a;Servants! I need you to clean up something!;;;;;;;;;;;;;x
+VIETmisc.2237.desc;My desk is a mess! Papers, quills, ink, maps, charts, and other important things are strewn all over.;;;;;;;;;;;x
+VIETmisc.2237.a;It bothers me! I should organize this.;;;;;;;;;;;;;x
+VIETmisc.2237.b;Nah, no need to do anything.;;;;;;;;;;;;;x
+VIETmisc.2238.desc;I was a bit too eager trying to get my hands on some loot, and injured myself slightly.;;;;;;;;;;;x
+VIETmisc.2238.a;Ouch!;;;;;;;;;;;;;x
+VIETmisc.2239.desc;While looting I’ve found a nice set of clothes - made of silk, and very fashionable too - that would look perfect on my wife. Not only that, but right where I found these clothes, I also came across a nice set of jewelry that would fit her well, too! This might make a nice gift for her… and these clothes would show off her assets very well too...;;;;;;;;;;;x
+VIETmisc.2239.a;Yes, I’ve save these gifts for her.;;;;;;;;;;;;;x
+VIETmisc.2239.b;Hmm. On second thought, I’ll just sell it.;;;;;;;;;;;;;x
+VIETmisc.2240.desc;I have heard about how in foreign lands, there are people who think that marriage between siblings is a good idea. Obviously, these sort of fantasies only appeal to people who don't have siblings in the first place!;;;;;;;;;;;x
+VIETmisc.2240.a;Sick fantasies by desperate, depraved men, no doubt.;;;;;;;;;;;;;x
+VIETmisc.2240.b;Then again, I should remain open-minded.;;;;;;;;;;;;;x
+VIETmisc.2241.desc;I have heard of a man who lives in this region and is blessed with supernatural abilities, such as being able to survive any injury, even decapitation. Rumor has it that he acquired his abilities after accidentally encountering otherworldly spirits, particularly a young, immortal woman who is now his servant , and they now travel the land fighting demons and such supernatural threats.;;;;;;;;;;;x
+VIETmisc.2241.a;Tell me more about these stories...;;;;;;;;;;;;;x
+VIETmisc.2241.b;Nothing but fanciful lies, I'm certain.;;;;;;;;;;;;;x
+VIETmisc.2241.c;These pagan tales are an affront to our faith!;;;;;;;;;;;;;x
+VIETmisc.2242.desc;I'm partaking in some fighting exercises with my warriors. While shirtless, I practice some moves with my weapons. One of my courtiers, who happens to be observing the whole affair, remarks: "Your muscles are very good, [Root.GetTitledFirstName]. They fit you well, the meat on your muscles. Yes, your meaty muscles look very delicious.";;;;;;;;;;;x
+VIETmisc.2242.a;Um... alright?;;;;;;;;;;;;;x
+VIETmisc.2243.desc;One of my courtiers was telling me something, while talking with a posed look.;;;;;;;;;;;x
+VIETmisc.2243.a;I decided to reply with an equally posed look.;;;;;;;;;;;;;x
+VIETmisc.2244.desc;A courtier of mine seems to think I'm not being my usual self. He asked me, "Is something wrong?"\n\nI replied, "Oh, nothing."\n\nHe then says, "That time of month, then?";;;;;;;;;;;x
+VIETmisc.2244.a;...;;;;;;;;;;;;;x
+VIETmisc.2244.b;Slap him in the face;;;;;;;;;;;;;x
+VIETmisc.2244.c;Walk away;;;;;;;;;;;;;x
+VIETmisc.2244.d;Pretend he didn't ask that and talk about something else;;;;;;;;;;;;;x
+VIETmisc.2245.desc;When I woke up, I realized I wet my bed!;;;;;;;;;;;x
+VIETmisc.2245.a;Uh-oh!;;;;;;;;;;;;;x
+VIETmisc.2245.b;I’m too old for this!;;;;;;;;;;;;;x
+VIETmisc.2245.c;Oh wait, this isn’t urine...;;;;;;;;;;;;;x
+VIETmisc.2245.d;Wasn’t I dreaming of my sister last night?;;;;;;;;;;;;;x
+VIETmisc.2246.desc;I was urinating, trying to aim my piss in such and such way, but I miscalculated and sprayed some of it in my legs.;;;;;;;;;;;x
+VIETmisc.2246.a;Ew.;;;;;;;;;;;;;x
+VIETmisc.2247.desc;Learned men tell me that the civilized peoples of antiquity rinsed their teeth with their own urine, in order to keep it white.;;;;;;;;;;;x
+VIETmisc.2247.a;This is a good idea! I should do often.;;;;;;;;;;;;;x
+VIETmisc.2247.b;That's ridiculous.;;;;;;;;;;;;;x
+VIETmisc.2248.desc;I noticed that lately my urine has a strange color...;;;;;;;;;;;x
+VIETmisc.2248.a;Probably just something I ate.;;;;;;;;;;;;;x
+VIETmisc.2249.desc;I can barely hold it in! I'm in the middle of an important meeting with a foreign dignitary, and this man keeps going on and on without stopping, so I can't just excuse myself so rudely, but I really need to urinate really badly!;;;;;;;;;;;x
+VIETmisc.2249.a;Screw politeness! Gotta go, gotta go, gotta go right now!;;;;;;;;;;;;;x
+VIETmisc.2249.b;Just bear through it, just bear through it...;;;;;;;;;;;;;x
+VIET_gotta_go_1;I run to the chamber pot to urinate before it's too late!;;;;;;;;;;;x
+VIET_gotta_go_2;Oh my oh my oh my I can barely hold it!;;;;;;;;;;;x
+VIETmisc.2250.desc;Yes! The meeting with the foreign dignitary ended, the fellow finally shut up. ;;;;;;;;;;;x
+VIETmisc.2250.a;I quickly make a run for the chamber pot.;;;;;;;;;;;;;x
+VIETmisc.2251.desc;Oh no! I can’t hold it in anymore! Must… hold… it… in….\n\nDammit! I wet my clothes in front of everyone!;;;;;;;;;;;x
+VIETmisc.2251.a;Er...;;;;;;;;;;;;;x
+VIETmisc.2252.desc;While making my way to a nearby village, I pass by a peasant relieving himself in a nearby field. He notices me and waves hello while he is still relieving himself.;;;;;;;;;;;x
+VIETmisc.2252.a;Wave back (this is awkward);;;;;;;;;;;;;x
+VIETmisc.2252.b;Walk away (this is still awkward);;;;;;;;;;;;;x
+VIETmisc.2253.desc;Sometimes I wonder how people of the other gender urinate. I mean, I know where it comes out of - I’m not a child, I’m aware of these things - but I’m talking about how they do it. For instance, do they stand up? How do they aim it? Does it come out at a different speed?;;;;;;;;;;;x
+VIETmisc.2253.a;Such important questions.;;;;;;;;;;;;;x
+VIETmisc.2254.desc;You encounter a stream. Since you’re feeling thirsty, you decide to drink some water from it. As you savor the refreshing taste of the water, you remember that upstream is a small village. You suddenly wonder if the locals dispose of their urine into this stream…;;;;;;;;;;;x
+VIETmisc.2254.a;Probably not… right? Right…?;;;;;;;;;;;;;x
+VIETmisc.2254.b;I’ll just enjoy this water.;;;;;;;;;;;;;x
+VIETmisc.2254.c;Unlikely, though, now that I think about it. Generally, the peasants would...;;;;;;;;;;;;;x
+VIETmisc.2255.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2255.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2256.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2256.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2257.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2257.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2258.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2258.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2259.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2259.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2260.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2260.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2261.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2261.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2262.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2262.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2263.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2263.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2264.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2264.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2265.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2265.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2266.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2266.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2267.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2267.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2268.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2268.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2269.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2269.a;Xxxxxxffff;;;;;;;;;;;;;x

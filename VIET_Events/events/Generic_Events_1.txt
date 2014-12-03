@@ -3037,6 +3037,10 @@ character_event = {
 				has_province_modifier = muslim_paper_makers
 			}
 		}
+		is_tribal = no
+		capital_scope = {
+			num_of_settlements = 5
+		}
 	}
 	
 	weight_multiplier = {

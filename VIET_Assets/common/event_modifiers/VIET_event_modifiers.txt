@@ -611,6 +611,15 @@ VIET_annoyed_ruler = {
 	intrigue = -1
 	icon = 18
 }
+VIET_good_herbs = {
+	health = 0.5
+	fertility = 0.05
+	icon = 5
+}
+VIET_skeptical_ruler = {
+	intrigue = 1
+	icon = 5
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

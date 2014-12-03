@@ -193,3 +193,6 @@ viet_opinion_accepted_arameans_final = {
 opinion_is_mordred = {
 	opinion = -50
 }
+VIET_opinion_great_gift = {
+	opinion = 30
+}

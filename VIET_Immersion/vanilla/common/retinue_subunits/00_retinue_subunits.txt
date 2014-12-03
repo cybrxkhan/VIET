@@ -103,7 +103,7 @@ RETTYPE_CUL_SCOT =
 	potential = {
 		OR = {
 			culture = scottish
-			culture = cumbrian
+			culture = cumbric
 		}
 	}
 	
@@ -566,16 +566,21 @@ RETTYPE_CUL_LOM =
 
 RETTYPE_CUL_SUEBI = 
 {
-	first_type = 2
-	first_amount = 400
+	first_type = 0
+	first_amount = 200
+	
+	second_type = 2
+	second_amount = 150
 	
 	potential = {
 		culture = suebi
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.2
-		heavy_infantry_morale = 0.2
+		light_infantry_defensive = 0.3
+		light_infantry_morale = 0.2
+		pikemen_defensive = 0.3
+		pikemen_morale = 0.2
 	}
 }
 

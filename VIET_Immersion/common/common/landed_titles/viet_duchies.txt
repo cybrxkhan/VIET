@@ -37,25 +37,6 @@ d_canarias = {
 	
 }
 
-d_hormuz_republic = { 
-	color={ 100 125 88 }
-	color2={ 255 255 255 }
-	
-	capital = 641 # Hormuz
-
-	allow = {
-		war = no
-		is_republic = yes
-	}
-
-	short_name = yes
-	
-	dynasty_title_names = no
-	
-	dignity = 10
-	
-}
-
 
 d_fergana = {
 	color={ 240 255 98 }

@@ -1,11 +1,46 @@
-ambusher = {
+loremaster = {
 
-	customizer = no
+	opposites =  {
+		herbalist
+	}
+	
+	potential = {
+		religion_group = pagan_group
+	}
+
+	lifestyle = yes
+
+	diplomacy = 1
+	learning = 1
+	
+	same_opinion = 20
+	
+	command_modifier = {
+		morale_defence = 0.01
+		morale_offence = 0.01
+	}	
 	
 }
-pillager = {
+herbalist = {
 
-	customizer = no
+	opposites =  {
+		herbalist
+	}
+	
+	potential = {
+		religion_group = pagan_group
+	}
+
+	lifestyle = yes
+
+	intrigue = 1
+	learning = 1
+	
+	same_opinion = 20
+	
+	command_modifier = {
+		speed = 0.02
+	}	
 	
 }
 other_trait_placeholder_1 = {

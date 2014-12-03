@@ -1277,11 +1277,11 @@ e_persia = {
 				color={ 90 171 30 }
 				color2={ 255 255 255 }
 				
-				b_fergana = {
+				b_fergana = {}
+				b_khavakend = {
 					holy_site = zun_pagan
-					holy_site = zun_pagan_reformed
+					holy_site = zun_pagan_reformed				
 				}
-				b_khavakend = {}
 				b_namangan = {}
 				b_osh = {}
 				b_andijan = {}

@@ -7,6 +7,7 @@
 namespace = VIETjewish
 namespace = passover
 namespace = exilarch
+namespace = israel
 
 #############################################
 #Aliyah & Israel
@@ -275,7 +276,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = ashkenazi
 		}
@@ -295,7 +296,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = ashkenazi
 		}
@@ -315,7 +316,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = ashkenazi
 		}
@@ -464,7 +465,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = sephardi
 		}
@@ -484,7 +485,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = sephardi
 		}
@@ -504,7 +505,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = sephardi
 		}
@@ -653,7 +654,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = mizrahi
 		}
@@ -673,7 +674,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = mizrahi
 		}
@@ -693,7 +694,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = mizrahi
 		}
@@ -842,7 +843,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = romaniote
 		}
@@ -862,7 +863,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = romaniote
 		}
@@ -882,7 +883,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = romaniote
 		}
@@ -1032,7 +1033,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = karaite
 			culture = crimean_jewish
 		}
@@ -1052,7 +1053,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = crimean_jewish
 		}
@@ -1072,7 +1073,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = crimean_jewish
 		}
@@ -1221,7 +1222,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = bukharim
 		}
@@ -1241,7 +1242,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = bukharim
 		}
@@ -1261,7 +1262,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = bukharim
 		}
@@ -1410,7 +1411,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = indian_jewish
 		}
@@ -1430,7 +1431,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = indian_jewish
 		}
@@ -1450,7 +1451,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = indian_jewish
 		}
@@ -1600,7 +1601,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = chinese_jewish
 		}
@@ -1620,7 +1621,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = chinese_jewish
 		}
@@ -1640,7 +1641,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = chinese_jewish
 		}
@@ -1789,7 +1790,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = falashim
 		}
@@ -1809,7 +1810,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = falashim
 		}
@@ -1829,7 +1830,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = falashim
 		}
@@ -1981,7 +1982,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = maghreb_jewish
 		}
@@ -2001,7 +2002,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = maghreb_jewish
 		}
@@ -2021,7 +2022,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = maghreb_jewish
 		}
@@ -2191,7 +2192,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = italian_jewish
 		}
@@ -2211,7 +2212,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = italian_jewish
 		}
@@ -2231,7 +2232,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = italian_jewish
 		}
@@ -2383,7 +2384,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = caucasian_jewish
 		}
@@ -2403,7 +2404,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = caucasian_jewish
 		}
@@ -2423,7 +2424,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = caucasian_jewish
 		}
@@ -2575,7 +2576,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = yemenite_jewish
 		}
@@ -2595,7 +2596,7 @@ character_event = {
 		create_character = {
 			female = yes
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = yemenite_jewish
 		}
@@ -2615,7 +2616,7 @@ character_event = {
 		create_character = {
 			female = no
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = jewish
 			culture = yemenite_jewish
 		}
@@ -2654,21 +2655,21 @@ character_event = {
 			#The likely suspects
 			create_random_soldier = {
 				random_traits = yes
-				dynasty = random
+				dynasty = culture
 				religion = jewish
 				culture = sephardi
 				female = no
 			}
 			create_random_soldier = {
 				random_traits = yes
-				dynasty = random
+				dynasty = culture
 				religion = jewish
 				culture = mizrahi
 				female = no
 			}
 			create_random_soldier = {
 				random_traits = yes
-				dynasty = random
+				dynasty = culture
 				religion = jewish
 				culture = ashkenazi
 				female = no
@@ -2678,7 +2679,7 @@ character_event = {
 				33 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = ashkenazi
 						female = no
@@ -2687,7 +2688,7 @@ character_event = {
 				34 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = sephardi
 						female = no
@@ -2696,7 +2697,7 @@ character_event = {
 				33 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = mizrahi
 						female = no
@@ -2708,7 +2709,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = romaniote
 						female = no
@@ -2717,7 +2718,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = falashim
 						female = no
@@ -2726,7 +2727,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = maghreb_jewish
 						female = no
@@ -2735,7 +2736,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = italian_jewish
 						female = no
@@ -2744,7 +2745,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = crimean_jewish
 						female = no
@@ -2756,7 +2757,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = caucasian_jewish
 						female = no
@@ -2765,7 +2766,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = indian_jewish
 						female = no
@@ -2774,7 +2775,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = bukharim
 						female = no
@@ -2783,7 +2784,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = chinese_jewish
 						female = no
@@ -2792,7 +2793,7 @@ character_event = {
 				20 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = yemenite_jewish
 						female = no
@@ -2804,7 +2805,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = ashkenazi
 						female = no
@@ -2813,7 +2814,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = sephardi
 						female = no
@@ -2822,7 +2823,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = mizrahi
 						female = no
@@ -2831,7 +2832,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = romaniote
 						female = no
@@ -2840,7 +2841,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = falashim
 						female = no
@@ -2849,7 +2850,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = maghreb_jewish
 						female = no
@@ -2858,7 +2859,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = italian_jewish
 						female = no
@@ -2867,7 +2868,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = crimean_jewish
 						female = no
@@ -2876,7 +2877,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = caucasian_jewish
 						female = no
@@ -2885,7 +2886,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = yemenite_jewish
 						female = no
@@ -2894,7 +2895,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = bukharim
 						female = no
@@ -2903,7 +2904,7 @@ character_event = {
 				3 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = indian_jewish
 						female = no
@@ -2912,7 +2913,7 @@ character_event = {
 				2 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = chinese_jewish
 						female = no
@@ -2924,7 +2925,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = ashkenazi
 						female = no
@@ -2933,7 +2934,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = sephardi
 						female = no
@@ -2942,7 +2943,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = mizrahi
 						female = no
@@ -2951,7 +2952,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = romaniote
 						female = no
@@ -2960,7 +2961,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = falashim
 						female = no
@@ -2969,7 +2970,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = maghreb_jewish
 						female = no
@@ -2978,7 +2979,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = italian_jewish
 						female = no
@@ -2987,7 +2988,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = crimean_jewish
 						female = no
@@ -2996,7 +2997,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = caucasian_jewish
 						female = no
@@ -3005,7 +3006,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = yemenite_jewish
 						female = no
@@ -3014,7 +3015,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = bukharim
 						female = no
@@ -3023,7 +3024,7 @@ character_event = {
 				3 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = indian_jewish
 						female = no
@@ -3032,7 +3033,7 @@ character_event = {
 				2 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = chinese_jewish
 						female = no
@@ -3044,7 +3045,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = ashkenazi
 						female = no
@@ -3053,7 +3054,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = sephardi
 						female = no
@@ -3062,7 +3063,7 @@ character_event = {
 				16 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = mizrahi
 						female = no
@@ -3071,7 +3072,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = romaniote
 						female = no
@@ -3080,7 +3081,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = falashim
 						female = no
@@ -3089,7 +3090,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = maghreb_jewish
 						female = no
@@ -3098,7 +3099,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = italian_jewish
 						female = no
@@ -3107,7 +3108,7 @@ character_event = {
 				7 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = crimean_jewish
 						female = no
@@ -3116,7 +3117,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = caucasian_jewish
 						female = no
@@ -3125,7 +3126,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = yemenite_jewish
 						female = no
@@ -3134,7 +3135,7 @@ character_event = {
 				4 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = bukharim
 						female = no
@@ -3143,7 +3144,7 @@ character_event = {
 				3 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = indian_jewish
 						female = no
@@ -3152,7 +3153,7 @@ character_event = {
 				2 = {
 					create_random_soldier = {
 						random_traits = yes
-						dynasty = random
+						dynasty = culture
 						religion = jewish
 						culture = chinese_jewish
 						female = no
@@ -4066,5 +4067,1034 @@ character_event = {
 		d_exilarch_karaite = {
 			grant_title = PREV
 		}
+	}
+}
+
+#############################################
+# Israel Minorities
+#############################################
+
+# Aramean Chain Cold Start - You take a stroll
+character_event = {
+	id = israel.100
+	desc = israel.100.desc
+	picture = GFX_evt_holy_jerusalem
+
+	is_triggered_only = yes
+
+	only_rulers = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		has_landed_title = k_israel
+		religion_group = jewish_group
+		NOT = { has_global_flag = aramean_integrated }
+		NOT = { has_character_flag = aramean_village_visited }
+		NOT = { has_character_flag = removed_arameans }
+		has_disease = no
+		war = no
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = stressed
+		}
+		modifier = {
+			factor = 0.5
+			trait = depressed
+		}
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = gardener
+		}
+		modifier = {
+			factor = 0.5
+			trait = duelist
+		}
+		modifier = {
+			factor = 5
+			trait = hunter
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 2
+			trait = poet
+		}
+		modifier = {
+			factor = 2
+			trait = falconer
+		}
+		modifier = {
+			factor = 2
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.5
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.1
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 3
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+	}
+
+	option = {
+		name = israel.100.a
+		set_character_flag = aramean_village_visited
+		character_event = { id = israel.101 days = 6 random = 4 tooltip = israel.100.tooltip }
+	}
+}
+
+# Aramean village found
+
+character_event = {
+	id = israel.101
+	desc = israel.101.desc
+	picture = GFX_evt_holy_jerusalem
+
+	is_triggered_only = yes
+
+	option = {
+		name = israel.101.a
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					learning = 6
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_welcome_minority
+				who = ROOT
+				years = 2
+			}
+		}
+		piety = -10
+		character_event = { id = israel.102 days = 2 random = 1 tooltip = israel.101.tooltip }
+	}
+
+	option = { #Decline to visit
+		name = israel.101.b
+		piety = 10
+	}
+}
+
+narrative_event = {
+	id = israel.102 #You are greeted by the elder
+	title = israel.102.name
+	desc = israel.102.desc
+	picture = GFX_evt_holy_jerusalem
+
+	is_triggered_only = yes
+
+	option = { #meet the man
+		name = israel.102.a
+		random_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = wroth
+					trait = proud
+					trait = hunter
+					trait = duelist
+					NOT = { diplomacy = 7 }
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_talk_minority
+				who = ROOT
+				years = 2
+			}
+		}
+		character_event = { id = israel.103 days = 2 random = 1 tooltip = israel.102.tooltip }
+	}
+	option = { #Decline invitation
+		name = israel.102.b
+		piety = 15
+	}
+}
+
+narrative_event = {
+	id = israel.103 #You and the elder talk
+	title = israel.103.name
+	desc = israel.103.desc
+	picture = GFX_evt_two_men_talking
+
+	is_triggered_only = yes
+
+	option = { #Maybe we have things in common
+		name = israel.103.a
+		trigger = {
+			NOT = { trait = cruel }
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					learning = 6
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_compare_minority
+				who = ROOT
+				years = 2
+			}
+		}
+		character_event = { id = israel.104 days = 4 random = 2 tooltip = israel.103.tooltip }
+	}
+	option = { #Dismiss
+		name = israel.103.b
+		piety = 10
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+					learning = 6
+				}
+			}
+		}
+		opinion = {
+			modifier = viet_opinion_dismiss_minority
+			who = ROOT
+			years = 2
+		}
+	}
+}
+
+narrative_event = {
+	id =  israel.104
+	title = israel.104.name
+	desc = israel.104.desc
+	picture = GFX_evt_holy_jerusalem
+	
+	is_triggered_only = yes
+
+	option = { #Accept arameans, no courtier malus
+		name = israel.104.a
+		trigger = {
+			OR = {
+				diplomacy = 12
+				learning = 12
+			}
+		}
+		set_global_flag = aramean_integrated
+		set_character_flag = reaffirmed_arameans
+		create_character = {
+			female = no
+			random_traits = yes
+			dynasty = culture
+			religion = maronite
+			culture = aramean
+			stewardship = 10
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+		}
+		character_event = { id = israel.105 days = 30 random = 10 tooltip = israel.104.tooltip }
+	}
+	option = { #Accept arameans, courtier malus
+		name = israel.104.b
+		trigger = {
+			AND = {
+				NOT = { diplomacy = 12 }
+				NOT = { learning = 12 }
+			}
+		}
+		set_global_flag = aramean_integrated
+		set_character_flag = reaffirmed_arameans
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_first
+				who = ROOT
+				years = -1
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_first
+				who = ROOT
+				years = 2
+			}
+		}
+		create_character = {
+			female = no
+			random_traits = yes
+			dynasty = culture
+			religion = maronite
+			culture = aramean
+			stewardship = 10
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+		}
+		character_event = { id = israel.105 days = 30 random = 10 tooltip = israel.104.tooltip }
+	}
+	option = { #Do not accept arameans
+		name = israel.104.c
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_refused_arameans
+				who = ROOT
+				years = 5
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_refused_arameans
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+}
+
+character_event = {
+	id = israel.105 #Vassals hear you accepted arameans
+	desc = israel.105.desc
+	picture = GFX_evt_holy_jerusalem
+
+	is_triggered_only = yes
+
+	option = { #My choice is made
+		name = israel.105.a
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_first
+				who = ROOT
+				years = 100
+			}
+		}
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_first
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+}
+
+character_event = { #New ruler has to reaffirm arameans
+	id = israel.106
+	desc = israel.106.desc
+	picture = GFX_evt_holy_jerusalem
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = k_israel
+		religion_group = jewish_group
+		has_global_flag = aramean_integrated
+		NOT = { has_global_flag = aramean_law }
+		NOT = { has_character_flag = reaffirmed_arameans }
+		NOT = { has_character_flag = removed_arameans }		
+	}
+	
+	#mean_time_to_happen = {
+	#	days = 1
+	#}
+	
+	option = {
+		name = israel.106.a
+		set_character_flag = reaffirmed_arameans
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_again
+				who = ROOT
+				years = 100
+			}
+		}
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_again
+				who = ROOT
+				years = 2
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_again
+				who = ROOT
+				years = 5
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_again
+				who = ROOT
+				years = 1
+			}
+		}
+		any_courtier = {
+			limit = {
+				culture = aramean
+			}
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+		}
+	}
+	option = {
+		name = israel.106.b
+		set_character_flag = removed_arameans
+		clr_global_flag = aramean_integrated
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_refused_arameans
+				who = ROOT
+				years = 100
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_refused_arameans
+				who = ROOT
+				years = 100
+			}
+		}
+		any_courtier = {
+			limit = {
+				religion_group = jewish_group
+				NOT = { trait = zealous }
+				NOT = { trait = martial_cleric }
+				NOT = { trait = scholarly_theologian }
+				NOT = { trait = mastermind_theologian }
+			}
+			opinion = {
+				modifier = viet_opinion_refused_arameans
+				who = ROOT
+				years = 1
+			}
+		}
+		any_courtier = {
+			limit = {
+				culture = aramean
+			}
+			opinion = {
+				modifier = opinion_betrayed_arameans
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+}
+
+narrative_event = { #Should I make the arameans equals permanently?
+	id = israel.107
+	title = israel.107.title
+	desc = israel.107.desc
+	picture = GFX_evt_holy_jerusalem
+	
+	only_rulers = yes
+	
+	trigger = {
+		has_landed_title = k_israel
+		religion_group = jewish_group
+		has_global_flag = aramean_integrated
+		NOT = { has_global_flag = aramean_law }
+		has_character_flag = reaffirmed_arameans
+		diplomacy = 12
+		learning = 12
+	}
+	
+	mean_time_to_happen = {
+		years = 3
+	}
+	
+	option = {
+		name = israel.107.a
+		set_global_flag = aramean_law
+		any_vassal = {
+			limit = {
+				religion_group = jewish_group
+				OR = {
+					trait = zealous
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+			}
+			opinion = {
+				modifier = viet_opinion_accepted_arameans_final
+				who = ROOT
+				years = 100
+			}
+		}
+	}
+	option = {
+		name = israel.107.b
+	}
+}
+
+character_event = { #aramean courtier spawn
+	id = israel.108
+	desc = israel.108.desc
+	
+	picture = GFX_evt_holy_jerusalem
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	
+	trigger = {
+		has_landed_title = k_israel
+		has_global_flag = aramean_integrated
+		OR = {
+			has_character_flag = reaffirmed_arameans
+			has_global_flag = arameans_law
+		}
+		religion_group = jewish_group
+	}
+	
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 4
+			is_patrician = yes
+		}
+		
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		
+		modifier = {
+			factor = 1.5
+			trait = arbitrary
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = cynical
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}		
+		
+		modifier = {
+			factor = 0.9
+			trait = scholar
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = ambitious
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = charitable
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = trusting
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = greedy
+		}
+		
+		modifier = {
+			factor = 8
+			any_courtier = {
+				has_character_flag = israel_aliyah
+			}
+		}		
+	}
+	
+	option = { #accept them
+		name = israel.108.a
+		random_list = {
+			20 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 10
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			10 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 11
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 12
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 13
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 14
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					diplomacy = 15
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			20 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 10
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			10 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 11
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 12
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 13
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 14
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					female = no
+					random_traits = yes
+					dynasty = culture
+					religion = maronite
+					culture = aramean
+					stewardship = 15
+					flag = ai_flag_refuse_conversion
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 100
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}
+				}
+			}
+		}
+		create_character = {
+			female = yes
+			random_traits = yes
+			dynasty = culture
+			religion = maronite
+			culture = aramean
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 100
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+		}
+	}
+	option = { #No need
+		name = israel.108.b
 	}
 }

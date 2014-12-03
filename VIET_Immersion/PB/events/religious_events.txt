@@ -2448,7 +2448,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		if = {
 			limit = { NOT = { piety = 500 } }
@@ -2461,7 +2461,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		FROM = {
 			opinion = {
@@ -2489,7 +2489,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		if = {
 			limit = { NOT = { piety = 400 } }
@@ -2502,7 +2502,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		
 		FROM = {
@@ -2532,7 +2532,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		if = {
 			limit = { NOT = { piety = 400 } }
@@ -2545,7 +2545,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		
 		FROM = {
@@ -2574,7 +2574,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		if = {
 			limit = { NOT = { piety = 400 } }
@@ -2587,7 +2587,7 @@ character_event = {
 				wealth = -25
 			}
 			
-			piety = 50
+			piety = 25
 		}
 		
 		FROM = {
@@ -3582,14 +3582,14 @@ character_event = {
 				culture_group = baltic # The most stubborn pagans
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				culture_group = east_slavic # Angry at Muslim Tatars, also like alcohol
 				FROM = {
 					religion_group = muslim
 				}
 			}
 			modifier = {
-				factor = 3
+				factor = 5
 				culture_group = north_germanic # Vikings do like their alcohol
 				FROM = {
 					religion_group = muslim
@@ -4662,6 +4662,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4730,6 +4731,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4785,6 +4787,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4800,14 +4803,12 @@ narrative_event = {
 				NOT = { owner = { religion_group = christian } }
 			}
 			AND = {
-				year = 850
 			119 = { # Cologne
 					religion_group = christian
 				NOT = { owner = { religion_group = christian } }
 			}
 			}
 			AND = {
-				year = 850
 			257 = { # Braunschweig
 					religion_group = christian
 				NOT = { owner = { religion_group = christian } }
@@ -4905,6 +4906,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -4954,6 +4956,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -5003,6 +5006,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -5060,6 +5064,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 1000
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }

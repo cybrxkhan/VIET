@@ -427,6 +427,39 @@ title_knight_of_the_round_table = {
 	}
 	
 	gain_effect = {
+		character_event = { id = VIETceltic.4 days = 1 }
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+
+#Sogdian
+
+title_possessor_of_mint = {
+	dignity = 0.03
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.005
+	
+	is_unique = yes
+	
+	allow = {
+		age = 16
+		FROM = {
+			OR = {
+				culture = soghdian
+				has_landed_title = k_sogdiana
+			}
+		}
+		stewardship = 10
+	}
+	
+	gain_effect = {
 	}
 	lose_effect = {
 	}

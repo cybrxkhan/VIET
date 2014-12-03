@@ -1210,60 +1210,7 @@ character_event = {
 }
 
 
-#Province wants Muafname?
-province_event = {
-	id = ottoman.11
-
-	hide_window = yes
-	
-	trigger = {
-		OR = {
-			top_liege = {
-				has_landed_title = e_turkish
-				NOT = { trait = incapable }
-				is_adult = yes			
-			}
-			owner = {
-				has_landed_title = e_turkish
-			}
-		}
-		OR = {
-				NOT = { religion_group = muslim }
-				NOT = { culture = turkish }
-		}
-		owner = {
-			NOT = {
-				any_demesne_province = {
-					has_province_modifier = VIET_muafname_granted
-				}
-			}
-			NOT = { tier = baron }			
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 2580
-	}
-	
-	immediate = {
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_landed_title = e_turkish }
-				}
-			}
-			character_event = { id = ottoman.12 }
-		}
-		if = {
-			limit = {
-				owner = {
-					has_landed_title = e_turkish
-				}
-			}
-			character_event = { id = ottoman.17 }
-		}
-	}
-}
+#ottoman.11
 
 
 # Ottoman lord considers petitioning the Sultan for Muafname exemption
@@ -1272,20 +1219,73 @@ character_event = {
 	desc = "ottoman.12.desc"
 	picture = GFX_evt_turkish_sultan
 	
-	is_triggered_only = yes
+	min_age = 16
+	only_rulers = yes
+	only_playable = yes
+	capable_only = yes
+	prisoner = no	
 	
-	hide_from = yes
+	trigger = {
+		OR = {
+			top_liege = {
+				has_landed_title = e_turkish
+				NOT = { trait = incapable }
+				is_adult = yes			
+			}
+			has_landed_title = e_turkish
+		}
+		capital_scope = {
+			OR = {
+					NOT = { religion_group = muslim }
+					NOT = { culture = turkish }
+			}
+		}
+		NOT = {
+			any_demesne_province = {
+				has_province_modifier = VIET_muafname_granted
+			}
+		}				
+	}
+	
+	mean_time_to_happen = { 
+		months = 2000
+	}
 	
 	option = {
 		name = "ottoman.12.a" #yes let's do this
-		e_turkish = {
-			holder_scope = {
-				character_event = { id = ottoman.13 days = 5 random = 5 tooltip = ottoman.13.tooltip }
-			}
+		trigger = {
+			NOT = { has_landed_title = e_turkish }
+		}
+		top_liege = {
+			character_event = { id = ottoman.13 days = 5 random = 5 tooltip = ottoman.13.tooltip }
 		}
 	}	
 	option = {
 		name = "ottoman.12.b" #No
+		trigger = {
+			has_landed_title = e_turkish
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 3650
+			}
+		}
+	}	
+	option = {
+		name = "ottoman.12.c" #No
+		trigger = {
+			has_landed_title = e_turkish
+		}
+		capital_scope = {
+			add_province_modifier = {
+				name = VIET_muafname_granted
+				duration = 1095
+			}
+		}		
+	}	
+	option = {
+		name = "ottoman.12.d" #No
 	}
 }
 
@@ -1320,13 +1320,13 @@ letter_event = {
 				who = ROOT
 				years = 5
 			}
+			capital_scope = {
+				add_province_modifier = {
+					name = VIET_muafname_granted
+					duration = 7300
+				}			
+			}
 			letter_event = { id = ottoman.14 days = 5 random = 5 tooltip = ottoman.14.tooltip }
-		}
-		FROMFROM = {
-			add_province_modifier = {
-				name = VIET_muafname_granted
-				duration = 7300
-			}		
 		}
 	}	
 	option = {
@@ -1352,13 +1352,13 @@ letter_event = {
 				who = ROOT
 				years = 5
 			}
+			capital_scope = {
+				add_province_modifier = {
+					name = VIET_muafname_granted
+					duration = 1095
+				}				
+			}
 			letter_event = { id = ottoman.15 days = 5 random = 5 tooltip = ottoman.15.tooltip }
-		}
-		FROMFROM = {
-			add_province_modifier = {
-				name = VIET_muafname_granted
-				duration = 1095
-			}		
 		}
 	}
 	option = {
@@ -1439,38 +1439,6 @@ letter_event = {
 	}
 }
 
-# Ottoman Sultan considers muafname for province
-character_event = {
-	id = ottoman.17
-	desc = "ottoman.17.desc"
-	picture = GFX_evt_turkish_sultan
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "ottoman.17.a" #big muafname
-		FROM = {
-			add_province_modifier = {
-				name = VIET_muafname_granted
-				duration = 3650
-			}		
-		}
-	}	
-	option = {
-		name = "ottoman.17.b" #small muafname
-		FROM = {
-			add_province_modifier = {
-				name = VIET_muafname_granted
-				duration = 1095
-			}		
-		}
-	}	
-	option = {
-		name = "ottoman.17.c" #No
-	}
-}
 
 
 

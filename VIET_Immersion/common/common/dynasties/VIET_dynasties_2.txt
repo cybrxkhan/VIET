@@ -1052,83 +1052,83 @@
 }
 1000091650 = {
 	name="Kushan"
-	culture = tocharian
+	culture = tokharian
 }
 1000091651 = {
 	name="Uar"
-	culture = tocharian
+	culture = tokharian
 }
 1000091652 = {
 	name="Sufa"
-	culture = tocharian
+	culture = tokharian
 }	
 1000091653 = {
 	name="Vijaya"
-	culture = tocharian
+	culture = tokharian
 }
 1000091654 = {
 	name="Ki"
-	culture = tocharian
+	culture = tokharian
 }
 1000091655 = {
 	name="Haital"
-	culture = tocharian
+	culture = tokharian
 }
 1000091656 = {
 	name="Arshi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091657 = {
 	name="Kashi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091658 = {
 	name="Gashi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091659 = {
 	name="Kassrij"
-	culture = tocharian
+	culture = tokharian
 }
 1000091660 = {
 	name="Taur"
-	culture = tocharian
+	culture = tokharian
 }
 1000091661 = {
 	name="Liaka"
-	culture = tocharian
+	culture = tokharian
 }
 1000091662 = {
 	name="Kam"
-	culture = tocharian
+	culture = tokharian
 }	
 1000091663 = {
 	name="Yatii"
-	culture = tocharian
+	culture = tokharian
 }
 1000091664 = {
 	name="Stam"
-	culture = tocharian
+	culture = tokharian
 }
 1000091665 = {
 	name="Karasuk"
-	culture = tocharian
+	culture = tokharian
 }
 1000091666 = {
 	name="Gurjar"
-	culture = tocharian
+	culture = tokharian
 }
 1000091667 = {
 	name="Rishika"
-	culture = tocharian
+	culture = tokharian
 }
 1000091668 = {
 	name="Parama"
-	culture = tocharian
+	culture = tokharian
 }
 1000091669 = {
 	name="Kuchi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091670 = {
 	name="Haha"
@@ -1408,43 +1408,43 @@
 }
 1000091869 = {
 	name="Flanginis"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091870 = {
 	name="Maurolicos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091871 = {
 	name="Stratigos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091872 = {
 	name="Foscolos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091873 = {
 	name="Massari"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091874 = {
 	name="Pilatos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091875 = {
 	name="Chalkokondyles"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091876 = {
 	name="Argyropoulos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091877 = {
 	name="Pitzamanos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091878 = {
 	name="Atumano"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091879 = {
 	name="Nabahani"
@@ -2136,83 +2136,83 @@
 }
 1000092070 = {
 	name="Ushnyspy"
-	culture = sogdian
+	culture = soghdian
 }
 1000092071 = {
 	name="Kanakk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092072 = {
 	name="Kurynk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092073 = {
 	name="Chirthswan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092074 = {
 	name="Bokar-kodat"
-	culture = sogdian
+	culture = soghdian
 }
 1000092075 = {
 	name="Mazartagh"
-	culture = sogdian
+	culture = soghdian
 }
 1000092076 = {
 	name="Resan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092077 = {
 	name="Khun"
-	culture = sogdian
+	culture = soghdian
 }
 1000092078 = {
 	name="Induk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092079 = {
 	name="Afshin"
-	culture = sogdian
+	culture = soghdian
 }
 1000092080 = {
 	name="Nafakhs"
-	culture = sogdian
+	culture = soghdian
 }
 1000092081 = {
 	name="Farnmethan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092082 = {
 	name="Shawgharchini"
-	culture = sogdian
+	culture = soghdian
 }
 1000092083 = {
 	name="Todhich"
-	culture = sogdian
+	culture = soghdian
 }
 1000092084 = {
 	name="Kushanakanak"
-	culture = sogdian
+	culture = soghdian
 }
 1000092085 = {
 	name="Lyw"
-	culture = sogdian
+	culture = soghdian
 }
 1000092086 = {
 	name="Parsak"
-	culture = sogdian
+	culture = soghdian
 }
 1000092087 = {
 	name="Suryakk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092088 = {
 	name="Bstna"
-	culture = sogdian
+	culture = soghdian
 }
 1000092089 = {
 	name="Jadh Abrashm"
-	culture = sogdian
+	culture = soghdian
 }
 1000092090 = {
 	name="Mudaito"

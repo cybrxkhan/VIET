@@ -228,6 +228,7 @@ bookmark =
 	desc = "BM_SELJUK_DESC"
 	date = 1157.5.8
 
+	character = 1000158763 # Emperor Renzong
 	character = 144120 # Ali I of Khiva
 	character = 144062 # Caliph Al-Muqtafi I
 	character = 144032 # Qutb I of Edessa

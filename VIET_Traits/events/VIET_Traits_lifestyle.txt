@@ -1,0 +1,199 @@
+##############################################
+#
+#	Lifestyle Traits:
+# 
+#	VIETtraits.0-999 reserved 
+#
+#	REMEMBER GENERIC FLAVOR EVENTS GO IN VIET EVENTS, NOT VIET TRAITS!!!
+#
+#	
+#
+#
+##############################################
+
+namespace = VIETtraits
+
+#Loremaster/Herbalist Start
+character_event = {
+	id = VIETtraits.0
+	desc = VIETtraits.0.desc
+	picture = GFX_evt_whispers
+
+	min_age = 25
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_global_flag = VIET_Traits_On
+		in_command = no
+		NOT = {
+			lifestyle_traits = 1
+		}
+		NOT = {
+			has_character_flag = VIET_lifestyle_LH
+		}
+		religion_group = pagan_group
+	}
+	
+	immediate = {
+		set_character_flag = VIET_lifestyle_LH
+	}
+	
+	mean_time_to_happen = {
+		months = 260
+
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			learning = 10
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 8
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.25
+			trait = detached_priest
+		}
+		modifier = {
+			factor = 1.25
+			trait = naive_appeaser
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				trait = charismatic_negotiator
+				trait = grey_eminence
+			}
+		}
+	}
+
+	option = { #Start
+		name = VIETtraits.0.a
+		character_event = { id = VIETtraits.1 days = 15 random = 15 tooltip = "VIETtraits.1.tooltip" }
+	}
+}
+
+#Choose a side
+character_event = {
+	id = VIETtraits.1
+	desc = VIETtraits.1.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #Herbalist
+		name = VIETtraits.1.a
+		character_event = { id = VIETtraits.2 days = 15 random = 15 tooltip = "VIETtraits.2.tooltip" }
+	}
+	option = { #Loremaster
+		name = VIETtraits.1.b
+		character_event = { id = VIETtraits.3 days = 15 random = 15 tooltip = "VIETtraits.3.tooltip" }
+	}
+}
+
+#Herbalist ya?
+character_event = {
+	id = VIETtraits.2
+	desc = VIETtraits.2.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #Continue
+		name = VIETtraits.2.a
+		character_event = { id = VIETtraits.4 days = 15 random = 15 tooltip = "VIETtraits.4.tooltip" }
+	}
+	option = { #Switch to Loremaster
+		name = VIETtraits.2.b
+		trigger = {
+			NOT = { has_character_flag = VIET_HL_switch }
+		}
+		set_character_flag = VIET_HL_switch
+		character_event = { id = VIETtraits.3 days = 15 random = 15 tooltip = "VIETtraits.3.tooltip.a" }
+	}
+}
+
+#Loremaster ya?
+character_event = {
+	id = VIETtraits.3
+	desc = VIETtraits.3.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #Continue
+		name = VIETtraits.3.a
+		character_event = { id = VIETtraits.5 days = 15 random = 15 tooltip = "VIETtraits.5.tooltip" }
+	}
+	option = { #Switch to Loremaster
+		name = VIETtraits.3.b
+		trigger = {
+			NOT = { has_character_flag = VIET_HL_switch }
+		}
+		set_character_flag = VIET_HL_switch
+		character_event = { id = VIETtraits.2 days = 15 random = 15 tooltip = "VIETtraits.2.tooltip.a" }
+	}
+}
+
+#Become herbalist
+character_event = {
+	id = VIETtraits.4
+	desc = VIETtraits.4.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #Continue
+		name = VIETtraits.4.a
+		add_trait = herbalist
+		clr_character_flag = VIET_HL_switch
+		clr_character_flag = VIET_lifestyle_LH
+	}
+}
+
+#Become loremaster
+character_event = {
+	id = VIETtraits.5
+	desc = VIETtraits.5.desc
+	picture = GFX_evt_whispers
+
+	is_triggered_only = yes
+
+	option = { #Continue
+		name = VIETtraits.5.a
+		add_trait = loremaster
+		clr_character_flag = VIET_HL_switch
+		clr_character_flag = VIET_lifestyle_LH
+	}
+}

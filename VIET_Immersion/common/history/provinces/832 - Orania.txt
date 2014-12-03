@@ -22,7 +22,7 @@ religion = ibadi
 # History
 
 909.1.1 = { religion = sunni }
-1066.1.1 = { trade_post = b_sabaricid }
+1066.1.1 = { trade_post = b_sabaricid } #Oran republic
 
 
 

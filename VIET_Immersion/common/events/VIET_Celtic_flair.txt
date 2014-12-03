@@ -1,0 +1,5256 @@
+###############################################
+#
+# CELTIC EVENTS FOR CELTIC FEATURES
+#
+# Reservations: 
+# VIETCeltic 0-999 Cybrxkhan Stuff
+#
+# VIETceltic.0-.99 General and miscellaneous events and decisions
+# VIETceltic.100-499 Decisions
+#	100-149 Tro Breizh
+#	150-199 Gwyl Madant
+#	200-249 'Obby 'Oss
+# VIETceltic.500-599 Knights of le Round Table	
+#
+###############################################
+
+
+
+namespace = VIETceltic
+
+# Rebirth of Old Britain
+narrative_event = {
+	id = VIETceltic.0
+	desc = VIETceltic.0.desc
+	picture = GFX_evt_coming_home
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.0.a
+		add_trait = like_king_arthur
+		set_character_flag = VIET_the_second_arthur
+		prestige = 300
+		piety = 200
+		primary_title = {
+			 k_britain = {
+				grant_title = ROOT
+				copy_title_laws = PREV
+			}
+		}
+		give_nickname = nick_the_great
+		if = {
+			limit = {
+				NOT = { has_landed_title = k_britain }
+			}
+			k_britain = {
+				grant_title = ROOT
+			}
+		}
+		k_wales = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_britain
+			}
+		}
+		k_brittany = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_britain
+			}
+		}
+		k_dumnonia = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_britain
+			}
+		}
+		k_england = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_britain
+			}
+		}
+		k_britain = {
+			de_jure_liege = e_britannia
+		}		
+		if = {
+			limit = {
+				tier = king
+				primary_title = {
+					NOT = { title = k_britain }
+				}
+			}
+			k_britain = { make_primary_title = yes }
+		}
+		if = {
+			limit = {
+				has_landed_title = k_wales
+			}
+			k_wales = { destroy_landed_title = THIS }
+		}
+		if = {
+			limit = {
+				has_landed_title = k_brittany
+			}
+			k_brittany = { destroy_landed_title = THIS }
+		}
+		if = {
+			limit = {
+				has_landed_title = k_dumnonia
+			}
+			k_dumnonia = { destroy_landed_title = THIS }
+		}
+		if = { 
+			limit = { 
+				has_landed_title = k_england 
+			} 
+			k_england = { destroy_landed_title = THIS } 
+		}		
+		hidden_tooltip = {
+			character_event = { id = VIETceltic.1 }
+		}
+	}
+
+}
+
+
+
+# ALL HEIIRRR BRITANNIA
+narrative_event = {
+	id = VIETceltic.1
+	title = VIETceltic.1.title
+	desc = VIETceltic.1.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.1.a
+	}
+}
+
+
+
+
+# Visiting Holy Well
+character_event = {
+	id = VIETceltic.2
+	desc = VIETceltic.2.desc
+	picture = GFX_evt_skyrim_forest_celtic
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.2.a
+		piety = 20
+		random_list = {
+			60 = { }
+			10 = {
+				add_character_modifier =  {
+					name = VIET_holy_wells_blessing_1
+					duration = 1460
+				}
+			}
+			10 = {
+				add_character_modifier =  {
+					name = VIET_holy_wells_blessing_2
+					duration = 1460
+				}
+			}
+			10 = {
+				add_character_modifier =  {
+					name = VIET_holy_wells_blessing_3
+					duration = 1460
+				}
+			}
+			10 = {
+				add_character_modifier =  {
+					name = VIET_holy_wells_blessing_4
+					duration = 1460
+				}
+			}
+		}
+	}
+}
+
+# Knights of Le Round Table
+narrative_event = {
+	id = VIETceltic.3
+	title = VIETceltic.3.title
+	desc = VIETceltic.3.desc
+	picture = GFX_evt_joust
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.3.a
+		custom_tooltip = { text = OPERATION_ORANGE_KUN_COMMENCE }
+	}
+}
+
+
+
+
+# I am now knight of the round table
+character_event = {
+	id = VIETceltic.4
+	desc = VIETceltic.4.desc
+	picture = GFX_evt_joust
+
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.4.a
+		add_trait = knight_of_the_round_table
+	}
+	option = {
+		name = VIETceltic.4.b
+		add_trait = knight_of_the_round_table
+	}
+}
+
+
+
+# I am not knight of the round table
+character_event = {
+	id = VIETceltic.5
+	desc = VIETceltic.5.desc
+	picture = GFX_evt_coming_home
+
+	min_age = 16
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			NOT = { has_minor_title = title_knight_of_the_round_table }
+			has_landed_title = k_britain
+			AND = {
+				NOT = { liege = { has_landed_title = k_britain } }
+				NOT = { top_liege = { has_landed_title = k_britain } }
+			}
+			trait = incapable
+		}
+		trait = knight_of_the_round_table
+	}
+
+	option = {
+		name = VIETceltic.5.a
+		remove_trait = knight_of_the_round_table
+		remove_title = title_knight_of_the_round_table
+	}
+}
+
+
+
+# Dumnonia Restored
+character_event = {
+	id = VIETceltic.6
+	desc = VIETceltic.6.desc
+	picture = GFX_evt_coming_home
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.0.a
+		prestige = 200
+		primary_title = {
+			 k_dumnonia = {
+				grant_title = ROOT
+				copy_title_laws = PREV
+			}
+		}
+		give_nickname = nick_the_great
+		if = {
+			limit = {
+				NOT = { has_landed_title = k_dumnonia }
+			}
+			k_dumnonia = {
+				grant_title = ROOT
+			}
+		}
+		d_cornwall = {
+			de_jure_liege = k_dumnonia
+		}
+		k_dumnonia = {
+			de_jure_liege = e_britannia
+		}
+		hidden_tooltip = {
+			character_event = { id = VIETceltic.7 }
+		}
+	}
+
+}
+
+
+
+# ALL HEIIRRR BRITANNIA
+narrative_event = {
+	id = VIETceltic.7
+	title = VIETceltic.7.title
+	desc = VIETceltic.7.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.7.a
+	}
+}
+
+
+
+
+# Cornish statuary charter add
+province_event = {
+	id = VIETceltic.8
+	title = VIETceltic.8.title
+	desc = VIETceltic.8.desc
+	picture = GFX_evt_medieval_mine
+
+	trigger = {
+		has_province_flag = cornish_tin_mines
+		has_global_flag = cornish_statuary_charters_on
+		NOT = { has_province_modifier = VIET_cornish_mines }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = VIETceltic.8.a
+		add_province_modifier = {
+			name = VIET_cornish_mines
+			duration = -1
+		}
+	}
+}
+
+
+
+
+# Cornish statuary charter remove
+province_event = {
+	id = VIETceltic.9
+	title = VIETceltic.9.title
+	desc = VIETceltic.9.desc
+	picture = GFX_evt_medieval_mine
+
+	trigger = {
+		has_province_flag = cornish_tin_mines
+		has_global_flag = cornish_statuary_charters_off
+		has_province_modifier = VIET_cornish_mines
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	
+	option = {
+		name = VIETceltic.9.a
+		remove_province_modifier = VIET_cornish_mines
+		add_province_modifier =  {
+			name = VIET_angry_cornish_miners
+			duration = 3650
+		}
+	}
+}
+
+
+# Another King Arthur
+character_event = {
+	id = VIETceltic.10
+	title = VIETceltic.10.title
+	desc = VIETceltic.10.desc
+	picture = GFX_evt_holy_emperor
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_landed_title = k_britain
+		independent = yes
+		OR = {
+			culture = welsh
+			culture = breton
+			culture = cornish
+			culture = cumbric
+			culture = norsebriton
+		}
+		realm_size = 35
+		OR = {
+			trait = brave
+			trait = just
+			trait = diligent
+			trait = ambitious
+		}
+		OR = {
+			trait = kind
+			trait = zealous
+			trait = charitable
+			trait = patient
+			trait = humble
+		}
+		NOT = { trait = craven }
+		NOT = { trait = cruel }
+		NOT = { trait = gluttonous }
+		NOT = { trait = slothful }
+		NOT = { trait = greedy }
+		NOT = { trait = like_king_arthur }
+		prestige = 2000
+		piety = 1000
+	}
+
+	mean_time_to_happen = {
+		months = 1453
+	}	
+	
+	option = {
+		name = VIETceltic.10.a
+		trigger = {
+			is_female = no
+		}
+		add_trait = like_king_arthur
+	}	
+	option = {
+		name = VIETceltic.10.b
+		trigger = {
+			is_female = yes
+		}
+		add_trait = like_king_arthur
+	}
+}
+
+
+# cumbric Govan Stones (setup)
+narrative_event = {
+	id = VIETceltic.11
+	title = VIETceltic.11.title
+	desc = VIETceltic.11.desc
+	picture = GFX_evt_death
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			culture = cumbric
+			culture = norsebriton
+		}
+		higher_tier_than = COUNT
+		father = {
+			is_alive = no
+		}
+		NOT = { has_character_flag = VIET_govan_stones_triggered }
+	}
+	
+	immediate = {
+		set_character_flag = VIET_govan_stones_triggered
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+	
+	option = {
+		name = VIETceltic.11.a
+		set_character_flag = VIET_govan_stones_timer
+		custom_tooltip = { text = hogback_stones_instructions }
+	}	
+}
+
+# cumbric Govan Stones Nay
+narrative_event = {
+	id = VIETceltic.12
+	title = VIETceltic.12.title
+	desc = VIETceltic.12.desc
+	picture = GFX_evt_death
+
+	trigger = {
+		OR = {
+			culture = cumbric
+			culture = norsebriton
+		}
+		higher_tier_than = COUNT
+		had_character_flag = {
+		  flag = VIET_govan_stones_timer
+		  days = 365
+		}
+	}
+
+	immediate = {
+		clr_character_flag = VIET_govan_stones_timer
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+			
+	option = { #No honoring
+		name = VIETceltic.12.a
+		prestige = -100
+		add_character_modifier = {
+			name = cumbric_dishonored_relative
+			duration = 3650
+		}
+	}	
+}
+
+#Celtic Wells - VIETceltic.13-23 reserved
+province_event = {
+	id = VIETceltic.13
+	desc = VIETceltic.13.desc
+	picture = GFX_evt_knight_kneeling
+
+
+	trigger = {
+		NOT = { has_global_flag = VIET_celtic_holy_well_1 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_1 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_2 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_3 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_4 }
+		OR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture_group = north_germanic
+			culture_group = gallic
+			culture = norman
+			culture = celtiberian
+		}
+		empire = { title = e_britannia }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 2
+			owner = {
+				NOT = {
+					OR = {
+						culture_group = celtic
+						culture_group = west_germanic
+						culture_group = north_germanic
+						culture_group = gallic
+						culture = norman
+						culture = celtiberian
+					}
+				}
+			}
+		}		
+		modifier = {
+			factor = 2
+			owner = { NOT = { culture_group = celtic } }
+		}
+		modifier = {
+			factor = 2
+			owner = { 
+				any_realm_province = { 
+					OR = { 
+						has_province_modifier = VIET_celtic_holy_well_1
+						has_province_modifier = VIET_celtic_holy_well_2
+						has_province_modifier = VIET_celtic_holy_well_3
+						has_province_modifier = VIET_celtic_holy_well_4
+					}
+				} 
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 30 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 15 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 10 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.13.a
+		set_global_flag = VIET_celtic_holy_well_1
+		add_province_modifier =  {
+			name = VIET_celtic_holy_well_1
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = VIETceltic.14
+	desc = VIETceltic.14.desc
+	picture = GFX_evt_skyrim_forest_celtic
+
+
+	trigger = {
+		has_global_flag = VIET_celtic_holy_well_1
+		has_province_modifier = VIET_celtic_holy_well_1
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+
+		modifier = {
+			factor = 0.9
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 10 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 30 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 40 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.14.a
+		remove_province_modifier = VIET_celtic_holy_well_1
+		clr_global_flag = VIET_celtic_holy_well_1
+	}
+}
+province_event = {
+	id = VIETceltic.15
+	desc = VIETceltic.13.desc
+	picture = GFX_evt_knight_kneeling
+
+
+	trigger = {
+		NOT = { has_global_flag = VIET_celtic_holy_well_2 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_1 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_2 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_3 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_4 }
+		OR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture_group = north_germanic
+			culture_group = gallic
+			culture = norman
+			culture = celtiberian
+		}
+		empire = { title = e_britannia }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 2
+			owner = {
+				NOT = {
+					OR = {
+						culture_group = celtic
+						culture_group = west_germanic
+						culture_group = north_germanic
+						culture_group = gallic
+						culture = norman
+						culture = celtiberian
+					}
+				}
+			}
+		}		
+		modifier = {
+			factor = 2
+			owner = { NOT = { culture_group = celtic } }
+		}
+		modifier = {
+			factor = 2
+			owner = { 
+				any_realm_province = { 
+					OR = { 
+						has_province_modifier = VIET_celtic_holy_well_1
+						has_province_modifier = VIET_celtic_holy_well_2
+						has_province_modifier = VIET_celtic_holy_well_3
+						has_province_modifier = VIET_celtic_holy_well_4
+					}
+				} 
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 30 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 15 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 10 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.13.a
+		set_global_flag = VIET_celtic_holy_well_2
+		add_province_modifier =  {
+			name = VIET_celtic_holy_well_2
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = VIETceltic.16
+	desc = VIETceltic.14.desc
+	picture = GFX_evt_skyrim_forest_celtic
+
+
+	trigger = {
+		has_global_flag = VIET_celtic_holy_well_2
+		has_province_modifier = VIET_celtic_holy_well_2
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+
+		modifier = {
+			factor = 0.9
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 10 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 30 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 40 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.14.a
+		remove_province_modifier = VIET_celtic_holy_well_2
+		clr_global_flag = VIET_celtic_holy_well_2
+	}
+}
+province_event = {
+	id = VIETceltic.17
+	desc = VIETceltic.13.desc
+	picture = GFX_evt_knight_kneeling
+
+
+	trigger = {
+		NOT = { has_global_flag = VIET_celtic_holy_well_3 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_1 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_2 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_3 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_4 }
+		OR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture_group = north_germanic
+			culture_group = gallic
+			culture = norman
+			culture = celtiberian
+		}
+		empire = { title = e_britannia }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 2
+			owner = {
+				NOT = {
+					OR = {
+						culture_group = celtic
+						culture_group = west_germanic
+						culture_group = north_germanic
+						culture_group = gallic
+						culture = norman
+						culture = celtiberian
+					}
+				}
+			}
+		}		
+		modifier = {
+			factor = 2
+			owner = { NOT = { culture_group = celtic } }
+		}
+		modifier = {
+			factor = 2
+			owner = { 
+				any_realm_province = { 
+					OR = { 
+						has_province_modifier = VIET_celtic_holy_well_1
+						has_province_modifier = VIET_celtic_holy_well_2
+						has_province_modifier = VIET_celtic_holy_well_3
+						has_province_modifier = VIET_celtic_holy_well_4
+					}
+				} 
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 30 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 15 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 10 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.13.a
+		set_global_flag = VIET_celtic_holy_well_3
+		add_province_modifier =  {
+			name = VIET_celtic_holy_well_3
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = VIETceltic.18
+	desc = VIETceltic.14.desc
+	picture = GFX_evt_skyrim_forest_celtic
+
+
+	trigger = {
+		has_global_flag = VIET_celtic_holy_well_3
+		has_province_modifier = VIET_celtic_holy_well_3
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+
+		modifier = {
+			factor = 0.9
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 10 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 30 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 40 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.14.a
+		remove_province_modifier = VIET_celtic_holy_well_3
+		clr_global_flag = VIET_celtic_holy_well_3
+	}
+}
+province_event = {
+	id = VIETceltic.19
+	desc = VIETceltic.13.desc
+	picture = GFX_evt_knight_kneeling
+
+
+	trigger = {
+		NOT = { has_global_flag = VIET_celtic_holy_well_4 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_1 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_2 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_3 }
+		NOT = { has_province_modifier = VIET_celtic_holy_well_4 }
+		OR = {
+			culture_group = celtic
+			culture_group = west_germanic
+			culture_group = north_germanic
+			culture_group = gallic
+			culture = norman
+			culture = celtiberian
+		}
+		empire = { title = e_britannia }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 2
+			owner = {
+				NOT = {
+					OR = {
+						culture_group = celtic
+						culture_group = west_germanic
+						culture_group = north_germanic
+						culture_group = gallic
+						culture = norman
+						culture = celtiberian
+					}
+				}
+			}
+		}		
+		modifier = {
+			factor = 2
+			owner = { NOT = { culture_group = celtic } }
+		}
+		modifier = {
+			factor = 2
+			owner = { 
+				any_realm_province = { 
+					OR = { 
+						has_province_modifier = VIET_celtic_holy_well_1
+						has_province_modifier = VIET_celtic_holy_well_2
+						has_province_modifier = VIET_celtic_holy_well_3
+						has_province_modifier = VIET_celtic_holy_well_4
+					}
+				} 
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 30 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 15 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 10 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.13.a
+		set_global_flag = VIET_celtic_holy_well_4
+		add_province_modifier =  {
+			name = VIET_celtic_holy_well_4
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = VIETceltic.22
+	desc = VIETceltic.14.desc
+	picture = GFX_evt_skyrim_forest_celtic
+
+
+	trigger = {
+		has_global_flag = VIET_celtic_holy_well_4
+		has_province_modifier = VIET_celtic_holy_well_4
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+
+		modifier = {
+			factor = 0.9
+			owner = { trait = ambitious }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = content }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = diligent }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = slothful }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { trait = cynical }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { trait = zealous }
+		}
+		modifier = {
+			factor = 0.66
+			owner = { realm_learning = 10 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { realm_learning = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { owner = { realm_learning = 30 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { realm_learning = 40 } }
+		}
+	}
+
+	option = {
+		name = VIETceltic.14.a
+		remove_province_modifier = VIET_celtic_holy_well_4
+		clr_global_flag = VIET_celtic_holy_well_4
+	}
+}
+
+
+
+
+# cumbric Govan Stones Yay
+narrative_event = {
+	id = VIETceltic.20
+	title = VIETceltic.20.title
+	desc = VIETceltic.20.desc
+	picture = GFX_evt_death
+	
+	is_triggered_only = yes
+
+	immediate = {
+		clr_character_flag = VIET_govan_stones_timer
+	}
+	
+	option = { #Great honoring
+		name = VIETceltic.20.a
+		scaled_wealth = -0.8
+		set_character_flag = VIET_honored_father_3
+		character_event = { id = VIETceltic.21 days = 14 tooltip = VIETceltic.21.tooltip }
+	}		
+	option = { #Modest honoring
+		name = VIETceltic.20.b
+		scaled_wealth = -0.4
+		set_character_flag = VIET_honored_father_2
+		character_event = { id = VIETceltic.21 days = 14 tooltip = VIETceltic.21.tooltip }
+	}		
+	option = { #Meager honoring
+		name = VIETceltic.20.c
+		scaled_wealth = -0.2
+		set_character_flag = VIET_honored_father_1
+		character_event = { id = VIETceltic.21 days = 14 tooltip = VIETceltic.21.tooltip }
+	}
+}
+
+# cumbric Govan Stones Yay 2
+narrative_event = {
+	id = VIETceltic.21
+	title = VIETceltic.21.title
+	desc = VIETceltic.21.desc
+	picture = GFX_evt_death
+	
+	is_triggered_only = yes
+	
+	option = { #Le Memories
+		name = VIETceltic.21.a
+		if = {
+			limit = {
+				has_character_flag = VIET_honored_father_3
+			}
+			prestige = 100
+			add_character_modifier = {
+				name = cumbric_honored_relative
+				duration = 3650
+			}			
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_honored_father_2
+			}
+			prestige = 50
+			add_character_modifier = {
+				name = cumbric_honored_relative
+				duration = 1460
+			}			
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_honored_father_1
+			}
+			prestige = 25
+			add_character_modifier = {
+				name = cumbric_honored_relative
+				duration = 730
+			}			
+		}
+	}		
+}
+
+# Celtiberian courtier spawn
+character_event = {
+	id = VIETceltic.23
+	desc = VIETceltic.23.desc
+	picture = GFX_evt_castle_construction_iberian
+	
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	
+	trigger = {
+		NOT = { year = 925 }
+		culture_group = iberian
+		NOT = { culture = celtiberian }
+		NOT = {
+			any_courtier = {
+				culture = celtiberian
+				has_character_flag = VIET_spawned_courtier
+			}
+		}
+		capital_scope = {
+			culture_group = iberian
+			NOT = { culture = celtiberian }
+			OR = {
+				kingdom = { title = k_castille }
+				kingdom = { title = k_navarra }
+				kingdom = { title = k_asturias }
+				kingdom = { title = k_spanish_galicia }
+				kingdom = { title = k_portugal }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+
+		modifier = {
+			factor = 4
+			NOT = { religion_group = christian }
+		}
+		
+		modifier = {
+			factor = 2
+			NOT = { has_global_flag = SWMH } #there are Celtiberian provinces in the non-SWMH version at the 769 start
+		}
+		
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		
+		modifier = {
+			factor = 1.5
+			trait = arbitrary
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}		
+		
+		modifier = {
+			factor = 0.9
+			martial = 14
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = ambitious
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = charitable
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = trusting
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = brave
+		}
+		
+	}
+	
+	option = {
+		name = "VIETceltic.23.a"
+
+		create_random_soldier = {
+			random_traits = yes
+			culture = celtiberian
+			dynasty = culture
+			religion = catholic
+			female = no
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_patron
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}				
+		}
+		random_list = {
+			30 = {
+				create_random_soldier = {
+					random_traits = yes
+					culture = celtiberian
+					dynasty = culture
+					religion = catholic
+					female = no
+					attributes = {
+						martial = 12
+					}
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}			
+			}
+			70 = { }
+		}
+		random_list = {
+			50 = {
+				create_character  = {
+					random_traits = yes
+					culture = celtiberian
+					dynasty = culture
+					religion = catholic
+					female = yes
+				}
+				new_character = {
+					opinion = {
+						modifier = opinion_patron
+						who = ROOT
+						years = 20
+					}
+					reverse_opinion = {
+						modifier = opinion_new_courtier
+						who = ROOT
+						years = 5
+					}				
+				}			
+			}
+			50 = { }
+		}
+	}
+	
+	option = {
+		name = "reject.VIET.courtiers"
+	}	
+	
+}
+
+###############################################
+# Tro Breizh
+###############################################
+
+
+# Begin
+character_event = {
+	id = VIETceltic.100
+	desc = VIETceltic.100.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.100.a
+		set_character_flag = do_not_disturb
+		character_event = { id = VIETceltic.101 days = 7 tooltip = VIETceltic.101.tooltip }
+	}
+}
+
+character_event = {
+	id = VIETceltic.101
+	desc = VIETceltic.101.desc
+	picture = GFX_evt_pilgrims_epic_journey
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.101.a
+		add_trait = on_pilgrimage
+		character_event = { id = VIETceltic.102 days = 3 tooltip = VIETceltic.102.tooltip }
+	}
+}
+
+#Qumper
+narrative_event = {
+	id = VIETceltic.102
+	title = VIETceltic.102.title
+	desc = VIETceltic.102.desc
+	picture = GFX_evt_cathedral
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.102.a
+		random = {
+			chance = 50
+			piety = 5
+		}		
+		character_event = { id = VIETceltic.103 days = 3 tooltip = VIETceltic.103.tooltip.3 }
+	}
+}
+
+
+#papoo
+narrative_event = {
+	id = VIETceltic.103
+	title = VIETceltic.103.title
+	desc = VIETceltic.103.desc
+	picture = GFX_evt_monastery_monks
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.103.a
+		random = {
+			chance = 50
+			piety = 5
+		}
+		character_event = { id = VIETceltic.104 days = 3 tooltip = VIETceltic.104.tooltip }
+	}
+}
+
+
+#tregier
+narrative_event = {
+	id = VIETceltic.104
+	title = VIETceltic.104.title
+	desc = VIETceltic.104.desc
+	picture = GFX_evt_busy_trading_dock_republic
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.104.a
+		random = {
+			chance = 50
+			piety = 5
+		}	
+		character_event = { id = VIETceltic.105 days = 3 tooltip = VIETceltic.105.tooltip }
+	}
+}
+
+
+#saint Brioc
+narrative_event = {
+	id = VIETceltic.105
+	title = VIETceltic.105.title
+	desc = VIETceltic.105.desc
+	picture = GFX_evt_ocean_blue
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.105.a
+		random = {
+			chance = 50
+			piety = 5
+		}	
+		character_event = { id = VIETceltic.106 days = 3 tooltip = VIETceltic.106.tooltip }
+	}
+}
+
+#saint Malo
+narrative_event = {
+	id = VIETceltic.106
+	title = VIETceltic.106.title
+	desc = VIETceltic.106.desc
+	picture = GFX_evt_trade_post_republic
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.106.a
+		random = {
+			chance = 50
+			piety = 5
+		}	
+		character_event = { id = VIETceltic.107 days = 3 tooltip = VIETceltic.107.tooltip }
+	}
+}
+
+
+
+#dol
+narrative_event = {
+	id = VIETceltic.107
+	title = VIETceltic.107.title
+	desc = VIETceltic.107.desc
+	picture = GFX_evt_tuscan_country
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.107.a
+		random = {
+			chance = 50
+			piety = 5
+		}	
+		character_event = { id = VIETceltic.108 days = 3 tooltip = VIETceltic.108.tooltip }
+	}
+}
+
+
+
+#vannes
+narrative_event = {
+	id = VIETceltic.108
+	title = VIETceltic.108.title
+	desc = VIETceltic.108.desc
+	picture = GFX_evt_small_town
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.108.a
+		random = {
+			chance = 50
+			piety = 5
+		}	
+		character_event = { id = VIETceltic.109 days = 5 tooltip = VIETceltic.109.tooltip }
+	}
+}
+
+
+#home
+narrative_event = {
+	id = VIETceltic.109
+	title = VIETceltic.109.title
+	desc = VIETceltic.109.desc
+	picture = GFX_evt_coming_home
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.109.a
+		piety = 30
+		prestige = 20
+		add_trait = pilgrim
+		remove_trait = on_pilgrimage
+		clr_character_flag = do_not_disturb
+	}
+}
+
+
+###############################################
+# Gwyl Madant
+###############################################
+
+
+
+# Begin
+character_event = {
+	id = VIETceltic.150
+	desc = VIETceltic.150.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.150.a
+		set_character_flag = do_not_disturb
+		character_event = { id = VIETceltic.151 days = 6 random = 4 tooltip = VIETceltic.151.tooltip }
+	}
+}
+
+# Boring Church
+character_event = {
+	id = VIETceltic.151
+	desc = VIETceltic.151.desc
+	picture = GFX_evt_stone_church
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.151.a
+		hidden_tooltip = {
+			random_list = {
+				17 = { set_character_flag = VIET_gm_cocks }
+				17 = { set_character_flag = VIET_gm_drink }
+				17 = { set_character_flag = VIET_gm_feast }
+				17 = { set_character_flag = VIET_gm_races }
+				16 = { set_character_flag = VIET_gm_grins }
+				16 = { set_character_flag = VIET_gm_bando }
+			}
+		}
+		character_event = { id = VIETceltic.152 days = 2 random = 2 tooltip = VIETceltic.152.tooltip }
+	}
+}
+
+# The Fun Begins
+character_event = {
+	id = VIETceltic.152
+	desc = VIETceltic.152.desc
+	picture = GFX_evt_jugglers
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.152.a
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_cocks
+			}
+			clr_character_flag = VIET_gm_cocks
+			character_event = { id = VIETceltic.153 days = 2 random = 2 tooltip = VIETceltic.153.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.154 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.155 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.156 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.157 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.158 days = 2 random = 3 } }
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_bando
+			}
+			clr_character_flag = VIET_gm_bando
+			character_event = { id = VIETceltic.154 days = 2 random = 2 tooltip = VIETceltic.154.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.153 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.155 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.156 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.157 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.158 days = 2 random = 3 } }
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_drink
+			}
+			clr_character_flag = VIET_gm_drink
+			character_event = { id = VIETceltic.155 days = 2 random = 2 tooltip = VIETceltic.155.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.153 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.154 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.156 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.157 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.158 days = 2 random = 3 } }
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_grins
+			}
+			clr_character_flag = VIET_gm_grins
+			character_event = { id = VIETceltic.156 days = 2 random = 2 tooltip = VIETceltic.156.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.153 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.154 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.155 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.157 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.158 days = 2 random = 3 } }
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_races
+			}
+			clr_character_flag = VIET_gm_races
+			character_event = { id = VIETceltic.157 days = 2 random = 2 tooltip = VIETceltic.157.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.153 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.154 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.155 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.156 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.158 days = 2 random = 3 } }
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_gm_feast
+			}
+			clr_character_flag = VIET_gm_feast
+			character_event = { id = VIETceltic.158 days = 2 random = 2 tooltip = VIETceltic.158.tooltip }
+			hidden_tooltip = {
+				random_list = {
+					20 = { }
+					16 = { character_event = { id = VIETceltic.153 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.154 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.155 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.156 days = 2 random = 3 } }
+					16 = { character_event = { id = VIETceltic.157 days = 2 random = 3 } }
+				}
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = VIETceltic.159 days = 10 tooltip = VIETceltic.159.tooltip }
+		}
+	}
+}
+
+# Cocks
+character_event = {
+	id = VIETceltic.153
+	desc = VIETceltic.153.desc
+	picture = GFX_evt_jugglers
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.153.a
+		prestige = 2
+	}
+	option = {
+		name = VIETceltic.153.b
+		piety = 2
+	}
+}
+
+# Bando
+character_event = {
+	id = VIETceltic.154
+	desc = VIETceltic.154.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.154.a
+		prestige = 4
+	}
+}
+
+# Drinking
+character_event = {
+	id = VIETceltic.155
+	desc = VIETceltic.155.desc
+	picture = GFX_evt_drunk
+
+ 	is_triggered_only = yes
+
+	option = { #PRAY
+		name = VIETceltic.155.a
+		tooltip_info = zealous
+		trigger = {
+			trait = zealous
+		}		
+		piety = 5
+		prestige = -5
+		add_character_modifier = {
+			name = the_prude
+			duration = 365
+		}
+		custom_tooltip = { text = wtf_am_i_at_gwyl }
+	}
+	option = { #Drink
+		name = VIETceltic.155.b
+		prestige = 2
+		random = {
+			chance = 5
+			add_trait = drunkard
+		}
+	}
+	option = { #Song
+		name = VIETceltic.155.c
+		add_character_modifier = {
+			name = VIET_enjoying_self
+			duration = 365
+		}
+	}
+	option = { #Dance
+		name = VIETceltic.155.d
+		add_character_modifier = {
+			name = VIET_enjoying_self
+			duration = 365
+		}
+	}
+	option = { #Meh
+		name = VIETceltic.155.e
+		random_list = {
+			10 = { add_trait = content }
+			5 = { add_trait = shy }
+			85 = {}
+		}
+	}
+}
+
+# Grinning
+character_event = {
+	id = VIETceltic.156
+	desc = VIETceltic.156.desc
+	picture = GFX_evt_jugglers 
+
+ 	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETceltic.156.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}		
+	}
+}
+
+
+# Racing
+character_event = {
+	id = VIETceltic.157
+	desc = VIETceltic.157.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETceltic.157.a
+		prestige = 2
+	}
+	option = { #ok
+		name = VIETceltic.157.b
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+	}
+}
+
+
+# Food
+character_event = {
+	id = VIETceltic.158
+	desc = VIETceltic.158.desc
+	picture = GFX_evt_jugglers
+
+ 	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETceltic.158.a
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 365
+		}
+	}
+}
+
+
+# Done
+character_event = {
+	id = VIETceltic.159
+	desc = VIETceltic.159.desc
+	picture = GFX_evt_garden
+
+ 	is_triggered_only = yes
+
+	option = { #ok
+		name = VIETceltic.159.a
+		clr_character_flag = do_not_disturb
+		add_character_modifier = {
+			name = attended_gwyl_madant
+			duration = 730
+		}
+	}
+}
+
+###############################################
+# 'Obby 'Oss
+###############################################
+
+
+# Begin
+character_event = {
+	id = VIETceltic.200
+	desc = VIETceltic.200.desc
+	picture = GFX_evt_feast
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.200.a
+		custom_tooltip = { text = cant_wait_for_obby_oss }
+	}
+}
+
+# Arrival at Padstow
+narrative_event = {
+	id = VIETceltic.201
+	title = VIETceltic.201.name
+	desc = VIETceltic.201.desc
+	picture = GFX_evt_jugglers
+
+	trigger = {
+		has_character_flag = going_to_obby_oss
+		month = 5
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		clr_character_flag = going_to_obby_oss
+	}
+
+	option = {
+		name = VIETceltic.201.a
+		prestige = 5
+		if = {
+			limit = {
+				is_female = no
+			}
+			hidden_tooltip = {
+				character_event = { id = VIETceltic.202 days = 1 }
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			hidden_tooltip = {
+				character_event = { id = VIETceltic.203 days = 1 }
+			}
+		}
+	}
+}
+
+# Will you be the Old 'Oss?
+narrative_event = {
+	id = VIETceltic.202
+	title = VIETceltic.202.name
+	desc = VIETceltic.202.desc
+	picture = GFX_evt_brothel
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.202.a
+		prestige = 5
+		character_event = { id = VIETceltic.206 days = 30 }
+		character_event = { id = VIETceltic.204 days = 1 }
+	}
+	option = {
+		name = VIETceltic.202.b
+		character_event = { id = VIETceltic.206 days = 30 }
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.228 days = 1 random = 28 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.229 days = 1 random = 28 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					is_married = yes
+					spouse = {
+						prisoner = no
+						is_alive = yes
+						is_abroad = no
+						at_location = ROOT
+						has_epidemic = no
+						is_ill = no
+					}
+				}
+				random_list = {
+					75 = { }
+					25 = { character_event = { id = VIETceltic.32 days = 1 random = 28} }
+				}
+			}
+		}
+	}
+}
+
+# Will you flee from the Old 'Oss?
+narrative_event = {
+	id = VIETceltic.203
+	title = VIETceltic.203.name
+	desc = VIETceltic.203.desc
+	picture = GFX_evt_courtiers_talking
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.203.a
+		prestige = 5
+		character_event = { id = VIETceltic.206 days = 30 }
+		character_event = { id = VIETceltic.205 days = 1 }
+	}
+
+	option = {
+		name = VIETceltic.203.b
+		character_event = { id = VIETceltic.206 days = 30 }
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.228 days = 1 random = 28 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.229 days = 1 random = 28 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					is_married = yes
+					spouse = {
+						prisoner = no
+						is_alive = yes
+						is_abroad = no
+						at_location = ROOT
+						has_epidemic = no
+						is_ill = no
+					}
+				}
+				random_list = {
+					75 = { }
+					25 = { character_event = { id = VIETceltic.32 days = 1 random = 28 } }
+				}
+			}
+		}
+	}
+}
+
+# You are the Old 'Oss
+narrative_event = {
+	id = VIETceltic.204
+	title = VIETceltic.204.name
+	desc = VIETceltic.204.desc
+	picture = GFX_evt_obby_oss
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.204.a
+		hidden_tooltip = {
+			random_list = {
+				70 = { }
+				30 = { character_event = { id = VIETceltic.207 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					any_courtier = {
+						is_female = yes
+						NOT = { is_close_relative = ROOT }
+						NOT = {
+							trait = celibate
+						}
+						is_adult = yes
+						NOT = {
+							age = 35
+						}
+						has_epidemic = no
+						is_ill = no
+					}
+				}
+				random_list = {
+					70 = { }
+					30 = { character_event = { id = VIETceltic.208 days = 1 random = 27 } }
+				}
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					any_courtier = {
+						is_female = yes
+						has_lover = no
+						NOT = { is_close_relative = ROOT }
+						NOT = {
+							trait = celibate
+						}
+						is_adult = yes
+						NOT = {
+							age = 35
+						}
+						has_epidemic = no
+						is_ill = no
+						opinion = { who = ROOT value = 70 }
+					}
+				}
+				random_list = {
+					70 = { }
+					30 = { character_event = { id = VIETceltic.209 days = 1 random = 27 } }
+				}
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				70 = { }
+				30 = { character_event = { id = VIETceltic.210 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				70 = { }
+				30 = { character_event = { id = VIETceltic.211 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				70 = { }
+				30 = { character_event = { id = VIETceltic.211a days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					trait = lunatic
+				}
+				random_list = {
+					70 = { }
+					30 = { character_event = { id = VIETceltic.214 days = 1 random = 27 } }
+				}
+			}
+		}
+	}
+}
+
+# You flee from the Old Oss
+narrative_event = {
+	id = VIETceltic.205
+	title = VIETceltic.205.name
+	desc = VIETceltic.205.desc
+	picture = GFX_evt_obby_oss
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.205.a
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.215 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.216 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.217 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					any_courtier = {
+						is_female = yes
+						NOT = { trait = lustful }
+						NOT = { trait = hedonist }
+						NOT = { trait = gregarious }
+						is_adult = yes
+						NOT = {
+							age = 35
+						}
+						has_epidemic = no
+						is_ill = no
+					}
+				}
+				random_list = {
+					75 = { }
+					25 = { character_event = { id = VIETceltic.222 days = 1 random = 27 } }
+				}
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				75 = { }
+				25 = { character_event = { id = VIETceltic.223 days = 1 random = 27 } }
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					trait = lunatic
+				}
+				random_list = {
+					75 = { }
+					25 = { character_event = { id = VIETceltic.226 days = 1 random = 27 } }
+				}
+			}
+		}
+	}
+}
+
+# Obby Ossy Ending
+narrative_event = {
+	id = VIETceltic.206
+	title = VIETceltic.206.name
+	desc = VIETceltic.206.desc
+	picture = GFX_evt_village_at_night
+
+ 	is_triggered_only = yes
+ 	
+ 	option = {
+		name = VIETceltic.206.a
+		clr_character_flag = do_not_disturb
+	}
+}
+
+# You catch a young lass - peasant
+character_event = {
+	id = VIETceltic.207
+	desc = VIETceltic.207.desc
+	picture = GFX_evt_obby_oss
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.207.a
+		custom_tooltip = { text = bless_ya_girl }
+		piety = 10
+	}
+	option = {
+		name = VIETceltic.207.b
+		custom_tooltip = { text = steal_a_kiss }
+		prestige = 10
+	}
+	option = {
+		name = VIETceltic.207.c
+		custom_tooltip = { text = obby_ossy_bunga_bunga }
+		add_character_modifier = {
+			name = good_time_obby_oss
+			duration = 365
+		}
+	}
+}
+
+# You catch a young lass - courtier
+character_event = {
+	id = VIETceltic.208
+	desc = VIETceltic.208.desc
+	picture = GFX_evt_obby_oss
+
+ 	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.208.a
+		custom_tooltip = { text = bless_ya_girl }
+		piety = 10
+		random_courtier = {
+			limit = {
+				is_female = yes
+				NOT = { is_close_relative = ROOT }
+				NOT = {
+					trait = celibate
+				}
+				is_adult = yes
+				NOT = {
+					age = 35
+				}
+				has_epidemic = no
+				is_ill = no
+			}
+			opinion = {
+				modifier = opinion_bless_ya_girl
+				who =  ROOT
+				years = 1
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.208.b
+		custom_tooltip = { text = steal_a_kiss }
+		prestige = 10
+		if = {
+			limit = {
+				OR = {
+					trait = fair
+					trait = strong
+					trait = brave
+				}
+			}
+			random_courtier = {
+				limit = {
+					is_female = yes
+					NOT = { is_close_relative = ROOT }
+					NOT = {
+						trait = celibate
+					}
+					is_adult = yes
+					NOT = {
+						age = 35
+					}
+					has_epidemic = no
+					is_ill = no
+				}
+				opinion = {
+					modifier = opinion_steal_a_kiss_good
+					who =  ROOT
+					years = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { trait = fair }
+					NOT = { trait = strong }
+					NOT = { trait = brave }
+				}
+			}
+			random_courtier = {
+				limit = {
+					is_female = yes
+					NOT = { is_close_relative = ROOT }
+					NOT = {
+						trait = celibate
+					}
+					is_adult = yes
+					NOT = {
+						age = 35
+					}
+					has_epidemic = no
+					is_ill = no
+				}
+				opinion = {
+					modifier = opinion_steal_a_kiss_bad
+					who =  ROOT
+					years = 1
+				}
+			}
+		}
+	}
+}
+
+# You catch a young lass - possible lover
+character_event = {
+	id = VIETceltic.209
+	desc = VIETceltic.209.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.209.a
+		random_courtier = {
+			limit = {
+				is_female = yes
+				has_lover = no
+				NOT = { is_close_relative = ROOT }
+				NOT = {
+					trait = celibate
+				}
+				is_adult = yes
+				NOT = {
+					age = 35
+				}
+				has_epidemic = no
+				is_ill = no
+				opinion = { who = ROOT value = 70 }
+			}
+			add_lover = ROOT
+		}
+	}
+	option = {
+		name = VIETceltic.209.b
+	}
+}
+
+# You catch a scared child
+character_event = {
+	id = VIETceltic.210
+	desc = VIETceltic.210.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.210.a
+		piety = 5
+	}
+	option = {
+		name = VIETceltic.210.b
+		wealth = -2
+		prestige = 5
+	}
+}
+
+# You catch a dude
+character_event = {
+	id = VIETceltic.211
+	desc = VIETceltic.211.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.211.a
+		prestige = -10
+	}
+	option = {
+		name = VIETceltic.211.b
+		trigger = {
+			OR = {
+				diplomacy = 8
+				trait = gregarious
+				trait = hedonist
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.211.c
+		prestige = 5
+		random_courtier = {
+			limit = {
+				is_female = no
+				is_adult = yes
+				has_epidemic = no
+				is_ill = no
+			}
+			opinion = {
+				modifier = ordep_obby_oss_dude
+				who = ROOT
+				years = 5
+			}
+		}
+	}
+}
+
+# You dance a jig
+character_event = {
+	id = VIETceltic.2112
+	desc = VIETceltic.2112.desc
+	picture = GFX_evt_jugglers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.2112.a
+		trigger = {
+			NOT = { trait = depressed }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							trait = perceptive
+						}
+						AND = {
+							trait = agile
+							trait = hedonist
+						}
+						AND = {
+							trait = perceptive
+							trait = hedonist
+						}
+					}
+					AND = {
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				character_event = { id = VIETceltic.212 }
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							NOT = { trait = perceptive }
+						}
+						AND = {
+							trait = perceptive
+							NOT = { trait = agile }
+						}
+					}
+					AND = {
+						NOT = { trait = hedonist }
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				random_list = {
+					85 = { character_event = { id = VIETceltic.212 } }
+					15 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						OR = {
+							trait = agile
+							trait = perceptive
+							trait = hedonist
+						}
+						OR = {
+							trait = shy
+							trait = stressed
+							trait = absentminded
+						}
+					}
+				}
+				random_list = {
+					60 = { character_event = { id = VIETceltic.212 } }
+					40 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					50 = { character_event = { id = VIETceltic.212 } }
+					50 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					40 = { character_event = { id = VIETceltic.212 } }
+					60 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					35 = { character_event = { id = VIETceltic.212 } }
+					65 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					30 = { character_event = { id = VIETceltic.212 } }
+					70 = { character_event = { id = VIETceltic.213 } }
+				}
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.2112.b
+		prestige = -15
+	}
+}
+
+# You dance a good jig
+character_event = {
+	id = VIETceltic.212
+	desc = VIETceltic.212.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.212.a
+		prestige = 15
+	}
+}
+
+# You dance a bad jig
+character_event = {
+	id = VIETceltic.213
+	desc = VIETceltic.213.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.213.a
+		prestige = -15
+	}
+}
+
+# Old Oss tells you to party hardy
+character_event = {
+	id = VIETceltic.214
+	desc = VIETceltic.214.desc
+	picture = GFX_evt_nightmare
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = VIETceltic.214.a
+		hidden_tooltip = {
+			add_trait = lustful
+			add_trait = drunkard
+			add_trait = gregarious
+		}
+	}
+}
+
+# You are caught by the Old Oss
+character_event = {
+	id = VIETceltic.215
+	desc = VIETceltic.215.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.215.a
+		add_character_modifier = {
+			name = blessing_obby_ossy
+			duration = 365
+		}
+	}
+	option = {
+		name = VIETceltic.211.b
+		prestige = -5
+	}
+}
+
+# Old Oss gets too rowdy with you
+character_event = {
+	id = VIETceltic.216
+	desc = VIETceltic.216.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.216.a
+		trigger = {
+			trait = strong
+		}
+		prestige = 5
+		random = {
+			chance = 50
+			
+			add_trait = proud
+		}
+	}
+	option = {
+		name = VIETceltic.216.b
+		trigger = {
+			OR = {
+				trait = kind
+				trait = humble
+				diplomacy = 7
+			}
+		}
+		add_character_modifier = {
+			name = blessing_obby_ossy
+			duration = 365
+		}
+	}
+	option = {
+	name = VIETceltic.216.c
+		trigger = {
+			NOT = { trait = shy }
+		}
+		add_character_modifier = {
+			name = blessing_obby_ossy
+			duration = 365
+		}
+		random = {
+			chance = 50
+			
+			add_trait = lustful
+		}
+	}
+	option = {
+		name = VIETceltic.216.d
+		prestige = -10
+		random_demesne_province = {
+			limit = {
+				province_id = 29
+			}
+			add_province_modifier = {
+				name = peasants_upset
+			}
+		}
+	}
+}
+
+# Old Oss gets too rowdy with a girl
+character_event = {
+	id = VIETceltic.217
+	desc = VIETceltic.217.desc
+	picture = GFX_evt_jugglers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.217.a
+		random_list = {
+			60 = { }
+			15 = { add_trait = wroth }
+			25 = { add_trait = just }
+		}
+		random_list = {
+			70 = { character_event = { id = VIETceltic.218 } }
+			30 = { character_event = { id = VIETceltic.219 } }
+		}
+	}
+	option = {
+		name = VIETceltic.217.b
+		random_list = {
+			60 = { }
+			15 = { add_trait = patient }
+			25 = { add_trait = arbitrary }
+		}
+		random_list = {
+			70 = { character_event = { id = VIETceltic.220 } }
+			30 = { character_event = { id = VIETceltic.221 } }
+		}
+	}
+}
+
+# Intevention - heroine
+character_event = {
+	id = VIETceltic.218
+	desc = VIETceltic.218.desc
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.218.a
+		prestige = 15
+	}
+}
+
+# Intevention - spoied fun
+character_event = {
+	id = VIETceltic.219
+	desc = VIETceltic.219.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.219.a
+		prestige = -15
+		random = {
+			chance = 30
+			
+			random_demesne_province = {
+				limit = {
+					province_id = 29
+				}
+				add_province_modifier = {
+					name = peasants_upset
+				}
+			}
+		}
+	}
+}
+
+# No intervention - things go bad
+character_event = {
+	id = VIETceltic.220
+	desc = VIETceltic.220.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.220.a
+		prestige = -5
+		random = {
+			chance = 30
+			
+			random_demesne_province = {
+				limit = {
+					province_id = 29
+				}
+				add_province_modifier = {
+					name = peasants_upset
+				}
+			}
+		}
+	}
+}
+
+# No intervention - fun and games
+character_event = {
+	id = VIETceltic.221
+	desc = VIETceltic.221.desc
+	picture = GFX_evt_maiden
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.221.a
+		prestige = 5
+	}
+}
+
+# Old Oss gets too rowdy with a courtier
+character_event = {
+	id = VIETceltic.222
+	desc = VIETceltic.222.desc
+	picture = GFX_evt_jugglers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.222.a
+		random_courtier = {
+			limit = {
+				is_female = yes
+				NOT = { trait = lustful }
+				NOT = { trait = hedonist }
+				NOT = { trait = gregarious }
+				is_adult = yes
+				NOT = {
+					age = 35
+				}
+				has_epidemic = no
+				is_ill = no
+			}
+			opinion = {
+				modifier = saved_obby_ossy
+				who =  ROOT
+				years = 1
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.222.b
+		random = {
+			chance = 50
+			
+			add_trait = arbitrary
+		}
+	}
+}
+
+# You dance a jig
+character_event = {
+	id = VIETceltic.223
+	desc = VIETceltic.223.desc
+	picture = GFX_evt_obby_oss
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.223.a
+		trigger = {
+			NOT = { trait = depressed }
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							trait = perceptive
+						}
+						AND = {
+							trait = agile
+							trait = hedonist
+						}
+						AND = {
+							trait = perceptive
+							trait = hedonist
+						}
+					}
+					AND = {
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				character_event = { id = VIETceltic.224 }
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							NOT = { trait = perceptive }
+						}
+						AND = {
+							trait = perceptive
+							NOT = { trait = agile }
+						}
+					}
+					AND = {
+						NOT = { trait = hedonist }
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				random_list = {
+					85 = { character_event = { id = VIETceltic.224 } }
+					15 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						OR = {
+							trait = agile
+							trait = perceptive
+							trait = hedonist
+						}
+						OR = {
+							trait = shy
+							trait = stressed
+							trait = absentminded
+						}
+					}
+				}
+				random_list = {
+					60 = { character_event = { id = VIETceltic.224 } }
+					40 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					50 = { character_event = { id = VIETceltic.224 } }
+					50 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					40 = { character_event = { id = VIETceltic.224 } }
+					60 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					35 = { character_event = { id = VIETceltic.224 } }
+					65 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					30 = { character_event = { id = VIETceltic.224 } }
+					70 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.223.b
+		prestige = -15
+	}
+}
+
+# You dance a good jig
+character_event = {
+	id = VIETceltic.224
+	desc = VIETceltic.224.desc
+	picture = GFX_evt_jugglers
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.224.a
+		prestige = 15
+	}
+}
+
+# You dance a bad jig
+character_event = {
+	id = VIETceltic.225
+	desc = VIETceltic.225.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.225.a
+		prestige = -15
+	}
+}
+
+# The old oss is alive!!
+character_event = {
+	id = VIETceltic.226
+	desc = VIETceltic.226.desc
+	picture = GFX_evt_nightmare
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.226.a
+		character_event = { id = VIETceltic.227 }
+	}
+}
+
+# Well, that was embarrasing
+character_event = {
+	id = VIETceltic.227
+	desc = VIETceltic.227.desc
+	picture = GFX_evt_drunk
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.227.a
+		prestige = -15
+	}
+}
+
+# Courtier is a buzz-killer
+character_event = {
+	id = VIETceltic.228
+	desc = VIETceltic.228.desc
+	picture = GFX_evt_heretic
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.228.a
+		prestige = 10
+		piety = -5
+		random_courtier = {
+			limit = {
+				OR = {
+					trait = zealous
+					trait = detached_priest
+					trait = martial_cleric
+					trait = scholarly_theologian
+					trait = mastermind_theologian
+				}
+				NOT = { trait = hedonist }
+				NOT = { trait = drunkard }
+				NOT = { trait = lustful }
+				has_epidemic = no
+				is_ill = no
+				is_adult = yes
+			}
+			opinion = {
+				modifier = angered_obby_ossy
+				who =  ROOT
+				years = 1
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.228.b
+		prestige = -5
+		piety = 10
+		random_courtier = {
+			limit = {
+				OR = {
+					trait = hedonist
+					trait = drunkard
+					trait = lustful
+				}
+				NOT = { trait = zealous }
+			}
+			opinion = {
+				modifier = angered_obby_ossy
+				who =  ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# You dance with your spouse
+character_event = {
+	id = VIETceltic.229
+	desc = VIETceltic.229.desc
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.229.a
+		trigger = {
+			NOT = { trait = depressed }
+		}
+		spouse = {
+			opinion = {
+				modifier = dance_obby_ossy
+				who = ROOT
+				years = 1
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							trait = perceptive
+						}
+						AND = {
+							trait = agile
+							trait = hedonist
+						}
+						AND = {
+							trait = perceptive
+							trait = hedonist
+						}
+					}
+					AND = {
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				character_event = { id = VIETceltic.224 }
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							trait = agile
+							NOT = { trait = perceptive }
+						}
+						AND = {
+							trait = perceptive
+							NOT = { trait = agile }
+						}
+					}
+					AND = {
+						NOT = { trait = hedonist }
+						NOT = { trait = stressed }
+						NOT = { trait = absentminded }
+						NOT = { trait = shy }
+					}
+				}
+				random_list = {
+					85 = { character_event = { id = VIETceltic.224 } }
+					15 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						OR = {
+							trait = agile
+							trait = perceptive
+							trait = hedonist
+						}
+						OR = {
+							trait = shy
+							trait = stressed
+							trait = absentminded
+						}
+					}
+				}
+				random_list = {
+					60 = { character_event = { id = VIETceltic.224 } }
+					40 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					50 = { character_event = { id = VIETceltic.224 } }
+					50 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					trait = hedonist
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					40 = { character_event = { id = VIETceltic.224 } }
+					60 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					NOT = { trait = stressed }
+					NOT = { trait = shy }
+					NOT = { trait = absentminded }
+				}
+				random_list = {
+					35 = { character_event = { id = VIETceltic.224 } }
+					65 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { trait = hedonist }
+					NOT = { trait = perceptive }
+					NOT = { trait = agile }
+					OR = {
+						trait = stressed
+						trait = shy
+						trait = absentminded
+					}
+				}
+				random_list = {
+					30 = { character_event = { id = VIETceltic.224 } }
+					70 = { character_event = { id = VIETceltic.225 } }
+				}
+			}
+		}
+	}
+	option = {
+		name = VIETceltic.229.b
+		spouse = {
+			opinion = {
+				modifier = no_dance_obby_ossy
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# You dance a good jig
+character_event = {
+	id = VIETceltic.230
+	desc = VIETceltic.230.desc
+	picture = GFX_evt_maiden
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.230.a
+		spouse = {
+			opinion = {
+				modifier = good_dance_obby_ossy
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# You dance a bad jig
+character_event = {
+	id = VIETceltic.231
+	desc = VIETceltic.231.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.231.a
+		spouse = {
+			opinion = {
+				modifier = bad_dance_obby_ossy
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# Buy some squab pie
+character_event = {
+	id = VIETceltic.232
+	desc = VIETceltic.232.desc
+	picture = GFX_evt_market
+	
+	is_triggered_only = yes
+	
+	
+	option = { #Buy some
+		name = VIETceltic.232.a
+		trigger = {
+			NOT = { culture = cornish }
+		}
+		wealth = -3
+		add_character_modifier = {
+			name = best_meal_in_ages
+			duration = 365
+		}
+	}
+	
+	option = { #Buy some (if from appropriate culture)
+		name = VIETceltic.232.b
+		trigger = {
+			OR = {
+				culture = cornish
+			}
+		}
+		wealth = -3
+		add_character_modifier = {
+			name = best_meal_in_ages
+			duration = 365
+		}
+	}
+
+	option = { #Try a bit
+		name = VIETceltic.232.c
+		wealth = -1
+		add_character_modifier = {
+			name = best_meal_in_ages
+			duration = 90
+		}
+	}
+
+	option = { #Not Interested
+		name = VIETceltic.232.d
+		trigger = {
+			NOT = { trait = gluttonous }
+		}
+		add_character_modifier = {
+			name = the_prude
+			duration = 90
+		}
+	}
+}
+
+###############################################
+# Mari Lwyd
+###############################################
+
+# Who's there?
+character_event = {
+	id = VIETceltic.233
+	desc = VIETceltic.233.desc
+	picture = GFX_evt_village_at_night
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		culture = welsh
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = poet
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 4
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	option = {
+		name = VIETceltic.233.a
+		character_event = { id = VIETceltic.234 days = 1 }
+	}
+}
+
+# It's the Mari Lwyd!
+character_event = {
+	id = VIETceltic.234
+	desc = VIETceltic.234.desc
+	picture = GFX_evt_mari_lwyd
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.234.a
+		trigger = {
+			OR = {
+				trait = gluttonous
+				trait = hedonist
+				trait = humble
+				trait = kind
+				trait = charitable
+				trait = trusting
+			}
+		}
+		wealth = -6
+		prestige = 10
+	}
+	option = {
+		name = VIETceltic.234.b
+		wealth = -3
+	}
+	option = {
+		name = VIETceltic.234.c
+		trigger = {
+			OR = {
+				trait = humble
+				trait = wroth
+				trait = paranoid
+				trait = cruel
+				trait = greedy
+			}
+		}
+		prestige = -5
+	}
+}
+
+
+#######################################################
+# KNIGHTS OF LE ROUND TABLE
+#######################################################
+
+# Sir Lancelot
+character_event = {
+	id = VIETceltic.500
+	desc = VIETceltic.500.desc
+	picture = GFX_evt_joust
+
+	is_triggered_only = yes
+
+	only_men = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		liege = {
+			has_landed_title = k_britain
+		}
+		NOT = { has_global_flag = VIET_sir_lancelot_found }
+		NOT = { has_character_flag = VIET_arthurian_legend }
+		NOT = { has_character_modifier = VIET_lancelot }
+		trait = knight_of_the_round_table
+		OR = {
+			trait = strong
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = brilliant_strategist
+			trait = poor_warrior
+			trait = trained_warrior
+			trait = skilled_warrior
+			trait = master_warrior
+			martial = 20
+		}
+		OR = {
+			trait = brave
+			trait = just
+			trait = ambitious
+			trait = zealous
+		}
+		NOT = { trait = arbitrary }
+		NOT = { trait = craven }
+		NOT = { trait = weak }
+		martial = 13
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = fair
+		}
+		modifier = {
+			factor = 0.5
+			trait = ugly
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			health = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { health = 4 }
+		}
+	}
+
+	option = {
+		name = VIETceltic.500.a
+		set_character_flag = VIET_arthurian_legend
+		set_global_flag = VIET_sir_lancelot_found
+		prestige = 100
+		add_character_modifier = {
+			name = VIET_lancelot
+			duration = -1
+		}
+		liege = {
+			character_event = { id = VIETceltic.501 }
+		}
+	}
+}
+# Sir Lancelot
+character_event = {
+	id = VIETceltic.501
+	desc = VIETceltic.501.desc
+	picture = GFX_evt_joust
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.501.a
+	}
+	option = {
+		name = VIETceltic.501.b
+		trigger = {
+			is_female = no
+			is_married = yes
+		}
+	}
+}
+
+# Sir Perceval
+character_event = {
+	id = VIETceltic.502
+	desc = VIETceltic.502.desc
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	only_men = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		liege = {
+			has_landed_title = k_britain
+		}
+		NOT = { has_global_flag = VIET_sir_perceval_found }
+		NOT = { has_character_flag = VIET_arthurian_legend }
+		NOT = { has_character_modifier = VIET_perceval }
+		trait = knight_of_the_round_table
+		AND = {
+			trait = trusting
+			trait = kind
+		}
+		OR = {
+			trait = humble
+			trait = patient
+			trait = chaste
+			trait = imbecile
+			trait = slow
+		}
+		NOT = { trait = envious }
+		NOT = { trait = cruel }
+		NOT = { trait = paranoid }
+		NOT = { trait = proud }
+		NOT = { trait = lustful }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+	}
+
+	option = {
+		name = VIETceltic.502.a
+		set_character_flag = VIET_arthurian_legend
+		set_global_flag = VIET_sir_perceval_found
+		piety = 100
+		add_character_modifier = {
+			name = VIET_perceval
+			duration = -1
+		}
+		liege = {
+			character_event = { id = VIETceltic.503 }
+		}
+	}
+}
+# Sir Perceval
+character_event = {
+	id = VIETceltic.503
+	desc = VIETceltic.503.desc
+	picture = GFX_evt_knight_kneeling
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.503.a
+	}
+}
+
+# Sir Gawain
+character_event = {
+	id = VIETceltic.504
+	desc = VIETceltic.504.desc
+	picture = GFX_evt_crusaders
+
+	is_triggered_only = yes
+
+	only_men = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		liege = {
+			has_landed_title = k_britain
+		}
+		NOT = { has_global_flag = VIET_sir_gawain_found }
+		NOT = { has_character_flag = VIET_arthurian_legend }
+		NOT = { has_character_modifier = VIET_gawain }
+		trait = knight_of_the_round_table
+		AND = {
+			trait = charitable
+			trait = chaste
+			trait = kind
+		}
+		NOT = { trait = envious }
+		NOT = { trait = lustful }
+		NOT = { trait = arbitrary }
+		martial = 13
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = strong
+		}
+		modifier = {
+			factor = 0.5
+			trait = weak
+		}
+	}
+
+	option = {
+		name = VIETceltic.504.a
+		set_character_flag = VIET_arthurian_legend
+		set_global_flag = VIET_sir_gawain_found
+		piety = 50
+		prestige = 50
+		add_character_modifier = {
+			name = VIET_gawain
+			duration = -1
+		}
+		liege = {
+			character_event = { id = VIETceltic.505 }
+		}
+	}
+}
+# Sir Gawain
+character_event = {
+	id = VIETceltic.505
+	desc = VIETceltic.505.desc
+	picture = GFX_evt_crusaders
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.505.a
+	}
+}
+
+# Sir Galahad
+character_event = {
+	id = VIETceltic.506
+	desc = VIETceltic.506.desc
+	picture = GFX_evt_cathedral
+
+	is_triggered_only = yes
+
+	only_men = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		liege = {
+			has_landed_title = k_britain
+		}
+		NOT = { has_global_flag = VIET_sir_galahad_found }
+		NOT = { has_character_flag = VIET_arthurian_legend }
+		NOT = { has_character_modifier = VIET_galahad }
+		trait = knight_of_the_round_table
+		AND = {
+			trait = chaste
+			trait = kind
+		}
+		OR = {
+			trait = humble
+			trait = patient
+			trait = charitable
+			trait = temperate
+			trait = diligent
+		}
+		NOT = { trait = envious }
+		NOT = { trait = lustful }
+		NOT = { trait = gluttonous }
+		NOT = { trait = greedy }
+		NOT = { trait = slothful }
+		NOT = { trait = wroth }
+		NOT = { trait = proud }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			piety = 1000
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { piety = 50 }
+		}
+	}
+
+	option = {
+		name = VIETceltic.506.a
+		set_character_flag = VIET_arthurian_legend
+		set_global_flag = VIET_sir_galahad_found
+		piety = 50
+		prestige = 50
+		add_character_modifier = {
+			name = VIET_galahad
+			duration = -1
+		}
+		liege = {
+			character_event = { id = VIETceltic.507 }
+		}
+	}
+}
+# Sir Galahad
+character_event = {
+	id = VIETceltic.507
+	desc = VIETceltic.507.desc
+	picture = GFX_evt_cathedral
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.507.a
+	}
+}
+
+# Sir Mordred's birth - INCEST YAYAYAYAY
+character_event = {
+	id = VIETceltic.508
+	desc = VIETceltic.508.desc
+	picture = GFX_evt_bad_news
+
+	is_triggered_only = yes
+
+	only_men = yes
+	min_age = 14
+	max_age = 45
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		OR = {
+			has_landed_title = k_britain
+			AND = {
+				higher_tier_than = DUKE
+				ai = no
+				culture_group = celtic
+				OR = {
+					culture = welsh
+					culture = breton
+					culture = cornish
+					culture = cumbric
+					culture = norsebriton
+				}
+			}
+		}
+		any_sibling = {
+			age = 14
+			NOT = { age = 45 }
+			is_female = yes
+			NOT = { trait = incapable }
+			NOT = { trait = pregnant }
+			#is_married = no
+			#is_consort = no
+			ai = yes
+		}
+		NOT = { trait = celibate }
+		NOT = { trait = infirm }
+		NOT = { has_global_flag = VIET_arthurian_toothbrush }
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = like_king_arthur
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.5
+			trait = maimed
+		}
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+	}
+
+	option = {
+		name = VIETceltic.508.a
+		set_character_flag = VIET_arthur_incest
+		set_global_flag = VIET_arthurian_toothbrush
+		random_sibling = {
+			limit = {
+				age = 14
+				NOT = { age = 45 }
+				is_female = yes
+				NOT = { trait = incapable }
+				NOT = { trait = pregnant }
+				#is_married = no
+				#is_consort = no
+				ai = yes
+			}
+			set_character_flag = VIET_morgause_incest
+			piety = -40
+			custom_tooltip = { text = VIET_mordred_incest_nay }
+			hidden_tooltip = {
+				impregnate = ROOT
+			}
+		}
+		piety = -40
+	}
+	option = {
+		name = VIETceltic.508.b
+		set_character_flag = VIET_arthur_incest
+		set_global_flag = VIET_arthurian_toothbrush
+		random_sibling = {
+			limit = {
+				age = 14
+				NOT = { age = 45 }
+				is_female = yes
+				NOT = { trait = incapable }
+				NOT = { trait = pregnant }
+				#is_married = no
+				#is_consort = no	
+			}
+			set_character_flag = VIET_morgause_incest
+			add_lover = ROOT
+			piety = -50
+			custom_tooltip = { text = VIET_mordred_incest_yay }
+			hidden_tooltip = {
+				impregnate = ROOT
+				add_trait = lustful
+			}
+		}
+		piety = -50
+		add_trait = lustful
+	}
+}
+
+# Sir Mordred is born from (un)holy incest
+character_event = {
+	id = VIETceltic.509
+	desc = VIETceltic.509.desc
+	picture = GFX_evt_bad_news
+
+	is_triggered_only = yes
+
+	trigger = {
+		mother = { has_character_flag = VIET_morgause_incest  }
+		father = { has_character_flag = VIET_arthur_incest }
+	}
+	
+	immediate = {
+		set_character_flag = VIET_mordred_child
+		remove_trait = inbred
+		remove_trait = imbecile
+		remove_trait = slow
+		remove_trait = weak
+		if = {
+			limit = {
+				is_female = no
+			}
+			mother = {
+				character_event = { id = VIETceltic.510 }
+			}
+			father = {
+				character_event = { id = VIETceltic.510 }
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			mother = {
+				character_event = { id = VIETceltic.511 }
+			}
+			father = {
+				character_event = { id = VIETceltic.511 }
+			}
+		}
+
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Sir Mordred is born from (un)holy incest
+character_event = {
+	id = VIETceltic.510
+	desc = VIETceltic.510.desc
+	picture = GFX_evt_birth
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.510.a
+		prestige = -25
+		piety = -25
+	}
+}
+
+# Sir Mordred is born from (un)holy incest
+character_event = {
+	id = VIETceltic.511
+	desc = VIETceltic.511.desc
+	picture = GFX_evt_birth
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.511.a
+		prestige = -10
+		piety = -10
+	}
+}
+
+# Mordred shows promise
+character_event = {
+	id = VIETceltic.512
+	desc = VIETceltic.512.desc
+	picture = GFX_evt_child_sword
+
+	is_triggered_only = yes
+	
+	min_age = 6
+	max_age = 10
+	
+	trigger = {
+		has_character_flag = VIET_mordred_child
+		NOT = { has_character_flag = VIET_mordred_promise }
+	}	
+	
+	option = {
+		name = VIETceltic.512.a
+		set_character_flag = VIET_mordred_promise
+		add_trait = ambitious
+		add_trait = envious
+		if = {
+			limit = {
+				NOT = { trait = genius }
+				NOT = { trait = quick }
+			}
+			random_list = {
+				25 = { add_trait = genius }
+				25 = { add_trait = quick }
+				50 = { }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { trait = strong }
+			}
+			random = {
+				chance = 25
+				add_trait = strong
+			}
+		}
+		hidden_tooltip = {
+			change_martial = 2
+			change_intrigue = 1
+		}
+		if = {
+			limit = {
+				is_female = no
+			}
+			father = { character_event = { id = VIETceltic.513 } }
+			mother = { character_event = { id = VIETceltic.513 } }
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			father = { character_event = { id = VIETceltic.514 } }
+			mother = { character_event = { id = VIETceltic.514 } }
+		}
+	}
+}
+
+# Mordred shows promise
+character_event = {
+	id = VIETceltic.513
+	desc = VIETceltic.513.desc
+	picture = GFX_evt_child_sword
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.513.a
+	}	
+	option = {
+		name = VIETceltic.513.b
+	}
+}
+
+# Mordredia shows promise
+character_event = {
+	id = VIETceltic.514
+	desc = VIETceltic.514.desc
+	picture = GFX_evt_child_sword
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.514.a
+	}	
+	option = {
+		name = VIETceltic.514.b
+	}
+}
+
+# Mordred learns the truth
+character_event = {
+	id = VIETceltic.515
+	desc = VIETceltic.515.desc
+	picture = GFX_evt_child_bully
+
+	is_triggered_only = yes
+	
+	min_age = 10
+	max_age = 16
+	
+	trigger = {
+		has_character_flag = VIET_mordred_child
+		has_character_flag = VIET_mordred_promise
+		NOT = { has_character_flag = VIET_mordred_promise_1 }
+	}	
+	
+	option = {
+		name = VIETceltic.515.a
+		set_character_flag = VIET_mordred_promise_1
+		random = {
+			add_trait = wroth
+			chance = 25
+		}
+		random = {
+			add_trait = cruel
+			chance = 25
+		}
+		random = {
+			add_trait = deceitful
+			chance = 25
+		}
+		father = { character_event = { id = VIETceltic.516 } }
+		mother = { character_event = { id = VIETceltic.516 } }
+	}
+}
+
+# Mordred confronts you
+character_event = {
+	id = VIETceltic.516
+	desc = VIETceltic.516.desc
+	picture = GFX_evt_son_asking_father
+
+	is_triggered_only = yes
+	
+	option = {
+		name = VIETceltic.516.a
+		FROM = {
+			opinion = {
+				modifier = opinion_is_mordred
+				who = ROOT
+				years = 100
+			}
+		}
+	}	
+}
+
+
+
+# Mordred
+character_event = {
+	id = VIETceltic.517
+	desc = VIETceltic.517.desc
+	picture = GFX_evt_shadowy_cabal
+
+	is_triggered_only = yes
+
+	#only_men = yes
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+
+	trigger = {
+		liege = {
+			has_landed_title = k_britain
+		}
+		OR = {
+			NOT = { has_global_flag = VIET_sir_mordred_found }
+			has_character_flag = VIET_mordred_child
+		}
+		NOT = { has_global_flag = VIET_sir_mordred_found_child }
+		NOT = { has_character_flag = VIET_arthurian_legend }
+		NOT = { has_character_modifier = VIET_mordred }
+		trait = knight_of_the_round_table
+		OR = {
+			AND = {
+				OR = {
+					trait = envious
+					trait = cruel
+				}
+				OR = {
+					trait = wroth
+					trait = greedy
+					trait = deceitful
+					trait = ambitious
+				}
+				NOT = { trait = kind }
+				NOT = { trait = just }
+				NOT = { trait = content }
+				NOT = { trait = humble }
+			}
+			AND = {
+				OR = {
+					trait = bastard
+					trait = legit_bastard
+				}
+				father = {
+					is_alive = yes
+					is_ruler = yes
+					is_liege_of = ROOT
+				}
+			}
+			has_character_flag = VIET_mordred_child
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 20
+			has_character_flag = VIET_mordred_child
+		}
+	}
+
+	option = {
+		name = VIETceltic.517.a
+		set_character_flag = VIET_arthurian_legend
+		set_global_flag = VIET_sir_mordred_found
+		piety = -50
+		prestige = -50
+		add_character_modifier = {
+			name = VIET_mordred
+			duration = -1
+		}
+		liege = {
+			character_event = { id = VIETceltic.518 tooltip = VIETceltic.518.tooltip }
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_mordred_child
+			}
+			set_global_flag = VIET_sir_mordred_found_child
+			k_britain = {
+				add_pressed_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_character_flag = VIET_mordred_child }
+			}
+			k_britain = {
+				add_weak_claim = ROOT
+			}
+		}
+	}
+}
+# Sir Mordred
+character_event = {
+	id = VIETceltic.518
+	desc = VIETceltic.518.desc
+	picture = GFX_evt_shadowy_cabal
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.518.a
+		trigger = {
+			NOT = {
+				any_child = {
+					has_character_modifier = VIET_mordred
+				}
+			}
+		}
+		add_rival = FROM
+	}
+	option = {
+		name = VIETceltic.518.b
+		trigger = {
+			any_child = {
+				has_character_modifier = VIET_mordred
+			}
+		}
+		add_rival = FROM
+	}
+}
+# Moorish Knight
+character_event = {
+	id = VIETceltic.519
+	desc = VIETceltic.519.desc
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+	
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+	only_rulers = yes	
+
+	trigger = {
+		has_landed_title = k_britain
+		NOT = { has_global_flag = VIET_morien }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 4
+			prestige = 2000
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { prestige = 100 }
+		}
+		modifier = {
+			factor = 4
+			trait = like_king_arthur
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { trait = like_king_arthur }
+		}
+	}
+
+	option = {
+		name = VIETceltic.519.a
+		set_global_flag = VIET_morien
+		if = {
+			limit = {
+				NOT = { has_global_flag = SWMH }
+			}
+			random_list = {
+				25 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = andalusian_arabic
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				50 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = maghreb_arabic
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				25 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = manden
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}			
+			}
+		}		
+		if = {
+			limit = {
+				has_global_flag = SWMH
+			}
+			random_list = {
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = andalusian_arabic
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				20 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = maghreb_arabic
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = manden
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = berber
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = sanhaja 
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = tagelmust  
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = masmuda  
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = zanata   
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}	
+				10 = {
+					create_random_soldier = {
+						random_traits = yes
+						culture = tuareg    
+						dynasty = culture
+						religion = catholic
+						female = no
+						attributes = {
+							martial = 11
+						}
+					}
+					new_character = {
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}
+						random = {
+							chance = 33
+							add_trait = tall
+						}
+						random = {
+							chance = 33
+							add_trait = strong
+						}
+						remove_trait = incapable
+						remove_trait = imbecile
+						remove_trait = slow
+						remove_trait = craven
+						remove_trait = weak					
+					}
+				}			
+			}
+		}
+	}
+}
+
+
+# Excalibur - find start
+character_event = {
+	id = VIETceltic.520
+	desc = VIETceltic.520.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+	only_rulers = yes	
+
+	trigger = {
+		has_landed_title = k_britain
+		trait = like_king_arthur
+		NOT = { has_global_flag = VIET_excalibur_found }
+		NOT = { has_character_modifier = VIET_has_excalibur }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+	}
+
+	option = {
+		name = VIETceltic.520.a
+		set_global_flag = VIET_excalibur_found
+		character_event = { id = VIETceltic.521 days = 2 random = 2 tooltip = VIETceltic.521.tooltip }
+	}
+}
+
+# Excalibur - obtained
+narrative_event = {
+	id = VIETceltic.521
+	title = VIETceltic.521.title
+	desc = VIETceltic.521.desc
+	picture = GFX_evt_journey_to_spirit_world
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.521.a
+		add_character_modifier = {
+			name = VIET_has_excalibur
+			duration = -1
+		}
+	}
+}
+
+# Excalibur heals wounds
+character_event = {
+	id = VIETceltic.522
+	title = VIETceltic.522.title
+	desc = VIETceltic.522.desc
+	picture = GFX_evt_recovery
+
+	is_triggered_only = yes
+	
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+	only_rulers = yes	
+
+	trigger = {
+		has_character_modifier = VIET_has_excalibur
+		OR = {
+			trait = maimed
+			trait = blinded
+			trait = incapable
+			trait = eunuch
+			trait = infirm
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			piety = 2000
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { piety = 100 }
+		}
+	}
+
+	option = {
+		name = VIETceltic.522.a
+		if = {
+			limit = {
+				trait = maimed
+			}
+			remove_trait = maimed
+		}
+		if = {
+			limit = {
+				trait = blinded
+			}
+			remove_trait = blinded
+		}
+		if = {
+			limit = {
+				trait = incapable
+			}
+			remove_trait = incapable
+		}
+		if = {
+			limit = {
+				trait = eunuch
+			}
+			remove_trait = eunuch
+		}
+		if = {
+			limit = {
+				trait = infirm
+			}
+			remove_trait = infirm
+		}
+	}
+}
+
+# Excalibur is awesome in battle
+character_event = {
+	id = VIETceltic.523
+	title = VIETceltic.523.title
+	desc = VIETceltic.523.desc
+	picture = GFX_evt_battle
+
+	is_triggered_only = yes
+	
+	min_age = 16	
+	capable_only = yes
+	prisoner = no	
+	only_rulers = yes	
+
+	trigger = {
+		has_character_modifier = VIET_has_excalibur
+		NOT = { has_character_flag = VIET_excalibur_battle }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			piety = 2000
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { piety = 100 }
+		}
+	}
+
+	option = {
+		name = VIETceltic.523.a
+		prestige = 50
+		set_character_flag = VIET_excalibur_battle
+	}
+}
+
+# Excalibur is lost forever... again
+narrative_event = {
+	id = VIETceltic.524
+	title = VIETceltic.524.title
+	desc = VIETceltic.524.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = VIET_excalibur_found
+		NOT = { has_global_flag = VIET_excalibur_lost }
+		has_landed_title = k_britain
+	}
+
+	option = {
+		name = VIETceltic.524.a
+		set_global_flag = VIET_excalibur_lost
+		character_event = { id = VIETceltic.525 tooltip = VIETceltic.525.tooltip }
+	}
+}
+
+# Excalibur is lost forever... again
+narrative_event = {
+	id = VIETceltic.525
+	title = VIETceltic.525.title
+	desc = VIETceltic.525.desc
+	picture = GFX_evt_journey_to_spirit_world
+
+	is_triggered_only = yes
+
+	option = {
+		name = VIETceltic.525.a
+	}
+}

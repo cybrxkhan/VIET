@@ -15,7 +15,7 @@ narrative_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
-	picture = "GFX_evt_indian_market"
+	picture = "GFX_evt_garden_latin"
 
 	#trigger = {
 	#	NOT = { has_global_flag = project_balance }

@@ -63,7 +63,7 @@ arabic = {
 		female_patronym = "Barta "
 		prefix = yes
 
-		modifier = default_culture_modifier
+		modifier = arab_culture_modifier
 	}	
 
 	aramean = { 
@@ -93,7 +93,7 @@ arabic = {
 		female_patronym = "Barta "
 		prefix = yes
 
-		modifier = default_culture_modifier
+		modifier = arab_culture_modifier
 	}	
 	
 }
@@ -130,7 +130,7 @@ byzantine = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
-		modifier = default_culture_modifier
+		modifier = greek_culture_modifier
 	}
 }
 
@@ -201,7 +201,7 @@ east_african = {
        female_patronym = "bint "
 		prefix = yes
 
-       modifier = default_culture_modifier
+       modifier = east_african_culture_modifier
     }
 
 }
@@ -290,7 +290,7 @@ iranian = {
 		female_patronym = "dokht"
 		prefix = no
 		
-		modifier = cultural_flexibility
+		modifier = persian_culture_modifier
 	}	
 }
 
@@ -913,7 +913,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-    tocharian = {
+    tokharian = {
         graphical_culture = persiangfx
 		second_graphical_culture = muslimgfx
         color = { 0.75 0.45 0.95  }
@@ -1000,7 +1000,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-	sogdian = {
+	soghdian = {
 		graphical_culture = persiangfx
 		second_graphical_culture = muslimgfx
 		color = { 0.2 0.05 0.3 }
@@ -1067,7 +1067,7 @@ south_slavic = {
 		pat_grm_name_chance = 5
 		mat_grm_name_chance = 5
 		mother_name_chance = 5      
-		modifier = default_culture_modifier
+		modifier = german_culture_modifier
 	}
 	pannonian = { # Pannonian Romance
         graphical_culture = westernslavicgfx
@@ -1093,7 +1093,7 @@ south_slavic = {
         pat_grm_name_chance = 15
         mat_grm_name_chance = 15
         mother_name_chance = 15      
-        modifier = default_culture_modifier
+        modifier = roman_culture_modifier
     }		
 
 }

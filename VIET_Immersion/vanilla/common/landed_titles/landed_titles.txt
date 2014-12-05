@@ -153,6 +153,24 @@ d_sunni = {
 	controls_religion = sunni
 	
 	allow = {
+		custom_tooltip = {
+			text = sunni_creation_independent
+			hidden_tooltip = {
+				in_revolt = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							OR = {
+								in_revolt = yes
+								NOT = { religion = sunni }
+							}
+						}
+					}
+				}
+			}
+		}
+	
 		OR = {
 			trait = mirza
 			trait = sayyid
@@ -249,12 +267,36 @@ d_shiite = {
 	controls_religion = shiite
 	
 	allow = {
+		custom_tooltip = {
+			text = shia_creation_independent
+			hidden_tooltip = {
+				in_revolt = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							OR = {
+								in_revolt = yes
+								NOT = { religion = shiite }
+							}
+						}
+					}
+				}
+			}
+		}
+		
 		OR = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
+		custom_tooltip = {
+			text = not_shia_caliphate_revolt_ongoing
+			hidden_tooltip = {
 		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
+			}
+		}
+		
 		OR = {
 			AND = {
 				trait = sayyid
@@ -8227,7 +8269,9 @@ e_italy = {
 		capital = 334 # Napoli
 		
 		allow = {
-			always = no
+			any_previous_holder = {
+				always = yes # The title has existed before
+			}
 		}
 		
 		culture = italian
@@ -10928,7 +10972,6 @@ e_scandinavia = {
 			culture = lappish
 			title = "HIGH_CHIEF"
 			foa = "HIGH_CHIEF_FOA"
-			title_prefix = "TRIBE_OF"
 	
 			c_kola = {
 				color={ 145 35 35 }
@@ -11493,14 +11536,17 @@ e_wendish_empire = {
 	
 	k_moravia = {
 		color={ 158 102 36 }
-		culture = bohemian
-	#	tribe = yes
+		color2={ 200 0 0 }
 
 		capital = 441 # Brno
 	
-		allow = {
-			always = no
-		}
+		culture = bohemian
+		
+		slavic_pagan_reformed = 100 # Crusade target weight
+		
+#		allow = {
+#			k_bohemia = { has_holder = no }
+#		}
 	}
 
 	k_poland = {
@@ -13245,6 +13291,10 @@ e_wendish_empire = {
         slavic_pagan_reformed = 100 # Crusade target weight
         baltic_pagan_reformed = 50 # Crusade target weight
         
+		allow = {
+			k_moravia = { has_holder = no }
+		}
+
         d_bohemia = {
             color={ 195 110 11 }
             color2={ 255 255 255 }
@@ -17789,6 +17839,8 @@ e_persia = {
 				color2={ 255 255 255 }
 				
 				b_kalat = {
+				}
+				b_talq = {
 				}
 			}
 			c_armail = {
@@ -30275,7 +30327,6 @@ d_curonian = {
 	culture = lettigallish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 # Pagan proto-Denmark
@@ -30323,7 +30374,6 @@ d_estonia = {
 	culture = ugricbaltic
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_galatia = {
 	color = { 244 75 185 }
@@ -30367,7 +30417,6 @@ d_ingers = {
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_kajaneborg = { # Kvens
 	color = { 123 73 13 }
@@ -30381,7 +30430,6 @@ d_kajaneborg = { # Kvens
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_kappadokia = {
 	color = { 255 3 170 }
@@ -30401,7 +30449,6 @@ d_kexholm = {
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_khazars = {
 	color = { 246 217 137 }
@@ -30433,7 +30480,6 @@ d_sami = {
 	culture = lappish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_krakow = {
@@ -30454,7 +30500,6 @@ d_lettigalians = {
 	culture = lettigallish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_luristan = {
 	color = { 77 114 183 }
@@ -30489,7 +30534,6 @@ d_muromians = {
 	culture = mordvin
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_nikomedeia = {
@@ -30528,7 +30572,6 @@ d_pruthenians = {
 	culture = prussian
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 	
 }
 d_qom = {
@@ -30559,7 +30602,6 @@ d_sames = {
 	culture = samoyed
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_sandomiersk = {
 	color = { 253 137 137 }
@@ -30576,7 +30618,6 @@ d_satakunta = {
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 	
 }
 d_shiraz = {
@@ -30618,7 +30659,6 @@ d_tavasts = {
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_meryas = {
 	color = { 131 41 41 }
@@ -30634,7 +30674,6 @@ d_meryas = {
 	culture = mordvin
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_veps = {
 	color = { 120 90 40 }
@@ -30648,7 +30687,6 @@ d_veps = {
 	culture = mordvin
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_meshcheras = {
 	color = { 151 71 41 }
@@ -30664,7 +30702,6 @@ d_meshcheras = {
 	culture = mordvin
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 d_ural = {
 	color = { 208 178 78 }
@@ -30693,7 +30730,6 @@ d_votes = {
 	culture = finnish
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 	
 }
 d_zara = {
@@ -30713,7 +30749,6 @@ d_zemigalians = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_lendians = { # aka Ledzianie or Lechs
@@ -30730,7 +30765,6 @@ d_lendians = { # aka Ledzianie or Lechs
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_kryvians = { # aka Krivichi
@@ -30748,7 +30782,6 @@ d_kryvians = { # aka Krivichi
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_ilmenians = { # aka Ilmen Slavs
@@ -30766,7 +30799,6 @@ d_ilmenians = { # aka Ilmen Slavs
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_severians = { # aka Severiane
@@ -30784,7 +30816,6 @@ d_severians = { # aka Severiane
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_vyatichi = { 
@@ -30802,7 +30833,6 @@ d_vyatichi = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_dregovichi = { 
@@ -30820,7 +30850,6 @@ d_dregovichi = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_radimichi = { 
@@ -30838,7 +30867,6 @@ d_radimichi = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_glomacze = { # Aka Dolomici
@@ -30856,7 +30884,6 @@ d_glomacze = { # Aka Dolomici
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_sorbs = {
@@ -30874,7 +30901,6 @@ d_sorbs = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 d_obotrites = {
@@ -30892,7 +30918,6 @@ d_obotrites = {
 	
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
 }
 
 # TITULAR KINGDOMS
@@ -36871,46 +36896,6 @@ d_manichean_archegos = {
 	male_names = {
 		Abd-Zakya Abi-Yesu Abizaxias Abu Acuas Adda Addas Agapius Akouas Ardavan Cubricus Daryaw Faustus Gabriabios Gavryahb Hanni Hermas Hilal Khusrow 
 		Marcus Mihr Miqlas Ohrmazd Papos Parcus Pattig Sergius Sethel Shad Shad-Ohrmazd Sisin Thomas Walash Zaku
-	}
-}
-
-
-d_dulcinian = {
-	color={ 213 235 248 }
-	color2={ 220 220 0 }
-	
-	capital = 333 # Rome
-	
-	title = "POPE"
-	foa = "POPE_FOA"
-	short_name = yes
-	location_ruler_title = yes
-	
-	allow = {
-		always = no # Only by special decision
-	}
-	
-	# Always exists
-	landless = yes
-	
-	# Controls a religion
-	controls_religion = dulcinian
-	
-	religion = dulcinian
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	
-	# Regnal names
-	male_names = {
-		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
-		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
-		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
-		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
-		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
-		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
 	}
 }
 

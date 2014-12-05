@@ -1,0 +1,32 @@
+# 832 - Orania
+
+# County Title
+title = c_orania
+
+# Settlements
+max_settlements = 6
+
+b_oran = castle
+b_arsgul = city
+b_marsafarukh = temple  # Marsa Farukh
+b_kasribnsinan = castle # Kasr ibn Sinan
+
+#b_mostaganem = city
+#b_aintemouchent = temple
+
+#b_maghnia = castle
+#b_benisaf = castle
+#b_gdyel = castle
+#b_merselhadjad = castle
+
+# Misc
+culture = maghreb_arabic
+religion = ibadi
+
+# History
+
+909.1.1 = { religion = sunni }
+1066.1.1 = { trade_post = b_sabaricid } #Oran republic
+
+
+

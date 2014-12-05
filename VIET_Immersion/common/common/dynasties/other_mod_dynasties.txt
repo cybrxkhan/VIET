@@ -1,0 +1,360 @@
+##Cornwall - credits to Knuckey's Cornish mini-mod
+1000005000 = {
+	name="de Valletort"
+	culture = norman
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1000005001 = {
+	name="a Lannstefan"
+	culture = cornish
+}
+1000005002 = {
+	name="a Bosvenegh"
+	culture = cornish
+}
+1000005003 = {
+	name="a Essa"
+	culture = cornish
+}
+1000005004 = {
+	name="a Truru"
+	culture = cornish
+}
+1000005005 = {
+	name="Boscawen"
+	culture = cornish
+}
+1000005006 = {
+	name="Flamank"
+	culture = cornish
+}
+1000005007 = {
+	name="Basset"
+	culture = cornish
+}
+1000005008 = {
+	name="Bolitho"
+	culture = cornish
+}
+1000005009 = {
+	name="Knuckey"
+	culture = cornish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1000005010 = {
+	name="Godolphin"
+	culture = cornish
+}
+1000005011 = {
+	name="Killigrew"
+	culture = cornish
+}
+1000005012 = {
+	name="Treffry"
+	culture = cornish
+}
+1000005013 = {
+	name="Trelawny"
+	culture = cornish
+}
+1000005014 = {
+	name="Trevanion"
+	culture = cornish
+}
+1000005015 = {
+	name="Vyvyan"
+	culture = cornish
+}
+1000005016 = {
+	name="Carminow"
+	culture = cornish
+}
+1000005017 = {
+	name="Roscarrock"
+	culture = cornish
+}
+1000005018 = {
+	name="Tremayne"
+	culture = cornish
+}
+1000005019 = {
+	name="Trevelyan"
+	culture = cornish
+}
+1000005020 = {
+	name="Arundell"
+	culture = cornish
+}
+1000005021 = {
+	name="de Cardinham"
+	culture = cornish
+}
+1000005022 = {
+	name="de Botreaux"
+	culture = cornish
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1000005023 = {
+	name="de la Haye"
+	culture = english
+}
+1000005024 = {
+	name="de Prideaux"
+	culture = cornish
+}
+1000005025 = {
+	name="de Bodrugan"
+	culture = cornish
+}
+1000005026 = {
+	name="de Tracy"
+	culture = english
+}
+1000005027 = {
+	name="Bozun"
+	culture = english
+}
+
+######################################
+#
+#Crimean gothic Dynasties
+#
+#Credits: Taran14
+#
+#Range1: 1000366330 - 1000366380
+#
+######################################
+1000366330 = {
+	name="af Aujum"
+	culture = crimean_gothic
+}
+1000366331 = {
+	name="af Gothiscandza"
+	culture = crimean_gothic
+}
+1000366332 = {
+	name="af Hreidgotaland"
+	culture = crimean_gothic
+}
+1000366333 = {
+	name="af Taurika"
+	culture = crimean_gothic
+}
+1000366334 = {
+	name="af Gutthiuda"
+	culture = crimean_gothic
+}
+1000366335 = {
+	name="af Danpar"
+	culture = crimean_gothic
+}
+1000366336 = {
+	name="af Dunaws"
+	culture = crimean_gothic
+}
+1000366337 = {
+	name="af Nedao"
+	culture = crimean_gothic
+}
+1000366338 = {
+	name="af Hlodskvida"
+	culture = crimean_gothic
+}
+1000366339 = {
+	name="af Arheimar"
+	culture = crimean_gothic
+}
+1000366340 = {
+	name="af Kuni"
+	culture = crimean_gothic
+}
+1000366341 = {
+	name="af Waurda"
+	culture = crimean_gothic
+}
+1000366342 = {
+	name="af Midjungard"
+	culture = crimean_gothic
+}
+1000366343 = {
+	name="af Gilstr"
+	culture = crimean_gothic
+}
+1000366344 = {
+	name="af Dunheith"
+	culture = crimean_gothic
+}
+1000366345 = {
+	name="af Haliuruna"
+	culture = crimean_gothic
+}
+1000366346 = {
+	name="af Enguz"
+	culture = crimean_gothic
+}
+1000366347 = {
+	name="af Ansuz"
+	culture = crimean_gothic
+}
+1000366348 = {
+	name="af Harvada"
+	culture = crimean_gothic
+}
+1000366349 = {
+	name="af Myrkvidr"
+	culture = crimean_gothic
+}
+1000366350 = {
+	name="Adalrikigg"
+	culture = crimean_gothic
+}
+1000366351 = {
+	name="Alarikigg"
+	culture = crimean_gothic
+}
+1000366352 = {
+	name="Thurigg"
+	culture = crimean_gothic
+}
+1000366353 = {
+	name="Ermanigg"
+	culture = crimean_gothic
+}
+1000366354 = {
+	name="Ulfigg"
+	culture = crimean_gothic
+}
+1000366355 = {
+	name="Hunigg"
+	culture = crimean_gothic
+}
+1000366356 = {
+	name ="Tiusigg"
+	culture = crimean_gothic
+}
+1000366357 = {
+	name="Reikigg"
+	culture = crimean_gothic
+}
+1000366358 = {
+	name="Kunigg"
+	culture = crimean_gothic
+}
+1000366359 = {
+	name="Athanrikigg"
+	culture = crimean_gothic
+}
+1000366360 = {
+	name="Amaligg"
+	culture = crimean_gothic
+}
+1000366361 = {
+	name="Thervigg"
+	culture = crimean_gothic
+}
+1000366362 = {
+	name="Vesigg"
+	culture = crimean_gothic
+}
+1000366363 = {
+	name="Greuthigg"
+	culture = crimean_gothic
+}
+1000366364 = {
+	name="Fridarikigg"
+	culture = crimean_gothic
+}
+1000366365 = {
+	name="Vandaligg"
+	culture = crimean_gothic
+}
+1000366366 = {
+	name="Gausigg"
+	culture = crimean_gothic
+}
+1000366367 = {
+	name="Angantyrigg"
+	culture = crimean_gothic
+}
+1000366368 = {
+	name="Gizurigg"
+	culture = crimean_gothic
+}
+1000366369 = {
+	name="Grytigg"
+	culture = crimean_gothic
+}
+1000366370 = {
+	name="Heidrekigg"
+	culture = crimean_gothic
+}
+1000366371 = {
+	name="Alrekigg"
+	culture = crimean_gothic
+}
+1000366372 = {
+	name="Ardarikigg"
+	culture = crimean_gothic
+}
+1000366373 = {
+	name="Rugigg"
+	culture = crimean_gothic
+}
+1000366374 = {
+	name="Heruligg"
+	culture = crimean_gothic
+}
+1000366375 = {
+	name="Alanigg"
+	culture = crimean_gothic
+}
+1000366376 = {
+	name="Gepidigg"
+	culture = crimean_gothic
+}
+1000366377 = {
+	name="Ansisigg"
+	culture = crimean_gothic
+}
+1000366378 = {
+	name="Filimerigg"
+	culture = crimean_gothic
+}
+1000366379 = {
+	name="Gutigg"
+	culture = crimean_gothic
+}
+1000366380 = {
+	name="Harvadigg"
+	culture = crimean_gothic
+}

@@ -247,8 +247,13 @@ title_court_jester = {
 					tier = emperor
 				}
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+				religion_group = indian_group
+				religion_group = gnostic_group
+			}
 		}
 		NOT = { has_character_flag = guru }
 	}
@@ -360,9 +365,11 @@ title_master_of_the_hunt = {
 			}
 			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan_group }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = indian_group
+				religion_group = gnostic_group
 		}
 		NOT = { trait = craven }
 		NOT = { has_character_flag = guru }
@@ -475,6 +482,7 @@ title_seneschal = {
 				religion_group = christian
 				religion_group = jewish_group
 				religion_group = indian_group
+				religion_group = gnostic_group
 			}
 		}
 		NOT = { has_character_flag = guru }
@@ -526,8 +534,11 @@ title_despot = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 		}
 	}
 	
@@ -558,8 +569,11 @@ title_sebastokrator = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 		}
 	}
 	
@@ -589,8 +603,11 @@ title_caesar = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 		}
 	}
 	
@@ -622,8 +639,11 @@ title_kouropalates = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 		}
 	}
 	
@@ -652,8 +672,11 @@ title_anthypatos = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 		}
 	}
 	
@@ -679,8 +702,11 @@ title_imperial_eunuch = {
 		trait = eunuch
 		FROM = {
 			is_feudal = yes
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
+			OR = {
+				religion_group = christian
+				religion_group = jewish_group
+				religion_group = pagan_group
+			}
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
@@ -799,6 +825,8 @@ title_court_musician = {
 			is_female = no
 			religion_group = muslim
 			religion_group = indian_group
+			religion_group = gnostic_group
+			religion_group = zoroastrian_group
 			culture_group = latin
 			culture_group = iberian
 			culture_group = gallic
@@ -842,6 +870,8 @@ title_court_poet = {
 			}
 			religion_group = muslim
 			religion_group = indian_group
+			religion_group = gnostic_group
+			religion_group = zoroastrian_group
 			NOT = { culture_group = west_african }
 			NOT = { culture_group = central_african }
 			NOT = { religion = west_african_pagan }

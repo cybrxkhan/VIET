@@ -292,35 +292,6 @@ zoroastrian_celibacy = {
 	church_opinion = -10
 }
 
-zoroastrian_chastity = {
-	potential = {
-		religion_group = zoroastrian_group
-	}
-	
-	trigger = {
-		trait = chaste
-		religion_group = zoroastrian_group
-	}
-	
-	icon = 12
-	monthly_character_piety = -0.70
-}
-
-
-zoroastrian_lustfulness = {
-	potential = {
-		religion_group = zoroastrian_group
-	}
-	
-	trigger = {
-		trait = lustful
-		religion_group = zoroastrian_group
-	}
-	
-	icon = 12
-	monthly_character_piety = 0.5
-}
-
 
 #####################################################################
 # BVDDHIST

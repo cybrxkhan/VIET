@@ -730,7 +730,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 
-	griko = { #Sicilian Greek
+	sicilian_greek = { #Sicilian Greek
 		graphical_culture = byzantinegfx
 		
 		color = { 0.3 0.0 0.3 }
@@ -1093,7 +1093,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	
-	cumbrian = { #credits to bloodmerchant
+	cumbric = { #credits to bloodmerchant
 		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.6 }
@@ -1447,40 +1447,31 @@ central_germanic = {
 		color = { 0.6 0.6 0.6 }
 
 		male_names = {
-			Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adhemar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert 
-			Aldrich_Aldric Almerich_Amalric Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Arnold_Arnold 
-			Arnulf_Arnulf Augustin_Augustus Baldarich_Baldric Baldemar_Baldemar Baldewin_Baldwin Baldomar_Baldemar Baldur_Balder Berengar_Berengar 
-			Bernhard_Bernard Berthold_Berthold Bruno_Bruno Burchard_Bouchard Burchard_Burchard Caspar_Caspar Chlothar_Lothair Christopher_Christopher 
-			Dedo_Dedo Diether_Thierry Dietmar_Dietmar Dietpold_Dietpold Dietrich_Thierry Dietwin_Dietwin Donar_Thor 
-			Eberhard_Everard Eckhard_Eckhard Eginolf_Eginolf Ehrenfried_Ehrenfried Ekbert_Egbert Ekbert_Egbert Ekkehard_Ekkehard Emelrich_Aymeric 
-			Emich_Emich Emmerich_Aymeric Emund_Emund Engelbert_Engelbert Engelbrecht_Engelbrecht Erich_Erik Ernst_Ernest Ezzo_Ezio 
-			Ferdinand_Ferdinand Filibert_Filibert Folkhard_Folkhard Folkmar_Folkmar Franz_Francis Friedrich_Frederick Gautselin_Joscelin Gebhard_Gebhard 
-			Georg_George Gerhard_Gerard Gerhard_Gerhard Gerlach_Gerlach Gero_Gero Giselbert_Gilbert Gottfried_Godfrey Gotthard_Gotthard 
-			Gottschalk_Gottschalk Gottschalk_Gottschalk Gotzelo_Gotzelo Guntram_Guntram Gunzelin_Günther Günther_Günther Günzel_Günzel Hans_Hans 
-			Hartmann_Hartmann Hartwig_Hartwig Heinrich_Henry Helferich_Helferich Herbert_Herbert Heribert_Herbert Hermann_Herman Hesso_Hesso 
-			Hugo_Hugh Humbert_Humbert Hupold_Hupold Jakob_Jacob Johann_John Jürgen_George Karl_Charles Karlmann_Carloman 
-			Karloman_Carloman Kaspar_Caspar Konrad_Konrad Kuno_Konrad Lambert_Lambert Landolf_Landolf Leopold_Leopold Liutbert_Lutbert 
-			Liutbrand_Liutbrand Liutpold_Leopold Lorenz_Laurence Lothar_Lothair Ludolf_Ludolf Ludwig_Louis Luitpold_Luitpold Lutbert_Lutbert 
-			Magnus_Magnus Manegold_Manegold Manfred_Manfred Markward_Markward Martin_Martin Mathias_Matthew Matthias_Matthew Meinhard_Meinhard 
-			Michael_Michael Nikolaus_Nicholas Norbert_Norbert Oliver_Oliver Ordulf_Ordulf Otto_Otto Peter_Peter Philipp_Philip 
-			Poppo_Poppo Radbot_Radbot Reinhard_Renard Reinhard_Renard Reinhold_Reginald Rudger_Roger Rudolf_Ralph Ruprecht_Robert 
-			Rutger_Roger Siegfried_Siegfried Sieghard_Sieghard Siegmund_Sigmund Sigismund_Sigmund Simon_Simon Stefan_Stephen Theodorich_Thierry 
-			Thietmar_Dietmar Thomas_Thomas Udalrich_Ulrich Udo_Otto Ulrich_Ulrich Viktor_Victor Waldemar_Vladimir Walram_Walram 
-			Walther_Walter Welf_Lupo Wenzel_Vaclav Werner_Werner Wichmann_Wichmann Wido_Guy Widukind_Widukind Wigerich_Wigerich 
-			Wilhelm_William Wolfgang_Wolfgang Wolfram_Wolfram
+			Adalbero_Adalbero Adalbert_Albert Adalhard_Adalhard Adam_Adam Ademar_Adémar Adolf_Adolf Alarich_Alaric Alberich_Aubrey Albrecht_Albert Aldrich_Aldric
+			Alois_Louis Amadeus_Amadeus Amalrich_Amalric Andreas_Andrew Anselm_Anselm Arnold_Arnold Arnulf_Arnulf Augustin_August Baldarich_Baldric
+			Baldewin_Baldwin Baldomar Baldur_Balder Berengar_Berengar Bernhard_Bernard Berthold_Berthold Burchard_Bouchard Christopher_Christopher
+			Dieter_Dieter Dietmar_Dietmar Dietpold Dietrich_Thierry Dietwin Eberhard_Everard Eginolf Ehrenfried Ekbert_Egbert Ekkehard_Ekkehard Emelrich_Aymeric
+			Emich Emmerich_Aymeric Emund_Emund Engelbert_Engelbert Erich_Erik Ernst_Ernest Ferdinand_Ferdinand Filibert_Filibert Folkhard Folkmar Franz_Francis Friedrich_Frederick
+			Gautselin_Joscelin Gebhard_Gebhard Georg_George Gerhard_Gerard Gerlach_Gerlach Giselbert_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk
+			Gotzelo Guntram Gunzelin_Günther Günther_Günther Hans_Hans Hartmann Hartwig Heinrich_Henry Helferich Heribert_Herbert Hermann_Herman Hesso
+			Hugo_Hugh Humbert_Humbert Hupold Jakob_Jacob Johann_John Jürgen_George Karl_Charles Karlmann_Carloman Kaspar_Caspar Konrad_Konrad Kuno_Konrad
+			Lambert_Lambert Landolf_Landolf Leopold_Leopold Liudolf_Ludolf Liutbert_Lutbert Liutbrand Liutpold_Leopold Lothar_Lothair Ludolf_Ludolf Ludwig_Louis Lutbert_Lutbert
+			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Michael_Michael Nikolaus_Nicholas Norbert_Norbert
+			Otto_Otto Peter_Peter Philipp_Philip Poppo Radbot_Radbot Reinhard_Renard Reinhold_Reginald Rudolf_Ralph Ruprecht_Robert Rutger_Roger Siegfried_Siegfried
+			Sieghard Siegmund_Sigmund Sigismund_Sigmund Simon_Simon Stefan_Stephen Theodorich_Thierry Thietmar_Dietmar Thomas_Thomas
+			Udalrich_Ulrich Ulrich_Ulrich Viktor_Victor Waldemar_Vladimir Walram_Walram Walther_Walter Welf_Lupo Wenzel_Vaclav Werner_Werner Wido_Guy
+			Wigerich Wilhelm_William Wolfgang Wolfram_Wolfram
 		}
 		female_names = {
-			Adela_Adela Adelheid_Adelaide Adelinde_Adelinde Agathe_Agatha Agnes_Agnes Alberade_Alberada Amalberga_Amalberga Amalie_Amelia 
-			Barbara_Barbara Beatrix_Beatrice Benedicta_Benedicta Berchte_Bertha Berta_Bertha Binhilde_Binhilde Brunhilde_Brunhilda Cecilie_Cecilia 
-			Christine_Christina Cothilda_Clotilde Dorothea_Dorothy Elisabeth_Elisabeth Emma_Emma Engeltraud_Engeltraud Ermengard_Ermengarde Eufemia_Euphemia 
-			Frida_Frida Friedrica_Frederique Gerberga_Gerberga Gerhild_Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun Gunhilda_Gunhild 
-			Hedwig_Hedwig Heike_Heike Heilwiva_Heilwiva Helene_Helen Helga_Helga Hemma_Emma Henrike_Henrika Hildeburg_Hildeburg 
-			Hildegard_Hildegard Ida_Ida Ilsa_Ilsa Inga_Inga Ingeltrude_Ingeltrude Irmele_Irmele Irmeltrud_Irmeltrud Irmgard_Ermengarde 
-			Isentrude_Isentrude Judith_Judith Jutta_Judith Jutte_Jutte Karlotte_Carlotte Katharina_Catherine Klara_Clara Klementia_Clementia 
-			Konstanze_Constance Kriemhild_Kriemhild Kunigunde_Kunigunde Luitgard_Luitgard Margarete_Margaret Maria_Maria Mathilde_Matilda Mechthild_Matilda 
-			Mechtild_Mechtild Oda_Oda Osterhild_Osterhild Richara_Ricarda Richenza_Richenza Richwara_Richwara Romilda_Romilda Serhilda_Serhilda 
-			Sofie_Sophia Sybille_Sibylla Trude_Trude Ulrike_Ulrike Ursula_Ursula Ute_Ute Walpurga_Walpurga Wilhelmina_Wilhelmina 
-			Winfrida_Winfrida Wulfhilde_Wulfhilde  
+			Adela_Adela Adelheid_Adelaide Adelinde Agathe_Agatha Agnes_Agnes Alberade Amalberga Amalie_Amelia Barbara
+			Beatrix_Beatrice Benedicta_Benedicta Berchte Berta_Bertha Binhilde Brunhilde_Brunhilda Cecilie_Cecilia Christine_Christina
+			Cothilda_Clotilde Dorothea_Dorothy Elisabeth_Elisabeth Emma_Emma Engeltraud Ermengard_Ermengarde Eufemia_Euphemia
+			Frida Friedrica_Frederique Gerberga_Gerberga Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun Gunhilda_Gunhild
+			Hedwig_Hedwig Heike Heilwiva Helene_Helen Helga Hemma_Emma Henrike Hildeburg Hildegard_Hildegard Ida_Ida Ilsa Inga_Inga
+			Ingeltrude Irmele Irmeltrud Irmgard_Ermengarde Isentrude Jutta_Judith Karlotte_Caroline Katharina_Catherine Klara_Clara
+			Klementia_Clementia Konstanze_Constance Kriemhild Kunigunde_Kunigunde Luitgard_Luitgard Margarete_Margaret Maria_Maria
+			Mechthild_Matilda Oda Osterhild Richara_Ricarda Richenza Richwara Romilda Serhilda_Serhilda Sofie_Sophia Sybille_Sibylla Trude
+			Ulrike Ursula Ute_Ute Walpurga Wilhelmina_Wilhelmina Winfrida Wulfhilde_Ulfhild
 		}
 		from_dynasty_prefix = "von "
 
@@ -1505,7 +1496,7 @@ central_germanic = {
 			Abrahil Abram Adalbald Adalbert_Albert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn
 			Andica Ansovald Arcambald Aregisel Arnegisel Arnulf_Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
 			Avremar Badegisel Balduin_Baldwin Barnard Berald Bernard_Bernard Berneri Bero Berold Berthefried Bertlin Bertram
-			Bertrand Burchard_Bouchard Carloman_Carloman Carolus_Charles Ceslin Chararic Charibert Childebert Childeric Chilperic
+			Bertrand Burchard_Bouchard Karloman_Carloman Carolus_Charles Ceslin Chararic Charibert Childebert Childeric Chilperic
 			Chlodomer Chlothar_Lothair Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo_Drogo Eberulf Ebregisel Engilbert
 			Euric Everard_Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
 			Galteri Gararic Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
@@ -3797,7 +3788,7 @@ iranian = {
                modifier = cultural_flexibility
 		}
 
-	tajik = {
+	khorasani = {
 		graphical_culture = persiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 
@@ -5201,7 +5192,7 @@ north_african = {
 		mother_name_chance = 30
 	}
 	
-	siculo_arabic = {
+	sicilian_arabic = {
 		graphical_culture = andalusiangfx
 		second_graphical_culture = turkishgfx # Fallback type
 		color = { 0.8 0.9 0.2 }
@@ -5845,7 +5836,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-    tocharian = {
+    tokharian = {
         graphical_culture = persiangfx
 		second_graphical_culture = muslimgfx
         color = { 0.75 0.45 0.95  }
@@ -5932,7 +5923,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-	sogdian = {
+	soghdian = {
 		graphical_culture = persiangfx
 		second_graphical_culture = muslimgfx
 		color = { 0.2 0.05 0.3 }

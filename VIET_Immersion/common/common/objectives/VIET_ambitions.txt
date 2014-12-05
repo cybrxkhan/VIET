@@ -5,11 +5,11 @@
 # Live to Old Age
 # Gain Virtue
 # Find Love
-# Wage Holy War
 # Have Grandchild
 # Have No Worries
 # Follow Truth
 # Go Traveling
+# Embrace Poverty
 #
 # Salvaged from AO 2.0:
 # Get Nickname
@@ -234,102 +234,6 @@ obj_find_love = {
 	}
 }
 
-obj_wage_holy_war = {
-	type = character
-	
-	allow = {
-		age = 16
-		NOT = { trait = cynical }
-		NOT = { has_character_flag = successful_holy_war_ambition }
-		OR = {
-			religion = catholic
-			religion_group = muslim
-		}
-		is_ruler = yes
-	}
-	chance = {
-		factor = 100
-
-		modifier = {
-			factor = 0.5
-			trait = slothful
-		}		
-		modifier = {
-			factor = 0.5
-			trait = content
-		}
-		modifier = {
-			factor = 0.5
-			trait = patient
-		}
-		modifier = {
-			factor = 0.5
-			trait = charitable
-		}
-		modifier = {
-			factor = 0.5
-			trait = craven
-		}
-		modifier = {
-			factor = 4
-			trait = zealous
-		}
-		modifier = {
-			factor = 3
-			trait = brave
-		}
-		modifier = {
-			factor = 3
-			trait = wroth
-		}
-		modifier = {
-			factor = 2
-			trait = greedy
-		}
-		modifier = {
-			factor = 2
-			trait = ambitious
-		}
-		modifier = {
-			factor = 2
-			trait = diligent
-		}
-	}
-	success = {
-		OR = {
-			OR = {
-				any_war = {
-					using_cb = religious
-				}
-				any_liege = {
-					any_war = {
-						using_cb = religious
-					}
-				}
-			}
-			OR = {
-				any_war = {
-					using_cb = crusade
-				}
-				any_liege = {
-					any_war = {
-						using_cb = crusade
-					}
-				}
-			}
-		}
-	}
-	abort = {
-		trait = incapable
-	}
-	abort_effect = {
-	}
-	effect = {
-		piety = 40
-		set_character_flag = successful_holy_war_ambition
-	}
-}
-
 obj_have_a_grandchild = {
 	type = character
 	
@@ -479,7 +383,7 @@ obj_follow_truth = {
 		NOT = { trait = incapable }
 	}
 	chance = {
-		factor = 100
+		factor = 80
 
 		modifier = {
 			factor = 0.5
@@ -1063,14 +967,16 @@ obj_church_career = {
 	
 	allow = {
 		age = 16
-		is_female = no
 		prisoner = no
 		is_ruler = no
 		ai = yes
 		NOT = { trait = ambitious }
 		NOT = { trait = incapable }
 		NOT = { trait = envious }
-		religion = catholic
+		NOT = { trait = cynical }
+		NOT = { trait = monk }
+		NOT = { trait = nun }
+		religion_group = christian
 		liege = { 
 			NOT = { is_close_relative = ROOT }
 		}
@@ -1087,7 +993,7 @@ obj_church_career = {
 		
 		modifier = {
 			factor = 0.1
-			trait = cynical
+			is_female = yes
 		}
 		
 		modifier = {
@@ -1129,12 +1035,17 @@ obj_church_career = {
 		
 	}
 	success = {
-		is_priest = yes
+		OR = {
+			is_priest = yes
+			trait = monk
+			trait = nun
+		}
 	}
 	abort = {
 		OR = {
 			trait = ambitious
 			trait = envious
+			trait = incapable
 			AND = {
 				is_ruler = yes
 				is_priest = no 
@@ -1153,5 +1064,98 @@ obj_church_career = {
 			modifier = opinion_ambition_fulfilled
 			months = 24
 		}
+	}
+}
+
+obj_embrace_poverty = {
+	type = character
+	
+	allow = {
+		age = 16
+		prisoner = no
+		NOT = { trait = charitable }
+		NOT = { trait = temperate }
+		NOT = { trait = incapable }
+		OR = {
+			religion = dulcinian
+			religion = fraticelli
+			religion = qalandari
+			religion = mazdaki
+			religion = khurramite
+			religion = behafaridite
+			religion = stefanite
+		}
+		liege = { 
+			NOT = { is_close_relative = ROOT }
+		}
+		NOT = { has_character_flag = VIET_embraced_poverty }
+		
+	}
+	
+	chance = {
+		factor = 50
+		
+		
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}		
+		modifier = {
+			factor = 2
+			trait = humble
+		}			
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}		
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}
+		
+		modifier = {
+			factor = 2
+			trait = diligent
+		}		
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 3
+			trait = zealous
+		}		
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = detached_priest
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		
+	}
+	success = {
+		OR = {
+			trait = charitable
+			trait = temperate
+		}
+	}
+	abort = {
+		trait = incapable
+	}
+	
+	abort_effect = {
+	}
+	
+	effect = {
+		change_learning = 1
+		piety = 20
+		set_character_flag = VIET_embraced_poverty
 	}
 }

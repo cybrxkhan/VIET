@@ -291,3 +291,283 @@
 	name="Susarri"
 	culture = celtiberian
 }
+1000092670 = {
+	name="Praeses"
+	culture = pannonian
+}
+1000092671 = {
+	name="Sopiana"
+	culture = pannonian
+}
+1000092672 = {
+	name="Siscia"
+	culture = pannonian
+}
+1000092673 = {
+	name="Sala"
+	culture = pannonian
+}
+1000092674 = {
+	name="Teurnia"
+	culture = pannonian
+}
+1000092675 = {
+	name="Ambidravi"
+	culture = pannonian
+}
+1000092676 = {
+	name="Anisus"
+	culture = pannonian
+}
+1000092677 = {
+	name="Valcum"
+	culture = pannonian
+}
+1000092678 = {
+	name="Savaria"
+	culture = pannonian
+}
+1000092679 = {
+	name="Vindobona"
+	culture = pannonian
+}
+1000092680 = {
+	name="Scarbantia"
+	culture = pannonian
+}
+1000092681 = {
+	name="Arrabona"
+	culture = pannonian
+}
+1000092682 = {
+	name="Eravisci"
+	culture = pannonian
+}
+1000092683 = {
+	name="Mursa"
+	culture = pannonian
+}
+1000092684 = {
+	name="Brigetio"
+	culture = pannonian
+}
+1000092685 = {
+	name="Salva"
+	culture = pannonian
+}
+1000092686 = {
+	name="Gerulata"
+	culture = pannonian
+}
+1000092687 = {
+	name="Iovia"
+	culture = pannonian
+}
+1000092688 = {
+	name="Cirpi"
+	culture = pannonian
+}
+1000092689 = {
+	name="Bassiana"
+	culture = pannonian
+}
+1000092690 = {
+	name="Boscawen"
+	culture = cornish
+}
+1000092691 = {
+	name="Flammank"
+	culture = cornish
+}
+1000092692 = {
+	name="Lucombe"
+	culture = cornish
+}
+1000092693 = {
+	name="Tuchet"
+	culture = cornish
+}
+1000092694 = {
+	name="Arundell"
+	culture = cornish
+}
+1000092695 = {
+	name="Windslade"
+	culture = cornish
+}
+1000092696 = {
+	name="Carew"
+	culture = cornish
+}
+1000092697 = {
+	name="Bawcock"
+	culture = cornish
+}
+1000092698 = {
+	name="Boson"
+	culture = cornish
+}
+1000092699 = {
+	name="Edgecombe"
+	culture = cornish
+}
+1000092700 = {
+	name="Dowriche"
+	culture = cornish
+}
+1000092701 = {
+	name="Enys"
+	culture = cornish
+}
+1000092702 = {
+	name="Tintagel"
+	culture = cornish
+}
+1000092703 = {
+	name="Killegrew"
+	culture = cornish
+}
+1000092704 = {
+	name="Trewenard"
+	culture = cornish
+}
+1000092705 = {
+	name="Trelawny"
+	culture = cornish
+}
+1000092706 = {
+	name="Carminow"
+	culture = cornish
+}
+1000092707 = {
+	name="Tregury"
+	culture = cornish
+}
+1000092708 = {
+	name="Trevisa"
+	culture = cornish
+}
+1000092709 = {
+	name="Vyvyan"
+	culture = cornish
+}
+1000092710 = {
+	name="Hambley"
+	culture = cornish
+}
+1000092711 = {
+	name="Pilchard"
+	culture = cornish
+}
+1000092712 = {
+	name="Lannstefan"
+	culture = cornish
+}
+1000092713 = {
+	name="Trematon"
+	culture = cornish
+}
+1000092714 = {
+	name="Rostorrmel"
+	culture = cornish
+}
+1000092715 = {
+	name="Grenville"
+	culture = cornish
+}
+1000092716 = {
+	name="Raleigh"
+	culture = cornish
+}
+1000092717 = {
+	name="Drake"
+	culture = cornish
+}
+1000092718 = {
+	name="Specott"
+	culture = cornish
+}
+1000092719 = {
+	name="Mylwaye"
+	culture = cornish
+}
+1000092720 = {
+	name="Adariking"
+	culture = gepid
+}
+1000092721 = {
+	name="Elemunding"
+	culture = gepid
+}
+1000092722 = {
+	name="Apahida"
+	culture = gepid
+}
+1000092723 = {
+	name="Turda"
+	culture = gepid
+}
+1000092724 = {
+	name="Victoval"
+	culture = gepid
+}
+1000092725 = {
+	name="Caucalanda"
+	culture = gepid
+}
+1000092726 = {
+	name="Skirian"
+	culture = gepid
+}
+1000092727 = {
+	name="Malomfalva"
+	culture = gepid
+}
+1000092728 = {
+	name="Olt"
+	culture = gepid
+}
+1000092729 = {
+	name="Ister"
+	culture = gepid
+}
+1000092730 = {
+	name="Kunagota"
+	culture = gepid
+}
+1000092731 = {
+	name="Gepanta"
+	culture = gepid
+}
+1000092732 = {
+	name="Tisa"
+	culture = gepid
+}
+1000092733 = {
+	name="Nedao"
+	culture = gepid
+}
+1000092734 = {
+	name="Asfeld"
+	culture = gepid
+}
+1000092735 = {
+	name="Leupichising"
+	culture = gepid
+}
+1000092736 = {
+	name="Oszanda"
+	culture = gepid
+}
+1000092737 = {
+	name="Siling"
+	culture = gepid
+}
+1000092738 = {
+	name="Therving"
+	culture = gepid
+}
+1000092739 = {
+	name="Greuthung"
+	culture = gepid
+}

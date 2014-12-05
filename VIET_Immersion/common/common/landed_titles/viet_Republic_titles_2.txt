@@ -1,25 +1,3 @@
-#Hormuz
-b_thakkur = {
-	culture = gujurati
-	religion = hindu
-}
-b_abdullid = {
-	culture = bedouin_arabic #101018 Abdullid
-	religion = sunni
-}
-b_mustawfi = { #1031124 Mustawfi
-	culture = persian
-	religion = shiite
-}
-b_motamedi = {
-	culture = persian
-	religion = sunni
-}
-b_suren = {
-	culture = persian
-	religion = zoroastrian
-}
-
 #Brugge
 b_kraft = { #1000061359
 	culture = dutch
@@ -42,29 +20,6 @@ b_van_der_geest = { #1000061363
 	religion = catholic
 }
 
-
-
-#Somalia
-b_makhzumi = {
-	culture = somali
-	religion = sunni
-}
-b_walashma = {
-	culture = somali
-	religion = sunni
-}
-b_gareen = {
-	culture = somali
-	religion = sunni
-}
-b_warsangali = {
-	culture = somali
-	religion = sunni
-}
-b_gobroon = {
-	culture = somali
-	religion = sunni
-}
 
 #Oran
 b_sabaricid = { #1000091721

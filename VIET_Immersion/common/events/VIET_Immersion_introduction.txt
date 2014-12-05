@@ -92,58 +92,58 @@ narrative_event = {
 			671 = { culture = azeri }
 			674 = { culture = azeri }
 			675 = { culture = azeri }
-			#Sogdian
-			1186 = { culture = sogdian }
-			1423 = { culture = sogdian }
+			#soghdian
+			1186 = { culture = soghdian }
+			1423 = { culture = soghdian }
 			if = {
 				limit = {
 					NOT = { year = 890 }
 				}
-				1424 = { culture = sogdian }
+				1424 = { culture = soghdian }
 			}
 			if = {
 				limit = {
 					NOT = { year = 1000 }
 				}
-				628 = { culture = sogdian }
-				903 = { culture = sogdian }
-				1188 = { culture = sogdian }
+				628 = { culture = soghdian }
+				903 = { culture = soghdian }
+				1188 = { culture = soghdian }
 			}
 			if = {
 				limit = {
 					NOT = { year = 1100 }
 				}
-				1181 = { culture = sogdian }
+				1181 = { culture = soghdian }
 			}
-			#Tajik
-			624 = { culture = tajik }
-			902 = { culture = tajik }
-			904 = { culture = tajik }
+			#khorasani
+			624 = { culture = khorasani }
+			902 = { culture = khorasani }
+			904 = { culture = khorasani }
 			if = {
 				limit = {
 					NOT = { year = 1230 }
 				}
-				625 = { culture = tajik }
-				626 = { culture = tajik }
-				627 = { culture = tajik }
-				629 = { culture = tajik }
-				630 = { culture = tajik }
-				631 = { culture = tajik }
-				1377 = { culture = tajik }
-				1378 = { culture = tajik }
+				625 = { culture = khorasani }
+				626 = { culture = khorasani }
+				627 = { culture = khorasani }
+				629 = { culture = khorasani }
+				630 = { culture = khorasani }
+				631 = { culture = khorasani }
+				1377 = { culture = khorasani }
+				1378 = { culture = khorasani }
 			}
 			if = {
 				limit = {
 					year = 1000
 				}
-				903 = { culture = tajik }
-				1188 = { culture = tajik }
+				903 = { culture = khorasani }
+				1188 = { culture = khorasani }
 			}
 			if = {
 				limit = {
 					NOT = { year = 1100 }
 				}
-				1181 = { culture = tajik }
+				1181 = { culture = khorasani }
 			}
 			#Beta Israel
 			1380 = { culture = falashim }
@@ -175,10 +175,10 @@ narrative_event = {
 				limit = {
 					NOT = { year = 1130 }
 				}
-				340 = { culture = siculo_arabic }
-				341 = { culture = siculo_arabic }
-				342 = { culture = siculo_arabic }
-				812 = { culture = siculo_arabic }
+				340 = { culture = sicilian_arabic }
+				341 = { culture = sicilian_arabic }
+				342 = { culture = sicilian_arabic }
+				812 = { culture = sicilian_arabic }
 			}
 			#Guanche
 			849 = { culture = guanche }
@@ -445,6 +445,26 @@ narrative_event = {
 			k_dumnonia = {
 				de_jure_liege = e_britannia
 			}
+		}
+		if = {
+			limit = {
+				has_global_flag = SWMH
+			}
+			#############################################
+			# DE JURE BORDER SETUP
+			#############################################
+			#New Duchies
+			if = {
+				limit = {
+					year = 937
+				}
+				c_orania = {
+					de_jure_liege = d_oran
+				}				
+			}
+			d_oran = {
+				de_jure_liege = k_maghreb 
+			}			
 		}
 	}
 	

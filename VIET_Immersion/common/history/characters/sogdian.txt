@@ -1,6 +1,6 @@
 ########################################################################################################################
 #
-# Sogdians, some Real, some Fictional - the end of the old Silk Road... or not?
+# soghdians, some Real, some Fictional - the end of the old Silk Road... or not?
 #
 # 100015890 - 100015xxx
 #
@@ -15,7 +15,7 @@
 	female=yes
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="gregarious"
 	add_trait="humble"
 	add_trait="paranoid"
@@ -30,7 +30,7 @@
 	name="Y’n"
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="midas_touched"
 	add_trait="patient"
 	add_trait="kind"
@@ -47,7 +47,7 @@
 	name="Vuvva"
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="charismatic_negotiator"
 	add_trait="ambitious"
 	add_trait="gregarious"
@@ -64,7 +64,7 @@
 	name="Kushan"
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="charismatic_negotiator"
 	add_trait="patient"
 	add_trait="gregarious"
@@ -81,7 +81,7 @@
 	name="Wakhushakk"
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="fortune_builder"
 	add_trait="tall"
 	add_trait="shy"
@@ -105,7 +105,7 @@
 	name="Khwadhawanakk"
 	dynasty=1000092085
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="charismatic_negotiator"
 	add_trait="ambitious"
 	add_trait="gregarious"
@@ -129,7 +129,7 @@
 	name="Abarzi"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	476.1.1={
 		birth="476.1.1"
 	}
@@ -141,7 +141,7 @@
 	name="Asthath"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015896
 	500.1.1={
 		birth="500.1.1"
@@ -154,7 +154,7 @@
 	name="Mak"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015897
 	535.1.1={
 		birth="535.1.1"
@@ -167,7 +167,7 @@
 	name="Dizo'i"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015898
 	560.1.1={
 		birth="560.1.1"
@@ -180,7 +180,7 @@
 	name="Kana"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015899
 	600.1.1={
 		birth="600.1.1"
@@ -193,7 +193,7 @@
 	name="Bidun"
 	dynasty=1000092074
 	religion="nestorian"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015900
 	650.1.1={
 		birth="650.1.1"
@@ -210,7 +210,7 @@
 	female=yes
 	#dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	#father=100015900
 	660.1.1={
 		birth="660.1.1"
@@ -223,7 +223,7 @@
 	name="Togshada"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015901
 	mother=100015902
 	679.1.1={
@@ -237,7 +237,7 @@
 	name="Qotayba"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015903
 	710.1.1={
 		birth="710.1.1"
@@ -250,7 +250,7 @@
 	name="Skan"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015903
 	715.1.1={
 		birth="715.1.1"
@@ -263,7 +263,7 @@
 	name="Bonyat"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015903
 	725.1.1={
 		birth="725.1.1"
@@ -276,7 +276,7 @@
 	name="Eskander"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015906
 	765.1.1={
 		birth="765.1.1"
@@ -289,7 +289,7 @@
 	name="Farn"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015907
 	810.1.1={
 		birth="810.1.1"
@@ -302,7 +302,7 @@
 	name="Abu Eshaq Ebrahim"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015908
 	850.1.1={
 		birth="850.1.1"
@@ -315,7 +315,7 @@
 	name="Ali"
 	dynasty=1000092074
 	religion="sunni"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015907
 	820.1.1={
 		birth="820.1.1"
@@ -338,7 +338,7 @@
 	name="Karakana"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	#father=100015911
 	720.1.1={
 		birth="720.1.1"
@@ -351,7 +351,7 @@
 	name="Kavoos"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015911
 	750.1.1={
 		birth="750.1.1"
@@ -364,7 +364,7 @@
 	name="Fazl"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015912
 	789.1.1={
 		birth="789.1.1"
@@ -377,7 +377,7 @@
 	name="Khaydar"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	add_trait="brilliant_strategist"
 	add_trait="wroth"
 	add_trait="kind"
@@ -396,7 +396,7 @@
 	name="Abdallah"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015914
 	811.1.1={
 		birth="811.1.1"
@@ -409,7 +409,7 @@
 	name="Sayyar"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015915
 	843.1.1={
 		birth="843.1.1"
@@ -423,7 +423,7 @@
 	name="Abu"
 	dynasty=1000092079
 	religion="khurramite"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015915
 	845.1.1={
 		birth="845.1.1"
@@ -436,7 +436,7 @@
 	name="Shapur"
 	dynasty=1000092079
 	religion="manichean"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015915
 	846.1.1={
 		birth="846.1.1"
@@ -449,7 +449,7 @@
 	name="Barak"
 	dynasty=1000092079
 	religion="buddhist"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015915
 	850.1.1={
 		birth="850.1.1"
@@ -462,7 +462,7 @@
 	name="Ali"
 	dynasty=1000092079
 	religion="manichean"
-	culture="sogdian"
+	culture="soghdian"
 	father=100015915
 	851.1.1={
 		birth="851.1.1"

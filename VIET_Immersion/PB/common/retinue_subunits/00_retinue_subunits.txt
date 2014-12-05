@@ -51,6 +51,7 @@ RETTYPE_CUL_ITA =
 		OR = {
 			culture = italian
 			culture = sicilian
+			culture = lombard
 			culture = pannonian
 		}
 		
@@ -528,7 +529,7 @@ RETTYPE_CUL_SCOT =
 	potential = {
 		OR = {
 			culture = scottish
-			culture = cumbrian
+			culture = cumbric
 		}
 		
 		# PB's retinue spam filter
@@ -699,6 +700,35 @@ RETTYPE_CUL_CASTILLIAN =
 	
 	potential = {
 		culture = castillan
+		
+		# PB's retinue spam filter
+		OR = {
+			ai = no
+			AND = {
+				higher_real_tier_than = count
+				OR = {
+					higher_real_tier_than = duke
+					AND = {
+						independent = yes
+						realm_size = 18
+					}
+					realm_size = 24
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_VISIGOTHIC = 
+{
+	first_type = 3
+	first_amount = 250
+	
+	potential = {
+		culture = visigothic
 		
 		# PB's retinue spam filter
 		OR = {

@@ -14,7 +14,6 @@ loremaster = {
 	learning = 1
 	
 	same_opinion = 20
-	tribal_opinion = 20
 	
 	command_modifier = {
 		morale_defence = 0.01
@@ -38,7 +37,6 @@ herbalist = {
 	learning = 1
 	
 	same_opinion = 20
-	tribal_opinion = 20
 	
 	command_modifier = {
 		speed = 0.02

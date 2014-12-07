@@ -3985,8 +3985,8 @@ character_event = {
 	option = {#no
 		name = VIETmisc.2039.a
 		random = {
-			chance = 5
 			add_trait = paranoid
+			chance = 5
 		}
 	}
 	option = {#for lover
@@ -21549,7 +21549,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2234
 	desc = VIETmisc.2234.desc
-	picture = GFX_evt_maiden
+	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
 	
@@ -21644,7 +21644,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2235
 	desc = VIETmisc.2235.desc
-	picture = GFX_evt_maiden
+	picture = GFX_evt_scandal
 
 	is_triggered_only = yes
 	
@@ -21730,7 +21730,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2236
 	desc = VIETmisc.2236.desc
-	picture = GFX_evt_maiden
+	picture = GFX_evt_feast
 
 	is_triggered_only = yes
 	
@@ -21816,7 +21816,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2237
 	desc = VIETmisc.2237.desc
-	picture = GFX_evt_maiden
+	picture = GFX_evt_book_carolingian_script
 
 	is_triggered_only = yes
 	
@@ -23379,6 +23379,7 @@ character_event = {
 		piety = 1
 		random = {
 			add_trait = paranoid
+			chance = 5
 		}
 	}
 	option = {#yes

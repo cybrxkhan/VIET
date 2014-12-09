@@ -1854,7 +1854,7 @@ narrative_event = {
 			limit = {
 				trait = stressed
 			}
-			removed_trait = stressed
+			remove_trait = stressed
 		}
 		character_event = { id = VIETmisc.5053 tooltip = VIETmisc.5053.tooltip days = 2 random = 2 }
 	}

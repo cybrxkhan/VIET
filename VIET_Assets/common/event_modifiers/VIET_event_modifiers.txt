@@ -319,6 +319,8 @@ VIET_egg_festival = {
 	icon = 39
 }
 meteor_impact_center = {
+	levy_size = -0.8
+	levy_reinforce_rate = -0.8
 	local_revolt_risk = 0.25
 	city_tax_modifier = -0.75
 	castle_tax_modifier = -0.75
@@ -326,6 +328,8 @@ meteor_impact_center = {
 	icon = 29
 }
 meteor_impact_distant = {
+	levy_size = -0.2
+	levy_reinforce_rate = -0.2
 	local_revolt_risk = 0.15
 	city_tax_modifier = -0.5
 	castle_tax_modifier = -0.5
@@ -392,7 +396,6 @@ VIET_cretan_vendetta = {
 	local_build_time_modifier = 0.05
 	local_build_cost_modifier = 0.05
 	local_tax_modifier = -0.05
-	garrison_growth = -0.05
 	levy_reinforce_rate = -0.05
 	icon = 31
 }
@@ -619,6 +622,80 @@ VIET_good_herbs = {
 VIET_skeptical_ruler = {
 	intrigue = 1
 	icon = 5
+}
+VIET_center_volcanic_eruption = {
+	local_revolt_risk = 0.05
+	levy_size = -0.4
+	levy_reinforce_rate = -0.4
+	city_tax_modifier = -0.6
+	castle_tax_modifier = -0.6
+	temple_tax_modifier = -0.6
+	icon = 29
+}
+VIET_near_volcanic_eruption = {
+	local_revolt_risk = 0.01
+	levy_size = -0.1
+	levy_reinforce_rate = -0.1
+	city_tax_modifier = -0.2
+	castle_tax_modifier = -0.2
+	temple_tax_modifier = -0.2
+	icon = 29
+}
+VIET_war_ideas = {
+	land_morale = 0.1
+	tech_growth_modifier_military = 0.02
+	castle_vassal_max_levy = 0.05
+	temple_vassal_max_levy = 0.05
+	city_vassal_max_levy = 0.05
+	icon = 13
+}
+VIET_war_problems = {
+	land_morale = -0.1
+	tech_growth_modifier_military = -0.02
+	castle_vassal_max_levy = -0.05
+	temple_vassal_max_levy = -0.05
+	city_vassal_max_levy = -0.05
+	icon = 13
+}
+VIET_good_music = {
+	diplomacy = 1
+	icon = 39
+}
+VIET_comfort_food = {
+	diplomacy = 1
+	fertility = 0.01
+	icon = 39
+}
+VIET_beef_eater_rumor = {
+	monthly_character_piety = -0.4
+	icon = 26
+}
+VIET_loves_kebabs = {
+	diplomacy = 1
+	icon = 18
+}
+VIET_hates_kebabs = {
+	diplomacy = -1
+	monthly_character_prestige = 0.25
+	icon = 18
+}
+VIET_special_rock = {
+	monthly_character_piety = 0.01
+	icon = 12
+}
+VIET_kobold_infestation = {
+	tech_growth_modifier_economy = -0.01
+	local_tax_modifier = -0.01
+	icon = 30
+}
+VIET_magical_napkins = {
+	monthly_character_prestige = 0.02
+	icon = 36
+}
+VIET_bad_acne = {
+	health = -0.1
+	general_opinion = -10
+	icon = 36
 }
 
 ### HOLY ORDERS

@@ -6,6 +6,216 @@
 
 namespace = wafrica
 
+
+# Griot modifiers redistributed as necessary - updated every year
+character_event = {
+	id = wafrica.0
+	desc = wafrica.0.desc
+	picture = GFX_evt_griot
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_rulers = yes
+	
+	trigger = {
+		OR = {
+			NOT = { has_global_flag = VIET_griots_set }
+			AND = { #has no griot
+				NOT = { has_character_modifier = VIET_no_griot }
+				NOT = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+					}
+				}
+				NOT = {
+					any_courtier = {
+						has_minor_title = title_court_griot
+					}
+				}
+			}
+			AND = { #has crappy griot
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 5 }
+						NOT = { diplomacy = 5 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 5 }
+						NOT = { diplomacy = 5 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_incompetent_griot }
+			}
+			AND = { #has ok griot
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 10 }
+						NOT = { diplomacy = 10 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 10 }
+						NOT = { diplomacy = 10 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_adequate_griot }
+			}
+			AND = { #has good griot
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 15 }
+						NOT = { diplomacy = 15 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 15 }
+						NOT = { diplomacy = 15 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_good_griot }
+			}
+			AND = { #has great griot
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 20 }
+						NOT = { diplomacy = 20 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 20 }
+						NOT = { diplomacy = 20 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_great_griot }
+			}
+		}		
+		#NOT = { has_character_modifier = VIET_no_griot }
+		#NOT = { has_character_modifier = VIET_incompetent_griot }
+		#NOT = { has_character_modifier = VIET_adequate_griot }
+		#NOT = { has_character_modifier = VIET_good_griot }
+		#NOT = { has_character_modifier = VIET_great_griot }
+		OR = {
+			culture_group = west_african
+			culture_group = central_african
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+		}
+		primary_title = { higher_tier_than = BARON }
+		NOT = {
+			any_vassal = {
+				has_minor_title = title_court_griot
+			}
+		}
+		NOT = {
+			any_courtier = {
+				has_minor_title = title_court_griot
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = VIET_griots_set }
+			}
+			add_character_modifier = {
+				name = VIET_no_griot
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_character_modifier = VIET_no_griot }
+				NOT = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+					}
+				}
+				NOT = {
+					any_courtier = {
+						has_minor_title = title_court_griot
+					}
+				}
+			}
+			add_character_modifier = {
+				name = VIET_no_griot
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 5 }
+						NOT = { diplomacy = 5 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 5 }
+						NOT = { diplomacy = 5 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_incompetent_griot }
+			}
+			add_character_modifier = {
+				name = VIET_incompetent_griot
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 15 }
+						NOT = { diplomacy = 15 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 15 }
+						NOT = { diplomacy = 15 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_good_griot }
+			}
+			add_character_modifier = {
+				name = VIET_good_griot
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					any_vassal = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 20 }
+						NOT = { diplomacy = 20 }
+					}
+					any_courtier = {
+						has_minor_title = title_court_griot
+						NOT = { learning = 20 }
+						NOT = { diplomacy = 20 }
+					}					
+				}
+				NOT = { has_character_modifier = VIET_great_griot }
+			}
+			add_character_modifier = {
+				name = VIET_great_griot
+				duration = -1
+			}
+		}
+		set_global_flag = VIET_griots_set
+	}
+}
+
 # Character gets Griot
 character_event = {
 	id = wafrica.1
@@ -157,8 +367,64 @@ character_event = {
 	}
 }
 
+# Griot modifiers redistributed as necessary - updated every year
+character_event = {
+	id = wafrica.2
+	desc = wafrica.2.desc
+	picture = GFX_evt_griot
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	only_rulers = no
+	
+	trigger = {
+		OR = {
+			has_character_modifier = VIET_no_griot
+			has_character_modifier = VIET_incompetent_griot
+			has_character_modifier = VIET_adequate_griot
+			has_character_modifier = VIET_good_griot
+			has_character_modifier = VIET_great_griot
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_character_modifier = VIET_no_griot
+			}
+			remove_character_modifier = VIET_no_griot
+		}
+		if = {
+			limit = {
+				has_character_modifier = VIET_incompetent_griot
+			}
+			remove_character_modifier = VIET_incompetent_griot
+		}
+		if = {
+			limit = {
+				has_character_modifier = VIET_adequate_griot
+			}
+			remove_character_modifier = VIET_adequate_griot
+		}
+		if = {
+			limit = {
+				has_character_modifier = VIET_good_griot
+			}
+			remove_character_modifier = VIET_good_griot
+		}
+		if = {
+			limit = {
+				has_character_modifier = VIET_great_griot
+			}
+			remove_character_modifier = VIET_great_griot
+		}
+	}
+	
+}
 
-#Griot marriage events removed (wafrica.2 and wafrica.3)
+#Griot marriage events removed (wafrica.3)
 
 #liege doesn't have a Griot - fired on a yearly basis to remind players
 character_event = {
@@ -168,9 +434,10 @@ character_event = {
 	
 	is_triggered_only = yes
 	
+	ai = no
+	
 	trigger = {
 		has_global_flag = VIET_Immersion_On
-		ai = no
 		OR = {
 			culture_group = west_african
 			culture_group = central_african

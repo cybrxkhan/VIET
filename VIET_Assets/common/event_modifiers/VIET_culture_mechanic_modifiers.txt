@@ -640,6 +640,124 @@ VIET_sogdian_colony = {
 	local_tax_modifier = 0.3
 	icon = 6
 }
+VIET_location_sogdian_fair_normal = {
+	local_tax_modifier = 1.5
+	local_revolt_risk = -0.02
+	icon = 6
+}
+VIET_location_sogdian_fair_max = {
+	local_tax_modifier = 1
+	local_revolt_risk = -0.05
+	icon = 6
+}
+VIET_location_sogdian_fair_tirmah = {
+	local_tax_modifier = 1.75
+	local_revolt_risk = -0.01
+	icon = 6
+}
+VIET_location_sogdian_fair_mxyrh = {
+	local_tax_modifier = 1.75
+	local_revolt_risk = -0.01
+	icon = 6
+}
+VIET_sogdian_fair_silk = {
+	monthly_character_prestige = 0.2
+	general_opinion = 5
+	icon = 4
+}
+VIET_sogdian_fair_spices = {
+	health = 0.3
+	fertility = 0.02
+	icon = 4
+}
+VIET_sogdian_fair_lacquer = {
+	diplomacy = 1
+	icon = 11
+}
+VIET_sogdian_fair_incense = {
+	monthly_character_piety = 0.25
+	icon = 8
+}
+VIET_sogdian_fair_horse_normal = {
+	diplomacy = 1
+	icon = 16
+}
+VIET_tirmah_fair_tricked = {
+	monthly_character_prestige = -0.1
+	icon = 23
+}
+VIET_tirmah_fair_tricker = {
+	monthly_character_prestige = 0.1
+	diplomacy = 1
+	icon = 5
+}
+VIET_sogdian_fair_didnt_purchase = {
+	icon = 24
+}
+VIET_sogdian_fair_baicao = {
+	intrigue = 2
+	icon = 5
+}
+VIET_sogdian_fair_horses = {
+	diplomacy = 1
+	martial = 1
+	icon = 16
+}
+VIET_sogdian_fair_fruits = {
+	diplomacy = 1
+	fertility = 0.05
+	icon = 18
+}
+VIET_sogdian_fair_wines = {
+	diplomacy = 1
+	general_opinion = 10
+	fertility = 0.1
+	icon = 39
+}
+VIET_sogdian_fair_haircloth = {
+	martial = 1
+	intrigue = 1
+	general_opinion = -5
+	icon = 15
+}
+VIET_sogdian_fair_drink = {
+	health = 0.3
+	icon = 17
+}
+VIET_sogdian_fair_exotic_food = {
+	diplomacy = 1
+	stewardship = 1
+	icon = 7
+}
+VIET_dreaming_of_silk_road = {
+	global_tax_modifier = 0.02
+	icon = 4
+}
+VIET_sogdian_fair_ivory = {
+	monthly_character_prestige = 0.3
+	icon = 7
+}
+VIET_sogdian_fair_rugs = {
+	intrigue = 1
+	monthly_character_prestige = 0.1
+	icon = 10
+}
+VIET_silk_road_cuisine_carb = {
+	health = 0.2
+	icon = 39
+}
+VIET_silk_road_cuisine_meat = {
+	martial = 1
+	icon = 39
+}
+VIET_silk_road_cuisine_sides = {
+	diplomacy = 1
+	icon = 39
+}
+VIET_silk_road_cuisine_dessert = {
+	fertility = 0.05
+	icon = 39
+}
 
 #####################################################################
 # MISC

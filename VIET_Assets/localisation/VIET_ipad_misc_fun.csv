@@ -811,33 +811,527 @@ VIETmisc.2254.desc;You encounter a stream. Since you’re feeling thirsty, you dec
 VIETmisc.2254.a;Probably not… right? Right…?;;;;;;;;;;;;;x
 VIETmisc.2254.b;I’ll just enjoy this water.;;;;;;;;;;;;;x
 VIETmisc.2254.c;Unlikely, though, now that I think about it. Generally, the peasants would...;;;;;;;;;;;;;x
-VIETmisc.2255.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2255.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2256.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2256.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2257.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2257.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2258.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2258.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2259.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2259.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2260.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2260.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2261.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2261.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2262.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2262.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2263.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2263.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2264.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2264.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2265.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2265.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2266.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2266.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2267.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2267.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2268.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2268.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2269.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2269.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2255.desc;War. War never changes.;;;;;;;;;;;x
+VIETmisc.2255.a;It doesn't, [Root.Religion.GetRandomGodName] save us all!;;;;;;;;;;;;;x
+VIETmisc.2255.b;Our cause is true in this war, though.;;;;;;;;;;;;;x
+VIETmisc.2255.c;Humans are bastards.;;;;;;;;;;;;;x
+VIETmisc.2256.desc;One of my courtiers has criticized the strategies and tactics I've been employing during this war. ;;;;;;;;;;;x
+VIETmisc.2256.a;You have a point, actually...;;;;;;;;;;;;;x
+VIETmisc.2256.b;Nobody questions me, the [Root.GetTitle]!;;;;;;;;;;;;;x
+VIETmisc.2256.c;I should explain in detail the reasoning behind my cunning decisions...;;;;;;;;;;;;;x
+VIETmisc.2257.desc;This war we fight has already cost many lives, and many more will die. Can I really say that I enjoy war?;;;;;;;;;;;x
+VIETmisc.2257.a;Yes!;;;;;;;;;;;;;x
+VIETmisc.2257.b;No.;;;;;;;;;;;;;x
+VIETmisc.2258.desc;While discussing war plans with a courtier, they give you a useful idea.;;;;;;;;;;;x
+VIETmisc.2258.a;Very clever! This will give us an advantage, surely.;;;;;;;;;;;;;x
+VIETmisc.2259.desc;Even in your sleep, in your dreams, you think about this war. It's all you ever think of!;;;;;;;;;;;x
+VIETmisc.2259.a;Why can't I have a moment of peace?;;;;;;;;;;;;;x
+VIETmisc.2260.desc;It appears some of your soldiers have acted dishonorably towards the enemy while on duty.;;;;;;;;;;;x
+VIETmisc.2260.a;Punish them. We have a code of honor to adhere to!;;;;;;;;;;;;;x
+VIETmisc.2260.b;Ignore the matter.;;;;;;;;;;;;;x
+VIETmisc.2260.c;Praise them! Our enemies will fear us.;;;;;;;;;;;;;x
+VIETmisc.2261.desc;An old veteran has offered me some useful suggestions on how best to conduct the ongoing war.;;;;;;;;;;;x
+VIETmisc.2261.a;His experience sure came in handy!;;;;;;;;;;;;;x
+VIETmisc.2262.desc;It seems like the merchants supplying my armies have been unable to fully keep up with our demands. Though the problem has been dealt with properly for now, these turn of events worry me a lot, as our resources are stretching a bit thin.;;;;;;;;;;;x
+VIETmisc.2262.a;We will have to make the best of it.;;;;;;;;;;;;;x
+VIETmisc.2263.desc;There are rumors among my troops that supernatural forces are working against us in this war. Whether these rumors are true or not, my men are increasingly demoralized!;;;;;;;;;;;x
+VIETmisc.2263.a;This is not good.;;;;;;;;;;;;;x
+VIETmisc.2264.desc;An enemy spy has been captured! It seems like he was sent by your enemy in this war to assess your troops and your possible strategies.;;;;;;;;;;;x
+VIETmisc.2264.a;Imprison him. Maybe he will reveal his secrets with some "encouragement.";;;;;;;;;;;;;x
+VIETmisc.2264.b;Behead him now, and send his head back to the enemy!;;;;;;;;;;;;;x
+VIETmisc.2265.desc;I’ve heard that many of the peasants under my rule are not eager to partake in this war. They claim that they suffer a lot for what seems to be pointless fighting.;;;;;;;;;;;x
+VIETmisc.2265.a;They should be happy, those useless pieces of filth!;;;;;;;;;;;;;x
+VIETmisc.2265.b;Though we must fight, I do feel bad for what the peasants have to go through.;;;;;;;;;;;;;x
+VIETmisc.2266.desc;Excellent! One of my spies managed to gather some useful information concerning the enemy’s movements and plans. ;;;;;;;;;;;x
+VIETmisc.2266.a;We can use this information to prepare our own counter-plans.;;;;;;;;;;;;;x
+VIETmisc.2267.desc;One of my guards seems to be unhappy about this war. It seems he personally knows some of the soldiers fighting for the other side.;;;;;;;;;;;x
+VIETmisc.2267.a;They are your enemy. That’s just how it is.;;;;;;;;;;;;;x
+VIETmisc.2267.b;I’m sorry to hear that.;;;;;;;;;;;;;x
+VIETmisc.2267.c;Now why do you know them? That sounds suspicious...;;;;;;;;;;;;;x
+VIETmisc.2268.desc;Sometimes I wonder whether this war will ever turn out good in the long run. Even if my side does end up winning, is that any comfort, knowing that we’ve only lived to fight another day?;;;;;;;;;;;x
+VIETmisc.2268.a;I don’t know.;;;;;;;;;;;;;x
+VIETmisc.2269.desc;I wonder whether [Root.Religion.GetRandomGodName] approves of this war.;;;;;;;;;;;x
+VIETmisc.2269.a;Of course!;;;;;;;;;;;;;x
+VIETmisc.2269.b;No, I would think not.;;;;;;;;;;;;;x
+VIETmisc.2270.desc;Someone wasn't looking at where they were going! A courtier has tripped and hit their head on a rock.;;;;;;;;;;;x
+VIETmisc.2270.a;Somebody, help!;;;;;;;;;;;;;x
+VIETmisc.2271.desc;This rock is unusually shaped. I found it in my garden, and find it an interesting little thing, for it is beautiful, unearthly so, almost like a gemstone in a way. Maybe it is a good sign from [Root.Religion.GetRandomGodName]?;;;;;;;;;;;x
+VIETmisc.2271.a;I'll keep it for now, anyways.;;;;;;;;;;;;;x
+VIETmisc.2272.desc;You pass by a large boulder, said by the peasants who worship it to be a holy object of immense spiritual power.;;;;;;;;;;;x
+VIETmisc.2272.a;Pray a bit.;;;;;;;;;;;;;x
+VIETmisc.2272.b;Sounds like a silly superstition, doesn't it?;;;;;;;;;;;;;x
+VIETmisc.2273.desc;Farmers nearby have discovered what appears to be the bones of some large, fantastical beast, trapped in stone. Or, at least, you think it is some sort of creature’s skeleton. It looks nothing like any being you've seen before.;;;;;;;;;;;x
+VIETmisc.2273.a;I want to study this. Maybe it is an animal from ancient times!;;;;;;;;;;;;;x
+VIETmisc.2273.b;Doesn't seem useful. Grind it down to use in building, medicine, or something.;;;;;;;;;;;;;x
+VIETmisc.2273.c;It would do as a nice, if odd, decoration in my house.;;;;;;;;;;;;;x
+VIETmisc.2274.desc;While taking a drink from a stream near your residence, you observe the colorful, pretty pebbles deposited on the riverbed.;;;;;;;;;;;x
+VIETmisc.2274.a;What shiny little things, these pebbles.;;;;;;;;;;;;;x
+VIETmisc.2274.b;I’ll find the nicer ones and give them to my children.;;;;;;;;;;;;;x
+VIETmisc.2275.desc;I have heard fantastical stories of how the peoples of Hindustan worship stones carved into the shape of a phallus, called “lingams,” and those carved into the shape of a vagina, called “yoni.” Quite shocking!;;;;;;;;;;;x
+VIETmisc.2275.a;Disgusting, sin-loving, heathen idol-worshippers, that’s what it is.;;;;;;;;;;;;;x
+VIETmisc.2275.b;That’s strange. Who the heck would bother?;;;;;;;;;;;;;x
+VIETmisc.2275.c;Maybe there’s a purpose behind it we don’t understand.;;;;;;;;;;;;;x
+VIETmisc.2276.desc;Lately a noticeable number of miners in several nearby mines have been suffering from various types of illnesses. They place blame on the kobolds, troublesome, evil, goblin-like sprites that are said to frequent these mines by embedding themselves in the rock and stone.;;;;;;;;;;;x
+VIETmisc.2276.a;What news!;;;;;;;;;;;;;x
+VIETmisc.2277.desc;A traveler shows me a special napkin he got in Persia. To clean it, he simply throws it into a fire, and after a while, all the grime and dirt is magically gone! He says that the napkin is made from a type of rock known as abestos, which some say originates from the skin of the fire-breathing salamander.;;;;;;;;;;;x
+VIETmisc.2277.a;I'd like to buy that napkin!;;;;;;;;;;;;;x
+VIETmisc.2277.b;It looks interesting, but you can keep it.;;;;;;;;;;;;;x
+VIETmisc.2278.desc;I've been having some mild skin issues lately - mainly just some bad acne and rashes. The doctors prescribed me a cream whose main ingredient is ground sulfur.;;;;;;;;;;;x
+VIETmisc.2278.a;Hopefully this works!;;;;;;;;;;;;;x
+VIETmisc.2278.b;You know, I don't like the look of that.;;;;;;;;;;;;;x
+VIET_paneeer_1;\n\nPaneer with puréed spniach curry;;;;;;;;;;;x
+VIET_paneeer_2;\n\nChunks of marinated paneer put on skewers and roasted;;;;;;;;;;;x
+VIET_paneeer_3;\n\nPaneer tikka, but in a warm gravy;;;;;;;;;;;x
+VIET_paneeer_4;\n\nSpiced paneer and peas in a creamy sauce;;;;;;;;;;;x
+VIETmisc.2279.desc;I'm in the mood for some paneer. However, there are many ways to eat this cheese, many different sauces, stews, and so on I could eat it with.... After careful deliberation, I decide I want some...;;;;;;;;;;;x
+VIETmisc.2279.a;Palak Paneer;;;;;;;;;;;;;x
+VIETmisc.2279.b;Paneer tikka;;;;;;;;;;;;;x
+VIETmisc.2279.c;Paneer tikka masala;;;;;;;;;;;;;x
+VIETmisc.2279.d;Mattar paneer;;;;;;;;;;;;;x
+VIETmisc.2280.desc;Khichri isn't the most delicious or creative of dishes. That said, like everyone else, you see it as comfort foods. Even as you eat it now, savoring the simple combination buttered rice and lentils, you feel at peace.;;;;;;;;;;;x
+VIETmisc.2280.a;Even the simplest of meals can be satisfying.;;;;;;;;;;;;;x
+VIETmisc.2281.desc;The paratha bread traditionally eaten by the peoples of Hindustan are often stuffed with various ingredients such as vegetables or spices. For today's dinner, my cook wants to know what sort of ingredients I want my paratha bread to have.;;;;;;;;;;;x
+VIETmisc.2281.a;The hearty flavors of lentils or chickpeas call to me;;;;;;;;;;;;;x
+VIETmisc.2281.b;I have a desire for simple vegetables;;;;;;;;;;;;;x
+VIETmisc.2281.c;Why not add in a good mix of spicy spices;;;;;;;;;;;;;x
+VIETmisc.2281.d;As a person of prestige, I will go with succulent meats;;;;;;;;;;;;;x
+VIETmisc.2282.desc;Uh-oh. One of my courtiers just drank too much bhang lassi. Normally lassi is just water, yogurt, some spices, and at most a little fruit, but some adventurous types prefer this style of lassi which is prepared with liquid cannabis. "Yeah... lliiikkkeee woooaaahhh... mmyyyy [Root.GetTitle], did you... ddiiiddd you seeeee that?" your courtier says, trying to form coherent words.;;;;;;;;;;;x
+VIETmisc.2282.a; Alright, that's enough bhang for you.;;;;;;;;;;;;;x
+VIETmisc.2283.desc;There are rumors floating around that I recently tried some beef out of curiosity and liked it! ;;;;;;;;;;;x
+VIETmisc.2283.a;Me? No, no way. I’d never!;;;;;;;;;;;;;x
+VIETmisc.2283.b;Well… um… it’s something I don’t admit to most, but there was one time…;;;;;;;;;;;;;x
+VIET_evil_cow_eater;\n\nIt was just once, I swear! Anyways, so this one time, I happened to come across a...;;;;;;;;;;;x
+VIETmisc.2284.desc;As Muslim, Arab, and Persian influence grows in India, many people have started eating their foods and producing local variations. For example, they eat so-called "kebabs" made of skewered meat are becoming very popular. Even vegetarians enjoy a variation made with legumes or paneer cheese.;;;;;;;;;;;x
+VIETmisc.2284.a;Strange food... but having tried it myself, I admit it's tasty!;;;;;;;;;;;;;x
+VIETmisc.2284.b;Our cuisine will not be infected by them! Remove the kebabs! Remove them!;;;;;;;;;;;;;x
+VIETmisc.2285.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2285.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2286.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2286.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2287.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2287.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2288.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2288.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2289.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2289.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2290.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2290.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2291.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2291.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2292.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2292.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2293.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2293.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2294.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2294.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2295.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2295.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2296.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2296.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2297.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2297.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2298.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2298.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2299.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2299.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2300.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2300.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2301.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2301.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2302.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2302.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2303.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2303.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2304.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2304.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2305.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2305.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2306.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2306.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2307.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2307.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2308.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2308.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2309.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2309.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2310.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2310.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2311.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2311.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2312.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2312.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2313.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2313.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2314.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2314.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2315.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2315.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2316.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2316.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2317.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2317.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2318.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2318.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2319.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2319.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2320.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2320.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2321.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2321.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2322.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2322.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2323.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2323.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2324.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2324.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2325.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2325.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2326.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2326.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2327.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2327.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2328.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2328.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2329.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2329.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2330.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2330.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2331.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2331.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2332.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2332.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2333.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2333.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2334.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2334.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2335.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2335.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2336.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2336.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2337.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2337.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2338.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2338.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2339.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2339.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2340.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2340.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2341.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2341.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2342.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2342.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2343.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2343.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2344.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2344.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2345.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2345.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2346.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2346.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2347.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2347.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2348.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2348.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2349.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2349.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2350.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2350.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2351.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2351.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2352.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2352.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2353.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2353.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2354.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2354.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2355.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2355.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2356.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2356.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2357.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2357.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2358.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2358.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2359.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2359.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2360.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2360.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2361.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2361.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2362.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2362.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2363.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2363.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2364.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2364.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2365.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2365.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2366.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2366.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2367.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2367.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2368.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2368.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2369.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2369.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2370.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2370.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2371.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2371.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2372.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2372.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2373.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2373.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2374.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2374.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2375.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2375.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2376.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2376.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2377.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2377.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2378.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2378.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2379.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2379.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2380.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2380.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2381.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2381.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2382.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2382.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2383.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2383.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2384.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2384.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2385.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2385.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2386.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2386.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2387.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2387.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2388.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2388.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2389.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2389.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2390.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2390.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2391.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2391.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2392.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2392.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2393.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2393.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2394.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2394.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2395.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2395.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2396.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2396.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2397.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2397.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2398.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2398.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2399.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2399.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2400.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2400.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2401.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2401.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2402.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2402.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2403.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2403.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2404.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2404.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2405.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2405.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2406.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2406.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2407.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2407.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2408.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2408.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2409.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2409.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2410.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2410.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2411.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2411.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2412.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2412.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2413.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2413.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2414.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2414.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2415.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2415.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2416.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2416.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2417.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2417.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2418.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2418.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2419.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2419.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2420.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2420.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2421.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2421.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2422.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2422.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2423.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2423.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2424.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2424.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2425.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2425.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2426.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2426.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2427.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2427.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2428.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2428.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2429.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2429.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2430.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2430.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2431.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2431.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2432.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2432.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2433.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2433.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2434.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2434.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2435.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2435.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2436.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2436.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2437.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2437.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2438.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2438.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2439.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2439.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2440.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2440.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2441.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2441.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2442.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2442.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2443.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2443.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2444.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2444.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2445.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2445.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2446.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2446.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2447.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2447.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2448.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2448.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2449.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2449.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2450.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2450.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2451.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2451.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2452.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2452.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2453.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2453.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2454.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2454.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2455.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2455.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2456.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2456.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2457.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2457.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2458.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2458.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2459.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2459.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2460.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2460.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2461.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2461.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2462.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2462.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2463.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2463.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2464.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2464.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2465.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2465.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2466.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2466.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2467.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2467.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2468.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2468.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2469.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2469.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2470.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2470.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2471.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2471.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2472.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2472.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2473.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2473.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2474.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2474.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2475.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2475.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2476.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2476.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2477.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2477.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2478.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2478.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2479.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2479.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2480.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2480.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2481.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2481.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2482.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2482.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2483.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2483.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2484.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2484.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2485.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2485.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2486.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2486.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2487.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2487.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2488.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2488.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2489.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2489.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2490.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2490.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2491.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2491.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2492.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2492.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2493.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2493.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2494.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2494.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2495.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2495.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2496.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2496.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2497.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2497.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2498.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2498.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2499.desc;xxxxx;;;;;;;;;;;x
+VIETmisc.2499.a;Xxxxxxffff;;;;;;;;;;;;;x
+#boobooboopp;I think there's a VIETmisc.2500 somewhere, this is just a reminder;;;;;;;;;;;;;x

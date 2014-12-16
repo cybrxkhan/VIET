@@ -1206,6 +1206,7 @@ d_haruriyyah = {
 	mercenary_type = bektashi_composition
 }
 
+
 d_jomsvikings = {
 
 	color={ 50 50 50 }
@@ -1708,6 +1709,7 @@ d_bulls_rishabha = {
 	
 	mercenary_type = bulls_rishabha_composition
 }
+
 
 d_zun_warriors = {
 
@@ -5075,11 +5077,6 @@ d_qom = {
 d_romagna = {
 	color = { 243 234 157 }
 }
-d_the_isles = {
-	color={ 10 48 243 }
-	color2={ 255 255 255 }
-	welsh = Manaw
-}
 d_salamanca = {
 	color = { 251 229 34 }
 }
@@ -6266,7 +6263,6 @@ d_manichean_archegos = {
 		Marcus Mihr Miqlas Ohrmazd Papos Parcus Pattig Sergius Sethel Shad Shad-Ohrmazd Sisin Thomas Walash Zaku
 	}
 }
-
 
 #Holy Orders
 d_east_african_pagan_holy_order = {

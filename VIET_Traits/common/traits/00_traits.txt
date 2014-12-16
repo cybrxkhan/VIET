@@ -119,6 +119,8 @@ misguided_warrior = {
 	martial = 1
 	learning = -1
 	
+	combat_rating = 1
+	
 	health = 0.5
 }
 tough_soldier = {
@@ -126,6 +128,8 @@ tough_soldier = {
 	
 	martial = 3
 	learning = -1
+	
+	combat_rating = 1
 	
 	health = 0.5
 }
@@ -137,6 +141,8 @@ skilled_tactician = {
 	stewardship = 1
 	learning = -1
 	
+	combat_rating = 1
+	
 	health = 0.5
 }
 brilliant_strategist = {
@@ -146,6 +152,8 @@ brilliant_strategist = {
 	intrigue = 2
 	stewardship = 2
 	learning = -1
+	
+	combat_rating = 1
 	
 	health = 0.5
 
@@ -218,13 +226,16 @@ depressed = {
 	intrigue = -1
 	health = -1
 	fertility = -0.05
+
+	male_insult_adj = INSULT_LUGUBRIOUS
+	female_insult_adj = INSULT_LUGUBRIOUS
 	command_modifier = {
 		morale_defence = -0.03
 	}
 }
-lunatic = {
+
+lunatic = { # Highly event driven
 	is_health = yes
-	# Highly event driven
 	
 	vassal_opinion = -25
 	sex_appeal_opinion = -25
@@ -232,25 +243,33 @@ lunatic = {
 	
 	ai_rationality = -50
 	
-	cost = -10
+	male_insult = INSULT_LUNATIC
+	female_insult = INSULT_BAT
+	male_insult_adj = INSULT_DEMENTED
+	female_insult_adj = INSULT_CRAZED
 	
 	command_modifier = {
 		random = 0.03
 	}
 }
-possessed = {
+possessed = { # Highly event driven
 	is_health = yes
 	
 	sex_appeal_opinion = -25
 	same_opinion = 10
 	
 	ai_rationality = -40
+
+	combat_rating = 1
 	
 	command_modifier = {
 		random = 0.03
 	}
 	
-	# Highly event driven
+	male_insult = INSULT_WARLOCK
+	female_insult = INSULT_DEVIL_WOMAN
+	male_insult_adj = INSULT_DEMONIC
+	female_insult_adj = INSULT_DEMONIC
 }
 ill = {
 	is_health = yes
@@ -263,6 +282,8 @@ ill = {
 	martial = -1
 	health = -2
 	fertility = -0.1
+	
+	combat_rating = -1
 	
 	customizer = no
 }
@@ -281,6 +302,8 @@ pneumonic = {
 	learning = -2
 	health = -5
 	fertility = -0.5
+	
+	combat_rating = -3
 	
 	customizer = no
 }
@@ -311,6 +334,13 @@ leper = {
 	same_opinion = 10
 	
 	vassal_opinion = -20
+	
+	combat_rating = -2
+	
+	male_insult = INSULT_LEPER
+	female_insult = INSULT_LEPER
+	male_insult_adj = INSULT_UNCLEAN
+	female_insult_adj = INSULT_UNCLEAN
 }
 wounded = {
 	is_health = yes
@@ -318,6 +348,8 @@ wounded = {
 	opposites =  {
 		maimed
 	}
+	
+	combat_rating = -1
 	
 	martial = -1
 	health = -1.5
@@ -329,11 +361,14 @@ maimed = {
 		wounded
 	}
 	
+	combat_rating = -4
+	
 	sex_appeal_opinion = -15
 	same_opinion = 10
 	
 	martial = -2
 	health = -2.5
+	male_insult_adj = INSULT_CRIPPLE
 }
 infirm = {
 	is_health = yes
@@ -348,6 +383,12 @@ infirm = {
 	fertility = -0.3
 	
 	ai_rationality = -10
+	
+	combat_rating = -5
+	
+	male_insult = INSULT_DODDERER
+	male_insult_adj = INSULT_SENILE
+	female_insult_adj = INSULT_SENILE
 }
 incapable = {
 	is_health = yes
@@ -362,11 +403,18 @@ incapable = {
 	
 	health = -3
 	fertility = -0.3
+	
+	combat_rating = -10
+	
+	male_insult = INSULT_VEGETABLE
+	female_insult = INSULT_VEGETABLE
 }
 drunkard = {
 	is_health = yes
 	
 	stewardship = -2
+	
+	combat_rating = -1
 	
 	same_opinion = 10
 	church_opinion = -10
@@ -377,12 +425,18 @@ drunkard = {
 	}
 	
 	ai_rationality = -5
+	
+	male_insult = INSULT_DRUNKARD
+	female_insult = INSULT_DRUNKARD
+	male_insult_adj = INSULT_BESOTTED
+	female_insult_adj = INSULT_BESOTTED
 }
 has_tuberculosis = {
 	is_epidemic = yes
 	is_illness = yes
 	
 	health = -2.5
+	combat_rating = -2
 	
 	customizer = no
 }
@@ -391,6 +445,7 @@ has_typhoid_fever = {
 	is_illness = yes
 	
 	health = -3.5
+	combat_rating = -4
 	
 	customizer = no
 }
@@ -399,6 +454,7 @@ has_typhus = {
 	is_illness = yes
 	
 	health = -3.5
+	combat_rating = -4
 	
 	customizer = no
 }
@@ -408,6 +464,8 @@ has_bubonic_plague = {
 	
 	health = -7
 	
+	combat_rating = -10
+	
 	customizer = no
 }
 has_measles = {
@@ -415,6 +473,7 @@ has_measles = {
 	is_illness = yes
 	
 	health = -2.5
+	combat_rating = -3
 	
 	customizer = no
 }
@@ -423,6 +482,7 @@ has_small_pox = {
 	is_illness = yes
 
 	health = -3.5
+	combat_rating = -10
 	
 	customizer = no
 }
@@ -437,11 +497,15 @@ crusader = {
 	}
 	
 	martial = 2
+	combat_rating = 1
 	
 	church_opinion = 25
 	same_opinion_if_same_religion = 30
 	
 	ai_zeal = 10
+
+	male_compliment = COMPL_CRUSADER
+	female_compliment = COMPL_CRUSADER
 	
 	command_modifier = {
 		religious_enemy = 0.05
@@ -453,6 +517,9 @@ bastard = {
 	same_opinion = 10
 	
 	customizer = no
+	
+	male_insult = INSULT_BASTARD
+	male_insult_adj = INSULT_BASEBORN
 }
 twin = {
 	twin_opinion = 30
@@ -461,6 +528,9 @@ twin = {
 }
 legit_bastard = {
 	diplomacy = -1
+	
+	male_insult = INSULT_BASTARD
+	male_insult_adj = INSULT_BASEBORN
 }
 pregnant = {
 	spouse_opinion = 25
@@ -482,6 +552,9 @@ kinslayer = {
 	diplomacy = -3
 	
 	dynasty_opinion = -25
+	
+	male_insult = INSULT_KINSLAYER
+	female_insult = INSULT_KINSLAYER
 }
 homosexual = {
 	sex_appeal_opinion = 30 # Only to those of the same sex
@@ -489,7 +562,10 @@ homosexual = {
 	
 	fertility = -0.15
 	
-	cost = -10
+	male_insult = INSULT_SODOMITE
+	male_insult_adj = INSULT_EFFEMINATE
+	female_insult = INSULT_LESBIAN
+	female_insult_adj = INSULT_SAPPHIC
 }
 
 #####################
@@ -500,10 +576,17 @@ clubfooted = {
 	birth = 50
 	inherit_chance = 15
 	
+	combat_rating = -1
+	
 	sex_appeal_opinion = -10
 	same_opinion = 5
 	
 	martial = -1
+	
+	male_insult = INSULT_CLUBFOOT
+	female_insult = INSULT_CLUBFOOT
+	male_insult_adj = INSULT_LIMPING
+	female_insult_adj = INSULT_LIMPING
 }
 harelip = {
 	birth = 50
@@ -513,6 +596,11 @@ harelip = {
 	same_opinion = 5
 	
 	diplomacy = -1
+	
+	male_insult = INSULT_HARELIP
+	female_insult = INSULT_HARELIP
+	male_insult_adj = INSULT_CLEFT_LIPPED
+	female_insult_adj = INSULT_CLEFT_LIPPED
 }
 hunchback = {
 	birth = 50
@@ -524,6 +612,11 @@ hunchback = {
 	vassal_opinion = -5
 	
 	martial = -1
+	
+	male_insult = INSULT_HUNCHBACK
+	female_insult = INSULT_HUNCHBACK
+	male_insult_adj = INSULT_CROOKED
+	female_insult_adj = INSULT_CROOKED
 }
 lisp = {
 	birth = 50
@@ -533,6 +626,11 @@ lisp = {
 	same_opinion = 5
 	
 	diplomacy = -1
+
+	male_insult = INSULT_LISPER
+	female_insult = INSULT_LISPER
+	male_insult_adj = INSULT_FALTERING
+	female_insult_adj = INSULT_FALTERING
 	
 	command_modifier = {
 		morale_offence = -0.01
@@ -546,6 +644,9 @@ stutter = {
 	same_opinion = 5
 	
 	diplomacy = -1
+
+	male_insult_adj = INSULT_STUTTERING
+	female_insult_adj = INSULT_STUTTERING
 	
 	command_modifier = {
 		morale_offence = -0.02
@@ -564,6 +665,11 @@ fair = {
 	}
 	
 	diplomacy = 1
+	
+	female_compliment = COMPL_BEAUTY
+	female_compliment_adj = COMPL_FAIR
+	male_compliment = COMPL_CHARMER
+	male_compliment_adj = COMPL_HANDSOME
 }
 ugly = {
 	birth = 100
@@ -576,6 +682,11 @@ ugly = {
 	}
 	
 	diplomacy = -1
+
+	male_insult = INSULT_GROTESQUE
+	female_insult = INSULT_GORGON
+	male_insult_adj = INSULT_HIDEOUS
+	female_insult_adj = INSULT_HIDEOUS
 
 	command_modifier = {
 		morale_offence = 0.03
@@ -594,6 +705,13 @@ dwarf = {
 
 	intrigue = 1
 	martial = -1
+	
+	combat_rating = -3
+	
+	male_insult = INSULT_DWARF
+	female_insult = INSULT_DWARF
+	male_insult_adj = INSULT_LITTLE
+	female_insult_adj = INSULT_LITTLE
 }
 genius = {
 	birth = 50
@@ -611,11 +729,18 @@ genius = {
 	martial = 5
 	learning = 5
 	
+	combat_rating = 1
+	
 	ai_rationality = 30
 	
 	vassal_opinion = 5
 	
+	male_compliment = COMPL_GENIUS
+	male_compliment_adj = COMPL_BRILLIANT
+	female_compliment = COMPL_GENIUS
+	female_compliment_adj = COMPL_BRILLIANT
 }
+
 quick = {
 	birth = 100
 	inherit_chance = 15
@@ -651,6 +776,11 @@ slow = {
 	learning = -3
 	
 	ai_rationality = -15
+	
+	male_insult = INSULT_DULLARD
+	female_insult = INSULT_NITWIT
+	male_insult_adj = INSULT_DIM
+	female_insult_adj = INSULT_VACUOUS
 }
 imbecile = {
 	birth = 50
@@ -670,9 +800,16 @@ imbecile = {
 	martial = -8
 	learning = -8
 	
+	combat_rating = -3
+	
 	ai_rationality = -30
 	
 	vassal_opinion = -10
+	
+	male_insult = INSULT_IMBECILE
+	female_insult = INSULT_IMBECILE
+	male_insult_adj = INSULT_IDIOT
+	female_insult_adj = INSULT_IDIOT
 }
 inbred = {
 	inbred = yes
@@ -688,9 +825,16 @@ inbred = {
 	martial = -5
 	learning = -5
 	
+	combat_rating = -2
+	
 	vassal_opinion = -20
 	
 	ai_rationality = -20
+	
+	male_insult = INSULT_ABOMINATION
+	female_insult = INSULT_FREAK
+	male_insult_adj = INSULT_MONSTROUS
+	female_insult_adj = INSULT_HIDEOUS
 }
 strong = {
 	birth = 100
@@ -706,8 +850,13 @@ strong = {
 	health = 2
 	fertility = 0.1
 	
+	combat_rating = 2
+	
 	sex_appeal_opinion = 10
 	vassal_opinion = 10
+	tribal_opinion = 20
+
+	male_compliment_adj = COMPL_STRONG
 	
 	command_modifier = {
 		damage = 0.02
@@ -726,10 +875,13 @@ weak = {
 	fertility = -0.05
 	
 	martial = -1
+	combat_rating = -2
 	
 	sex_appeal_opinion = -10
 	vassal_opinion = -10
-	tribal_opinion = -20	
+	tribal_opinion = -20
+
+	male_insult = INSULT_WEAKLING	
 	command_modifier = {
 		morale_defence = -0.01
 	}
@@ -740,7 +892,6 @@ weak = {
 ################################################
 
 celibate = {
-	lifestyle = yes
 	
 	potential = {
 		religion_group = christian
@@ -748,10 +899,13 @@ celibate = {
 	
 	opposites =  {
 		hedonist
+		seducer
+		seductress
 	}
-	fertility = -10.0
 
 	learning = 2
+
+	fertility = -10.0
 	
 	christian_church_opinion = 10
 	opposite_opinion = -20
@@ -761,6 +915,7 @@ celibate = {
 	
 	ai_zeal = 30
 }
+
 hedonist = {
 	lifestyle = yes
 	
@@ -768,9 +923,10 @@ hedonist = {
 		celibate
 	}
 
-	fertility = 0.2
+	diplomacy = 2
+	intrigue = 1
 
-	intrigue = 2
+	fertility = 0.2
 	
 	opposite_opinion = -20
 	same_opinion = 20
@@ -780,14 +936,31 @@ hedonist = {
 	monthly_character_piety = -0.5
 	
 	ai_zeal = -30
+	
+	male_insult = INSULT_DEBAUCHER
+	female_insult = INSULT_DEBAUCHER
+	male_insult_adj = INSULT_PERVERTED
+	female_insult_adj = INSULT_DEGENERATE
+	
 }
 scholar = {
 	lifestyle = yes
 	
-	stewardship = 1
-	learning = 2
+	opposites = {
+		faqih
+	}
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+	
+	learning = 3
 	
 	same_opinion = 20
+	
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
 }
 gardener = {
 	lifestyle = yes
@@ -800,10 +973,13 @@ gardener = {
 mystic = {
 	lifestyle = yes
 	
-	intrigue = 1
-	learning = 1
+	learning = 2
+	stewardship = 1
 	
 	same_opinion = 20
+
+	male_compliment = COMPL_MYSTIC
+	female_compliment = COMPL_MYSTIC
 	
 	command_modifier = {
 		random = 0.01
@@ -816,21 +992,27 @@ impaler = {
 		NOT = { religion = jain }
 	}
 	
-	martial = 1
-	intrigue = 1
+	intrigue = 2
+	learning = 1
 	
 	same_opinion = 20
 	
 	ai_honor = -15
 	
 	command_modifier = {
-		morale_offence = 0.03
+		morale_offence = 0.1
 	}
+	
+	male_insult = INSULT_TORTURER
+	female_insult = INSULT_TORTURER
+	male_insult_adj = INSULT_EVIL
+	female_insult_adj = INSULT_EVIL
 }
 duelist = {
 	lifestyle = yes
 	
-	martial = 2
+	martial = 3
+	combat_rating = 5
 	
 	same_opinion = 20
 	
@@ -845,9 +1027,8 @@ hunter = {
 		NOT = { religion = jain }
 	}
 
-	health = 0.2
-	
-	martial = 1
+	martial = 2
+	diplomacy = 1
 	
 	same_opinion = 20
 
@@ -855,19 +1036,19 @@ hunter = {
 		morale_offence = 0.03
 	}
 }
-poet = {
-	lifestyle = yes
 
+# Way of Life DLC: No longer a lifestyle trait
+poet = {
 	diplomacy = 1
-	learning = 1
 	
 	same_opinion = 20
-}
-falconer = {
-	lifestyle = yes
-
-	health = 0.2
 	
+	male_compliment = COMPL_POET
+	female_compliment = COMPL_POET
+}
+
+# Way of Life DLC: No longer a lifestyle trait
+falconer = {
 	potential = {
 		NOT = { religion = jain }
 	}
@@ -889,12 +1070,21 @@ lustful = {
 	}
 	fertility = 0.2
 	
+	intrigue = 1
+	
 	christian_church_opinion = -10
 	
 	monthly_character_piety = -0.25
 	
 	ai_greed = 20
 	ai_zeal = -10
+	
+	male_insult = INSULT_LECHER
+	male_insult_adj = INSULT_LECHEROUS
+	female_insult = INSULT_TROLLOP
+	female_insult_adj = INSULT_WANTON
+	male_compliment_adj = COMPL_VIVACIOUS
+	female_compliment_adj = COMPL_VIVACIOUS
 }
 chaste = {
 	personality = yes
@@ -908,12 +1098,20 @@ chaste = {
 	}
 	fertility = -0.15
 	
+	learning = 1
+	
 	christian_church_opinion = 10
 	opposite_opinion = -20
 	
 	monthly_character_piety = 0.5
 	
 	ai_zeal = 10
+	
+	male_compliment_adj = COMPL_CHASTE
+	female_compliment_adj = COMPL_CHASTE
+	male_insult = INSULT_PRUDE
+	female_insult = INSULT_PRUNE
+	female_insult_adj = INSULT_PRUDISH
 }
 gluttonous = {
 	personality = yes
@@ -932,6 +1130,11 @@ gluttonous = {
 	
 	ai_greed = 20
 	ai_zeal = -10
+
+	male_insult = INSULT_GLUTTON
+	male_insult_adj = INSULT_GORGING
+	female_insult = INSULT_GLUTTON
+	female_insult_adj = INSULT_GORGING
 	
 	command_modifier = {
 		speed = -0.02
@@ -951,6 +1154,11 @@ temperate = {
 	
 	ai_greed = -20
 	ai_zeal = 10
+	
+	male_insult = INSULT_BORE
+	female_insult = INSULT_BORE
+	male_compliment_adj = COMPL_LEVELHEADED
+	female_compliment_adj = COMPL_PLEASANT
 }
 greedy = {
 	personality = yes
@@ -963,6 +1171,9 @@ greedy = {
 	ai_honor = -10
 	ai_ambition = 15
 	ai_greed = 100
+	
+	male_insult_adj = INSULT_COVETOUS
+	female_insult_adj = INSULT_VENAL
 }
 charitable = {
 	personality = yes
@@ -981,6 +1192,9 @@ charitable = {
 	ai_greed = -100
 	
 	ai_zeal = 10
+	
+	male_compliment_adj = COMPL_GOOD
+	female_compliment_adj = COMPL_GOOD
 }
 slothful = {
 	personality = yes
@@ -1002,6 +1216,11 @@ slothful = {
 	
 	ai_greed = 10
 	ai_zeal = -10
+
+	male_insult = INSULT_IDLER
+	female_insult = INSULT_IDLER
+	male_insult_adj = INSULT_INDOLENT
+	female_insult_adj = INSULT_INDOLENT
 	
 	command_modifier = {
 		speed = -0.03
@@ -1028,6 +1247,9 @@ diligent = {
 	
 	ai_greed = -10
 	ai_zeal = 10
+
+	male_compliment_adj = COMPL_DILIGENT
+	female_compliment_adj = COMPL_DILIGENT
 	
 	command_modifier = {
 		morale_defence = 0.02
@@ -1046,6 +1268,9 @@ envious = {
 	liege_opinion = -15
 	
 	ai_honor = -10
+
+	male_insult_adj = INSULT_ENVIOUS
+	female_insult_adj = INSULT_ENVIOUS
 	
 	command_modifier = {
 		damage = 0.01
@@ -1065,6 +1290,10 @@ kind = {
 	same_opinion = 20
 	
 	ai_honor = 10
+
+	male_insult = INSULT_SOFT
+	male_compliment_adj = COMPL_KINDLY
+	female_compliment_adj = COMPL_KINDHEARTED
 	
 	command_modifier = {
 		morale_defence = 0.01
@@ -1082,6 +1311,9 @@ wroth = {
 	
 	ai_rationality = -10
 	ai_honor = -5
+
+	male_insult_adj = INSULT_RAGING
+	female_insult = INSULT_HARRIDAN
 	
 	command_modifier = {
 		damage = 0.03
@@ -1105,6 +1337,9 @@ patient = {
 		flank = 0.01
 		defence = 0.03
 	}
+	
+	male_insult = INSULT_SPIDER
+	female_insult = INSULT_SPIDER
 }
 proud = {
 	personality = yes
@@ -1121,6 +1356,9 @@ proud = {
 	command_modifier = {
 		morale_offence = 0.03
 	}
+
+	male_compliment_adj = COMPL_PROUD
+	female_compliment_adj = COMPL_PROUD
 }
 humble = {
 	personality = yes
@@ -1133,6 +1371,9 @@ humble = {
 	same_opinion = 20
 	
 	ai_ambition = -10
+
+	male_compliment_adj = COMPL_HUMBLE
+	female_compliment_adj = COMPL_HUMBLE
 	
 	command_modifier = {
 		morale_defence = 0.03
@@ -1159,6 +1400,9 @@ deceitful = {
 		command_modifier = {
 		flank = 0.02
 	}
+
+	male_insult_adj = INSULT_DECEITFUL
+	female_insult_adj = INSULT_DECEITFUL
 }
 honest = {
 	personality = yes
@@ -1175,6 +1419,9 @@ honest = {
 	zoroastrian_opinion = 10
 	
 	ai_honor = 25
+
+	male_compliment_adj = COMPL_SINCERE
+	female_compliment_adj = COMPL_FORTHRIGHT
 	
 	command_modifier = {
 		center = 0.01
@@ -1191,11 +1438,16 @@ craven = {
 	intrigue = 1
 	diplomacy = 1	
 	martial = -2
+	combat_rating = -1
 	
 	command_modifier = {
 		morale_defence = -0.2
 		retreat = 0.01
 	}
+	
+	male_insult = INSULT_COWARD
+	male_insult_adj = INSULT_CRAVEN
+	female_insult_adj = INSULT_WUSSY
 }
 brave = {
 	personality = yes
@@ -1209,11 +1461,15 @@ brave = {
 
 	intrigue = -2	
 	martial = 2
+	combat_rating = 1
 	
 	command_modifier = {
 		morale_defence = 0.1
 		center = 0.01
 	}
+	
+	male_compliment_adj = COMPL_BRAVE
+	female_compliment_adj = COMPL_BRAVE
 }
 shy = {
 	personality = yes
@@ -1226,6 +1482,10 @@ shy = {
 	learning = 1
 	stewardship = 1	
 	diplomacy = -2
+
+	male_insult_adj = INSULT_TIMID
+	female_insult_adj = INSULT_COY
+	female_compliment_adj = COMPL_DEMURE
 	
 	command_modifier = {
 		morale_offence = -0.01
@@ -1245,6 +1505,12 @@ gregarious = {
 	
 	intrigue = -2	
 	diplomacy = 2
+	
+	male_compliment = COMPL_WIT
+	male_compliment_adj = COMPL_AFFABLE
+	female_compliment = COMPL_WIT
+	female_compliment_adj = COMPL_FETCHING
+	
 }
 ambitious = {
 	personality = yes
@@ -1263,6 +1529,9 @@ ambitious = {
 	
 	ai_ambition = 40
 	ai_zeal = 10
+
+	male_insult_adj = INSULT_RAPACIOUS
+	female_insult_adj = INSULT_GRASPING
 	
 	command_modifier = {
 		damage = 0.01
@@ -1307,6 +1576,15 @@ arbitrary = {
 	ai_rationality = -20
 	ai_honor = -10
 	ai_zeal = -10
+	
+	male_insult = INSULT_SCATTERBRAIN
+	female_insult = INSULT_SCATTERBRAIN
+	male_insult_adj = INSULT_ERRATIC
+	female_insult_adj = INSULT_ERRATIC
+	male_compliment = COMPL_ROGUE
+	male_compliment_adj = COMPL_RAFFISH
+	female_compliment = COMPL_DEVIL
+	female_compliment_adj = COMPL_IMPISH
 }
 just = {
 	personality = yes
@@ -1325,6 +1603,9 @@ just = {
 	ai_rationality = 20
 	ai_honor = 10
 	ai_zeal = 10
+
+	male_compliment_adj = COMPL_JUST
+	female_compliment_adj = COMPL_JUST
 	
 	command_modifier = {
 		morale_defence = 0.02
@@ -1347,6 +1628,11 @@ cynical = {
 	
 	ai_rationality = 10
 	ai_zeal = -100
+
+	male_compliment_adj = COMPL_WRY
+	female_compliment_adj = COMPL_WRY
+	male_insult = INSULT_UNBELIEVER
+	female_insult = INSULT_UNBELIEVER
 	
 	command_modifier = {
 		morale_defence = -0.01
@@ -1377,6 +1663,13 @@ zealous = {
 	
 	ai_rationality = -10
 	ai_zeal = 100
+
+	male_insult = INSULT_BIGOT
+	female_insult = INSULT_BIGOT
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
 	
 	command_modifier = {
 		damage = 0.01
@@ -1393,6 +1686,9 @@ paranoid = {
 	diplomacy = -1
 	
 	ai_honor = -10
+
+	male_insult_adj = INSULT_PARANOID
+	female_insult_adj = INSULT_PARANOID
 	
 	command_modifier = {
 		pursue = -0.03
@@ -1410,6 +1706,11 @@ trusting = {
 	diplomacy = 1
 	
 	ai_honor = 10
+
+	male_insult = INSULT_FOOL
+	female_insult = INSULT_FOOL
+	male_insult_adj = INSULT_GULLIBLE
+	female_insult_adj = INSULT_GULLIBLE
 	
 	command_modifier = {
 		defence = -0.03
@@ -1433,6 +1734,11 @@ cruel = {
 		morale_offence = 0.1
 		pursue = 0.03
 	}
+	
+	male_insult = INSULT_BRUTE
+	female_insult = INSULT_FIEND
+	male_insult_adj = INSULT_CRUEL
+	female_insult_adj = INSULT_CALLOUS
 }
 
 #Leadership traits

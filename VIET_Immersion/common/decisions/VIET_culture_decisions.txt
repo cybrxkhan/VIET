@@ -749,6 +749,7 @@ decisions = {
 				has_landed_title = e_persia
 				has_landed_title = k_persia
 				has_landed_title = k_azerbaijian
+				has_landed_title = k_sogdiana
 				#Add in some SWMH titles later?
 			}
 			NOT = { has_character_modifier = VIET_celebrating_nowruz }
@@ -833,6 +834,108 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.2
+				religion_group = muslim
+				trait = zealous
+			}
+		}
+	}	
+	
+	hold_sogdian_fair = {
+		potential = {
+			is_ruler = yes
+			OR = {
+				culture = soghdian
+				capital_scope = {
+					OR = {
+						culture = soghdian
+						has_province_modifier = VIET_sogdian_colony
+					}
+				}
+				any_demesne_province = {
+					OR = {
+						culture = soghdian
+						has_province_modifier = VIET_sogdian_colony
+					}
+				}
+			}
+			NOT = { has_character_flag = VIET_sogdian_fair }
+			NOT = { has_character_modifier = VIET_sogdian_fair_timer }
+		}
+		allow = {
+			war = no
+			in_command = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			prisoner = no
+			scaled_wealth = 0.3
+			age = 16
+			NOT = { has_character_flag = do_not_disturb }
+			#NOT = { has_character_flag = VIET_sogdian_fair }
+			custom_tooltip = {
+				text = health_travel_condition
+				hidden_tooltip = {
+					NOT = {	trait = pregnant }
+					NOT = {	trait = incapable }
+					NOT = {	trait = blinded }
+					NOT = {	trait = has_tuberculosis }
+					NOT = {	trait = has_typhoid_fever }
+					NOT = {	trait = has_typhus }
+					NOT = {	trait = has_bubonic_plague }
+					NOT = {	trait = has_measles }
+					NOT = {	trait = has_small_pox }
+					NOT = {	trait = has_aztec_disease }
+				}
+			}
+		}
+		effect = {
+			scaled_wealth = -0.3
+			hidden_tooltip = {
+				character_event = { 
+					id = silkroad.400
+				}
+			}
+			set_character_flag = do_not_disturb
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.05         # Reduce chances of happening
+			modifier = {
+				factor = 2
+				trait = sartapaw
+			}
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0.5
+				trait = shy
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = greedy 
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stewardship = 8 }
+			}
+			modifier = {
+				factor = 0.8
 				religion_group = muslim
 				trait = zealous
 			}

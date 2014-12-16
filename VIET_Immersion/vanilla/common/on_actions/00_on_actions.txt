@@ -1,4 +1,8 @@
 #character
+on_startup = {
+}
+
+#character
 on_yearly_pulse = {
 	events = {
 		CM.5000 # Ragnar Lodbrok
@@ -83,16 +87,16 @@ on_yearly_pulse = {
 		100 = 30105
 		100 = 30110
 		
-		#Lovers Events
-		100 = 64000
-		100 = 64005
-		100 = 64006
-		100 = 64010
-		100 = 64015
-		100 = 64025
-		100 = 64030
-		100 = 64035
-		100 = 64040
+		# Old Lover Events (Disabled in "Way of Life")
+		100 = 64000 # Confronts spouse about lover. Rivalries, lover lost.
+		100 = 64005 # Lover is ill. Give comfort.
+		100 = 64006 # Wounded lover. Wound removed.
+		100 = 64010 # Teenage infatuation starts.
+		100 = 64015 # Wife is old and ugly. Take a mistress?
+		100 = 64025 # Fallen in love with spouse
+		100 = 64030 # Vacation with lover
+		100 = 64035 # Party/hunting/nothing with lover
+		100 = 64040 # Ruler confronts spouse about lover
 		
 		#Job Flavour Events
 		100 = 75010
@@ -279,6 +283,27 @@ on_yearly_pulse = {
 		
 		# Other Charlemagne/Carloman
 		100 = CM.1130
+
+		# Way of Life Theology focus
+		1000 = WoL.7000
+		1000 = WoL.7010
+		1000 = WoL.7020
+		1000 = WoL.7030
+		1000 = WoL.7040
+		1000 = WoL.7050
+		1000 = WoL.7060
+		1000 = WoL.7070
+
+		# Way of Life Hunting focus
+		2000 = WoL.5000 # Epic Hunt chain start
+		2000 = WoL.5200 # Receive hunting dog
+		1000 = WoL.5210 # Dog makes you happy
+		1000 = WoL.5211 # Dog makes you popular
+		1000 = WoL.5220 # Train your dog?
+		1000 = WoL.5230 # Bad dog kills other dog
+		1000 = WoL.5231 # Bad dog kills or wounds courtier
+
+
 		
 		#VIET EVENTS
 		#Generic Set 1
@@ -1278,8 +1303,12 @@ on_yearly_childhood_pulse = {
 		1000 = VIETceltic.515 #Mordred learns the truth
 		
 		1500 = 0
-		
 	}
+}
+
+# Yearly pulse (six months from on_yearly_pulse) intended for Focus events (only fires for characters with a Focus)
+# DISABLED FOR NOW
+on_focus_pulse = {
 }
 
 #on combat pulse
@@ -1295,15 +1324,15 @@ on_combat_pulse = {
 
 		20 = 248 # Knowledge boost in capital from battle.
 		10 = 255 # Marshal: Unnecessary violence
-		15 = 270 # Gain Brave
-		5 = 271 # Gain Craven
-		15 = 272 # Gain Wroth
-		15 = 273 # Gain Patient
+		25 = 270 # Gain Brave
+		25 = 271 # Gain Craven
+		20 = 272 # Gain Wroth
+		20 = 273 # Gain Patient
 		
-		20 = 96500 # Gain Combat Trait 1
-		10 = 96501 # Gain Combat Trait 2
-		10 = 96502 # Gain Combat Trait 3
-		10 = 96503 # Gain Combat Trait 4
+		30 = 96500 # Gain Combat Trait 1
+		15 = 96501 # Gain Combat Trait 2
+		15 = 96502 # Gain Combat Trait 3
+		15 = 96503 # Gain Combat Trait 4
 		
 		50 = TOG.3000 # Becomes Berserker
 		15 = TOG.3001 # Berserker Maimed
@@ -1677,6 +1706,8 @@ on_death = {
 		CM.1069 # Charlemagne dies
 		CM.10010 # Chronicle entry
 		CM.6185 # Dies of other causes while assassination is in progress - clear flags
+		WoL.6335 # Owner of Necronomicon dies...
+		WoL.11300 # Check if spouse is executed or killed by someone.
 		finnish.1
 		#VIETmisc.11000
 		#VIETmisc.11001

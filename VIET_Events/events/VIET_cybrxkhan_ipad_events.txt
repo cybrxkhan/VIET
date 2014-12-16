@@ -30,6 +30,8 @@
 # 2240-2244: Monogatari References
 # 2245-2254: Urine
 # 2255-2269: War, war never changes
+# 2270-2278: Rocks n' Minerals
+# 2279-2284: Indian Curry
 # 3000-3099: various traits events coded by cybrxkhan on ipad while he is ill
 # 10050-10053: Fraticelli
 ########################################################
@@ -11066,6 +11068,7 @@ character_event = {
 	only_rulers = yes
 	capable_only = yes
 	prisoner = no
+	only_men = yes
 	
 	trigger = {
 		war = no
@@ -20732,7 +20735,7 @@ character_event = {
 	
 
 	option = {#ok
-		name = VIETmisc.2217.a
+		name = VIETmisc.2218.a
 		random = {
 			add_trait = paranoid
 			chance = 2
@@ -23415,7 +23418,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2255
 	desc = VIETmisc.2255.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_battle
 
 	is_triggered_only = yes
 	
@@ -23507,7 +23510,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2256
 	desc = VIETmisc.2256.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
 	
@@ -23712,7 +23715,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2257
 	desc = VIETmisc.2257.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_battle
 
 	is_triggered_only = yes
 	
@@ -23777,15 +23780,41 @@ character_event = {
 			factor = 0.5
 			trait = content
 		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
 	}
 
 	option = {#yes
 		name = VIETmisc.2257.a
 		prestige = 1
+		if = {
+			limit = {
+				trait = kind
+			}
+			random = {
+				remove_trait = kind
+				chance = 40
+			}
+		}
 	}
 	option = {#yes
 		name = VIETmisc.2257.b
 		piety = 1
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 40
+			}
+		}
 	}
 }
 
@@ -23793,7 +23822,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2258
 	desc = VIETmisc.2258.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
 	
@@ -23934,7 +23963,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2259
 	desc = VIETmisc.2259.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_battle
 
 	is_triggered_only = yes
 	
@@ -24007,7 +24036,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2260
 	desc = VIETmisc.2260.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
 	
@@ -24079,19 +24108,19 @@ character_event = {
 		}
 	}
 	option = {#ignore
-		name = VIETmisc.2260.a
+		name = VIETmisc.2260.b
 		random = {
 			add_trait = arbitrary
-			chance = 5
+			chance = 15
 		}
 	}
 	option = {#terrorize
 		name = VIETmisc.2260.c
-		random = {
-			add_trait = arbitrary
-			chance = 10
+		random_list = {
+			10 = { add_trait = arbitrary }
+			10 = { add_trait = cruel }
+			80 = { }
 		}
-		prestige = 5
 	}
 }
 
@@ -24099,7 +24128,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2261
 	desc = VIETmisc.2261.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_council
 
 	is_triggered_only = yes
 	
@@ -24172,7 +24201,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2262
 	desc = VIETmisc.2262.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_bandits
 
 	is_triggered_only = yes
 	
@@ -24242,6 +24271,7 @@ character_event = {
 
 	option = {#yes
 		name = VIETmisc.2262.a
+		wealth = -5
 		add_character_modifier = {
 			name = VIET_war_problems
 			duration = 730
@@ -24253,7 +24283,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2263
 	desc = VIETmisc.2263.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_nightmare
 
 	is_triggered_only = yes
 	
@@ -24334,7 +24364,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2264
 	desc = VIETmisc.2264.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_shadowy_cabal
 
 	is_triggered_only = yes
 	
@@ -24396,11 +24426,14 @@ character_event = {
 
 	option = {#yes
 		name = VIETmisc.2264.a
-		prestige = 3
+		random = {
+			military_techpoints = 10
+			chance = 20
+		}
 	}
 	option = {#yes
 		name = VIETmisc.2264.b
-		prestige = 3
+		prestige = 5
 		random = {
 			add_trait = wroth
 			chance = 5
@@ -24412,7 +24445,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2265
 	desc = VIETmisc.2265.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_small_town
 
 	is_triggered_only = yes
 	
@@ -24494,7 +24527,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2266
 	desc = VIETmisc.2266.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_shadow
 
 	is_triggered_only = yes
 	
@@ -24567,7 +24600,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2267
 	desc = VIETmisc.2267.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_tuscan_country
 
 	is_triggered_only = yes
 	
@@ -24636,12 +24669,19 @@ character_event = {
 	}
 
 	option = {#yes
-		name = VIETmisc.2266.a
+		name = VIETmisc.2267.a
 		prestige = 1
 	}
 	option = {#yes
-		name = VIETmisc.2266.b
+		name = VIETmisc.2267.b
 		piety = 1
+	}
+	option = {#yes
+		name = VIETmisc.2267.c
+		random = {
+			add_trait = paranoid
+			chance = 15
+		}
 	}
 }
 
@@ -24649,7 +24689,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2268
 	desc = VIETmisc.2268.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_hyouka
 
 	is_triggered_only = yes
 	
@@ -24731,7 +24771,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2269
 	desc = VIETmisc.2269.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_cathedral
 
 	is_triggered_only = yes
 	
@@ -24804,10 +24844,1395 @@ character_event = {
 		prestige = 1
 	}
 	option = {#no
-		name = VIETmisc.2269.a
+		name = VIETmisc.2269.b
 		random_list = {
 			50 = { piety = 2 }
 			50 = { piety = -2 }
+		}
+	}
+}
+
+######################
+# Rocks n' Minerals
+######################
+
+
+
+# hit on der head
+character_event = {
+	id = VIETmisc.2270
+	desc = VIETmisc.2270.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		any_courtier = {
+			NOT = { trait = incapable }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious  
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2270.a
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+			}
+			random = {
+				add_trait = wounded
+				chance = 40
+			}
+		}
+	}
+}
+
+# pretty rock
+character_event = {
+	id = VIETmisc.2271
+	desc = VIETmisc.2271.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = shy  
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = perceptive
+		}
+		modifier = {
+			factor = 0.5
+			trait = absentminded
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2271.a
+		piety = 1
+		add_character_modifier = {
+			name = VIET_special_rock
+			duration = 2012
+		}
+	}
+}
+
+# mystical boulder
+character_event = {
+	id = VIETmisc.2272
+	desc = VIETmisc.2272.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent  
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious   
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2272.a
+		random = {
+			add_character_modifier = {
+				name = VIET_boulder_blessing
+				duration = 1453
+			}
+			chance = 25
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2272.b
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}
+}
+
+# fossils
+character_event = {
+	id = VIETmisc.2273
+	desc = VIETmisc.2273.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent  
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			learning = 15   
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { learning = 7 }
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2273.a
+		trigger = {
+			OR = {
+				learning = 15
+				trait = scholar
+				has_focus = focus_scholarship
+			}
+		}
+		random = {
+			change_learning = 1
+			chance = 20
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2273.b
+		prestige = 2
+		random = {
+			add_trait = diligent
+			chance = 10
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2273.c
+		prestige = 5
+	}
+}
+
+# shiny pebbles
+character_event = {
+	id = VIETmisc.2274
+	desc = VIETmisc.2274.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent  
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2274.a
+		piety = 2
+	}
+	option = {#yes
+		name = VIETmisc.2274.b
+		trigger = {
+			any_child = {
+				NOT = { is_adult = yes }
+				NOT = { trait = incapable }
+			}
+		}
+		any_child = {
+			limit = {
+				NOT = { is_adult = yes }
+				NOT = { trait = incapable }			
+			}
+			opinion = {
+				modifier = VIET_opinion_great_gift
+				who = ROOT
+				years = 1
+			}
+		}
+	}
+}
+
+# stone dicks
+character_event = {
+	id = VIETmisc.2275
+	desc = VIETmisc.2275.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = { religion_group = indian_group }
+		NOT = { culture_group = indo_aryan_group }
+		NOT = { culture_group = dravidian_group }
+		NOT = { culture_group = iranian }
+		NOT = {
+			any_realm_province = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					empire = { title = e_india }
+				}				
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent  
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			learning = 15   
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { learning = 7 }
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2275.a
+		piety = 5
+		random = {
+			add_trait = zealous
+			chance = 5
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2275.b
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 294
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2275.c
+		add_character_modifier = {
+			name = VIET_religiously_tolerant_ruler
+			duration = 294
+		}
+	}
+}
+
+# German kobolds in mines
+character_event = {
+	id = VIETmisc.2276
+	desc = VIETmisc.2276.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		any_demesne_province = {
+			culture_group = central_germanic
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2276.a
+		random_demesne_province = {
+			limit = {
+				culture_group = central_germanic
+			}
+			add_province_modifier = {
+				name = VIET_kobold_infestation
+				duration = 1111
+			}
+		}
+	}
+}
+
+# Fire-proof napkin
+character_event = {
+	id = VIETmisc.2277
+	desc = VIETmisc.2277.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = {
+			any_demesne_province = {
+				culture_group = iranian
+			}
+		}
+		NOT = { culture_group = iranian }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious  
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2277.a
+		wealth = -1
+		add_character_modifier = {
+			name = VIET_magical_napkins
+			duration = 1776
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2277.b
+		add_character_modifier = {
+			name = VIET_impressed_ruler
+			duration = 365
+		}
+	}
+}
+
+# Sulfur treatment
+character_event = {
+	id = VIETmisc.2278
+	desc = VIETmisc.2278.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = shy  
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = stressed
+		}
+		modifier = {
+			factor = 0.5
+			trait = fair
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2278.a
+		wealth = -3
+		random = {
+			add_character_modifier = {
+				name = VIET_bad_acne
+				duration = 450
+			}
+			chance = 15
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2278.b
+		add_character_modifier = {
+			name = VIET_skeptical_ruler
+			duration = 365
+		}
+		random = {
+			add_character_modifier = {
+				name = VIET_bad_acne
+				duration = 450
+			}
+			chance = 30
+		}
+	}
+}
+
+##################################
+# INDIAN CURRY
+##################################
+
+# Paneer
+character_event = {
+	id = VIETmisc.2279
+	desc = VIETmisc.2279.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = shy  
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2279.a
+		custom_tooltip = { text = VIET_paneeer_1 }
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 224
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2279.b
+		custom_tooltip = { text = VIET_paneeer_2 }
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 224
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2279.c
+		custom_tooltip = { text = VIET_paneeer_3 }
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 224
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2279.d
+		custom_tooltip = { text = VIET_paneeer_4 }
+		add_character_modifier = {
+			name = eating_good_food
+			duration = 224
+		}
+	}
+}
+
+# Khichri
+character_event = {
+	id = VIETmisc.2280
+	desc = VIETmisc.2280.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = kind  
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = humble  
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2280.a
+		add_character_modifier = {
+			name = VIET_comfort_food
+			duration = 365
+		}
+	}
+}
+
+# Parathra Bread
+character_event = {
+	id = VIETmisc.2281
+	desc = VIETmisc.2281.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud  
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2281.a
+		prestige = 1
+		piety = 1
+	}
+	option = {#yes
+		name = VIETmisc.2281.b
+		piety = 2
+	}
+	option = {#yes
+		name = VIETmisc.2281.c
+		random_list = {
+			50 = { prestige = 2 }
+			50 = { piety = 2 }
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2281.d
+		prestige = 2
+	}
+}
+
+
+# High on Bhang
+character_event = {
+	id = VIETmisc.2282
+	desc = VIETmisc.2282.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			NOT = { trait = craven }
+			NOT = { trait = temperate }
+			OR = {
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+			}
+			OR = {
+				trait = brave
+				trait = gregarious
+				trait = lustful
+				trait = hedonist
+				trait = trusting
+				trait = gluttonous
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud  
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2282.a
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				NOT = { trait = craven }
+				NOT = { trait = temperate }
+				OR = {
+					culture_group = indo_aryan_group
+					culture_group = dravidian_group
+				}
+				OR = {
+					trait = brave
+					trait = gregarious
+					trait = lustful
+					trait = hedonist
+					trait = trusting
+					trait = gluttonous
+				}
+			}
+			prestige = -5
+		}
+	}
+}
+
+# Someone ate beef and liked it!
+character_event = {
+	id = VIETmisc.2283
+	desc = VIETmisc.2283.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		#OR = {
+		#	culture_group = indo_aryan_group
+		#	culture_group = dravidian_group
+		#}
+		religion = hindu
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud  
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.5
+			trait = honest
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2283.a
+		trigger = {
+			NOT = { trait = gluttonous }
+		}
+		add_character_modifier = {
+			name = VIET_beef_eater_rumor
+			duration = 900
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2283.b
+		tooltip_info = gluttonous
+		trigger = {
+			trait = gluttonous
+		}
+		piety = -15
+		add_character_modifier = {
+			name = VIET_beef_eater_rumor
+			duration = 900
+		}
+		custom_tooltip = { text = VIET_evil_cow_eater }
+	}
+}
+
+# Kebab spreads!
+character_event = {
+	id = VIETmisc.2284
+	desc = VIETmisc.2284.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+		year = 900
+		capital_scope = {
+			OR = {
+				empire = { title = e_rajastan }
+				empire = { title = e_bengal }
+				empire = { title = e_deccan }
+				empire = { title = e_india }
+			}				
+		}		
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud  
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2284.a
+		add_character_modifier = {
+			name = VIET_loves_kebabs
+			duration = 911
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2284.b
+		add_character_modifier = {
+			name = VIET_hates_kebabs
+			duration = 911
 		}
 	}
 }

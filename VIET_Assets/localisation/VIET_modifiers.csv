@@ -164,4 +164,69 @@ VIET_good_herbs_desc;"Drink enough of these potions, and you will have the abili
 VIET_opinion_great_gift;Great Gift;;;;;;;;;;;;;x
 VIET_skeptical_ruler;Skeptical;;;;;;;;;;;;;x
 VIET_skeptical_ruler_desc;This ruler is very skeptical.;;;;;;;;;;;;;x
-xyxyxyxyxyxxyxyxyxyxyxyxxy;xxxxx;;;;;;;;;;;;;x
+VIET_center_volcanic_eruption;Volcanic Eruption;;;;;;;;;;;;;x
+VIET_center_volcanic_eruption_desc;A volcano recently erupted in this province, causing much damage. It will take years for the locals to rebuild.;;;;;;;;;;;;;x
+VIET_near_volcanic_eruption;Near Volcanic Eruption;;;;;;;;;;;;;x
+VIET_near_volcanic_eruption_desc;This province happened to be near a volcanic eruption. Though it did not suffer any immediate damage, the resulting clouds of smoke spread here, affecting the productivity of the land.;;;;;;;;;;;;;x
+VIET_war_ideas;Cunning War Plans;;;;;;;;;;;;;x
+VIET_war_problems;Military Setbacks;;;;;;;;;;;;;x
+VIET_location_sogdian_fair_normal;Sogdian Fair (Normal);;;;;;;;;;;;;x
+VIET_location_sogdian_fair_normal_desc;This province's lord is currently hosting a normal Sogdian fair. People from all across the Silk Road are gathering here to trade and have fun!;;;;;;;;;;;;;x
+VIET_location_sogdian_fair_max;Sogdian Fair (Max);;;;;;;;;;;;;x
+VIET_location_sogdian_fair_max_desc;This province's lord is currently hosting a Fair of Max. People from all across the Silk Road are gathering here to trade and have fun, as well as engage each other in an atmosphere of religious tolerance and interaction!;;;;;;;;;;;;;x
+VIET_location_sogdian_fair_tirmah;Sogdian Fair (Tirmah);;;;;;;;;;;;;x
+VIET_location_sogdian_fair_tirmah_desc;This province's lord is currently hosting a Tirmah Fair. People from all across the Silk Road are gathering here to trade and have fun! They must beware, though, for defective goods can be sold at the Tirmah Fair without penalty!;;;;;;;;;;;;;x
+VIET_location_sogdian_fair_mxyrh;Sogdian Fair (Mxyrh);;;;;;;;;;;;;x
+VIET_location_sogdian_fair_mxyrh_desc;This province's lord is currently hosting a Mxyrh Fair. People from all across the Silk Road are gathering here to trade and have fun! They must beware, though, for at this fair, there is a fun tradition where one's belongings can be "stolen" by friends and family!;;;;;;;;;;;;;x
+VIET_sogdian_fair_silk;Bought Silk;;;;;;;;;;;;;x
+VIET_sogdian_fair_silk_desc;"I just love this texture, it feels so... silky...";;;;;;;;;;;;;x
+VIET_sogdian_fair_spices;Bought Spices;;;;;;;;;;;;;x
+VIET_sogdian_fair_spices_desc;The spice must flow.;;;;;;;;;;;;;x
+VIET_sogdian_fair_lacquer;Bought Laquerware;;;;;;;;;;;;;x
+VIET_sogdian_fair_lacquer_desc;Made in China, of high quality;;;;;;;;;;;;;x
+VIET_sogdian_fair_incense;Bought Incense;;;;;;;;;;;;;x
+VIET_sogdian_fair_incense_desc;Incense is like smoke to some, perfume of the heavens to others.;;;;;;;;;;;;;x
+VIET_sogdian_fair_horse_normal;Bought Horses of Normal Quality;;;;;;;;;;;;;x
+VIET_sogdian_fair_horse_normal_desc;"Neighhhhh.";;;;;;;;;;;;;x
+VIET_good_music;Heard some Good Music;;;;;;;;;;;;;x
+VIET_tirmah_fair_tricked;Tricked at the Tirmah Fair;;;;;;;;;;;;;x
+VIET_tirmah_fair_tricker;Tricked someone at the Tirmah Fair;;;;;;;;;;;;;x
+VIET_sogdian_fair_didnt_purchase;Chose Not to Purchase Something at the Fair;;;;;;;;;;;;;x
+VIET_sogdian_fair_didnt_purchase_desc;Apparently this person prefers window shopping;;;;;;;;;;;;;x
+VIET_sogdian_fair_horses;Bought Horses of Great Quality;;;;;;;;;;;;;x
+VIET_sogdian_fair_horses_desc;Never have there been such horses of such ability and strength!;;;;;;;;;;;;;x
+VIET_sogdian_fair_fruits;Bought Fruits;;;;;;;;;;;;;x
+VIET_sogdian_fair_fruits_desc;"Can I have a taste of your melons?";;;;;;;;;;;;;x
+VIET_sogdian_fair_wines;Bought Fine Wines;;;;;;;;;;;;;x
+VIET_sogdian_fair_wines_desc;Wine is the drink of true men and women.;;;;;;;;;;;;;x
+VIET_sogdian_fair_haircloth;Bought Haircloth;;;;;;;;;;;;;x
+VIET_sogdian_fair_haircloth_desc;Unstylish, coarse, and barbaric - but very practical. Only cowards and pansies wear silk - real men wear haircloth!;;;;;;;;;;;;;x
+VIET_sogdian_fair_drink;Bought a Nice Drink;;;;;;;;;;;;;x
+VIET_sogdian_fair_drink_desc;*slurp*;;;;;;;;;;;;;x
+VIET_sogdian_fair_exotic_food;Bought Exotic Food;;;;;;;;;;;;;x
+VIET_sogdian_fair_exotic_food_desc;"Don't worry, usually it's already dead by the time you put it in your mouth. Usually.";;;;;;;;;;;;;x
+VIET_sogdian_fair_jewelry;Bought Jewelry;;;;;;;;;;;;;x
+VIET_sogdian_fair_jewelry_desc;Jewels are a noble's best friend.;;;;;;;;;;;;;x
+VIET_sogdian_fair_ivory;Bought Carved Ivory;;;;;;;;;;;;;x
+VIET_sogdian_fair_ivory_desc;Made from dead elephants, carved by master craftsmen.;;;;;;;;;;;;;x
+VIET_sogdian_fair_rugs;Bought Persian Rugs;;;;;;;;;;;;;x
+VIET_sogdian_fair_rugs_desc;Comfortable, these rugs have many different uses: for decoration, for a sleeping surface, for sweeping dirt under, for tumbling on, etc.;;;;;;;;;;;;;x
+VIET_sogdian_fair_baicao;Bought Baicao;;;;;;;;;;;;;x
+VIET_sogdian_fair_baicao_desc;A special plant known to the Chinese as "Baicao," or "white grass," that originates from certain regions of the steppes - it is poisonous and deadly!;;;;;;;;;;;;;x
+VIET_dreaming_of_silk_road;Dreaming of the Silk Road;;;;;;;;;;;;;x
+VIET_comfort_food;Ate Comfort Food;;;;;;;;;;;;;x
+VIET_beef_eater_rumor;Beef Eater;;;;;;;;;;;;;x
+VIET_beef_eater_rumor_desc;This character dared to eat beef, or so the rumors say! If true, this is very bad karma indeed!;;;;;;;;;;;;;x
+VIET_loves_kebabs;Loves Kebabs;;;;;;;;;;;;;x
+VIET_loves_kebabs_desc;"Kebabs are wonderful! More kebabs! Bring them here!";;;;;;;;;;;;;x
+VIET_hates_kebabs;Hates Kebabs;;;;;;;;;;;;;x
+VIET_hates_kebabs_desc;This character hates Kebabs, and detests how they are invading Indian cuisine.;;;;;;;;;;;;;x
+VIET_special_rock;Special Rock;;;;;;;;;;;;;x
+VIET_special_rock_desc;This character possesses a beautiful, unique rock.;;;;;;;;;;;;;x
+VIET_kobold_infestation;Kobolds;;;;;;;;;;;;;x
+VIET_kobold_infestation_desc;There are stories about how the mines in this province have recently been infested with Kobolds, goblin-like creatures. According to some, that would explain the frequent problems the mines here have been facing.;;;;;;;;;;;;;x
+VIET_magical_napkins;Magical Fire-Proof Napkin;;;;;;;;;;;;;x
+VIET_magical_napkins_desc;This ruler has napkins from Persia that are fire-proof. They are coated with abestos (said to come from fire-breathing salamanders) which gives them this special property.;;;;;;;;;;;;;x
+VIET_bad_acne;Bad Acne;;;;;;;;;;;;;x
+VIET_bad_acne_desc;This character has to remember that popping their pimples isn't a good idea.;;;;;;;;;;;;;x
+aergaerga;xxxxx;;;;;;;;;;;;;x

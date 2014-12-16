@@ -1150,6 +1150,7 @@ castle = {
 				OR = { 
 					culture = somali
 					culture = afar
+					culture = swahili
 				} 
 			}
 		}
@@ -1170,6 +1171,7 @@ castle = {
 				OR = { 
 					culture = somali
 					culture = afar
+					culture = swahili
 				} 
 			}
 		}
@@ -1190,6 +1192,7 @@ castle = {
 				OR = { 
 					culture = somali
 					culture = afar
+					culture = swahili
 				} 
 			}
 		}

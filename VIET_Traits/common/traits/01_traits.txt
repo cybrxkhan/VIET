@@ -9,19 +9,21 @@ mujahid = {
 	}
 	
 	martial = 2
+	combat_rating = 1
 	
 	muslim_opinion = 10
 	same_opinion_if_same_religion = 30
 	
 	ai_zeal = 10
 
+	male_compliment = COMPL_MUJAHID
+	female_compliment = COMPL_MUJAHID
+
 	command_modifier = {
 		religious_enemy = 0.05
 	}
 
 }
-
-
 
 # Muslim who has completed the Hajj
 hajjaj = {
@@ -32,6 +34,9 @@ hajjaj = {
 	muslim_opinion = 10
 	monthly_character_piety = 0.1
 	stewardship = 1
+	
+	male_compliment = COMPL_HAJJAJ
+	female_compliment = COMPL_HAJJAJ
 }
 
 # Muslim performing hajj.
@@ -55,14 +60,22 @@ on_hajj = {
 faqih = {
 	lifestyle = yes
 	
+	opposites = {
+		scholar
+	}
+	
 	potential = {
 		religion_group = muslim
 	}
 
-	learning = 1
-	stewardship = 2
+	learning = 3
 	
 	vassal_opinion = 10
+	
+	male_compliment = COMPL_FAQIH
+	female_compliment = COMPL_FAQIH
+	male_compliment_adj = COMPL_WISE
+	female_compliment_adj = COMPL_WISE
 }
 
 # Muslim who has completely memorized the Qur'an
@@ -74,6 +87,9 @@ hafiz = {
 	learning = 2
 	
 	muslim_opinion = 5
+	
+	male_compliment = COMPL_HAFIZ
+	female_compliment = COMPL_HAFIZ
 }
 
 # Muslim agnatically descended from Muhammed
@@ -92,6 +108,9 @@ sayyid = {
 	}
 	
 	muslim_opinion = 10
+	
+	male_compliment = COMPL_SAYYID
+	female_compliment = COMPL_SAYYIDA
 }
 
 # Christian who has completed a Pilgrimage
@@ -102,6 +121,9 @@ pilgrim = {
 	
 	same_religion_opinion = 5
 	monthly_character_piety = 0.1
+	
+	male_compliment = COMPL_PILGRIM
+	female_compliment = COMPL_PILGRIM
 }
 
 # Child of a Sayyida mother (hardcoded to be passed on from Sayyid trait)
@@ -111,6 +133,9 @@ mirza = {
 	opposites =  {
 		sayyid
 	}
+
+	male_compliment = COMPL_MIRZA
+	female_compliment = COMPL_MIRZA
 
 	monthly_character_prestige = 0.03
 

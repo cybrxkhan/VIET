@@ -7680,7 +7680,7 @@ character_event = {
 	
 }
 
-# malay (buddhist)
+# Tibetan
 character_event = {
 	id = silkroad.223
 	desc = silkroad.223.desc
@@ -7777,7 +7777,7 @@ character_event = {
 	}
 	
 	option = {
-		name = "reject.VIET.courtiers"
+		name = "silkroad.223.b"
 	}	
 	
 }
@@ -8862,6 +8862,13 @@ character_event = {
 	desc = silkroad.228.desc
 	picture = GFX_evt_emissary_sinic
 	
+	#desc_trigger = {
+	#	desc = "silkroad.228.desc.2"
+	#	trigger = {
+	#		year = 1100
+	#	}
+	#}
+	
 	prisoner = no
 	only_rulers = yes
 	capable_only = yes
@@ -9220,7 +9227,7 @@ character_event = {
 	}
 	
 	option = {
-		name = "silkroad.228.a"
+		name = "silkroad.229.a"
 
 		create_character = {
 			random_traits = yes
@@ -10960,6 +10967,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = { #ok
+		set_character_flag = VIET_sogdian_fair
 		if = { 
 			limit = {
 				capital_scope = {
@@ -11019,7 +11027,7 @@ character_event = {
 					}
 				}
 			}
-			random_demesne_province = {
+			capital_scope = {
 				save_event_target_as = VIET_sogdian_fair_location
 			}
 		}
@@ -11028,17 +11036,18 @@ character_event = {
 }
 
 # Choose a fair type
-character_event = {
+narrative_event = {
 	id = silkroad.401
+	title = silkroad.401.title
 	desc = silkroad.401.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_travel_arabic
 	
 	is_triggered_only = yes
 	
 	option = { #normal fair
 		name = "silkroad.401.a"
 		set_character_flag = VIET_hosting_sogdian_fair_normal
-		character_event = { id = silkroad.402 days = 60 tooltip = sillkroad.402.tooltip }
+		character_event = { id = silkroad.402 days = 60 tooltip = silkroad.402.tooltip }
 		wealth = -50
 	}	
 	option = { #max fair
@@ -11047,7 +11056,7 @@ character_event = {
 			NOT = { has_character_flag = VIET_already_sogdian_fair_max }
 		}
 		set_character_flag = VIET_hosting_sogdian_fair_max
-		character_event = { id = silkroad.402 days = 60 tooltip = sillkroad.402.tooltip }
+		character_event = { id = silkroad.402 days = 60 tooltip = silkroad.402.tooltip }
 		wealth = -50
 		if = {
 			limit = {
@@ -11055,7 +11064,7 @@ character_event = {
 			}
 			random = {
 				remove_trait = zealous
-				chance = 50
+				chance = 40
 			}
 		}
 	}	
@@ -11065,7 +11074,7 @@ character_event = {
 			NOT = { has_character_flag = VIET_already_sogdian_fair_tirmah }
 		}
 		set_character_flag = VIET_hosting_sogdian_fair_tirmah
-		character_event = { id = silkroad.402 days = 60 tooltip = sillkroad.402.tooltip }
+		character_event = { id = silkroad.402 days = 60 tooltip = silkroad.402.tooltip }
 		wealth = -50
 		if = {
 			limit = {
@@ -11083,7 +11092,7 @@ character_event = {
 			NOT = { has_character_flag = VIET_already_sogdian_fair_mxyrh }
 		}
 		set_character_flag = VIET_hosting_sogdian_fair_mxyrh
-		character_event = { id = silkroad.402 days = 60 tooltip = sillkroad.402.tooltip }
+		character_event = { id = silkroad.402 days = 60 tooltip = silkroad.402.tooltip }
 		wealth = -50
 		if = {
 			limit = {
@@ -11125,7 +11134,7 @@ character_event = {
 character_event = {
 	id = silkroad.403
 	desc = silkroad.403.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_tuscan_country_altaic
 	
 	is_triggered_only = yes
 	
@@ -11136,6 +11145,7 @@ character_event = {
 		clr_character_flag = VIET_hosting_sogdian_fair_max
 		clr_character_flag = VIET_hosting_sogdian_fair_tirmah
 		clr_character_flag = VIET_hosting_sogdian_fair_mxyrh
+		clr_character_flag = VIET_sogdian_fair
 		event_target:VIET_sogdian_fair_location = { #Is this how we clear it???
 			clear_event_target = VIET_sogdian_fair_location
 		}
@@ -11209,11 +11219,10 @@ character_event = {
 							NOT = { trait = incapable }
 						}
 					}
-				random_courtier = {
-					
+					random_courtier = {
+						character_event = { id = silkroad.431 days = 5 random = 20 }
+					}
 				}
-				}
-
 			}
 		}
 		if = {
@@ -11226,9 +11235,16 @@ character_event = {
 					duration = -1
 				}
 			}
+			hidden_tooltip = {
+				random_list = {
+					10 = { character_event = { id = silkroad.432 days = 5 random = 20 } }
+					10 = { character_event = { id = silkroad.434 days = 5 random = 20 } }
+					10 = { character_event = { id = silkroad.435 days = 5 random = 20 } }
+				}
+			}
 		}
 		hidden_tooltip = {
-			character_event = { id = silkroad.405 days = 30 }
+			character_event = { id = silkroad.405 days = 31 }
 			#Normal events
 			random_list = {
 				20 = { character_event = { id = silkroad.406 days = 5 random = 20 } }
@@ -11255,8 +11271,8 @@ character_event = {
 					NOT = { has_character_flag = VIET_sogdian_fair_bought_slave_concubine }
 				}
 				random_list = {
-					25 = { character_event = { id = silkroad.411 days = 5 random = 20 } }
-					75 = { }
+					20 = { character_event = { id = silkroad.411 days = 5 random = 20 } }
+					80 = { }
 				}
 			}
 			#Food
@@ -11274,6 +11290,30 @@ character_event = {
 					40 = { }
 				}
 			}
+			#Ethnic/culture-related events
+			random_list = {
+				10 = { character_event = { id = silkroad.436 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.437 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.438 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.439 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.440 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.441 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.442 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.443 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.444 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.445 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.446 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.447 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.448 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.449 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.450 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.451 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.452 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.453 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.454 days = 5 random = 20 } }
+				10 = { character_event = { id = silkroad.455 days = 5 random = 20 } }
+				30 = { }
+			}
 		}
 	}
 }
@@ -11282,12 +11322,14 @@ character_event = {
 character_event = {
 	id = silkroad.405
 	desc = silkroad.405.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_tuscan_country_altaic
 	
 	is_triggered_only = yes
 	
 	option = { #yay
 		name = "silkroad.405.a"
+		clr_character_flag = VIET_soghdian_fair
+		clr_character_flag = do_not_disturb
 		if = {
 			limit = {
 				has_character_flag = VIET_hosting_sogdian_fair_normal
@@ -11296,6 +11338,7 @@ character_event = {
 			clr_character_flag = VIET_hosting_sogdian_fair_normal
 			event_target:VIET_sogdian_fair_location = {
 				remove_province_modifier = VIET_location_sogdian_fair_normal
+				clear_event_target = VIET_sogdian_fair_location
 			}
 		}
 		if = {
@@ -11308,6 +11351,7 @@ character_event = {
 			set_character_flag = VIET_already_sogdian_fair_max
 			event_target:VIET_sogdian_fair_location = {
 				remove_province_modifier = VIET_location_sogdian_fair_max
+				clear_event_target = VIET_sogdian_fair_location
 			}
 		}
 		if = {
@@ -11320,6 +11364,7 @@ character_event = {
 			set_character_flag = VIET_already_sogdian_fair_tirmah
 			event_target:VIET_sogdian_fair_location = {
 				remove_province_modifier = VIET_location_sogdian_fair_tirmah
+				clear_event_target = VIET_sogdian_fair_location
 			}
 		}
 		if = {
@@ -11332,6 +11377,7 @@ character_event = {
 			set_character_flag = VIET_already_sogdian_fair_mxyrh
 			event_target:VIET_sogdian_fair_location = {
 				remove_province_modifier = VIET_location_sogdian_fair_mxyrh
+				clear_event_target = VIET_sogdian_fair_location
 			}
 		}
 		add_character_modifier = {
@@ -11397,9 +11443,9 @@ character_event = {
 		name = "silkroad.407.b"
 		random = {
 			add_trait = zealous
-			chance = 25
+			chance = 33
 		}
-		piety = 3
+		piety = 5
 	}	
 	option = { #resolve dispute
 		name = "silkroad.407.c"
@@ -11467,7 +11513,10 @@ character_event = {
 			}
 		}
 		prestige = 5
-		piety = -5
+		random = {
+			change_diplomacy = 1
+			chance = 20
+		}
 		random_list = {
 			5 = { add_trait = patient }
 			5 = { add_trait = just }
@@ -11479,8 +11528,74 @@ character_event = {
 		trigger = {
 			has_character_flag = VIET_hosting_sogdian_fair_max
 		}
+		if = {
+			limit = {
+				NOT = { trait = sympathy_gnostic }
+				NOT = { trait = sympathy_indian }
+				NOT = { trait = sympathy_judaism }
+				NOT = { trait = sympathy_zoroastrianism }
+				NOT = { trait = sympathy_pagans }
+				NOT = { trait = sympathy_islam }
+				NOT = { trait = sympathy_christendom }
+			}
+			random_list = {
+				10 = {
+					add_trait = sympathy_gnostic
+					modifier = {
+						factor = 0
+						religion_group = gnostic_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_indian
+					modifier = {
+						factor = 0
+						religion_group = indian_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_judaism
+					modifier = {
+						factor = 0
+						religion_group = jewish_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_zoroastrianism 
+					modifier = {
+						factor = 0
+						religion_group = zoroastrian_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_pagans 
+					modifier = {
+						factor = 0
+						religion_group = pagan_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_islam  
+					modifier = {
+						factor = 0
+						religion_group = muslim_group
+					}
+				}
+				10 = {
+					add_trait = sympathy_christendom  
+					modifier = {
+						factor = 0
+						religion_group = christian_group
+					}
+				}
+				150 = { }
+			}
+		}
 		prestige = 5
-		piety = -5
+		random = {
+			change_diplomacy = 1
+			chance = 20
+		}
 		random_list = {
 			15 = { add_trait = patient }
 			15 = { add_trait = just }
@@ -11494,13 +11609,13 @@ character_event = {
 character_event = {
 	id = silkroad.408
 	desc = silkroad.408.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_market
 	
 	is_triggered_only = yes
 	
 	option = { #donate
 		name = "silkroad.408.a"
-		piety = 10
+		piety = 15
 		wealth = -10
 	}	
 	option = { #nice clothes
@@ -11519,10 +11634,14 @@ character_event = {
 		}
 		spouse = {
 			opinion = {
-					modifier = VIET_opinion_great_gift
-					who = ROOT
-					years = 2
-			}		
+				modifier = VIET_opinion_great_gift
+				who = ROOT
+				years = 2
+			}
+			add_character_modifier = {
+				name = VIET_sogdian_fair_silk
+				duration = 1453
+			}			
 		}
 		wealth = -10
 	}	
@@ -11530,10 +11649,14 @@ character_event = {
 		name = "silkroad.408.d"
 		random_courtier = {
 			opinion = {
-					modifier = VIET_opinion_great_gift
-					who = ROOT
-					years = 2
-			}		
+				modifier = VIET_opinion_great_gift
+				who = ROOT
+				years = 2
+			}
+			add_character_modifier = {
+				name = VIET_sogdian_fair_silk
+				duration = 1453
+			}			
 		}
 		wealth = -10
 	}		
@@ -11585,26 +11708,34 @@ character_event = {
 character_event = {
 	id = silkroad.410
 	desc = silkroad.410.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_emissary
 	
 	is_triggered_only = yes
 	
 	option = { #support chinese
 		name = "silkroad.410.a"
 		prestige = 5
+		random = {
+			add_trait = just
+			chance = 5
+		}
 		custom_tooltip = { text = VIET_sogdian_merchant_dispute_chinese }
 	}	
 	option = { #support sogdian
 		name = "silkroad.410.b"
 		prestige = 5
+		random = {
+			add_trait = just
+			chance = 5
+		}
 		custom_tooltip = { text = VIET_sogdian_merchant_dispute_sogdian }
 	}		
 	option = { #support neither
 		name = "silkroad.410.c"
 		random_list = {
-			80 = { }
-			10 = { add_trait = slothful }
-			10 = { add_trait = content }
+			60 = { }
+			20 = { add_trait = slothful }
+			20 = { add_trait = content }
 		}
 		custom_tooltip = { text = VIET_sogdian_merchant_dispute_neither }
 	}		
@@ -11619,7 +11750,7 @@ character_event = {
 character_event = {
 	id = silkroad.411
 	desc = silkroad.411.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_maiden
 	
 	is_triggered_only = yes
 	
@@ -12634,7 +12765,7 @@ character_event = {
 					is_married = no
 				}
 				NOT = { character = ROOT }					
-				is_adult = yes
+				age = 13
 				NOT = { age = 50 }
 				NOT = { trait = incapable }
 				ai = yes
@@ -12688,7 +12819,7 @@ character_event = {
 					is_married = no
 				}
 				NOT = { character = ROOT }					
-				is_adult = yes
+				age = 13
 				NOT = { age = 50 }
 				NOT = { trait = incapable }
 				ai = yes
@@ -12747,7 +12878,7 @@ character_event = {
 character_event = {
 	id = silkroad.412
 	desc = silkroad.412.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_maiden
 	
 	is_triggered_only = yes
 	
@@ -13737,7 +13868,7 @@ character_event = {
 character_event = {
 	id = silkroad.413
 	desc = silkroad.413.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_jugglers
 	
 	is_triggered_only = yes
 	
@@ -13797,7 +13928,15 @@ character_event = {
 			factor = 15
 			modifier = {
 				factor = 0.2
-				has_character_flag = VIET_bought_turkish_slave
+				any_courtier = {
+					has_character_flag = VIET_bought_turkish_slave
+				}
+			}
+			modifier = {
+				factor = 0.2
+				any_vassal = {
+					has_character_flag = VIET_bought_turkish_slave
+				}
 			}
 		}
 		random_list = {
@@ -13950,8 +14089,8 @@ character_event = {
 		wealth = -10
 	}
 	option = { # ok
-		name = "silkroad.414.a"
-		ai_chance = { factor = 85 }
+		name = "silkroad.414.b"
+		ai_chance = { factor = 30 }
 	}
 }
 
@@ -13974,12 +14113,17 @@ character_event = {
 			10 = { set_character_flag = VIET_sogdian_food_1_5 }
 		}
 		#Choose one source of meat
-		random_list = {
-			10 = { set_character_flag = VIET_sogdian_food_2_1 }
-			10 = { set_character_flag = VIET_sogdian_food_2_2 }
-			10 = { set_character_flag = VIET_sogdian_food_2_3 }
-			10 = { set_character_flag = VIET_sogdian_food_2_4 }
-			10 = { set_character_flag = VIET_sogdian_food_2_5 }
+		if = {
+			limit = {
+				NOT = { trait = vegetarian }
+			}
+			random_list = {
+				10 = { set_character_flag = VIET_sogdian_food_2_1 }
+				10 = { set_character_flag = VIET_sogdian_food_2_2 }
+				10 = { set_character_flag = VIET_sogdian_food_2_3 }
+				10 = { set_character_flag = VIET_sogdian_food_2_4 }
+				10 = { set_character_flag = VIET_sogdian_food_2_5 }
+			}
 		}
 		#Choose one side
 		random_list = {
@@ -14001,11 +14145,11 @@ character_event = {
 	}
 }
 
-# Food setup
+# Food proper
 character_event = {
 	id = silkroad.416
 	desc = silkroad.416.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_VIET_food
 	
 	is_triggered_only = yes
 	
@@ -14242,7 +14386,7 @@ character_event = {
 character_event = {
 	id = silkroad.417
 	desc = silkroad.417.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_desert_serindian
 	
 	is_triggered_only = yes
 	
@@ -14250,7 +14394,7 @@ character_event = {
 		name = "silkroad.417.a"
 		random = {
 			change_diplomacy = 1
-			chance = 20
+			chance = 25
 		}
 		prestige = 10
 	}
@@ -14259,7 +14403,7 @@ character_event = {
 character_event = {
 	id = silkroad.418
 	desc = silkroad.418.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_village_at_night_sinic
 	
 	is_triggered_only = yes
 	
@@ -14267,7 +14411,7 @@ character_event = {
 		name = "silkroad.418.a"
 		random = {
 			change_intrigue = 1
-			chance = 20
+			chance = 25
 		}
 		prestige = 10
 	}
@@ -14276,7 +14420,7 @@ character_event = {
 character_event = {
 	id = silkroad.419
 	desc = silkroad.419.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_wafrica_gold
 	
 	is_triggered_only = yes
 	
@@ -14284,7 +14428,7 @@ character_event = {
 		name = "silkroad.419.a"
 		random = {
 			change_stewardship = 1
-			chance = 20
+			chance = 25
 		}
 		prestige = 10
 	}
@@ -14293,7 +14437,7 @@ character_event = {
 character_event = {
 	id = silkroad.420
 	desc = silkroad.420.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_small_town
 	
 	is_triggered_only = yes
 	
@@ -14301,7 +14445,7 @@ character_event = {
 		name = "silkroad.420.a"
 		random = {
 			change_learning = 1
-			chance = 20
+			chance = 25
 		}
 		prestige = 10
 	}
@@ -14316,7 +14460,7 @@ character_event = {
 character_event = {
 	id = silkroad.421
 	desc = silkroad.421.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_bishop_pagan_group
 	
 	is_triggered_only = yes
 	
@@ -14369,7 +14513,7 @@ character_event = {
 character_event = {
 	id = silkroad.422
 	desc = silkroad.422.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_monk_eastern_group
 	
 	is_triggered_only = yes
 	
@@ -14422,7 +14566,7 @@ character_event = {
 character_event = {
 	id = silkroad.423
 	desc = silkroad.423.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_monk_eastern_group
 	
 	is_triggered_only = yes
 	
@@ -14475,7 +14619,7 @@ character_event = {
 character_event = {
 	id = silkroad.424
 	desc = silkroad.424.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_jerusalem
 	
 	is_triggered_only = yes
 	
@@ -14528,7 +14672,7 @@ character_event = {
 character_event = {
 	id = silkroad.425
 	desc = silkroad.425.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_trade_post_republic_muslim
 	
 	is_triggered_only = yes
 	
@@ -14704,12 +14848,11 @@ character_event = {
 			}
 		}
 	}
-	option = { #join them
+	option = { #whatever
 		name = "silkroad.456.c"
 		trigger = {
 			NOT = { religion_group = zoroastrian_group }
 		}
-		piety = 5
 	}
 }
 
@@ -14717,7 +14860,7 @@ character_event = {
 character_event = {
 	id = silkroad.427
 	desc = silkroad.427.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_synagogue
 	
 	is_triggered_only = yes
 	
@@ -14790,11 +14933,11 @@ character_event = {
 	
 	option = { #ok
 		name = "silkroad.428.a"
-		prestige = 1
+		prestige = 2
 	}	
 	option = { #ok
 		name = "silkroad.428.b"
-		piety = 1
+		piety = 2
 	}
 }
 
@@ -14802,7 +14945,7 @@ character_event = {
 character_event = {
 	id = silkroad.429
 	desc = silkroad.429.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_bad_news
 	
 	is_triggered_only = yes
 	
@@ -14825,11 +14968,30 @@ character_event = {
 				diplomacy = 13
 			}
 		}
-		random = {
-			wealth = -5
-			chance = 30
+		if = {
+			limit = {
+				NOT = { diplomacy = 12 }
+			}
+			random = {
+				wealth = -5
+				chance = 40
+			}
 		}
-		prestige = -3
+		if = {
+			limit = {
+				diplomacy = 12
+			}
+			random = {
+				wealth = -5
+				chance = 20
+			}
+		}
+		random_list = {
+			50 = { prestige = -4 }
+			20 = { change_intrigue = 1 }
+			10 = { change_stewardship = 1 }
+			20 = { change_diplomacy = 1 }
+		}
 		add_character_modifier = {
 			name = VIET_tirmah_fair_tricker
 			duration = 365
@@ -14860,21 +15022,21 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = { #ok
-		name = "silkroad.430.a"
-		FROM = { character_event = { id = silkroad.432 } }
+		name = "silkroad.431.a"
+		FROM = { character_event = { id = silkroad.457 } }
 	}
 }
 
 # Courtier tricked
 character_event = {
-	id = silkroad.432
-	desc = silkroad.432.desc
-	picture = GFX_evt_silk_road
+	id = silkroad.457
+	desc = silkroad.457.desc
+	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
 	
 	option = { #ok
-		name = "silkroad.430.a"
+		name = "silkroad.457.a"
 		FROM = {
 			prestige = -5
 			wealth = -5
@@ -14931,7 +15093,7 @@ character_event = {
 character_event = {
 	id = silkroad.433
 	desc = silkroad.433.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_courtiers_talking
 	
 	is_triggered_only = yes
 	
@@ -14947,6 +15109,7 @@ character_event = {
 			prestige = 5
 		}
 		prestige = -5
+		clr_character_flag = VIET_mxyrh_stolen
 	}	
 	option = { #ok
 		name = "silkroad.433.b"
@@ -14960,6 +15123,7 @@ character_event = {
 			prestige = -5
 		}
 		prestige = 5
+		clr_character_flag = VIET_mxyrh_not_stolen
 	}
 }
 
@@ -14967,7 +15131,7 @@ character_event = {
 character_event = {
 	id = silkroad.434
 	desc = silkroad.434.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_emissary
 	
 	is_triggered_only = yes
 	
@@ -14981,7 +15145,7 @@ character_event = {
 	option = { #ok
 		name = "silkroad.434.b"
 		random = {
-			add_trait = kind
+			add_trait = trusting
 			chance = 10
 		}
 	}
@@ -14991,7 +15155,7 @@ character_event = {
 character_event = {
 	id = silkroad.435
 	desc = silkroad.435.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_castle_construction
 	
 	is_triggered_only = yes
 	
@@ -15012,7 +15176,7 @@ character_event = {
 character_event = {
 	id = silkroad.436
 	desc = silkroad.436.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_skyrim_forest
 	
 	is_triggered_only = yes
 	
@@ -15037,7 +15201,7 @@ character_event = {
 character_event = {
 	id = silkroad.437
 	desc = silkroad.437.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_journey_to_spirit_world_tengri_pagan
 	
 	is_triggered_only = yes
 	
@@ -15050,7 +15214,7 @@ character_event = {
 		wealth = -10
 	}	
 	option = { #ok
-		name = "silkroad.436.b"
+		name = "silkroad.437.b"
 		add_character_modifier = {
 			name = VIET_sogdian_fair_didnt_purchase
 			duration = 365
@@ -15076,11 +15240,21 @@ character_event = {
 	}		
 	option = { #ok
 		name = "silkroad.438.b"
+		trigger = {
+			NOT = { religion_group = muslim }
+			trait = zealous
+		}
 		add_character_modifier = {
 			name = VIET_sogdian_fair_wines
 			duration = 1095
 		}
 		wealth = -12
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			piety = -5
+		}
 	}	
 	option = { #ok
 		name = "silkroad.438.c"
@@ -15095,7 +15269,7 @@ character_event = {
 character_event = {
 	id = silkroad.439
 	desc = silkroad.439.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_jugglers
 	
 	is_triggered_only = yes
 	
@@ -15137,7 +15311,7 @@ character_event = {
 character_event = {
 	id = silkroad.441
 	desc = silkroad.441.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_VIET_food
 	
 	is_triggered_only = yes
 	
@@ -15162,7 +15336,7 @@ character_event = {
 character_event = {
 	id = silkroad.442
 	desc = silkroad.442.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_VIET_food
 	
 	is_triggered_only = yes
 	
@@ -15218,6 +15392,13 @@ character_event = {
 		#	name = VIET_sogdian_fair_didnt_purchase
 		#	duration = 365
 		#}
+	}	
+	option = { #ok
+		name = "silkroad.443.c"
+		add_character_modifier = {
+			name = VIET_sogdian_fair_didnt_purchase
+			duration = 365
+		}
 	}
 }
 
@@ -15225,7 +15406,7 @@ character_event = {
 character_event = {
 	id = silkroad.444
 	desc = silkroad.444.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_book_carolingian_script
 	
 	is_triggered_only = yes
 	
@@ -15309,7 +15490,7 @@ character_event = {
 character_event = {
 	id = silkroad.446
 	desc = silkroad.446.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_journey_to_spirit_world_tengri_pagan
 	
 	is_triggered_only = yes
 	
@@ -15334,7 +15515,7 @@ character_event = {
 character_event = {
 	id = silkroad.447
 	desc = silkroad.447.desc
-	picture = GFX_evt_silk_road
+	picture = GFX_evt_brothel_sinic
 	
 	is_triggered_only = yes
 	
@@ -15402,7 +15583,7 @@ character_event = {
 		}		
 	}	
 	option = { #ok
-		name = "silkroad.449.a"
+		name = "silkroad.449.b"
 		add_character_modifier = {
 			name = VIET_sogdian_fair_didnt_purchase
 			duration = 365
@@ -15601,9 +15782,19 @@ character_event = {
 	
 	option = { #ok
 		name = "silkroad.455.a"
-		add_character_modifier = {
-			name = VIET_sogdian_fair_exotic_food
-			duration = 730
+		random_list = {
+			25 = {
+				add_character_modifier = {
+					name = VIET_sogdian_fair_exotic_food
+					duration = 730
+				}
+			}
+			75 = {
+				add_character_modifier = {
+					name = VIET_sogdian_fair_spices
+					duration = 730
+				}
+			}
 		}
 		wealth = -8
 	}	
@@ -15617,4 +15808,4 @@ character_event = {
 }
 
 
-#457
+#458

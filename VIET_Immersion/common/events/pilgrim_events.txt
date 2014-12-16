@@ -1133,120 +1133,28 @@ character_event = {
 		name = EVTOPTA_SoA_5031
 		random_list = {
 			10 = {
-				if = {
-					limit = { trait = celibate }
-					remove_trait = celibate
+				modifier = {
+					factor = 0
+					has_dlc = "Way of Life"
 				}
-				if = {
-					limit = { trait = hedonist }
-					remove_trait = hedonist
-				}
-				if = {
-					limit = { trait = gardener }
-					remove_trait = gardener
-				}
-				if = {
-					limit = { trait = mystic }
-					remove_trait = mystic
-				}
-				if = {
-					limit = { trait = impaler }
-					remove_trait = impaler
-				}
-				if = {
-					limit = { trait = duelist }
-					remove_trait = duelist
-				}
-				if = {
-					limit = { trait = hunter }
-					remove_trait = hunter
-				}
-				if = {
-					limit = { trait = poet }
-					remove_trait = poet
-				}
-				if = {
-					limit = { trait = falconer }
-					remove_trait = falconer
+				modifier = {
+					factor = 0
+					lifestyle_traits = 1
 				}
 				add_trait = scholar
 			}
 			10 = {
-				if = {
-					limit = { trait = celibate }
-					remove_trait = celibate
+				modifier = {
+					factor = 0
+					has_dlc = "Way of Life"
 				}
-				if = {
-					limit = { trait = hedonist }
-					remove_trait = hedonist
-				}
-				if = {
-					limit = { trait = scholar }
-					remove_trait = scholar
-				}
-				if = {
-					limit = { trait = gardener }
-					remove_trait = gardener
-				}
-				if = {
-					limit = { trait = impaler }
-					remove_trait = impaler
-				}
-				if = {
-					limit = { trait = duelist }
-					remove_trait = duelist
-				}
-				if = {
-					limit = { trait = hunter }
-					remove_trait = hunter
-				}
-				if = {
-					limit = { trait = poet }
-					remove_trait = poet
-				}
-				if = {
-					limit = { trait = falconer }
-					remove_trait = falconer
+				modifier = {
+					factor = 0
+					lifestyle_traits = 1
 				}
 				add_trait = mystic
 			}
 			10 = {
-				if = {
-					limit = { trait = celibate }
-					remove_trait = celibate
-				}
-				if = {
-					limit = { trait = hedonist }
-					remove_trait = hedonist
-				}
-				if = {
-					limit = { trait = scholar }
-					remove_trait = scholar
-				}
-				if = {
-					limit = { trait = gardener }
-					remove_trait = gardener
-				}
-				if = {
-					limit = { trait = mystic }
-					remove_trait = mystic
-				}
-				if = {
-					limit = { trait = impaler }
-					remove_trait = impaler
-				}
-				if = {
-					limit = { trait = duelist }
-					remove_trait = duelist
-				}
-				if = {
-					limit = { trait = hunter }
-					remove_trait = hunter
-				}
-				if = {
-					limit = { trait = falconer }
-					remove_trait = falconer
-				}
 				add_trait = poet
 			}
 			10 = {
@@ -3174,6 +3082,10 @@ narrative_event = {
 	}
 	option = {
 		name = EVTOPTC_SoA_5064
+		trigger = {
+			NOT = { lifestyle_traits = 1 }
+			NOT = { has_dlc = "Way of Life" }
+		}
 		ai_chance = {
 			factor = 10
 		}
@@ -3193,46 +3105,7 @@ narrative_event = {
 			limit = { trait = wounded }
 			remove_trait = wounded
 		}
-		if = {
-			limit = { NOT = { trait = mystic } }
-			if = {
-				limit = { trait = celibate }
-				remove_trait = celibate
-			}
-			if = {
-				limit = { trait = hedonist }
-				remove_trait = hedonist
-			}
-			if = {
-				limit = { trait = scholar }
-				remove_trait = scholar
-			}
-			if = {
-				limit = { trait = gardener }
-				remove_trait = gardener
-			}
-			if = {
-				limit = { trait = impaler }
-				remove_trait = impaler
-			}
-			if = {
-				limit = { trait = duelist }
-				remove_trait = duelist
-			}
-			if = {
-				limit = { trait = hunter }
-				remove_trait = hunter
-			}
-			if = {
-				limit = { trait = poet }
-				remove_trait = poet
-			}
-			if = {
-				limit = { trait = falconer }
-				remove_trait = falconer
-			}
 			add_trait = mystic
-		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 }
@@ -3277,45 +3150,12 @@ character_event = {
 			factor = 80
 		}
 			if = {
-				limit = { NOT = { trait = hedonist } }
+			limit = {
+				NOT = { lifestyle_traits = 1 }
+				NOT = { has_dlc = "Way of Life" }
+			}
 				random = {
 					chance = 30
-					if = {
-						limit = { trait = celibate }
-						remove_trait = celibate
-					}
-					if = {
-						limit = { trait = mystic }
-						remove_trait = mystic
-					}
-					if = {
-						limit = { trait = scholar }
-						remove_trait = scholar
-					}
-					if = {
-						limit = { trait = gardener }
-						remove_trait = gardener
-					}
-					if = {
-						limit = { trait = impaler }
-						remove_trait = impaler
-					}
-					if = {
-						limit = { trait = duelist }
-						remove_trait = duelist
-					}
-					if = {
-						limit = { trait = hunter }
-						remove_trait = hunter
-					}
-					if = {
-						limit = { trait = poet }
-						remove_trait = poet
-					}
-					if = {
-						limit = { trait = falconer }
-						remove_trait = falconer
-					}
 					add_trait = hedonist
 				}
 			}
@@ -3326,6 +3166,10 @@ character_event = {
 					add_trait = drunkard
 				}
 			}
+		add_character_modifier = {
+			name = good_times
+			days = 730
+		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 		}
 	option = {

@@ -387,10 +387,24 @@ province_event = {
 		}
 		custom_tooltip = { text = VIET_got_volcanic_eruption }
 		hidden_tooltip = {
-			narrative_event = { id = VIETdisaster.21 }
-			any_province_character = { character_event = { id = VIETdisaster.23 days = 1 } }
+			owner = {
+				narrative_event = { id = VIETdisaster.21 }
+			}
+			any_province_character = {
+				random_list = {
+					10 = { character_event = { id = VIETdisaster.25 } }
+					40 = { character_event = { id = VIETdisaster.23 } }
+					50 = { character_event = { id = VIETdisaster.24 } }
+				}
+			}
 			any_neighbor_province = {
-				province_event = { id = VIETdisaster.30 days = 2 }
+				limit = {
+					NOT = { has_province_modifier = VIET_center_volcanic_eruption }
+				}
+				random_list = {
+					70 = { province_event = { id = VIETdisaster.22 days = 1 } }
+					30 = { }
+				}
 			}
 		}
 	}
@@ -408,62 +422,29 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
-	major_trigger = {
-		is_ruler = yes
-		capital_scope = {
-			NOT = {
-				distance = {
-					where = event_target:VIET_volcano_victim # where the volcano hit
-					value = 1250 # Same part of the world
-				}
-			}
-		}
-	}
-	
 	option = {
 		name = VIETdisaster.21.a
 	}	
-	option = { #send help?
-		name = VIETdisaster.21.b
-		trigger = {
-			capital_scope = {
-				NOT = {
-					distance = {
-						where = event_target:VIET_volcano_victim # where the volcano hit
-						value = 250	# Same part of the world
-					}
-				}			
-			}
-		}
-		event_target:VIET_volcano_victim = {
-			owner = {
-				character_event = { id = VIETdisaster.22 }
-			}
-		}
-	}
 }
 
-#omfg
-letter_event = {
+#Smoke spreads
+province_event = {
 	id = VIETdisaster.22
 	desc = VIETdisaster.22.desc
 	picture = "GFX_evt_volcanic_eruption"
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { #ok
 		name = VIETdisaster.22.a
-		FROM = {
-			reverse_opinion = {
-				modifier = VIET_opinion_helped_volcano
-				who = ROOT
-				years = 20
-			}		
+		add_province_modifier = {
+			name = VIET_near_volcanic_eruption
+			duration = 1825
 		}
 	}
 }
 
-#omfg
+#wound
 character_event = {
 	id = VIETdisaster.23
 	desc = VIETdisaster.23.desc
@@ -473,23 +454,12 @@ character_event = {
 	
 	option = { #run for it
 		name = VIETdisaster.23.a
-		custom_tooltip = { text = VIET_volcano_coward }
-		hidden_tooltip = {
-			random_list = {
-				66 = { character_event = { id = VIETdisaster.24 } } #Escapes
-				34 = { character_event = { id = VIETdisaster.25 } } #Dies
-			}
-		}
-	}	
-	option = { #rescue others
-		name = VIETdisaster.23.b
-		add_trait = just
-		add_trait = brave
-		custom_tooltip = { text = VIET_volcano_rescue_others }
-		hidden_tooltip = {
-			character_event = { id = VIETdisaster.26 }
+		random_list = {
+			25 = { add_trait = maimed }
+			75 = { add_trait = wounded }
 		}
 	}
+		
 }
 
 #escape!
@@ -502,11 +472,6 @@ character_event = {
 	
 	option = { #run for it
 		name = VIETdisaster.24.a
-		random_list = {
-			40 = { add_trait = wounded }
-			10 = { add_trait = maimed }
-			50 = { }
-		}
 	}
 }
 
@@ -526,116 +491,6 @@ character_event = {
 	}
 }
 
-#being a hero
-character_event = {
-	id = VIETdisaster.26
-	desc = VIETdisaster.26.desc
-	picture = "GFX_evt_volcanic_eruption"
-	
-	is_triggered_only = yes
-	
-	option = { #run for it
-		name = VIETdisaster.26.a
-		prestige = 50
-		piety = 25
-		custom_tooltip = { text = VIET_volcano_good_hero }
-		hidden_tooltip = {
-			random_list = {
-				40 = { character_event = { id = VIETdisaster.24 } } #Escapes
-				60 = { character_event = { id = VIETdisaster.29 } } #Dies
-			}
-		}
-	}	
-	option = { #continue to rescue others
-		name = VIETdisaster.26.b
-		prestige = 100
-		piety = 50
-		custom_tooltip = { text = VIET_volcano_great_hero }
-		hidden_tooltip = {
-			character_event = { id = VIETdisaster.27 }
-		}
-	}
-}
-
-#done all we can
-character_event = {
-	id = VIETdisaster.27
-	desc = VIETdisaster.27.desc
-	picture = "GFX_evt_volcanic_eruption"
-	
-	is_triggered_only = yes
-	
-	option = { #run for it
-		name = VIETdisaster.27.a
-		custom_tooltip = { text = VIET_volcano_hero_flee }
-		hidden_tooltip = {
-			random_list = {
-				20 = { character_event = { id = VIETdisaster.28 } } #Escapes
-				80 = { character_event = { id = VIETdisaster.29 } } #Dies
-			}
-		}
-	}
-}
-
-#Miraculous escape
-character_event = {
-	id = VIETdisaster.28
-	desc = VIETdisaster.28.desc
-	picture = "GFX_evt_volcanic_eruption"
-	
-	is_triggered_only = yes
-	
-	option = { #ok
-		name = VIETdisaster.28.a
-		piety = 25
-		random_list = {
-			25 = { give_nickname = nick_brave }
-			25 = { give_nickname = nick_courageous }
-			25 = { give_nickname = nick_heroic }
-			25 = { give_nickname = nick_noble }
-		}
-	}
-}
-
-#death
-character_event = {
-	id = VIETdisaster.29
-	desc = VIETdisaster.29.desc
-	picture = "GFX_evt_volcanic_eruption"
-	
-	is_triggered_only = yes
-	
-	option = { #ok
-		name = VIETdisaster.29.a
-		piety = 100
-		random_list = {
-			25 = { give_nickname = nick_brave }
-			25 = { give_nickname = nick_courageous }
-			25 = { give_nickname = nick_heroic }
-			25 = { give_nickname = nick_noble }
-		}
-		death = {
-			death_reason = death_accident
-		}
-	}
-}
-
-#Smoke spreads
-province_event = {
-	id = VIETdisaster.30
-	desc = VIETdisaster.30.desc
-	picture = "GFX_evt_volcanic_eruption"
-	
-	is_triggered_only = yes
-	
-	option = { #ok
-		name = VIETdisaster.30.a
-		add_province_modifier = {
-			name = VIET_near_volcanic_eruption
-			duration = 1825
-		}
-	}
-}
 
 
 

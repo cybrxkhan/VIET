@@ -585,6 +585,16 @@ on_yearly_pulse = {
 		100 = VIETmisc.2267
 		100 = VIETmisc.2268
 		100 = VIETmisc.2269
+		#Rocks and Minerals
+		100 = VIETmisc.2270
+		100 = VIETmisc.2271
+		100 = VIETmisc.2274
+		100 = VIETmisc.2278
+		#Curry
+		100 = VIETmisc.2279
+		100 = VIETmisc.2280
+		100 = VIETmisc.2281
+		100 = VIETmisc.2284
 		
 		
 		#VIET CULTURE SPECIFIC EVENTS
@@ -1004,6 +1014,12 @@ on_bi_yearly_pulse = {
 		#TES References
 		10 = VIETmisc.2211
 		10 = VIETmisc.2212
+		#Rocks and minerals
+		10 = VIETmisc.2272
+		10 = VIETmisc.2277
+		#Curry
+		10 = VIETmisc.2282
+		10 = VIETmisc.2283
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -1213,6 +1229,10 @@ on_five_year_pulse = {
 		10 = VIETnam.301
 		#Urine
 		10 = VIETmisc.2247
+		#Rocks and minerals
+		10 = VIETmisc.2273
+		10 = VIETmisc.2275
+		10 = VIETmisc.2276
 		
 		#VIET Event Chains
 		2 = VIETmisc.2513 #Call on the avatar

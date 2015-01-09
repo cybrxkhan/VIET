@@ -31,7 +31,61 @@
 #####################################################################
 # WEST AFRICA
 #####################################################################
-
+#Griot Stuff
+VIET_griot_inspiring_warriors_1 = {
+	land_morale = 0.05	
+	castle_vassal_max_levy = 0.02
+	temple_vassal_max_levy = 0.02
+	city_vassal_max_levy = 0.02	
+	icon = 13
+}
+VIET_griot_inspiring_warriors_2 = {
+	land_morale = 0.1	
+	castle_vassal_max_levy = 0.05
+	temple_vassal_max_levy = 0.05
+	city_vassal_max_levy = 0.05	
+	icon = 13
+}
+VIET_griot_inspiring_warriors_3 = {
+	land_morale = 0.15	
+	castle_vassal_max_levy = 0.1
+	temple_vassal_max_levy = 0.1
+	city_vassal_max_levy = 0.1	
+	icon = 13
+}
+VIET_griot_inspiring_community_1 = {
+	general_opinion = 5
+	global_tax_modifier = 0.01
+	icon = 18
+}
+VIET_griot_inspiring_community_2 = {
+	general_opinion = 10
+	global_tax_modifier = 0.02
+	icon = 18
+}
+VIET_griot_inspiring_community_3 = {
+	general_opinion = 15
+	global_tax_modifier = 0.05
+	icon = 18
+}
+VIET_griot_inspiring_spirits_1 = {
+	global_revolt_risk = -0.01
+	build_cost_modifier = -0.02
+	build_time_modifier = -0.02
+	icon = 17
+}
+VIET_griot_inspiring_spirits_1 = {
+	global_revolt_risk = -0.02
+	build_cost_modifier = -0.05
+	build_time_modifier = -0.05
+	icon = 17
+}
+VIET_griot_inspiring_spirits_1 = {
+	global_revolt_risk = -0.03
+	build_cost_modifier = -0.1
+	build_time_modifier = -0.1
+	icon = 17
+}
 #Iron Woman Staff/Spear Decision/Event Chain
 iron_woman_of_power_1 = {
 	monthly_character_prestige = 0.02
@@ -757,6 +811,48 @@ VIET_silk_road_cuisine_sides = {
 VIET_silk_road_cuisine_dessert = {
 	fertility = 0.05
 	icon = 39
+}
+
+#####################################################################
+# DULCINIAN
+#####################################################################
+
+VIET_dulcinian_wealth_nobles_react = {
+	general_opinion = -10
+	monthly_character_piety = -0.3
+	monthly_character_prestige = -0.3
+	global_revolt_risk = 0.05
+	land_morale = -0.33
+	icon = 35
+}
+VIET_dulcinian_wealth_clergy_react = {
+	general_opinion = -10
+	monthly_character_piety = -0.5
+	monthly_character_prestige = -0.2
+	global_revolt_risk = 0.05
+	church_opinion = -15
+	tech_growth_modifier_culture = -0.03
+	tech_growth_modifier_military = -0.03
+	tech_growth_modifier_economy = -0.03
+	icon = 35
+}
+VIET_dulcinian_wealth_burghers_react = {
+	general_opinion = -10
+	monthly_character_piety = -0.3
+	monthly_character_prestige = -0.2
+	global_revolt_risk = 0.05
+	global_tax_modifier = -0.1
+	build_cost_modifier = 0.5
+	build_time_modifier = 0.5
+	icon = 35
+}
+VIET_dulcinian_wealth_peasants_react = {
+	general_opinion = -15
+	monthly_character_piety = -0.3
+	monthly_character_prestige = -0.2
+	global_revolt_risk = 0.1
+	levy_reinforce_rate = -0.1
+	icon = 35
 }
 
 #####################################################################

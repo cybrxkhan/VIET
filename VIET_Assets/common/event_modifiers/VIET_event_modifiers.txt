@@ -697,6 +697,41 @@ VIET_bad_acne = {
 	general_opinion = -10
 	icon = 36
 }
+VIET_santa_claus_visiting = {
+	local_build_time_modifier = -0.05
+	local_revolt_risk = -0.01
+	icon = 39
+}
+VIET_eating_candy = {
+	general_opinion = 5
+	fertility = 0.01
+	icon = 39
+}
+VIET_nutcracker = {
+	monthly_character_prestige = 0.01
+	monthly_character_piety = 0.01
+	icon = 13
+}
+VIET_toymaker_province = {
+	local_build_time_modifier = -0.02
+	local_tax_modifier = 0.03
+	icon = 12
+}
+VIET_toys_present_to_ruler = {
+	monthly_character_prestige = 0.02
+	icon = 12
+}
+VIET_toymaking_connections = {
+	monthly_character_prestige = 0.01
+	diplomacy = 1
+	stewardship = 3
+	intrigue = 1
+	icon = 18
+}
+VIET_toymaking_boom = {
+	local_tax_modifier = 0.5
+	icon = 12
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

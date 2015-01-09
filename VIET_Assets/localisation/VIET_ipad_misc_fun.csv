@@ -873,7 +873,7 @@ VIETmisc.2275.b;That’s strange. Who the heck would bother?;;;;;;;;;;;;;x
 VIETmisc.2275.c;Maybe there’s a purpose behind it we don’t understand.;;;;;;;;;;;;;x
 VIETmisc.2276.desc;Lately a noticeable number of miners in several nearby mines have been suffering from various types of illnesses. They place blame on the kobolds, troublesome, evil, goblin-like sprites that are said to frequent these mines by embedding themselves in the rock and stone.;;;;;;;;;;;x
 VIETmisc.2276.a;What news!;;;;;;;;;;;;;x
-VIETmisc.2277.desc;A traveler shows me a special napkin he got in Persia. To clean it, he simply throws it into a fire, and after a while, all the grime and dirt is magically gone! He says that the napkin is made from a type of rock known as abestos, which some say originates from the skin of the fire-breathing salamander.;;;;;;;;;;;x
+VIETmisc.2277.desc;A traveler shows me a special napkin he got in Persia. To clean it, he simply throws it into a fire, and after a while, all the grime and dirt is magically gone! He says that the napkin is made from a type of rock known as asbestos, which some say originates from the skin of the fire-breathing salamander.;;;;;;;;;;;x
 VIETmisc.2277.a;I'd like to buy that napkin!;;;;;;;;;;;;;x
 VIETmisc.2277.b;It looks interesting, but you can keep it.;;;;;;;;;;;;;x
 VIETmisc.2278.desc;I've been having some mild skin issues lately - mainly just some bad acne and rashes. The doctors prescribed me a cream whose main ingredient is ground sulfur.;;;;;;;;;;;x
@@ -904,16 +904,23 @@ VIET_evil_cow_eater;\n\nIt was just once, I swear! Anyways, so this one time, I 
 VIETmisc.2284.desc;As Muslim, Arab, and Persian influence grows in India, many people have started eating their foods and producing local variations. For example, they eat so-called "kebabs" made of skewered meat are becoming very popular. Even vegetarians enjoy a variation made with legumes or paneer cheese.;;;;;;;;;;;x
 VIETmisc.2284.a;Strange food... but having tried it myself, I admit it's tasty!;;;;;;;;;;;;;x
 VIETmisc.2284.b;Our cuisine will not be infected by them! Remove the kebabs! Remove them!;;;;;;;;;;;;;x
-VIETmisc.2285.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2285.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2286.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2286.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2287.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2287.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2288.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2288.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2289.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2289.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2285.desc;A walking saint indeed! Stories of a humble and charitable holy man have circulated around these parts, about how he travels the region giving gifts to children and the needy and spreading good cheer. He is an inspiration to all.;;;;;;;;;;;x
+VIETmisc.2285.a;That's good to hear.;;;;;;;;;;;;;x
+VIETmisc.2285.b;Bah, humbug!;;;;;;;;;;;;;x
+VIETmisc.2286.desc;People say that Saint Nicholas, the charitable and kind saint from Anatolia, still lives to this very day in the remote parts of Spain, of all places, and that every winter, he travels throughout Christendom by giving exotic gifts such as citrus fruits!;;;;;;;;;;;x
+VIETmisc.2286.a;Bah, humbug!;;;;;;;;;;;;;x
+VIETmisc.2286.b;Maybe Saint Nicholas will visit me someday?;;;;;;;;;;;;;x
+VIETmisc.2286.c;Feliz Navidad!;;;;;;;;;;;;;x
+VIETmisc.2287.desc;I'm standing under mistletoe, but no one is or wants to be near me. I am alone.;;;;;;;;;;;x
+VIETmisc.2287.a;I feel so lonely.;;;;;;;;;;;;;x
+VIETmisc.2287.b;Bah, humbug!;;;;;;;;;;;;;x
+VIETmisc.2288.desc;In a nearby town, I pass by children eating candy canes. They offer my some.;;;;;;;;;;;x
+VIETmisc.2288.a;Thank you, you kids are very sweet!;;;;;;;;;;;;;x
+VIETmisc.2288.b;No thank you, but you are very kind.;;;;;;;;;;;;;x
+VIETmisc.2288.c;Bah, humbug!;;;;;;;;;;;;;x
+VIETmisc.2289.desc;Someone has presented me with a nice gift - a wonderfully crafted nutcracker, painted with vibrant colors and made to resemble my own image. It'll be useful for eating nuts, of course, but they also say it scares away evil spirits as it bares its nut-cracking teeth at them.;;;;;;;;;;;x
+VIETmisc.2289.a;Heh heh, let's go crack some nuts!;;;;;;;;;;;;;x
+VIETmisc.2289.b;Bah, humbug!;;;;;;;;;;;;;x
 VIETmisc.2290.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2290.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2291.desc;xxxxx;;;;;;;;;;;x

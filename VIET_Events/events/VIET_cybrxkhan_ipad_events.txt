@@ -23214,7 +23214,7 @@ character_event = {
 	option = {#yes
 		name = VIETmisc.2252.a
 		random = {
-			add_trait = greagarious
+			add_trait = gregarious
 			chance = 5
 		}
 	}

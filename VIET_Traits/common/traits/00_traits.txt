@@ -516,6 +516,10 @@ bastard = {
 	diplomacy = -1
 	same_opinion = 10
 	
+	opposites =  {
+		legit_bastard
+	}
+	
 	customizer = no
 	
 	male_insult = INSULT_BASTARD
@@ -528,6 +532,10 @@ twin = {
 }
 legit_bastard = {
 	diplomacy = -1
+	
+	opposites =  {
+		bastard
+	}
 	
 	male_insult = INSULT_BASTARD
 	male_insult_adj = INSULT_BASEBORN
@@ -703,7 +711,6 @@ dwarf = {
 		tall
 	}
 
-	intrigue = 1
 	martial = -1
 	
 	combat_rating = -3

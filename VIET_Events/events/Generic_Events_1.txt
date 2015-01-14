@@ -1129,7 +1129,7 @@ character_event = {
 		}
 		wealth = -15
 		create_character = {
-			dynasty = random
+			dynasty = culture
 			age = 6
 		}
 	}
@@ -9909,7 +9909,7 @@ narrative_event = {
 		}
 		create_random_steward = {
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -9953,7 +9953,7 @@ narrative_event = {
 				female = yes
 				min_age = 25
 				random_traits = yes
-				dynasty = random
+				dynasty = culture
 				religion = ROOT
 				culture = ROOT
 			}
@@ -10006,7 +10006,7 @@ narrative_event = {
 		}
 		create_random_steward = {
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -10068,7 +10068,7 @@ narrative_event = {
 		}
 		create_random_steward = {
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -10146,7 +10146,7 @@ narrative_event = {
 		}
 		create_random_steward = {
 			random_traits = yes
-			dynasty = random
+			dynasty = culture
 			religion = ROOT
 			culture = ROOT
 			female = no

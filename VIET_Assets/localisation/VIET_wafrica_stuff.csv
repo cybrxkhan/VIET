@@ -36,16 +36,40 @@ griot;Griot;;;;;;;;;;;;;x
 griot_desc;This character is of the Griot caste. The Griots were West African historians, storytellers, praise singers, poets and/or musicians. The griot is a repository of oral tradition, and is also often seen as something of a societal leader due to his traditional position as an adviser to royal personages.;;;;;;;;;;;;;x
 wafrica.1.desc;I have searched far and wide for a worthy Griot to serve at my court. He will sing of my ancestors, entertain my people, encourage my warriors, and provide me counsel. At long last, one such man has arrived at my court, but I am not sure whether he is worthy... A ruler must choose his griot wisely, after all.;;;;;;;;;;;;;x
 wafrica.1.a;Let us meet, then.;;;;;;;;;;;;;x
-wafrica.2.desc;A Griot such as myself must continue my line, so that there are more and more generations of Griots to advise and counsel the kings of this land.;;;;;;;;;;;;;x
-wafrica.2.a;I must find a wife.;;;;;;;;;;;;;x
-wafrica.3.desc;My Griot has taken a wife. It is important that the Griot lineages continue, that they may continue advising me and my descendants until the end of time - after all, what is a lord without his Griot? Nothing.;;;;;;;;;;;;;x
-wafrica.3.a;Live well with your wife, my Griot.;;;;;;;;;;;;;x
-wafrica.4.desc;The people of your court are incredulous. “Great [Root.GetTitle],” they might say, “it is a shame that you do not have a Griot at court! Are you to be like a trader without his camel, a warrior without his spear, a farmer without his seeds?” No self-respecting ruler of the savanna can go without a Griot, after all.;;;;;;;;;;;;;x
-wafrica.4.a;I must find a knowledgeable Griot soon, and fast!;;;;;;;;;;;;;x
+wafrica.2.desc;Your Griot sings of your mighty warriors, your brave nobles! This year he will inspire your armies in battle!;;;;;;;;;;;;;x
+wafrica.2.a;I see!;;;;;;;;;;;;;x
+wafrica.3.desc;Your Griot sings of the people, the land! This year he will encourage your community to prosper and grow!;;;;;;;;;;;;;x
+wafrica.3.a;I see!;;;;;;;;;;;;;x
+wafrica.4.desc;Your Griot sings of the spirits and ancestors! This year he will channel the worldly energy, Nyama, to better our land!;;;;;;;;;;;;;x
+wafrica.4.a;I see!;;;;;;;;;;;;;x
+#wafrica.2.desc;A Griot such as myself must continue my line, so that there are more and more generations of Griots to advise and counsel the kings of this land.;;;;;;;;;;;;;x
+#wafrica.2.a;I must find a wife.;;;;;;;;;;;;;x
+#wafrica.3.desc;My Griot has taken a wife. It is important that the Griot lineages continue, that they may continue advising me and my descendants until the end of time - after all, what is a lord without his Griot? Nothing.;;;;;;;;;;;;;x
+#wafrica.3.a;Live well with your wife, my Griot.;;;;;;;;;;;;;x
+#wafrica.4.desc;The people of your court are incredulous. “Great [Root.GetTitle],” they might say, “it is a shame that you do not have a Griot at court! Are you to be like a trader without his camel, a warrior without his spear, a farmer without his seeds?” No self-respecting ruler of the savanna can go without a Griot, after all.;;;;;;;;;;;;;x
+#wafrica.4.a;I must find a knowledgeable Griot soon, and fast!;;;;;;;;;;;;;x
 new_griot_in_court;New Griot in Court;;;;;;;;;;;;;x
 new_griot_in_court_desc;A Griot has just arrived in this Griot's court.;;;;;;;;;;;;;x
 title_court_griot;Court Griot;;;;;;;;;;;;;x
 title_court_griot_desc;"Griot" is a modern-day term used to describe a caste of highly influential individuals in West African society. Griots were, and still are, historians, advisors, arbitrators, praise singers, and storytellers. Nobles and royalty always had Griots. In traditional West Africa, no griot can be without a lord, and no lord can be without a griot. The two are inseparable, and worthless without the other.;;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_1;Griot Insquires Warriors (Adequate);;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_1_desc;This lord's Griot is inspiring the warriors of the realm, singing of the mighty heroes of old and the glorious battles yet to come!;;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_2;Griot Inspires Warriors (Good);;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_2_desc;This lord's Griot is inspiring the warriors of the realm, singing of the mighty heroes of old and the glorious battles yet to come!;;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_3;Griot Inspires Warriors (Great);;;;;;;;;;;;;x
+VIET_griot_inspiring_warriors_3_desc;This lord's Griot is inspiring the warriors of the realm, singing of the mighty heroes of old and the glorious battles yet to come!;;;;;;;;;;;;;x
+VIET_griot_inspiring_community_1;Griot Inspires Community (Adquate);;;;;;;;;;;;;x
+VIET_griot_inspiring_community_1_desc;This lord's Griot is inspiring the people of the realm, singing of the everlasting traditions of the people and the greatness of the land!;;;;;;;;;;;;;x
+VIET_griot_inspiring_community_2;Griot Inspires Community (Good);;;;;;;;;;;;;x
+VIET_griot_inspiring_community_2_desc;This lord's Griot is inspiring the people of the realm, singing of the everlasting traditions of the people and the greatness of the land!;;;;;;;;;;;;;x
+VIET_griot_inspiring_community_3;Griot Inspires Community (Great);;;;;;;;;;;;;x
+VIET_griot_inspiring_community_3_desc;This lord's Griot is inspiring the people of the realm, singing of the everlasting traditions of the people and the greatness of the land!;;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_1;Griot Inspires Spirits (Adequate);;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_1_desc;This lord's Griot is inspiring the spirits of the realm, singing of the power of Nyama and the beauty of the sacred, divine world!;;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_2;Griot Inspires Spirits (Good);;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_2_desc;This lord's Griot is inspiring the spirits of the realm, singing of the power of Nyama and the beauty of the sacred, divine world!;;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_3;Griot Inspires Spirits (Great);;;;;;;;;;;;;x
+VIET_griot_inspiring_spirits_3_desc;This lord's Griot is inspiring the spirits of the realm, singing of the power of Nyama and the beauty of the sacred, divine world!;;;;;;;;;;;;;x
 #Host Griot Performance ;;;;;;;;;;;;;;x
 held_griot_performance;Recently Held a Major Griot Performance;;;;;;;;;;;;;x
 held_griot_performance_desc;This lord has recently arranged for his Griot to showcase his skills for the entire community to see. The Griot's performance was largely successful, a brilliant display of the Griot's abilities as historian, storyteller, musician, and entertainer.;;;;;;;;;;;;;x
@@ -177,14 +201,18 @@ wafrica.106.a;It's like they don't want to be here, huh?;;;;;;;;;;;;;x
 wafrica.107.desc;"That plot was terrible," exclaims one of your courtiers,as your griot finishes his story for the day. "It jumped around without reason, it made no sense if you think about it..." As your courtier goes on and on, you realize he has a point. That last story wasn't particularly strong, and it had many flaws.;;;;;;;;;;;;;x
 wafrica.107.a;I hope the stories tomorrow will be more riveting.;;;;;;;;;;;;;x
 wafrica.107.b;It was still enjoyable, that's the most important thing!;;;;;;;;;;;;;x
-wafrica.108.desc;xxxxx;;;;;;;;;;;;;x
-wafrica.108.a;xxxxx;;;;;;;;;;;;;x
-wafrica.109.desc;xxxxx;;;;;;;;;;;;;x
-wafrica.109.a;xxxxx;;;;;;;;;;;;;x
-wafrica.110.desc;xxxxx;;;;;;;;;;;;;x
-wafrica.110.a;xxxxx;;;;;;;;;;;;;x
-wafrica.111.desc;xxxxx;;;;;;;;;;;;;x
-wafrica.111.a;xxxxx;;;;;;;;;;;;;x
+wafrica.108.name;Yaqub is Naked;;;;;;;;;;;;;x
+wafrica.108.desc;Today, Soumaoro Yaqub is the focus of the tale your griot tells. It begins calmly, peacefully, as the heroic warrior removes his clothes and enters the water naked to rest and bathe himself. But - what's this?\n\nEverybody starts laughing as your griot mimics Yaqub's shock when he sees someone stealing his clothes! But too late, as soon as he leaves the water, the culprit is nearly out of sight, running towards a city nearby. Now our hero must find this thief and avoid embarrassing himself with his nudity!;;;;;;;;;;;;;x
+wafrica.108.a;Continue the story, my griot!;;;;;;;;;;;;;x
+wafrica.109.name;Yaqub and the Warrior Woman;;;;;;;;;;;;;x
+wafrica.109.desc;As your griot continues telling another take about Soumaoro Yaqub, you bite on your nails in apprehension, as you realize that Yaqub's new companion is no beautiful warrior princess claiming to also fight against the evil sorcerer-lord Abu, she IS Abu in disguise!\n\nIt is so obvious to you now, the way this "princess" acts and speaks. Abu's disguise is no doubt clever and cunning, and you wonder how Yaqub is going to get out of the inevitable trap, and why Abu is doing this in the first place.;;;;;;;;;;;;;x
+wafrica.109.a;Be careful, Yaqub!;;;;;;;;;;;;;x
+wafrica.110.name;Fool!;;;;;;;;;;;;;x
+wafrica.110.desc;So your griot sings about how the great warrior Soumaoro Yaqub, yet again, charges into battle against the sorcerer Abubakari! But today, the evil lord Abu says: "Foolish Soumaoro! Stop right there. Why are you fighting me like this? Don't you realize the same thing happens every time? You attack me, I shout 'Fool, you shall never defeat me,' and then fly away, only for us to repeat it over and over again."\n\nYour griot tells about how Yaqub muses over this for a moment, before saying, "You will not fool me with your treachery, evil demon!";;;;;;;;;;;;;x
+wafrica.110.a;Seriously.;;;;;;;;;;;;;x
+wafrica.111.name;Yaqub vs. Abu;;;;;;;;;;;;;x
+wafrica.111.desc;Your griot continues the story: Just as Yaqub is about to charge at Abubakari again, the sorcerer turns himself into a giant bird, shouting, "Fool, you shall never defeat me!" as he flies away. He then magically reappears moments later before Yaqub, saying, "See what I mean?"\n\nThus Abu offers Yaqub a deal: they will fight at an agreed location, man-to-man, no sorcery, no magical weapons, just their own pure strength against each other. Yaqub agrees to it, but you can tell based on your griot's intonation of their voices that the two clearly plan to cheat despite their agreement...;;;;;;;;;;;;;x
+wafrica.111.a;I wonder what tricks these two enemies have up their sleeves...;;;;;;;;;;;;;x
 wafrica.112.desc;xxxxx;;;;;;;;;;;;;x
 wafrica.112.a;xxxxx;;;;;;;;;;;;;x
 wafrica.113.desc;xxxxx;;;;;;;;;;;;;x
@@ -201,6 +229,26 @@ wafrica.118.desc;xxxxx;;;;;;;;;;;;;x
 wafrica.118.a;xxxxx;;;;;;;;;;;;;x
 wafrica.119.desc;xxxxx;;;;;;;;;;;;;x
 wafrica.119.a;xxxxx;;;;;;;;;;;;;x
+wafrica.120.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.120.a;xxxxx;;;;;;;;;;;;;x
+wafrica.121.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.121.a;xxxxx;;;;;;;;;;;;;x
+wafrica.122.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.122.a;xxxxx;;;;;;;;;;;;;x
+wafrica.123.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.123.a;xxxxx;;;;;;;;;;;;;x
+wafrica.124.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.124.a;xxxxx;;;;;;;;;;;;;x
+wafrica.125.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.125.a;xxxxx;;;;;;;;;;;;;x
+wafrica.126.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.126.a;xxxxx;;;;;;;;;;;;;x
+wafrica.127.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.127.a;xxxxx;;;;;;;;;;;;;x
+wafrica.128.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.128.a;xxxxx;;;;;;;;;;;;;x
+wafrica.129.desc;xxxxx;;;;;;;;;;;;;x
+wafrica.129.a;xxxxx;;;;;;;;;;;;;x
 #Receive Iron Woman ;;;;;;;;;;;;;;x
 receive_iron_woman;Receive Iron Woman;;;;;;;;;;;;;x
 receive_iron_woman_desc;Go to a blacksmith and request for your own "Iron Woman," a special ceremonial spear or staff with magical powers;;;;;;;;;;;;;x

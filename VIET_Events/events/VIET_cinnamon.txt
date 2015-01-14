@@ -12,8 +12,10 @@
 # Imouto Toothbrushing 5028-5042
 # Burnt 5043-5053
 # Succubus 5054-5059
-# Imouto Toothbrushing Non-Incest Alternative 5060-
+# Imouto Toothbrushing Non-Incest Alternative 5060
 # Fast Love/Kogarashi Sentiment Referencing 5061-5082
+# Toymakers 5083-5088
+# Childhood Friends 5089-
 #
 ########################################################
 namespace = VIETmisc
@@ -2753,36 +2755,6 @@ character_event = {
 		add_trait = chaste
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

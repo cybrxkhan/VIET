@@ -249,4 +249,6 @@ VIET_toymaking_connections;Toymaking Connections;;;;;;;;;;;;;x
 VIET_toymaking_connections_desc;This character has connections with the world-famous toymakers of [VIET_toymaker_province.GetName].;;;;;;;;;;;;;x
 VIET_toymaking_boom;Toymaking Boom;;;;;;;;;;;;;x
 VIET_toymaking_boom_desc;Due to recent economic developments, the world-famous toymakers of [VIET_toymaker_province.GetName] are accruing more profits than usual!;;;;;;;;;;;;;x
+VIET_good_exercise;Good Exercise;;;;;;;;;;;;;x
+VIET_good_exercise_desc;A bit of exercise does some good.;;;;;;;;;;;;;x
 aergaerga;xxxxx;;;;;;;;;;;;;x

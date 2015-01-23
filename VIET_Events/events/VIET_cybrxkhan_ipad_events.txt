@@ -33,6 +33,7 @@
 # 2270-2278: Rocks n' Minerals
 # 2279-2284: Indian Curry
 # 2285-2289: Merry Christmas!
+# 2290-2292: Moss
 # 3000-3099: various traits events coded by cybrxkhan on ipad while he is ill
 # 10050-10053: Fraticelli
 ########################################################
@@ -26758,6 +26759,316 @@ character_event = {
 	}
 }
 
+#####################################
+# MOSS
+#####################################
+
+
+
+# Moss on walls
+character_event = {
+	id = VIETmisc.2290
+	desc = VIETmisc.2290.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	max_age = 50
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = { trait = infirm }
+		health = 5
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = gardener
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2290.a
+		prestige = -5
+		random = {
+			add_trait = humble
+			chance = 30
+		}
+		add_character_modifier = {
+			name = VIET_good_exercise
+			duration = 456
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2290.b
+		prestige = 2
+	}
+	option = {#yes
+		name = VIETmisc.2290.c
+		prestige = -5
+		random_list = {
+			50 = { }
+			35 = { add_trait = content }
+			15 = { add_trait = slothful }
+		}
+	}
+}
+
+# Moss and feet
+character_event = {
+	id = VIETmisc.2291
+	desc = VIETmisc.2291.desc
+	picture = GFX_evt_small_town
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		capital_scope = {
+			OR = {
+				terrain = arctic
+				terrain = steppe
+				terrain = forest
+				terrain = woods
+				terrain = mountain
+			}
+		}
+		OR = {
+			culture_group = finno_ugric
+			culture_group = north_germanic
+			culture_group = east_slavic
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent  
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = weak
+		}
+		modifier = {
+			factor = 0.5
+			trait = agile
+		}
+		modifier = {
+			factor = 2
+			trait = absentminded
+		}
+		modifier = {
+			factor = 0.5
+			trait = perceptive
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2291.a
+		prestige = -2
+	}
+}
+
+# Moss pond
+character_event = {
+	id = VIETmisc.2292
+	desc = VIETmisc.2292.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = { trait = infirm }
+		health = 4
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = hunter
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = falconer
+		}
+		modifier = {
+			factor = 0.5
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2292.a
+		piety = 2
+		if = {
+			limit = {
+				trait = stressed
+			}
+			random = {
+				remove_trait = stressed
+				chance = 60
+			}
+		}
+		if = {
+			limit = {
+				trait = depressed
+			}
+			random = {
+				remove_trait = depressed
+				chance = 40
+			}
+		}
+	}
+}
 
 
 ###################################

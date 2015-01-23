@@ -732,6 +732,11 @@ VIET_toymaking_boom = {
 	local_tax_modifier = 0.5
 	icon = 12
 }
+VIET_good_exercise = {
+	health = 0.2
+	fertility = 0.05
+	icon = 13
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

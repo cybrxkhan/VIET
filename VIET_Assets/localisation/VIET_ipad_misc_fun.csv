@@ -921,12 +921,14 @@ VIETmisc.2288.c;Bah, humbug!;;;;;;;;;;;;;x
 VIETmisc.2289.desc;Someone has presented me with a nice gift - a wonderfully crafted nutcracker, painted with vibrant colors and made to resemble my own image. It'll be useful for eating nuts, of course, but they also say it scares away evil spirits as it bares its nut-cracking teeth at them.;;;;;;;;;;;x
 VIETmisc.2289.a;Heh heh, let's go crack some nuts!;;;;;;;;;;;;;x
 VIETmisc.2289.b;Bah, humbug!;;;;;;;;;;;;;x
-VIETmisc.2290.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2290.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2291.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2291.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2292.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2292.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2290.desc;I noticed one day that there was a significant amount of moss growing on one of my palace’s walls. It was in a secluded, lesser-visited area of my residence, so it wasn’t something most people would’ve noticed, but it was no less an eyesore. For some reason, though I could simply let the servants remove the moss, I was feeling energetic and wanted to take care of it myself…;;;;;;;;;;;x
+VIETmisc.2290.a;Yes! A bit of exercise should do me some good.;;;;;;;;;;;;;x
+VIETmisc.2290.b;It’s a nice thought, but let’s have the servants deal with it.;;;;;;;;;;;;;x
+VIETmisc.2290.c;Why should it be removed at all? Does it matter?;;;;;;;;;;;;;x
+VIETmisc.2291.desc;Traveling has always been dangerous in the unpredictable climate of the [Root.Culture.GetName] regions - a pleasant day with lukewarm temperature can suddenly turn into a snowy, life-threatening blizzard - so we traditionally stuffed our shoes and clothes with moss for insulation. However, while traveling a bit today, it appears I stuffed too much moss into my boots.;;;;;;;;;;;x
+VIETmisc.2291.a;It was really uncomfortable walking around, and I looked comical.;;;;;;;;;;;;;x
+VIETmisc.2292.desc;While outside one day, enjoying the unusually pleasant weather, you come across a small pond surrounded by large boulders. On those rocks happened to be large layers of moss - enough, it seemed, for a good nap.;;;;;;;;;;;x
+VIETmisc.2292.a;Take a nap, admire the scenery, relax a bit...;;;;;;;;;;;;;x
 VIETmisc.2293.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2293.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2294.desc;xxxxx;;;;;;;;;;;x

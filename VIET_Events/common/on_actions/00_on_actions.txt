@@ -225,15 +225,15 @@ on_yearly_pulse = {
 		50 = RoI.3516
 		10 = RoI.3520
 		50 = RoI.3530
-		50 = RoI.3536
+		#50 = RoI.3536
 		
 		# Religious tolerance events
 		100 = RoI.400
 
 		# Hero knight adventure events
-		200 = CM.2010
+		#200 = CM.2010
 		200 = CM.2020
-		200 = CM.2100
+		#200 = CM.2100
 		
 		# Effects of being in hiding
 		100 = CM.6100
@@ -554,15 +554,10 @@ on_yearly_pulse = {
 		100 = VIETmisc.2047
 		100 = VIETmisc.2048
 		100 = VIETmisc.2049
-		100 = VIETmisc.2050
 		100 = VIETmisc.2051
-		100 = VIETmisc.2052
-		100 = VIETmisc.2053
 		100 = VIETmisc.2054
 		100 = VIETmisc.2055
 		100 = VIETmisc.2056
-		100 = VIETmisc.2010
-		100 = VIETmisc.2012
 		#War
 		100 = VIETmisc.2255
 		100 = VIETmisc.2256
@@ -589,6 +584,14 @@ on_yearly_pulse = {
 		100 = VIETmisc.2280
 		100 = VIETmisc.2281
 		100 = VIETmisc.2284
+		#Moss
+		100 = VIETmisc.2290
+		100 = VIETmisc.2291
+		100 = VIETmisc.2292
+		#Animals
+		100 = VIETmisc.2293
+		100 = VIETmisc.2296
+		100 = VIETmisc.2306
 
 		
 		#VIET CULTURE SPECIFIC EVENTS
@@ -823,7 +826,7 @@ on_bi_yearly_pulse = {
 		10 = 3495	
 		10 = 3280
 		10 = 3282
-		10 = 3283
+		#10 = 3283
 		10 = 3286
 		10 = 3710
 		10 = 3715
@@ -1001,10 +1004,12 @@ on_bi_yearly_pulse = {
 		#Christmas
 		10 = VIETmisc.2288
 		10 = VIETmisc.2289
-		#Moss
-		10 = VIETmisc.2290
-		10 = VIETmisc.2291
-		10 = VIETmisc.2292
+		#Animals
+		10 = VIETmisc.2297
+		10 = VIETmisc.2298
+		10 = VIETmisc.2304
+		10 = VIETmisc.2305
+		10 = VIETmisc.2307
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -1222,6 +1227,12 @@ on_five_year_pulse = {
 		10 = VIETmisc.2285
 		10 = VIETmisc.2286
 		10 = VIETmisc.2287
+		#Animals
+		10 = VIETmisc.2294
+		10 = VIETmisc.2299
+		10 = VIETmisc.2300
+		10 = VIETmisc.2302
+		10 = VIETmisc.2303
 		
 		#VIET Event Chains
 		2 = VIETmisc.2513 #Call on the avatar

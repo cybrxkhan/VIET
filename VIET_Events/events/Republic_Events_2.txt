@@ -76,7 +76,7 @@ character_event = {
 				random_traits = yes
 				dynasty = random
 				female = yes
-				age = FROM
+				# age = FROM
 				religion = FROM
 				culture = FROM
 			}

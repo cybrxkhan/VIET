@@ -1591,7 +1591,7 @@ character_event = {
 		modifier = {
 			factor = 1.5
 			OR = {
-				culture = anglo_saxon
+				culture = saxon
 				culture = english
 			}
 		}
@@ -2279,7 +2279,7 @@ character_event = {
 	}
 }
 
-############################################
+########################################################################################
 # Kogarashi Sentiment/Fast Love
 #
 # (It's an affectionate parody/po-mo take on 80s/90s shoujo OPs)
@@ -2310,7 +2310,7 @@ character_event = {
 # Kawaii mama / but I remain beautiful
 # Nukumori dake okiwasurete / the warmth of your skin.
 #
-############################################
+########################################################################################
 
 
 

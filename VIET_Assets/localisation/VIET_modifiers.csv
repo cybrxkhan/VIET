@@ -251,4 +251,12 @@ VIET_toymaking_boom;Toymaking Boom;;;;;;;;;;;;;x
 VIET_toymaking_boom_desc;Due to recent economic developments, the world-famous toymakers of [VIET_toymaker_province.GetName] are accruing more profits than usual!;;;;;;;;;;;;;x
 VIET_good_exercise;Good Exercise;;;;;;;;;;;;;x
 VIET_good_exercise_desc;A bit of exercise does some good.;;;;;;;;;;;;;x
+VIET_headless_chicken;Owns Headless Chicken;;;;;;;;;;;;;x
+VIET_headless_chicken_desc;This character owns a most fascinating chicken. Its previous owner, a farmer, tried beheading it, but only partly succeeded. The chicken still lives, for now, despite not having a head!;;;;;;;;;;;;;x
+VIET_hoax_catcher;Hoax Buster;;;;;;;;;;;;;x
+VIET_hoax_catcher_desc;Conmen and charlatans beware! This character, whether through their vast knowledge or their keen senses, can detect a hoax from miles away.;;;;;;;;;;;;;x
+VIET_province_wolf_attacks;Wolf Attacks;;;;;;;;;;;;;x
+VIET_province_wolf_attacks_desc;A sudden surge in wolf attacks has led to the disruption of the herding industry.;;;;;;;;;;;;;x
+VIET_province_fishing_boom;Fishing Boom;;;;;;;;;;;;;x
+VIET_province_fishing_boom_desc;The population of fish in the waters surrounding this province have increased significantly - more fish for everyone!;;;;;;;;;;;;;x
 aergaerga;xxxxx;;;;;;;;;;;;;x

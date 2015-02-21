@@ -737,6 +737,27 @@ VIET_good_exercise = {
 	fertility = 0.05
 	icon = 13
 }
+VIET_headless_chicken = {
+	monthly_character_prestige = 0.01
+	icon = 39
+}
+VIET_hoax_catcher = {
+	intrigue = 1
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 5
+}
+VIET_province_wolf_attacks = {
+	local_build_time_modifier = 0.03
+	local_tax_modifier = -0.03
+	icon = 29
+}
+VIET_province_fishing_boom = {
+	local_tax_modifier = 0.03
+	local_build_cost_modifier = -0.05
+	levy_reinforce_rate = 0.05
+	icon = 11
+}
 
 ### HOLY ORDERS
 expelled_manichean_holy_order = {

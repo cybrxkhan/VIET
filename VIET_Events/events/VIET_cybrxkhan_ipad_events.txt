@@ -34,6 +34,7 @@
 # 2279-2284: Indian Curry
 # 2285-2289: Merry Christmas!
 # 2290-2292: Moss
+# 2293-2309: Animal-themed
 # 3000-3099: various traits events coded by cybrxkhan on ipad while he is ill
 # 10050-10053: Fraticelli
 ########################################################
@@ -4465,7 +4466,7 @@ character_event = {
 		war = no 
 		in_command = no 
 		is_abroad = no
-		culture = sogdian
+		culture = soghdian
 		NOT = { has_character_flag = VIET_sogdian_child_learns }
 	}
 
@@ -5759,7 +5760,7 @@ character_event = {
 
 	is_triggered_only = yes
 	
-	min_age = 0
+	#min_age = 0 #lol stoopid cybrxkhan
 	max_age = 5
 	
 	trigger = {
@@ -9780,6 +9781,7 @@ character_event = {
 			NOT = { trait = shy }
 			NOT = { trait = incapable }
 		}
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -20786,6 +20788,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_cock_events_off }
 	}
 	
 	weight_multiplier = {
@@ -20865,6 +20868,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_cock_events_off }
 	}
 	
 	weight_multiplier = {
@@ -20937,6 +20941,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_cock_events_off }
 	}
 	
 	weight_multiplier = {
@@ -21022,6 +21027,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_cock_events_off }
 	}
 	
 	weight_multiplier = {
@@ -21110,6 +21116,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_cock_events_off }
 	}
 	
 	weight_multiplier = {
@@ -22029,6 +22036,7 @@ character_event = {
 		NOT = { religion = zun_pagan }
 		NOT = { religion = zun_pagan_reformed }
 		NOT = { religion = ajareda }
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -22113,6 +22121,7 @@ character_event = {
 		war = no
 		in_command = no
 		is_abroad = no
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -22236,6 +22245,7 @@ character_event = {
 				trait = scholar
 			}
 		}
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -22346,6 +22356,7 @@ character_event = {
 				trait = scholar
 			}
 		}
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -22460,6 +22471,7 @@ character_event = {
 			}
 			NOT = { trait = kind }
 		}
+		NOT = { has_global_flag = VIET_anime_references_off }
 	}
 	
 	weight_multiplier = {
@@ -26759,6 +26771,7 @@ character_event = {
 	}
 }
 
+
 #####################################
 # MOSS
 #####################################
@@ -27070,6 +27083,1414 @@ character_event = {
 	}
 }
 
+
+
+###################################
+# Animal Themed
+###################################
+
+
+
+# Turtle on a rock
+character_event = {
+	id = VIETmisc.2293
+	desc = VIETmisc.2293.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = hunter
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = falconer
+		}
+		modifier = {
+			factor = 0.5
+			trait = poet
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2293.a
+		prestige = 1
+	}
+	option = {#yes
+		name = VIETmisc.2293.b
+		random = {
+			add_trait = content
+			chance = 10
+		}
+		piety = 1
+	}
+	option = {#yes
+		name = VIETmisc.2293.c
+		trigger = {
+			OR = {
+				religion_group = indian_group
+				religion_group = pagan_group
+			}
+		}
+		piety = 1
+		random = {
+			piety = 4
+			chance = 40
+		}
+	}
+}
+
+# Annoying bird
+character_event = {
+	id = VIETmisc.2294
+	desc = VIETmisc.2294.desc
+	picture = GFX_evt_garden
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2294.a
+		character_event = { id = VIETmisc.2295 tooltip = VIETmisc.2295.tooltip }
+	}
+}
+
+# Annoying bird part 2
+character_event = {
+	id = VIETmisc.2295
+	desc = VIETmisc.2295.desc
+	picture = GFX_evt_garden
+
+	is_triggered_only = yes
+
+	option = {#yes
+		name = VIETmisc.2295.a
+		prestige = 2
+		add_character_modifier = {
+			name = VIET_annoyed_ruler
+			duration = 225
+		}		
+	}
+	option = {#yes
+		name = VIETmisc.2295.b
+		prestige = -5
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 315
+		}		
+	}
+}
+
+# Petrels
+character_event = {
+	id = VIETmisc.2296
+	desc = VIETmisc.2296.desc
+	picture = GFX_evt_busy_trading_dock_republic
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		capital_scope = {
+			port = yes
+			religion_group = christian
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2296.a
+		if = {
+			limit = {
+				trait = zealous
+			}
+			remove_trait = zealous
+		}
+		random = {
+			add_trait = cynical
+			chance = 50
+		}
+		hidden_tooltip = {
+			character_event = { id = 6060 }
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2296.b
+		random = {
+			piety = 1
+			chance = 25
+		}
+	}
+}
+
+# Evil toads
+character_event = {
+	id = VIETmisc.2297
+	desc = VIETmisc.2297.desc
+	picture = GFX_evt_travel
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 2
+			trait = cynical
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2297.a
+		piety = -1
+		hidden_tooltip = {
+			character_event = { id = 6060 }
+		}
+	}
+}
+
+# Crazy owl yo
+character_event = {
+	id = VIETmisc.2298
+	desc = VIETmisc.2298.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2298.a
+		random = {
+			add_trait = wounded
+			chance = 33
+		}
+	}
+}
+
+# Hopping mice in India (forgot species name)
+character_event = {
+	id = VIETmisc.2299
+	desc = VIETmisc.2299.desc
+	picture = GFX_evt_small_town_indo_aryan_group
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		NOT = {
+			any_demesne_province = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					empire = { title = e_india }
+					culture_group = indo_aryan_group
+					culture_group = dravidian_group
+					culture_group = iranian
+					culture_group = serindian
+					religion_group = indian_group
+				}				
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.5
+			trait = deceitful
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2299.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 248
+		}
+	}
+}
+
+# Gecko - 15 minutes or more could save you on car insurance
+character_event = {
+	id = VIETmisc.2300
+	desc = VIETmisc.2300.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		capital_scope = {
+			OR = {
+				empire = { title = e_byzantium }
+				empire = { title = e_roman_empire }
+				empire = { title = e_arabia }
+				empire = { title = e_spain }
+				empire = { title = e_italy }
+				empire = { title = e_mali }
+				empire = { title = e_abyssinia }
+				kingdom = { title = k_armenia }
+				kingdom = { title = k_georgia }
+				kingdom = { title = k_aquitaine }
+			}				
+		}
+		NOT = { has_character_flag = VIET_geckos_removed }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.5
+			trait = just
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2300.a
+		random = {
+			add_trait = stressed
+			chance = 5
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2300.b
+		set_character_flag = VIET_geckos_removed
+		wealth = -3
+		hidden_tooltip = {
+			character_event = { id = VIETmisc.2301 days = 10 random = 20 }
+		}
+	}
+}
+
+# Gecko - 15 minutes or more could save you on car insurance - part 2
+character_event = {
+	id = VIETmisc.2301
+	desc = VIETmisc.2301.desc
+	picture = GFX_evt_castle_construction
+
+	is_triggered_only = yes
+
+	option = {#yes
+		name = VIETmisc.2301.b
+		wealth = -5
+		random = {
+			add_trait = ill
+			chance = 5
+		}
+		any_courtier = {
+			limit = {
+				ai = no
+			}
+			random = {
+				add_trait = ill
+				chance = 15
+			}			
+		}
+	}
+}
+
+# Headless chicken
+character_event = {
+	id = VIETmisc.2302
+	desc = VIETmisc.2302.desc
+	picture = GFX_evt_small_town
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2302.a
+		add_character_modifier = {
+			name = VIET_headless_chicken
+			duration = 444
+		}
+	}
+}
+
+# Fiji mermaid
+character_event = {
+	id = VIETmisc.2303
+	desc = VIETmisc.2303.desc
+	picture = GFX_evt_scandal
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2303.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 365
+		}
+		any_courtier = {
+			add_character_modifier = {
+				name = highly_amused_ruler
+				duration = 365
+			}		
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2303.b
+		tooltip_info = learning
+		trigger = {
+			NOT = { trait = scholar }
+			learning = 10
+		}
+		prestige = 5
+		random_list = {
+			80 = { }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+		add_character_modifier = {
+			name = VIET_hoax_catcher
+			duration = 666
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2303.b
+		tooltip_info = scholar
+		trigger = {
+			trait = scholar
+		}
+		prestige = 5
+		random_list = {
+			80 = { }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+		add_character_modifier = {
+			name = VIET_hoax_catcher
+			duration = 666
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2303.c
+		tooltip_info = intrigue
+		trigger = {
+			NOT = { trait = perceptive }
+			intrigue = 10
+		}
+		prestige = 5
+		random_list = {
+			80 = { }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+		add_character_modifier = {
+			name = VIET_hoax_catcher
+			duration = 666
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2303.c
+		tooltip_info = perceptive
+		trigger = {
+			trait = perceptive
+		}
+		prestige = 5
+		random_list = {
+			80 = { }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+		add_character_modifier = {
+			name = VIET_hoax_catcher
+			duration = 666
+		}
+	}
+}
+
+# Duck wobbler
+character_event = {
+	id = VIETmisc.2304
+	desc = VIETmisc.2304.desc
+	picture = GFX_evt_tuscan_country
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		any_courtier = {
+			NOT = { trait = incapable }
+			ai = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = chaste
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2304.a
+		add_character_modifier = {
+			name = highly_amused_ruler
+			duration = 224
+		}
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				ai = yes
+			}
+			prestige = -5
+		}
+	}
+}
+
+# Small bird lands on head
+character_event = {
+	id = VIETmisc.2305
+	desc = VIETmisc.2305.desc
+	picture = GFX_evt_garden
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.5
+			trait = paranoid
+		}
+		modifier = {
+			factor = 2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2305.a
+		prestige = 1
+	}
+	option = {#yes
+		name = VIETmisc.2305.b
+		random = {
+			add_trait = patient
+			chance = 15
+		}
+	}
+}
+
+# It's a rat!
+character_event = {
+	id = VIETmisc.2306
+	desc = VIETmisc.2306.desc
+	picture = GFX_evt_courtiers_talking
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = slothful  
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 2
+			trait = shy
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2306.a
+		random = {
+			add_trait = craven
+			chance = 10
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2306.b
+		random = {
+			add_trait = content
+			chance = 25
+		}
+		prestige = 2
+	}
+	option = {#yes
+		name = VIETmisc.2306.c
+		random_list = {
+			10 = { add_trait = wroth }
+			10 = { add_trait = diligent }
+			10 = { add_trait = cruel }
+			10 = { add_trait = brave }
+			60 = { }
+		}
+		if = {
+			limit = {
+				trait = craven
+			}
+			random = {
+				remove_trait = craven
+				chance = 40
+			}
+		}
+	}
+	option = {#yes
+		name = VIETmisc.2306.d
+		random_list = {
+			70 = { }
+			15 = { add_trait = kind }
+			15 = { add_trait = humble }
+		}
+	}
+}
+
+# What does the Tibetan fox say?
+character_event = {
+	id = VIETmisc.2307
+	desc = VIETmisc.2307.desc
+	picture = GFX_evt_skyrim_forest
+
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		in_command = no
+		is_abroad = no
+		lower_tier_than = king
+		capital_scope = {
+			OR = {
+				kingdom = { title = k_afghanistan }
+				kingdom = { title = k_punjab }
+				kingdom = { title = k_delhi }
+				kingdom = { title = k_bihar }
+				kingdom = { title = k_kosala }
+				kingdom = { title = k_kamarupa }
+				duchy = { title = d_samarkand }
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = hunter
+		}
+		modifier = {
+			factor = 0.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = falconer
+		}
+		modifier = {
+			factor = 0.5
+			trait = poet
+		}
+	}
+
+	option = {#yes
+		name = VIETmisc.2307.a
+		prestige = -1
+	}
+}
+
+
+# Wolf attacks increase
+province_event = {
+	id = VIETmisc.2308
+	desc = VIETmisc.2308.desc
+	picture = GFX_evt_stone_church
+	
+	trigger = {
+		NOT = { has_province_modifier = { VIET_province_wolf_attacks } }
+	}
+	
+	mean_time_to_happen = {
+		months = 2250
+	}
+
+	option = {#not ok
+		name = VIETmisc.2308.a
+		add_province_modifier = {
+			name = VIET_province_wolf_attacks
+			duration = 999
+		}
+	}
+}
+
+# Fishing boom
+province_event = {
+	id = VIETmisc.2309
+	desc = VIETmisc.2309.desc
+	picture = GFX_evt_busy_trading_dock_republic
+	
+	trigger = {
+		NOT = { has_province_modifier = { VIET_province_fishing_boom } }
+		port = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+	}
+
+	option = {#not ok
+		name = VIETmisc.2309.a
+		add_province_modifier = {
+			name = VIET_province_fishing_boom
+			duration = 888
+		}
+	}
+}
 
 ###################################
 #various traits events coded by cybrxkhan on ipad while he is ill

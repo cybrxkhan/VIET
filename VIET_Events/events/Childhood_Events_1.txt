@@ -24,6 +24,7 @@ character_event = {
 		NOT = { personality_traits = 5 }
 	}
 	
+	
 	weight_multiplier = {
 		days = 1
 		

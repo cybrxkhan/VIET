@@ -738,7 +738,7 @@ VIET_good_exercise = {
 	icon = 13
 }
 VIET_headless_chicken = {
-	monthly_character_prestige = 0.01
+	monthly_character_prestige = 0.05
 	icon = 39
 }
 VIET_hoax_catcher = {
@@ -757,6 +757,11 @@ VIET_province_fishing_boom = {
 	local_build_cost_modifier = -0.05
 	levy_reinforce_rate = 0.05
 	icon = 11
+}
+VIET_using_earwax_lip_balm = {
+	monthly_character_prestige = 0.01
+	fertility = 0.01
+	icon = 39
 }
 
 ### HOLY ORDERS

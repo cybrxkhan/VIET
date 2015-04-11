@@ -1007,6 +1007,11 @@ on_bi_yearly_pulse = {
 		10 = VIETmisc.2304
 		10 = VIETmisc.2305
 		10 = VIETmisc.2307
+		#Ear
+		10 = VIETmisc.2310
+		10 = VIETmisc.2311
+		10 = VIETmisc.2313
+		10 = VIETmisc.2314
 		
 		#CVLTVRE-SPECIFIC
 		#Turkish
@@ -1230,6 +1235,8 @@ on_five_year_pulse = {
 		10 = VIETmisc.2300
 		10 = VIETmisc.2302
 		10 = VIETmisc.2303
+		#Ear
+		10 = VIETmisc.2312
 		
 		#VIET Event Chains
 		2 = VIETmisc.2513 #Call on the avatar

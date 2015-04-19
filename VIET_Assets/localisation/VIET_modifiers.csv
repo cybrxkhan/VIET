@@ -189,6 +189,7 @@ VIET_sogdian_fair_incense_desc;Incense is like smoke to some, perfume of the hea
 VIET_sogdian_fair_horse_normal;Bought Horses of Normal Quality;;;;;;;;;;;;;x
 VIET_sogdian_fair_horse_normal_desc;"Neighhhhh.";;;;;;;;;;;;;x
 VIET_good_music;Heard some Good Music;;;;;;;;;;;;;x
+VIET_good_music_desc;If music be the food of love, play on!;;;;;;;;;;;;;x
 VIET_tirmah_fair_tricked;Tricked at the Tirmah Fair;;;;;;;;;;;;;x
 VIET_tirmah_fair_tricker;Tricked someone at the Tirmah Fair;;;;;;;;;;;;;x
 VIET_sogdian_fair_didnt_purchase;Chose Not to Purchase Something at the Fair;;;;;;;;;;;;;x
@@ -250,7 +251,7 @@ VIET_toymaking_connections_desc;This character has connections with the world-fa
 VIET_toymaking_boom;Toymaking Boom;;;;;;;;;;;;;x
 VIET_toymaking_boom_desc;Due to recent economic developments, the world-famous toymakers of [VIET_toymaker_province.GetName] are accruing more profits than usual!;;;;;;;;;;;;;x
 VIET_good_exercise;Good Exercise;;;;;;;;;;;;;x
-VIET_good_exercise_desc;A bit of exercise does some good.;;;;;;;;;;;;;x
+VIET_good_exercise_desc;A bit of exercise does wonders.;;;;;;;;;;;;;x
 VIET_headless_chicken;Owns Headless Chicken;;;;;;;;;;;;;x
 VIET_headless_chicken_desc;This character owns a most fascinating chicken. Its previous owner, a farmer, tried beheading it, but only partly succeeded. The chicken still lives, for now, despite not having a head!;;;;;;;;;;;;;x
 VIET_hoax_catcher;Hoax Buster;;;;;;;;;;;;;x
@@ -261,4 +262,32 @@ VIET_province_fishing_boom;Fishing Boom;;;;;;;;;;;;;x
 VIET_province_fishing_boom_desc;The population of fish in the waters surrounding this province have increased significantly - more fish for everyone!;;;;;;;;;;;;;x
 VIET_using_earwax_lip_balm;Earwax Lipbalm;;;;;;;;;;;;;x
 VIET_using_earwax_lip_balm_desc;Lipbalm made using human earwax. It's surprisingly effective!;;;;;;;;;;;;;x
-aergaerga;xxxxx;;;;;;;;;;;;;x
+VIET_im_curious;Curious;;;;;;;;;;;;;x
+VIET_im_curious_desc;"I'm Curious! I'm Curious! I'm Curious!";;;;;;;;;;;;;x
+VIET_loves_cute_maids;Maid-lover;;;;;;;;;;;;;x
+VIET_loves_cute_maids_desc;This character has a known weakness to attractive young maids...;;;;;;;;;;;;;x
+VIET_leader_angered_peasants;Angered the Peasants;;;;;;;;;;;;;x
+VIET_leader_angered_peasants_desc;"Help! Help! We're being repressed!";;;;;;;;;;;;;x
+VIET_pun_lover;Pun Lover;;;;;;;;;;;;;x
+VIET_pun_lover_desc;How punny! This character enjoys making puns.;;;;;;;;;;;;;x
+VIET_abacus_item;Abacus;;;;;;;;;;;;;x
+VIET_abacus_item_desc;This character owns a quality abacus.;;;;;;;;;;;;;x
+VIET_leader_angered_merchants;Angered the Merchants;;;;;;;;;;;;;x
+VIET_leader_angered_merchants_desc;This character has proven that he or she is not business-friendly.;;;;;;;;;;;;;x
+VIET_province_good_whores;Good Whores;;;;;;;;;;;;;x
+VIET_province_good_whores_desc;This province is known for the quality of its courtersans and houses of ill repute. At the least, it helps stimulate the economy.;;;;;;;;;;;;;x
+VIET_province_merchant_peasant_dispute;Dispute Between Peasants and Merchants;;;;;;;;;;;;;x
+VIET_province_merchant_peasant_dispute_desc;There have been a number of disputes between peasants and merchants in this province, leading to violence and other disruptions to civil order. The authorities are trying to placate both sides.;;;;;;;;;;;;;x
+VIET_province_using_old_stones;Using Old Stones;;;;;;;;;;;;;x
+VIET_deviant_opinion;Deviant Opinion;;;;;;;;;;;;;x
+VIET_deviant_opinion_desc;This character has... odd preferences, to put it lightly.;;;;;;;;;;;;;x
+VIET_province_incest_couple;Incestuous Couple;;;;;;;;;;;;;x
+VIET_province_incest_couple_desc;In one of this province's villages, two siblings lusted after one another. They ran away so they could marry elsewhere, where no one would know them. Nevertheless, this turn of events has left many locals feeling enraged and fearful of divine retribution.;;;;;;;;;;;;;x
+VIET_dislikes_hipsters;Dislikes Pretentious Art;;;;;;;;;;;;;x
+VIET_dislikes_hipsters_desc;"This is too 'deep' for me.";;;;;;;;;;;;;x
+VIET_province_landslide;Landslide;;;;;;;;;;;;;x
+VIET_province_landslide_desc;This province recently suffered from a major landslide, leading to the deaths of many and the widespread destruction of property.;;;;;;;;;;;;;x
+VIET_province_strong_lads;Strong Lads;;;;;;;;;;;;;x
+VIET_province_strong_lads_desc;The young men of this province have achieved some level of renown for their bravery and skill in war.;;;;;;;;;;;;;x
+VIET_going_to_Scarborough_Fair;Scarborough Fair;;;;;;;;;;;;;x
+VIET_going_to_Scarborough_Fair_desc;This character has heard that great song, Scarborough Fair, and he or she has been enlightened by it. Onwards, as they say, to Scarborough Fair!;;;;;;;;;;;;;x

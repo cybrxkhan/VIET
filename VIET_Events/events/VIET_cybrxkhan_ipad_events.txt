@@ -28504,7 +28504,7 @@ province_event = {
 character_event = {
 	id = VIETmisc.2310
 	desc = VIETmisc.2310.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_castle_construction
 
 	is_triggered_only = yes
 	
@@ -28580,7 +28580,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2311
 	desc = VIETmisc.2311.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_courtiers_talking
 
 	is_triggered_only = yes
 	
@@ -28663,7 +28663,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2312
 	desc = VIETmisc.2312.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_columbus
 
 	is_triggered_only = yes
 	
@@ -28797,7 +28797,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2313
 	desc = VIETmisc.2313.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
 	
@@ -28879,7 +28879,7 @@ character_event = {
 character_event = {
 	id = VIETmisc.2314
 	desc = VIETmisc.2314.desc
-	picture = GFX_evt_skyrim_forest
+	picture = GFX_evt_bad_news
 
 	is_triggered_only = yes
 	

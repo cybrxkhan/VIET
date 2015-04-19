@@ -82,3 +82,61 @@ nick_sunset_watcher = {
 		}
 	}
 }
+nick_maid_lover = {
+	allow = {
+		has_character_modifier = VIET_loves_cute_maids
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trait = lustful
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+nick_peasant_hate = {
+	allow = {
+		has_character_modifier = VIET_leader_angered_peasants
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+		modifier = {
+			factor = 2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}
+nick_xwedodah_worshipper = {
+	allow = {
+		OR = {
+			has_character_modifier = VIET_incest_is_good
+			has_character_modifier = VIET_loves_toothbrushing
+			has_character_modifier = VIET_incest_demon_exorcist
+			has_character_modifier = VIET_obsessed_with_incest
+		}
+		religion_group = zoroastrian_group
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 5 #OBJGETNICK
+			has_ambition = obj_get_nick
+		}
+	}
+}

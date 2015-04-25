@@ -808,7 +808,14 @@ VIET_province_using_old_stones = {
 VIET_deviant_opinion = {
 	diplomacy = -1
 	intrigue = 1
+	fertility = 0.01
 	icon = 35
+}
+VIET_loves_cute_maids = {
+	fertility = 0.05
+	monthly_character_prestige = 0.01
+	monthly_character_piety = -0.01
+	icon = 39
 }
 VIET_dislikes_hipsters = {
 	monthly_character_piety = 0.01

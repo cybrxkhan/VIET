@@ -190,15 +190,20 @@ province_event = {
 	id = VIETScarboroughFair.2
 	desc = VIETScarboroughFair.2.desc
 	picture = GFX_evt_apocalypto
-
-	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_province_modifier = { VIET_province_landslide } }
+		NOT = { has_province_modifier = VIET_province_landslide }
 	}
 	
 	mean_time_to_happen = {
-		months = 2500
+		months = 3000
+		modifier = {
+			factor = 3
+			OR = {
+				terrain = desert
+				terrain = steppe
+			}
+		}
 	}
 
 	option = {#yes
@@ -251,7 +256,7 @@ province_event = {
 			}
 		}
 		wealth = -30
-		random = {
+		random_list = {
 			40 = {
 				add_province_modifier = {
 					name = VIET_province_landslide
@@ -285,21 +290,20 @@ province_event = {
 	id = VIETScarboroughFair.3
 	desc = VIETScarboroughFair.3.desc
 	picture = GFX_evt_apocalypto
-
-	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_province_modifier = { VIET_province_strong_lads } }
+		NOT = { has_province_modifier = VIET_province_strong_lads }
 	}
 	
 	mean_time_to_happen = {
-		months = 3000
+		months = 2500
 		modifier = {
 			owner = {
 				war = yes
 			}
 			factor = 0.8
 		}
+		
 	}
 
 	option = {#yes
@@ -1519,8 +1523,7 @@ character_event = {
 	}
 
 	option = {#yes
-		name = VIETScarboroughFair.19.a
-		piety = 2
+		name = VIETScarboroughFair.20.a
 		add_character_modifier = {
 			name = VIET_feeling_sexy
 			duration = 250
@@ -1541,7 +1544,7 @@ character_event = {
 		}
 	}
 	option = {#yes
-		name = VIETScarboroughFair.19.b
+		name = VIETScarboroughFair.20.b
 		add_character_modifier = {
 			name = VIET_feeling_sexy
 			duration = 666
@@ -2356,18 +2359,21 @@ province_event = {
 	id = VIETScarboroughFair.29
 	desc = VIETScarboroughFair.29.desc
 	picture = GFX_evt_brothel
-
-	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_province_modifier = { VIET_province_good_whores } }
+		NOT = { has_province_modifier = VIET_province_good_whores }
+		ai = no
 	}
 	
 	mean_time_to_happen = {
-		months = 4500
+		months = 3500
 		modifier = {
 			OR = {
 				culture_group = serindian
+				culture = tokharian
+				culture = soghdian
+				culture = khotanese
+				culture = kirghiz
 				port = yes
 			}
 			factor = 0.95
@@ -2417,15 +2423,13 @@ province_event = {
 	id = VIETScarboroughFair.30
 	desc = VIETScarboroughFair.30.desc
 	picture = GFX_evt_pagan
-
-	is_triggered_only = yes
 	
 	trigger = {
 		num_of_settlements = 2
 	}
 	
 	mean_time_to_happen = {
-		months = 3500
+		months = 3200
 	}
 
 	option = {#yes
@@ -2457,12 +2461,12 @@ province_event = {
 			add_character_modifier = {
 				name = VIET_leader_who_cares
 				duration = 1000
-			}
+			}			
+		}
 			add_province_modifier = {
 				name = VIET_province_using_old_stones
 				duration = 200
-			}			
-		}
+			}
 	}
 }
 
@@ -2472,15 +2476,17 @@ province_event = {
 	id = VIETScarboroughFair.31
 	desc = VIETScarboroughFair.31.desc
 	picture = GFX_evt_peasants
-
-	is_triggered_only = yes
 	
 	trigger = {
-		num_of_settlements = 3
+		NOT = { has_province_flag = VIET_rapist }
 	}
 	
 	mean_time_to_happen = {
 		months = 5000
+	}
+	
+	immediate = {
+		set_province_flag = VIET_rapist
 	}
 
 	option = {#yes
@@ -4177,11 +4183,9 @@ province_event = {
 	id = VIETScarboroughFair.47
 	desc = VIETScarboroughFair.47.desc
 	picture = GFX_evt_maiden
-
-	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_province_modifier = { VIET_province_incest_couple } }
+		NOT = { has_province_modifier = VIET_province_incest_couple }
 		NOT = { religion_group = zoroastrian_group }
 		NOT = { religion = messalian }
 	}
@@ -4197,11 +4201,11 @@ province_event = {
 		}
 		add_province_modifier = {
 			name = VIET_province_incest_couple
-			duration = 1000
+			duration = 3000
 		}
 	}
 	option = {#yes
-		name = VIETScarboroughFair.28.b
+		name = VIETScarboroughFair.47.b
 		owner = {
 			random_list = {
 				30 = { trait = kind }
@@ -4217,11 +4221,11 @@ province_event = {
 		}
 		add_province_modifier = {
 			name = VIET_province_incest_couple
-			duration = 1000
+			duration = 3000
 		}
 	}
 	option = {#yes
-		name = VIETScarboroughFair.28.c
+		name = VIETScarboroughFair.47.c
 		owner  {
 			piety = -5
 			add_character_modifier = {
@@ -4231,7 +4235,7 @@ province_event = {
 		}
 		add_province_modifier = {
 			name = VIET_province_incest_couple
-			duration = 1000
+			duration = 3000
 		}
 	}
 }

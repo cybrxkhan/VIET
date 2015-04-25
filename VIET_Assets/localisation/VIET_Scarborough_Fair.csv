@@ -65,10 +65,10 @@ VIETScarboroughFair.24.desc;There are rumors that certain tax collectors in my r
 VIETScarboroughFair.24.a;Arrest these officials, whether they're innocent or not!;;;;;;;;;;;;;x
 VIETScarboroughFair.24.b;I will not bow down to the demands of the ignorant peasants.;;;;;;;;;;;;;x
 VIETScarboroughFair.25.desc;Lately, you noticed that many of your courtiers like interjecting sexual puns and wordplay into daily conversations, speaking about "cocks" when they mean chickens, for instance. This fad is overdone, you feel, and it makes your courtiers look like stupid, immature youths trying to make themselves seem more entertaining and witty than they really are.;;;;;;;;;;;x
-VIETScarboroughFair.25.a;Actually, on second thought, you decide you like these puns and jokes!;;;;;;;;;;;;;x
-VIETScarboroughFair.25.b;They’re too cocky - they should be praying to [Root.Religion.GetRandomGodName] instead!;;;;;;;;;;;;;x
-VIETScarboroughFair.25.c;You arrogantly look down on your courtiers for their idiotic childishness.;;;;;;;;;;;;;x
-VIETScarboroughFair.25.d;You silently disapprove, but don't show it. Let them have their fun.;;;;;;;;;;;;;x
+VIETScarboroughFair.25.a;Actually, I like them!;;;;;;;;;;;;;x
+VIETScarboroughFair.25.b;These sinners are too cocky!;;;;;;;;;;;;;x
+VIETScarboroughFair.25.c;You arrogantly look down on them.;;;;;;;;;;;;;x
+VIETScarboroughFair.25.d;You silently disapprove.;;;;;;;;;;;;;x
 VIETScarboroughFair.26.desc;An envoy gave me a gift of baklava. Delicious it is, without any rival in syrupy sweetness and culinary delight, one would think! ;;;;;;;;;;;x
 VIETScarboroughFair.26.a;If only I could have baklava forever and evermore...;;;;;;;;;;;;;x
 VIETScarboroughFair.27.desc;My head is really itchy. Really, terribly itchy.;;;;;;;;;;;x
@@ -88,7 +88,7 @@ VIETScarboroughFair.30.c;Leave it be, it is best to not disturb these ancient mo
 VIETScarboroughFair.30.d;Allow the commoners to use its stones for their own purposes.;;;;;;;;;;;;;x
 VIETScarboroughFair.31.desc;The criminal brought before me was a local merchant from [Root.GetName] who raped a number of local women. Due to his connections and wealth, he was able to intimidate most of his victims and their families into staying silent, but he made a mistake when he raped the daughter of a nobleman. Now, many of his victims' families demand justice and proper compensation.;;;;;;;;;;;x
 VIETScarboroughFair.31.a;Let him go. This isn’t my concern. The locals can sort it out themselves.;;;;;;;;;;;;;x
-VIETScarboroughFair.31.b;Imprison him and strip him of his wealth, giving some to us and some to his victims.;;;;;;;;;;;;;x
+VIETScarboroughFair.31.b;Imprison him and give some of his wealth to us and the rest to his victims.;;;;;;;;;;;;;x
 VIETScarboroughFair.31.c;He shall be executed publicly, and his possessions given to his victims!;;;;;;;;;;;;;x
 VIETScarboroughFair.31.d;Let him go, he's obviously innocent. And it's not like I was bribed or anything!;;;;;;;;;;;;;x
 VIET_bribed_jerk;\n\nThe merchant successfully bribes you because of your weak morals.;;;;;;;;;;;x
@@ -100,7 +100,7 @@ VIETScarboroughFair.33.desc;By chance you meet a few women, young widows of sold
 VIETScarboroughFair.33.a;Their husbands died for a good cause. Their deaths will not be in vain!;;;;;;;;;;;;;x
 VIETScarboroughFair.33.b;Those whores shouldn't bother me with their sob stories.;;;;;;;;;;;;;x
 VIETScarboroughFair.33.c;This isn't my concern.;;;;;;;;;;;;;x
-VIETScarboroughFair.33.d;I’ll give them gold from my treasury as compensation for their husbands’ sacrifices!;;;;;;;;;;;;;x
+VIETScarboroughFair.33.d;I’ll give compensation for their husbands’ sacrifices!;;;;;;;;;;;;;x
 VIETScarboroughFair.34.desc;An enemy spy was discovered close to where you were, trying to figure out what you and your armies were up to. Thankfully, your guards found and killed him. Even better, on his body they found some instructions from his employer - instructions which inadvertently revealed some of your enemy's plans to you!;;;;;;;;;;;x
 VIETScarboroughFair.34.a;We must make use of this.;;;;;;;;;;;;;x
 VIETScarboroughFair.35.desc;You pull out your sword from the enemy warrior you just killed, only to realize that he was no man, but only a mere boy - probably not a day older than fifteen years of age. This is nothing new to you, of course, but sometimes it is sad to see such a young life cut short, even if it was that of an enemy...;;;;;;;;;;;x
@@ -110,7 +110,7 @@ VIETScarboroughFair.35.c;He fought honorably, at least, so his ancestors must be
 VIETScarboroughFair.35.d;I feel bad, actually... very sad... why do I have to do these things?;;;;;;;;;;;;;x
 VIETScarboroughFair.36.desc;The arrow barely whizzes by you, and instead harmlessly hits the ground nearby. Close, so close - had your head been just a finger-length more to the right, you could've been seriously injured, even killed!;;;;;;;;;;;x
 VIETScarboroughFair.36.a;Praise [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
-VIETScarboroughFair.37.desc;In the middle of the battle, you lose your balance and fall to the ground, and your blade flies out of your hands. An enemy warrior, seeing an opportunity, lunges at you. Your weapon is too far away, but thankfully you think of something barely in time - you grab a handful of dirt and throw it at the man's face. As he yells, temporarily blinded, you have a few precious seconds and grab your sword.;;;;;;;;;;;x
+VIETScarboroughFair.37.desc;During battle, you lose your balance and fall to the ground, and your blade flies out of your hands. An enemy warrior, seeing an opportunity, lunges at you. Your weapon is too far away, but you think of something in time - you grab a handful of dirt and throw it at his face. As he yells, temporarily blinded, you have a few precious seconds and grab your sword.;;;;;;;;;;;x
 VIETScarboroughFair.37.a;Take that, knave!;;;;;;;;;;;;;x
 VIETScarboroughFair.38.desc;An enemy warrior is trapped by you and your men. He has nowhere to go. As you and your troops edge closer to him, in a last fit of desperation, he throws his sword at you. Of course, you easily dodge it, and your men proceed to butcher the unfortunate fool.;;;;;;;;;;;x
 VIETScarboroughFair.38.a;What an idiot. That trick never works.;;;;;;;;;;;;;x
@@ -129,15 +129,15 @@ VIETScarboroughFair.42.c;Study the insects.... I've always wondered how they cou
 VIETScarboroughFair.43.desc;I was given some cubeb as a present. This strange spice is said to come from the islands to the east of Hindustan. Many learned men say that it has two main purposes: one, to ward off demons and other sort of malevolent spirits, and two, to increase one’s fertility. The learned men and cooks of the court know of ways to best bring about one or the other, but not both.;;;;;;;;;;;x
 VIETScarboroughFair.43.a;I will use it to enhance my sexual prowess.;;;;;;;;;;;;;x
 VIETScarboroughFair.43.b;I wish to make use of its evil-fighting abilities.;;;;;;;;;;;;;x
-VIETScarboroughFair.44.desc;I bring the courtesan to my bed. I'm feeling mighty and fine tonight, and I intend to waste all of my energy on her! I must thank the nobleman who recommended her to me.\n\nI lower her onto my silken sheets, admiring her soft, feminine form - her breasts, the whitest and roundest I have ever witnessed - before taking the plunge.... Even the bed will get a bit of exercise tonight.;;;;;;;;;;;x
+VIETScarboroughFair.44.desc;I bring the courtesan to my bed. I'm feeling mighty and fine tonight, and I intend to waste all of my energy on her! I must thank the nobleman who recommended her to me. So I lower her onto my silken sheets, admiring her soft, feminine form - her breasts, the whitest and roundest I have ever witnessed - before taking the plunge.... Even the bed will get a bit of exercise tonight.;;;;;;;;;;;x
 VIETScarboroughFair.44.a;She was a good wench, that one, albeit a bit expensive.;;;;;;;;;;;;;x
 VIETScarboroughFair.45.desc;The Prophet (peace be upon him) recommended that we use perfume, for it is pleasant and aids in cleanliness. However, one of my courtiers has gone too far, as of late, applying layers and layers of perfume - everyone can smell it from rooms and rooms away. Who would want to waste so much money on these luxuries?;;;;;;;;;;;x
 VIETScarboroughFair.45.a;Not I, certainly! I am not vain, after all.;;;;;;;;;;;;;x
 VIETScarboroughFair.45.b;To each their own. I shouldn't complain about others.;;;;;;;;;;;;;x
 VIETScarboroughFair.46.desc;It's fascinating, isn't it? Some of the women in your court would go to extreme lengths to lighten their skin, in order to look more beautiful. The faintest sign of a tan is considered a terrible, terrible thing - fit only for lowly, filthy peasants who have to toil out in the sun all day long. After all, only a completely insane and barbaric society would ever consider tanned skin attractive and fashionable!;;;;;;;;;;;x
 VIETScarboroughFair.46.a;I hate women with tanned skin too, so any way to be rid of it is good!;;;;;;;;;;;;;x
-VIETScarboroughFair.46.b;I’m more concerned about my courtiers’ vanity with these skin products.;;;;;;;;;;;;;x
-VIETScarboroughFair.46.c;Tans can be beautiful! Not… that I’m saying I have abnormal tastes, of course.;;;;;;;;;;;;;x
+VIETScarboroughFair.46.b;I’m more concerned about my courtiers’ vanity.;;;;;;;;;;;;;x
+VIETScarboroughFair.46.c;Tans can be beautiful! Not… that I have abnormal tastes.;;;;;;;;;;;;;x
 VIETScarboroughFair.46.d;I admit it's unusual, even deviant maybe, but I like tanned skin...;;;;;;;;;;;;;x
 VIETScarboroughFair.47.desc;Reports come from a village in [Root.GetName]: two siblings - a brother and sister - lusted after one another. Quite unnatural and shameful indeed! The two siblings were caught in the middle of intercourse recently, and had to flee elsewhere to avoid the wrath of their family and the villagers. They are now believed to be in some foreign land, where no one knows who they are.;;;;;;;;;;;x
 VIETScarboroughFair.47.a;Disgusting. I feel dirty just by hearing that.;;;;;;;;;;;;;x
@@ -147,7 +147,7 @@ VIETScarboroughFair.48.desc;You’ve heard of a popular new song - “Scarborough Fa
 VIETScarboroughFair.48.a;Let us hear the mystical insights from this ‘Scarborough Fair’!;;;;;;;;;;;;;x
 VIETScarboroughFair.49.tooltip;The bard performs;;;;;;;;;;;x
 VIETScarboroughFair.49.title;Scarborough Fair;;;;;;;;;;;x
-VIETScarboroughFair.49.desc;Are you going to Scarborough Fair?\nParsley, sage, rosemary and thyme.\nRemember me to one who lived there.\nShe once was a true love of mine.\n\nHave her make me a cambric shirt\nParsley, sage, rosemary and thyme.\nWithout no seams, nor fine needle work.\nThen she'll be a true love of mine.\n\nTell her to weave it in a sycamore wood lane.\nParsley, sage, rosemary and thyme\nGather it up in a basket of flowers\nThen she'll be a true love of mine\n\nHave her wash it in yonder dry well\nParsley, sage, rosemary and thyme\nWhere water ne'er sprung, nor drop of rain fell.\nThen she'll be a true love of mine;;;;;;;;;;;x
+VIETScarboroughFair.49.desc;Are you going to Scarborough Fair?\nParsley, sage, rosemary and thyme.\nRemember me to one who lived there.\nShe once was a true love of mine.\n\nHave her make me a cambric shirt\nParsley, sage, rosemary and thyme.\nWithout no seams, nor fine needle work.\nThen she'll be a true love of mine.\n\nTell her to weave it in a sycamore wood lane.\nParsley, sage, rosemary and thyme\n[... the bard continues the rest of the song...];;;;;;;;;;;x
 VIETScarboroughFair.49.a;What is this bullocks? Stupid pretentious crap, if you ask me.;;;;;;;;;;;;;x
 VIETScarboroughFair.49.b;By [Root.Religion.GetRandomGodName]! This is… indescribable - please, sing the rest of the song!;;;;;;;;;;;;;x
 VIET_Scarborough_fair_bad;\n\nHopefully it shall just be a passing fad. You refuse to bow to it - you would rather spit in its face than pretend to accept that it’s a ‘good’ song. No way it will ever become widespread and popular, sung by bards and minstrels centuries from now. It will never catch on!;;;;;;;;;;;x
@@ -260,18 +260,18 @@ VIETScarboroughFair.101.desc;The preacher nods sagely, and turns to the crowd ar
 VIETScarboroughFair.101.a;One act of Xwedodah can save many lives, so they say.;;;;;;;;;;;;;x
 VIETScarboroughFair.102.tooltip;That preacher sure is an inspiring fellow...;;;;;;;;;;;x
 VIETScarboroughFair.102.title;RISE UP! RISE UP!;;;;;;;;;;;x
-VIETScarboroughFair.102.desc;By chance, you come across the Zoroastrian preacher you saw the other day. A crowd throngs around him as he shouts: "AND THERE IT IS, FRIENDS! THE UGLY TRUTH! XWEDODAH IS THE TRUE WAY OF MAN! ASCENDING FROM FLESH, TO RULE THE REALM OF SPIRIT! THE VERY IDEA IS INCONCEIVABLE TO OUR HEATHEN ENEMIES! SHARING THE HEAVENS THROUGH BROTHERLY AND SISTERLY LOVE? HA! THEY CAN BARELY TOLERATE OUR PRESENCE ON EARTH! TODAY, THEY TRY TO TAKE AWAY YOUR FAITH. BUT WHAT OF TOMORROW? WHAT THEN? DO THE DEMON-INFIDELS TAKE YOUR HOMES? YOUR CHILDREN? YOUR SIBLINGS? YOUR VERY LIVES? SO RISE UP! RISE UP, CHILDREN OF XWEDODAH! RISE UP, TRUTH-FOLLOWERS! EMBRACE THE WAYS OF MIGHTY XWEDODAH, THAT WHICH IS BOTH GOOD AND DIVINE!";;;;;;;;;;;x
+VIETScarboroughFair.102.desc;You come across the preacher again. A crowd throngs around him as he shouts: "AND THERE IT IS, FRIENDS! THE UGLY TRUTH! XWEDODAH IS THE TRUE WAY OF MAN! ASCENDING FROM FLESH, TO RULE THE REALM OF SPIRIT! THE VERY IDEA IS INCONCEIVABLE TO OUR HEATHEN ENEMIES! SHARING THE HEAVENS THROUGH BROTHERLY AND SISTERLY LOVE? HA! THEY CAN BARELY TOLERATE OUR PRESENCE ON EARTH! TODAY, THEY TRY TO TAKE AWAY YOUR FAITH. BUT WHAT OF TOMORROW? WHAT THEN? DO THE DEMON-INFIDELS TAKE YOUR HOMES? YOUR CHILDREN? YOUR SIBLINGS? YOUR VERY LIVES? SO RISE UP! RISE UP, CHILDREN OF XWEDODAH! RISE UP, TRUTH-FOLLOWERS! EMBRACE THE WAYS OF MIGHTY XWEDODAH, THAT WHICH IS BOTH GOOD AND DIVINE!";;;;;;;;;;;x
 VIETScarboroughFair.102.a;The crowd seems very energized.;;;;;;;;;;;;;x
 VIETScarboroughFair.103.tooltip;I'm starting to like this man!;;;;;;;;;;;x
-VIETScarboroughFair.103.title;TERRIBLE AND POWERFUL XWEDODAH!;;;;;;;;;;;x
-VIETScarboroughFair.103.desc;Lately, you try to spend some time every week in the local market, listening to that preacher preach. He may be loud and obnoxious to some, but to many, he is inspiring, as if God were speaking through him! Today the man begins his sermon: "TERRIBLE AND POWERFUL XWEDODAH! WE, YOUR UNWORTHY FOLLOWERS, GIVE PRAISE! FOR ONLY THROUGH THE LOVE BETWEEN BROTHERS AND SISTERS MAY WE TRULY REACH ENLIGHTENMENT! AND DESERVE OUR PRAISE YOU DO, XWEDODAH, FOR WE ARE BUT MAGGOTS, WRITHING IN THE FILTH OF OUR OWN CORRUPTION! WHILE YOU GIVE US THE MEANS TO ASCEND FROM THE DUNG OF MORTALITY, AND WALK AMONG THE STARS!";;;;;;;;;;;x
+VIETScarboroughFair.103.title;WE ARE BUT MAGGOTS!;;;;;;;;;;;x
+VIETScarboroughFair.103.desc;Lately, you try to spend some time every week in the local market, listening to that preacher preach. He may be loud and obnoxious to some, but to many, he is inspiring, as if God were speaking through him! Today the man begins his sermon:\n\n"TERRIBLE AND POWERFUL XWEDODAH! WE, YOUR UNWORTHY FOLLOWERS, GIVE PRAISE! FOR ONLY THROUGH THE LOVE BETWEEN BROTHERS AND SISTERS MAY WE TRULY REACH ENLIGHTENMENT! AND DESERVE OUR PRAISE YOU DO, XWEDODAH, FOR WE ARE BUT MAGGOTS, WRITHING IN THE FILTH OF OUR OWN CORRUPTION! WHILE YOU GIVE US THE MEANS TO ASCEND FROM THE DUNG OF MORTALITY, AND WALK AMONG THE STARS!";;;;;;;;;;;x
 VIETScarboroughFair.103.a;Xwedodah saves all!;;;;;;;;;;;;;x
 VIETScarboroughFair.104.tooltip;I don't know whether it's his teachings or his voice, there's something mesmerizing about him. I feel as if my faith has been renewed!;;;;;;;;;;;x
-VIETScarboroughFair.104.title;NEVER TURN BACK ON XWEDODAH!;;;;;;;;;;;x
+VIETScarboroughFair.104.title;NOT AT ANY PRICE!;;;;;;;;;;;x
 VIETScarboroughFair.104.desc;Once more, you visit the same preacher in the market. Today his speech is passionate as ever: "WHY DO THE INFIDEL KINGS BAN XWEDODAH, THE LOVE BETWEEN BROTHER AND SISTER? BECAUSE THEY ARE COWARDS! THAT'S RIGHT, I SAID COWARDS! OH YES! THEY AGREED TO BANISH THE PRACTICE OF XWEDODAH THROUGH THE LIE OF THE DEMONS. THEY CALL IT THE 'MORAL' THING TO DO. WELL, I CALL IT BLASPHEMY! A TRUE FOLLOWER OF THE TRUTH WOULD NEVER TURN BACK ON XWEDODAH, NOT AT ANY PRICE. WELL, LET ME TELL YOU SOMETHING, FRIENDS. HERE - HERE! - WHERE TRUTH STILL PREVAILS IN THE HEARTS OF MEN, WE WILL NEVER FORSAKE MIGHTY XWEDODAH! LET THE DEMON-WORSHIPPERS COME! I HAVE NO FEAR, FOR XWEDODAH IS MY ALLY AND WE ARE ITS CHILDREN.";;;;;;;;;;;x
 VIETScarboroughFair.104.a;This man speaks truth! Death to the Xwedodah-defiling infidels!;;;;;;;;;;;;;x
 VIETScarboroughFair.105.tooltip;Hurrah! May Xwedodah flourish forever and ever!;;;;;;;;;;;x
-VIETScarboroughFair.105.title;UNITE IN LOVE, UNITE IN TRUTH!;;;;;;;;;;;x
+VIETScarboroughFair.105.title;UNITE IN LOVE;;;;;;;;;;;x
 VIETScarboroughFair.105.desc;And once more, you find yourself coming to see the preacher in the market. As you arrive today, his speech is well under way: "THE GREATEST DEED WE CAN DO TO PLEASE THE HEAVENS IS XWEDODAH! TO EMBRACE YOUR SIBLING IS TO BE A FRIEND OF TRUTH, AN ENEMY OF THE LIE! BANISH THE LIE FROM YOUR MIND, THE LIE THAT TURNS YOU AWAY FROM XWEDODAH - BANISH IT, FOR IT CANNOT WIN. THAT'S RIGHT! THERE IS NO ESCAPE, NO HOPE AGAINST TRUTH, AGAINST THE HOLY FIRE OF XWEDODAH THAT BURNS THE WICKEDNESS OF MEN AWAY. XWEDODAH THE INVINCIBLE! XWEDODAH THE UNDESTROYABLE! XWEDODAH THE EVERLASTING! TO YOU WE GIVE PRAISE! BROTHERS AND SISTERS, UNITE IN LOVE, UNITE IN TRUTH! DRIVE BACK THE DEMONS! DRIVE BACK THE LIE!";;;;;;;;;;;x
 VIETScarboroughFair.105.a;I've realized something. I must invite this man to my court!;;;;;;;;;;;;;x
 LONG_LIVE_XWEDODAH;\n\nHis words have opened my eyes. Xwedodah is Truth! HE WILL SPREAD THE GREAT XWEDODAH THROUGH OUR LAND!;;;;;;;;;;;x

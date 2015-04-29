@@ -975,16 +975,19 @@ VIETmisc.2308.desc;The population of wolves in [Root.GetName] has grown to such 
 VIETmisc.2308.a;Bad to hear!;;;;;;;;;;;;;x
 VIETmisc.2309.desc;The fishing industry of [Root.GetName] is experiencing something of a boom. For some reason, the population of fish has grown dramatically, significantly increasing the amount of fish available. This will feed many families and also provide a lot of fish that can be traded elsewhere.;;;;;;;;;;;x
 VIETmisc.2309.a;Interesting news.;;;;;;;;;;;;;x
-VIETmisc.2310.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2310.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2311.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2311.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2312.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2312.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2313.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2313.a;Xxxxxxffff;;;;;;;;;;;;;x
-VIETmisc.2314.desc;xxxxx;;;;;;;;;;;x
-VIETmisc.2314.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIETmisc.2310.desc;My ear was feeling very uncomfortable this morning. While cleaning my ear with an ear pick, I managed to extract a gigantic piece of earwax from inside, one that was the size of a fingernail, it seemed!;;;;;;;;;;;x
+VIETmisc.2310.a;Now I hear things so much better!;;;;;;;;;;;;;x
+VIETmisc.2311.desc;Some have told me that wet earwax makes good lip balm. Given that my lips have been rather dry lately, perhaps I should try it. After all I really should present myself better when in public!;;;;;;;;;;;x
+VIETmisc.2311.a;That's disgusting.;;;;;;;;;;;;;x
+VIETmisc.2311.b;Yes, it’s a good idea!;;;;;;;;;;;;;x
+VIETmisc.2312.desc;The body of what appears to be a sailor washed up on shore close to your home. It appears the poor fellow got caught in a shipwreck or some sort of accident. On his ear is a golden earring - it is custom in these parts for Christian seamen to wear these earrings to pay for a proper Christian burial, should their drowned corpses be found.;;;;;;;;;;;x
+VIETmisc.2312.a;Find the nearest Christian priest and give this man a proper burial.;;;;;;;;;;;;;x
+VIETmisc.2312.b;Ignore the corpse, the peasants can take care of it.;;;;;;;;;;;;;x
+VIETmisc.2312.c;That earring would look good on me - it's mine, now!;;;;;;;;;;;;;x
+VIETmisc.2313.desc;I keep hearing weird buzzing noises all the time. It's very subtle, though, and I barely hear it, so it doesn't really bother me much, but it's something that makes me wary. None of my physicians have been able to figure out what's the issue.;;;;;;;;;;;x
+VIETmisc.2313.a;Probably nothing serious... right?;;;;;;;;;;;;;x
+VIETmisc.2314.desc;A courtier of mine has been complaining about some sort of pain in their ear recently. Nothing else seems out of the ordinary, however.;;;;;;;;;;;x
+VIETmisc.2314.a;I think they’re making a big deal about nothing.;;;;;;;;;;;;;x
 VIETmisc.2315.desc;xxxxx;;;;;;;;;;;x
 VIETmisc.2315.a;Xxxxxxffff;;;;;;;;;;;;;x
 VIETmisc.2316.desc;xxxxx;;;;;;;;;;;x

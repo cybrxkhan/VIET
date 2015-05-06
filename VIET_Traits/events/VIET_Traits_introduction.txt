@@ -15,7 +15,7 @@ narrative_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
-	picture = "GFX_evt_turkish_sultan"
+	picture = "GFX_evt_small_town_serindian"
 	
 	immediate = {
 		#set_global_flag = VIET_Traits_On

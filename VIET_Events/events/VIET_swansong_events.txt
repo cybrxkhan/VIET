@@ -2403,7 +2403,7 @@ province_event = {
 	}
 	option = {#yes
 		name = VIETScarboroughFair.29.c
-		owner  {
+		owner = {
 			piety = 5
 			add_character_modifier = {
 				name = the_prude
@@ -4226,7 +4226,7 @@ province_event = {
 	}
 	option = {#yes
 		name = VIETScarboroughFair.47.c
-		owner  {
+		owner = {
 			piety = -5
 			add_character_modifier = {
 				name = VIET_feeling_sexy
@@ -4587,6 +4587,6 @@ narrative_event = {
 				duration = -1
 			}
 		}
-		custom_text = { text = LONG_LIVE_XWEDODAH }
+		custom_tooltip = { text = LONG_LIVE_XWEDODAH }
 	}
 }

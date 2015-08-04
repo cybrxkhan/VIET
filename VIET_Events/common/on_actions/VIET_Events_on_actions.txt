@@ -1,5 +1,3 @@
-
-
 #character
 on_yearly_pulse = {
 	random_events = {
@@ -409,7 +407,6 @@ on_yearly_pulse = {
 	}
 }
 
-#character
 on_bi_yearly_pulse = {
 	random_events = {
 		#VIET EVENTS
@@ -584,12 +581,9 @@ on_bi_yearly_pulse = {
 		10 = VIETScarboroughFair.42
 		10 = VIETScarboroughFair.43
 		10 = VIETScarboroughFair.44
-		
-		2000 = 0 # Chance of no bi-yearly event
 	}
 }
 
-#character
 on_five_year_pulse = {
 	random_events = {
 		#VIET EVENTS
@@ -686,12 +680,9 @@ on_five_year_pulse = {
 		2 = VIETmisc.5054 #Succubus
 		2 = VIETmisc.5061 #Fast Love/Kogarashi Sentiment
 		2 = VIETScarboroughFair.100 #Scarborough Fair
-		
-		80 = 0
 	}
 }
 
-# For characters 2 to 16 years old
 on_yearly_childhood_pulse = {
 	random_events = {
 		#VIET Childhood Flavor Events
@@ -728,12 +719,9 @@ on_yearly_childhood_pulse = {
 		#VIET CVLTVRE
 		#Turkish
 		20 = VIETnam.213
-		
-		1500 = 0
 	}
 }
 
-#on combat pulse
 on_combat_pulse = {
 	random_events = {
 		#VIET Battle Events - try to count the references

@@ -6,23 +6,19 @@
 
 namespace = cybrxkhan
 
-narrative_event = {
+character_event = {
 	id = cybrxkhan.2
-	title = "cybrxkhan.2.name"
-	desc = "cybrxkhan.2.desc"
-	major = yes
-	hide_new = yes
-	hide_from = yes
+	# title = "cybrxkhan.2.name"
+	# desc = "cybrxkhan.2.desc"
+	# major = yes
+	# hide_new = yes
+	# hide_from = yes
+	hide_window = yes
 	is_triggered_only = yes
 	
-	picture = "GFX_evt_scarborough_fair"
-
-	#trigger = {
-	#	NOT = { has_global_flag = project_balance }
-	#}
+	# picture = "GFX_evt_scarborough_fair"
 	
 	immediate = {
-		#set_global_flag = VIET_Events_On
 		random_list = {
 			95 = {}
 			5 = { set_global_flag = VIET_meteor_apocalypse_woohoo }
@@ -31,6 +27,6 @@ narrative_event = {
 	
 	option = {
 		name = "cybrxkhan.2.a"
-		set_global_flag = VIET_Events_On
+		# set_global_flag = VIET_Events_On
 	}
 }

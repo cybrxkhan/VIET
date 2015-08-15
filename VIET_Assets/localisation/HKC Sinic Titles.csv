@@ -43,19 +43,25 @@ baron_korean;Hyeonnam;Hyeonnam;Hyeonnam;;Hyeonnam;;;;;;;;;x
 baron_female_korean;Bu-In;Bu-In;Bu-In;;Bu-In;;;;;;;;;;x
 barony_of_korean;Castle of;Castle of;Castle of;;Castle of;;;;;;;;;x
 ** KHITAN **;;;;;;;;;;;;;;
-#emperor_khitan;Huang Di;Huang Di;Huang Di;;Huang Di;;;;;;;;;;x
-#emperor_female_khitan;Huang Hou;Huang Hou;Huang Hou;;Huang Hou;;;;;;;;;;x
-#king_khitan;Wang;Wang;Wang;;Wang;;;;;;;;;x
-#king_female_khitan;Nu Wang;Nu Wang;Nu Wang;;Nu Wang;;;;;;;;;x
-duke_khitan;Gong;Gong;Gong;;Gong;;;;;;;;;x
-duke_female_khitan;Furen;Furen;Furen;;Furen;;;;;;;;;x
-duchy_of_khitan;Circuit of;Circuit of;Circuit of;;Circuit of;;;;;;;;;x
-count_khitan;Bo;Bo;Bo;;Bo;;;;;;;;;x
-count_female_khitan;Furen;Furen;Furen;;Furen;;;;;;;;;x
-county_of_khitan;Prefecture of;Prefecture of;Prefecture of;;Prefecture of;;;;;;;;;x
-baron_khitan;Nan;Nan;Nan;;Nan;;;;;;;;;x
-baron_female_khitan;Furen;Furen;Furen;;Furen;;;;;;;;;x
-barony_of_khitan;Xian of;Xian of;Xian of;;Xian of;;;;;;;;;x
+emperor_khitan;Huang Di;Huang Di;Huang Di;;Huang Di;;;;;;;;;;x
+emperor_female_khitan;Neu'e Mege;Neu'e Mege;Neu'e Mege;;Neu'e Mege;;;;;;;;;;x
+king_khitan;Ong;Ong;Ong;;Ong;;;;;;;;;x
+king_female_khitan;Ong-n Pi;Ong-n Pi;Ong-n Pi;;Ong-n Pi;;;;;;;;;x
+nomadic_king_khitan;Irkin;Irkin;Irkin;;Irkin;;;;;;;;;x
+nomadic_king_female_khitan;Ilim;Ilim;Ilim;;Ilim;;;;;;;;;x
+tribal_king_khitan;Irkin;Irkin;Irkin;;Irkin;;;;;;;;;x
+tribal_king_female_khitan;Ilim;Ilim;Ilim;;Ilim;;;;;;;;;x
+duke_khitan;Tqosi;Tqosi;Tqosi;;Tqosi;;;;;;;;;x
+duke_female_khitan;Pushin;Pushin;Pushin;;Pushin;;;;;;;;;x
+duchy_of_khitan;Province of;Province of;Province of;;Province of;;;;;;;;;x
+count_khitan;Tshisi;Tshisi;Tshisi;;Tshisi;;;;;;;;;x
+count_female_khitan;Au'ui;Au'ui;Au'ui;;Au'ui;;;;;;;;;x
+county_of_khitan;Commandery of;Commandery of;Commandery of;;Commandery of;;;;;;;;;x
+baron_khitan;Tarqan;Tarqan;Tarqan;;Tarqan;;;;;;;;;x
+baron_female_khitan;Au'ui;Au'ui;Au'ui;;Au'ui;;;;;;;;;x
+barony_of_khitan;County of;County of;County of;;County of;;;;;;;;;x
+title_prince_khitan;Aldur;Aldur;Aldur;;Aldur;;;;;;;;;x
+title_prince_female_khitan;Aldun;Aldun;Aldun;;Aldun;;;;;;;;;x
 ** JAPANESE **;;;;;;;;;;;;;;
 #emperor_japanese;Tenno;Tenno;Tenno;;Tenno;;;;;;;;;;x
 #emperor_female_japanese;Nyotei;Nyotei;Nyotei;;Nyotei;;;;;;;;;;x

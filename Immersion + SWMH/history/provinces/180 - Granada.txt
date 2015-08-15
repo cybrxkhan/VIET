@@ -1,0 +1,21 @@
+# 180 - Granada
+
+# County Title
+title = c_granada
+
+# Settlements
+max_settlements = 6
+b_granada = castle
+b_motril = city
+b_baza = castle
+b_guadix = city
+b_almunyecar = temple
+#b_loja = castle
+#b_huelma = castle
+#b_armilla = city
+
+culture = andalusian_arabic
+religion = sunni
+
+# History
+1066.1.1 = { trade_post = b_aviv } #Oran republic

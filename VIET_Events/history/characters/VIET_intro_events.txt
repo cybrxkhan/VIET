@@ -11,9 +11,9 @@
 	1.1.1={
 		birth="1.1.1"
 	}
-	800.1.1={
+	476.1.1={ #NO FALL OF ROME EXPANSION NEIN NEIN NEIN NEIN NEIN NEIN NEIN NEIN NEIN
 		effect = {
-			narrative_event = { id = cybrxkhan.2 }
+			character_event = { id = cybrxkhan.2 }
 		}
 	}
 	1337.12.31 = {

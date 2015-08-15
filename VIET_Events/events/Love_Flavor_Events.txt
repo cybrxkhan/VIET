@@ -256,16 +256,6 @@ character_event = {
 				opinion = { who = ROOT value = 40 }				
 			}
 			add_lover = ROOT
-			add_character_modifier = {
-				name = "new_love"
-				duration = 90
-				hidden = yes
-			}
-		}
-		add_character_modifier = {
-			name = "new_love"
-			duration = 90
-			hidden = yes
 		}
 	}
 	

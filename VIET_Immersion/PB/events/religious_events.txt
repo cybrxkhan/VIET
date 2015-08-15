@@ -56,6 +56,26 @@ province_event = {
 			name = religious_unrest
 			duration = 730
 		}
+		owner = {
+			if = {
+				limit = { ai = no }
+				chronicle = {
+					entry = CHRONICLE_HERESY_SPREAD
+					picture = GFX_evt_heretic
+				}
+			}
+		}
+		owner = {
+			any_liege = {
+				if = {
+					limit = { ai = no }
+					chronicle = {
+						entry = CHRONICLE_HERESY_SPREAD
+						picture = GFX_evt_heretic
+					}
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -696,6 +716,7 @@ character_event = {
 		}
 		
 		can_change_religion = yes
+		NOT = { trait = in_hiding }
 	}
 	
 	mean_time_to_happen = {
@@ -2449,7 +2470,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag  = ask_for_indulgence	
 	}
 	option = {
 		name = "EVTOPTA39251"
@@ -2491,7 +2512,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag  = ask_for_indulgence	
 	}
 	option = {
 		name = "EVTOPTA39251"
@@ -2534,7 +2555,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag  = ask_for_indulgence	
 	}
 	option = {
 		name = "EVTOPTA39251"
@@ -2576,7 +2597,7 @@ character_event = {
 				years = 5
 			}
 		}
-		clr_character_flag  = ask_for_indulgence	
+#		clr_character_flag  = ask_for_indulgence	
 	}
 	option = {
 		name = "EVTOPTB39251"
@@ -2753,7 +2774,10 @@ character_event = {
 			independent = yes
 			religion = catholic
 			rightful_religious_head = ROOT
+			OR = {
 			is_feudal = yes
+				is_tribal = yes
+			}
 			any_vassal = {
 				is_theocracy = yes
 				religion = catholic
@@ -2778,7 +2802,10 @@ character_event = {
 			limit = {
 				religion = catholic
 				rightful_religious_head = ROOT
+				OR = {
 				is_feudal = yes
+					is_tribal = yes
+				}
 				any_vassal = {
 					is_theocracy = yes
 					religion = catholic
@@ -3555,14 +3582,14 @@ character_event = {
 				culture_group = baltic # The most stubborn pagans
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				culture_group = east_slavic # Angry at Muslim Tatars, also like alcohol
 				FROM = {
 					religion_group = muslim
 				}
 			}
 			modifier = {
-				factor = 3
+				factor = 5
 				culture_group = north_germanic # Vikings do like their alcohol
 				FROM = {
 					religion_group = muslim
@@ -4347,7 +4374,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4368,7 +4395,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4389,7 +4416,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4410,7 +4437,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4431,7 +4458,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4452,7 +4479,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.075
+							match_mult = 0.038
 							attrition = 0.5
 							cannot_inherit = yes
 						}
@@ -4473,7 +4500,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.15
+							match_mult = 0.075
 							attrition = 0.0
 							cannot_inherit = yes
 							disband_on_peace = yes
@@ -4495,7 +4522,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.15
+							match_mult = 0.075
 							attrition = 0.0
 							cannot_inherit = yes
 							disband_on_peace = yes
@@ -4517,7 +4544,7 @@ narrative_event = {
 							owner = PREV
 							leader = THIS
 							match_character = PREVPREV
-							match_mult = 0.15
+							match_mult = 0.075
 							attrition = 0.0
 							cannot_inherit = yes
 							disband_on_peace = yes
@@ -4635,6 +4662,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4646,6 +4674,9 @@ narrative_event = {
 				}
 			}
 			496 = { # Constantinople
+				NOT = { owner = { religion_group = christian } }
+			}
+			753 = { # Ancyra
 				NOT = { owner = { religion_group = christian } }
 			}
 			AND = {
@@ -4700,6 +4731,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4755,6 +4787,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion = catholic
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
@@ -4769,13 +4802,19 @@ narrative_event = {
 			112 = { # Paris
 				NOT = { owner = { religion_group = christian } }
 			}
+			AND = {
 			119 = { # Cologne
+					religion_group = christian
 				NOT = { owner = { religion_group = christian } }
 			}
+			}
+			AND = {
 			257 = { # Braunschweig
+					religion_group = christian
 				NOT = { owner = { religion_group = christian } }
 			}
 		}
+	}
 	}
 	
 	mean_time_to_happen = {
@@ -4867,6 +4906,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -4916,6 +4956,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -4965,6 +5006,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 900
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -5022,6 +5064,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
+		year = 1000
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -5076,7 +5119,6 @@ narrative_event = {
 	
 	only_playable = yes
 	min_age = 16
-	only_men = yes
 	
 	trigger = {
 		religion_group = pagan_group
@@ -5140,6 +5182,27 @@ character_event = {
 				religion = FROM # Will not change religion if already different from the vassal's
 			}
 			character = FROM
+		}
+		# Exilarch and his vassals/employees won't convert
+		NOT = {
+			OR = {
+				OR = {
+					has_landed_title = d_exilarch
+					has_landed_title = d_exilarch_karaite
+				}
+				liege = {
+					OR = {
+						has_landed_title = d_exilarch
+						has_landed_title = d_exilarch_karaite
+					}
+				}
+				employer = {
+					OR = {
+						has_landed_title = d_exilarch
+						has_landed_title = d_exilarch_karaite
+					}				
+				}
+			}
 		}
 	}
 	

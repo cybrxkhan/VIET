@@ -2,6 +2,7 @@
 #
 # Events for Vegetarians
 #
+# VEGETARIAN STRONK
 #
 ################################################################
 
@@ -103,6 +104,9 @@ character_event = {
 	
 	min_age = 16
 	capable_only = yes
+	only_rulers = yes
+	
+	is_triggered_only = yes
 	
 	trigger = {
 		is_theocracy = yes
@@ -115,10 +119,6 @@ character_event = {
 		}
 		NOT = { trait = vegetarian }
 		NOT = { has_character_flag = not_vegetarian_sect }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
 	}
 	
 	option = { #Be vegetarian
@@ -499,6 +499,7 @@ character_event = {
 		clr_character_flag = vegetarian_perseverance_2
 		clr_character_flag = vegetarian_perseverance_3
 		remove_trait = vegetarian
+		piety = -20
 	}	
 	option = { #Can resist
 		name = vegetarian.7.b

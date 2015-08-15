@@ -26,6 +26,18 @@ character_event = {
 }
 
 # Third Temple Built
+province_event = {
+	id = SoA.10199
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = { narrative_event = { id = SoA.101 } }
+	}
+}
+
 narrative_event = {
 	id = SoA.101
 	title = EVTNAME_SoA_101
@@ -226,7 +238,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		independent = yes
-		NOT = { religion_group = pagan_group }
 		capital_scope = {
 			OR = {
 				empire = { title = e_britannia }
@@ -302,7 +313,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		independent = yes
-		NOT = { religion_group = pagan_group }
 		capital_scope = {
 			OR = {
 				empire = { title = e_britannia }
@@ -378,7 +388,6 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		independent = yes
-		NOT = { religion_group = pagan_group }
 		capital_scope = {
 			OR = {
 				empire = { title = e_britannia }
@@ -466,7 +475,6 @@ character_event = {
 				kingdom = { title = k_aquitaine }
 			}
 		}
-		NOT = { religion_group = pagan_group }	
 		NOT = { 
 			has_character_modifier = expelled_jewish
 			trait = incapable
@@ -546,7 +554,6 @@ character_event = {
 				kingdom = { title = k_aquitaine }
 			}
 		}
-		NOT = { religion_group = pagan_group }
 		NOT = { 
 			has_character_modifier = expelled_jewish
 			trait = incapable
@@ -626,7 +633,6 @@ character_event = {
 				kingdom = { title = k_aquitaine }
 			}
 		}
-		NOT = { religion_group = pagan_group }
 		NOT = { 
 			has_character_modifier = expelled_jewish
 			trait = incapable
@@ -801,6 +807,11 @@ character_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
+				factor = 0.1
+				ai = yes
+				trait = in_hiding
+			}
+			modifier = {
 				factor = 0
 				NOT = {	opinion = { who = ROOT value = -20 } }
 			}
@@ -810,6 +821,16 @@ character_event = {
 		set_character_flag = do_not_disturb
 		hidden_tooltip = { character_event = { id = SoA.503 days = 8 } }
 		hidden_tooltip = { character_event = { id = SoA.599 days = 20 } } # Safety catch flag clearing
+		if = {
+			limit = { trait = in_hiding	}
+			remove_trait = in_hiding
+			add_character_modifier = {
+				name = went_out_of_hiding_timer
+				duration = 180
+				hidden = yes
+			}
+			hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+		}
 	}
 	option = {
 		name = EVTOPTB_SoA_501

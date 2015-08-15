@@ -27,17 +27,17 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = shy
 		}
 		
 		modifier = {
-			factor = 1.1
+			factor = 2
 			trait = patient
 		}
 		
@@ -47,7 +47,7 @@ character_event = {
 		}
 		
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = cynical
 		}
 		
@@ -120,17 +120,17 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = zealous
 		}
 		
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = cynical
 		}
 		
@@ -150,7 +150,7 @@ character_event = {
 		}
 		
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = envious
 		}
 		
@@ -282,11 +282,34 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			trait = shy
-		}
-		
+		}		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
+		}		
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}		
+		modifier = {
+			factor = 2
+			trait = cynical
+		}		
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}		
+		modifier = {
+			factor = 2
+			trait = slothful
+		}		
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}		
+		modifier = {
+			factor = 2
+			trait = kind
 		}
 						
 	}
@@ -423,47 +446,47 @@ character_event = {
 		days = 1
 		
 		modifier = {
-			factor = 1.5
+			factor = 2
 			trait = gregarious
 		}
 		modifier = {
-			factor = 0.9
+			factor = 0.5
 			trait = shy
 		}
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = patient
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = wroth
 		}
 		modifier = {
-			factor = 0.9
+			factor = 2
 			trait = greedy
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = charitable
 		}
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = just
 		}
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = cruel
 		}
 		modifier = {
-			factor = 1.4
+			factor = 2
 			trait = kind
 		}
 		modifier = {
-			factor = 0.8
+			factor = 0.5
 			trait = envious
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.5
 			trait = zealous
 		}
 	}
@@ -548,27 +571,27 @@ character_event = {
 		}
 		
 		modifier = {
-			factor = 1.2
+			factor = 2
 			trait = charitable
 		}
 		
 		modifier = {
-			factor = 1.4
+			factor = 2
 			trait = patient
 		}
 		
 		modifier = {
-			factor = 1.3
+			factor = 2
 			trait = content
 		}
 		
 		modifier = {
-			factor = 0.6
+			factor = 0.5
 			trait = envious
 		}
 		
 		modifier = {
-			factor = 0.7
+			factor = 0.5
 			trait = cruel
 		}
 		

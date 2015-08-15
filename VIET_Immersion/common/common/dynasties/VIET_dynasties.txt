@@ -52,83 +52,83 @@
 }
 1000061010 = {
 	name="Imdinaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061011 = {
 	name="Bormlaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061012 = {
 	name="Islaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061013 = {
 	name="Vallettaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061014 = {
 	name="Qormid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061015 = {
 	name="Siggiewid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061016 = {
 	name="Zabbarid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061017 = {
 	name="Zebbuggid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061018 = {
 	name="Zejtunid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061019 = {
 	name="Balarmid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061020 = {
 	name="Catanid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061021 = {
 	name="Sarausaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061022 = {
 	name="Marsaid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061023 = {
 	name="Qalatalnissid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061024 = {
 	name="Jirjentid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061025 = {
 	name="Bayharid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061026 = {
 	name="Mudiqahid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061027 = {
 	name="Alyajid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061028 = {
 	name="Mazarid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061029 = {
 	name="Minturnwid"
-	culture = siculo_arabic
+	culture = sicilian_arabic
 }
 1000061030 = {
 	name="Chiaramonte"
@@ -216,119 +216,119 @@
 }
 1000061051 = {
 	name="Massari"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061052 = {
 	name="Pilatos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061053 = {
 	name="Galatios"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061054 = {
 	name="Nilos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061055 = {
 	name="Stithos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061056 = {
 	name="Abidelas"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061057 = {
 	name="Delphinas"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061058 = {
 	name="Tarchaneiotes"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061059 = {
 	name="Xiphias"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061060 = {
 	name="Kourkouas"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061061 = {
 	name="Boioannes"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061062 = {
 	name="Burgaris"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061063 = {
 	name="Opos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061064 = {
 	name="Spondyles"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061065 = {
 	name="Doukeianos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061066 = {
 	name="Theodorokanos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061067 = {
 	name="Palatinos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061068 = {
 	name="Miriarch"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061069 = {
 	name="Maurikas"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061070 = {
 	name="Pateran"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061071 = {
 	name="Sergi"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061072 = {
 	name="Picingli"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061073 = {
 	name="Karidis"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061074 = {
 	name="Maruli"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061075 = {
 	name="Vasilakis"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061076 = {
 	name="Greco"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061077 = {
 	name="Arhontas"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061078 = {
 	name="Megali"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061079 = {
 	name="Kalogeros"
-	culture = griko
+	culture = sicilian_greek
 }
 1000061080 = {
 	name="of Devon"
@@ -1012,83 +1012,83 @@
 }
 1000061450 = {
 	name="Kang"
-	culture = sogdian
+	culture = soghdian
 }
 1000061451 = {
 	name="Samanid"
-	culture = sogdian
+	culture = soghdian
 }
 1000061452 = {
 	name="An"
-	culture = sogdian
+	culture = soghdian
 }	
 1000061453 = {
 	name="Sartapao"
-	culture = sogdian
+	culture = soghdian
 }
 1000061454 = {
 	name="Ruttuh"
-	culture = sogdian
+	culture = soghdian
 }
 1000061455 = {
 	name="Begh"
-	culture = sogdian
+	culture = soghdian
 }
 1000061456 = {
 	name="Khut’y"
-	culture = sogdian
+	culture = soghdian
 }
 1000061457 = {
 	name="Sarth"
-	culture = sogdian
+	culture = soghdian
 }
 1000061458 = {
 	name="Khwatenvendak"
-	culture = sogdian
+	culture = soghdian
 }
 1000061459 = {
 	name="Bentk"
-	culture = sogdian
+	culture = soghdian
 }
 1000061460 = {
 	name="By’mn"
-	culture = sogdian
+	culture = soghdian
 }
 1000061461 = {
 	name="Putythyh"
-	culture = sogdian
+	culture = soghdian
 }
 1000061462 = {
 	name="Yena"
-	culture = sogdian
+	culture = soghdian
 }	
 1000061463 = {
 	name="Cakr"
-	culture = sogdian
+	culture = soghdian
 }
 1000061464 = {
 	name="Irkin"
-	culture = sogdian
+	culture = soghdian
 }
 1000061465 = {
 	name="Ekshid"
-	culture = sogdian
+	culture = soghdian
 }
 1000061466 = {
 	name="Afshin"
-	culture = sogdian
+	culture = soghdian
 }
 1000061467 = {
 	name="Khuf"
-	culture = sogdian
+	culture = soghdian
 }
 1000061468 = {
 	name="Muqannid"
-	culture = sogdian
+	culture = soghdian
 }
 1000061469 = {
 	name="Layt"
-	culture = sogdian
+	culture = soghdian
 }
 1000061480 = {
 	name="Erzya"
@@ -1252,83 +1252,83 @@
 }
 1000061740 = {
 	name="Samanid"
-	culture = tajik
+	culture = khorasani
 }
 1000061741 = {
 	name="Ustadh"
-	culture = tajik
+	culture = khorasani
 }
 1000061742 = {
 	name="Rumi"
-	culture = tajik
+	culture = khorasani
 }	
 1000061743 = {
 	name="Naqshband"
-	culture = tajik
+	culture = khorasani
 }
 1000061744 = {
 	name="Bukhari"
-	culture = tajik
+	culture = khorasani
 }
 1000061745 = {
 	name="Hanifa"
-	culture = tajik
+	culture = khorasani
 }
 1000061746 = {
 	name="Balkhi"
-	culture = tajik
+	culture = khorasani
 }
 1000061747 = {
 	name="Bukhari"
-	culture = tajik
+	culture = khorasani
 }
 1000061748 = {
 	name="Sina"
-	culture = tajik
+	culture = khorasani
 }
 1000061749 = {
 	name="Kartid"
-	culture = tajik
+	culture = khorasani
 }
 1000061750 = {
 	name="Safavid"
-	culture = tajik
+	culture = khorasani
 }
 1000061751 = {
 	name="Khujandi"
-	culture = tajik
+	culture = khorasani
 }
 1000061752 = {
 	name="Gharmi"
-	culture = tajik
+	culture = khorasani
 }	
 1000061753 = {
 	name="Ibrahimi"
-	culture = tajik
+	culture = khorasani
 }
 1000061754 = {
 	name="Shahidi"
-	culture = tajik
+	culture = khorasani
 }
 1000061755 = {
 	name="Nur"
-	culture = tajik
+	culture = khorasani
 }
 1000061756 = {
 	name="Shaybani"
-	culture = tajik
+	culture = khorasani
 }
 1000061757 = {
 	name="Vakshi"
-	culture = tajik
+	culture = khorasani
 }
 1000061758 = {
 	name="Isfari"
-	culture = tajik
+	culture = khorasani
 }
 1000061759 = {
 	name="Amuli"
-	culture = tajik
+	culture = khorasani
 }
 1000061760 = {
 	name="Ghurid"
@@ -1892,83 +1892,83 @@
 }
 1000061920 = {
 	name="Mwynfawr"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061921 = {
 	name="Gloff"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061922 = {
 	name="of Alt Clut"
-	culture = cumbrian
+	culture = cumbric
 }	
 1000061923 = {
 	name="Hael"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061924 = {
 	name="Guletic"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061925 = {
 	name="Coeling"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061926 = {
 	name="Taliesin"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061927 = {
 	name="Aneirin"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061928 = {
 	name="Bulc"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061929 = {
 	name="Hen"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061930 = {
 	name="Gospatrick"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061931 = {
 	name="Gosmungo"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061932 = {
 	name="Gososwald"
-	culture = cumbrian
+	culture = cumbric
 }	
 1000061933 = {
 	name="Goscubrycht"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061934 = {
 	name="Lanercost"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061935 = {
 	name="Gladhoc"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061936 = {
 	name="Lanark"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061937 = {
 	name="Minnoc"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061938 = {
 	name="Barmulloch"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061939 = {
 	name="Ystradnidd"
-	culture = cumbrian
+	culture = cumbric
 }
 1000061940 = {
 	name="Bulsara"

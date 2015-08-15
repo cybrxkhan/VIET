@@ -31,7 +31,7 @@ EVTOPTA1000094001;Hunt them down yourself;;;;;;;;;;;;;x
 EVTOPTB1000094001;Send a squad of your guards;;;;;;;;;;;;;x
 EVTOPTC1000094001;Let the locals handle it themselves;;;;;;;;;;;;;x
 EVTNAME1000094002;Rebuild a local mosque?;;;;;;;;;;;;;x
-EVTDESC1000094002;A petition came today from your Muslim vassals to help them rebuild their mosque destroyed in a recent fire. Will you choose the path of tolerance chosen by many of the famous Zoroastrian Shahs of old, or will you ignore those not following the teachings of Zarathustra?;;;;;;;;;;;;;x
+EVTDESC1000094002;A petition came today from your Muslim vassals to help them rebuild their mosque destroyed in a recent fire. Will you choose the path of tolerance, or will you ignore those not following the teachings of Zarathustra?;;;;;;;;;;;;;x
 EVTOPTA1000094002;Help them;;;;;;;;;;;;;x
 EVTOPTB1000094002;Ignore their plight;;;;;;;;;;;;;x
 EVTNAME1000094003;Sedreh Pushi ritual;;;;;;;;;;;;;x
@@ -87,7 +87,7 @@ d_sacred_fire_guard_adj;Guardians;;;;;;;;;;;;;x
 HEADGUARD;Head Guard;;;;;;;;;;;;;x
 HEADGUARD_FOA;The mighty;;;;;;;;;;;;;x
 zoroastrian_celibacy;Zoroastrians especially loath celibacy;;;;;;;;;;;;;x
-zoroastrian_deceitfulness;Zoroastrians especially loath diceitfulness;;;;;;;;;;;;;x
+zoroastrian_deceitfulness;Zoroastrians especially loath deceitfulness;;;;;;;;;;;;;x
 zoroastrian_hedonism;Zoroastrians value hedonism;;;;;;;;;;;;;x
 zoroastrian_lustfulness;Zoroastrians value lustfulness;;;;;;;;;;;;;x
 EVTDESC1000094008;[From.GetTitledFirstName] and [From.Spouse.GetTitledFirstName] have gotten married. We can collect a Royal Aid Duty to pay for the ceremonies.;;;;;;;;;;;;;x

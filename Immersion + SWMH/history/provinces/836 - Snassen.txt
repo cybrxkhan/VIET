@@ -1,0 +1,24 @@
+# 836 - Snassen
+
+# County Title
+title = c_snassen
+
+# Settlements
+max_settlements = 3
+
+b_tanas = castle
+b_sidiakacha = temple
+
+#b_tendrara = city
+
+#b_ahfir = castle
+
+
+# Misc
+culture = maghreb_arabic
+religion = ibadi
+
+# History
+
+909.1.1 = { religion = sunni }
+1066.1.1 = { trade_post = b_haha } #Oran republic

@@ -54,7 +54,7 @@ EVTOPTA1000109111;I am worthless.;;;;;;;;;;;x
 EVTOPTB1000109111;I don’t try hard enough.;;;;;;;;;;;x
 EVTOPTC1000109111;No one cares about me, that’s why.;;;;;;;;;;;x
 EVTOPTD1000109111;Maybe I shouldn’t worry about this.;;;;;;;;;;;x
-EVTDESC1000109112;An impoverished knight had recently died, leaving behind an orphaned child. I really feel pity for the unfortunate youth, who has no family left. I’ll try to find the child a good place to live in.;;;;;;;;;;;x
+EVTDESC1000109112;An impoverished knight had recently died, leaving behind an orphaned child. I really feel pity for the unfortunate youth, who has no family left. I’ll try to find the child a good place to live.;;;;;;;;;;;x
 EVTOPTA1000109112;Send the child to live with one of my trusted knights.;;;;;;;;;;;x
 EVTOPTB1000109112;Bring the child to a monastery.;;;;;;;;;;;x
 EVTOPTC1000109112;Invite the child to my court.;;;;;;;;;;;x
@@ -367,10 +367,10 @@ EVTOPTA1000109334;Praise be to [Root.Religion.GetRandomGodName]!;;;;;;;;;;;x
 EVTTOOLTIP1000109335;[Root.GetTitledFirstName] asks an old friend for advice.;;;;;;;;;;;x
 EVTDESC1000109335;In your quest to purify yourself of your vices, you ask advice from an old warrior who fought alongside you during the holy wars. A wise and patient man, his words are encouraging as you expected. “Only [Root.Religion.GetRandomGodName] knows whether your vices will ever be vanquished. Stay faithful, and you shall be saved.”;;;;;;;;;;;x
 EVTOPTA1000109335;Thank you.;;;;;;;;;;;x
-EVTDESC1000109336;Holy War is supposedly to protect the faith. But am I really doing the right thing? Should I truly be killing infidels? Even if they worship idols and blaspheme, they are still the children of God. They too are people, aren’t they?;;;;;;;;;;;x
-EVTOPTA1000109336;Infidels aren’t people, they deserve to die!;;;;;;;;;;;x
-EVTOPTB1000109336;We are merely protecting our faith.;;;;;;;;;;;x
-EVTOPTC1000109336;Men always have their excuses for evil things, myself included.;;;;;;;;;;;x
+EVTDESC1000109336;Is it really right for us and the infidels to be fighting each other? Even if they worship idols and blaspheme, they are still the children of God. They too are people, aren’t they?;;;;;;;;;;;x
+EVTOPTA1000109336;Infidels aren’t people, they're dogs!;;;;;;;;;;;x
+EVTOPTB1000109336;We are merely protecting our faith, one way or another.;;;;;;;;;;;x
+EVTOPTC1000109336;Men always have their excuses for evil things, all of us included.;;;;;;;;;;;x
 #Lovers Flavor Events 1 ;;;;;;;;;;;;;;x
 EVTDESC1000109337;You don’t like to talk much, even with your acquaintance. You just know the two of you, despite your mutual insecurity, seem to be able to communicate well without much talking. There’s no doubt both of you are very much attracted to each other. But you are young and bashful, afraid of rejection.;;;;;;;;;;;x
 EVTOPTA1000109337;I have to show some courage and confess my love!;;;;;;;;;;;x

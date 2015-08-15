@@ -1,0 +1,7 @@
+########################################################################################################################
+#
+# Hidden Easter Eggs are not meant to be viewed by normal players
+# Enable them by console triggering event "monogatari.0"
+# Meant for our sick entertainment
+#
+########################################################################################################################

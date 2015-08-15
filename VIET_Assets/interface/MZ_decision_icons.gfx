@@ -23,12 +23,4 @@ spriteTypes = {
 		name = "GFX_rebuild_persepolis"
 		texturefile = "gfx\\interface\\decision_icon_rebuild_persepolis.dds"
 	}
-	spriteType = {
-		name = "GFX_organize_zhayedan_1"
-		texturefile = "gfx\\interface\\decision_icon_zhayedan.dds"
-	}
-	spriteType = {
-		name = "GFX_organize_zhayedan_2"
-		texturefile = "gfx\\interface\\decision_icon_zhayedan.dds"
-	}	
 }

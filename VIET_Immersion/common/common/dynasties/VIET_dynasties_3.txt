@@ -1,0 +1,573 @@
+######################################################################################
+#
+# VIET Dynasties - Set 3
+#
+# This is for any new dynasties added in VIET
+# They are placed separately here for easier mod integration and updating in between patches
+# Generally they are arranged in sets of 10 (i.e. 10, 20, 30 dynasties per culture)
+#
+# 1000092600 -  (some IDs may have been skipped)
+#
+######################################################################################
+
+
+1000092600 = {
+	name="Castiglioni"
+	culture = italian
+}
+1000092601 = {
+	name="Ferrari"
+	culture = italian
+}
+1000092602 = {
+	name="Olivo"
+	culture = italian
+}
+1000092603 = {
+	name="Monteverdi"
+	culture = italian
+}
+1000092604 = {
+	name="Franco"
+	culture = italian
+}
+1000092605 = {
+	name="Bardi"
+	culture = italian
+}
+1000092606 = {
+	name="Peruzzi"
+	culture = italian
+}
+1000092607 = {
+	name="Malatesta"
+	culture = italian
+}
+1000092608 = {
+	name="Ghibli"
+	culture = italian
+}
+1000092609 = {
+	name="Pizzaiolo"
+	culture = italian
+}
+1000092610 = {
+	name="Amalek"
+	culture = aramean
+}
+1000092611 = {
+	name="Ebernari"
+	culture = aramean
+}
+1000092612 = {
+	name="Hanna"
+	culture = aramean
+}
+1000092613 = {
+	name="Bihram"
+	culture = aramean
+}
+1000092614 = {
+	name="Zihrun"
+	culture = aramean
+}
+1000092615 = {
+	name="Naddaf"
+	culture = aramean
+}
+1000092616 = {
+	name="Ahmar"
+	culture = aramean
+}
+1000092617 = {
+	name="Baylan"
+	culture = aramean
+}
+1000092618 = {
+	name="Malla"
+	culture = aramean
+}
+1000092619 = {
+	name="Caldani"
+	culture = aramean
+}
+1000092620 = {
+	name="Ramman"
+	culture = aramean
+}
+1000092621 = {
+	name="Akkurt"
+	culture = aramean
+}
+1000092622 = {
+	name="Kifa"
+	culture = aramean
+}
+1000092623 = {
+	name="Gadala"
+	culture = aramean
+}
+1000092624 = {
+	name="Doumit"
+	culture = aramean
+}
+1000092625 = {
+	name="Dag"
+	culture = aramean
+}
+1000092626 = {
+	name="Phares"
+	culture = aramean
+}
+1000092627 = {
+	name="Messo"
+	culture = aramean
+}
+1000092628 = {
+	name="Ugarit"
+	culture = aramean
+}
+1000092629 = {
+	name="Ahlamu"
+	culture = aramean
+}
+1000092630 = {
+	name="Urhoy"
+	culture = aramean
+}
+1000092631 = {
+	name="Malko"
+	culture = aramean
+}
+1000092632 = {
+	name="Serugh"
+	culture = aramean
+}
+1000092633 = {
+	name="Haditha"
+	culture = aramean
+}
+1000092634 = {
+	name="Salibi"
+	culture = aramean
+}
+1000092635 = {
+	name="Ebroyo"
+	culture = aramean
+}
+1000092636 = {
+	name="Fayeq"
+	culture = aramean
+}
+1000092637 = {
+	name="Arzo"
+	culture = aramean
+}
+1000092638 = {
+	name="Safa"
+	culture = aramean
+}
+1000092639 = {
+	name="Arz"
+	culture = aramean
+}
+1000092640 = {
+	name="Avarigines"
+	culture = celtiberian
+}
+1000092641 = {
+	name="Blendii"
+	culture = celtiberian
+}
+1000092642 = {
+	name="Camarici"
+	culture = celtiberian
+}
+1000092643 = {
+	name="Concani"
+	culture = celtiberian
+}
+1000092644 = {
+	name="Coniaci"
+	culture = celtiberian
+}
+1000092645 = {
+	name="Morecani"
+	culture = celtiberian
+}
+1000092646 = {
+	name="Noegi"
+	culture = celtiberian
+}
+1000092647 = {
+	name="Orgenomesci"
+	culture = celtiberian
+}
+1000092648 = {
+	name="Salaeni"
+	culture = celtiberian
+}
+1000092649 = {
+	name="Vadinienses"
+	culture = celtiberian
+}
+1000092650 = {
+	name="Velliques"
+	culture = celtiberian
+}
+1000092651 = {
+	name="Cabarci"
+	culture = celtiberian
+}
+1000092652 = {
+	name="Iburri"
+	culture = celtiberian
+}
+1000092653 = {
+	name="Luggones"
+	culture = celtiberian
+}
+1000092654 = {
+	name="Paesici"
+	culture = celtiberian
+}
+1000092655 = {
+	name="Paenii"
+	culture = celtiberian
+}
+1000092656 = {
+	name="Saelini"
+	culture = celtiberian
+}
+1000092657 = {
+	name="Vinciani"
+	culture = celtiberian
+}
+1000092658 = {
+	name="Viromenici"
+	culture = celtiberian
+}
+1000092659 = {
+	name="Brigaentini"
+	culture = celtiberian
+}
+1000092660 = {
+	name="Baedunienses"
+	culture = celtiberian
+}
+1000092661 = {
+	name="Amaci"
+	culture = celtiberian
+}
+1000092662 = {
+	name="Cabruagenigi"
+	culture = celtiberian
+}
+1000092663 = {
+	name="Lancienses"
+	culture = celtiberian
+}
+1000092664 = {
+	name="Lougei"
+	culture = celtiberian
+}
+1000092665 = {
+	name="Tiburi"
+	culture = celtiberian
+}
+1000092666 = {
+	name="Orniaci"
+	culture = celtiberian
+}
+1000092667 = {
+	name="Gigurri"
+	culture = celtiberian
+}
+1000092668 = {
+	name="Zoelae"
+	culture = celtiberian
+}
+1000092669 = {
+	name="Susarri"
+	culture = celtiberian
+}
+1000092670 = {
+	name="Praeses"
+	culture = pannonian
+}
+1000092671 = {
+	name="Sopiana"
+	culture = pannonian
+}
+1000092672 = {
+	name="Siscia"
+	culture = pannonian
+}
+1000092673 = {
+	name="Sala"
+	culture = pannonian
+}
+1000092674 = {
+	name="Teurnia"
+	culture = pannonian
+}
+1000092675 = {
+	name="Ambidravi"
+	culture = pannonian
+}
+1000092676 = {
+	name="Anisus"
+	culture = pannonian
+}
+1000092677 = {
+	name="Valcum"
+	culture = pannonian
+}
+1000092678 = {
+	name="Savaria"
+	culture = pannonian
+}
+1000092679 = {
+	name="Vindobona"
+	culture = pannonian
+}
+1000092680 = {
+	name="Scarbantia"
+	culture = pannonian
+}
+1000092681 = {
+	name="Arrabona"
+	culture = pannonian
+}
+1000092682 = {
+	name="Eravisci"
+	culture = pannonian
+}
+1000092683 = {
+	name="Mursa"
+	culture = pannonian
+}
+1000092684 = {
+	name="Brigetio"
+	culture = pannonian
+}
+1000092685 = {
+	name="Salva"
+	culture = pannonian
+}
+1000092686 = {
+	name="Gerulata"
+	culture = pannonian
+}
+1000092687 = {
+	name="Iovia"
+	culture = pannonian
+}
+1000092688 = {
+	name="Cirpi"
+	culture = pannonian
+}
+1000092689 = {
+	name="Bassiana"
+	culture = pannonian
+}
+1000092690 = {
+	name="Boscawen"
+	culture = cornish
+}
+1000092691 = {
+	name="Flammank"
+	culture = cornish
+}
+1000092692 = {
+	name="Lucombe"
+	culture = cornish
+}
+1000092693 = {
+	name="Tuchet"
+	culture = cornish
+}
+1000092694 = {
+	name="Arundell"
+	culture = cornish
+}
+1000092695 = {
+	name="Windslade"
+	culture = cornish
+}
+1000092696 = {
+	name="Carew"
+	culture = cornish
+}
+1000092697 = {
+	name="Bawcock"
+	culture = cornish
+}
+1000092698 = {
+	name="Boson"
+	culture = cornish
+}
+1000092699 = {
+	name="Edgecombe"
+	culture = cornish
+}
+1000092700 = {
+	name="Dowriche"
+	culture = cornish
+}
+1000092701 = {
+	name="Enys"
+	culture = cornish
+}
+1000092702 = {
+	name="Tintagel"
+	culture = cornish
+}
+1000092703 = {
+	name="Killegrew"
+	culture = cornish
+}
+1000092704 = {
+	name="Trewenard"
+	culture = cornish
+}
+1000092705 = {
+	name="Trelawny"
+	culture = cornish
+}
+1000092706 = {
+	name="Carminow"
+	culture = cornish
+}
+1000092707 = {
+	name="Tregury"
+	culture = cornish
+}
+1000092708 = {
+	name="Trevisa"
+	culture = cornish
+}
+1000092709 = {
+	name="Vyvyan"
+	culture = cornish
+}
+1000092710 = {
+	name="Hambley"
+	culture = cornish
+}
+1000092711 = {
+	name="Pilchard"
+	culture = cornish
+}
+1000092712 = {
+	name="Lannstefan"
+	culture = cornish
+}
+1000092713 = {
+	name="Trematon"
+	culture = cornish
+}
+1000092714 = {
+	name="Rostorrmel"
+	culture = cornish
+}
+1000092715 = {
+	name="Grenville"
+	culture = cornish
+}
+1000092716 = {
+	name="Raleigh"
+	culture = cornish
+}
+1000092717 = {
+	name="Drake"
+	culture = cornish
+}
+1000092718 = {
+	name="Specott"
+	culture = cornish
+}
+1000092719 = {
+	name="Mylwaye"
+	culture = cornish
+}
+1000092720 = {
+	name="Adariking"
+	culture = gepid
+}
+1000092721 = {
+	name="Elemunding"
+	culture = gepid
+}
+1000092722 = {
+	name="Apahida"
+	culture = gepid
+}
+1000092723 = {
+	name="Turda"
+	culture = gepid
+}
+1000092724 = {
+	name="Victoval"
+	culture = gepid
+}
+1000092725 = {
+	name="Caucalanda"
+	culture = gepid
+}
+1000092726 = {
+	name="Skirian"
+	culture = gepid
+}
+1000092727 = {
+	name="Malomfalva"
+	culture = gepid
+}
+1000092728 = {
+	name="Olt"
+	culture = gepid
+}
+1000092729 = {
+	name="Ister"
+	culture = gepid
+}
+1000092730 = {
+	name="Kunagota"
+	culture = gepid
+}
+1000092731 = {
+	name="Gepanta"
+	culture = gepid
+}
+1000092732 = {
+	name="Tisa"
+	culture = gepid
+}
+1000092733 = {
+	name="Nedao"
+	culture = gepid
+}
+1000092734 = {
+	name="Asfeld"
+	culture = gepid
+}
+1000092735 = {
+	name="Leupichising"
+	culture = gepid
+}
+1000092736 = {
+	name="Oszanda"
+	culture = gepid
+}
+1000092737 = {
+	name="Siling"
+	culture = gepid
+}
+1000092738 = {
+	name="Therving"
+	culture = gepid
+}
+1000092739 = {
+	name="Greuthung"
+	culture = gepid
+}

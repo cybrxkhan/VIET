@@ -158,6 +158,17 @@ letter_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -631,6 +642,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -1191,6 +1213,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding }
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -1216,7 +1249,7 @@ character_event = {
 	}
 }
 
-# Ping event when donating money to the Hospitallers
+# Ping event when donating money to the Hospitallers (also used for Bektashi, Assassins, Haruriyyah and Templar orders)
 character_event = {
 	id = SoA.1140
 	desc = OK
@@ -1229,9 +1262,20 @@ character_event = {
 	
 	immediate = {
 		wealth = 300
+		if = {
+			limit = { religion_group = christian }
 		FROM = {
 			letter_event = {
 				id = SoA.1141
+			}
+		}
+		}
+		if = {
+			limit = { religion_group = muslim }
+			FROM = {
+				letter_event = {
+					id = CM.4399
+				}
 			}
 		}
 		opinion = {
@@ -1503,6 +1547,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		is_heretic = no
 		has_character_modifier = borrowed_from_bektashi
@@ -1627,6 +1672,17 @@ letter_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -1671,6 +1727,7 @@ narrative_event = {
 				religion = qalandari
 				religion = salihist
 				religion = murjite
+				religion = muridist
 			}
 			is_heretic = no
 		NOT = {
@@ -1883,6 +1940,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite			
+			religion = muridist			
 		}
 		is_heretic = no
 		
@@ -2061,6 +2119,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		is_heretic = no
 		
@@ -2210,21 +2269,29 @@ character_event = {
 # Son or brother joins the Bektashi Order
 character_event = {
 	id = SoA.1232
-	desc = EVTDESC_SOA_1232
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = EXCELLENT
 		
+	immediate = {
 		d_bektashi = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -2235,15 +2302,12 @@ character_event = {
 # Liege refuses request to join the Bektashi
 character_event = {
 	id = SoA.1233
-	desc = EVTDESC_SOA_1233
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_SOA_1033
 		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -2270,6 +2334,7 @@ character_event = {
 			religion = qalandari
 			religion = salihist
 			religion = murjite
+			religion = muridist
 		}
 		
 		d_bektashi = {
@@ -2433,7 +2498,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1254
-	desc = EVTDESC_SOA_1254
+	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -2659,6 +2724,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -2956,7 +3032,14 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+			religion = ghurabi
+		}
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
 		any_child = {
@@ -3086,6 +3169,17 @@ letter_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -3158,7 +3252,14 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+			religion = ghurabi
+		}
 		
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
@@ -3329,7 +3430,14 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+			religion = ghurabi
+		}
 		
 		martial = 5
 		
@@ -3493,6 +3601,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -3530,7 +3649,14 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+			religion = alawite
+			religion = qarmatian
+			religion = ghurabi
+		}
 		
 		d_hashshashin = {
 			holder_scope = {
@@ -3971,6 +4097,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					religion = PREV
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -4381,15 +4518,15 @@ narrative_event = {
 				religion = iconoclast
 			}
 			AND = {
-				764 = { # Antioch is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
+				764 = { # Antioch is barlaamite
+					holder_scope = { religion = barlaamite }
+					religion = barlaamite 
 				}
-				774 = { # Jerusalem is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
+				774 = { # Jerusalem is barlaamite
+					holder_scope = { religion = barlaamite }
+					religion = barlaamite 
 				}
-				religion = paulician
+				religion = barlaamite
 			}
 			AND = {
 				764 = { # Antioch is bosnian_religion
@@ -4538,7 +4675,7 @@ character_event = {
 			religion = bogomilist
 			religion = monothelite
 			religion = iconoclast
-			religion = paulician
+			religion = barlaamite
 			religion = bosnian_religion
 		}
 		is_heretic = no
@@ -4706,6 +4843,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -4790,7 +4938,7 @@ character_event = {
 			religion = bogomilist
 			religion = monothelite
 			religion = iconoclast
-			religion = paulician
+			religion = barlaamite
 			religion = bosnian_religion
 		}
 		is_heretic = no
@@ -5115,6 +5263,21 @@ narrative_event = {
 				}
 				religion = maronite
 			}
+			AND = {
+				875 = { # Aksum is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				793 = { # Makuria is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				802 = { # Alexandria is stefanite-controlled
+					holder_scope = { religion = stefanite }
+					religion = stefanite 
+				}
+				religion = stefanite
+			}
 		}
 		is_heretic = no
 		
@@ -5251,6 +5414,7 @@ character_event = {
 			religion = monophysite
 			religion = syriac
 			religion = maronite
+			religion = stefanite
 		}
 		is_heretic = no
 		
@@ -5417,6 +5581,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -5501,6 +5676,7 @@ character_event = {
 			religion = monophysite
 			religion = syriac
 			religion = maronite
+			religion = stefanite
 		}
 		is_heretic = no
 		
@@ -6058,6 +6234,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -6696,6 +6883,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -7169,7 +7367,7 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
-		religion = tengri_pagan #tengri_pagan_reformed
+		religion = tengri_pagan_reformed
 		
 		martial = 5
 		
@@ -7333,6 +7531,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -7412,7 +7621,7 @@ character_event = {
 	only_playable = yes
 	
 	trigger = {
-		religion = tengri_pagan #tengri_pagan_reformed
+		religion = tengri_pagan_reformed
 		
 		d_sky_lords = {
 			holder_scope = {
@@ -7968,6 +8177,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -8605,6 +8825,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -9241,6 +9472,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -9875,6 +10117,17 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -10508,6 +10761,17 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -11189,6 +11453,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -11878,6 +12153,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -12235,6 +12521,7 @@ narrative_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		
 		is_heretic = no
@@ -12284,6 +12571,17 @@ narrative_event = {
 				774 = { # Jerusalem is chaldean
 					holder_scope = { religion = chaldean }
 					religion = chaldean 
+				}
+			}
+			AND = {
+				religion = marcionite
+				693 = { # Baghdad is marcionite
+					holder_scope = { religion = marcionite }
+					religion = marcionite 
+				}
+				774 = { # Jerusalem is marcionite
+					holder_scope = { religion = marcionite }
+					religion = marcionite 
 				}
 			}
 		}
@@ -12417,6 +12715,7 @@ character_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		is_heretic = no
 		
@@ -12583,6 +12882,17 @@ character_event = {
 						clear_wealth = PREV
 					}
 					add_trait = celibate
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+					}
 				}
 			}
 		}
@@ -12667,6 +12977,7 @@ character_event = {
 			religion = messalian
 			religion = arkagun
 			religion = chaldean
+			religion = marcionite
 		}
 		
 		is_heretic = no

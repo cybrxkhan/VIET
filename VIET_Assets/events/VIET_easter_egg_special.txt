@@ -1,0 +1,21 @@
+########################################################################################################################
+#
+# Hidden Easter Eggs are not meant to be viewed by normal players
+# Enable them by console triggering event "monogatari.0"
+# Meant for our sick entertainment
+#
+# List of reserved events:
+#
+# 0-999: Administrative stuff
+# 1000-1999: Decision-related stuff
+#	1000-1009: Toothbrushing sisters
+#
+########################################################################################################################
+
+
+
+
+
+
+
+

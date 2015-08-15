@@ -4,7 +4,7 @@ e_rebels = {
 	primary = yes
 
 	culture = swedish
-	tribe = yes
+#	tribe = yes
 
 	color={ 0 0 0 }
 	color2={ 0 0 0 }
@@ -16,7 +16,7 @@ e_pirates = {
 	primary = yes
 
 	culture = swedish
-	tribe = yes
+#	tribe = yes
 
 	color={ 0 0 0 }
 	color2={ 0 0 0 }
@@ -463,6 +463,94 @@ d_ibadi = {
 	}
 }
 
+d_kharijite = {
+	color={ 10 110 10 }
+	color2={ 220 220 0 }
+	
+	capital = 719 # Mecca
+	
+	creation_requires_capital = no
+	
+	dignity = 80 # Counted as having this many more counties than it does
+	
+	title = "CALIPH"
+	title_female = "CALIPHA"
+	foa = "CALIPH_FOA"
+	short_name = yes
+	
+	religion=kharijite
+	
+	# Controls a religion
+	controls_religion = kharijite
+	
+	allow = {
+		piety = 1000
+		OR = {
+			custom_tooltip = { 
+				text = controls_mecca_medina
+				hidden_tooltip = {
+					719 = { # Mecca
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					718 = { # Medina
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = controls_jerusalem_damascus_baghdad
+				hidden_tooltip = {
+					774 = { # Jerusalem
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					728 = { # Damascus
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+					693 = { # Baghdad
+						owner = {
+							OR = {
+								is_liege_or_above = ROOT
+								character = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	caliphate = yes
+	
+	coat_of_arms=
+	{
+		data=
+		{
+			0 0 0 8 0 2 2
+		}
+		religion=kharijite
+	}
+}
+
 d_hurufi = {
 	color={ 80 220 80 }
 	color2={ 220 220 0 }
@@ -618,6 +706,24 @@ d_sunni = {
 	controls_religion = sunni
 	
 	allow = {
+		custom_tooltip = {
+			text = sunni_creation_independent
+			hidden_tooltip = {
+				in_revolt = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							OR = {
+								in_revolt = yes
+								NOT = { religion = sunni }
+							}
+						}
+					}
+				}
+			}
+		}
+		
 		OR = {
 			trait = mirza
 			trait = sayyid
@@ -720,12 +826,36 @@ k_shiite = {
 	assimilate = no
 	
 	allow = {
+		custom_tooltip = {
+			text = shia_creation_independent
+			hidden_tooltip = {
+				in_revolt = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							OR = {
+								in_revolt = yes
+								NOT = { religion = shiite }
+							}
+						}
+					}
+				}
+			}
+		}
+		
 		OR = {
 			trait = mirza
 			trait = sayyid
 			piety = 1000
 		}
+		custom_tooltip = {
+			text = not_shia_caliphate_revolt_ongoing
+			hidden_tooltip = {
 		NOT = { has_global_flag = shia_caliphate_revolt_ongoing }
+			}
+		}
+		
 		OR = {
 			AND = {
 				trait = sayyid
@@ -798,6 +928,8 @@ k_shiite = {
 e_golden_horde = {
 	color = { 243 180 17 }
 	
+	short_name = yes
+	
 	capital = 619 # Saray
 	
 	# Always exists
@@ -807,7 +939,7 @@ e_golden_horde = {
 		always = no
 	}
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = mongol
 	religion = tengri_pagan
@@ -818,6 +950,8 @@ e_golden_horde = {
 e_il-khanate = {
 	color = { 140 180 20 }
 	
+	short_name = yes
+	
 	capital = 646 # Esfahan
 	
 	# Always exists
@@ -827,7 +961,7 @@ e_il-khanate = {
 		always = no
 	}
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = mongol
 	religion = tengri_pagan
@@ -836,15 +970,17 @@ e_il-khanate = {
 }
 
 e_mongol_empire = {
-	color = { 255 255 255 }
+	color = { 130 180 240 }
 	color2 = { 255 20 20 }
+	
+	short_name = yes
 	
 	capital = 903 # Samarkand
 	
 	# Always exists
 	landless = yes
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -859,6 +995,8 @@ e_mongol_empire = {
 e_timurids = {
 	color = { 120 20 20 }
 	
+	short_name = yes
+	
 	capital = 646 # Esfahan
 	
 	allow = {
@@ -868,7 +1006,7 @@ e_timurids = {
 	# Always exists
 #	landless = yes
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = mongol
 	religion = sunni
@@ -1033,6 +1171,41 @@ d_bektashi = {
 
 	mercenary_type = bektashi_composition
 }
+
+d_haruriyyah = {
+
+	color={ 150 200 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+	
+	capital = 693 # Bagdad
+	
+	title = "DEDEBABA"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+
+	# Always exists
+	landless = yes
+	
+	culture = bedouin_arabic
+	
+	# Parent Religion 
+	religion = ibadi
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = bektashi_composition
+}
+
 
 d_jomsvikings = {
 
@@ -1535,6 +1708,35 @@ d_bulls_rishabha = {
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 	
 	mercenary_type = bulls_rishabha_composition
+}
+
+
+d_zun_warriors = {
+
+	color = { 230 255 0 }
+	
+	capital = 1185 # Kabul
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = afghan
+	
+	# Parent Religion 
+	religion = zun_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = zun_warriors_composition
 }
 
 # MERCS
@@ -3237,7 +3439,7 @@ d_ghilman = {
 	
 	strength_growth_per_century = 1.0
 	
-	mercenary_type = naval_merc_composition
+	mercenary_type = ghilman_composition
 }
 
 d_ghanan_band = {
@@ -3272,7 +3474,7 @@ d_ghanan_band = {
 	
 	strength_growth_per_century = 1.0
 	
-	mercenary_type = naval_merc_composition
+	mercenary_type = ghanan_band_composition
 }
 
 k_pomerania = {
@@ -3290,6 +3492,8 @@ k_pomerania = {
 		color2={ 255 255 255 }
 		
 		capital = 260 #mecklemburg
+		
+		pommeranian = Obotritia
 		
 		c_mecklemburg = {
 			color={ 207 207 207 }
@@ -3559,6 +3763,89 @@ k_finland = {
 		}
 	}
 
+	d_kola = {
+		color={ 194 171 117 }
+
+	#	tribe = yes
+
+		culture = lappish
+		title = "HIGH_CHIEF"
+		foa = "HIGH_CHIEF_FOA"
+		title_prefix = "TRIBE_OF"
+
+		c_kola = {
+			color={ 145 35 35 }
+			color2={ 255 255 255 }
+		
+			b_kola = {
+			}
+			b_mafelskoi = {
+			}
+			b_pechenga = {
+			}
+			b_waranger = {
+			}
+			b_tre = {
+			}
+			b_lovozero = {
+			}
+			b_molovskoi = {
+			}
+			b_jekanskoi = {
+			}
+		}
+		c_kandalax = {
+			color={ 135 60 60 }
+			color2={ 255 255 255 }
+			
+			swedish = "Kandalax"
+			norse = "Kandalax"
+			norwegian = "Kandalax"
+			danish = "Kandalax"
+		
+			b_kantalahti = {
+				swedish = "Kandalax"
+				norse = "Kandalax"
+				norwegian = "Kandalax"
+				danish = "Kandalax"
+			}
+			b_umba = {
+			}
+			b_varzuga = {
+			}
+			b_lekastrom = {
+			}
+			b_sarapo = {
+			}
+			b_kolsky = {
+			}
+			b_ponoy = {
+			}
+			b_pyaozero = {
+			}
+		}
+		c_kemi = {
+			color={ 130 65 55 }
+			color2={ 255 255 255 }
+		
+			b_kemi = {
+			}
+			b_neiden = {
+			}
+			b_rovaniemi = {
+			}
+			b_inari = {
+			}
+			b_tornio = {
+			}
+			b_kemijarvi = {
+			}
+			b_utsjoki = {
+			}
+			b_savukoski = {
+			}
+		}
+	}
 	d_esthonia = {
 		color={ 150 75 75 }
 		color2={ 255 255 255 }
@@ -3636,6 +3923,9 @@ k_finland = {
 			
 			finnish = "Inkeri"
 			russian = "Ingriya"
+			ilmenian = "Ingriya"
+			severian = "Ingriya"
+			swedish = "Ingermanland"
 		
 			b_nyen = {
 				finnish = "Nevanlinna"
@@ -3680,6 +3970,48 @@ k_finland = {
 		norwegian = "Karelen"
 		russian = "Kareliya"
 		
+		c_savolaks = {
+			color={ 120 10 10 }
+			color2={ 255 255 255 }
+			
+			swedish = "Savolax"
+			norse = "Savolax"
+			norwegian = "Savolax"
+			danish = "Savolax"
+		
+			b_olavinlinna = {
+				swedish = "Olofsborg"
+				norse = "Olofsborg"
+				norwegian = "Olavsborg"
+				danish = "Olavsborg"
+			}
+			b_mikkeli = {
+				swedish = "St Michel"
+				norse = "St Michel"
+				norwegian = "St Michel"
+				danish = "St Michel"
+			}
+			b_savitaipale = {
+			}
+			b_sotkamo = {
+			}
+			b_brahelinna = {
+				swedish = "Brahehus"
+				norse = "Brahehus"
+				norwegian = "Brahehus"
+				danish = "Brahehus"
+			}
+			b_iisalmi = {
+				swedish = "Idensalmi"
+				norse = "Idensalmi"
+				norwegian = "Idensalmi"
+				danish = "Idensalmi"
+			}
+			b_kuopio = {
+			}
+			b_sysma = {
+			}
+		}
 		c_onega = {
 			color={ 165 45 45 }
 			color2={ 255 255 255 }
@@ -3766,56 +4098,6 @@ k_finland = {
 			b_taipale = {
 			}
 		}
-		
-		c_kola = {
-			color={ 145 35 35 }
-			color2={ 255 255 255 }
-		
-			b_kola = {
-			}
-			b_mafelskoi = {
-			}
-			b_pechenga = {
-			}
-			b_waranger = {
-			}
-			b_tre = {
-			}
-			b_lovozero = {
-			}
-			b_molovskoi = {
-			}
-			b_jekanskoi = {
-			}
-		}
-		c_kandalax = {
-			color={ 135 60 60 }
-			color2={ 255 255 255 }
-			
-			swedish = "Kandalax"
-			norwegian = "Kandalax"
-			danish = "Kandalax"
-		
-			b_kantalahti = {
-				swedish = "Kandalax"
-				norwegian = "Kandalax"
-				danish = "Kandalax"
-			}
-			b_umba = {
-			}
-			b_varzuga = {
-			}
-			b_lekastrom = {
-			}
-			b_sarapo = {
-			}
-			b_kolsky = {
-			}
-			b_ponoy = {
-			}
-			b_pyaozero = {
-			}
-		}
 	}
 	d_finland = {
 		color={ 131 108 26 }
@@ -3823,43 +4105,13 @@ k_finland = {
 		
 		capital = 382 # Suomi
 		
-		c_savolaks = {
-			color={ 120 10 10 }
-			color2={ 255 255 255 }
-			
-			swedish = "Savolax"
-			norwegian = "Savolax"
-			danish = "Savolax"
+		finnish = Satakunta
+		lappish = Satakunta
+		ugricbaltic = Satakunta
+		komi = Satakunta
+		samoyed = Satakunta
+		mordvin = Satakunta
 		
-			b_olavinlinna = {
-				swedish = "Olofsborg"
-				norwegian = "Olavsborg"
-				danish = "Olavsborg"
-			}
-			b_mikkeli = {
-				swedish = "St Michel"
-				norwegian = "St Michel"
-				danish = "St Michel"
-			}
-			b_savitaipale = {
-			}
-			b_sotkamo = {
-			}
-			b_brahelinna = {
-				swedish = "Brahehus"
-				norwegian = "Brahehus"
-				danish = "Brahehus"
-			}
-			b_iisalmi = {
-				swedish = "Idensalmi"
-				norwegian = "Idensalmi"
-				danish = "Idensalmi"
-			}
-			b_kuopio = {
-			}
-			b_sysma = {
-			}
-		}
 		c_nyland = {
 			color={ 185 65 65 }
 			color2={ 255 255 255 }
@@ -4021,27 +4273,6 @@ k_finland = {
 			b_jakobstad = {
 			}
 			b_veteli = {
-			}
-		}
-		c_kemi = {
-			color={ 130 65 55 }
-			color2={ 255 255 255 }
-		
-			b_kemi = {
-			}
-			b_neiden = {
-			}
-			b_rovaniemi = {
-			}
-			b_inari = {
-			}
-			b_tornio = {
-			}
-			b_kemijarvi = {
-			}
-			b_utsjoki = {
-			}
-			b_savukoski = {
 			}
 		}
 	}
@@ -4286,6 +4517,9 @@ k_brittany = {
 	catholic = 300 # Crusade target weight
 	
 	norse = Bertangaland
+	welsh = Arymôr
+	irish = Bhriotáin
+	frankish = Bretagne
 	
 	allow = {
 		culture_group = celtic
@@ -4300,129 +4534,185 @@ k_brittany = {
 		culture = breton
 		
 		norse = Bertangaland
+		breton = Breizh
+		welsh = Llydaw
+		irish = Briotáine
+		frankish = Bretagne
 		
 		c_nantes = {
-			color={ 37 28 230 }
+			color={ 170 50 23 }
 			color2={ 255 255 255 }
 			
+			breton = Naoned
+			
 			b_nantes = {
+				breton = Naoned
 			}
 			b_chateaubriant = {
+				breton = Kastell-Briant
 			}
 			b_redon = {
+				breton = Ridined
 			}
 			b_guerande = {
+				breton = Gwennrann
 			}
 			b_clisson = {
+				breton = Klison
 			}
 			b_donges = {
+				breton = Dined
 			}
 			b_la_roche-bernard = {
+				breton = "Ar Roc'h-Bernez"
 			}
 			b_st_nazaire = {
+				breton = "Sant-Nazer"
 			}
 		}
 		c_vannes = {
-			color={ 41 32 234 }
+			color={ 140 30 13 }
 			color2={ 255 255 255 }
 			
+			breton = Broërec
+			welsh = Guened
+			
 			b_vannes = {
+				breton = "Gwened"
+				welsh = "Guened"
 			}
 			b_josselin = {
+				breton = "Josilin"
 			}
 			b_st_gildas = {
+				breton = "Lokentaz"
 			}
 			b_locmine = {
+				breton = "Logunec'h"
 			}
 			b_hennebont = {
+				breton = "Henbont"
 			}
 			b_pontivy = {
+				breton = "Pondi"
 			}
 			b_auray = {
+				breton = "An Alre"
 			}
 			b_ploermel = {
+				breton = "Ploermael"
 			}
 		}
 		c_cornouaille = {
-			color={ 45 36 238 }
+			color={ 126 27 9 }
 			color2={ 255 255 255 }
 			
+			breton = "Kernev"
+			
 			b_quimper = {
+				breton = "Kemper"
 			}
 			b_carhaix = {
+				breton = "Karaez"
 			}
 			b_quimperle = {
+				breton = "Kemperle"
 			}
 			b_landevennec = {
+				breton = "Landevenneg"
 			}
 			b_corlay = {
+				breton = "Korle"
 			}
 			b_huelgoat = {
+				breton = "An Uhelgoad"
 			}
 			b_langonnet = {
+				breton = "Langoned"
 			}
 			b_lezergue = {
+				breton = "An Erge Vras"
 			}
 		}
 		c_french_leon = {
-			color={ 49 40 242 }
+			color={ 166 67 14 }
 			color2={ 255 255 255 }
 			
 			b_brest = {
 			}
 			b_guingamp = {
+				breton = "Gwengamp"
 			}
 			b_st_pol_de_leon = {
+				breton = "Kastell-Paol"
 			}
 			b_treguier = {
+				breton = "Landreger"
 			}
 			b_morlaix = {
+				breton = "Montroulez"
 			}
 			b_roscoff = {
+				breton = "Rosko"
 			}
 			b_plougonven = {
 			}
 			b_plourivo = {
+				breton = "Plourivoù"
 			}
 		}
 		c_penthievre = {
-			color={ 53 44 246 }
+			color={ 176 79 24 }
 			color2={ 255 255 255 }
 			
+			breton = "Domnonia"
+			
 			b_verdelet = {
+				breton = "Sentiles"
 			}
 			b_st_brieuc = {
+				breton = "Sant-Brieg"
 			}
 			b_monkontour = {
 			}
 			b_peran = {
+				breton = "Sant-Pêran"
 			}
 			b_loudeac = {
 			}
 			b_paimpol = {
 			}
 			b_chatelaudren = {
+				breton = "Kastellaodren"
 			}
 			b_quintin = {
+				breton = "Kintin"
 			}
 		}
 		c_rennes = {
-			color={ 57 48 250 }
+			color={ 106 42 8 }
 			color2={ 255 255 255 }
 			
+			breton = "Roazhon"
+			
 			b_rennes = {
+				breton = "Roazhon"
 			}
 			b_fougeres = {
+				breton = "Felger"
 			}
 			b_st_michel = {
+				breton = "Sant-Mikael"
 			}
 			b_st_malo = {
+				breton = "Sant-Maloù"
 			}
 			b_dol = {
 			}
 			b_dinan = {
 			}
 			b_st_meen = {
+				breton = "Sant-Méen"
 			}
 			b_porhoet = {
 			}
@@ -4482,7 +4772,7 @@ d_cumberland = {
 d_curonian = {
 	color = { 141 55 29 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4499,7 +4789,7 @@ d_curonian = {
 d_danes = {
 	color={ 247 77 54 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	dignity = 10
 	
@@ -4535,7 +4825,7 @@ d_estonia = {
 		always = no
 	}
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = ugricbaltic
 	title = "HIGH_CHIEF"
@@ -4554,7 +4844,7 @@ d_gilan = {
 d_geats = {
 	color={ 35 57 180 }
 
-	tribe = yes
+#	tribe = yes
 	
 	dignity = 8
 	
@@ -4575,7 +4865,7 @@ d_ikonion = {
 d_ingers = {
 	color={ 125 125 40 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4589,7 +4879,7 @@ d_ingers = {
 d_kajaneborg = {
 	color = { 123 73 13 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4609,7 +4899,7 @@ d_karnten = {
 d_kexholm = {
 	color={ 121 98 20 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4625,7 +4915,7 @@ d_khazars = {
 	
 	capital = 594 #	Sarkel
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = khazar
 	
@@ -4638,25 +4928,11 @@ d_khazars = {
 d_kirkuk = {
 	color = { 142 182 255 }
 }
-d_kola = {
-	color={ 194 171 117 }
 	
-	tribe = yes
-	
-	allow = {
-		always = no
-	}
-	
-	culture = lappish
-	title = "HIGH_CHIEF"
-	foa = "HIGH_CHIEF_FOA"
-	title_prefix = "TRIBE_OF"
-	
-}
 d_sami = {
 	color = { 101 99 35 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4677,7 +4953,7 @@ d_laodikeia = {
 d_lettigalians = {
 	color = { 126 51 51 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4711,7 +4987,7 @@ d_mordvins = {
 	
 	capital = 591 # Cheremisa
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4728,7 +5004,7 @@ d_muromians = {
 	
 	capital = 581 # Murom
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4744,7 +5020,7 @@ d_maris = {
 	
 	capital = 588 # Mari
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4766,7 +5042,7 @@ d_pechenegs = {
 	
 	capital = 542 # Olvia
 	
-	tribe = yes
+#	tribe = yes
 	culture = pecheneg
 	
 	allow = {
@@ -4782,7 +5058,7 @@ d_pronsk = {
 d_pruthenians = {
 	color = { 159 195 75 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4801,10 +5077,6 @@ d_qom = {
 d_romagna = {
 	color = { 243 234 157 }
 }
-d_the_isles = {
-	color={ 10 48 243 }
-	color2={ 255 255 255 }
-}
 d_salamanca = {
 	color = { 251 229 34 }
 }
@@ -4813,7 +5085,7 @@ d_sames = {
 	# Actually Samoyeds
 	color = { 101 70 34 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4830,7 +5102,7 @@ d_sandomiersk = {
 d_satakunta = {
 	color = { 117 47 47 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4854,7 +5126,7 @@ d_slovakia = {
 d_sweden = {
 	color={ 55 112 170 }
 
-	tribe = yes
+#	tribe = yes
 	
 	dignity = 10
 	
@@ -4872,7 +5144,7 @@ d_swiss = {
 d_tavasts = {
 	color = { 131 21 21 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4888,7 +5160,7 @@ d_meryas = {
 	
 	capital = 574 # Rostov / Merya
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4902,7 +5174,7 @@ d_meryas = {
 d_veps = {
 	color = { 120 90 40 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4918,7 +5190,7 @@ d_meshcheras = {
 	
 	capital = 580 # Ryazan
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4947,7 +5219,7 @@ d_volga = {
 d_votes = {
 	color = { 0 193 119 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4962,7 +5234,7 @@ d_votes = {
 d_yatviags = {
 	color = { 149 97 97 }
 	
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4982,7 +5254,7 @@ d_zaragoza = {
 d_zemigalians = {
 	color = { 183 21 21 }
 	culture = lettigallish
-	tribe = yes
+#	tribe = yes
 	
 	allow = {
 		always = no
@@ -4997,7 +5269,7 @@ d_lendians = { # aka Ledzianie or Lechs
 	color={ 245 163 176 }
 	color2={ 255 255 255 }
 	culture = polish
-	tribe = yes
+#	tribe = yes
 	
 	capital = 527 # Krakowskie
 	
@@ -5015,9 +5287,27 @@ d_kryvians = { # aka Krivichi
 	color2={ 255 255 255 }
 	
 	culture = russian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 419 # Polotsk
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+	title_prefix = "TRIBE_OF"
+}
+
+d_ilmenians = { # aka Ilmen Slavs
+	color = { 70 120 40 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 414 # Novgorod
 	
 	allow = {
 		always = no
@@ -5033,7 +5323,7 @@ d_severians = { # aka Severiane
 	color2={ 255 255 255 }
 	
 	culture = russian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 567 # Novgorod Seversky
 	
@@ -5051,7 +5341,7 @@ d_vyatichi = {
 	color2={ 255 255 255 }
 	
 	culture = russian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 570 # Tver
 	
@@ -5069,7 +5359,7 @@ d_dregovichi = {
 	color2={ 255 255 255 }
 	
 	culture = russian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 548 # Pinsk
 	
@@ -5087,7 +5377,7 @@ d_radimichi = {
 	color2={ 255 255 255 }
 	
 	culture = russian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 551 # Mstislavl
 	
@@ -5105,7 +5395,7 @@ d_glomacze = { # Aka Dolomici
 	color2={ 255 255 255 }
 	
 	culture = pommeranian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 312 # Meissen
 	
@@ -5123,7 +5413,7 @@ d_sorbs = {
 	color2={ 255 255 255 }
 	
 	culture = pommeranian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 364 # Luzycka
 	
@@ -5141,7 +5431,7 @@ d_obotrites = {
 	color2={ 255 255 255 }
 	
 	culture = pommeranian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 260 # Mecklenburg
 	
@@ -5164,7 +5454,7 @@ k_pechenegs = {
 	
 	capital = 543 # Oleshye
 	
-	tribe = yes
+#	tribe = yes
 	culture = pecheneg
 	
 	allow = {
@@ -5181,27 +5471,10 @@ k_al-murabitids = {
 k_aydin = {
 	color = { 238 43 172 }
 }
-k_cyprus = {
-	color = { 85 138 236 }
-	capital = 757 # Famagusta
-	allow = {
-		OR = {
-			religion = catholic
-			is_heresy_of = catholic
-		}
-	}
-}
 k_beni_helal = {
 	color = { 128 163 56 }
 }
-k_candar = {
-	color = { 238 79 182 }
-	culture = turkish
-}
 
-k_eretnid = {
-	color = { 253 182 182 }
-}
 k_fatimids = {
 	# OBSOLETE
 	color={ 10 140 4 }
@@ -5213,41 +5486,19 @@ k_fatimids = {
 		always = no
 	}
 }
-k_germiyan = {
-	color = { 255 180 180 }
-}
 k_hammadid = {
 	color = { 149 180 17 }
 }
 k_kafsid = {
 	color = { 109 130 20 }
 }
-k_karaman = {
-	color = { 120 41 92 }
-	culture = turkish
-}
-k_magyar = {
-	color={ 187 70 70 }
-	tribe = yes
-	culture = hungarian
-	
-	capital = 522 # Pest
-	
-	allow = {
-		always = no
-	}
-}
 k_marinid = {
 	color = { 46 255 5 }
-}
-k_mentese = {
-	color = { 60 130 20 }
-	culture = turkish
 }
 k_moravia = {
 	color={ 158 102 36 }
 	culture = bohemian
-	tribe = yes
+#	tribe = yes
 	
 	capital = 441 # Brno
 	
@@ -5255,85 +5506,23 @@ k_moravia = {
 		always = no
 	}
 }
-k_naples = {
-	color = { 218 217 242 }
-	capital = 334 # Napoli
-	
-	allow = {
-		always = no
-	}
-	
-	culture = italian
-}
 k_bosnia = {
 	color = { 16 125 74 }
 	culture = serbian
 }
-
-k_ottoman = {
-	color = { 247 145 30 }
-	culture = turkish
-}
-k_rum = {
-	color = { 144 182 161 }
-	culture = turkish
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-}
-k_saruhan = {
-	color = { 144 171 225 }
-	culture = turkish
-}
-k_seljuk_turks = { # Seljuk Turks
+e_seljuk_turks = { # Seljuk Turks
 	color={ 99 168 74 }
 	capital = 646 # Esfahan
 	culture = turkish
 	
-	tribe=yes
+	short_name = yes
+	
+#	tribe = yes
 	
 #	landless = yes
 	
 	allow = {
 		always = no
-	}
-}
-k_tekke = {
-	color={ 244 153 189 }
-}
-k_trinacria = {
-	color={ 249 232 247 }
-#	capital = 340 #	Palermo
-	
-	allow = {
-		OR = {
-			religion = catholic
-			is_heresy_of = catholic
-		}
-	}
-}
-
-k_genoa = {
-	color={ 234 131 110 }
-	capital = 233 # Genoa
-	culture = italian
-	
-	dignity = 200 # Never want the Republic of Genoa to change primary title
-	
-	allow = {
-		is_republic = yes
-	}
-}
-
-k_pisa = {
-	color={ 196 192 140 }
-	color2={ 255 255 255 }
-	
-	capital = 327 # Pisa
-	culture = italian
-	
-	dignity = 200 # Never want the Republic of Pisa to change primary title
-	
-	allow = {
-		is_republic = yes
 	}
 }
 
@@ -5346,17 +5535,24 @@ k_zirid = {
 k_ziyanids = {
 	color = { 5 76 194 }
 }
+k_avaria = {
+	color={ 250 120 90 }
+	culture = avar
 
-k_israel = {
-	color = { 20 138 255 }
+	capital = 444 # Anhalt
 
-	title = "KING"
-	title_female = "QUEEN"
+	allow = {
+		always = no
+	}
+}
+k_lombardy = {
+	color={ 234 217 110 }
+	culture = lombard
 
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	capital = 234 # Anhalt
 	
 	allow = {
-		always = no # Only created through special event
+		always = no
 	}
 }
 
@@ -5426,20 +5622,6 @@ e_latin_empire = {
 #	
 #	dignity = 10
 #}
-
-k_hansa = {
-	color={ 142 142 142 }
-	color2={ 255 255 255 }
-	
-	capital = 262 # Lübeck
-	
-	dignity = 200 # Never want the Hanseatic League to change primary title
-	
-	allow = {
-		always = no
-		is_republic = yes
-	}
-}	
 
 d_gotland = {
 	color={ 0 45 110 }
@@ -5511,6 +5693,27 @@ b_tribuno = {
 }
 
 b_tradonico = {
+	culture = italian
+	religion = catholic
+}
+
+
+b_antenoreo = {
+	culture = italian
+	religion = catholic
+}
+
+b_galbaio = {
+	culture = italian
+	religion = catholic
+}
+
+b_monegario = {
+	culture = italian
+	religion = catholic
+}
+
+b_gaulo = {
 	culture = italian
 	religion = catholic
 }
@@ -5650,6 +5853,31 @@ b_urso = {
 	religion = catholic
 }
 
+b_amalfinos = {
+	culture = greek
+	religion = catholic
+}
+
+b_manginos = {
+	culture = greek
+	religion = catholic
+}
+
+b_kanakares = {
+	culture = greek
+	religion = catholic
+}
+
+b_sorrenti = {
+	culture = italian
+	religion = catholic
+}
+
+b_ravelli = {
+	culture = italian
+	religion = catholic
+}
+
 #Stuff that still exist, but not dejure
 d_dyrrachion = {
 	color={ 137 27 99 }
@@ -5697,7 +5925,7 @@ e_mexikha = {
 	# Always exists
 	landless = yes
 	
-	tribe = yes
+#	tribe = yes
 	
 	culture = nahuatl
 	religion = aztec
@@ -5891,6 +6119,32 @@ d_west_african_pagan_reformed = {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
+d_zun_pagan_reformed = {
+	color={ 220 255 0 }
+	color2={ 220 220 0 }
+	
+	capital = 1183 #	Bost
+	
+	title = "HEAD_PRIEST"
+	title_female = "HEAD_PRIESTESS"
+	foa = "HEAD_PRIEST_FOA"
+	
+	short_name = yes
+	
+	# Always exists
+	landless = yes	
+	
+	# Controls a religion
+	controls_religion = zun_pagan_reformed
+	
+	religion = zun_pagan_reformed
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
 d_zoroastrian = {
 	color={ 180 120 40 }
 	color2={ 220 220 0 }
@@ -6010,46 +6264,6 @@ d_manichean_archegos = {
 	}
 }
 
-
-d_dulcinian = {
-	color={ 213 235 248 }
-	color2={ 220 220 0 }
-	
-	capital = 333 # Rome
-	
-	title = "POPE"
-	foa = "POPE_FOA"
-	short_name = yes
-	location_ruler_title = yes
-	
-	allow = {
-		always = no # Only by special decision
-	}
-	
-	# Always exists
-	landless = yes
-	
-	# Controls a religion
-	controls_religion = dulcinian
-	
-	religion = dulcinian
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
-	
-	# Regnal names
-	male_names = {
-		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
-		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
-		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
-		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
-		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
-		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
-	}
-}
-
 #Holy Orders
 d_east_african_pagan_holy_order = {
 	
@@ -6135,34 +6349,6 @@ d_yazidi_holy_order = {
 
 	mercenary_type = yazidi_holy_order_composition
 }
-d_ibadi_holy_order = {
-	
-	color={ 211 200 34 }
-	color2={ 255 255 255 }
-	
-	capital = 868 # Muscat
-	
-	title = "Sheikh"
-	foa = "HOCHMEISTER_FOA"
-	
-	# Always exists
-	landless = yes
-	
-	holy_order = yes
-	
-	# Parent Religion 
-	religion = ibadi
-	
-	culture = bedouin_arabic
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Extra income due to donations, etc
-	monthly_income = 4 # (Must be an integer between 1 and 512)
-
-	mercenary_type = ibadi_holy_order_composition
-}
 d_israel_defense = {
 	color={ 220 220 225 }
 	color2={ 255 255 255 }
@@ -6232,14 +6418,14 @@ d_exilarch = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_composition
+	# mercenary_type = exilarch_composition
 	
 
 }
@@ -6258,80 +6444,16 @@ d_exilarch_karaite = {
 	
 	culture = mizrahi
 	
-	mercenary = yes
+	# mercenary = yes
 
 	# Always exists
 	landless = yes
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 	
-	mercenary_type = exilarch_karaite_composition
+	# mercenary_type = exilarch_karaite_composition
 	
 
-}
-#West African mercenaries
-d_mandinka_horsemen = {
-	color = { 160 190 65 }
-	color2 = { 255 255 255 }
-
-	capital = 925 # Mali
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = west_african_pagan
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = mandinka_horsemen_composition
-	strength_growth_per_century = 0.25
-}
-
-d_sofa_warriors = {
-	color = { 165 195 60 }
-	color2 = { 255 255 255 }
-
-	capital = 911 #Timbuktu
-
-	# Hire Trigger
-	allow = {
-		culture_group = west_african
-	}
-
-	religion = sunni
-	culture = manden
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = sofa_warriors_composition
-	strength_growth_per_century = 0.25
 }
 
 
@@ -6363,36 +6485,3 @@ d_east_african_pagan_reformed = {
 }
 
 
-
-d_daylamite_warriors = {
-	color = { 72 109 178 }
-	color2 = { 255 255 255 }
-
-	capital = 662 # Mazandaran
-
-	# Hire Trigger
-	allow = {
-		culture_group = iranian
-		religion_group = zoroastrian_group
-	}
-
-	religion = zoroastrian
-	culture = persian
-	
-	mercenary = yes
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	# Always exists
-	landless = yes
-	
-	# Cannot be held as a secondary title
-	primary = yes
-
-	# Cannot be vassalized
-	independent = yes
-	
-	mercenary_type = daylamite_warriors_composition
-	strength_growth_per_century = 0.25
-}

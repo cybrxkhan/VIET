@@ -52,6 +52,7 @@ RETTYPE_CUL_ITA =
 			culture = italian
 			culture = sicilian
 			culture = lombard
+			culture = pannonian
 		}
 		
 		# PB's retinue spam filter
@@ -73,6 +74,7 @@ RETTYPE_CUL_ITA =
 	
 	modifier = {
 		knights_defensive = 0.6
+		light_cavalry_defensive = 0.6
 	}
 }
 ########################
@@ -108,6 +110,7 @@ RETTYPE_CUL_BOHEMIAN =
 	
 	modifier = {
 		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 RETTYPE_CUL_POLISH = 
@@ -139,8 +142,8 @@ RETTYPE_CUL_POLISH =
 	}
 	
 	modifier = {
-		knights_defensive = 0.3
-		light_cavalry_defensive = 0.3
+		knights_defensive = 0.6
+		light_cavalry_defensive = 0.6
 	}
 }
 RETTYPE_CUL_POMMERANIAN = 
@@ -235,12 +238,16 @@ RETTYPE_CUL_SERBIAN =
 	
 	modifier = {
 		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 RETTYPE_CUL_BULGARIAN = 
 {
-	first_type = 1
-	first_amount = 250	
+	first_type = 4
+	first_amount = 150
+
+	second_type = 3
+	second_amount = 100
 	
 	potential = {
 		culture = bulgarian
@@ -263,7 +270,8 @@ RETTYPE_CUL_BULGARIAN =
 	}
 	
 	modifier = {
-		heavy_infantry_defensive = 0.6
+		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 RETTYPE_CUL_ROMANIAN = 
@@ -298,6 +306,7 @@ RETTYPE_CUL_ROMANIAN =
 	
 	modifier = {
 		light_cavalry_offensive = 0.6
+		horse_archers_offensive = 0.6
 	}
 }
 ########################
@@ -334,8 +343,10 @@ RETTYPE_CUL_HUNG =
 	}
 	
 	modifier = {
-		knights_offensive = 0.3
-		knights_defensive = 0.3
+		horse_archers_offensive = 0.3
+		horse_archers_defensive = 0.3
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.3
 	}
 }
 ########################
@@ -370,10 +381,9 @@ RETTYPE_CUL_RUS =
 			}
 		}
 	}
-	
 	modifier = {
-		knights_offensive = 0.3
-		horse_archers_offensive = 0.3
+		knights_offensive = 0.6
+		horse_archers_offensive = 0.6
 	}
 }
 ########################
@@ -410,6 +420,7 @@ RETTYPE_CUL_BALT =
 	
 	modifier = {
 		heavy_infantry_offensive = 0.6
+		light_infantry_offensive = 0.6
 	}
 }
 RETTYPE_CUL_LITHUANIAN = 
@@ -449,17 +460,12 @@ RETTYPE_CUL_LITHUANIAN =
 ########################
 RETTYPE_CUL_FINNO_UGRIC = 
 {
-	first_type = 5
+	first_type = 0
 	first_amount = 250
 	
 	potential = {
-		OR = {
-			culture = finnish
-			culture = lappish
-			culture = komi
-			culture = mordvin
-			culture = samoyed
-		}
+		
+		culture_group = finno_ugric
 		
 		# PB's retinue spam filter
 		OR = {
@@ -479,8 +485,8 @@ RETTYPE_CUL_FINNO_UGRIC =
 	}
 	
 	modifier = {
-		archers_offensive = 0.3
-		archers_defensive = 0.3
+		light_infantry_offensive = 0.3
+		light_infantry_defensive = 0.3
 	}
 }
 ########################
@@ -521,7 +527,10 @@ RETTYPE_CUL_SCOT =
 	first_amount = 250
 	
 	potential = {
-		culture = scottish
+		OR = {
+			culture = scottish
+			culture = cumbric
+		}
 		
 		# PB's retinue spam filter
 		OR = {
@@ -581,6 +590,8 @@ RETTYPE_CUL_FRANKISH =
 	modifier = {
 		knights_offensive = 0.3
 		knights_defensive = 0.3
+		light_cavalry_offensive = 0.3
+		light_cavalry_defensive = 0.3
 	}
 }
 RETTYPE_CUL_NORMAN = 
@@ -617,6 +628,7 @@ RETTYPE_CUL_NORMAN =
 	
 	modifier = {
 		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 ########################
@@ -688,6 +700,35 @@ RETTYPE_CUL_CASTILLIAN =
 	
 	potential = {
 		culture = castillan
+		
+		# PB's retinue spam filter
+		OR = {
+			ai = no
+			AND = {
+				higher_real_tier_than = count
+				OR = {
+					higher_real_tier_than = duke
+					AND = {
+						independent = yes
+						realm_size = 18
+					}
+					realm_size = 24
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_VISIGOTHIC = 
+{
+	first_type = 3
+	first_amount = 250
+	
+	potential = {
+		culture = visigothic
 		
 		# PB's retinue spam filter
 		OR = {
@@ -782,6 +823,9 @@ RETTYPE_CUL_NORSE =
 			culture = norse
 			culture = danish
 			culture = swedish
+			culture = icelandic
+			culture = norsegael
+			culture = norsebriton
 		}
 		
 		# PB's retinue spam filter
@@ -935,8 +979,8 @@ RETTYPE_CUL_DUTCH =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.3
-		pikemen_offensive = 0.3
+		light_infantry_offensive = 0.6
+		pikemen_offensive = 0.6
 	}
 }
 RETTYPE_CUL_GERMAN = 
@@ -969,6 +1013,7 @@ RETTYPE_CUL_GERMAN =
 	
 	modifier = {
 		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 ########################
@@ -988,6 +1033,7 @@ RETTYPE_CUL_BYZ =
 		OR = {
 			culture = alan
 			culture = greek
+			culture = griko
 		}
 		
 		# PB's retinue spam filter
@@ -1008,8 +1054,8 @@ RETTYPE_CUL_BYZ =
 	}
 
 	modifier = {
-		knights_offensive = 0.3
-		horse_archers_offensive = 0.3
+		knights_offensive = 0.6
+		horse_archers_offensive = 0.6
 	}
 }
 RETTYPE_CUL_ARMENIAN = 
@@ -1043,8 +1089,8 @@ RETTYPE_CUL_ARMENIAN =
 	}
 
 	modifier = {
-		knights_offensive = 0.3
-		horse_archers_offensive = 0.3
+		knights_offensive = 0.6
+		horse_archers_offensive = 0.6
 	}
 }
 RETTYPE_CUL_GEORGIAN = 
@@ -1077,6 +1123,7 @@ RETTYPE_CUL_GEORGIAN =
 	
 	modifier = {
 		knights_offensive = 0.6
+		light_cavalry_offensive = 0.6
 	}
 }
 
@@ -1117,6 +1164,8 @@ RETTYPE_CUL_IRANIAN =
 	modifier = {
 		horse_archers_offensive = 0.4
 		horse_archers_morale = 0.2
+		light_cavalry_offensive = 0.4
+		light_cavalry_morale = 0.2
 	}
 }
 
@@ -1135,12 +1184,11 @@ RETTYPE_CUL_ALTAIC =
 	
 	potential = {
 		OR = {
-			culture = cuman
-			culture = khazar
-			culture = pecheneg
-			culture = mongol
+			culture_group = altaic
 			culture_group = serindian
+			culture = gepid
 		}
+		NOT = { culture = turkish }
 		
 		# PB's retinue spam filter
 		OR = {
@@ -1162,46 +1210,11 @@ RETTYPE_CUL_ALTAIC =
 	modifier = {
 		horse_archers_offensive = 0.4
 		horse_archers_morale = 0.2
+		light_cavalry_offensive = 0.4
+		light_cavalry_morale = 0.2
 	}
 }
-RETTYPE_CUL_AVAR = 
-{
-	first_type = 3
-	first_amount = 150
 	
-	second_type = 6
-	second_amount = 100
-	
-	special_troops = horse_archers
-	
-	potential = {
-		OR = {
-			culture = cuman
-			culture = pecheneg
-		}
-		
-		# PB's retinue spam filter
-		OR = {
-			ai = no
-			AND = {
-				higher_real_tier_than = count
-				OR = {
-					higher_real_tier_than = duke
-					AND = {
-						independent = yes
-						realm_size = 18
-					}
-					realm_size = 24
-				}
-			}
-		}
-	}
-	
-	modifier = {
-		knights_defensive = 0.6
-		horse_archers_offensive = 0.3
-	}
-}
 RETTYPE_CUL_TURKISH = 
 {
 	first_type = 6
@@ -1235,6 +1248,8 @@ RETTYPE_CUL_TURKISH =
 	modifier = {
 		horse_archers_offensive = 0.4
 		horse_archers_morale = 0.2
+		light_cavalry_offensive = 0.4
+		light_cavalry_morale = 0.2
 	}
 }
 ########################
@@ -1248,7 +1263,10 @@ RETTYPE_CUL_ARAB =
 	special_troops = camel_cavalry
 	
 	potential = {
-		culture_group = arabic
+		OR = {
+			culture_group = arabic
+			culture_group = north_african
+		}
 		
 		# PB's retinue spam filter
 		OR = {
@@ -1268,7 +1286,7 @@ RETTYPE_CUL_ARAB =
 	}
 	
 	modifier = {
-		light_cavalry_offensive = 0.6
+		camel_cavalry_offensive = 0.6
 	}
 }
 
@@ -1284,7 +1302,10 @@ RETTYPE_CUL_W_AFR =
 	second_amount = 100
 	
 	potential = {
-		culture_group = west_african
+		OR = {
+			culture_group = west_african
+			culture_group = central_african
+		}
 		
 		# PB's retinue spam filter
 		OR = {
@@ -1305,6 +1326,7 @@ RETTYPE_CUL_W_AFR =
 	
 	modifier = {
 		light_infantry_offensive = 0.6
+		archers_offensive = 0.6
 	}
 }
 
@@ -1341,6 +1363,7 @@ RETTYPE_CUL_E_AFR =
 	
 	modifier = {
 		light_infantry_offensive = 0.6
+		archers_offensive = 0.6
 	}
 }
 
@@ -1376,8 +1399,8 @@ RETTYPE_CUL_NAHUA =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.3
-		heavy_infantry_offensive = 0.3
+		light_infantry_offensive = 0.6
+		heavy_infantry_offensive = 0.6
 	}
 }
 
@@ -1444,6 +1467,96 @@ RETTYPE_CUL_INDIAN =
 	}
 	
 	modifier = {
+		archers_offensive = 0.6
+		war_elephants_offensive = 0.6
+	}
+}
+
+RETTYPE_CUL_NUBIAN = 
+{
+	first_type = 5
+	first_amount = 250
+
+	potential = {
+		culture = nubian
+
+		# PB's retinue spam filter
+		OR = {
+			ai = no
+			AND = {
+				higher_real_tier_than = count
+				OR = {
+					higher_real_tier_than = duke
+					AND = {
+						independent = yes
+						realm_size = 18
+					}
+					realm_size = 24
+				}
+			}
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.6
+	}
+}
+
+RETTYPE_CUL_FRA = 
+{
+	first_type = 1
+	first_amount = 250
+	
+	potential = {
+		culture = old_frankish
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+
+RETTYPE_CUL_LOM = 
+{
+	first_type = 1
+	first_amount = 250
+	
+	potential = {
+		culture = lombard
+	}
+	
+	modifier = {
+		heavy_infantry_morale = 0.6
+	}
+}
+
+RETTYPE_CUL_SUEBI = 
+{
+	first_type = 1
+	first_amount = 250
+	
+	potential = {
+		culture = suebi
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.6
+	}
+}
+
+RETTYPE_CUL_PICTISH = 
+{
+	first_type = 0
+	first_amount = 180
+	second_type = 5
+	second_amount = 70
+	
+	potential = {
+		culture = pictish
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.6
 		archers_offensive = 0.6
 	}
 }

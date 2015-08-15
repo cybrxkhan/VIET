@@ -16,13 +16,14 @@ title_kapudan_pasha = {
 	monthly_salary = 0.04
 	monthly_prestige = 0.008
 	
+	is_unique = yes	
+	
 	allow = {
 		is_adult = yes
 		is_female = no
 		FROM = {
 			has_landed_title = e_turkish
 		}
-		NOT = { has_minor_title = title_bostanji_bashi }
 	}
 	
 	gain_effect = {
@@ -42,13 +43,14 @@ title_bostanji_bashi = {
 	monthly_salary = 0.01
 	monthly_prestige = 0.004
 	
+	is_unique = yes	
+	
 	allow = {
 		is_adult = yes
 		is_female = no
 		FROM = {
 			has_landed_title = e_turkish
 		}
-		NOT = { has_minor_title = title_kapudan_pasha }
 	}
 
 	gain_effect = {
@@ -68,6 +70,8 @@ title_chief_white_eunuch = {
 	
 	monthly_salary = 0.01
 	monthly_prestige = 0.01
+	
+	is_unique = yes	
 	
 	allow = {
 		is_adult = yes
@@ -98,6 +102,8 @@ title_chief_black_eunuch = {
 	
 	monthly_salary = 0.01
 	monthly_prestige = 0.01
+	
+	is_unique = yes	
 	
 	allow = {
 		is_adult = yes

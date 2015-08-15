@@ -6,7 +6,7 @@
 # They are placed separately here for easier mod integration and updating in between patches
 # Generally they are arranged in sets of 10 (i.e. 10, 20, 30 dynasties per culture)
 #
-# 1000091050 - (some IDs may have been skipped)
+# 1000091050 - 1000092299 (some IDs may have been skipped)
 #
 ######################################################################################
 
@@ -1052,83 +1052,83 @@
 }
 1000091650 = {
 	name="Kushan"
-	culture = tocharian
+	culture = tokharian
 }
 1000091651 = {
 	name="Uar"
-	culture = tocharian
+	culture = tokharian
 }
 1000091652 = {
 	name="Sufa"
-	culture = tocharian
+	culture = tokharian
 }	
 1000091653 = {
 	name="Vijaya"
-	culture = tocharian
+	culture = tokharian
 }
 1000091654 = {
 	name="Ki"
-	culture = tocharian
+	culture = tokharian
 }
 1000091655 = {
 	name="Haital"
-	culture = tocharian
+	culture = tokharian
 }
 1000091656 = {
 	name="Arshi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091657 = {
 	name="Kashi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091658 = {
 	name="Gashi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091659 = {
 	name="Kassrij"
-	culture = tocharian
+	culture = tokharian
 }
 1000091660 = {
 	name="Taur"
-	culture = tocharian
+	culture = tokharian
 }
 1000091661 = {
 	name="Liaka"
-	culture = tocharian
+	culture = tokharian
 }
 1000091662 = {
 	name="Kam"
-	culture = tocharian
+	culture = tokharian
 }	
 1000091663 = {
 	name="Yatii"
-	culture = tocharian
+	culture = tokharian
 }
 1000091664 = {
 	name="Stam"
-	culture = tocharian
+	culture = tokharian
 }
 1000091665 = {
 	name="Karasuk"
-	culture = tocharian
+	culture = tokharian
 }
 1000091666 = {
 	name="Gurjar"
-	culture = tocharian
+	culture = tokharian
 }
 1000091667 = {
 	name="Rishika"
-	culture = tocharian
+	culture = tokharian
 }
 1000091668 = {
 	name="Parama"
-	culture = tocharian
+	culture = tokharian
 }
 1000091669 = {
 	name="Kuchi"
-	culture = tocharian
+	culture = tokharian
 }
 1000091670 = {
 	name="Haha"
@@ -1408,43 +1408,43 @@
 }
 1000091869 = {
 	name="Flanginis"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091870 = {
 	name="Maurolicos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091871 = {
 	name="Stratigos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091872 = {
 	name="Foscolos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091873 = {
 	name="Massari"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091874 = {
 	name="Pilatos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091875 = {
 	name="Chalkokondyles"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091876 = {
 	name="Argyropoulos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091877 = {
 	name="Pitzamanos"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091878 = {
 	name="Atumano"
-	culture = griko
+	culture = sicilian_greek
 }
 1000091879 = {
 	name="Nabahani"
@@ -2136,83 +2136,83 @@
 }
 1000092070 = {
 	name="Ushnyspy"
-	culture = sogdian
+	culture = soghdian
 }
 1000092071 = {
 	name="Kanakk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092072 = {
 	name="Kurynk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092073 = {
 	name="Chirthswan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092074 = {
 	name="Bokar-kodat"
-	culture = sogdian
+	culture = soghdian
 }
 1000092075 = {
 	name="Mazartagh"
-	culture = sogdian
+	culture = soghdian
 }
 1000092076 = {
 	name="Resan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092077 = {
 	name="Khun"
-	culture = sogdian
+	culture = soghdian
 }
 1000092078 = {
 	name="Induk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092079 = {
 	name="Afshin"
-	culture = sogdian
+	culture = soghdian
 }
 1000092080 = {
 	name="Nafakhs"
-	culture = sogdian
+	culture = soghdian
 }
 1000092081 = {
 	name="Farnmethan"
-	culture = sogdian
+	culture = soghdian
 }
 1000092082 = {
 	name="Shawgharchini"
-	culture = sogdian
+	culture = soghdian
 }
 1000092083 = {
 	name="Todhich"
-	culture = sogdian
+	culture = soghdian
 }
 1000092084 = {
 	name="Kushanakanak"
-	culture = sogdian
+	culture = soghdian
 }
 1000092085 = {
 	name="Lyw"
-	culture = sogdian
+	culture = soghdian
 }
 1000092086 = {
 	name="Parsak"
-	culture = sogdian
+	culture = soghdian
 }
 1000092087 = {
 	name="Suryakk"
-	culture = sogdian
+	culture = soghdian
 }
 1000092088 = {
 	name="Bstna"
-	culture = sogdian
+	culture = soghdian
 }
 1000092089 = {
 	name="Jadh Abrashm"
-	culture = sogdian
+	culture = soghdian
 }
 1000092090 = {
 	name="Mudaito"
@@ -2253,4 +2253,404 @@
 1000092099 = {
 	name="Awsa"
 	culture = afar
+}
+1000092200 = {
+	name="Rusa"
+	culture = ilmenian
+}
+1000092201 = {
+	name="Ladoga"
+	culture = ilmenian
+}
+1000092202 = {
+	name="Gostomysl"
+	culture = ilmenian
+}
+1000092203 = {
+	name="Nikitich"
+	culture = ilmenian
+}
+1000092204 = {
+	name="Korsunianin"
+	culture = ilmenian
+}
+1000092205 = {
+	name="Vyshatich"
+	culture = ilmenian
+}
+1000092206 = {
+	name="Tvorimich"
+	culture = ilmenian
+}
+1000092207 = {
+	name="Sadko"
+	culture = ilmenian
+}
+1000092208 = {
+	name="Vyshata"
+	culture = ilmenian
+}
+1000092209 = {
+	name="Pomor"
+	culture = ilmenian
+}
+1000092210 = {
+	name="Goryun"
+	culture = severian
+}
+1000092211 = {
+	name="Polachan"
+	culture = severian
+}
+1000092212 = {
+	name="Krivich"
+	culture = severian
+}
+1000092213 = {
+	name="Radimich"
+	culture = severian
+}
+1000092214 = {
+	name="Zeriuani"
+	culture = severian
+}
+1000092215 = {
+	name="Vyatich"
+	culture = severian
+}
+1000092216 = {
+	name="Polishchuk"
+	culture = severian
+}
+1000092217 = {
+	name="Vadimich"
+	culture = severian
+}
+1000092218 = {
+	name="Dyggvich"
+	culture = severian
+}
+1000092219 = {
+	name="Kolbeki"
+	culture = severian
+}
+1000092220 = {
+	name="Polekh"
+	culture = volhynian
+}
+1000092221 = {
+	name="Dulebi"
+	culture = volhynian
+}
+1000092222 = {
+	name="Hutsul"
+	culture = volhynian
+}
+1000092223 = {
+	name="Drevo"
+	culture = volhynian
+}
+1000092224 = {
+	name="Mal"
+	culture = volhynian
+}
+1000092225 = {
+	name="Iskorosten"
+	culture = volhynian
+}
+1000092226 = {
+	name="Rogvolodich"
+	culture = volhynian
+}
+1000092227 = {
+	name="Tivertsi"
+	culture = volhynian
+}
+1000092228 = {
+	name="Ulithi"
+	culture = volhynian
+}
+1000092229 = {
+	name="Saragur"
+	culture = volhynian
+}
+1000092230 = {
+	name="Buri"
+	culture = suebi
+}
+1000092231 = {
+	name="Quadi"
+	culture = suebi
+}
+1000092232 = {
+	name="Biclar"
+	culture = suebi
+}
+1000092233 = {
+	name="Sabaria"
+	culture = suebi
+}
+1000092234 = {
+	name="Dumio"
+	culture = suebi
+}
+1000092235 = {
+	name="Laeti"
+	culture = suebi
+}
+1000092236 = {
+	name="Ordeppus"
+	culture = suebi
+}
+1000092237 = {
+	name="Tudrus"
+	culture = suebi
+}
+1000092238 = {
+	name="Marcomanni"
+	culture = suebi
+}
+1000092239 = {
+	name="Vannius"
+	culture = suebi
+}
+1000092240 = {
+	name="Maragatos"
+	culture = suebi
+}
+1000092241 = {
+	name="Orosius"
+	culture = suebi
+}
+1000092242 = {
+	name="Ouva"
+	culture = suebi
+}
+1000092243 = {
+	name="Munderici"
+	culture = suebi
+}
+1000092244 = {
+	name="Sindilanes"
+	culture = suebi
+}
+1000092245 = {
+	name="Gondomar"
+	culture = suebi
+}
+1000092246 = {
+	name="Baltar"
+	culture = suebi
+}
+1000092247 = {
+	name="Witterici"
+	culture = suebi
+}
+1000092248 = {
+	name="Marco"
+	culture = suebi
+}
+1000092249 = {
+	name="Bracarensis"
+	culture = suebi
+}
+1000092250 = {
+	name="Tom Brok"
+	culture = frisian
+}
+1000092251 = {
+	name="Cirksena"
+	culture = frisian
+}
+1000092252 = {
+	name="Dornum"
+	culture = frisian
+}
+1000092253 = {
+	name="Kankena"
+	culture = frisian
+}
+1000092254 = {
+	name="Douwama"
+	culture = frisian
+}
+1000092255 = {
+	name="Hipperda"
+	culture = frisian
+}
+1000092256 = {
+	name="Zelle"
+	culture = frisian
+}
+1000092257 = {
+	name="Fries"
+	culture = frisian
+}
+1000092258 = {
+	name="Forteman"
+	culture = frisian
+}
+1000092259 = {
+	name="Syrtsema"
+	culture = frisian
+}
+1000092260 = {
+	name="Donia"
+	culture = frisian
+}
+1000092261 = {
+	name="Pijbes"
+	culture = frisian
+}
+1000092262 = {
+	name="Haring"
+	culture = frisian
+}
+1000092263 = {
+	name="Japiks"
+	culture = frisian
+}
+1000092264 = {
+	name="Thaborita"
+	culture = frisian
+}
+1000092265 = {
+	name="Faber"
+	culture = frisian
+}
+1000092266 = {
+	name="Fokke"
+	culture = frisian
+}
+1000092267 = {
+	name="Galama"
+	culture = frisian
+}
+1000092268 = {
+	name="Jelckama"
+	culture = frisian
+}
+1000092269 = {
+	name="Petraeus"
+	culture = frisian
+}
+1000092270 = {
+	name="Hattonid"
+	culture = old_saxon
+}
+1000092271 = {
+	name="Ecbertiner"
+	culture = old_saxon
+}
+1000092272 = {
+	name="Bardonid"
+	culture = old_saxon
+}
+1000092273 = {
+	name="Liudolfing"
+	culture = old_saxon
+}
+1000092274 = {
+	name="Hildesheim"
+	culture = old_saxon
+}
+1000092275 = {
+	name="Brunonid"
+	culture = old_saxon
+}
+1000092276 = {
+	name="Ascania"
+	culture = old_saxon
+}
+1000092277 = {
+	name="Hode"
+	culture = old_saxon
+}
+1000092278 = {
+	name="Hodenburg"
+	culture = old_saxon
+}
+1000092279 = {
+	name="Hoya"
+	culture = old_saxon
+}
+1000092280 = {
+	name="Oldenburg"
+	culture = old_saxon
+}
+1000092281 = {
+	name="Northeim"
+	culture = old_saxon
+}
+1000092282 = {
+	name="Mansfeld"
+	culture = old_saxon
+}
+1000092283 = {
+	name="Stolberg"
+	culture = old_saxon
+}
+1000092284 = {
+	name="Engern"
+	culture = old_saxon
+}
+1000092285 = {
+	name="Luther"
+	culture = old_saxon
+}
+1000092286 = {
+	name="Sachs"
+	culture = old_saxon
+}
+1000092287 = {
+	name="Müntzer"
+	culture = old_saxon
+}
+1000092288 = {
+	name="Wettin"
+	culture = old_saxon
+}
+1000092289 = {
+	name="Krell"
+	culture = old_saxon
+}
+1000092290 = {
+	name="Chintilaid"
+	culture = visigothic
+}
+1000092291 = {
+	name="Chindasuithid"
+	culture = visigothic
+}
+1000092292 = {
+	name="Wamba"
+	culture = visigothic
+}
+1000092293 = {
+	name="Astures"
+	culture = visigothic
+}
+1000092294 = {
+	name="Sisebutid"
+	culture = visigothic
+}
+1000092295 = {
+	name="Septem"
+	culture = visigothic
+}
+1000092296 = {
+	name="Theodemirid"
+	culture = visigothic
+}
+1000092297 = {
+	name="Cava"
+	culture = visigothic
+}
+1000092298 = {
+	name="Silos"
+	culture = visigothic
+}
+1000092299 = {
+	name="Cassius"
+	culture = visigothic
 }

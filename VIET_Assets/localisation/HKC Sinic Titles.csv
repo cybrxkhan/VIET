@@ -44,7 +44,7 @@ baron_female_korean;Bu-In;Bu-In;Bu-In;;Bu-In;;;;;;;;;;x
 barony_of_korean;Castle of;Castle of;Castle of;;Castle of;;;;;;;;;x
 ** KHITAN **;;;;;;;;;;;;;;
 emperor_khitan;Huang Di;Huang Di;Huang Di;;Huang Di;;;;;;;;;;x
-emperor_female_khitan;Neu'e Mege;Neu'e Mege;Neu'e Mege;;Neu'e Mege;;;;;;;;;;x
+emperor_female_khitan;Huang Tai Ho;Huang Tai Ho;Huang Tai Ho;;Huang Tai Ho;;;;;;;;;;x
 king_khitan;Ong;Ong;Ong;;Ong;;;;;;;;;x
 king_female_khitan;Ong-n Pi;Ong-n Pi;Ong-n Pi;;Ong-n Pi;;;;;;;;;x
 nomadic_king_khitan;Irkin;Irkin;Irkin;;Irkin;;;;;;;;;x
@@ -58,10 +58,10 @@ count_khitan;Tshisi;Tshisi;Tshisi;;Tshisi;;;;;;;;;x
 count_female_khitan;Au'ui;Au'ui;Au'ui;;Au'ui;;;;;;;;;x
 county_of_khitan;Commandery of;Commandery of;Commandery of;;Commandery of;;;;;;;;;x
 baron_khitan;Tarqan;Tarqan;Tarqan;;Tarqan;;;;;;;;;x
-baron_female_khitan;Au'ui;Au'ui;Au'ui;;Au'ui;;;;;;;;;x
+baron_female_khitan;Aldun;Aldun;Aldun;;Aldun;;;;;;;;;x
 barony_of_khitan;County of;County of;County of;;County of;;;;;;;;;x
-title_prince_khitan;Aldur;Aldur;Aldur;;Aldur;;;;;;;;;x
-title_prince_female_khitan;Aldun;Aldun;Aldun;;Aldun;;;;;;;;;x
+title_prince_khitan;Taisi;Taisi;Taisi;;Taisi;;;;;;;;;x
+title_prince_female_khitan;Au'ui;Au'ui;Au'ui;;Au'ui;;;;;;;;;x
 ** JAPANESE **;;;;;;;;;;;;;;
 #emperor_japanese;Tenno;Tenno;Tenno;;Tenno;;;;;;;;;;x
 #emperor_female_japanese;Nyotei;Nyotei;Nyotei;;Nyotei;;;;;;;;;;x

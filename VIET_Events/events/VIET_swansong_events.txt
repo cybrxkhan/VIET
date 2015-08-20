@@ -1079,8 +1079,6 @@ character_event = {
 	id = VIETScarboroughFair.15
 	desc = VIETScarboroughFair.15.desc
 	picture = GFX_evt_feast
-
-	is_triggered_only = yes
 	
 	min_age = 16
 	only_rulers = yes

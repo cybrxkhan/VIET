@@ -1983,6 +1983,10 @@ character_event = {
 			factor = 0.5
 			trait = envious
 		}
+		modifier = {
+			factor = 0
+			religion_group = hip_religion_group
+		}
 	}
 
 	option = { #Okay!

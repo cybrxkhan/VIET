@@ -1079,8 +1079,6 @@ character_event = {
 	id = VIETScarboroughFair.15
 	desc = VIETScarboroughFair.15.desc
 	picture = GFX_evt_feast
-
-	is_triggered_only = yes
 	
 	min_age = 16
 	only_rulers = yes
@@ -1102,6 +1100,14 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1
+		modifier = {
+			factor = 0.5
+			not = { religion_group = hip_religion_group }
+		}
+		modifier = {
+			factor = 0
+			religion_group = hip_religion_group
+		}
 	}
 
 	option = {#yes

@@ -134,6 +134,10 @@ character_event = {
 			factor = 0.5
 			trait = diligent
 		}
+		modifier = {
+			factor = 0
+			religion_group = hip_religion_group
+		}
 	}
 
 	option = {#ok...

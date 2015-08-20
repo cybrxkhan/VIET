@@ -43,7 +43,11 @@ character_event = {
 		modifier = {
 			factor = 200
 			has_global_flag = meteor_struck
-		}	
+		}
+		modifier = {
+			factor = 0
+			religion_group = hip_religion_group
+		}
 	}
 	
 	immediate = {

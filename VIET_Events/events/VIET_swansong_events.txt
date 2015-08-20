@@ -1102,6 +1102,14 @@ character_event = {
 	
 	weight_multiplier = {
 		days = 1
+		modifier = {
+			factor = 0.5
+			not = { religion_group = hip_religion_group }
+		}
+		modifier = {
+			factor = 0
+			religion_group = hip_religion_group
+		}
 	}
 
 	option = {#yes

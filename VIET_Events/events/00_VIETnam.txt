@@ -1,5 +1,6 @@
 
 namespace = VIETnam
+namespace = VIETmisc
 
 # You can't see my brave, brave soldier events, because they're deployed throughout VIET-- serving their country.
 # Who do you serve?

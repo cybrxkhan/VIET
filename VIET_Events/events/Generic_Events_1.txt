@@ -1245,7 +1245,7 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		is_ruler = no
+		is_ruler = yes
 		is_female = no
 		trait = brave
 		NOT = { trait = maimed }

@@ -1766,7 +1766,6 @@ character_event = {
 	id = VIETmisc.3125
 	hide_window = yes
 	
-	ai = yes
 	capable_only = yes
 	prisoner = no
 	min_age = 16
@@ -1774,16 +1773,19 @@ character_event = {
 	only_men = yes
 	
 	trigger = {
-		is_married = no
-		is_betrothed = no
-		is_primary_heir = no
-		is_pretender = no
-		NOT = { trait = chaste }
 		liege = {
-			NOT = { any_child = { character = ROOT } }
 			is_patrician = yes
 			dynasty = ROOT
+			NOT = { ROOT = { is_child_of = PREV } }
 		}
+		ai = yes
+		is_married = no
+		is_betrothed = no
+		NOR = {
+			any_heir_title = { always = yes }
+			any_pretender_title = { always = yes }
+		}
+		NOT = { trait = chaste }
 		OR = {
 			culture_group = iranian
 			culture_group = serindian
@@ -1818,15 +1820,9 @@ character_event = {
 	}
 	
 	immediate = {
-		random_list = {
-			liege = {
-				character_event = { id = VIETmisc.3126 }
-			}
+		liege = {
+			character_event = { id = VIETmisc.3126 }
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 

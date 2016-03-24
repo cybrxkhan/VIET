@@ -2023,7 +2023,7 @@ character_event = {
 				}
 			}
 			opinion = {
-				modifier = remove_kebal_insult
+				modifier = remove_kebab_insult
 				who = ROOT
 				years = 2
 			}
@@ -2047,7 +2047,7 @@ character_event = {
 				}
 			}
 			opinion = {
-				modifier = remove_kebal_insult
+				modifier = remove_kebab_insult
 				who = ROOT
 				years = 2
 			}

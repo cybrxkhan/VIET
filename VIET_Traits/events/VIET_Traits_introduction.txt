@@ -8,12 +8,11 @@ namespace = cybrxkhan
 
 narrative_event = {
 	id = cybrxkhan.3
-	title = "cybrxkhan.3.name"
-	desc = "cybrxkhan.3.desc"
-	major = yes
-	hide_new = yes
-	hide_from = yes
+#	title = "cybrxkhan.3.name"
+#	desc = "cybrxkhan.3.desc"
+
 	is_triggered_only = yes
+	hide_window = yes
 	
 	picture = "GFX_evt_small_town_serindian"
 	

@@ -6,7 +6,7 @@ VIETmisc.2016.c;This does not concern me. The fad will pass in time.;;;;;;;;;;;;
 VIETmisc.2016.d;I think it looks nice on me!;;;;;;;;;;;;;x
 VIETmisc.2017.desc;Yesterday was a local traditional festival held annually in the city. During the night, while I was away celebrating, some drunk and inconsiderate revelers dared to egg the front of my house! Now I have to pay to clean it up.;;;;;;;;;;;x
 VIETmisc.2017.a;Maybe those hooligans were sent by my business rivals!;;;;;;;;;;;;;x
-VIETmisc.2018.desc;Yesterday I went to the local tavern and had too much beer. While drunk I ordered a large amount of pickled eggs to eat with my beer, as I usually do. However, this time, in my drunkeness I must have taken and paid for all the pickled eggs the tavern had. Now do I not only have to deal with my hangover, I have to figure out what to do with these eggs.;;;;;;;;;;;x
+VIETmisc.2018.desc;Yesterday I went to the local tavern and had too much beer. While drunk I ordered a large amount of pickled eggs to eat with my beer, as I usually do. However, this time, in my drunkenness I must have taken and paid for all the pickled eggs the tavern had. Now do I not only have to deal with my hangover, I have to figure out what to do with these eggs.;;;;;;;;;;;x
 VIETmisc.2018.a;Looks like we'll be eating pickled eggs for a while...;;;;;;;;;;;;;x
 VIETmisc.2019.desc;Today you visited one of your vassals. While there, both of you dined on a delicious sponge cake... or, at least, it was delicious until both of you nearly choked on eggshells. Now my vassal is highly embarrassed by his cook's incompetency at cooking with eggs.;;;;;;;;;;;x
 VIETmisc.2019.a;And he should be!;;;;;;;;;;;;;x
@@ -23,7 +23,7 @@ VIETmisc.2022.desc;The Dulcinian faith teaches me that it is acceptable to plund
 VIETmisc.2022.a;Of course! God's creation must be purified.;;;;;;;;;;;;;x
 VIETmisc.2022.b;I am starting to have my doubts...;;;;;;;;;;;;;x
 VIETmisc.2023.desc;This commoner has nerve! He says your vassal should give him and their other neighbors money. We are good Dulcinians, after all, he argues, who live in an equal society - why does this noble then hoard money and luxuries and refuse to share it with others? However, your vassal refuses to give anything.;;;;;;;;;;;x
-VIETmisc.2023.a;Be a good Dulcnian my vassal, share the wealth!;;;;;;;;;;;;;x
+VIETmisc.2023.a;Be a good Dulcinian my vassal, share the wealth!;;;;;;;;;;;;;x
 VIETmisc.2023.b;Ideals are good, but in the real world we can't always abide by them.;;;;;;;;;;;;;x
 VIETmisc.2024.desc;Do you remember that worthless knight, the one who was found guilty of irredeemably corrupt according to Dulcinian doctrine? He was just purified yesterday - that is, his soul redeemed (that is, he was executed most effectively). Now you have all his precious belongings.;;;;;;;;;;;x
 VIETmisc.2024.a;Stuff for free! Ah, it's great when people are... "purified".;;;;;;;;;;;;;x
@@ -213,7 +213,7 @@ VIETmisc.2519.a;May I remind you who rules this realm?;;;;;;;;;;;;;x
 VIETmisc.2519.b;A mere mortal can dream, can't he...;;;;;;;;;;;;;x
 ultima_silliness_screw_EA;All hail the 'Avatar';;;;;;;;;;;;;x
 ultima_silliness_screw_EA.desc;Very funny, but seriously, What's a Paladin?;;;;;;;;;;;;;x
-VIETmisc.2520.desc;'Remove the saxon remove the saxon! To our saxon cousins you may come to our country you may live in the farm! (...) Battle of Badon best day of my life, take a bath of death saxon hahahaha (...)' It seems the troupe of jesters performing to yuor court decided to try a rauchy song... Your briton courtiers are laughing, but your saxon ones... not so much.;;;;;;;;;;;;;x
+VIETmisc.2520.desc;'Remove the saxon remove the saxon! To our saxon cousins you may come to our country you may live in the farm! (...) Battle of Badon best day of my life, take a bath of death saxon hahahaha (...)' It seems the troupe of jesters performing to yuor court decided to try a raunchy song... Your briton courtiers are laughing, but your saxon ones... not so much.;;;;;;;;;;;;;x
 VIETmisc.2520.a;What a joyous and catchy tune!;;;;;;;;;;;;;x
 VIETmisc.2520.b;To the stocks with these jesters!;;;;;;;;;;;;;x
 remove_kebab_insult;A really bad joke;;;;;;;;;;;;;x
@@ -404,7 +404,7 @@ VIETmisc.2104.d;Haha, what an amateur. An absolute amateur.;;;;;;;;;;;;;x
 VIET_toothbrush_sexy_times_amateurs;If only they knew the sort of things I did with my sister…;;;;;;;;;;;x
 VIETmisc.2105.desc;One of my older servants told me interesting advice pertaining to oral hygiene that he heard from some learned men. Apparently, it seems that one should clean not only one's teeth, but one's tongue as well. After all, disgusting things accumulate on the tongue as well, so why should we not give it as much focus as we do our teeth?;;;;;;;;;;;x
 VIETmisc.2105.a;Excellent advice. Thank you!;;;;;;;;;;;;;x
-VIETmisc.2106.desc;I noticed one of my Jewish courtiers tends to rinse their mouth with a strange concoction every now and then. Questioning them on the matter, I learned that this liquid was a mixture of dough water and olive oil, which the Talmhd advises as a cure for gum ailments.;;;;;;;;;;;x
+VIETmisc.2106.desc;I noticed one of my Jewish courtiers tends to rinse their mouth with a strange concoction every now and then. Questioning them on the matter, I learned that this liquid was a mixture of dough water and olive oil, which the Talmud advises as a cure for gum ailments.;;;;;;;;;;;x
 VIETmisc.2106.a;Interesting. I should try it.;;;;;;;;;;;;;x
 VIETmisc.2106.b;Disgusting Jewish tricks, I will not fall for it!;;;;;;;;;;;;;x
 VIETmisc.2107.desc;Seeing all the older people with their horrid gums and decaying teeth makes me fear about how my mouth could end up like in the future. Therefore, I vow to take every step I can to improve my oral hygiene! I will eat and drink things beneficial to my teeth, for instance, and learn the best techniques for brushing my teeth.;;;;;;;;;;;x

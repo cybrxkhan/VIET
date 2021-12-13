@@ -27,9 +27,9 @@ opinion_saved_constantinople;Saved Constantinople;;;;;;;;;x
 reorganize_varangian_guard;Organize Varangian Guard;;;;;;;;;x
 reorganize_varangian_guard_desc;Call the Varangian Guard to protect Constantinople once again.;;;;;;;;;x
 create_trebizond_empire;Create the Empire of Trebizond;;;;;;;;;x
-create_trebizond_empire_desc;Create a sucessor empire of the Byzantine Empire.;;;;;;;;;x
+create_trebizond_empire_desc;Create a successor empire of the Byzantine Empire.;;;;;;;;;x
 create_nikaea_empire;Create the Empire of Nikaea;;;;;;;;;x
-create_nikaea_empire_desc;Create a sucessor empire of the Byzantine Empire.;;;;;;;;;x
+create_nikaea_empire_desc;Create a successor empire of the Byzantine Empire.;;;;;;;;;x
 EVTNAMELatinEmpire.1;The Rise and Fall of Rome;;;;;;;;;x
 EVTDESCLatinEmpire.1;The Byzantine Empire, though it survives, is a mockery of its former glory. Since it has been reduced to such size and since we rule Constantinople, none question our claim to the Roman Empire.;;;;;;;;;x
 EVTOPTALatinEmpire.1;Gloria Imperio!;;;;;;;;;x

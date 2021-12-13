@@ -18,7 +18,7 @@ VIETmisc.5004.desc;Maybe wanting the taste of cinnamon in the morning wasn't a g
 VIETmisc.5004.a;I'll go to the meeting, I have no choice.;;;;;;;;;;;;;x
 VIETmisc.5005.tooltip;Hopefully my councillors won't be too irritated with me.;;;;;;;;;;;;;x
 VIETmisc.5005.title;They're Great! (Really!);;;;;;;;;;;;;x
-VIETmisc.5005.desc;The meeting went alright, though my sticky cinnamon-covered fingers were a distraction. Thankfully I managed to prevent the stickiness from spreading everywhere. My councillors, instead of being irritated at me, found my situation hilarious. They made fun of not only me, but worse, of cinnamon itself! It appears now that everyone in my court is making fun of me.\n\nHow can someone as high as myself be the laughstock of the entire realm, simply because I love the taste of cinnamon? My courtiers and vassals always plot and see everything I do. But can they see why I love the taste of cinnamon toast sticky buns?;;;;;;;;;;;;;x
+VIETmisc.5005.desc;The meeting went alright, though my sticky cinnamon-covered fingers were a distraction. Thankfully I managed to prevent the stickiness from spreading everywhere. My councillors, instead of being irritated at me, found my situation hilarious. They made fun of not only me, but worse, of cinnamon itself! It appears now that everyone in my court is making fun of me.\n\nHow can someone as high as myself be the laughingstock of the entire realm, simply because I love the taste of cinnamon? My courtiers and vassals always plot and see everything I do. But can they see why I love the taste of cinnamon toast sticky buns?;;;;;;;;;;;;;x
 VIETmisc.5005.a;They will understand. They just have to. The swirls of spicy and sweet cinnamon in every bite!;;;;;;;;;;;;;x
 VIETmisc.5006.tooltip;I still must try to convince someone that cinnamon is the greatest food ever!;;;;;;;;;;;;;x
 VIETmisc.5006.title;The Taste I Can See;;;;;;;;;;;;;x
@@ -26,7 +26,7 @@ VIETmisc.5006.desc;I tried to explain to my courtiers. I really did! Cinnamon is
 VIETmisc.5006.a;It's because there's a swirl of delicious cinnamon flavor in every bite.;;;;;;;;;;;;;x
 i_like_cinnamon_toast_crunch;It's the taste only I can see.;;;;;;;;;;;;;x
 VIET_ignored_disapproval_and_mockery;Ignored Disapproval and Mockery;;;;;;;;;;;;;x
-VIET_ignored_disapproval_and_mockery_desc;This characters' court disapproves of his or her behavior and mockshim or her for it, but this character doesn't care.;;;;;;;;;;;;;x
+VIET_ignored_disapproval_and_mockery_desc;This characters' court disapproves of his or her behavior and mocks him or her for it, but this character doesn't care.;;;;;;;;;;;;;x
 VIET_cinnamon_toast_crunch_addict;Obsessed with Cinnamon;;;;;;;;;;;;;x
 VIET_cinnamon_toast_crunch_addict_desc;This character loves cinnamon and anything made with cinnamon - especially cinnamon toasted sticky buns!;;;;;;;;;;;;;x
 VIETmisc.5007.desc;I am traveling with some of my soldiers, on a mission to hunt some bandits terrorizing the countryside in a part of my realm, when we see a quaint town in the distance. We decide to stay there for the night, as it is very close to where we believe the outlaws are, and it would make a good base for us.;;;;;;;;;;;x
@@ -58,9 +58,9 @@ VIETmisc.5013.desc;I don't know how he did it - I admit in my moment of passion 
 VIETmisc.5013.a;Too bad I have to go home tomorrow.;;;;;;;;;;;;;x
 VIETmisc.5014.tooltip;There just has to be a way I can enjoy these vegetable omelettes at home.;;;;;;;;;;;x
 VIETmisc.5014.title;Omelettes Forecer;;;;;;;;;;;;;x
-VIETmisc.5014.desc;The next morning, as I am about to leave, the innkeeper tells me that the townspeope he decided to hold a special festival of eggs (and omelettes) every year to honor what happened. I also ask the innkeeper if he can provide me a recipie for his omelette.\n\nThe innkeeper says he has a better idea. "My daughter has always wanted to leave this town. She knows my recipie very well so why don't you allow her to come to your court as an assistant to your cook? She knows how to prepare other delicious dishes, too."\n\nI have to ponder his suggestion as the girl is extremely hideous. So hideous I am afraid my courtiers would have nightmares, to put it politely. Would they accept an ugly commoner cooking their food?;;;;;;;;;;;x
+VIETmisc.5014.desc;The next morning, as I am about to leave, the innkeeper tells me that the townspeople he decided to hold a special festival of eggs (and omelettes) every year to honor what happened. I also ask the innkeeper if he can provide me a recipe for his omelette.\n\nThe innkeeper says he has a better idea. "My daughter has always wanted to leave this town. She knows my recipe very well so why don't you allow her to come to your court as an assistant to your cook? She knows how to prepare other delicious dishes, too."\n\nI have to ponder his suggestion as the girl is extremely hideous. So hideous I am afraid my courtiers would have nightmares, to put it politely. Would they accept an ugly commoner cooking their food?;;;;;;;;;;;x
 VIETmisc.5014.a;The great omelettes we'll eat makes up for her deformities.;;;;;;;;;;;;;x
-VIETmisc.5014.b;Diplomatically tell the innkeeper to just give you a recipie.;;;;;;;;;;;;;x
+VIETmisc.5014.b;Diplomatically tell the innkeeper to just give you a recipe.;;;;;;;;;;;;;x
 VIET_leader_who_cares;Leader Who Cares;;;;;;;;;;;;;x
 VIET_leader_who_cares_desc;It's pretty hard to find a leader like this character who actually cares about the well-being of the common folk (or, at least that what he or she wants everyone to think).;;;;;;;;;;;;;x
 VIET_omelettes_forever;Vegetable Omelettes Forever;;;;;;;;;;;;;x

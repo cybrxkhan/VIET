@@ -25,7 +25,7 @@ claim_descent_from_david_desc;Perhaps I should strengthen my legitimacy as King 
 house_of_david;House of David;;;;;;;;;;;;;x
 house_of_david_desc;This character is supposedly descended from the great king of Israel, David.;;;;;;;;;;;;;x
 #Israel and Aliyah;;;;;;;;;;;;;;x
-VIETjewish.0.desc;You have done the impossible and restored the holy land to Jewish rule. Someday, perhaps soon, Jews all over the world will speak your name in awe and honor you as a hero in the vein of Moses, David, or Judah Maccabee. The future of this new Kingdom of Israel is far from certain, for we are surrounded by enemeies near and far, but at least we know that today, [Root.Religion.GetRandomGodName] has delivered.;;;;;;;;;;;;;x
+VIETjewish.0.desc;You have done the impossible and restored the holy land to Jewish rule. Someday, perhaps soon, Jews all over the world will speak your name in awe and honor you as a hero in the vein of Moses, David, or Judah Maccabee. The future of this new Kingdom of Israel is far from certain, for we are surrounded by enemies near and far, but at least we know that today, [Root.Religion.GetRandomGodName] has delivered.;;;;;;;;;;;;;x
 VIETjewish.0.name;Israel Restored;;;;;;;;;;;;;x
 VIETjewish.0.a;So begins a new chapter in the history of the Jewish people...;;;;;;;;;;;;;x
 VIETjewish.1.desc;We have successfully conquered Israel from the heathen Jews. The Kingdom of Israel, as a concept, is not relevant to our people, so it shall now be known as the Kingdom of Jerusalem again. Shall the Jews reclaim the now-destroyed Israel, or shall Israel once again fade away, a distant memory kept alive by the dreams of the Jewish people?;;;;;;;;;;;;;x
@@ -170,7 +170,7 @@ EVTOPTB1000109021;I don’t like them either, but we need them for now.;;;;;;;;;;;
 EVTOPTC1000109021;Don’t disrespect any of my subjects, even if they are Jews.;;;;;;;;;;;x
 EVTDESC1000109022;One of my Jewish courtiers is well-known for his great knowledge concerning spiritual matters. Today, out of boredom, we decided to begin a religious debate. So far, it’s been interesting debating against a Jew. As of now, things are starting to get really heated...;;;;;;;;;;;x
 EVTOPTA1000109022;But you see, in [Root.Religion.GetScriptureName], it says that...;;;;;;;;;;;x
-EVTDESC1000109023;While we disagreed on many points, our dicussion was nevertheless very enlightening. In fact, we were so engrossed in our debate that by the time we finished, it was already sunrise!;;;;;;;;;;;x
+EVTDESC1000109023;While we disagreed on many points, our discussion was nevertheless very enlightening. In fact, we were so engrossed in our debate that by the time we finished, it was already sunrise!;;;;;;;;;;;x
 EVTOPTA1000109023;It was most enjoyable.;;;;;;;;;;;x
 EVTDESC1000109024;I should never have this kind of debate again. Our disagreements were too many, and I really felt frustrated with the man.;;;;;;;;;;;x
 EVTOPTA1000109024;Enough of this.;;;;;;;;;;;x

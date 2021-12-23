@@ -77,7 +77,7 @@ good_omen_sighted_desc;Recently several unusual phenomena happening in this rule
 byzantine_chaos;Byzantine Chaos;;;;;;;;;;;;;x
 byzantine_chaos_desc;The end of the Macedonian dynasty, founded by the illustrious and brilliant Basil II, has left the empire in a troubled state. The military is in disarray, the treasury is greatly reduced, and the empire's borders are threatened by enemies on all sides.;;;;;;;;;;;;;x
 opinion_corrected_me;Corrected me;;;;;;;;;;;;;x
-opressive_ruler;Opressive ruler;;;;;;;;;;;;;x
+opressive_ruler;Oppressive ruler;;;;;;;;;;;;;x
 opressive_ruler_desc;"Help! Help! I'm being oppressed!";;;;;;;;;;;;;x
 listens_to_others;Listens to Others;;;;;;;;;;;;;x
 listens_to_others_desc;This character is willing to consider others' suggestions and opinions, even if they criticize him or her.;;;;;;;;;;;;;x
@@ -279,7 +279,7 @@ VIET_loves_cute_maids_desc;This lord has a thing for pretty young maids...;;;;;;
 VIET_leader_angered_merchants;Angered the Merchants;;;;;;;;;;;;;x
 VIET_leader_angered_merchants_desc;This character has proven that he or she is not business-friendly.;;;;;;;;;;;;;x
 VIET_province_good_whores;Good Whores;;;;;;;;;;;;;x
-VIET_province_good_whores_desc;This province is known for the quality of its courtersans and houses of ill repute. At the least, it helps stimulate the economy.;;;;;;;;;;;;;x
+VIET_province_good_whores_desc;This province is known for the quality of its courtesans and houses of ill repute. At the least, it helps stimulate the economy.;;;;;;;;;;;;;x
 VIET_province_merchant_peasant_dispute;Dispute Between Peasants and Merchants;;;;;;;;;;;;;x
 VIET_province_merchant_peasant_dispute_desc;There have been a number of disputes between peasants and merchants in this province, leading to violence and other disruptions to civil order. The authorities are trying to placate both sides.;;;;;;;;;;;;;x
 VIET_province_using_old_stones;Using Old Stones;;;;;;;;;;;;;x

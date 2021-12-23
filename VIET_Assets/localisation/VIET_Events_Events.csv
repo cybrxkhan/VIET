@@ -686,7 +686,7 @@ EVTDESC1000109432;In an isolated village of your realm, laborers digging irrigat
 EVTOPTA1000109432;Blasphemy! Bury this relic of the pagan gods and never speak of it again!;;;;;;;;;;;x
 EVTOPTB1000109432;Interesting... you know, this would look fantastic in my palace...;;;;;;;;;;;x
 EVTOPTC1000109432;This would make an excellent fountain for the people!;;;;;;;;;;;x
-EVTDESC1000109433;Some peasants have discovered the ruins of an old Roman templewhile digging in their fields. While most of the temple is ruined beyond repair, the peasants discovered the statue of some pagan goddess. It is beautiful beyond description and lifelike - the statue looks like it could move at any moment!;;;;;;;;;;;x
+EVTDESC1000109433;Some peasants have discovered the ruins of an old Roman temple while digging in their fields. While most of the temple is ruined beyond repair, the peasants discovered the statue of some pagan goddess. It is beautiful beyond description and lifelike - the statue looks like it could move at any moment!;;;;;;;;;;;x
 EVTOPTA1000109433;Bring it to my bedchamber... and some tissues, since I have, um, a cold.;;;;;;;;;;;x
 EVTOPTB1000109433;Destroy that heathen statue!;;;;;;;;;;;x
 EVTOPTC1000109433;It would make a nice decoration in my court.;;;;;;;;;;;x
@@ -914,7 +914,7 @@ EVTDESC1000109505;Adults can be so cruel and petty, always scheming against each
 EVTOPTA1000109505;I’ve learned a lot about intrigue.;;;;;;;;;;;x
 EVTDESC1000109506;My ward isn’t usually involved in court intrigue, so I fear that the child might grow to be too naive. Thus, whenever some of the other courtiers engage in suspicious activities or gossip, I always make sure to explain their true intentions and schemes to my ward.;;;;;;;;;;;x
 EVTOPTA1000109506;I do so away from the others, of course.;;;;;;;;;;;x
-EVTDESC1000109507;My guardian is very demanding. [Root.Guardian.GetSheHe] always wants me to read these books or scrolls about boring stuff like “natural philosphy” even though I want to do other things like play with my friends. ;;;;;;;;;;;x
+EVTDESC1000109507;My guardian is very demanding. [Root.Guardian.GetSheHe] always wants me to read these books or scrolls about boring stuff like “natural philosophy” even though I want to do other things like play with my friends. ;;;;;;;;;;;x
 EVTOPTA1000109507;Though I will admit some of it is really interesting…;;;;;;;;;;;x
 EVTDESC1000109508;I think it’s important that my ward gain a better understanding of the arts and sciences. A well-rounded person will always do better, after all, so the child is made to read texts on subjects ranging from natural philosophy to history and theology.;;;;;;;;;;;x
 EVTOPTA1000109508;Not that I expect the child to understand it all…;;;;;;;;;;;x

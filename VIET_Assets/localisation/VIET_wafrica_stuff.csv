@@ -58,7 +58,7 @@ VIET_griot_inspiring_warriors_2;Griot Inspires Warriors (Good);;;;;;;;;;;;;x
 VIET_griot_inspiring_warriors_2_desc;This lord's Griot is inspiring the warriors of the realm, singing of the mighty heroes of old and the glorious battles yet to come!;;;;;;;;;;;;;x
 VIET_griot_inspiring_warriors_3;Griot Inspires Warriors (Great);;;;;;;;;;;;;x
 VIET_griot_inspiring_warriors_3_desc;This lord's Griot is inspiring the warriors of the realm, singing of the mighty heroes of old and the glorious battles yet to come!;;;;;;;;;;;;;x
-VIET_griot_inspiring_community_1;Griot Inspires Community (Adquate);;;;;;;;;;;;;x
+VIET_griot_inspiring_community_1;Griot Inspires Community (Adequate);;;;;;;;;;;;;x
 VIET_griot_inspiring_community_1_desc;This lord's Griot is inspiring the people of the realm, singing of the everlasting traditions of the people and the greatness of the land!;;;;;;;;;;;;;x
 VIET_griot_inspiring_community_2;Griot Inspires Community (Good);;;;;;;;;;;;;x
 VIET_griot_inspiring_community_2_desc;This lord's Griot is inspiring the people of the realm, singing of the everlasting traditions of the people and the greatness of the land!;;;;;;;;;;;;;x
@@ -196,7 +196,7 @@ wafrica.104.b;I like the old stories. Repetitive, yes, but there's a reason why 
 wafrica.105.name;Honoring the Past;;;;;;;;;;;;;x
 wafrica.105.desc;Unlike yesterday's rowdy, comedic routine, today your griot's performances are more serious in nature. The haunting, dark melodies he plays stir your emotions, as he recalls the past. He tells of the ancestors of your tribe - their heroic deeds as they used their cunning and courage to fight their enemies, the dilemmas they faced as to whether to sacrifice this or that, the trials they dealt with when it seemed all was against them. Some of these tales do not end happily.;;;;;;;;;;;;;x
 wafrica.105.a;But there was always hope - otherwise, we wouldn't be here.;;;;;;;;;;;;;x
-wafrica.106.desc;Your griot can criticize and mock anyone during these performances, as part of his routine, and no one can do anything about it. Today, during his performance, your griot has some particularly interesting songs about one of your courtiers - embarassing, yes, but also very amusing. As everyone laughs, your courtier glances around nervously, face red.;;;;;;;;;;;;;x
+wafrica.106.desc;Your griot can criticize and mock anyone during these performances, as part of his routine, and no one can do anything about it. Today, during his performance, your griot has some particularly interesting songs about one of your courtiers - embarrassing, yes, but also very amusing. As everyone laughs, your courtier glances around nervously, face red.;;;;;;;;;;;;;x
 wafrica.106.a;It's like they don't want to be here, huh?;;;;;;;;;;;;;x
 wafrica.107.desc;"That plot was terrible," exclaims one of your courtiers,as your griot finishes his story for the day. "It jumped around without reason, it made no sense if you think about it..." As your courtier goes on and on, you realize he has a point. That last story wasn't particularly strong, and it had many flaws.;;;;;;;;;;;;;x
 wafrica.107.a;I hope the stories tomorrow will be more riveting.;;;;;;;;;;;;;x
@@ -344,13 +344,13 @@ mali_gold_mines_desc;The province of Mali is a major gold mining center - whoeve
 bambuk_gold_mines;Gold Mines of Bambuk;;;;;;;;;;;;;x
 bambuk_gold_mines_desc;Bambuk is renowned as a major centre for gold mining, and probably one of the greatest sources for gold in West Africa. Thus it provides much of the gold exchanged on the Trans-Saharan trade routes.;;;;;;;;;;;;;x
 taghaza_better_salt_mines;Lucrative Salt Mines of Taghaza;;;;;;;;;;;;;x
-taghaza_better_salt_mines_desc;Taghaza is a salt-mining center located in a salt pan in the desert region of northern Mali and an important source of rock salt for West Africa. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increasd.;;;;;;;;;;;;;x
+taghaza_better_salt_mines_desc;Taghaza is a salt-mining center located in a salt pan in the desert region of northern Mali and an important source of rock salt for West Africa. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increased.;;;;;;;;;;;;;x
 idjil_better_salt_mines;Lucrative Salt Mines of Idjil;;;;;;;;;;;;;x
-idjil_better_salt_mines_desc;Idjil is a major salt-mining site in West Africa. Whoever controls the salt mines of Idjil controls the north-south route of the Western Sahara. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increasd.;;;;;;;;;;;;;x
+idjil_better_salt_mines_desc;Idjil is a major salt-mining site in West Africa. Whoever controls the salt mines of Idjil controls the north-south route of the Western Sahara. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increased.;;;;;;;;;;;;;x
 mali_better_gold_mines;Lucrative Gold Mines of Bondou;;;;;;;;;;;;;x
-mali_better_gold_mines_desc;Bondou in the province of Mali is a major gold mining center - whoever controls it will reap much profit. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increasd.;;;;;;;;;;;;;x
+mali_better_gold_mines_desc;Bondou in the province of Mali is a major gold mining center - whoever controls it will reap much profit. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increased.;;;;;;;;;;;;;x
 bambuk_better_gold_mines;Lucrative Gold Mines of Bambuk;;;;;;;;;;;;;x
-bambuk_better_gold_mines_desc;Bambuk is renowned as a major centre for gold mining, and probably one of the greatest sources for gold in West Africa. Thus it provides much of the gold exchanged on the Trans-Saharan trade routes. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increasd.;;;;;;;;;;;;;x
+bambuk_better_gold_mines_desc;Bambuk is renowned as a major centre for gold mining, and probably one of the greatest sources for gold in West Africa. Thus it provides much of the gold exchanged on the Trans-Saharan trade routes. Due to the administrative talents of its rulers, the output of the mines here and the profit it brings has increased.;;;;;;;;;;;;;x
 wafrica.47.desc;In the province of Bambuk, there are abundant gold deposits. Whoever controls these will reap great profit!;;;;;;;;;;;;;x
 wafrica.47.a;I see.;;;;;;;;;;;;;x
 wafrica.48.desc;Thanks to efficient and effective administration, the gold mines at Bambuk have increased their yield and thus have also increased their profitability.;;;;;;;;;;;;;x

@@ -33,9 +33,9 @@ create_dumnonia_desc;The Cornish people deserve to be recognized as their own in
 reestablish_knights_of_the_round_table;Reestablish the Knights of the Round Table;;;;;;;;;;;;;x
 reestablish_knights_of_the_round_table_desc;There are many great British warriors who defend our kingdom - why not draw inspiration from King Arthur and organize them as the Knights of the Round Table?;;;;;;;;;;;;;x
 enact_stannary_charter;Enact Stannary Charters;;;;;;;;;;;;;x
-enact_stannary_charter_desc;The Cornish tin miners demand for their traditional political and economic privilieges. Maybe it would be wise to accept their demands...;;;;;;;;;;;;;x
+enact_stannary_charter_desc;The Cornish tin miners demand for their traditional political and economic privileges. Maybe it would be wise to accept their demands...;;;;;;;;;;;;;x
 revoke_stannary_charter;Revoke Stannary Charters;;;;;;;;;;;;;x
-revoke_stannary_charter_desc;For too long have the Cornish tin miners taken advantage of their political and economic privileges. Perhaps these privilieges should be revoked, though the tin miners might be angry...;;;;;;;;;;;;;x
+revoke_stannary_charter_desc;For too long have the Cornish tin miners taken advantage of their political and economic privileges. Perhaps these privileges should be revoked, though the tin miners might be angry...;;;;;;;;;;;;;x
 erect_high_cross;Erect High Cross;;;;;;;;;;;;;x
 erect_high_cross_desc;Across the British Isles stand the beautiful high crosses. Perhaps you should erect one, to show your piety?;;;;;;;;;;;;;x
 erect_calvary_breton;Erect Calvary;;;;;;;;;;;;;x
@@ -43,7 +43,7 @@ erect_calvary_breton_desc;Brittany is dotted with so-called calvaries, exquisite
 go_on_tro_breizh;Go On Tro Breizh;;;;;;;;;;;;;x
 go_on_tro_breizh_desc;Tour Brittany, go on a pilgrimage, find a spiritual experience of a lifetime. The Tro Breizh is something every Breton must do, for they say those who do not make the pilgrimage at least once will be condemned to make it after death, advancing only by the length of his or her coffin each seven years.;;;;;;;;;;;;;x
 go_to_gwyl_madant;Attend a Gwyl Mabsant Celebration;;;;;;;;;;;;;x
-go_to_gwyl_madant_desc;Each Welsh locality honors it patron saint through the Gywl Mabsant celebration. Though supposedly dedicated to prayer and spiritual reflection, the focus tends to be more on games, feasting, alochol, and fun!;;;;;;;;;;;;;x
+go_to_gwyl_madant_desc;Each Welsh locality honors it patron saint through the Gywl Mabsant celebration. Though supposedly dedicated to prayer and spiritual reflection, the focus tends to be more on games, feasting, alcohol, and fun!;;;;;;;;;;;;;x
 like_king_arthur;In King Arthur's Likeness;;;;;;;;;;;;;x
 like_king_arthur_desc;They say this monarch embodies the legacy of King Arthur through his or her great deeds.;;;;;;;;;;;;;x
 knight_of_the_round_table;Knight of the Round Table;;;;;;;;;;;;;x
@@ -55,7 +55,7 @@ visit_celtic_holy_well_desc;A holy well - famous for its healing powers, and cur
 good_time_obby_oss;Did some risqué things at the 'Obby 'Oss;;;;;;;;;;;;;x
 opinion_bless_ya_girl;Blessed at 'Obby 'Oss;;;;;;;;;;;;;x
 opinion_steal_a_kiss_good;'Obby 'Oss shenanigans;;;;;;;;;;;;;x
-opinion_steal_a_kiss_bad;'Obby 'Oss bad behaviour;;;;;;;;;;;;;x
+opinion_steal_a_kiss_bad;'Obby 'Oss bad behavior;;;;;;;;;;;;;x
 saved_obby_ossy;Saved from a rowdy 'Oss;;;;;;;;;;;;;x
 angered_obby_ossy;Angered at 'Obby 'Oss;;;;;;;;;;;;;x
 dance_obby_ossy;Danced at 'Obby 'Oss;;;;;;;;;;;;;x
@@ -224,13 +224,13 @@ VIETceltic.206.a;I can't wait for my next 'Obby 'Ossy!;;;;;;;;;;;;;x
 VIETceltic.207.desc;Under the heavy black cape and mask of the Old 'Oss, it's hard to make out who or what is right in front of you, but it is still relatively easy to make out the distinct giggles of a maiden in front of you. When you reach with your arms in front and through the cape, you catch a young peasant girl and proceed to drag her as she lets out a mix of laughter and screaming until only her feet are visible from outside the cape.;;;;;;;;;;;;;x
 VIETceltic.207.a;The blessing of the Old 'Oss is yours!;;;;;;;;;;;;;x
 bless_ya_girl;You bless the young girl;;;;;;;;;;;;;x
-VIETceltic.207.b;How about abit of sweetness for the Ossy?;;;;;;;;;;;;;x
+VIETceltic.207.b;How about a bit of sweetness for the Ossy?;;;;;;;;;;;;;x
 steal_a_kiss;You get a kiss! Whooo!;;;;;;;;;;;;;x
 VIETceltic.207.c;I can make sure the blessing happens later tonight...;;;;;;;;;;;;;x
 obby_ossy_bunga_bunga;You enjoy the Obby Ossy... alot.;;;;;;;;;;;;;x
 VIETceltic.208.desc;Under the heavy black cape and mask of the Old 'Oss, it's hard to make out who or what is right in front of you, but it is still relatively easy to make out the distinct giggles of a maiden in front of you. When you reach with your arms in front and through the cape, you catch one of your female courtiers and proceed to drag her inside your cape until only her feet are visible from the outside.;;;;;;;;;;;;;x
 VIETceltic.208.a;The blessing of the Old 'Oss is yours!;;;;;;;;;;;;;x
-VIETceltic.208.b;How about abit of sweetness for the Ossy?;;;;;;;;;;;;;x
+VIETceltic.208.b;How about a bit of sweetness for the Ossy?;;;;;;;;;;;;;x
 VIETceltic.209.desc;Under the heavy black cape and mask of the Old 'Oss, it's hard to make out who or what is right in front of you, but it is still relatively easy to make out the distinct giggles of a maiden in front of you. When you reach with your arms in front and through the cape, you catch a courtier, someone who you feel some affection for and for whom you believe the feeling is mutual. Under the cape of the 'Oss you are suddenly away from prying eyes...;;;;;;;;;;;;;x
 VIETceltic.209.a;How fortunate that I caught you milady...;;;;;;;;;;;;;x
 VIETceltic.209.b;Oh huh... You're blessed by the Old 'Oss!;;;;;;;;;;;;;x

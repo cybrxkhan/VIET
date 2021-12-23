@@ -95,7 +95,7 @@ silkroad.225.desc;The Tocharians dwelling in the oasis cities of the Tarim Basin
 silkroad.225.a;I see nothing wrong with that - go ahead.;;;;;;;;;;;;;x
 silkroad.226.desc;xxxxx;;;;;;;;;;;;;x
 silkroad.226.a;xxxxx;;;;;;;;;;;;;x
-silkroad.227.desc;A few men from the Okinawan Islands have arrived at my court, offering to serve me. Their homeland is an archipelogo located in between Japan and China, and though they are much weaker than their neighbors, their merchants do, on occasion, make their way to faraway realms such as mine.;;;;;;;;;;;;;x
+silkroad.227.desc;A few men from the Okinawan Islands have arrived at my court, offering to serve me. Their homeland is an archipelago located in between Japan and China, and though they are much weaker than their neighbors, their merchants do, on occasion, make their way to faraway realms such as mine.;;;;;;;;;;;;;x
 silkroad.227.a;I am glad they have come here to live with us!;;;;;;;;;;;;;x
 silkroad.228.desc;Khitan have arrived at our court, hoping we can employ them. They come from a powerful peoples, profoundly influenced by the culture as China, so much that they seem Chinese themselves...;;;;;;;;;;;;;x
 silkroad.228.desc.2;A group of nobles hailing from the Liao Empire in northern China have come to my court, seeking refuge, for their realm has collapsed into chaos, with invasions by the Jurchens and internal strife.;;;;;;;;;;;;;x
@@ -496,7 +496,7 @@ silkroad.453.b;Hmm… on second thought, I don’t need it.;;;;;;;;;;;;;x
 silkroad.454.desc;“MANGOES ALL THE WAY FROM MULTAN! GET YOUR MANGOES HERE! FRESH, JUICY MANGOES!”;;;;;;;;;;;x
 silkroad.454.a;Mmm! Sounds good.;;;;;;;;;;;;;x
 silkroad.454.b;No thanks.;;;;;;;;;;;;;x
-silkroad.455.desc;One merchant at this fair has a fine selection of spices from all across the world - India, China, Africa, Persia, and elsewhere. I see pepper, saffron, cumin, tumeric, cloves, and more. I must buy some of these, so my cook can use them!;;;;;;;;;;;x
+silkroad.455.desc;One merchant at this fair has a fine selection of spices from all across the world - India, China, Africa, Persia, and elsewhere. I see pepper, saffron, cumin, turmeric, cloves, and more. I must buy some of these, so my cook can use them!;;;;;;;;;;;x
 silkroad.455.a;Let’s see… which ones would I like…;;;;;;;;;;;;;x
 silkroad.455.b;But, then again, I don’t need a lot of this.;;;;;;;;;;;;;x
 silkroad.456.desc;At the fair in [VIET_sogdian_fair_location.GetName], you come across a few Zoroastrians preparing a large statue to be used in one of the upcoming events.;;;;;;;;;;;x

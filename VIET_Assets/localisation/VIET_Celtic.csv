@@ -43,7 +43,7 @@ erect_calvary_breton_desc;Brittany is dotted with so-called calvaries, exquisite
 go_on_tro_breizh;Go On Tro Breizh;;;;;;;;;;;;;x
 go_on_tro_breizh_desc;Tour Brittany, go on a pilgrimage, find a spiritual experience of a lifetime. The Tro Breizh is something every Breton must do, for they say those who do not make the pilgrimage at least once will be condemned to make it after death, advancing only by the length of his or her coffin each seven years.;;;;;;;;;;;;;x
 go_to_gwyl_madant;Attend a Gwyl Mabsant Celebration;;;;;;;;;;;;;x
-go_to_gwyl_madant_desc;Each Welsh locality honors it patron saint through the Gywl Mabsant celebration. Though supposedly dedicated to prayer and spiritual reflection, the focus tends to be more on games, feasting, alcohol, and fun!;;;;;;;;;;;;;x
+go_to_gwyl_madant_desc;Each Welsh locality honors its patron saint through the Gywl Mabsant celebration. Though supposedly dedicated to prayer and spiritual reflection, the focus tends to be more on games, feasting, alcohol, and fun!;;;;;;;;;;;;;x
 like_king_arthur;In King Arthur's Likeness;;;;;;;;;;;;;x
 like_king_arthur_desc;They say this monarch embodies the legacy of King Arthur through his or her great deeds.;;;;;;;;;;;;;x
 knight_of_the_round_table;Knight of the Round Table;;;;;;;;;;;;;x
@@ -198,11 +198,11 @@ VIETceltic.160.desc;Dulcinian;;;;;;;;;;;;;x
 VIETceltic.160.a;Dulcinian;;;;;;;;;;;;;x
 go_to_obby_oss;Go to 'Obby 'Ossy festival;;;;;;;;;;;;;x
 go_to_obby_oss_desc;Every year in May, Padstow celebrates the 'Obby 'Oss festival. Maybe this year I should attend?;;;;;;;;;;;;;x
-VIETceltic.200.desc;I have decided to visit Padstow this May for the 'Obby 'Oss festival. Regardless of wether I dress up as the Oss, flee from it or simply sit by the sidelines, I can look foward to a fun time and lots of celebration!;;;;;;;;;;;;;x
+VIETceltic.200.desc;I have decided to visit Padstow this May for the 'Obby 'Oss festival. Regardless of whether I dress up as the Oss, flee from it or simply sit by the sidelines, I can look forward to a fun time and lots of celebration!;;;;;;;;;;;;;x
 VIETceltic.200.a;I can't wait for 'Obby 'Oss to begin!;;;;;;;;;;;;;x
 cant_wait_for_obby_oss;You make preparations to travel to Padstow;;;;;;;;;;;;;x
 VIETceltic.201.name;Welcome To Padstow;;;;;;;;;;;;;x
-VIETceltic.201.desc;After some slow and tedious travelling, you and your entourage finally set sight on the small town of Padstow. The town would be like any other in Cornwall, were it not for his (in)famous reputation for hosting the yearly 'Obby 'Oss festival, which attracts not only visitors but also merchants from all around, who come peddle their wares to revellers who are having too much fun to notice the price hike. As you enter the town, the mood is festive and joyous and many people are already tipsy despite it being barely past midday. Many cheers are given to celebrate your arrival as you ride across the gates - 'Long live [Root.Liege.GetTitledFirstName]! Welcome to Padstow your lordship!';;;;;;;;;;;;;x
+VIETceltic.201.desc;After some slow and tedious travelling, you and your entourage finally set sight on the small town of Padstow. The town would be like any other in Cornwall, were it not for his (in)famous reputation for hosting the yearly 'Obby 'Oss festival, which attracts not only visitors but also merchants from all around, who come peddle their wares to revelers who are having too much fun to notice the price hike. As you enter the town, the mood is festive and joyous and many people are already tipsy despite it being barely past midday. Many cheers are given to celebrate your arrival as you ride across the gates - 'Long live [Root.Liege.GetTitledFirstName]! Welcome to Padstow your lordship!';;;;;;;;;;;;;x
 VIETceltic.201.a;Yes thank you! Now, when do we start?;;;;;;;;;;;;;x
 VIETceltic.202.name;An 'Ossy Proposal;;;;;;;;;;;;;x
 VIETceltic.202.desc;As you approach the town hall you are greeted by the town mayor and the master of ceremonies, who these days is as much an authority as the head of town. They great you with food and refreshment for you and your entourage and inform you that preparations are under way to make these an 'Obby 'Oss to remember. There is only one last question: Would you like to be given the honor of being this year's Old 'Oss, don the 'Oss's costume and chase young maidens all day lol?;;;;;;;;;;;;;x
